@@ -1,0 +1,631 @@
+indicators:
+  - id: unemployment_rate
+    title: Unemployment rate
+    short_title: Unemployment rate
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS14000000
+    group: core
+    subgroup: household
+    priority: core
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1948
+    release: Employment Situation
+    tags: [unemployment, slack, household, headline]
+    aliases: [jobless rate, u-3, u3]
+    notes: Headline CPS unemployment rate, U-3.
+    chart:
+      default_type: line
+      recommended: [line, sparkline, recession_overlay]
+      y_axis_label: Percent
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3, rolling_12]
+
+  - id: u6_underemployment_rate
+    title: U-6 labor underutilization rate
+    short_title: U-6 underutilization
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS13327709
+    group: core
+    subgroup: household
+    priority: core
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1994
+    release: Employment Situation
+    tags: [underemployment, slack, marginally attached, part-time economic reasons]
+    aliases: [u6, u-6, broad unemployment, underutilization]
+    notes: Broad labor underutilization measure including unemployed, marginally attached, and part-time for economic reasons. BLS is canonical; FRED U6RATE is only a convenience mirror.
+    chart:
+      default_type: line
+      recommended: [line, compare_to_unemployment_rate]
+      y_axis_label: Percent
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: labor_force_participation_rate
+    title: Labor force participation rate
+    short_title: LFPR
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS11300000
+    group: core
+    subgroup: household
+    priority: core
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1948
+    release: Employment Situation
+    tags: [participation, labor supply, household]
+    aliases: [lfpr, participation rate]
+    chart:
+      default_type: line
+      recommended: [line, recession_overlay]
+      y_axis_label: Percent
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_12]
+
+  - id: employment_population_ratio
+    title: Employment-population ratio
+    short_title: EPOP
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS12300000
+    group: core
+    subgroup: household
+    priority: core
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1948
+    release: Employment Situation
+    tags: [employment, household, population, full employment]
+    aliases: [epop, employment to population]
+    chart:
+      default_type: line
+      recommended: [line, recession_overlay]
+      y_axis_label: Percent
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_12]
+
+  - id: civilian_labor_force_level
+    title: Civilian labor force level
+    short_title: Civilian labor force
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS11000000
+    group: core
+    subgroup: household
+    priority: core
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1948
+    release: Employment Situation
+    tags: [labor force, household, level]
+    aliases: [civilian labor force]
+    chart:
+      default_type: line
+      recommended: [line, indexed_line]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, pct_change_12, index_first_100]
+
+  - id: employment_level_household
+    title: Employment level, household survey
+    short_title: Household employment
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS12000000
+    group: core
+    subgroup: household
+    priority: core
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1948
+    release: Employment Situation
+    tags: [employment, household, level]
+    aliases: [household employment]
+    chart:
+      default_type: line
+      recommended: [line, indexed_line]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, pct_change_12, index_first_100]
+
+  - id: unemployment_level
+    title: Unemployment level
+    short_title: Unemployed persons
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS13000000
+    group: core
+    subgroup: household
+    priority: core
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1948
+    release: Employment Situation
+    tags: [unemployment, household, level]
+    aliases: [number unemployed]
+    chart:
+      default_type: line
+      recommended: [line, recession_overlay]
+      y_axis_label: Thousands
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: total_nonfarm_payrolls
+    title: All employees, total nonfarm payrolls
+    short_title: Nonfarm payrolls
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES0000000001
+    group: core
+    subgroup: payroll
+    priority: core
+    frequency: M
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1939
+    release: Employment Situation
+    tags: [payrolls, jobs, establishment, headline]
+    aliases: [payems, payroll employment, jobs report]
+    chart:
+      default_type: line
+      recommended: [line, monthly_change_bar, indexed_line]
+      y_axis_label: Thousands
+      show_recession_bands: true
+      transformations: [change_1, change_12, pct_change_12, rolling_3, index_first_100]
+
+  - id: total_private_payrolls
+    title: All employees, total private payrolls
+    short_title: Private payrolls
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES0500000001
+    group: core
+    subgroup: payroll
+    priority: core
+    frequency: M
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1939
+    release: Employment Situation
+    tags: [payrolls, jobs, private sector, establishment]
+    aliases: [private employment, private payroll jobs]
+    chart:
+      default_type: line
+      recommended: [line, monthly_change_bar]
+      y_axis_label: Thousands
+      show_recession_bands: true
+      transformations: [change_1, change_12, pct_change_12, rolling_3]
+
+  - id: average_hourly_earnings_total_private
+    title: Average hourly earnings of all employees, total private
+    short_title: Avg hourly earnings
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES0500000003
+    group: core
+    subgroup: wages
+    priority: core
+    frequency: M
+    units: Dollars per hour
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 2006
+    release: Employment Situation
+    tags: [wages, earnings, payroll, nominal]
+    aliases: [ahe, hourly wages, average hourly earnings]
+    chart:
+      default_type: line
+      recommended: [line, real_wage_toggle, growth_rate]
+      y_axis_label: Dollars/hour
+      transformations: [change_1, pct_change_12, rolling_3]
+
+  - id: average_weekly_hours_total_private
+    title: Average weekly hours of all employees, total private
+    short_title: Avg weekly hours
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES0500000002
+    group: core
+    subgroup: hours
+    priority: core
+    frequency: M
+    units: Hours
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 2006
+    release: Employment Situation
+    tags: [hours, payroll, workweek]
+    aliases: [average workweek, weekly hours]
+    chart:
+      default_type: line
+      recommended: [line]
+      y_axis_label: Hours
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: job_openings_level
+    title: Job openings level, total nonfarm
+    short_title: Job openings
+    provider: bls
+    source_id: bls_public_api
+    series_id: JTS000000000000000JOL
+    group: core
+    subgroup: jolts
+    priority: core
+    frequency: M
+    units: Thousands
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 2000
+    release: JOLTS
+    tags: [vacancies, openings, demand, jolts]
+    aliases: [vacancies, job vacancies, openings]
+    chart:
+      default_type: line
+      recommended: [line, beveridge_curve]
+      y_axis_label: Thousands
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: job_openings_rate
+    title: Job openings rate, total nonfarm
+    short_title: Openings rate
+    provider: bls
+    source_id: bls_public_api
+    series_id: JTS000000000000000JOR
+    group: core
+    subgroup: jolts
+    priority: core
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 2000
+    release: JOLTS
+    tags: [vacancies, openings, demand, rate, jolts]
+    aliases: [vacancy rate, openings rate]
+    chart:
+      default_type: line
+      recommended: [line, beveridge_curve]
+      y_axis_label: Percent
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: hires_level
+    title: Hires level, total nonfarm
+    short_title: Hires
+    provider: bls
+    source_id: bls_public_api
+    series_id: JTS000000000000000HIL
+    group: core
+    subgroup: jolts
+    priority: core
+    frequency: M
+    units: Thousands
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 2000
+    release: JOLTS
+    tags: [hires, labor flows, jolts]
+    aliases: [hiring, accessions]
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: hires_rate
+    title: Hires rate, total nonfarm
+    short_title: Hires rate
+    provider: bls
+    source_id: bls_public_api
+    series_id: JTS000000000000000HIR
+    group: core
+    subgroup: jolts
+    priority: recommended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 2000
+    release: JOLTS
+    tags: [hires, labor flows, rate, jolts]
+    aliases: [hiring rate, accession rate]
+    notes: BLS JOLTS API returned observations for this all-nonfarm seasonally adjusted series on 2026-06-01; included as a flow companion to hires level.
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Percent
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: total_separations_level
+    title: Total separations level, total nonfarm
+    short_title: Separations
+    provider: bls
+    source_id: bls_public_api
+    series_id: JTS000000000000000TSL
+    group: core
+    subgroup: jolts
+    priority: recommended
+    frequency: M
+    units: Thousands
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 2000
+    release: JOLTS
+    tags: [separations, labor flows, jolts]
+    aliases: [job separations, total separations]
+    notes: BLS JOLTS API returned observations for this all-nonfarm seasonally adjusted series on 2026-06-01; total separations are the broad outflow from jobs.
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: total_separations_rate
+    title: Total separations rate, total nonfarm
+    short_title: Separations rate
+    provider: bls
+    source_id: bls_public_api
+    series_id: JTS000000000000000TSR
+    group: core
+    subgroup: jolts
+    priority: recommended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 2000
+    release: JOLTS
+    tags: [separations, labor flows, rate, jolts]
+    aliases: [job separations rate, total separations rate]
+    notes: BLS JOLTS API returned observations for this all-nonfarm seasonally adjusted series on 2026-06-01; total separations rate complements quits and layoffs rates.
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Percent
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: quits_level
+    title: Quits level, total nonfarm
+    short_title: Quits
+    provider: bls
+    source_id: bls_public_api
+    series_id: JTS000000000000000QUL
+    group: core
+    subgroup: jolts
+    priority: recommended
+    frequency: M
+    units: Thousands
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 2000
+    release: JOLTS
+    tags: [quits, labor flows, worker confidence, jolts]
+    aliases: [voluntary separations, quit level]
+    notes: BLS JOLTS API returned observations for this all-nonfarm seasonally adjusted series on 2026-06-01; quits are voluntary job separations.
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: quits_rate
+    title: Quits rate, total nonfarm
+    short_title: Quits rate
+    provider: bls
+    source_id: bls_public_api
+    series_id: JTS000000000000000QUR
+    group: core
+    subgroup: jolts
+    priority: core
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 2000
+    release: JOLTS
+    tags: [quits, labor flows, worker confidence, jolts]
+    aliases: [quit rate, voluntary separations]
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Percent
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: layoffs_discharges_level
+    title: Layoffs and discharges level, total nonfarm
+    short_title: Layoffs
+    provider: bls
+    source_id: bls_public_api
+    series_id: JTS000000000000000LDL
+    group: core
+    subgroup: jolts
+    priority: recommended
+    frequency: M
+    units: Thousands
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 2000
+    release: JOLTS
+    tags: [layoffs, discharges, labor flows, jolts]
+    aliases: [layoff level, involuntary separations]
+    notes: BLS JOLTS API returned observations for this all-nonfarm seasonally adjusted series on 2026-06-01; layoffs and discharges are involuntary job separations.
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: layoffs_discharges_rate
+    title: Layoffs and discharges rate, total nonfarm
+    short_title: Layoffs rate
+    provider: bls
+    source_id: bls_public_api
+    series_id: JTS000000000000000LDR
+    group: core
+    subgroup: jolts
+    priority: core
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 2000
+    release: JOLTS
+    tags: [layoffs, discharges, labor flows, jolts]
+    aliases: [layoff rate, separations]
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Percent
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: initial_claims_sa
+    title: Initial unemployment insurance claims, seasonally adjusted
+    short_title: Initial UI claims
+    provider: fred
+    source_id: fred_api
+    series_id: ICSA
+    group: core
+    subgroup: claims
+    priority: core
+    frequency: W
+    units: Number
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1967
+    release: Unemployment Insurance Weekly Claims Report
+    tags: [claims, unemployment insurance, weekly, high frequency]
+    aliases: [initial claims, jobless claims, ui claims]
+    notes: FRED mirror for hosted-dashboard claims display while DOL API access is rate-limited; use `initial_claims_sa_dol` for DOL-origin redistributable/offline export once DOL fetches reliably.
+    chart:
+      default_type: line
+      recommended: [line, rolling_4_week, weekly_nowcast]
+      y_axis_label: Claims
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3, rolling_6]
+
+  - id: continued_claims_sa
+    title: Continued unemployment insurance claims, seasonally adjusted
+    short_title: Continued UI claims
+    provider: fred
+    source_id: fred_api
+    series_id: CCSA
+    group: core
+    subgroup: claims
+    priority: core
+    frequency: W
+    units: Number
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1967
+    release: Unemployment Insurance Weekly Claims Report
+    tags: [claims, unemployment insurance, weekly, insured unemployment]
+    aliases: [continuing claims, continued claims]
+    notes: FRED mirror for hosted-dashboard claims display while DOL API access is rate-limited; use `continued_claims_sa_dol` for DOL-origin redistributable/offline export once DOL fetches reliably.
+    chart:
+      default_type: line
+      recommended: [line, rolling_4_week]
+      y_axis_label: Claims
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3, rolling_6]
+
+  - id: initial_claims_sa_dol
+    title: Initial unemployment insurance claims, seasonally adjusted (DOL origin)
+    short_title: Initial UI claims (DOL)
+    provider: dol
+    source_id: dol_ui_claims
+    series_id: ETA/ui_national_weekly_claims/c5
+    group: core
+    subgroup: claims
+    priority: recommended
+    frequency: W
+    units: Number
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1967
+    release: Unemployment Insurance Weekly Claims Report
+    tags: [claims, unemployment insurance, weekly, high frequency, origin]
+    aliases: [initial claims, jobless claims, ui claims, dol claims]
+    notes: DOL/ETA national weekly claims endpoint confirmed 2026-06-01, but live refresh is currently blocked by DOL HTTP 429; include in redistributable/offline origin exports once DOL fetches reliably.
+    api_params:
+      agency: ETA
+      endpoint: ui_national_weekly_claims
+      date_field: rptdate
+      value_field: c5
+    chart:
+      default_type: line
+      recommended: [line, rolling_4_week, weekly_nowcast]
+      y_axis_label: Claims
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3, rolling_6]
+
+  - id: continued_claims_sa_dol
+    title: Continued unemployment insurance claims, seasonally adjusted (DOL origin)
+    short_title: Continued UI claims (DOL)
+    provider: dol
+    source_id: dol_ui_claims
+    series_id: ETA/ui_national_weekly_claims/c7
+    group: core
+    subgroup: claims
+    priority: recommended
+    frequency: W
+    units: Number
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1967
+    release: Unemployment Insurance Weekly Claims Report
+    tags: [claims, unemployment insurance, weekly, insured unemployment, origin]
+    aliases: [continuing claims, continued claims, dol claims]
+    notes: DOL/ETA national weekly claims endpoint confirmed 2026-06-01, but live refresh is currently blocked by DOL HTTP 429; include in redistributable/offline origin exports once DOL fetches reliably.
+    api_params:
+      agency: ETA
+      endpoint: ui_national_weekly_claims
+      date_field: rptdate
+      value_field: c7
+    chart:
+      default_type: line
+      recommended: [line, rolling_4_week]
+      y_axis_label: Claims
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3, rolling_6]
+
+  - id: recession_indicator_monthly
+    title: NBER recession indicator, monthly
+    short_title: Recession indicator
+    provider: fred
+    source_id: fred_api
+    series_id: USRECM
+    group: context
+    subgroup: macro
+    priority: core
+    frequency: M
+    units: Boolean 0/1
+    seasonal_adjustment: NSA
+    geography: US
+    start_year: 1854
+    release: NBER based recession indicator
+    tags: [recession, context, shading]
+    aliases: [nber recession, recession shading]
+    chart:
+      default_type: area
+      recommended: [recession_overlay]
+      y_axis_label: Recession
+      transformations: []

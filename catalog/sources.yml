@@ -1,0 +1,103 @@
+sources:
+  - id: bls_public_api
+    title: BLS Public Data API
+    owner: U.S. Bureau of Labor Statistics
+    provider: bls
+    access: API v2 JSON/XLSX; optional registration key for higher limits and more historical access.
+    api_key_env: BLS_API_KEY
+    documentation_url: https://www.bls.gov/developers/home.htm
+    update_frequency: varies by BLS program
+    preferred_for:
+      - CPS labor force statistics
+      - CPS labor force flows
+      - CES payroll employment, hours, and earnings
+      - JOLTS openings, hires, quits, layoffs, separations
+      - Business Employment Dynamics gross job gains/losses
+      - LAUS state and local labor force data
+      - BLS prices, ECI, productivity
+    notes: Use BLS as canonical source for labor series when API IDs are known. For large historical pulls, prefer BLS flat files or FRED mirrors for convenience.
+
+  - id: bls_qcew_open_data
+    title: BLS QCEW Open Data CSV slices
+    owner: U.S. Bureau of Labor Statistics
+    provider: qcew
+    access: Keyless CSV endpoints sliced by year/quarter and area, industry, or establishment size.
+    documentation_url: https://www.bls.gov/cew/additional-resources/open-data/csv-data-slices.htm
+    update_frequency: quarterly and annual
+    preferred_for:
+      - county/state/national employment by industry
+      - establishments
+      - average weekly wage
+      - covered wages
+    notes: Large files. Keep raw downloads out of git and export only compact chart-ready aggregations.
+
+  - id: fred_api
+    title: FRED API
+    owner: Federal Reserve Bank of St. Louis
+    provider: fred
+    access: HTTPS API with registered key.
+    api_key_env: FRED_API_KEY
+    documentation_url: https://fred.stlouisfed.org/docs/api/fred/series_observations.html
+    update_frequency: mirrors source releases
+    preferred_for:
+      - national claims fallback
+      - recession indicators
+      - price deflators
+      - BEA/BLS series where FRED mirror is sufficient
+    notes: Convenient for source-agnostic series and fast dashboard prototyping. Preserve original source attribution in labels.
+
+  - id: bea_api
+    title: BEA API
+    owner: U.S. Bureau of Economic Analysis
+    provider: bea
+    access: HTTPS API with UserID key.
+    api_key_env: BEA_API_KEY
+    documentation_url: https://apps.bea.gov/api/_pdf/bea_web_service_api_user_guide.pdf
+    update_frequency: monthly, quarterly, annual depending on dataset
+    preferred_for:
+      - compensation of employees
+      - wages and salaries
+      - personal income
+      - industry output and regional employment context
+    notes: Use BEA metadata calls to discover exact table/line/series codes before finalizing BEA-specific indicators.
+
+  - id: census_qwi_api
+    title: Census QWI / LEHD API
+    owner: U.S. Census Bureau, LEHD
+    provider: census_qwi
+    access: Census API. API key currently required by QWI documentation.
+    api_key_env: CENSUS_API_KEY
+    documentation_url: https://www.census.gov/data/developers/data-sets/qwi.html
+    update_frequency: quarterly
+    preferred_for:
+      - hires, separations, earnings, and employment by worker demographics
+      - state/county/metro workforce indicators
+      - firm age and firm size detail
+    notes: National data is not yet available through the QWI API documentation; state/county/metro are primary.
+
+  - id: dol_ui_claims
+    title: DOL/ETA Unemployment Insurance Weekly Claims
+    owner: U.S. Department of Labor, Employment and Training Administration
+    provider: dol
+    access: DOL Open Data Portal API v4.
+    api_key_env: DOL_API_KEY
+    documentation_url: https://www.dataportal.dol.gov/pdf/dol-api-user-guide.pdf
+    update_frequency: weekly
+    preferred_for:
+      - initial claims
+      - continued claims
+      - insured unemployment
+      - state weekly claims
+    notes: National endpoint confirmed as ETA/ui_national_weekly_claims. Use rptdate for week ending date, c5 for seasonally adjusted initial claims, and c7 for seasonally adjusted continued claims. FRED ICSA/CCSA remain fallback mirrors only.
+
+  - id: manual_research
+    title: Manual research queue / template source
+    owner: Project team
+    provider: manual
+    access: Placeholder for parameterized source families not yet wired into code.
+    update_frequency: as needed
+    preferred_for:
+      - LAUS state/county/metro templates
+      - CPS microdata concepts
+      - IPUMS/NBER microdata extensions
+    notes: Manual entries should not be surfaced as live chart series until converted to a real provider.

@@ -1,0 +1,648 @@
+indicators:
+  - id: cps_flow_employed_to_employed
+    title: CPS labor force flow, employed to employed
+    short_title: E to E
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS17000000
+    group: flows
+    subgroup: cps_flows
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1990
+    release: Employment Situation
+    tags: [cps, labor force flows, employment, transitions]
+    aliases: [employed to employed, ee flow, stayed employed]
+    notes: BLS CPS research labor-force-flow series; BLS API returned observations for this seasonally adjusted series on 2026-06-01.
+    chart:
+      default_type: line
+      recommended: [line, flow_matrix, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: cps_flow_unemployed_to_employed
+    title: CPS labor force flow, unemployed to employed
+    short_title: U to E
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS17100000
+    group: flows
+    subgroup: cps_flows
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1990
+    release: Employment Situation
+    tags: [cps, labor force flows, employment, unemployment, transitions]
+    aliases: [unemployed to employed, ue flow, job finding]
+    notes: BLS CPS research labor-force-flow series; BLS API returned observations for this seasonally adjusted series on 2026-06-01.
+    chart:
+      default_type: line
+      recommended: [line, flow_matrix, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: cps_flow_not_in_labor_force_to_employed
+    title: CPS labor force flow, not in labor force to employed
+    short_title: NILF to E
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS17200000
+    group: flows
+    subgroup: cps_flows
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1990
+    release: Employment Situation
+    tags: [cps, labor force flows, employment, participation, transitions]
+    aliases: [not in labor force to employed, ne flow, nilf to employed]
+    notes: BLS CPS research labor-force-flow series; BLS API returned observations for this seasonally adjusted series on 2026-06-01.
+    chart:
+      default_type: line
+      recommended: [line, flow_matrix, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: cps_flow_marginal_inflows_to_employed
+    title: CPS labor force flow, marginal inflows to employed
+    short_title: Other to E
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS17300000
+    group: flows
+    subgroup: cps_flows
+    priority: extended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1990
+    release: Employment Situation
+    tags: [cps, labor force flows, employment, marginal inflows]
+    aliases: [other inflows to employed, marginal inflows to employment]
+    notes: BLS CPS research labor-force-flow series for inflows from outside the month-to-month matched sample; BLS API returned observations on 2026-06-01.
+    chart:
+      default_type: line
+      recommended: [line, flow_matrix]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: cps_flow_employed_to_unemployed
+    title: CPS labor force flow, employed to unemployed
+    short_title: E to U
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS17400000
+    group: flows
+    subgroup: cps_flows
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1990
+    release: Employment Situation
+    tags: [cps, labor force flows, employment, unemployment, transitions]
+    aliases: [employed to unemployed, eu flow, job loss into unemployment]
+    notes: BLS CPS research labor-force-flow series; BLS API returned observations for this seasonally adjusted series on 2026-06-01.
+    chart:
+      default_type: line
+      recommended: [line, flow_matrix, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: cps_flow_unemployed_to_unemployed
+    title: CPS labor force flow, unemployed to unemployed
+    short_title: U to U
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS17500000
+    group: flows
+    subgroup: cps_flows
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1990
+    release: Employment Situation
+    tags: [cps, labor force flows, unemployment, transitions]
+    aliases: [unemployed to unemployed, uu flow, remained unemployed]
+    notes: BLS CPS research labor-force-flow series; BLS API returned observations for this seasonally adjusted series on 2026-06-01.
+    chart:
+      default_type: line
+      recommended: [line, flow_matrix, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: cps_flow_not_in_labor_force_to_unemployed
+    title: CPS labor force flow, not in labor force to unemployed
+    short_title: NILF to U
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS17600000
+    group: flows
+    subgroup: cps_flows
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1990
+    release: Employment Situation
+    tags: [cps, labor force flows, unemployment, participation, transitions]
+    aliases: [not in labor force to unemployed, nu flow, nilf to unemployed]
+    notes: BLS CPS research labor-force-flow series; BLS API returned observations for this seasonally adjusted series on 2026-06-01.
+    chart:
+      default_type: line
+      recommended: [line, flow_matrix, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: cps_flow_marginal_inflows_to_unemployed
+    title: CPS labor force flow, marginal inflows to unemployed
+    short_title: Other to U
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS17700000
+    group: flows
+    subgroup: cps_flows
+    priority: extended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1990
+    release: Employment Situation
+    tags: [cps, labor force flows, unemployment, marginal inflows]
+    aliases: [other inflows to unemployed, marginal inflows to unemployment]
+    notes: BLS CPS research labor-force-flow series for inflows from outside the month-to-month matched sample; BLS API returned observations on 2026-06-01.
+    chart:
+      default_type: line
+      recommended: [line, flow_matrix]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: cps_flow_employed_to_not_in_labor_force
+    title: CPS labor force flow, employed to not in labor force
+    short_title: E to NILF
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS17800000
+    group: flows
+    subgroup: cps_flows
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1990
+    release: Employment Situation
+    tags: [cps, labor force flows, employment, participation, transitions]
+    aliases: [employed to not in labor force, en flow, employment to nilf]
+    notes: BLS CPS research labor-force-flow series; BLS API returned observations for this seasonally adjusted series on 2026-06-01.
+    chart:
+      default_type: line
+      recommended: [line, flow_matrix, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: cps_flow_unemployed_to_not_in_labor_force
+    title: CPS labor force flow, unemployed to not in labor force
+    short_title: U to NILF
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS17900000
+    group: flows
+    subgroup: cps_flows
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1990
+    release: Employment Situation
+    tags: [cps, labor force flows, unemployment, participation, transitions]
+    aliases: [unemployed to not in labor force, un flow, unemployment to nilf]
+    notes: BLS CPS research labor-force-flow series; BLS API returned observations for this seasonally adjusted series on 2026-06-01.
+    chart:
+      default_type: line
+      recommended: [line, flow_matrix, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: cps_flow_not_in_labor_force_to_not_in_labor_force
+    title: CPS labor force flow, not in labor force to not in labor force
+    short_title: NILF to NILF
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS18000000
+    group: flows
+    subgroup: cps_flows
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1990
+    release: Employment Situation
+    tags: [cps, labor force flows, participation, transitions]
+    aliases: [not in labor force to not in labor force, nn flow, remained out of labor force]
+    notes: BLS CPS research labor-force-flow series; BLS API returned observations for this seasonally adjusted series on 2026-06-01.
+    chart:
+      default_type: line
+      recommended: [line, flow_matrix, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: cps_flow_marginal_inflows_to_not_in_labor_force
+    title: CPS labor force flow, marginal inflows to not in labor force
+    short_title: Other to NILF
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS18100000
+    group: flows
+    subgroup: cps_flows
+    priority: extended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1990
+    release: Employment Situation
+    tags: [cps, labor force flows, participation, marginal inflows]
+    aliases: [other inflows to not in labor force, marginal inflows to nilf]
+    notes: BLS CPS research labor-force-flow series for inflows from outside the month-to-month matched sample; BLS API returned observations on 2026-06-01.
+    chart:
+      default_type: line
+      recommended: [line, flow_matrix]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: cps_flow_employed_to_other_outflows
+    title: CPS labor force flow, employed to other outflows
+    short_title: E to other
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS18200000
+    group: flows
+    subgroup: cps_flows
+    priority: extended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1990
+    release: Employment Situation
+    tags: [cps, labor force flows, employment, marginal outflows]
+    aliases: [employed to marginal outflows, employed to other outflows]
+    notes: BLS CPS research labor-force-flow series for outflows from the month-to-month matched sample; BLS API returned observations on 2026-06-01.
+    chart:
+      default_type: line
+      recommended: [line, flow_matrix]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: cps_flow_unemployed_to_other_outflows
+    title: CPS labor force flow, unemployed to other outflows
+    short_title: U to other
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS18300000
+    group: flows
+    subgroup: cps_flows
+    priority: extended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1990
+    release: Employment Situation
+    tags: [cps, labor force flows, unemployment, marginal outflows]
+    aliases: [unemployed to marginal outflows, unemployed to other outflows]
+    notes: BLS CPS research labor-force-flow series for outflows from the month-to-month matched sample; BLS API returned observations on 2026-06-01.
+    chart:
+      default_type: line
+      recommended: [line, flow_matrix]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: cps_flow_not_in_labor_force_to_other_outflows
+    title: CPS labor force flow, not in labor force to other outflows
+    short_title: NILF to other
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS18400000
+    group: flows
+    subgroup: cps_flows
+    priority: extended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1990
+    release: Employment Situation
+    tags: [cps, labor force flows, participation, marginal outflows]
+    aliases: [not in labor force to marginal outflows, nilf to other outflows]
+    notes: BLS CPS research labor-force-flow series for outflows from the month-to-month matched sample; BLS API returned observations on 2026-06-01.
+    chart:
+      default_type: line
+      recommended: [line, flow_matrix]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: bed_gross_job_gains_level
+    title: BED gross job gains, total private
+    short_title: Gross job gains
+    provider: bls
+    source_id: bls_public_api
+    series_id: BDS0000000000000000110001LQ5
+    group: flows
+    subgroup: business_employment_dynamics
+    priority: recommended
+    frequency: Q
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1992
+    release: Business Employment Dynamics
+    tags: [bed, gross job gains, business dynamics, qcew, flows]
+    aliases: [gross job gains, job creation, bed gains]
+    notes: BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_4, rolling_4]
+
+  - id: bed_gross_job_gains_rate
+    title: BED gross job gains rate, total private
+    short_title: Gains rate
+    provider: bls
+    source_id: bls_public_api
+    series_id: BDS0000000000000000110001RQ5
+    group: flows
+    subgroup: business_employment_dynamics
+    priority: recommended
+    frequency: Q
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1992
+    release: Business Employment Dynamics
+    tags: [bed, gross job gains, business dynamics, qcew, flows, rate]
+    aliases: [gross job gains rate, job creation rate, bed gains rate]
+    notes: BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Percent
+      transformations: [change_1, change_4, rolling_4]
+
+  - id: bed_expansions_level
+    title: BED employment gained from expansions, total private
+    short_title: Expansions
+    provider: bls
+    source_id: bls_public_api
+    series_id: BDS0000000000000000110002LQ5
+    group: flows
+    subgroup: business_employment_dynamics
+    priority: recommended
+    frequency: Q
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1992
+    release: Business Employment Dynamics
+    tags: [bed, expansions, job gains, business dynamics, flows]
+    aliases: [employment gained from expansions, expanding establishments]
+    notes: BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_4, rolling_4]
+
+  - id: bed_expansions_rate
+    title: BED employment gained from expansions rate, total private
+    short_title: Expansions rate
+    provider: bls
+    source_id: bls_public_api
+    series_id: BDS0000000000000000110002RQ5
+    group: flows
+    subgroup: business_employment_dynamics
+    priority: recommended
+    frequency: Q
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1992
+    release: Business Employment Dynamics
+    tags: [bed, expansions, job gains, business dynamics, flows, rate]
+    aliases: [expansions rate, expanding establishment gains rate]
+    notes: BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Percent
+      transformations: [change_1, change_4, rolling_4]
+
+  - id: bed_openings_level
+    title: BED employment gained from openings, total private
+    short_title: Openings gains
+    provider: bls
+    source_id: bls_public_api
+    series_id: BDS0000000000000000110003LQ5
+    group: flows
+    subgroup: business_employment_dynamics
+    priority: recommended
+    frequency: Q
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1992
+    release: Business Employment Dynamics
+    tags: [bed, openings, births, job gains, business dynamics, flows]
+    aliases: [employment gained from openings, opening establishments]
+    notes: BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_4, rolling_4]
+
+  - id: bed_openings_rate
+    title: BED employment gained from openings rate, total private
+    short_title: Openings rate
+    provider: bls
+    source_id: bls_public_api
+    series_id: BDS0000000000000000110003RQ5
+    group: flows
+    subgroup: business_employment_dynamics
+    priority: recommended
+    frequency: Q
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1992
+    release: Business Employment Dynamics
+    tags: [bed, openings, births, job gains, business dynamics, flows, rate]
+    aliases: [openings gain rate, opening establishment gains rate]
+    notes: BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Percent
+      transformations: [change_1, change_4, rolling_4]
+
+  - id: bed_gross_job_losses_level
+    title: BED gross job losses, total private
+    short_title: Gross job losses
+    provider: bls
+    source_id: bls_public_api
+    series_id: BDS0000000000000000110004LQ5
+    group: flows
+    subgroup: business_employment_dynamics
+    priority: recommended
+    frequency: Q
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1992
+    release: Business Employment Dynamics
+    tags: [bed, gross job losses, business dynamics, qcew, flows]
+    aliases: [gross job losses, job destruction, bed losses]
+    notes: BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_4, rolling_4]
+
+  - id: bed_gross_job_losses_rate
+    title: BED gross job losses rate, total private
+    short_title: Losses rate
+    provider: bls
+    source_id: bls_public_api
+    series_id: BDS0000000000000000110004RQ5
+    group: flows
+    subgroup: business_employment_dynamics
+    priority: recommended
+    frequency: Q
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1992
+    release: Business Employment Dynamics
+    tags: [bed, gross job losses, business dynamics, qcew, flows, rate]
+    aliases: [gross job losses rate, job destruction rate, bed losses rate]
+    notes: BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Percent
+      transformations: [change_1, change_4, rolling_4]
+
+  - id: bed_contractions_level
+    title: BED employment lost from contractions, total private
+    short_title: Contractions
+    provider: bls
+    source_id: bls_public_api
+    series_id: BDS0000000000000000110005LQ5
+    group: flows
+    subgroup: business_employment_dynamics
+    priority: recommended
+    frequency: Q
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1992
+    release: Business Employment Dynamics
+    tags: [bed, contractions, job losses, business dynamics, flows]
+    aliases: [employment lost from contractions, contracting establishments]
+    notes: BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_4, rolling_4]
+
+  - id: bed_contractions_rate
+    title: BED employment lost from contractions rate, total private
+    short_title: Contractions rate
+    provider: bls
+    source_id: bls_public_api
+    series_id: BDS0000000000000000110005RQ5
+    group: flows
+    subgroup: business_employment_dynamics
+    priority: recommended
+    frequency: Q
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1992
+    release: Business Employment Dynamics
+    tags: [bed, contractions, job losses, business dynamics, flows, rate]
+    aliases: [contractions rate, contracting establishment losses rate]
+    notes: BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Percent
+      transformations: [change_1, change_4, rolling_4]
+
+  - id: bed_closings_level
+    title: BED employment lost from closings, total private
+    short_title: Closings losses
+    provider: bls
+    source_id: bls_public_api
+    series_id: BDS0000000000000000110006LQ5
+    group: flows
+    subgroup: business_employment_dynamics
+    priority: recommended
+    frequency: Q
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1992
+    release: Business Employment Dynamics
+    tags: [bed, closings, deaths, job losses, business dynamics, flows]
+    aliases: [employment lost from closings, closing establishments]
+    notes: BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_4, rolling_4]
+
+  - id: bed_closings_rate
+    title: BED employment lost from closings rate, total private
+    short_title: Closings rate
+    provider: bls
+    source_id: bls_public_api
+    series_id: BDS0000000000000000110006RQ5
+    group: flows
+    subgroup: business_employment_dynamics
+    priority: recommended
+    frequency: Q
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1992
+    release: Business Employment Dynamics
+    tags: [bed, closings, deaths, job losses, business dynamics, flows, rate]
+    aliases: [closings rate, closing establishment losses rate]
+    notes: BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Percent
+      transformations: [change_1, change_4, rolling_4]

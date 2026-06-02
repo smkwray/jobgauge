@@ -1,0 +1,5927 @@
+{
+  "schema_version": "0.1",
+  "indicators": [
+    {
+      "id": "unemployment_rate",
+      "title": "Unemployment rate",
+      "short_title": "Unemployment rate",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS14000000",
+      "group": "core",
+      "subgroup": "household",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1948,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "unemployment",
+        "slack",
+        "household",
+        "headline"
+      ],
+      "aliases": [
+        "jobless rate",
+        "u-3",
+        "u3"
+      ],
+      "notes": "Headline CPS unemployment rate, U-3.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "sparkline",
+          "recession_overlay"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3",
+          "rolling_12"
+        ]
+      }
+    },
+    {
+      "id": "u6_underemployment_rate",
+      "title": "U-6 labor underutilization rate",
+      "short_title": "U-6 underutilization",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS13327709",
+      "group": "core",
+      "subgroup": "household",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1994,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "underemployment",
+        "slack",
+        "marginally attached",
+        "part-time economic reasons"
+      ],
+      "aliases": [
+        "u6",
+        "u-6",
+        "broad unemployment",
+        "underutilization"
+      ],
+      "notes": "Broad labor underutilization measure including unemployed, marginally attached, and part-time for economic reasons. BLS is canonical; FRED U6RATE is only a convenience mirror.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "compare_to_unemployment_rate"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "labor_force_participation_rate",
+      "title": "Labor force participation rate",
+      "short_title": "LFPR",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS11300000",
+      "group": "core",
+      "subgroup": "household",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1948,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "participation",
+        "labor supply",
+        "household"
+      ],
+      "aliases": [
+        "lfpr",
+        "participation rate"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "recession_overlay"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_12"
+        ]
+      }
+    },
+    {
+      "id": "employment_population_ratio",
+      "title": "Employment-population ratio",
+      "short_title": "EPOP",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS12300000",
+      "group": "core",
+      "subgroup": "household",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1948,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "employment",
+        "household",
+        "population",
+        "full employment"
+      ],
+      "aliases": [
+        "epop",
+        "employment to population"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "recession_overlay"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_12"
+        ]
+      }
+    },
+    {
+      "id": "civilian_labor_force_level",
+      "title": "Civilian labor force level",
+      "short_title": "Civilian labor force",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS11000000",
+      "group": "core",
+      "subgroup": "household",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1948,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "labor force",
+        "household",
+        "level"
+      ],
+      "aliases": [
+        "civilian labor force"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "indexed_line"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "pct_change_12",
+          "index_first_100"
+        ]
+      }
+    },
+    {
+      "id": "employment_level_household",
+      "title": "Employment level, household survey",
+      "short_title": "Household employment",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS12000000",
+      "group": "core",
+      "subgroup": "household",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1948,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "employment",
+        "household",
+        "level"
+      ],
+      "aliases": [
+        "household employment"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "indexed_line"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "pct_change_12",
+          "index_first_100"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_level",
+      "title": "Unemployment level",
+      "short_title": "Unemployed persons",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS13000000",
+      "group": "core",
+      "subgroup": "household",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1948,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "unemployment",
+        "household",
+        "level"
+      ],
+      "aliases": [
+        "number unemployed"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "recession_overlay"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "total_nonfarm_payrolls",
+      "title": "All employees, total nonfarm payrolls",
+      "short_title": "Nonfarm payrolls",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "CES0000000001",
+      "group": "core",
+      "subgroup": "payroll",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1939,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "payrolls",
+        "jobs",
+        "establishment",
+        "headline"
+      ],
+      "aliases": [
+        "payems",
+        "payroll employment",
+        "jobs report"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "monthly_change_bar",
+          "indexed_line"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "pct_change_12",
+          "rolling_3",
+          "index_first_100"
+        ]
+      }
+    },
+    {
+      "id": "total_private_payrolls",
+      "title": "All employees, total private payrolls",
+      "short_title": "Private payrolls",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "CES0500000001",
+      "group": "core",
+      "subgroup": "payroll",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1939,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "payrolls",
+        "jobs",
+        "private sector",
+        "establishment"
+      ],
+      "aliases": [
+        "private employment",
+        "private payroll jobs"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "monthly_change_bar"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "pct_change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "average_hourly_earnings_total_private",
+      "title": "Average hourly earnings of all employees, total private",
+      "short_title": "Avg hourly earnings",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "CES0500000003",
+      "group": "core",
+      "subgroup": "wages",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Dollars per hour",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 2006,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "wages",
+        "earnings",
+        "payroll",
+        "nominal"
+      ],
+      "aliases": [
+        "ahe",
+        "hourly wages",
+        "average hourly earnings"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "real_wage_toggle",
+          "growth_rate"
+        ],
+        "y_axis_label": "Dollars/hour",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "pct_change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "average_weekly_hours_total_private",
+      "title": "Average weekly hours of all employees, total private",
+      "short_title": "Avg weekly hours",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "CES0500000002",
+      "group": "core",
+      "subgroup": "hours",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Hours",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 2006,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "hours",
+        "payroll",
+        "workweek"
+      ],
+      "aliases": [
+        "average workweek",
+        "weekly hours"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line"
+        ],
+        "y_axis_label": "Hours",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "job_openings_level",
+      "title": "Job openings level, total nonfarm",
+      "short_title": "Job openings",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "JTS000000000000000JOL",
+      "group": "core",
+      "subgroup": "jolts",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Thousands",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 2000,
+      "release": "JOLTS",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "vacancies",
+        "openings",
+        "demand",
+        "jolts"
+      ],
+      "aliases": [
+        "vacancies",
+        "job vacancies",
+        "openings"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "beveridge_curve"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "job_openings_rate",
+      "title": "Job openings rate, total nonfarm",
+      "short_title": "Openings rate",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "JTS000000000000000JOR",
+      "group": "core",
+      "subgroup": "jolts",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 2000,
+      "release": "JOLTS",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "vacancies",
+        "openings",
+        "demand",
+        "rate",
+        "jolts"
+      ],
+      "aliases": [
+        "vacancy rate",
+        "openings rate"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "beveridge_curve"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "hires_level",
+      "title": "Hires level, total nonfarm",
+      "short_title": "Hires",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "JTS000000000000000HIL",
+      "group": "core",
+      "subgroup": "jolts",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Thousands",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 2000,
+      "release": "JOLTS",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "hires",
+        "labor flows",
+        "jolts"
+      ],
+      "aliases": [
+        "hiring",
+        "accessions"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "hires_rate",
+      "title": "Hires rate, total nonfarm",
+      "short_title": "Hires rate",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "JTS000000000000000HIR",
+      "group": "core",
+      "subgroup": "jolts",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 2000,
+      "release": "JOLTS",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "hires",
+        "labor flows",
+        "rate",
+        "jolts"
+      ],
+      "aliases": [
+        "hiring rate",
+        "accession rate"
+      ],
+      "notes": "BLS JOLTS API returned observations for this all-nonfarm seasonally adjusted series on 2026-06-01; included as a flow companion to hires level.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "total_separations_level",
+      "title": "Total separations level, total nonfarm",
+      "short_title": "Separations",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "JTS000000000000000TSL",
+      "group": "core",
+      "subgroup": "jolts",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 2000,
+      "release": "JOLTS",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "separations",
+        "labor flows",
+        "jolts"
+      ],
+      "aliases": [
+        "job separations",
+        "total separations"
+      ],
+      "notes": "BLS JOLTS API returned observations for this all-nonfarm seasonally adjusted series on 2026-06-01; total separations are the broad outflow from jobs.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "total_separations_rate",
+      "title": "Total separations rate, total nonfarm",
+      "short_title": "Separations rate",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "JTS000000000000000TSR",
+      "group": "core",
+      "subgroup": "jolts",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 2000,
+      "release": "JOLTS",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "separations",
+        "labor flows",
+        "rate",
+        "jolts"
+      ],
+      "aliases": [
+        "job separations rate",
+        "total separations rate"
+      ],
+      "notes": "BLS JOLTS API returned observations for this all-nonfarm seasonally adjusted series on 2026-06-01; total separations rate complements quits and layoffs rates.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "quits_level",
+      "title": "Quits level, total nonfarm",
+      "short_title": "Quits",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "JTS000000000000000QUL",
+      "group": "core",
+      "subgroup": "jolts",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 2000,
+      "release": "JOLTS",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "quits",
+        "labor flows",
+        "worker confidence",
+        "jolts"
+      ],
+      "aliases": [
+        "voluntary separations",
+        "quit level"
+      ],
+      "notes": "BLS JOLTS API returned observations for this all-nonfarm seasonally adjusted series on 2026-06-01; quits are voluntary job separations.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "quits_rate",
+      "title": "Quits rate, total nonfarm",
+      "short_title": "Quits rate",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "JTS000000000000000QUR",
+      "group": "core",
+      "subgroup": "jolts",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 2000,
+      "release": "JOLTS",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "quits",
+        "labor flows",
+        "worker confidence",
+        "jolts"
+      ],
+      "aliases": [
+        "quit rate",
+        "voluntary separations"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "layoffs_discharges_level",
+      "title": "Layoffs and discharges level, total nonfarm",
+      "short_title": "Layoffs",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "JTS000000000000000LDL",
+      "group": "core",
+      "subgroup": "jolts",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 2000,
+      "release": "JOLTS",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "layoffs",
+        "discharges",
+        "labor flows",
+        "jolts"
+      ],
+      "aliases": [
+        "layoff level",
+        "involuntary separations"
+      ],
+      "notes": "BLS JOLTS API returned observations for this all-nonfarm seasonally adjusted series on 2026-06-01; layoffs and discharges are involuntary job separations.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "layoffs_discharges_rate",
+      "title": "Layoffs and discharges rate, total nonfarm",
+      "short_title": "Layoffs rate",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "JTS000000000000000LDR",
+      "group": "core",
+      "subgroup": "jolts",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 2000,
+      "release": "JOLTS",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "layoffs",
+        "discharges",
+        "labor flows",
+        "jolts"
+      ],
+      "aliases": [
+        "layoff rate",
+        "separations"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "initial_claims_sa",
+      "title": "Initial unemployment insurance claims, seasonally adjusted",
+      "short_title": "Initial UI claims",
+      "provider": "fred",
+      "source_id": "fred_api",
+      "series_id": "ICSA",
+      "group": "core",
+      "subgroup": "claims",
+      "priority": "core",
+      "frequency": "W",
+      "units": "Number",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1967,
+      "release": "Unemployment Insurance Weekly Claims Report",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "claims",
+        "unemployment insurance",
+        "weekly",
+        "high frequency"
+      ],
+      "aliases": [
+        "initial claims",
+        "jobless claims",
+        "ui claims"
+      ],
+      "notes": "FRED mirror for hosted-dashboard claims display while DOL API access is rate-limited; use `initial_claims_sa_dol` for DOL-origin redistributable/offline export once DOL fetches reliably.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "rolling_4_week",
+          "weekly_nowcast"
+        ],
+        "y_axis_label": "Claims",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3",
+          "rolling_6"
+        ]
+      }
+    },
+    {
+      "id": "continued_claims_sa",
+      "title": "Continued unemployment insurance claims, seasonally adjusted",
+      "short_title": "Continued UI claims",
+      "provider": "fred",
+      "source_id": "fred_api",
+      "series_id": "CCSA",
+      "group": "core",
+      "subgroup": "claims",
+      "priority": "core",
+      "frequency": "W",
+      "units": "Number",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1967,
+      "release": "Unemployment Insurance Weekly Claims Report",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "claims",
+        "unemployment insurance",
+        "weekly",
+        "insured unemployment"
+      ],
+      "aliases": [
+        "continuing claims",
+        "continued claims"
+      ],
+      "notes": "FRED mirror for hosted-dashboard claims display while DOL API access is rate-limited; use `continued_claims_sa_dol` for DOL-origin redistributable/offline export once DOL fetches reliably.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "rolling_4_week"
+        ],
+        "y_axis_label": "Claims",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3",
+          "rolling_6"
+        ]
+      }
+    },
+    {
+      "id": "initial_claims_sa_dol",
+      "title": "Initial unemployment insurance claims, seasonally adjusted (DOL origin)",
+      "short_title": "Initial UI claims (DOL)",
+      "provider": "dol",
+      "source_id": "dol_ui_claims",
+      "series_id": "ETA/ui_national_weekly_claims/c5",
+      "group": "core",
+      "subgroup": "claims",
+      "priority": "recommended",
+      "frequency": "W",
+      "units": "Number",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1967,
+      "release": "Unemployment Insurance Weekly Claims Report",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "claims",
+        "unemployment insurance",
+        "weekly",
+        "high frequency",
+        "origin"
+      ],
+      "aliases": [
+        "initial claims",
+        "jobless claims",
+        "ui claims",
+        "dol claims"
+      ],
+      "notes": "DOL/ETA national weekly claims endpoint confirmed 2026-06-01, but live refresh is currently blocked by DOL HTTP 429; include in redistributable/offline origin exports once DOL fetches reliably.",
+      "api_params": {
+        "agency": "ETA",
+        "endpoint": "ui_national_weekly_claims",
+        "date_field": "rptdate",
+        "value_field": "c5"
+      },
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "rolling_4_week",
+          "weekly_nowcast"
+        ],
+        "y_axis_label": "Claims",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3",
+          "rolling_6"
+        ]
+      }
+    },
+    {
+      "id": "continued_claims_sa_dol",
+      "title": "Continued unemployment insurance claims, seasonally adjusted (DOL origin)",
+      "short_title": "Continued UI claims (DOL)",
+      "provider": "dol",
+      "source_id": "dol_ui_claims",
+      "series_id": "ETA/ui_national_weekly_claims/c7",
+      "group": "core",
+      "subgroup": "claims",
+      "priority": "recommended",
+      "frequency": "W",
+      "units": "Number",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1967,
+      "release": "Unemployment Insurance Weekly Claims Report",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "claims",
+        "unemployment insurance",
+        "weekly",
+        "insured unemployment",
+        "origin"
+      ],
+      "aliases": [
+        "continuing claims",
+        "continued claims",
+        "dol claims"
+      ],
+      "notes": "DOL/ETA national weekly claims endpoint confirmed 2026-06-01, but live refresh is currently blocked by DOL HTTP 429; include in redistributable/offline origin exports once DOL fetches reliably.",
+      "api_params": {
+        "agency": "ETA",
+        "endpoint": "ui_national_weekly_claims",
+        "date_field": "rptdate",
+        "value_field": "c7"
+      },
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "rolling_4_week"
+        ],
+        "y_axis_label": "Claims",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3",
+          "rolling_6"
+        ]
+      }
+    },
+    {
+      "id": "recession_indicator_monthly",
+      "title": "NBER recession indicator, monthly",
+      "short_title": "Recession indicator",
+      "provider": "fred",
+      "source_id": "fred_api",
+      "series_id": "USRECM",
+      "group": "context",
+      "subgroup": "macro",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Boolean 0/1",
+      "seasonal_adjustment": "NSA",
+      "geography": "US",
+      "start_year": 1854,
+      "release": "NBER based recession indicator",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "recession",
+        "context",
+        "shading"
+      ],
+      "aliases": [
+        "nber recession",
+        "recession shading"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "area",
+        "recommended": [
+          "recession_overlay"
+        ],
+        "y_axis_label": "Recession",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": []
+      }
+    },
+    {
+      "id": "prime_age_employment_population_ratio",
+      "title": "Employment-population ratio, 25 to 54 years",
+      "short_title": "Prime-age EPOP",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS12300060",
+      "group": "demographics",
+      "subgroup": "age",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1948,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "prime age",
+        "employment",
+        "epop",
+        "full employment"
+      ],
+      "aliases": [
+        "prime age employment rate",
+        "prime-age epop"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "compare_to_pre_pandemic",
+          "demographic_gap"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_12"
+        ]
+      }
+    },
+    {
+      "id": "prime_age_labor_force_participation_rate",
+      "title": "Labor force participation rate, 25 to 54 years",
+      "short_title": "Prime-age LFPR",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS11300060",
+      "group": "demographics",
+      "subgroup": "age",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1948,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "prime age",
+        "labor force participation",
+        "participation"
+      ],
+      "aliases": [
+        "prime-age lfpr"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "demographic_gap"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_12"
+        ]
+      }
+    },
+    {
+      "id": "prime_age_unemployment_rate",
+      "title": "Unemployment rate, 25 to 54 years",
+      "short_title": "Prime-age unemployment",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS14000060",
+      "group": "demographics",
+      "subgroup": "age",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1948,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "prime age",
+        "unemployment"
+      ],
+      "aliases": [
+        "prime-age unemployment"
+      ],
+      "notes": "BLS CPS series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_rate_men",
+      "title": "Unemployment rate, men",
+      "short_title": "Men unemployment",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS14000001",
+      "group": "demographics",
+      "subgroup": "sex",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1948,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "men",
+        "sex",
+        "unemployment"
+      ],
+      "aliases": [
+        "male unemployment"
+      ],
+      "notes": "BLS CPS series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "demographic_gap"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_rate_women",
+      "title": "Unemployment rate, women",
+      "short_title": "Women unemployment",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS14000002",
+      "group": "demographics",
+      "subgroup": "sex",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1948,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "women",
+        "sex",
+        "unemployment"
+      ],
+      "aliases": [
+        "female unemployment"
+      ],
+      "notes": "BLS CPS series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "demographic_gap"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_rate_white",
+      "title": "Unemployment rate, White",
+      "short_title": "White unemployment",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS14000003",
+      "group": "demographics",
+      "subgroup": "race_ethnicity",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1954,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "race",
+        "white",
+        "unemployment"
+      ],
+      "aliases": [
+        "white unemployment rate"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "demographic_gap",
+          "ratio_to_white"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_rate_black",
+      "title": "Unemployment rate, Black or African American",
+      "short_title": "Black unemployment",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS14000006",
+      "group": "demographics",
+      "subgroup": "race_ethnicity",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1972,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "race",
+        "black",
+        "african american",
+        "unemployment",
+        "inequality"
+      ],
+      "aliases": [
+        "black unemployment rate",
+        "african american unemployment"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "demographic_gap",
+          "ratio_to_white"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_rate_hispanic",
+      "title": "Unemployment rate, Hispanic or Latino",
+      "short_title": "Hispanic unemployment",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS14000009",
+      "group": "demographics",
+      "subgroup": "race_ethnicity",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1973,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "ethnicity",
+        "hispanic",
+        "latino",
+        "unemployment",
+        "inequality"
+      ],
+      "aliases": [
+        "latino unemployment rate",
+        "hispanic unemployment"
+      ],
+      "notes": "",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "demographic_gap",
+          "ratio_to_white"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_rate_asian",
+      "title": "Unemployment rate, Asian",
+      "short_title": "Asian unemployment",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS14032183",
+      "group": "demographics",
+      "subgroup": "race_ethnicity",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 2003,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "race",
+        "asian",
+        "unemployment",
+        "inequality"
+      ],
+      "aliases": [
+        "asian unemployment rate"
+      ],
+      "notes": "BLS CPS series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "demographic_gap"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "teen_unemployment_rate",
+      "title": "Unemployment rate, 16 to 19 years",
+      "short_title": "Teen unemployment",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS14000012",
+      "group": "demographics",
+      "subgroup": "age",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1948,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "teen",
+        "youth",
+        "unemployment"
+      ],
+      "aliases": [
+        "youth unemployment",
+        "teenage unemployment"
+      ],
+      "notes": "BLS CPS series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "demographic_gap"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_rate_less_than_high_school",
+      "title": "Unemployment rate, less than high school diploma",
+      "short_title": "Less than HS unemployment",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS14027659",
+      "group": "demographics",
+      "subgroup": "education",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1992,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "unemployment",
+        "education",
+        "less than high school",
+        "cps"
+      ],
+      "aliases": [
+        "less than high school unemployment",
+        "education unemployment"
+      ],
+      "notes": "BLS CPS education unemployment-rate series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "demographic_gap"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_rate_high_school_no_college",
+      "title": "Unemployment rate, high school graduates no college",
+      "short_title": "HS no college unemployment",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS14027660",
+      "group": "demographics",
+      "subgroup": "education",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1992,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "unemployment",
+        "education",
+        "high school",
+        "cps"
+      ],
+      "aliases": [
+        "high school unemployment",
+        "no college unemployment"
+      ],
+      "notes": "BLS CPS education unemployment-rate series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "demographic_gap"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_rate_some_college_associate",
+      "title": "Unemployment rate, some college or associate degree",
+      "short_title": "Some college unemployment",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS14027689",
+      "group": "demographics",
+      "subgroup": "education",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1992,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "unemployment",
+        "education",
+        "some college",
+        "associate degree",
+        "cps"
+      ],
+      "aliases": [
+        "some college unemployment",
+        "associate degree unemployment"
+      ],
+      "notes": "BLS CPS education unemployment-rate series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "demographic_gap"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_rate_bachelors_higher",
+      "title": "Unemployment rate, bachelor's degree and higher",
+      "short_title": "Bachelor's+ unemployment",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS14027662",
+      "group": "demographics",
+      "subgroup": "education",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1992,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "unemployment",
+        "education",
+        "bachelors degree",
+        "cps"
+      ],
+      "aliases": [
+        "college degree unemployment",
+        "bachelors unemployment"
+      ],
+      "notes": "BLS CPS education unemployment-rate series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "demographic_gap"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_rate_with_disability",
+      "title": "Unemployment rate, people with a disability",
+      "short_title": "Disability unemployment",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNU04074597",
+      "group": "demographics",
+      "subgroup": "disability",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "NSA",
+      "geography": "US",
+      "start_year": 2008,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "unemployment",
+        "disability",
+        "cps"
+      ],
+      "aliases": [
+        "disabled workers unemployment",
+        "disability unemployment"
+      ],
+      "notes": "BLS CPS Table A-6 disability-status series; BLS API returned observations for this not-seasonally-adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "demographic_gap"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_12",
+          "rolling_12"
+        ]
+      }
+    },
+    {
+      "id": "labor_force_participation_rate_with_disability",
+      "title": "Labor force participation rate, people with a disability",
+      "short_title": "Disability LFPR",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNU01374597",
+      "group": "demographics",
+      "subgroup": "disability",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "NSA",
+      "geography": "US",
+      "start_year": 2008,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "participation",
+        "disability",
+        "cps"
+      ],
+      "aliases": [
+        "disabled workers participation",
+        "disability labor force participation"
+      ],
+      "notes": "BLS CPS Table A-6 disability-status series; BLS API returned observations for this not-seasonally-adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "demographic_gap"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_12",
+          "rolling_12"
+        ]
+      }
+    },
+    {
+      "id": "employment_population_ratio_with_disability",
+      "title": "Employment-population ratio, people with a disability",
+      "short_title": "Disability EPOP",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNU02374597",
+      "group": "demographics",
+      "subgroup": "disability",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "NSA",
+      "geography": "US",
+      "start_year": 2008,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "employment",
+        "disability",
+        "epop",
+        "cps"
+      ],
+      "aliases": [
+        "disabled workers employment-population ratio",
+        "disability epop"
+      ],
+      "notes": "BLS CPS Table A-6 disability-status series; BLS API returned observations for this not-seasonally-adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "demographic_gap"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_12",
+          "rolling_12"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_rate_veterans",
+      "title": "Unemployment rate, veterans",
+      "short_title": "Veteran unemployment",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNU04049526",
+      "group": "demographics",
+      "subgroup": "veterans",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "NSA",
+      "geography": "US",
+      "start_year": 2000,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "unemployment",
+        "veterans",
+        "cps"
+      ],
+      "aliases": [
+        "veteran unemployment",
+        "veterans unemployment rate"
+      ],
+      "notes": "BLS CPS Table A-5 veteran-status series; BLS API returned observations for this not-seasonally-adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "demographic_gap"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_12",
+          "rolling_12"
+        ]
+      }
+    },
+    {
+      "id": "labor_force_participation_rate_veterans",
+      "title": "Labor force participation rate, veterans",
+      "short_title": "Veteran LFPR",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNU01349526",
+      "group": "demographics",
+      "subgroup": "veterans",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "NSA",
+      "geography": "US",
+      "start_year": 2000,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "participation",
+        "veterans",
+        "cps"
+      ],
+      "aliases": [
+        "veteran labor force participation",
+        "veterans lfpr"
+      ],
+      "notes": "BLS CPS Table A-5 veteran-status series; BLS API returned observations for this not-seasonally-adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "demographic_gap"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_12",
+          "rolling_12"
+        ]
+      }
+    },
+    {
+      "id": "employment_population_ratio_veterans",
+      "title": "Employment-population ratio, veterans",
+      "short_title": "Veteran EPOP",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNU02349526",
+      "group": "demographics",
+      "subgroup": "veterans",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "NSA",
+      "geography": "US",
+      "start_year": 2000,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "employment",
+        "veterans",
+        "epop",
+        "cps"
+      ],
+      "aliases": [
+        "veteran employment-population ratio",
+        "veterans epop"
+      ],
+      "notes": "BLS CPS Table A-5 veteran-status series; BLS API returned observations for this not-seasonally-adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "demographic_gap"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_12",
+          "rolling_12"
+        ]
+      }
+    },
+    {
+      "id": "long_term_unemployed_27_weeks_over",
+      "title": "Unemployed 27 weeks and over",
+      "short_title": "Long-term unemployed",
+      "provider": "fred",
+      "source_id": "fred_api",
+      "series_id": "UEMP27OV",
+      "group": "demographics",
+      "subgroup": "duration",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1948,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "long-term unemployment",
+        "duration",
+        "unemployment"
+      ],
+      "aliases": [
+        "27 weeks unemployed",
+        "long duration unemployment"
+      ],
+      "notes": "FRED mirror ID is declared; replace with canonical BLS source series before any redistributable public export.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "share_of_unemployed"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "average_weeks_unemployed",
+      "title": "Average weeks unemployed",
+      "short_title": "Average unemployment duration",
+      "provider": "fred",
+      "source_id": "fred_api",
+      "series_id": "UEMPMEAN",
+      "group": "demographics",
+      "subgroup": "duration",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Weeks",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1948,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "duration",
+        "unemployment",
+        "hardship"
+      ],
+      "aliases": [
+        "mean unemployment duration",
+        "average duration"
+      ],
+      "notes": "FRED mirror ID is declared; replace with canonical BLS source series before any redistributable public export.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line"
+        ],
+        "y_axis_label": "Weeks",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_level_job_losers",
+      "title": "Unemployment level, job losers",
+      "short_title": "Job losers",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS13023621",
+      "group": "demographics",
+      "subgroup": "unemployment_reason",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1967,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "unemployment",
+        "job losers",
+        "unemployment reason",
+        "cps"
+      ],
+      "aliases": [
+        "job losers",
+        "unemployed job losers"
+      ],
+      "notes": "BLS CPS Table A-11 unemployment-reason series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "stacked_area",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_level_permanent_job_losers",
+      "title": "Unemployment level, permanent job losers",
+      "short_title": "Permanent job losers",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS13026638",
+      "group": "demographics",
+      "subgroup": "unemployment_reason",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1994,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "unemployment",
+        "permanent job losers",
+        "unemployment reason",
+        "cps"
+      ],
+      "aliases": [
+        "permanent job losers",
+        "permanent layoffs"
+      ],
+      "notes": "BLS CPS Table A-11 unemployment-reason series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "stacked_area",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_level_job_leavers",
+      "title": "Unemployment level, job leavers",
+      "short_title": "Job leavers",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS13023705",
+      "group": "demographics",
+      "subgroup": "unemployment_reason",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1967,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "unemployment",
+        "job leavers",
+        "unemployment reason",
+        "cps"
+      ],
+      "aliases": [
+        "job leavers",
+        "voluntary unemployed"
+      ],
+      "notes": "BLS CPS Table A-11 unemployment-reason series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "stacked_area",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_level_reentrants",
+      "title": "Unemployment level, reentrants to labor force",
+      "short_title": "Reentrants",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS13023557",
+      "group": "demographics",
+      "subgroup": "unemployment_reason",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1967,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "unemployment",
+        "reentrants",
+        "unemployment reason",
+        "cps"
+      ],
+      "aliases": [
+        "reentrants",
+        "labor force reentrants"
+      ],
+      "notes": "BLS CPS Table A-11 unemployment-reason series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "stacked_area",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_level_new_entrants",
+      "title": "Unemployment level, new entrants",
+      "short_title": "New entrants",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS13023569",
+      "group": "demographics",
+      "subgroup": "unemployment_reason",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1967,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "unemployment",
+        "new entrants",
+        "unemployment reason",
+        "cps"
+      ],
+      "aliases": [
+        "new entrants",
+        "first-time labor force entrants"
+      ],
+      "notes": "BLS CPS Table A-11 unemployment-reason series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "stacked_area",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "part_time_for_economic_reasons",
+      "title": "Employed part time for economic reasons",
+      "short_title": "Involuntary part-time",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS12032194",
+      "group": "demographics",
+      "subgroup": "underemployment",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1955,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "underemployment",
+        "part-time",
+        "involuntary",
+        "slack"
+      ],
+      "aliases": [
+        "part time economic reasons",
+        "involuntary part time"
+      ],
+      "notes": "BLS CPS series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "compare_to_u6"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "not_in_labor_force_want_job_now",
+      "title": "Not in labor force, want a job now",
+      "short_title": "Want a job, not in labor force",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS15026639",
+      "group": "demographics",
+      "subgroup": "underemployment",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1994,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "not in labor force",
+        "want job",
+        "hidden unemployment",
+        "slack"
+      ],
+      "aliases": [
+        "want a job now",
+        "hidden unemployment"
+      ],
+      "notes": "BLS CPS series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "labor_slack_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "cpi_all_urban_consumers",
+      "title": "Consumer Price Index for All Urban Consumers, all items",
+      "short_title": "CPI-U",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "CUSR0000SA0",
+      "group": "wages_prices_productivity",
+      "subgroup": "prices",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Index 1982-84=100",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1947,
+      "release": "Consumer Price Index",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "inflation",
+        "prices",
+        "deflator",
+        "real wages"
+      ],
+      "aliases": [
+        "cpi",
+        "cpi-u",
+        "consumer price index"
+      ],
+      "notes": "Used to deflate nominal wage series in the frontend/backend transformations. BLS is canonical; FRED CPIAUCSL is only a convenience mirror.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "inflation_rate"
+        ],
+        "y_axis_label": "Index",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "pce_price_index",
+      "title": "Personal consumption expenditures price index",
+      "short_title": "PCE price index",
+      "provider": "fred",
+      "source_id": "fred_api",
+      "series_id": "PCEPI",
+      "group": "wages_prices_productivity",
+      "subgroup": "prices",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Index 2017=100",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1959,
+      "release": "Personal Income and Outlays",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "inflation",
+        "prices",
+        "deflator",
+        "pce"
+      ],
+      "aliases": [
+        "pcepi",
+        "pce deflator"
+      ],
+      "notes": "FRED mirror ID is declared; verify BEA-origin endpoint before any redistributable public export.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "inflation_rate"
+        ],
+        "y_axis_label": "Index",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "employment_cost_index_wages_salaries_private",
+      "title": "Employment Cost Index, wages and salaries, private industry workers",
+      "short_title": "ECI wages/private",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "CIS2020000000000I",
+      "group": "wages_prices_productivity",
+      "subgroup": "wages",
+      "priority": "extended",
+      "frequency": "Q",
+      "units": "Index",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 2001,
+      "release": "Employment Cost Index",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "wages",
+        "compensation",
+        "eci",
+        "private sector"
+      ],
+      "aliases": [
+        "employment cost index wages",
+        "eci"
+      ],
+      "notes": "Official BLS ECI seasonally adjusted current-dollar index for wages and salaries for all private industry workers; BLS API returned observations for `CIS2020000000000I` on 2026-06-02. Replaces invalid FRED mnemonic `ECIPRIVATEWAG`.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "growth_rate"
+        ],
+        "y_axis_label": "Index",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "labor_productivity_nonfarm_business",
+      "title": "Labor productivity, nonfarm business sector",
+      "short_title": "Labor productivity",
+      "provider": "fred",
+      "source_id": "fred_api",
+      "series_id": "OPHNFB",
+      "group": "wages_prices_productivity",
+      "subgroup": "productivity",
+      "priority": "recommended",
+      "frequency": "Q",
+      "units": "Index 2017=100",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1947,
+      "release": "Productivity and Costs",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "productivity",
+        "output per hour",
+        "nonfarm business"
+      ],
+      "aliases": [
+        "output per hour",
+        "labor productivity"
+      ],
+      "notes": "FRED mirror ID is declared; verify canonical BLS productivity source series before any redistributable public export.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "growth_rate"
+        ],
+        "y_axis_label": "Index",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "unit_labor_cost_nonfarm_business",
+      "title": "Unit labor cost, nonfarm business sector",
+      "short_title": "Unit labor cost",
+      "provider": "fred",
+      "source_id": "fred_api",
+      "series_id": "ULCNFB",
+      "group": "wages_prices_productivity",
+      "subgroup": "productivity",
+      "priority": "recommended",
+      "frequency": "Q",
+      "units": "Index 2017=100",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1947,
+      "release": "Productivity and Costs",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "unit labor cost",
+        "productivity",
+        "compensation"
+      ],
+      "aliases": [
+        "ulc",
+        "labor costs"
+      ],
+      "notes": "FRED mirror ID is declared; verify canonical BLS productivity source series before any redistributable public export.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "growth_rate"
+        ],
+        "y_axis_label": "Index",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "labor_share_nonfarm_business",
+      "title": "Labor share, nonfarm business sector",
+      "short_title": "Labor share",
+      "provider": "fred",
+      "source_id": "fred_api",
+      "series_id": "PRS85006173",
+      "group": "wages_prices_productivity",
+      "subgroup": "distribution",
+      "priority": "recommended",
+      "frequency": "Q",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1947,
+      "release": "Productivity and Costs",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "labor share",
+        "distribution",
+        "compensation",
+        "productivity"
+      ],
+      "aliases": [
+        "worker share",
+        "compensation share"
+      ],
+      "notes": "FRED mirror ID is declared; verify canonical BLS productivity source series before any redistributable public export.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "compare_to_productivity"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_12"
+        ]
+      }
+    },
+    {
+      "id": "wage_salary_disbursements_bea",
+      "title": "Compensation of employees received: wage and salary disbursements",
+      "short_title": "Wage & salary disbursements",
+      "provider": "fred",
+      "source_id": "fred_api",
+      "series_id": "A576RC1",
+      "group": "wages_prices_productivity",
+      "subgroup": "bea_income",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Billions of dollars SAAR",
+      "seasonal_adjustment": "SAAR",
+      "geography": "US",
+      "start_year": 1959,
+      "release": "Personal Income and Outlays",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "bea",
+        "wages",
+        "salaries",
+        "compensation",
+        "personal income"
+      ],
+      "aliases": [
+        "wage salary disbursements",
+        "BEA compensation"
+      ],
+      "notes": "FRED mirror ID is declared; verify BEA-origin endpoint before any redistributable public export.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "share_of_personal_income",
+          "growth_rate"
+        ],
+        "y_axis_label": "Billions of dollars SAAR",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "payrolls_manufacturing",
+      "title": "All employees, manufacturing",
+      "short_title": "Manufacturing jobs",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "CES3000000001",
+      "group": "industry_state_local",
+      "subgroup": "industry_payrolls",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1939,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "industry",
+        "manufacturing",
+        "payrolls"
+      ],
+      "aliases": [
+        "manufacturing employment",
+        "factory jobs"
+      ],
+      "notes": "BLS CES series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "industry_comparison"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "payrolls_construction",
+      "title": "All employees, construction",
+      "short_title": "Construction jobs",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "CES2000000001",
+      "group": "industry_state_local",
+      "subgroup": "industry_payrolls",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1939,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "industry",
+        "construction",
+        "payrolls"
+      ],
+      "aliases": [
+        "construction employment"
+      ],
+      "notes": "BLS CES series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "industry_comparison"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "payrolls_leisure_hospitality",
+      "title": "All employees, leisure and hospitality",
+      "short_title": "Leisure & hospitality jobs",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "CES7000000001",
+      "group": "industry_state_local",
+      "subgroup": "industry_payrolls",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1939,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "industry",
+        "leisure",
+        "hospitality",
+        "payrolls"
+      ],
+      "aliases": [
+        "restaurant hotel jobs",
+        "leisure hospitality employment"
+      ],
+      "notes": "BLS CES series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "industry_comparison"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "payrolls_government",
+      "title": "All employees, government",
+      "short_title": "Government jobs",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "CES9000000001",
+      "group": "industry_state_local",
+      "subgroup": "industry_payrolls",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1939,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "industry",
+        "government",
+        "public sector",
+        "payrolls"
+      ],
+      "aliases": [
+        "public employment",
+        "government employment"
+      ],
+      "notes": "BLS CES series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "industry_comparison"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "payrolls_mining_logging",
+      "title": "All employees, mining and logging",
+      "short_title": "Mining & logging jobs",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "CES1000000001",
+      "group": "industry_state_local",
+      "subgroup": "industry_payrolls",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1939,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "industry",
+        "mining",
+        "logging",
+        "payrolls"
+      ],
+      "aliases": [
+        "mining jobs",
+        "logging jobs"
+      ],
+      "notes": "BLS CES supersector series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "industry_comparison"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "payrolls_trade_transport_utilities",
+      "title": "All employees, trade transportation and utilities",
+      "short_title": "Trade/transport/utilities jobs",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "CES4000000001",
+      "group": "industry_state_local",
+      "subgroup": "industry_payrolls",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1939,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "industry",
+        "trade",
+        "transportation",
+        "utilities",
+        "payrolls"
+      ],
+      "aliases": [
+        "trade transportation utilities employment",
+        "ttu jobs"
+      ],
+      "notes": "BLS CES supersector series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "industry_comparison"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "payrolls_information",
+      "title": "All employees, information",
+      "short_title": "Information jobs",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "CES5000000001",
+      "group": "industry_state_local",
+      "subgroup": "industry_payrolls",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1939,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "industry",
+        "information",
+        "payrolls"
+      ],
+      "aliases": [
+        "information sector jobs"
+      ],
+      "notes": "BLS CES supersector series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "industry_comparison"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "payrolls_financial_activities",
+      "title": "All employees, financial activities",
+      "short_title": "Financial activities jobs",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "CES5500000001",
+      "group": "industry_state_local",
+      "subgroup": "industry_payrolls",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1939,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "industry",
+        "finance",
+        "financial activities",
+        "payrolls"
+      ],
+      "aliases": [
+        "finance jobs",
+        "financial sector employment"
+      ],
+      "notes": "BLS CES supersector series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "industry_comparison"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "payrolls_professional_business_services",
+      "title": "All employees, professional and business services",
+      "short_title": "Professional services jobs",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "CES6000000001",
+      "group": "industry_state_local",
+      "subgroup": "industry_payrolls",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1939,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "industry",
+        "professional services",
+        "business services",
+        "payrolls"
+      ],
+      "aliases": [
+        "professional business services employment",
+        "pbs jobs"
+      ],
+      "notes": "BLS CES supersector series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "industry_comparison"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "payrolls_education_health_services",
+      "title": "All employees, education and health services",
+      "short_title": "Education/health jobs",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "CES6500000001",
+      "group": "industry_state_local",
+      "subgroup": "industry_payrolls",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1939,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "industry",
+        "education",
+        "health services",
+        "payrolls"
+      ],
+      "aliases": [
+        "education health services employment",
+        "health education jobs"
+      ],
+      "notes": "BLS CES supersector series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "industry_comparison"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "qcew_total_private_employment_annual",
+      "title": "QCEW annual average employment, total private, all industries",
+      "short_title": "QCEW private employment",
+      "provider": "qcew",
+      "source_id": "bls_qcew_open_data",
+      "series_id": "qcew:US000:private:10:annual_avg_emplvl",
+      "group": "industry_state_local",
+      "subgroup": "qcew",
+      "priority": "recommended",
+      "frequency": "A",
+      "units": "Jobs",
+      "seasonal_adjustment": "NSA",
+      "geography": "US",
+      "start_year": 1990,
+      "release": "QCEW annual averages",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "qcew",
+        "employment",
+        "private sector",
+        "industry",
+        "annual"
+      ],
+      "aliases": [
+        "covered employment",
+        "private covered jobs"
+      ],
+      "notes": "QCEW slice parameters are declared; verify live annual slice parsing and aggregation before promoting beyond recommended.",
+      "api_params": {
+        "qtr": "A",
+        "slice_type": "area",
+        "slice_code": "US000",
+        "area_fips": "US000",
+        "own_code": 5,
+        "industry_code": "10",
+        "value_field": "annual_avg_emplvl"
+      },
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "industry_drilldown"
+        ],
+        "y_axis_label": "Jobs",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "pct_change_12",
+          "index_first_100"
+        ]
+      }
+    },
+    {
+      "id": "qcew_total_private_average_weekly_wage_annual",
+      "title": "QCEW annual average weekly wage, total private, all industries",
+      "short_title": "QCEW private weekly wage",
+      "provider": "qcew",
+      "source_id": "bls_qcew_open_data",
+      "series_id": "qcew:US000:private:10:annual_avg_wkly_wage",
+      "group": "industry_state_local",
+      "subgroup": "qcew",
+      "priority": "recommended",
+      "frequency": "A",
+      "units": "Dollars per week",
+      "seasonal_adjustment": "NSA",
+      "geography": "US",
+      "start_year": 1990,
+      "release": "QCEW annual averages",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "qcew",
+        "wages",
+        "average weekly wage",
+        "private sector",
+        "annual"
+      ],
+      "aliases": [
+        "covered weekly wage",
+        "average weekly wages"
+      ],
+      "notes": "QCEW slice parameters are declared; verify live annual slice parsing and aggregation before promoting beyond recommended.",
+      "api_params": {
+        "qtr": "A",
+        "slice_type": "area",
+        "slice_code": "US000",
+        "area_fips": "US000",
+        "own_code": 5,
+        "industry_code": "10",
+        "value_field": "annual_avg_wkly_wage"
+      },
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "real_wage_toggle"
+        ],
+        "y_axis_label": "Dollars/week",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "qwi_state_employment",
+      "title": "QWI beginning-of-quarter employment by state",
+      "short_title": "QWI state employment",
+      "provider": "census_qwi",
+      "source_id": "census_qwi_api",
+      "series_id": "Emp",
+      "group": "industry_state_local",
+      "subgroup": "qwi",
+      "priority": "extended",
+      "frequency": "Q",
+      "units": "Jobs",
+      "seasonal_adjustment": "NSA",
+      "geography": "state:*",
+      "start_year": 2010,
+      "release": "Quarterly Workforce Indicators",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "qwi",
+        "lehd",
+        "state",
+        "employment",
+        "demographics"
+      ],
+      "aliases": [
+        "qwi employment",
+        "lehd employment"
+      ],
+      "notes": "Census QWI parameters are declared; verify live state response, geography fields, and QWI release metadata before promoting.",
+      "api_params": {
+        "endpoint": "sa",
+        "get": "Emp",
+        "for": "state:*",
+        "sex": "0",
+        "agegrp": "A00",
+        "industry": "00",
+        "ownercode": "A05",
+        "seasonadj": "U"
+      },
+      "chart": {
+        "default_type": "map",
+        "recommended": [
+          "map",
+          "ranked_bar",
+          "small_multiples"
+        ],
+        "y_axis_label": "Jobs",
+        "show_recession_bands": false,
+        "allow_geography_filter": true,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "qwi_state_hires_all",
+      "title": "QWI hires all by state",
+      "short_title": "QWI hires",
+      "provider": "census_qwi",
+      "source_id": "census_qwi_api",
+      "series_id": "HirA",
+      "group": "industry_state_local",
+      "subgroup": "qwi",
+      "priority": "extended",
+      "frequency": "Q",
+      "units": "Hires",
+      "seasonal_adjustment": "NSA",
+      "geography": "state:*",
+      "start_year": 2010,
+      "release": "Quarterly Workforce Indicators",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "qwi",
+        "lehd",
+        "state",
+        "hires",
+        "flows"
+      ],
+      "aliases": [
+        "qwi hiring",
+        "hires all"
+      ],
+      "notes": "Census QWI parameters are declared; verify live state response, geography fields, and QWI release metadata before promoting.",
+      "api_params": {
+        "endpoint": "sa",
+        "get": "HirA",
+        "for": "state:*",
+        "sex": "0",
+        "agegrp": "A00",
+        "industry": "00",
+        "ownercode": "A05",
+        "seasonadj": "U"
+      },
+      "chart": {
+        "default_type": "map",
+        "recommended": [
+          "map",
+          "flow_panel",
+          "ranked_bar"
+        ],
+        "y_axis_label": "Hires",
+        "show_recession_bands": false,
+        "allow_geography_filter": true,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "qwi_state_separations",
+      "title": "QWI separations by state",
+      "short_title": "QWI separations",
+      "provider": "census_qwi",
+      "source_id": "census_qwi_api",
+      "series_id": "Sep",
+      "group": "industry_state_local",
+      "subgroup": "qwi",
+      "priority": "extended",
+      "frequency": "Q",
+      "units": "Separations",
+      "seasonal_adjustment": "NSA",
+      "geography": "state:*",
+      "start_year": 2010,
+      "release": "Quarterly Workforce Indicators",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "qwi",
+        "lehd",
+        "state",
+        "separations",
+        "flows"
+      ],
+      "aliases": [
+        "qwi separations",
+        "job separations"
+      ],
+      "notes": "Census QWI parameters are declared; verify live state response, geography fields, and QWI release metadata before promoting.",
+      "api_params": {
+        "endpoint": "sa",
+        "get": "Sep",
+        "for": "state:*",
+        "sex": "0",
+        "agegrp": "A00",
+        "industry": "00",
+        "ownercode": "A05",
+        "seasonadj": "U"
+      },
+      "chart": {
+        "default_type": "map",
+        "recommended": [
+          "map",
+          "flow_panel",
+          "ranked_bar"
+        ],
+        "y_axis_label": "Separations",
+        "show_recession_bands": false,
+        "allow_geography_filter": true,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "qwi_state_job_creation",
+      "title": "QWI firm job gains by state",
+      "short_title": "QWI job creation",
+      "provider": "census_qwi",
+      "source_id": "census_qwi_api",
+      "series_id": "FrmJbGn",
+      "group": "industry_state_local",
+      "subgroup": "qwi",
+      "priority": "extended",
+      "frequency": "Q",
+      "units": "Jobs",
+      "seasonal_adjustment": "NSA",
+      "geography": "state:*",
+      "start_year": 2010,
+      "release": "Quarterly Workforce Indicators",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "qwi",
+        "lehd",
+        "state",
+        "job creation",
+        "flows"
+      ],
+      "aliases": [
+        "qwi job gains",
+        "firm job gains",
+        "job creation by state"
+      ],
+      "notes": "Census QWI firm job gains by state; map-ready state panel for flow and ranked geography views.",
+      "api_params": {
+        "endpoint": "sa",
+        "get": "FrmJbGn",
+        "for": "state:*",
+        "sex": "0",
+        "agegrp": "A00",
+        "industry": "00",
+        "ownercode": "A05",
+        "seasonadj": "U"
+      },
+      "chart": {
+        "default_type": "map",
+        "recommended": [
+          "map",
+          "flow_panel",
+          "ranked_bar"
+        ],
+        "y_axis_label": "Jobs",
+        "show_recession_bands": false,
+        "allow_geography_filter": true,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "qwi_state_job_destruction",
+      "title": "QWI firm job losses by state",
+      "short_title": "QWI job destruction",
+      "provider": "census_qwi",
+      "source_id": "census_qwi_api",
+      "series_id": "FrmJbLs",
+      "group": "industry_state_local",
+      "subgroup": "qwi",
+      "priority": "extended",
+      "frequency": "Q",
+      "units": "Jobs",
+      "seasonal_adjustment": "NSA",
+      "geography": "state:*",
+      "start_year": 2010,
+      "release": "Quarterly Workforce Indicators",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "qwi",
+        "lehd",
+        "state",
+        "job destruction",
+        "flows"
+      ],
+      "aliases": [
+        "qwi job losses",
+        "firm job losses",
+        "job destruction by state"
+      ],
+      "notes": "Census QWI firm job losses by state; map-ready state panel for flow and ranked geography views.",
+      "api_params": {
+        "endpoint": "sa",
+        "get": "FrmJbLs",
+        "for": "state:*",
+        "sex": "0",
+        "agegrp": "A00",
+        "industry": "00",
+        "ownercode": "A05",
+        "seasonadj": "U"
+      },
+      "chart": {
+        "default_type": "map",
+        "recommended": [
+          "map",
+          "flow_panel",
+          "ranked_bar"
+        ],
+        "y_axis_label": "Jobs",
+        "show_recession_bands": false,
+        "allow_geography_filter": true,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "qwi_state_payroll",
+      "title": "QWI payroll by state",
+      "short_title": "QWI payroll",
+      "provider": "census_qwi",
+      "source_id": "census_qwi_api",
+      "series_id": "Payroll",
+      "group": "industry_state_local",
+      "subgroup": "qwi",
+      "priority": "extended",
+      "frequency": "Q",
+      "units": "Dollars",
+      "seasonal_adjustment": "NSA",
+      "geography": "state:*",
+      "start_year": 2010,
+      "release": "Quarterly Workforce Indicators",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "qwi",
+        "lehd",
+        "state",
+        "payroll",
+        "wages"
+      ],
+      "aliases": [
+        "qwi payroll",
+        "state payroll"
+      ],
+      "notes": "Census QWI payroll by state; map-ready state panel for wage and ranked geography views.",
+      "api_params": {
+        "endpoint": "sa",
+        "get": "Payroll",
+        "for": "state:*",
+        "sex": "0",
+        "agegrp": "A00",
+        "industry": "00",
+        "ownercode": "A05",
+        "seasonadj": "U"
+      },
+      "chart": {
+        "default_type": "map",
+        "recommended": [
+          "map",
+          "ranked_bar"
+        ],
+        "y_axis_label": "Dollars",
+        "show_recession_bands": false,
+        "allow_geography_filter": true,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "qwi_state_average_monthly_earnings",
+      "title": "QWI stable-job average monthly earnings by state",
+      "short_title": "QWI monthly earnings",
+      "provider": "census_qwi",
+      "source_id": "census_qwi_api",
+      "series_id": "EarnS",
+      "group": "industry_state_local",
+      "subgroup": "qwi",
+      "priority": "extended",
+      "frequency": "Q",
+      "units": "Dollars per month",
+      "seasonal_adjustment": "NSA",
+      "geography": "state:*",
+      "start_year": 2010,
+      "release": "Quarterly Workforce Indicators",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "qwi",
+        "lehd",
+        "state",
+        "earnings",
+        "wages"
+      ],
+      "aliases": [
+        "qwi earnings",
+        "monthly earnings by state",
+        "stable job earnings"
+      ],
+      "notes": "Census QWI average monthly earnings for stable jobs by state; map-ready state panel for wage and ranked geography views.",
+      "api_params": {
+        "endpoint": "sa",
+        "get": "EarnS",
+        "for": "state:*",
+        "sex": "0",
+        "agegrp": "A00",
+        "industry": "00",
+        "ownercode": "A05",
+        "seasonadj": "U"
+      },
+      "chart": {
+        "default_type": "map",
+        "recommended": [
+          "map",
+          "ranked_bar"
+        ],
+        "y_axis_label": "Dollars/month",
+        "show_recession_bands": false,
+        "allow_geography_filter": true,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "qwi_state_turnover_rate",
+      "title": "QWI stable-job turnover rate by state",
+      "short_title": "QWI turnover rate",
+      "provider": "census_qwi",
+      "source_id": "census_qwi_api",
+      "series_id": "TurnOvrS",
+      "group": "industry_state_local",
+      "subgroup": "qwi",
+      "priority": "extended",
+      "frequency": "Q",
+      "units": "Percent",
+      "seasonal_adjustment": "NSA",
+      "geography": "state:*",
+      "start_year": 2010,
+      "release": "Quarterly Workforce Indicators",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "qwi",
+        "lehd",
+        "state",
+        "turnover",
+        "flows"
+      ],
+      "aliases": [
+        "qwi turnover",
+        "stable job turnover",
+        "turnover rate by state"
+      ],
+      "notes": "Census QWI stable-job turnover rate by state; map-ready state panel for flow and ranked geography views.",
+      "api_params": {
+        "endpoint": "sa",
+        "get": "TurnOvrS",
+        "for": "state:*",
+        "sex": "0",
+        "agegrp": "A00",
+        "industry": "00",
+        "ownercode": "A05",
+        "seasonadj": "U"
+      },
+      "chart": {
+        "default_type": "map",
+        "recommended": [
+          "map",
+          "ranked_bar"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": true,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "laus_state_unemployment_template",
+      "title": "LAUS state unemployment rate",
+      "short_title": "State unemployment",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LASST*0000000000003",
+      "group": "industry_state_local",
+      "subgroup": "laus",
+      "priority": "extended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "state:*",
+      "start_year": 1976,
+      "release": "Local Area Unemployment Statistics",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "laus",
+        "state",
+        "unemployment",
+        "template"
+      ],
+      "aliases": [
+        "state unemployment rates",
+        "local area unemployment"
+      ],
+      "notes": "Fetchable BLS LAUS state/DC/Puerto Rico seasonally adjusted unemployment-rate series. Series pattern validated for sample state FIPS on 2026-06-02; BLS API catalog metadata is disabled for this LAUS request, so geography is preserved through configured series-to-state footnotes.",
+      "api_params": {
+        "series_ids": [
+          "LASST010000000000003",
+          "LASST020000000000003",
+          "LASST040000000000003",
+          "LASST050000000000003",
+          "LASST060000000000003",
+          "LASST080000000000003",
+          "LASST090000000000003",
+          "LASST100000000000003",
+          "LASST110000000000003",
+          "LASST120000000000003",
+          "LASST130000000000003",
+          "LASST150000000000003",
+          "LASST160000000000003",
+          "LASST170000000000003",
+          "LASST180000000000003",
+          "LASST190000000000003",
+          "LASST200000000000003",
+          "LASST210000000000003",
+          "LASST220000000000003",
+          "LASST230000000000003",
+          "LASST240000000000003",
+          "LASST250000000000003",
+          "LASST260000000000003",
+          "LASST270000000000003",
+          "LASST280000000000003",
+          "LASST290000000000003",
+          "LASST300000000000003",
+          "LASST310000000000003",
+          "LASST320000000000003",
+          "LASST330000000000003",
+          "LASST340000000000003",
+          "LASST350000000000003",
+          "LASST360000000000003",
+          "LASST370000000000003",
+          "LASST380000000000003",
+          "LASST390000000000003",
+          "LASST400000000000003",
+          "LASST410000000000003",
+          "LASST420000000000003",
+          "LASST440000000000003",
+          "LASST450000000000003",
+          "LASST460000000000003",
+          "LASST470000000000003",
+          "LASST480000000000003",
+          "LASST490000000000003",
+          "LASST500000000000003",
+          "LASST510000000000003",
+          "LASST530000000000003",
+          "LASST540000000000003",
+          "LASST550000000000003",
+          "LASST560000000000003",
+          "LASST720000000000003"
+        ],
+        "geography_by_series_id": {
+          "LASST010000000000003": "state:01",
+          "LASST020000000000003": "state:02",
+          "LASST040000000000003": "state:04",
+          "LASST050000000000003": "state:05",
+          "LASST060000000000003": "state:06",
+          "LASST080000000000003": "state:08",
+          "LASST090000000000003": "state:09",
+          "LASST100000000000003": "state:10",
+          "LASST110000000000003": "state:11",
+          "LASST120000000000003": "state:12",
+          "LASST130000000000003": "state:13",
+          "LASST150000000000003": "state:15",
+          "LASST160000000000003": "state:16",
+          "LASST170000000000003": "state:17",
+          "LASST180000000000003": "state:18",
+          "LASST190000000000003": "state:19",
+          "LASST200000000000003": "state:20",
+          "LASST210000000000003": "state:21",
+          "LASST220000000000003": "state:22",
+          "LASST230000000000003": "state:23",
+          "LASST240000000000003": "state:24",
+          "LASST250000000000003": "state:25",
+          "LASST260000000000003": "state:26",
+          "LASST270000000000003": "state:27",
+          "LASST280000000000003": "state:28",
+          "LASST290000000000003": "state:29",
+          "LASST300000000000003": "state:30",
+          "LASST310000000000003": "state:31",
+          "LASST320000000000003": "state:32",
+          "LASST330000000000003": "state:33",
+          "LASST340000000000003": "state:34",
+          "LASST350000000000003": "state:35",
+          "LASST360000000000003": "state:36",
+          "LASST370000000000003": "state:37",
+          "LASST380000000000003": "state:38",
+          "LASST390000000000003": "state:39",
+          "LASST400000000000003": "state:40",
+          "LASST410000000000003": "state:41",
+          "LASST420000000000003": "state:42",
+          "LASST440000000000003": "state:44",
+          "LASST450000000000003": "state:45",
+          "LASST460000000000003": "state:46",
+          "LASST470000000000003": "state:47",
+          "LASST480000000000003": "state:48",
+          "LASST490000000000003": "state:49",
+          "LASST500000000000003": "state:50",
+          "LASST510000000000003": "state:51",
+          "LASST530000000000003": "state:53",
+          "LASST540000000000003": "state:54",
+          "LASST550000000000003": "state:55",
+          "LASST560000000000003": "state:56",
+          "LASST720000000000003": "state:72"
+        }
+      },
+      "chart": {
+        "default_type": "map",
+        "recommended": [
+          "map",
+          "ranked_bar",
+          "small_multiples"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": true,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12"
+        ]
+      }
+    },
+    {
+      "id": "laus_state_labor_force",
+      "title": "LAUS state labor force",
+      "short_title": "State labor force",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LASST*0000000000006",
+      "group": "industry_state_local",
+      "subgroup": "laus",
+      "priority": "extended",
+      "frequency": "M",
+      "units": "Persons",
+      "seasonal_adjustment": "SA",
+      "geography": "state:*",
+      "start_year": 1976,
+      "release": "Local Area Unemployment Statistics",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "laus",
+        "state",
+        "labor force"
+      ],
+      "aliases": [
+        "state labor force",
+        "local area labor force"
+      ],
+      "notes": "Fetchable BLS LAUS state/DC/Puerto Rico seasonally adjusted labor-force series. Series pattern validated for sample state FIPS on 2026-06-02.",
+      "api_params": {
+        "series_template": "LASST{geo}0000000000006",
+        "geographies": [
+          "01",
+          "02",
+          "04",
+          "05",
+          "06",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "44",
+          "45",
+          "46",
+          "47",
+          "48",
+          "49",
+          "50",
+          "51",
+          "53",
+          "54",
+          "55",
+          "56",
+          "72"
+        ],
+        "geography_template": "state:{geo}"
+      },
+      "chart": {
+        "default_type": "map",
+        "recommended": [
+          "map",
+          "ranked_bar",
+          "small_multiples"
+        ],
+        "y_axis_label": "Persons",
+        "show_recession_bands": false,
+        "allow_geography_filter": true,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "laus_state_employment",
+      "title": "LAUS state employment",
+      "short_title": "State employment",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LASST*0000000000005",
+      "group": "industry_state_local",
+      "subgroup": "laus",
+      "priority": "extended",
+      "frequency": "M",
+      "units": "Persons",
+      "seasonal_adjustment": "SA",
+      "geography": "state:*",
+      "start_year": 1976,
+      "release": "Local Area Unemployment Statistics",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "laus",
+        "state",
+        "employment"
+      ],
+      "aliases": [
+        "state employment",
+        "local area employment"
+      ],
+      "notes": "Fetchable BLS LAUS state/DC/Puerto Rico seasonally adjusted employment series. Series pattern validated for sample state FIPS on 2026-06-02.",
+      "api_params": {
+        "series_template": "LASST{geo}0000000000005",
+        "geographies": [
+          "01",
+          "02",
+          "04",
+          "05",
+          "06",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "44",
+          "45",
+          "46",
+          "47",
+          "48",
+          "49",
+          "50",
+          "51",
+          "53",
+          "54",
+          "55",
+          "56",
+          "72"
+        ],
+        "geography_template": "state:{geo}"
+      },
+      "chart": {
+        "default_type": "map",
+        "recommended": [
+          "map",
+          "ranked_bar",
+          "small_multiples"
+        ],
+        "y_axis_label": "Persons",
+        "show_recession_bands": false,
+        "allow_geography_filter": true,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "laus_state_unemployment_level",
+      "title": "LAUS state unemployment level",
+      "short_title": "State unemployed",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LASST*0000000000004",
+      "group": "industry_state_local",
+      "subgroup": "laus",
+      "priority": "extended",
+      "frequency": "M",
+      "units": "Persons",
+      "seasonal_adjustment": "SA",
+      "geography": "state:*",
+      "start_year": 1976,
+      "release": "Local Area Unemployment Statistics",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "laus",
+        "state",
+        "unemployment",
+        "level"
+      ],
+      "aliases": [
+        "state unemployed persons",
+        "local area unemployed"
+      ],
+      "notes": "Fetchable BLS LAUS state/DC/Puerto Rico seasonally adjusted unemployment-level series. Series pattern validated for sample state FIPS on 2026-06-02.",
+      "api_params": {
+        "series_template": "LASST{geo}0000000000004",
+        "geographies": [
+          "01",
+          "02",
+          "04",
+          "05",
+          "06",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "44",
+          "45",
+          "46",
+          "47",
+          "48",
+          "49",
+          "50",
+          "51",
+          "53",
+          "54",
+          "55",
+          "56",
+          "72"
+        ],
+        "geography_template": "state:{geo}"
+      },
+      "chart": {
+        "default_type": "map",
+        "recommended": [
+          "map",
+          "ranked_bar",
+          "small_multiples"
+        ],
+        "y_axis_label": "Persons",
+        "show_recession_bands": false,
+        "allow_geography_filter": true,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "cps_flow_employed_to_employed",
+      "title": "CPS labor force flow, employed to employed",
+      "short_title": "E to E",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS17000000",
+      "group": "flows",
+      "subgroup": "cps_flows",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1990,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "cps",
+        "labor force flows",
+        "employment",
+        "transitions"
+      ],
+      "aliases": [
+        "employed to employed",
+        "ee flow",
+        "stayed employed"
+      ],
+      "notes": "BLS CPS research labor-force-flow series; BLS API returned observations for this seasonally adjusted series on 2026-06-01.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_matrix",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "cps_flow_unemployed_to_employed",
+      "title": "CPS labor force flow, unemployed to employed",
+      "short_title": "U to E",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS17100000",
+      "group": "flows",
+      "subgroup": "cps_flows",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1990,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "cps",
+        "labor force flows",
+        "employment",
+        "unemployment",
+        "transitions"
+      ],
+      "aliases": [
+        "unemployed to employed",
+        "ue flow",
+        "job finding"
+      ],
+      "notes": "BLS CPS research labor-force-flow series; BLS API returned observations for this seasonally adjusted series on 2026-06-01.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_matrix",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "cps_flow_not_in_labor_force_to_employed",
+      "title": "CPS labor force flow, not in labor force to employed",
+      "short_title": "NILF to E",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS17200000",
+      "group": "flows",
+      "subgroup": "cps_flows",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1990,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "cps",
+        "labor force flows",
+        "employment",
+        "participation",
+        "transitions"
+      ],
+      "aliases": [
+        "not in labor force to employed",
+        "ne flow",
+        "nilf to employed"
+      ],
+      "notes": "BLS CPS research labor-force-flow series; BLS API returned observations for this seasonally adjusted series on 2026-06-01.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_matrix",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "cps_flow_marginal_inflows_to_employed",
+      "title": "CPS labor force flow, marginal inflows to employed",
+      "short_title": "Other to E",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS17300000",
+      "group": "flows",
+      "subgroup": "cps_flows",
+      "priority": "extended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1990,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "cps",
+        "labor force flows",
+        "employment",
+        "marginal inflows"
+      ],
+      "aliases": [
+        "other inflows to employed",
+        "marginal inflows to employment"
+      ],
+      "notes": "BLS CPS research labor-force-flow series for inflows from outside the month-to-month matched sample; BLS API returned observations on 2026-06-01.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_matrix"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "cps_flow_employed_to_unemployed",
+      "title": "CPS labor force flow, employed to unemployed",
+      "short_title": "E to U",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS17400000",
+      "group": "flows",
+      "subgroup": "cps_flows",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1990,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "cps",
+        "labor force flows",
+        "employment",
+        "unemployment",
+        "transitions"
+      ],
+      "aliases": [
+        "employed to unemployed",
+        "eu flow",
+        "job loss into unemployment"
+      ],
+      "notes": "BLS CPS research labor-force-flow series; BLS API returned observations for this seasonally adjusted series on 2026-06-01.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_matrix",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "cps_flow_unemployed_to_unemployed",
+      "title": "CPS labor force flow, unemployed to unemployed",
+      "short_title": "U to U",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS17500000",
+      "group": "flows",
+      "subgroup": "cps_flows",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1990,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "cps",
+        "labor force flows",
+        "unemployment",
+        "transitions"
+      ],
+      "aliases": [
+        "unemployed to unemployed",
+        "uu flow",
+        "remained unemployed"
+      ],
+      "notes": "BLS CPS research labor-force-flow series; BLS API returned observations for this seasonally adjusted series on 2026-06-01.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_matrix",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "cps_flow_not_in_labor_force_to_unemployed",
+      "title": "CPS labor force flow, not in labor force to unemployed",
+      "short_title": "NILF to U",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS17600000",
+      "group": "flows",
+      "subgroup": "cps_flows",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1990,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "cps",
+        "labor force flows",
+        "unemployment",
+        "participation",
+        "transitions"
+      ],
+      "aliases": [
+        "not in labor force to unemployed",
+        "nu flow",
+        "nilf to unemployed"
+      ],
+      "notes": "BLS CPS research labor-force-flow series; BLS API returned observations for this seasonally adjusted series on 2026-06-01.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_matrix",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "cps_flow_marginal_inflows_to_unemployed",
+      "title": "CPS labor force flow, marginal inflows to unemployed",
+      "short_title": "Other to U",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS17700000",
+      "group": "flows",
+      "subgroup": "cps_flows",
+      "priority": "extended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1990,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "cps",
+        "labor force flows",
+        "unemployment",
+        "marginal inflows"
+      ],
+      "aliases": [
+        "other inflows to unemployed",
+        "marginal inflows to unemployment"
+      ],
+      "notes": "BLS CPS research labor-force-flow series for inflows from outside the month-to-month matched sample; BLS API returned observations on 2026-06-01.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_matrix"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "cps_flow_employed_to_not_in_labor_force",
+      "title": "CPS labor force flow, employed to not in labor force",
+      "short_title": "E to NILF",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS17800000",
+      "group": "flows",
+      "subgroup": "cps_flows",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1990,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "cps",
+        "labor force flows",
+        "employment",
+        "participation",
+        "transitions"
+      ],
+      "aliases": [
+        "employed to not in labor force",
+        "en flow",
+        "employment to nilf"
+      ],
+      "notes": "BLS CPS research labor-force-flow series; BLS API returned observations for this seasonally adjusted series on 2026-06-01.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_matrix",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "cps_flow_unemployed_to_not_in_labor_force",
+      "title": "CPS labor force flow, unemployed to not in labor force",
+      "short_title": "U to NILF",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS17900000",
+      "group": "flows",
+      "subgroup": "cps_flows",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1990,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "cps",
+        "labor force flows",
+        "unemployment",
+        "participation",
+        "transitions"
+      ],
+      "aliases": [
+        "unemployed to not in labor force",
+        "un flow",
+        "unemployment to nilf"
+      ],
+      "notes": "BLS CPS research labor-force-flow series; BLS API returned observations for this seasonally adjusted series on 2026-06-01.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_matrix",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "cps_flow_not_in_labor_force_to_not_in_labor_force",
+      "title": "CPS labor force flow, not in labor force to not in labor force",
+      "short_title": "NILF to NILF",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS18000000",
+      "group": "flows",
+      "subgroup": "cps_flows",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1990,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "cps",
+        "labor force flows",
+        "participation",
+        "transitions"
+      ],
+      "aliases": [
+        "not in labor force to not in labor force",
+        "nn flow",
+        "remained out of labor force"
+      ],
+      "notes": "BLS CPS research labor-force-flow series; BLS API returned observations for this seasonally adjusted series on 2026-06-01.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_matrix",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "cps_flow_marginal_inflows_to_not_in_labor_force",
+      "title": "CPS labor force flow, marginal inflows to not in labor force",
+      "short_title": "Other to NILF",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS18100000",
+      "group": "flows",
+      "subgroup": "cps_flows",
+      "priority": "extended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1990,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "cps",
+        "labor force flows",
+        "participation",
+        "marginal inflows"
+      ],
+      "aliases": [
+        "other inflows to not in labor force",
+        "marginal inflows to nilf"
+      ],
+      "notes": "BLS CPS research labor-force-flow series for inflows from outside the month-to-month matched sample; BLS API returned observations on 2026-06-01.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_matrix"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "cps_flow_employed_to_other_outflows",
+      "title": "CPS labor force flow, employed to other outflows",
+      "short_title": "E to other",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS18200000",
+      "group": "flows",
+      "subgroup": "cps_flows",
+      "priority": "extended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1990,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "cps",
+        "labor force flows",
+        "employment",
+        "marginal outflows"
+      ],
+      "aliases": [
+        "employed to marginal outflows",
+        "employed to other outflows"
+      ],
+      "notes": "BLS CPS research labor-force-flow series for outflows from the month-to-month matched sample; BLS API returned observations on 2026-06-01.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_matrix"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "cps_flow_unemployed_to_other_outflows",
+      "title": "CPS labor force flow, unemployed to other outflows",
+      "short_title": "U to other",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS18300000",
+      "group": "flows",
+      "subgroup": "cps_flows",
+      "priority": "extended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1990,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "cps",
+        "labor force flows",
+        "unemployment",
+        "marginal outflows"
+      ],
+      "aliases": [
+        "unemployed to marginal outflows",
+        "unemployed to other outflows"
+      ],
+      "notes": "BLS CPS research labor-force-flow series for outflows from the month-to-month matched sample; BLS API returned observations on 2026-06-01.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_matrix"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "cps_flow_not_in_labor_force_to_other_outflows",
+      "title": "CPS labor force flow, not in labor force to other outflows",
+      "short_title": "NILF to other",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS18400000",
+      "group": "flows",
+      "subgroup": "cps_flows",
+      "priority": "extended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1990,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "cps",
+        "labor force flows",
+        "participation",
+        "marginal outflows"
+      ],
+      "aliases": [
+        "not in labor force to marginal outflows",
+        "nilf to other outflows"
+      ],
+      "notes": "BLS CPS research labor-force-flow series for outflows from the month-to-month matched sample; BLS API returned observations on 2026-06-01.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_matrix"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "bed_gross_job_gains_level",
+      "title": "BED gross job gains, total private",
+      "short_title": "Gross job gains",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "BDS0000000000000000110001LQ5",
+      "group": "flows",
+      "subgroup": "business_employment_dynamics",
+      "priority": "recommended",
+      "frequency": "Q",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1992,
+      "release": "Business Employment Dynamics",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "bed",
+        "gross job gains",
+        "business dynamics",
+        "qcew",
+        "flows"
+      ],
+      "aliases": [
+        "gross job gains",
+        "job creation",
+        "bed gains"
+      ],
+      "notes": "BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_4",
+          "rolling_4"
+        ]
+      }
+    },
+    {
+      "id": "bed_gross_job_gains_rate",
+      "title": "BED gross job gains rate, total private",
+      "short_title": "Gains rate",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "BDS0000000000000000110001RQ5",
+      "group": "flows",
+      "subgroup": "business_employment_dynamics",
+      "priority": "recommended",
+      "frequency": "Q",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1992,
+      "release": "Business Employment Dynamics",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "bed",
+        "gross job gains",
+        "business dynamics",
+        "qcew",
+        "flows",
+        "rate"
+      ],
+      "aliases": [
+        "gross job gains rate",
+        "job creation rate",
+        "bed gains rate"
+      ],
+      "notes": "BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_4",
+          "rolling_4"
+        ]
+      }
+    },
+    {
+      "id": "bed_expansions_level",
+      "title": "BED employment gained from expansions, total private",
+      "short_title": "Expansions",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "BDS0000000000000000110002LQ5",
+      "group": "flows",
+      "subgroup": "business_employment_dynamics",
+      "priority": "recommended",
+      "frequency": "Q",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1992,
+      "release": "Business Employment Dynamics",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "bed",
+        "expansions",
+        "job gains",
+        "business dynamics",
+        "flows"
+      ],
+      "aliases": [
+        "employment gained from expansions",
+        "expanding establishments"
+      ],
+      "notes": "BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_4",
+          "rolling_4"
+        ]
+      }
+    },
+    {
+      "id": "bed_expansions_rate",
+      "title": "BED employment gained from expansions rate, total private",
+      "short_title": "Expansions rate",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "BDS0000000000000000110002RQ5",
+      "group": "flows",
+      "subgroup": "business_employment_dynamics",
+      "priority": "recommended",
+      "frequency": "Q",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1992,
+      "release": "Business Employment Dynamics",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "bed",
+        "expansions",
+        "job gains",
+        "business dynamics",
+        "flows",
+        "rate"
+      ],
+      "aliases": [
+        "expansions rate",
+        "expanding establishment gains rate"
+      ],
+      "notes": "BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_4",
+          "rolling_4"
+        ]
+      }
+    },
+    {
+      "id": "bed_openings_level",
+      "title": "BED employment gained from openings, total private",
+      "short_title": "Openings gains",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "BDS0000000000000000110003LQ5",
+      "group": "flows",
+      "subgroup": "business_employment_dynamics",
+      "priority": "recommended",
+      "frequency": "Q",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1992,
+      "release": "Business Employment Dynamics",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "bed",
+        "openings",
+        "births",
+        "job gains",
+        "business dynamics",
+        "flows"
+      ],
+      "aliases": [
+        "employment gained from openings",
+        "opening establishments"
+      ],
+      "notes": "BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_4",
+          "rolling_4"
+        ]
+      }
+    },
+    {
+      "id": "bed_openings_rate",
+      "title": "BED employment gained from openings rate, total private",
+      "short_title": "Openings rate",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "BDS0000000000000000110003RQ5",
+      "group": "flows",
+      "subgroup": "business_employment_dynamics",
+      "priority": "recommended",
+      "frequency": "Q",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1992,
+      "release": "Business Employment Dynamics",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "bed",
+        "openings",
+        "births",
+        "job gains",
+        "business dynamics",
+        "flows",
+        "rate"
+      ],
+      "aliases": [
+        "openings gain rate",
+        "opening establishment gains rate"
+      ],
+      "notes": "BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_4",
+          "rolling_4"
+        ]
+      }
+    },
+    {
+      "id": "bed_gross_job_losses_level",
+      "title": "BED gross job losses, total private",
+      "short_title": "Gross job losses",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "BDS0000000000000000110004LQ5",
+      "group": "flows",
+      "subgroup": "business_employment_dynamics",
+      "priority": "recommended",
+      "frequency": "Q",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1992,
+      "release": "Business Employment Dynamics",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "bed",
+        "gross job losses",
+        "business dynamics",
+        "qcew",
+        "flows"
+      ],
+      "aliases": [
+        "gross job losses",
+        "job destruction",
+        "bed losses"
+      ],
+      "notes": "BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_4",
+          "rolling_4"
+        ]
+      }
+    },
+    {
+      "id": "bed_gross_job_losses_rate",
+      "title": "BED gross job losses rate, total private",
+      "short_title": "Losses rate",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "BDS0000000000000000110004RQ5",
+      "group": "flows",
+      "subgroup": "business_employment_dynamics",
+      "priority": "recommended",
+      "frequency": "Q",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1992,
+      "release": "Business Employment Dynamics",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "bed",
+        "gross job losses",
+        "business dynamics",
+        "qcew",
+        "flows",
+        "rate"
+      ],
+      "aliases": [
+        "gross job losses rate",
+        "job destruction rate",
+        "bed losses rate"
+      ],
+      "notes": "BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_4",
+          "rolling_4"
+        ]
+      }
+    },
+    {
+      "id": "bed_contractions_level",
+      "title": "BED employment lost from contractions, total private",
+      "short_title": "Contractions",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "BDS0000000000000000110005LQ5",
+      "group": "flows",
+      "subgroup": "business_employment_dynamics",
+      "priority": "recommended",
+      "frequency": "Q",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1992,
+      "release": "Business Employment Dynamics",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "bed",
+        "contractions",
+        "job losses",
+        "business dynamics",
+        "flows"
+      ],
+      "aliases": [
+        "employment lost from contractions",
+        "contracting establishments"
+      ],
+      "notes": "BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_4",
+          "rolling_4"
+        ]
+      }
+    },
+    {
+      "id": "bed_contractions_rate",
+      "title": "BED employment lost from contractions rate, total private",
+      "short_title": "Contractions rate",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "BDS0000000000000000110005RQ5",
+      "group": "flows",
+      "subgroup": "business_employment_dynamics",
+      "priority": "recommended",
+      "frequency": "Q",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1992,
+      "release": "Business Employment Dynamics",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "bed",
+        "contractions",
+        "job losses",
+        "business dynamics",
+        "flows",
+        "rate"
+      ],
+      "aliases": [
+        "contractions rate",
+        "contracting establishment losses rate"
+      ],
+      "notes": "BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_4",
+          "rolling_4"
+        ]
+      }
+    },
+    {
+      "id": "bed_closings_level",
+      "title": "BED employment lost from closings, total private",
+      "short_title": "Closings losses",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "BDS0000000000000000110006LQ5",
+      "group": "flows",
+      "subgroup": "business_employment_dynamics",
+      "priority": "recommended",
+      "frequency": "Q",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1992,
+      "release": "Business Employment Dynamics",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "bed",
+        "closings",
+        "deaths",
+        "job losses",
+        "business dynamics",
+        "flows"
+      ],
+      "aliases": [
+        "employment lost from closings",
+        "closing establishments"
+      ],
+      "notes": "BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_4",
+          "rolling_4"
+        ]
+      }
+    },
+    {
+      "id": "bed_closings_rate",
+      "title": "BED employment lost from closings rate, total private",
+      "short_title": "Closings rate",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "BDS0000000000000000110006RQ5",
+      "group": "flows",
+      "subgroup": "business_employment_dynamics",
+      "priority": "recommended",
+      "frequency": "Q",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1992,
+      "release": "Business Employment Dynamics",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "bed",
+        "closings",
+        "deaths",
+        "job losses",
+        "business dynamics",
+        "flows",
+        "rate"
+      ],
+      "aliases": [
+        "closings rate",
+        "closing establishment losses rate"
+      ],
+      "notes": "BLS Business Employment Dynamics series validated through the BLS API on 2026-06-01; national total private, all size classes, seasonally adjusted.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_4",
+          "rolling_4"
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "bls_public_api",
+      "title": "BLS Public Data API",
+      "owner": "U.S. Bureau of Labor Statistics",
+      "provider": "bls",
+      "access": "API v2 JSON/XLSX; optional registration key for higher limits and more historical access.",
+      "api_key_env": "BLS_API_KEY",
+      "documentation_url": "https://www.bls.gov/developers/home.htm",
+      "notes": "Use BLS as canonical source for labor series when API IDs are known. For large historical pulls, prefer BLS flat files or FRED mirrors for convenience.",
+      "update_frequency": "varies by BLS program",
+      "preferred_for": [
+        "CPS labor force statistics",
+        "CPS labor force flows",
+        "CES payroll employment, hours, and earnings",
+        "JOLTS openings, hires, quits, layoffs, separations",
+        "Business Employment Dynamics gross job gains/losses",
+        "LAUS state and local labor force data",
+        "BLS prices, ECI, productivity"
+      ]
+    },
+    {
+      "id": "bls_qcew_open_data",
+      "title": "BLS QCEW Open Data CSV slices",
+      "owner": "U.S. Bureau of Labor Statistics",
+      "provider": "qcew",
+      "access": "Keyless CSV endpoints sliced by year/quarter and area, industry, or establishment size.",
+      "api_key_env": null,
+      "documentation_url": "https://www.bls.gov/cew/additional-resources/open-data/csv-data-slices.htm",
+      "notes": "Large files. Keep raw downloads out of git and export only compact chart-ready aggregations.",
+      "update_frequency": "quarterly and annual",
+      "preferred_for": [
+        "county/state/national employment by industry",
+        "establishments",
+        "average weekly wage",
+        "covered wages"
+      ]
+    },
+    {
+      "id": "fred_api",
+      "title": "FRED API",
+      "owner": "Federal Reserve Bank of St. Louis",
+      "provider": "fred",
+      "access": "HTTPS API with registered key.",
+      "api_key_env": "FRED_API_KEY",
+      "documentation_url": "https://fred.stlouisfed.org/docs/api/fred/series_observations.html",
+      "notes": "Convenient for source-agnostic series and fast dashboard prototyping. Preserve original source attribution in labels.",
+      "update_frequency": "mirrors source releases",
+      "preferred_for": [
+        "national claims fallback",
+        "recession indicators",
+        "price deflators",
+        "BEA/BLS series where FRED mirror is sufficient"
+      ]
+    },
+    {
+      "id": "census_qwi_api",
+      "title": "Census QWI / LEHD API",
+      "owner": "U.S. Census Bureau, LEHD",
+      "provider": "census_qwi",
+      "access": "Census API. API key currently required by QWI documentation.",
+      "api_key_env": "CENSUS_API_KEY",
+      "documentation_url": "https://www.census.gov/data/developers/data-sets/qwi.html",
+      "notes": "National data is not yet available through the QWI API documentation; state/county/metro are primary.",
+      "update_frequency": "quarterly",
+      "preferred_for": [
+        "hires, separations, earnings, and employment by worker demographics",
+        "state/county/metro workforce indicators",
+        "firm age and firm size detail"
+      ]
+    },
+    {
+      "id": "dol_ui_claims",
+      "title": "DOL/ETA Unemployment Insurance Weekly Claims",
+      "owner": "U.S. Department of Labor, Employment and Training Administration",
+      "provider": "dol",
+      "access": "DOL Open Data Portal API v4.",
+      "api_key_env": "DOL_API_KEY",
+      "documentation_url": "https://www.dataportal.dol.gov/pdf/dol-api-user-guide.pdf",
+      "notes": "National endpoint confirmed as ETA/ui_national_weekly_claims. Use rptdate for week ending date, c5 for seasonally adjusted initial claims, and c7 for seasonally adjusted continued claims. FRED ICSA/CCSA remain fallback mirrors only.",
+      "update_frequency": "weekly",
+      "preferred_for": [
+        "initial claims",
+        "continued claims",
+        "insured unemployment",
+        "state weekly claims"
+      ]
+    }
+  ]
+}

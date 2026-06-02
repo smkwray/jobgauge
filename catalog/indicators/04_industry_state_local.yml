@@ -1,0 +1,796 @@
+indicators:
+  - id: payrolls_manufacturing
+    title: All employees, manufacturing
+    short_title: Manufacturing jobs
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES3000000001
+    group: industry_state_local
+    subgroup: industry_payrolls
+    priority: recommended
+    frequency: M
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1939
+    release: Employment Situation
+    tags: [industry, manufacturing, payrolls]
+    aliases: [manufacturing employment, factory jobs]
+    notes: BLS CES series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.
+    chart:
+      default_type: line
+      recommended: [line, industry_comparison]
+      y_axis_label: Thousands
+      show_recession_bands: true
+      transformations: [change_1, change_12, pct_change_12]
+
+  - id: payrolls_construction
+    title: All employees, construction
+    short_title: Construction jobs
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES2000000001
+    group: industry_state_local
+    subgroup: industry_payrolls
+    priority: recommended
+    frequency: M
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1939
+    release: Employment Situation
+    tags: [industry, construction, payrolls]
+    aliases: [construction employment]
+    notes: BLS CES series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.
+    chart:
+      default_type: line
+      recommended: [line, industry_comparison]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, pct_change_12]
+
+  - id: payrolls_leisure_hospitality
+    title: All employees, leisure and hospitality
+    short_title: Leisure & hospitality jobs
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES7000000001
+    group: industry_state_local
+    subgroup: industry_payrolls
+    priority: recommended
+    frequency: M
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1939
+    release: Employment Situation
+    tags: [industry, leisure, hospitality, payrolls]
+    aliases: [restaurant hotel jobs, leisure hospitality employment]
+    notes: BLS CES series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.
+    chart:
+      default_type: line
+      recommended: [line, industry_comparison]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, pct_change_12]
+
+  - id: payrolls_government
+    title: All employees, government
+    short_title: Government jobs
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES9000000001
+    group: industry_state_local
+    subgroup: industry_payrolls
+    priority: recommended
+    frequency: M
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1939
+    release: Employment Situation
+    tags: [industry, government, public sector, payrolls]
+    aliases: [public employment, government employment]
+    notes: BLS CES series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.
+    chart:
+      default_type: line
+      recommended: [line, industry_comparison]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, pct_change_12]
+
+  - id: payrolls_mining_logging
+    title: All employees, mining and logging
+    short_title: Mining & logging jobs
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES1000000001
+    group: industry_state_local
+    subgroup: industry_payrolls
+    priority: recommended
+    frequency: M
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1939
+    release: Employment Situation
+    tags: [industry, mining, logging, payrolls]
+    aliases: [mining jobs, logging jobs]
+    notes: BLS CES supersector series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, industry_comparison]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, pct_change_12]
+
+  - id: payrolls_trade_transport_utilities
+    title: All employees, trade transportation and utilities
+    short_title: Trade/transport/utilities jobs
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES4000000001
+    group: industry_state_local
+    subgroup: industry_payrolls
+    priority: recommended
+    frequency: M
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1939
+    release: Employment Situation
+    tags: [industry, trade, transportation, utilities, payrolls]
+    aliases: [trade transportation utilities employment, ttu jobs]
+    notes: BLS CES supersector series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, industry_comparison]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, pct_change_12]
+
+  - id: payrolls_information
+    title: All employees, information
+    short_title: Information jobs
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES5000000001
+    group: industry_state_local
+    subgroup: industry_payrolls
+    priority: recommended
+    frequency: M
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1939
+    release: Employment Situation
+    tags: [industry, information, payrolls]
+    aliases: [information sector jobs]
+    notes: BLS CES supersector series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, industry_comparison]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, pct_change_12]
+
+  - id: payrolls_financial_activities
+    title: All employees, financial activities
+    short_title: Financial activities jobs
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES5500000001
+    group: industry_state_local
+    subgroup: industry_payrolls
+    priority: recommended
+    frequency: M
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1939
+    release: Employment Situation
+    tags: [industry, finance, financial activities, payrolls]
+    aliases: [finance jobs, financial sector employment]
+    notes: BLS CES supersector series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, industry_comparison]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, pct_change_12]
+
+  - id: payrolls_professional_business_services
+    title: All employees, professional and business services
+    short_title: Professional services jobs
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES6000000001
+    group: industry_state_local
+    subgroup: industry_payrolls
+    priority: recommended
+    frequency: M
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1939
+    release: Employment Situation
+    tags: [industry, professional services, business services, payrolls]
+    aliases: [professional business services employment, pbs jobs]
+    notes: BLS CES supersector series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, industry_comparison]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, pct_change_12]
+
+  - id: payrolls_education_health_services
+    title: All employees, education and health services
+    short_title: Education/health jobs
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES6500000001
+    group: industry_state_local
+    subgroup: industry_payrolls
+    priority: recommended
+    frequency: M
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1939
+    release: Employment Situation
+    tags: [industry, education, health services, payrolls]
+    aliases: [education health services employment, health education jobs]
+    notes: BLS CES supersector series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, industry_comparison]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, pct_change_12]
+
+  - id: qcew_total_private_employment_annual
+    title: QCEW annual average employment, total private, all industries
+    short_title: QCEW private employment
+    provider: qcew
+    source_id: bls_qcew_open_data
+    series_id: qcew:US000:private:10:annual_avg_emplvl
+    group: industry_state_local
+    subgroup: qcew
+    priority: recommended
+    frequency: A
+    units: Jobs
+    seasonal_adjustment: NSA
+    geography: US
+    start_year: 1990
+    release: QCEW annual averages
+    tags: [qcew, employment, private sector, industry, annual]
+    aliases: [covered employment, private covered jobs]
+    notes: QCEW slice parameters are declared; verify live annual slice parsing and aggregation before promoting beyond recommended.
+    api_params:
+      qtr: A
+      slice_type: area
+      slice_code: US000
+      area_fips: US000
+      own_code: 5
+      industry_code: "10"
+      value_field: annual_avg_emplvl
+    chart:
+      default_type: line
+      recommended: [line, industry_drilldown]
+      y_axis_label: Jobs
+      transformations: [pct_change_12, index_first_100]
+
+  - id: qcew_total_private_average_weekly_wage_annual
+    title: QCEW annual average weekly wage, total private, all industries
+    short_title: QCEW private weekly wage
+    provider: qcew
+    source_id: bls_qcew_open_data
+    series_id: qcew:US000:private:10:annual_avg_wkly_wage
+    group: industry_state_local
+    subgroup: qcew
+    priority: recommended
+    frequency: A
+    units: Dollars per week
+    seasonal_adjustment: NSA
+    geography: US
+    start_year: 1990
+    release: QCEW annual averages
+    tags: [qcew, wages, average weekly wage, private sector, annual]
+    aliases: [covered weekly wage, average weekly wages]
+    notes: QCEW slice parameters are declared; verify live annual slice parsing and aggregation before promoting beyond recommended.
+    api_params:
+      qtr: A
+      slice_type: area
+      slice_code: US000
+      area_fips: US000
+      own_code: 5
+      industry_code: "10"
+      value_field: annual_avg_wkly_wage
+    chart:
+      default_type: line
+      recommended: [line, real_wage_toggle]
+      y_axis_label: Dollars/week
+      transformations: [pct_change_12]
+
+  - id: qwi_state_employment
+    title: QWI beginning-of-quarter employment by state
+    short_title: QWI state employment
+    provider: census_qwi
+    source_id: census_qwi_api
+    series_id: Emp
+    group: industry_state_local
+    subgroup: qwi
+    priority: extended
+    frequency: Q
+    units: Jobs
+    seasonal_adjustment: NSA
+    geography: state:*
+    start_year: 2010
+    release: Quarterly Workforce Indicators
+    tags: [qwi, lehd, state, employment, demographics]
+    aliases: [qwi employment, lehd employment]
+    notes: Census QWI parameters are declared; verify live state response, geography fields, and QWI release metadata before promoting.
+    api_params:
+      endpoint: sa
+      get: Emp
+      for: state:*
+      sex: "0"
+      agegrp: "A00"
+      industry: "00"
+      ownercode: "A05"
+      seasonadj: U
+    chart:
+      default_type: map
+      recommended: [map, ranked_bar, small_multiples]
+      y_axis_label: Jobs
+      allow_geography_filter: true
+      transformations: [pct_change_12]
+
+  - id: qwi_state_hires_all
+    title: QWI hires all by state
+    short_title: QWI hires
+    provider: census_qwi
+    source_id: census_qwi_api
+    series_id: HirA
+    group: industry_state_local
+    subgroup: qwi
+    priority: extended
+    frequency: Q
+    units: Hires
+    seasonal_adjustment: NSA
+    geography: state:*
+    start_year: 2010
+    release: Quarterly Workforce Indicators
+    tags: [qwi, lehd, state, hires, flows]
+    aliases: [qwi hiring, hires all]
+    notes: Census QWI parameters are declared; verify live state response, geography fields, and QWI release metadata before promoting.
+    api_params:
+      endpoint: sa
+      get: HirA
+      for: state:*
+      sex: "0"
+      agegrp: "A00"
+      industry: "00"
+      ownercode: "A05"
+      seasonadj: U
+    chart:
+      default_type: map
+      recommended: [map, flow_panel, ranked_bar]
+      y_axis_label: Hires
+      allow_geography_filter: true
+      transformations: [pct_change_12]
+
+  - id: qwi_state_separations
+    title: QWI separations by state
+    short_title: QWI separations
+    provider: census_qwi
+    source_id: census_qwi_api
+    series_id: Sep
+    group: industry_state_local
+    subgroup: qwi
+    priority: extended
+    frequency: Q
+    units: Separations
+    seasonal_adjustment: NSA
+    geography: state:*
+    start_year: 2010
+    release: Quarterly Workforce Indicators
+    tags: [qwi, lehd, state, separations, flows]
+    aliases: [qwi separations, job separations]
+    notes: Census QWI parameters are declared; verify live state response, geography fields, and QWI release metadata before promoting.
+    api_params:
+      endpoint: sa
+      get: Sep
+      for: state:*
+      sex: "0"
+      agegrp: "A00"
+      industry: "00"
+      ownercode: "A05"
+      seasonadj: U
+    chart:
+      default_type: map
+      recommended: [map, flow_panel, ranked_bar]
+      y_axis_label: Separations
+      allow_geography_filter: true
+      transformations: [pct_change_12]
+
+  - id: qwi_state_job_creation
+    title: QWI firm job gains by state
+    short_title: QWI job creation
+    provider: census_qwi
+    source_id: census_qwi_api
+    series_id: FrmJbGn
+    group: industry_state_local
+    subgroup: qwi
+    priority: extended
+    frequency: Q
+    units: Jobs
+    seasonal_adjustment: NSA
+    geography: state:*
+    start_year: 2010
+    release: Quarterly Workforce Indicators
+    tags: [qwi, lehd, state, job creation, flows]
+    aliases: [qwi job gains, firm job gains, job creation by state]
+    notes: Census QWI firm job gains by state; map-ready state panel for flow and ranked geography views.
+    api_params:
+      endpoint: sa
+      get: FrmJbGn
+      for: state:*
+      sex: "0"
+      agegrp: "A00"
+      industry: "00"
+      ownercode: "A05"
+      seasonadj: U
+    chart:
+      default_type: map
+      recommended: [map, flow_panel, ranked_bar]
+      y_axis_label: Jobs
+      allow_geography_filter: true
+      transformations: [pct_change_12]
+
+  - id: qwi_state_job_destruction
+    title: QWI firm job losses by state
+    short_title: QWI job destruction
+    provider: census_qwi
+    source_id: census_qwi_api
+    series_id: FrmJbLs
+    group: industry_state_local
+    subgroup: qwi
+    priority: extended
+    frequency: Q
+    units: Jobs
+    seasonal_adjustment: NSA
+    geography: state:*
+    start_year: 2010
+    release: Quarterly Workforce Indicators
+    tags: [qwi, lehd, state, job destruction, flows]
+    aliases: [qwi job losses, firm job losses, job destruction by state]
+    notes: Census QWI firm job losses by state; map-ready state panel for flow and ranked geography views.
+    api_params:
+      endpoint: sa
+      get: FrmJbLs
+      for: state:*
+      sex: "0"
+      agegrp: "A00"
+      industry: "00"
+      ownercode: "A05"
+      seasonadj: U
+    chart:
+      default_type: map
+      recommended: [map, flow_panel, ranked_bar]
+      y_axis_label: Jobs
+      allow_geography_filter: true
+      transformations: [pct_change_12]
+
+  - id: qwi_state_payroll
+    title: QWI payroll by state
+    short_title: QWI payroll
+    provider: census_qwi
+    source_id: census_qwi_api
+    series_id: Payroll
+    group: industry_state_local
+    subgroup: qwi
+    priority: extended
+    frequency: Q
+    units: Dollars
+    seasonal_adjustment: NSA
+    geography: state:*
+    start_year: 2010
+    release: Quarterly Workforce Indicators
+    tags: [qwi, lehd, state, payroll, wages]
+    aliases: [qwi payroll, state payroll]
+    notes: Census QWI payroll by state; map-ready state panel for wage and ranked geography views.
+    api_params:
+      endpoint: sa
+      get: Payroll
+      for: state:*
+      sex: "0"
+      agegrp: "A00"
+      industry: "00"
+      ownercode: "A05"
+      seasonadj: U
+    chart:
+      default_type: map
+      recommended: [map, ranked_bar]
+      y_axis_label: Dollars
+      allow_geography_filter: true
+      transformations: [pct_change_12]
+
+  - id: qwi_state_average_monthly_earnings
+    title: QWI stable-job average monthly earnings by state
+    short_title: QWI monthly earnings
+    provider: census_qwi
+    source_id: census_qwi_api
+    series_id: EarnS
+    group: industry_state_local
+    subgroup: qwi
+    priority: extended
+    frequency: Q
+    units: Dollars per month
+    seasonal_adjustment: NSA
+    geography: state:*
+    start_year: 2010
+    release: Quarterly Workforce Indicators
+    tags: [qwi, lehd, state, earnings, wages]
+    aliases: [qwi earnings, monthly earnings by state, stable job earnings]
+    notes: Census QWI average monthly earnings for stable jobs by state; map-ready state panel for wage and ranked geography views.
+    api_params:
+      endpoint: sa
+      get: EarnS
+      for: state:*
+      sex: "0"
+      agegrp: "A00"
+      industry: "00"
+      ownercode: "A05"
+      seasonadj: U
+    chart:
+      default_type: map
+      recommended: [map, ranked_bar]
+      y_axis_label: Dollars/month
+      allow_geography_filter: true
+      transformations: [pct_change_12]
+
+  - id: qwi_state_turnover_rate
+    title: QWI stable-job turnover rate by state
+    short_title: QWI turnover rate
+    provider: census_qwi
+    source_id: census_qwi_api
+    series_id: TurnOvrS
+    group: industry_state_local
+    subgroup: qwi
+    priority: extended
+    frequency: Q
+    units: Percent
+    seasonal_adjustment: NSA
+    geography: state:*
+    start_year: 2010
+    release: Quarterly Workforce Indicators
+    tags: [qwi, lehd, state, turnover, flows]
+    aliases: [qwi turnover, stable job turnover, turnover rate by state]
+    notes: Census QWI stable-job turnover rate by state; map-ready state panel for flow and ranked geography views.
+    api_params:
+      endpoint: sa
+      get: TurnOvrS
+      for: state:*
+      sex: "0"
+      agegrp: "A00"
+      industry: "00"
+      ownercode: "A05"
+      seasonadj: U
+    chart:
+      default_type: map
+      recommended: [map, ranked_bar]
+      y_axis_label: Percent
+      allow_geography_filter: true
+      transformations: [change_1, pct_change_12]
+
+  - id: laus_state_unemployment_template
+    title: LAUS state unemployment rate
+    short_title: State unemployment
+    provider: bls
+    source_id: bls_public_api
+    series_id: LASST*0000000000003
+    group: industry_state_local
+    subgroup: laus
+    priority: extended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: state:*
+    start_year: 1976
+    release: Local Area Unemployment Statistics
+    tags: [laus, state, unemployment, template]
+    aliases: [state unemployment rates, local area unemployment]
+    notes: Fetchable BLS LAUS state/DC/Puerto Rico seasonally adjusted unemployment-rate series. Series pattern validated for sample state FIPS on 2026-06-02; BLS API catalog metadata is disabled for this LAUS request, so geography is preserved through configured series-to-state footnotes.
+    api_params:
+      series_ids:
+        - LASST010000000000003
+        - LASST020000000000003
+        - LASST040000000000003
+        - LASST050000000000003
+        - LASST060000000000003
+        - LASST080000000000003
+        - LASST090000000000003
+        - LASST100000000000003
+        - LASST110000000000003
+        - LASST120000000000003
+        - LASST130000000000003
+        - LASST150000000000003
+        - LASST160000000000003
+        - LASST170000000000003
+        - LASST180000000000003
+        - LASST190000000000003
+        - LASST200000000000003
+        - LASST210000000000003
+        - LASST220000000000003
+        - LASST230000000000003
+        - LASST240000000000003
+        - LASST250000000000003
+        - LASST260000000000003
+        - LASST270000000000003
+        - LASST280000000000003
+        - LASST290000000000003
+        - LASST300000000000003
+        - LASST310000000000003
+        - LASST320000000000003
+        - LASST330000000000003
+        - LASST340000000000003
+        - LASST350000000000003
+        - LASST360000000000003
+        - LASST370000000000003
+        - LASST380000000000003
+        - LASST390000000000003
+        - LASST400000000000003
+        - LASST410000000000003
+        - LASST420000000000003
+        - LASST440000000000003
+        - LASST450000000000003
+        - LASST460000000000003
+        - LASST470000000000003
+        - LASST480000000000003
+        - LASST490000000000003
+        - LASST500000000000003
+        - LASST510000000000003
+        - LASST530000000000003
+        - LASST540000000000003
+        - LASST550000000000003
+        - LASST560000000000003
+        - LASST720000000000003
+      geography_by_series_id:
+        LASST010000000000003: state:01
+        LASST020000000000003: state:02
+        LASST040000000000003: state:04
+        LASST050000000000003: state:05
+        LASST060000000000003: state:06
+        LASST080000000000003: state:08
+        LASST090000000000003: state:09
+        LASST100000000000003: state:10
+        LASST110000000000003: state:11
+        LASST120000000000003: state:12
+        LASST130000000000003: state:13
+        LASST150000000000003: state:15
+        LASST160000000000003: state:16
+        LASST170000000000003: state:17
+        LASST180000000000003: state:18
+        LASST190000000000003: state:19
+        LASST200000000000003: state:20
+        LASST210000000000003: state:21
+        LASST220000000000003: state:22
+        LASST230000000000003: state:23
+        LASST240000000000003: state:24
+        LASST250000000000003: state:25
+        LASST260000000000003: state:26
+        LASST270000000000003: state:27
+        LASST280000000000003: state:28
+        LASST290000000000003: state:29
+        LASST300000000000003: state:30
+        LASST310000000000003: state:31
+        LASST320000000000003: state:32
+        LASST330000000000003: state:33
+        LASST340000000000003: state:34
+        LASST350000000000003: state:35
+        LASST360000000000003: state:36
+        LASST370000000000003: state:37
+        LASST380000000000003: state:38
+        LASST390000000000003: state:39
+        LASST400000000000003: state:40
+        LASST410000000000003: state:41
+        LASST420000000000003: state:42
+        LASST440000000000003: state:44
+        LASST450000000000003: state:45
+        LASST460000000000003: state:46
+        LASST470000000000003: state:47
+        LASST480000000000003: state:48
+        LASST490000000000003: state:49
+        LASST500000000000003: state:50
+        LASST510000000000003: state:51
+        LASST530000000000003: state:53
+        LASST540000000000003: state:54
+        LASST550000000000003: state:55
+        LASST560000000000003: state:56
+        LASST720000000000003: state:72
+    chart:
+      default_type: map
+      recommended: [map, ranked_bar, small_multiples]
+      y_axis_label: Percent
+      allow_geography_filter: true
+      transformations: [change_1, change_12]
+
+  - id: laus_state_labor_force
+    title: LAUS state labor force
+    short_title: State labor force
+    provider: bls
+    source_id: bls_public_api
+    series_id: LASST*0000000000006
+    group: industry_state_local
+    subgroup: laus
+    priority: extended
+    frequency: M
+    units: Persons
+    seasonal_adjustment: SA
+    geography: state:*
+    start_year: 1976
+    release: Local Area Unemployment Statistics
+    tags: [laus, state, labor force]
+    aliases: [state labor force, local area labor force]
+    notes: Fetchable BLS LAUS state/DC/Puerto Rico seasonally adjusted labor-force series. Series pattern validated for sample state FIPS on 2026-06-02.
+    api_params:
+      series_template: LASST{geo}0000000000006
+      geographies: ["01", "02", "04", "05", "06", "08", "09", "10", "11", "12", "13", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "44", "45", "46", "47", "48", "49", "50", "51", "53", "54", "55", "56", "72"]
+      geography_template: state:{geo}
+    chart:
+      default_type: map
+      recommended: [map, ranked_bar, small_multiples]
+      y_axis_label: Persons
+      allow_geography_filter: true
+      transformations: [change_1, change_12, pct_change_12]
+
+  - id: laus_state_employment
+    title: LAUS state employment
+    short_title: State employment
+    provider: bls
+    source_id: bls_public_api
+    series_id: LASST*0000000000005
+    group: industry_state_local
+    subgroup: laus
+    priority: extended
+    frequency: M
+    units: Persons
+    seasonal_adjustment: SA
+    geography: state:*
+    start_year: 1976
+    release: Local Area Unemployment Statistics
+    tags: [laus, state, employment]
+    aliases: [state employment, local area employment]
+    notes: Fetchable BLS LAUS state/DC/Puerto Rico seasonally adjusted employment series. Series pattern validated for sample state FIPS on 2026-06-02.
+    api_params:
+      series_template: LASST{geo}0000000000005
+      geographies: ["01", "02", "04", "05", "06", "08", "09", "10", "11", "12", "13", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "44", "45", "46", "47", "48", "49", "50", "51", "53", "54", "55", "56", "72"]
+      geography_template: state:{geo}
+    chart:
+      default_type: map
+      recommended: [map, ranked_bar, small_multiples]
+      y_axis_label: Persons
+      allow_geography_filter: true
+      transformations: [change_1, change_12, pct_change_12]
+
+  - id: laus_state_unemployment_level
+    title: LAUS state unemployment level
+    short_title: State unemployed
+    provider: bls
+    source_id: bls_public_api
+    series_id: LASST*0000000000004
+    group: industry_state_local
+    subgroup: laus
+    priority: extended
+    frequency: M
+    units: Persons
+    seasonal_adjustment: SA
+    geography: state:*
+    start_year: 1976
+    release: Local Area Unemployment Statistics
+    tags: [laus, state, unemployment, level]
+    aliases: [state unemployed persons, local area unemployed]
+    notes: Fetchable BLS LAUS state/DC/Puerto Rico seasonally adjusted unemployment-level series. Series pattern validated for sample state FIPS on 2026-06-02.
+    api_params:
+      series_template: LASST{geo}0000000000004
+      geographies: ["01", "02", "04", "05", "06", "08", "09", "10", "11", "12", "13", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "44", "45", "46", "47", "48", "49", "50", "51", "53", "54", "55", "56", "72"]
+      geography_template: state:{geo}
+    chart:
+      default_type: map
+      recommended: [map, ranked_bar, small_multiples]
+      y_axis_label: Persons
+      allow_geography_filter: true
+      transformations: [change_1, change_12, pct_change_12]

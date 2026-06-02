@@ -1,0 +1,705 @@
+indicators:
+  - id: prime_age_employment_population_ratio
+    title: Employment-population ratio, 25 to 54 years
+    short_title: Prime-age EPOP
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS12300060
+    group: demographics
+    subgroup: age
+    priority: core
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1948
+    release: Employment Situation
+    tags: [prime age, employment, epop, full employment]
+    aliases: [prime age employment rate, prime-age epop]
+    chart:
+      default_type: line
+      recommended: [line, compare_to_pre_pandemic, demographic_gap]
+      y_axis_label: Percent
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_12]
+
+  - id: prime_age_labor_force_participation_rate
+    title: Labor force participation rate, 25 to 54 years
+    short_title: Prime-age LFPR
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS11300060
+    group: demographics
+    subgroup: age
+    priority: core
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1948
+    release: Employment Situation
+    tags: [prime age, labor force participation, participation]
+    aliases: [prime-age lfpr]
+    chart:
+      default_type: line
+      recommended: [line, demographic_gap]
+      y_axis_label: Percent
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_12]
+
+  - id: prime_age_unemployment_rate
+    title: Unemployment rate, 25 to 54 years
+    short_title: Prime-age unemployment
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS14000060
+    group: demographics
+    subgroup: age
+    priority: recommended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1948
+    release: Employment Situation
+    tags: [prime age, unemployment]
+    aliases: [prime-age unemployment]
+    notes: BLS CPS series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.
+    chart:
+      default_type: line
+      recommended: [line]
+      y_axis_label: Percent
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: unemployment_rate_men
+    title: Unemployment rate, men
+    short_title: Men unemployment
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS14000001
+    group: demographics
+    subgroup: sex
+    priority: recommended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1948
+    release: Employment Situation
+    tags: [men, sex, unemployment]
+    aliases: [male unemployment]
+    notes: BLS CPS series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.
+    chart:
+      default_type: line
+      recommended: [line, demographic_gap]
+      y_axis_label: Percent
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: unemployment_rate_women
+    title: Unemployment rate, women
+    short_title: Women unemployment
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS14000002
+    group: demographics
+    subgroup: sex
+    priority: recommended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1948
+    release: Employment Situation
+    tags: [women, sex, unemployment]
+    aliases: [female unemployment]
+    notes: BLS CPS series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.
+    chart:
+      default_type: line
+      recommended: [line, demographic_gap]
+      y_axis_label: Percent
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: unemployment_rate_white
+    title: Unemployment rate, White
+    short_title: White unemployment
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS14000003
+    group: demographics
+    subgroup: race_ethnicity
+    priority: core
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1954
+    release: Employment Situation
+    tags: [race, white, unemployment]
+    aliases: [white unemployment rate]
+    chart:
+      default_type: line
+      recommended: [line, demographic_gap, ratio_to_white]
+      y_axis_label: Percent
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: unemployment_rate_black
+    title: Unemployment rate, Black or African American
+    short_title: Black unemployment
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS14000006
+    group: demographics
+    subgroup: race_ethnicity
+    priority: core
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1972
+    release: Employment Situation
+    tags: [race, black, african american, unemployment, inequality]
+    aliases: [black unemployment rate, african american unemployment]
+    chart:
+      default_type: line
+      recommended: [line, demographic_gap, ratio_to_white]
+      y_axis_label: Percent
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: unemployment_rate_hispanic
+    title: Unemployment rate, Hispanic or Latino
+    short_title: Hispanic unemployment
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS14000009
+    group: demographics
+    subgroup: race_ethnicity
+    priority: core
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1973
+    release: Employment Situation
+    tags: [ethnicity, hispanic, latino, unemployment, inequality]
+    aliases: [latino unemployment rate, hispanic unemployment]
+    chart:
+      default_type: line
+      recommended: [line, demographic_gap, ratio_to_white]
+      y_axis_label: Percent
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: unemployment_rate_asian
+    title: Unemployment rate, Asian
+    short_title: Asian unemployment
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS14032183
+    group: demographics
+    subgroup: race_ethnicity
+    priority: recommended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 2003
+    release: Employment Situation
+    tags: [race, asian, unemployment, inequality]
+    aliases: [asian unemployment rate]
+    notes: BLS CPS series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.
+    chart:
+      default_type: line
+      recommended: [line, demographic_gap]
+      y_axis_label: Percent
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: teen_unemployment_rate
+    title: Unemployment rate, 16 to 19 years
+    short_title: Teen unemployment
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS14000012
+    group: demographics
+    subgroup: age
+    priority: recommended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1948
+    release: Employment Situation
+    tags: [teen, youth, unemployment]
+    aliases: [youth unemployment, teenage unemployment]
+    notes: BLS CPS series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.
+    chart:
+      default_type: line
+      recommended: [line, demographic_gap]
+      y_axis_label: Percent
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: unemployment_rate_less_than_high_school
+    title: Unemployment rate, less than high school diploma
+    short_title: Less than HS unemployment
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS14027659
+    group: demographics
+    subgroup: education
+    priority: recommended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1992
+    release: Employment Situation
+    tags: [unemployment, education, less than high school, cps]
+    aliases: [less than high school unemployment, education unemployment]
+    notes: BLS CPS education unemployment-rate series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, demographic_gap]
+      y_axis_label: Percent
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: unemployment_rate_high_school_no_college
+    title: Unemployment rate, high school graduates no college
+    short_title: HS no college unemployment
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS14027660
+    group: demographics
+    subgroup: education
+    priority: recommended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1992
+    release: Employment Situation
+    tags: [unemployment, education, high school, cps]
+    aliases: [high school unemployment, no college unemployment]
+    notes: BLS CPS education unemployment-rate series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, demographic_gap]
+      y_axis_label: Percent
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: unemployment_rate_some_college_associate
+    title: Unemployment rate, some college or associate degree
+    short_title: Some college unemployment
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS14027689
+    group: demographics
+    subgroup: education
+    priority: recommended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1992
+    release: Employment Situation
+    tags: [unemployment, education, some college, associate degree, cps]
+    aliases: [some college unemployment, associate degree unemployment]
+    notes: BLS CPS education unemployment-rate series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, demographic_gap]
+      y_axis_label: Percent
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: unemployment_rate_bachelors_higher
+    title: Unemployment rate, bachelor's degree and higher
+    short_title: Bachelor's+ unemployment
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS14027662
+    group: demographics
+    subgroup: education
+    priority: recommended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1992
+    release: Employment Situation
+    tags: [unemployment, education, bachelors degree, cps]
+    aliases: [college degree unemployment, bachelors unemployment]
+    notes: BLS CPS education unemployment-rate series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, demographic_gap]
+      y_axis_label: Percent
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: unemployment_rate_with_disability
+    title: Unemployment rate, people with a disability
+    short_title: Disability unemployment
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNU04074597
+    group: demographics
+    subgroup: disability
+    priority: recommended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: NSA
+    geography: US
+    start_year: 2008
+    release: Employment Situation
+    tags: [unemployment, disability, cps]
+    aliases: [disabled workers unemployment, disability unemployment]
+    notes: BLS CPS Table A-6 disability-status series; BLS API returned observations for this not-seasonally-adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, demographic_gap]
+      y_axis_label: Percent
+      transformations: [change_12, rolling_12]
+
+  - id: labor_force_participation_rate_with_disability
+    title: Labor force participation rate, people with a disability
+    short_title: Disability LFPR
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNU01374597
+    group: demographics
+    subgroup: disability
+    priority: recommended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: NSA
+    geography: US
+    start_year: 2008
+    release: Employment Situation
+    tags: [participation, disability, cps]
+    aliases: [disabled workers participation, disability labor force participation]
+    notes: BLS CPS Table A-6 disability-status series; BLS API returned observations for this not-seasonally-adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, demographic_gap]
+      y_axis_label: Percent
+      transformations: [change_12, rolling_12]
+
+  - id: employment_population_ratio_with_disability
+    title: Employment-population ratio, people with a disability
+    short_title: Disability EPOP
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNU02374597
+    group: demographics
+    subgroup: disability
+    priority: recommended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: NSA
+    geography: US
+    start_year: 2008
+    release: Employment Situation
+    tags: [employment, disability, epop, cps]
+    aliases: [disabled workers employment-population ratio, disability epop]
+    notes: BLS CPS Table A-6 disability-status series; BLS API returned observations for this not-seasonally-adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, demographic_gap]
+      y_axis_label: Percent
+      transformations: [change_12, rolling_12]
+
+  - id: unemployment_rate_veterans
+    title: Unemployment rate, veterans
+    short_title: Veteran unemployment
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNU04049526
+    group: demographics
+    subgroup: veterans
+    priority: recommended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: NSA
+    geography: US
+    start_year: 2000
+    release: Employment Situation
+    tags: [unemployment, veterans, cps]
+    aliases: [veteran unemployment, veterans unemployment rate]
+    notes: BLS CPS Table A-5 veteran-status series; BLS API returned observations for this not-seasonally-adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, demographic_gap]
+      y_axis_label: Percent
+      transformations: [change_12, rolling_12]
+
+  - id: labor_force_participation_rate_veterans
+    title: Labor force participation rate, veterans
+    short_title: Veteran LFPR
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNU01349526
+    group: demographics
+    subgroup: veterans
+    priority: recommended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: NSA
+    geography: US
+    start_year: 2000
+    release: Employment Situation
+    tags: [participation, veterans, cps]
+    aliases: [veteran labor force participation, veterans lfpr]
+    notes: BLS CPS Table A-5 veteran-status series; BLS API returned observations for this not-seasonally-adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, demographic_gap]
+      y_axis_label: Percent
+      transformations: [change_12, rolling_12]
+
+  - id: employment_population_ratio_veterans
+    title: Employment-population ratio, veterans
+    short_title: Veteran EPOP
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNU02349526
+    group: demographics
+    subgroup: veterans
+    priority: recommended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: NSA
+    geography: US
+    start_year: 2000
+    release: Employment Situation
+    tags: [employment, veterans, epop, cps]
+    aliases: [veteran employment-population ratio, veterans epop]
+    notes: BLS CPS Table A-5 veteran-status series; BLS API returned observations for this not-seasonally-adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, demographic_gap]
+      y_axis_label: Percent
+      transformations: [change_12, rolling_12]
+
+  - id: long_term_unemployed_27_weeks_over
+    title: Unemployed 27 weeks and over
+    short_title: Long-term unemployed
+    provider: fred
+    source_id: fred_api
+    series_id: UEMP27OV
+    group: demographics
+    subgroup: duration
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1948
+    release: Employment Situation
+    tags: [long-term unemployment, duration, unemployment]
+    aliases: [27 weeks unemployed, long duration unemployment]
+    notes: FRED mirror ID is declared; replace with canonical BLS source series before any redistributable public export.
+    chart:
+      default_type: line
+      recommended: [line, share_of_unemployed]
+      y_axis_label: Thousands
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: average_weeks_unemployed
+    title: Average weeks unemployed
+    short_title: Average unemployment duration
+    provider: fred
+    source_id: fred_api
+    series_id: UEMPMEAN
+    group: demographics
+    subgroup: duration
+    priority: recommended
+    frequency: M
+    units: Weeks
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1948
+    release: Employment Situation
+    tags: [duration, unemployment, hardship]
+    aliases: [mean unemployment duration, average duration]
+    notes: FRED mirror ID is declared; replace with canonical BLS source series before any redistributable public export.
+    chart:
+      default_type: line
+      recommended: [line]
+      y_axis_label: Weeks
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: unemployment_level_job_losers
+    title: Unemployment level, job losers
+    short_title: Job losers
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS13023621
+    group: demographics
+    subgroup: unemployment_reason
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1967
+    release: Employment Situation
+    tags: [unemployment, job losers, unemployment reason, cps]
+    aliases: [job losers, unemployed job losers]
+    notes: BLS CPS Table A-11 unemployment-reason series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, stacked_area, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: unemployment_level_permanent_job_losers
+    title: Unemployment level, permanent job losers
+    short_title: Permanent job losers
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS13026638
+    group: demographics
+    subgroup: unemployment_reason
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1994
+    release: Employment Situation
+    tags: [unemployment, permanent job losers, unemployment reason, cps]
+    aliases: [permanent job losers, permanent layoffs]
+    notes: BLS CPS Table A-11 unemployment-reason series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, stacked_area, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: unemployment_level_job_leavers
+    title: Unemployment level, job leavers
+    short_title: Job leavers
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS13023705
+    group: demographics
+    subgroup: unemployment_reason
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1967
+    release: Employment Situation
+    tags: [unemployment, job leavers, unemployment reason, cps]
+    aliases: [job leavers, voluntary unemployed]
+    notes: BLS CPS Table A-11 unemployment-reason series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, stacked_area, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: unemployment_level_reentrants
+    title: Unemployment level, reentrants to labor force
+    short_title: Reentrants
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS13023557
+    group: demographics
+    subgroup: unemployment_reason
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1967
+    release: Employment Situation
+    tags: [unemployment, reentrants, unemployment reason, cps]
+    aliases: [reentrants, labor force reentrants]
+    notes: BLS CPS Table A-11 unemployment-reason series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, stacked_area, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: unemployment_level_new_entrants
+    title: Unemployment level, new entrants
+    short_title: New entrants
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS13023569
+    group: demographics
+    subgroup: unemployment_reason
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1967
+    release: Employment Situation
+    tags: [unemployment, new entrants, unemployment reason, cps]
+    aliases: [new entrants, first-time labor force entrants]
+    notes: BLS CPS Table A-11 unemployment-reason series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.
+    chart:
+      default_type: line
+      recommended: [line, stacked_area, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: part_time_for_economic_reasons
+    title: Employed part time for economic reasons
+    short_title: Involuntary part-time
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS12032194
+    group: demographics
+    subgroup: underemployment
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1955
+    release: Employment Situation
+    tags: [underemployment, part-time, involuntary, slack]
+    aliases: [part time economic reasons, involuntary part time]
+    notes: BLS CPS series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.
+    chart:
+      default_type: line
+      recommended: [line, compare_to_u6]
+      y_axis_label: Thousands
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: not_in_labor_force_want_job_now
+    title: Not in labor force, want a job now
+    short_title: Want a job, not in labor force
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS15026639
+    group: demographics
+    subgroup: underemployment
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1994
+    release: Employment Situation
+    tags: [not in labor force, want job, hidden unemployment, slack]
+    aliases: [want a job now, hidden unemployment]
+    notes: BLS CPS series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.
+    chart:
+      default_type: line
+      recommended: [line, labor_slack_panel]
+      y_axis_label: Thousands
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]

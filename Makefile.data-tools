@@ -1,0 +1,26 @@
+# Optional targets. Include from the main Makefile or run directly with:
+#   make -f Makefile.data-tools data-tools-doctor
+
+PYTHON ?= python3
+JOBGAUGE_DATA ?= site/public/data
+JG ?= $(PYTHON) tools/jobgauge_data.py --data $(JOBGAUGE_DATA)
+
+.PHONY: data-tools-bootstrap data-tools-doctor data-tools-origin-check data-tools-smoke data-tools-test
+
+data-tools-bootstrap:
+	bash scripts/bootstrap_jobgauge_tools.sh
+
+data-tools-doctor:
+	$(JG) doctor --format table
+
+data-tools-origin-check: export-static-origin
+	$(JG) doctor --format json --require-origin-only
+
+data-tools-smoke:
+	$(JG) doctor --format table
+	$(JG) search unemployment --available-only --format table -n 5
+	$(JG) latest unemployment_rate --format table
+	$(JG) rank laus_state_unemployment_template -n 5 --format table
+
+data-tools-test:
+	$(PYTHON) -m unittest tests.test_jobgauge_data_cli

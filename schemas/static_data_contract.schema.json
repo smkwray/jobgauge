@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/jobgauge/static-data-contract.schema.json",
+  "title": "jobgauge static data contract",
+  "type": "object",
+  "required": ["schema_version", "indicator", "observations"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "indicator": {"type": "object"},
+    "observations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["indicator_id", "date", "value", "source", "frequency", "units"],
+        "properties": {
+          "indicator_id": {"type": "string"},
+          "date": {"type": "string", "format": "date"},
+          "value": {"type": ["number", "null"]},
+          "source": {"type": "string"},
+          "series_id": {"type": ["string", "null"]},
+          "frequency": {"enum": ["D", "W", "M", "Q", "A", "IRREGULAR"]},
+          "seasonal_adjustment": {"type": ["string", "null"]},
+          "units": {"type": ["string", "null"]},
+          "realtime_start": {"type": ["string", "null"]},
+          "realtime_end": {"type": ["string", "null"]},
+          "footnotes": {"type": ["string", "array", "null"]},
+          "change_1": {"type": ["number", "null"]},
+          "pct_change_1": {"type": ["number", "null"]},
+          "change_12": {"type": ["number", "null"]},
+          "pct_change_12": {"type": ["number", "null"]},
+          "rolling_3": {"type": ["number", "null"]},
+          "rolling_6": {"type": ["number", "null"]},
+          "rolling_12": {"type": ["number", "null"]},
+          "index_first_100": {"type": ["number", "null"]}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

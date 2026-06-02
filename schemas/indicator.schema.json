@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/jobgauge/indicator.schema.json",
+  "title": "Indicator catalog item",
+  "type": "object",
+  "required": ["id", "title", "provider", "source_id", "group", "frequency", "units"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9_-]+$"},
+    "title": {"type": "string"},
+    "short_title": {"type": ["string", "null"]},
+    "provider": {"enum": ["bls", "fred", "bea", "census_qwi", "qcew", "dol", "manual"]},
+    "source_id": {"type": "string"},
+    "series_id": {"type": ["string", "null"]},
+    "group": {"type": "string"},
+    "subgroup": {"type": ["string", "null"]},
+    "priority": {"enum": ["core", "recommended", "extended", "experimental"]},
+    "frequency": {"enum": ["D", "W", "M", "Q", "A", "IRREGULAR"]},
+    "units": {"type": "string"},
+    "seasonal_adjustment": {"type": ["string", "null"]},
+    "geography": {"type": "string"},
+    "start_year": {"type": ["integer", "null"]},
+    "release": {"type": ["string", "null"]},
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "aliases": {"type": "array", "items": {"type": "string"}},
+    "notes": {"type": "string"},
+    "api_params": {"type": "object"},
+    "chart": {"type": "object"}
+  },
+  "additionalProperties": true
+}

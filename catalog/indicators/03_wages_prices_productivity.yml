@@ -1,0 +1,170 @@
+indicators:
+  - id: cpi_all_urban_consumers
+    title: Consumer Price Index for All Urban Consumers, all items
+    short_title: CPI-U
+    provider: bls
+    source_id: bls_public_api
+    series_id: CUSR0000SA0
+    group: wages_prices_productivity
+    subgroup: prices
+    priority: core
+    frequency: M
+    units: Index 1982-84=100
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1947
+    release: Consumer Price Index
+    tags: [inflation, prices, deflator, real wages]
+    aliases: [cpi, cpi-u, consumer price index]
+    notes: Used to deflate nominal wage series in the frontend/backend transformations. BLS is canonical; FRED CPIAUCSL is only a convenience mirror.
+    chart:
+      default_type: line
+      recommended: [line, inflation_rate]
+      y_axis_label: Index
+      transformations: [pct_change_12]
+
+  - id: pce_price_index
+    title: Personal consumption expenditures price index
+    short_title: PCE price index
+    provider: fred
+    source_id: fred_api
+    series_id: PCEPI
+    group: wages_prices_productivity
+    subgroup: prices
+    priority: recommended
+    frequency: M
+    units: Index 2017=100
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1959
+    release: Personal Income and Outlays
+    tags: [inflation, prices, deflator, pce]
+    aliases: [pcepi, pce deflator]
+    notes: FRED mirror ID is declared; verify BEA-origin endpoint before any redistributable public export.
+    chart:
+      default_type: line
+      recommended: [line, inflation_rate]
+      y_axis_label: Index
+      transformations: [pct_change_12]
+
+  - id: employment_cost_index_wages_salaries_private
+    title: Employment Cost Index, wages and salaries, private industry workers
+    short_title: ECI wages/private
+    provider: bls
+    source_id: bls_public_api
+    series_id: CIS2020000000000I
+    group: wages_prices_productivity
+    subgroup: wages
+    priority: extended
+    frequency: Q
+    units: Index
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 2001
+    release: Employment Cost Index
+    tags: [wages, compensation, eci, private sector]
+    aliases: [employment cost index wages, eci]
+    notes: Official BLS ECI seasonally adjusted current-dollar index for wages and salaries for all private industry workers; BLS API returned observations for `CIS2020000000000I` on 2026-06-02. Replaces invalid FRED mnemonic `ECIPRIVATEWAG`.
+    chart:
+      default_type: line
+      recommended: [line, growth_rate]
+      y_axis_label: Index
+      transformations: [pct_change_12]
+
+  - id: labor_productivity_nonfarm_business
+    title: Labor productivity, nonfarm business sector
+    short_title: Labor productivity
+    provider: fred
+    source_id: fred_api
+    series_id: OPHNFB
+    group: wages_prices_productivity
+    subgroup: productivity
+    priority: recommended
+    frequency: Q
+    units: Index 2017=100
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1947
+    release: Productivity and Costs
+    tags: [productivity, output per hour, nonfarm business]
+    aliases: [output per hour, labor productivity]
+    notes: FRED mirror ID is declared; verify canonical BLS productivity source series before any redistributable public export.
+    chart:
+      default_type: line
+      recommended: [line, growth_rate]
+      y_axis_label: Index
+      show_recession_bands: true
+      transformations: [pct_change_12]
+
+  - id: unit_labor_cost_nonfarm_business
+    title: Unit labor cost, nonfarm business sector
+    short_title: Unit labor cost
+    provider: fred
+    source_id: fred_api
+    series_id: ULCNFB
+    group: wages_prices_productivity
+    subgroup: productivity
+    priority: recommended
+    frequency: Q
+    units: Index 2017=100
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1947
+    release: Productivity and Costs
+    tags: [unit labor cost, productivity, compensation]
+    aliases: [ulc, labor costs]
+    notes: FRED mirror ID is declared; verify canonical BLS productivity source series before any redistributable public export.
+    chart:
+      default_type: line
+      recommended: [line, growth_rate]
+      y_axis_label: Index
+      transformations: [pct_change_12]
+
+  - id: labor_share_nonfarm_business
+    title: Labor share, nonfarm business sector
+    short_title: Labor share
+    provider: fred
+    source_id: fred_api
+    series_id: PRS85006173
+    group: wages_prices_productivity
+    subgroup: distribution
+    priority: recommended
+    frequency: Q
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1947
+    release: Productivity and Costs
+    tags: [labor share, distribution, compensation, productivity]
+    aliases: [worker share, compensation share]
+    notes: FRED mirror ID is declared; verify canonical BLS productivity source series before any redistributable public export.
+    chart:
+      default_type: line
+      recommended: [line, compare_to_productivity]
+      y_axis_label: Percent
+      show_recession_bands: true
+      transformations: [change_12]
+
+  - id: wage_salary_disbursements_bea
+    title: "Compensation of employees received: wage and salary disbursements"
+    short_title: Wage & salary disbursements
+    provider: fred
+    source_id: fred_api
+    series_id: A576RC1
+    group: wages_prices_productivity
+    subgroup: bea_income
+    priority: recommended
+    frequency: M
+    units: Billions of dollars SAAR
+    seasonal_adjustment: SAAR
+    geography: US
+    start_year: 1959
+    release: Personal Income and Outlays
+    tags: [bea, wages, salaries, compensation, personal income]
+    aliases: [wage salary disbursements, BEA compensation]
+    notes: FRED mirror ID is declared; verify BEA-origin endpoint before any redistributable public export.
+    chart:
+      default_type: line
+      recommended: [line, share_of_personal_income, growth_rate]
+      y_axis_label: Billions of dollars SAAR
+      transformations: [pct_change_12]
