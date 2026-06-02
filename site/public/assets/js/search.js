@@ -159,11 +159,38 @@ const STATE_HINT = /\bstate|\blocal|\bby state\b|\bgeograph|\blaus\b/;
 function norm(s) { return (s || "").toLowerCase().trim(); }
 function tokenize(s) { return norm(s).split(/[^a-z0-9-]+/).filter(Boolean); }
 
-// chars-in-order fuzzy (typo/partial tolerant)
-function subseq(needle, hay) {
-  let i = 0;
-  for (let j = 0; j < hay.length && i < needle.length; j++) if (hay[j] === needle[i]) i++;
-  return i === needle.length;
+// Damerau–Levenshtein distance from `a` to the CLOSEST PREFIX of `b`, so a short
+// typo can match the start of a longer word ("uun" -> "un(employment)", dist 1).
+function prefixEditDist(a, b) {
+  const n = a.length, m = b.length;
+  if (!n) return 0;
+  let prev2 = null, prev = new Array(m + 1);
+  for (let j = 0; j <= m; j++) prev[j] = j;
+  for (let i = 1; i <= n; i++) {
+    const cur = new Array(m + 1);
+    cur[0] = i;
+    for (let j = 1; j <= m; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      let v = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + cost);
+      if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) v = Math.min(v, prev2[j - 2] + 1);
+      cur[j] = v;
+    }
+    prev2 = prev; prev = cur;
+  }
+  let best = 99;
+  for (let j = 1; j <= m; j++) if (prev[j] < best) best = prev[j]; // min over all prefix lengths
+  return best;
+}
+
+// typo-tolerant: does token `t` match a word (or its prefix) in `words` within a small
+// edit budget? 1 edit for short tokens, 2 for longer ones. Handles transpositions too.
+function fuzzyHit(t, words) {
+  const budget = t.length <= 4 ? 1 : 2;
+  for (const w of words) {
+    if (w.length < t.length - budget) continue; // too short to hold a near-prefix of t
+    if (prefixEditDist(t, w) <= budget) return true;
+  }
+  return false;
 }
 
 function scoreDoc(doc, q, tokens, stateMode) {
@@ -171,6 +198,9 @@ function scoreDoc(doc, q, tokens, stateMode) {
   const seriesId = norm(doc.series_id), hay = doc.haystack || "";
   const aliases = (doc.aliases || []).map(norm), tags = (doc.tags || []).map(norm);
   const boost = (doc.boost_terms || []).map(norm);
+  // high-signal words for typo-tolerant matching: title/short-title/aliases/tags/boost terms
+  // (curated fields — not the full haystack, which would over-match).
+  const fuzzyWords = [...new Set((title + " " + shortT + " " + aliases.join(" ") + " " + tags.join(" ") + " " + boost.join(" ")).split(/[^a-z0-9]+/).filter((w) => w.length >= 3))];
   let s = 0, strong = 0, exactHit = false;
 
   if (id === q) { s += 1000; exactHit = true; }
@@ -188,7 +218,7 @@ function scoreDoc(doc, q, tokens, stateMode) {
     else if (aliases.some((a) => a.includes(t)) || boost.includes(t)) { hit = 24; st = true; }
     else if (tags.includes(t)) { hit = 20; st = true; }
     else if (hay.includes(t)) { hit = 16; st = true; }
-    else if (t.length >= 4 && subseq(t, title)) hit = 8; // weak fuzzy on title only
+    else if (t.length >= 3 && fuzzyHit(t, fuzzyWords)) { hit = 15; st = true; } // typo-tolerant ("uun" -> unemployment)
     if (st) { strong++; matchedStrong++; }
     s += hit;
   }

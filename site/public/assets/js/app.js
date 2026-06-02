@@ -6,7 +6,7 @@ import { fmtValue, fmtDelta, fmtDate, fmtTimestamp, unitShort, geoName,
 import { TRANSFORMS, filterRange, applyTransform, transformAvailability, transformUnit, transformVerb,
          rollingLabel, alignByDate, COMBINE_OPS, combineSeries, combineLabel, compileFormula } from "./transforms.js";
 import { lineOption, scatterOption, barOption, mapOption, heatmapOption, distributionOption, miniLineOption } from "./charts.js";
-import { searchAll, PRESETS, presetById, THEMES, highlight } from "./search.js";
+import { searchAll, PRESETS, presetById, THEMES, highlight } from "./search.js?v=15";
 import { parseState, syncURL, encodeState } from "./router.js";
 import { exportCSV, exportJSON, exportPNG, exportSVG, copyText } from "./exporters.js";
 
