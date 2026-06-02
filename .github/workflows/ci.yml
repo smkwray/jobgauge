@@ -8,6 +8,10 @@ on:
 jobs:
   backend:
     runs-on: ubuntu-latest
+    env:
+      # The Makefile defaults PYTHON to a local venv ($HOME/venvs/jobgauge);
+      # on the runner, use the interpreter that `pip install -e` populated.
+      PYTHON: python
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
