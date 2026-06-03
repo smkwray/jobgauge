@@ -214,6 +214,10 @@ def test_additional_industry_payroll_series_are_declared() -> None:
     expected_series = {
         "payrolls_mining_logging": "CES1000000001",
         "payrolls_trade_transport_utilities": "CES4000000001",
+        "payrolls_wholesale_trade": "CES4142000001",
+        "payrolls_retail_trade": "CES4200000001",
+        "payrolls_transportation_warehousing": "CES4300000001",
+        "payrolls_utilities": "CES4422000001",
         "payrolls_information": "CES5000000001",
         "payrolls_financial_activities": "CES5500000001",
         "payrolls_professional_business_services": "CES6000000001",

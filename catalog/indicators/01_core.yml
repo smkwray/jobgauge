@@ -289,7 +289,7 @@ indicators:
       recommended: [line, monthly_change_bar, indexed_line]
       y_axis_label: Thousands
       show_recession_bands: true
-      transformations: [change_1, change_12, pct_change_12, rolling_3, index_first_100]
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12, rolling_3, index_first_100]
 
   - id: total_private_payrolls
     title: All employees, total private payrolls
@@ -313,7 +313,7 @@ indicators:
       recommended: [line, monthly_change_bar]
       y_axis_label: Thousands
       show_recession_bands: true
-      transformations: [change_1, change_12, pct_change_12, rolling_3]
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12, rolling_3]
 
   - id: average_hourly_earnings_total_private
     title: Average hourly earnings of all employees, total private

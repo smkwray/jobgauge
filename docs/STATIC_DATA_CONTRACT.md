@@ -85,8 +85,12 @@ Each observation should contain at minimum:
   "entity_key": "unemployment_rate|US",
   "change_1": 0.1,
   "pct_change_1": 2.5,
+  "change_3": 0.2,
+  "pct_change_3": 5.0,
   "change_4": 0.2,
   "pct_change_4": 5.0,
+  "change_6": 0.3,
+  "pct_change_6": 7.7,
   "change_12": 0.4,
   "pct_change_12": 11.1,
   "rolling_3": 4.0,
@@ -97,7 +101,7 @@ Each observation should contain at minimum:
 }
 ```
 
-Transform columns may be null near the start of a series. `change_4`, `pct_change_4`, and `rolling_4` are available for quarterly and weekly use cases, but labels remain frequency-aware UI responsibility. Panel indicators group transforms by `entity_key`, so state/QWI rows do not mix values across geographies.
+Transform columns may be null near the start of a series. `change_3`, `pct_change_3`, `change_6`, and `pct_change_6` support exact 3- and 6-period net-change displays, including monthly payroll bar charts. `change_4`, `pct_change_4`, and `rolling_4` are available for quarterly and weekly use cases, but labels remain frequency-aware UI responsibility. Panel indicators group transforms by `entity_key`, so state/QWI rows do not mix values across geographies.
 
 All static payloads are strict JSON: missing, `NaN`, and infinite numeric values are serialized as `null`.
 

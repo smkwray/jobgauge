@@ -49,7 +49,7 @@ def add_standard_transforms(frame: pd.DataFrame, default_geography: str | None =
 
     Input must be long form with `indicator_id`, `date`, and `value`.
     Output preserves original rows and adds common derived columns that the frontend can use
-    without recomputing: month/quarter/year-over-year changes, rolling means, and index-to-first.
+    without recomputing: period changes, rolling means, and index-to-first.
     """
     if frame.empty:
         return frame
@@ -60,8 +60,12 @@ def add_standard_transforms(frame: pd.DataFrame, default_geography: str | None =
     grouped = data.groupby(group_columns, group_keys=False)
     data["change_1"] = grouped["value"].diff(1)
     data["pct_change_1"] = grouped["value"].pct_change(1) * 100
+    data["change_3"] = grouped["value"].diff(3)
+    data["pct_change_3"] = grouped["value"].pct_change(3) * 100
     data["change_4"] = grouped["value"].diff(4)
     data["pct_change_4"] = grouped["value"].pct_change(4) * 100
+    data["change_6"] = grouped["value"].diff(6)
+    data["pct_change_6"] = grouped["value"].pct_change(6) * 100
     data["change_12"] = grouped["value"].diff(12)
     data["pct_change_12"] = grouped["value"].pct_change(12) * 100
     data["rolling_3"] = grouped["value"].rolling(3, min_periods=1).mean().reset_index(level=group_columns, drop=True)

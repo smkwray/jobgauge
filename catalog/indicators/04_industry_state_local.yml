@@ -22,7 +22,7 @@ indicators:
       recommended: [line, industry_comparison]
       y_axis_label: Thousands
       show_recession_bands: true
-      transformations: [change_1, change_12, pct_change_12]
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12]
 
   - id: payrolls_construction
     title: All employees, construction
@@ -46,7 +46,7 @@ indicators:
       default_type: line
       recommended: [line, industry_comparison]
       y_axis_label: Thousands
-      transformations: [change_1, change_12, pct_change_12]
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12]
 
   - id: payrolls_leisure_hospitality
     title: All employees, leisure and hospitality
@@ -70,7 +70,7 @@ indicators:
       default_type: line
       recommended: [line, industry_comparison]
       y_axis_label: Thousands
-      transformations: [change_1, change_12, pct_change_12]
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12]
 
   - id: payrolls_government
     title: All employees, government
@@ -94,7 +94,7 @@ indicators:
       default_type: line
       recommended: [line, industry_comparison]
       y_axis_label: Thousands
-      transformations: [change_1, change_12, pct_change_12]
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12]
 
   - id: payrolls_mining_logging
     title: All employees, mining and logging
@@ -118,7 +118,7 @@ indicators:
       default_type: line
       recommended: [line, industry_comparison]
       y_axis_label: Thousands
-      transformations: [change_1, change_12, pct_change_12]
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12]
 
   - id: payrolls_trade_transport_utilities
     title: All employees, trade transportation and utilities
@@ -142,7 +142,103 @@ indicators:
       default_type: line
       recommended: [line, industry_comparison]
       y_axis_label: Thousands
-      transformations: [change_1, change_12, pct_change_12]
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12]
+
+  - id: payrolls_wholesale_trade
+    title: All employees, wholesale trade
+    short_title: Wholesale trade jobs
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES4142000001
+    group: industry_state_local
+    subgroup: industry_payrolls
+    priority: recommended
+    frequency: M
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1939
+    release: Employment Situation
+    tags: [industry, wholesale trade, trade, payrolls]
+    aliases: [wholesale employment, wholesale jobs]
+    notes: BLS CES published-series table lists wholesale trade as SA all-employees available; BLS API verified on 2026-06-03.
+    chart:
+      default_type: line
+      recommended: [line, industry_comparison]
+      y_axis_label: Thousands
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12]
+
+  - id: payrolls_retail_trade
+    title: All employees, retail trade
+    short_title: Retail trade jobs
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES4200000001
+    group: industry_state_local
+    subgroup: industry_payrolls
+    priority: recommended
+    frequency: M
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1939
+    release: Employment Situation
+    tags: [industry, retail trade, trade, payrolls]
+    aliases: [retail employment, retail jobs]
+    notes: BLS CES published-series table lists retail trade as SA all-employees available; BLS API verified on 2026-06-03.
+    chart:
+      default_type: line
+      recommended: [line, industry_comparison]
+      y_axis_label: Thousands
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12]
+
+  - id: payrolls_transportation_warehousing
+    title: All employees, transportation and warehousing
+    short_title: Transportation/warehousing jobs
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES4300000001
+    group: industry_state_local
+    subgroup: industry_payrolls
+    priority: recommended
+    frequency: M
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1972
+    release: Employment Situation
+    tags: [industry, transportation, warehousing, payrolls]
+    aliases: [transportation employment, warehousing employment, transport warehouse jobs]
+    notes: BLS CES published-series table lists transportation and warehousing as SA all-employees available; BLS API verified on 2026-06-03.
+    chart:
+      default_type: line
+      recommended: [line, industry_comparison]
+      y_axis_label: Thousands
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12]
+
+  - id: payrolls_utilities
+    title: All employees, utilities
+    short_title: Utilities jobs
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES4422000001
+    group: industry_state_local
+    subgroup: industry_payrolls
+    priority: recommended
+    frequency: M
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1964
+    release: Employment Situation
+    tags: [industry, utilities, payrolls]
+    aliases: [utilities employment, utility jobs]
+    notes: BLS CES published-series table lists utilities as SA all-employees available; BLS API verified on 2026-06-03.
+    chart:
+      default_type: line
+      recommended: [line, industry_comparison]
+      y_axis_label: Thousands
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12]
 
   - id: payrolls_information
     title: All employees, information
@@ -166,7 +262,7 @@ indicators:
       default_type: line
       recommended: [line, industry_comparison]
       y_axis_label: Thousands
-      transformations: [change_1, change_12, pct_change_12]
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12]
 
   - id: payrolls_financial_activities
     title: All employees, financial activities
@@ -190,7 +286,7 @@ indicators:
       default_type: line
       recommended: [line, industry_comparison]
       y_axis_label: Thousands
-      transformations: [change_1, change_12, pct_change_12]
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12]
 
   - id: payrolls_professional_business_services
     title: All employees, professional and business services
@@ -214,7 +310,7 @@ indicators:
       default_type: line
       recommended: [line, industry_comparison]
       y_axis_label: Thousands
-      transformations: [change_1, change_12, pct_change_12]
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12]
 
   - id: payrolls_education_health_services
     title: All employees, education and health services
@@ -238,7 +334,7 @@ indicators:
       default_type: line
       recommended: [line, industry_comparison]
       y_axis_label: Thousands
-      transformations: [change_1, change_12, pct_change_12]
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12]
 
   - id: payrolls_other_services
     title: All employees, other services
@@ -262,7 +358,7 @@ indicators:
       default_type: line
       recommended: [line, industry_comparison]
       y_axis_label: Thousands
-      transformations: [change_1, change_12, pct_change_12]
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12]
 
   - id: qcew_total_private_employment_annual
     title: QCEW annual average employment, total private, all industries
@@ -759,7 +855,7 @@ indicators:
       recommended: [map, ranked_bar, small_multiples]
       y_axis_label: Persons
       allow_geography_filter: true
-      transformations: [change_1, change_12, pct_change_12]
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12]
 
   - id: laus_state_employment
     title: LAUS state employment
@@ -788,7 +884,7 @@ indicators:
       recommended: [map, ranked_bar, small_multiples]
       y_axis_label: Persons
       allow_geography_filter: true
-      transformations: [change_1, change_12, pct_change_12]
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12]
 
   - id: sae_state_total_nonfarm_payrolls
     title: State total nonfarm payroll employment
@@ -817,7 +913,7 @@ indicators:
       recommended: [map, ranked_bar, small_multiples]
       y_axis_label: Thousands of jobs
       allow_geography_filter: true
-      transformations: [change_1, change_12, pct_change_12]
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12]
 
   - id: laus_state_unemployment_level
     title: LAUS state unemployment level
@@ -846,4 +942,4 @@ indicators:
       recommended: [map, ranked_bar, small_multiples]
       y_axis_label: Persons
       allow_geography_filter: true
-      transformations: [change_1, change_12, pct_change_12]
+      transformations: [change_1, change_3, change_6, change_12, pct_change_12]

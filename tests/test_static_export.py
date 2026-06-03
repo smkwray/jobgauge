@@ -82,25 +82,29 @@ def _panel_frame() -> pd.DataFrame:
 def test_transforms_add_expected_columns() -> None:
     frame = pd.DataFrame(
         {
-            "indicator_id": ["demo_series"] * 3,
-            "date": ["2024-01-01", "2024-02-01", "2024-03-01"],
-            "value": [100.0, 110.0, 121.0],
-            "source": ["fred_api"] * 3,
-            "series_id": ["DEMO"] * 3,
-            "frequency": ["M"] * 3,
-            "seasonal_adjustment": [None] * 3,
-            "units": ["Index"] * 3,
-            "realtime_start": [None] * 3,
-            "realtime_end": [None] * 3,
-            "footnotes": [""] * 3,
+            "indicator_id": ["demo_series"] * 7,
+            "date": [f"2024-{month:02d}-01" for month in range(1, 8)],
+            "value": [100.0, 110.0, 121.0, 130.0, 141.0, 150.0, 165.0],
+            "source": ["fred_api"] * 7,
+            "series_id": ["DEMO"] * 7,
+            "frequency": ["M"] * 7,
+            "seasonal_adjustment": [None] * 7,
+            "units": ["Index"] * 7,
+            "realtime_start": [None] * 7,
+            "realtime_end": [None] * 7,
+            "footnotes": [""] * 7,
         }
     )
     transformed = add_standard_transforms(frame)
     assert "change_1" in transformed.columns
     assert transformed.loc[1, "change_1"] == 10.0
+    assert transformed.loc[3, "change_3"] == 30.0
+    assert transformed.loc[6, "change_6"] == 65.0
+    assert math.isclose(transformed.loc[3, "pct_change_3"], 30.0)
+    assert math.isclose(transformed.loc[6, "pct_change_6"], 65.0)
     assert transformed.loc[2, "index_first_100"] == 121.0
     latest = latest_snapshot(frame)
-    assert latest.iloc[0]["date"] == "2024-03-01"
+    assert latest.iloc[0]["date"] == "2024-07-01"
 
 
 def test_transforms_are_entity_aware_for_panel_data() -> None:

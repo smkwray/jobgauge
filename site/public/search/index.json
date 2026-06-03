@@ -668,6 +668,8 @@
         "allow_industry_filter": false,
         "transformations": [
           "change_1",
+          "change_3",
+          "change_6",
           "change_12",
           "pct_change_12",
           "rolling_3",
@@ -727,6 +729,8 @@
         "allow_industry_filter": false,
         "transformations": [
           "change_1",
+          "change_3",
+          "change_6",
           "change_12",
           "pct_change_12",
           "rolling_3"
@@ -4489,6 +4493,8 @@
         "allow_industry_filter": false,
         "transformations": [
           "change_1",
+          "change_3",
+          "change_6",
           "change_12",
           "pct_change_12"
         ]
@@ -4543,6 +4549,8 @@
         "allow_industry_filter": false,
         "transformations": [
           "change_1",
+          "change_3",
+          "change_6",
           "change_12",
           "pct_change_12"
         ]
@@ -4598,6 +4606,8 @@
         "allow_industry_filter": false,
         "transformations": [
           "change_1",
+          "change_3",
+          "change_6",
           "change_12",
           "pct_change_12"
         ]
@@ -4655,6 +4665,8 @@
         "allow_industry_filter": false,
         "transformations": [
           "change_1",
+          "change_3",
+          "change_6",
           "change_12",
           "pct_change_12"
         ]
@@ -4712,6 +4724,8 @@
         "allow_industry_filter": false,
         "transformations": [
           "change_1",
+          "change_3",
+          "change_6",
           "change_12",
           "pct_change_12"
         ]
@@ -4770,6 +4784,8 @@
         "allow_industry_filter": false,
         "transformations": [
           "change_1",
+          "change_3",
+          "change_6",
           "change_12",
           "pct_change_12"
         ]
@@ -4787,6 +4803,242 @@
         "transportation",
         "ttu jobs",
         "utilities"
+      ]
+    },
+    {
+      "id": "payrolls_wholesale_trade",
+      "title": "All employees, wholesale trade",
+      "short_title": "Wholesale trade jobs",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "source_title": "BLS Public Data API",
+      "series_id": "CES4142000001",
+      "group": "industry_state_local",
+      "subgroup": "industry_payrolls",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "tags": [
+        "industry",
+        "wholesale trade",
+        "trade",
+        "payrolls"
+      ],
+      "aliases": [
+        "wholesale employment",
+        "wholesale jobs"
+      ],
+      "release": "Employment Situation",
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "industry_comparison"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_3",
+          "change_6",
+          "change_12",
+          "pct_change_12"
+        ]
+      },
+      "has_series": true,
+      "series_path": "series/payrolls_wholesale_trade.json",
+      "haystack": "all employees, wholesale trade wholesale trade jobs payrolls_wholesale_trade ces4142000001 industry_state_local industry_payrolls employment situation thousands of jobs us industry wholesale trade trade payrolls wholesale employment wholesale jobs bls ces published-series table lists wholesale trade as sa all-employees available; bls api verified on 2026-06-03.",
+      "boost_terms": [
+        "industry",
+        "industry_state_local",
+        "payrolls",
+        "recommended",
+        "trade",
+        "wholesale employment",
+        "wholesale jobs",
+        "wholesale trade"
+      ]
+    },
+    {
+      "id": "payrolls_retail_trade",
+      "title": "All employees, retail trade",
+      "short_title": "Retail trade jobs",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "source_title": "BLS Public Data API",
+      "series_id": "CES4200000001",
+      "group": "industry_state_local",
+      "subgroup": "industry_payrolls",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "tags": [
+        "industry",
+        "retail trade",
+        "trade",
+        "payrolls"
+      ],
+      "aliases": [
+        "retail employment",
+        "retail jobs"
+      ],
+      "release": "Employment Situation",
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "industry_comparison"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_3",
+          "change_6",
+          "change_12",
+          "pct_change_12"
+        ]
+      },
+      "has_series": true,
+      "series_path": "series/payrolls_retail_trade.json",
+      "haystack": "all employees, retail trade retail trade jobs payrolls_retail_trade ces4200000001 industry_state_local industry_payrolls employment situation thousands of jobs us industry retail trade trade payrolls retail employment retail jobs bls ces published-series table lists retail trade as sa all-employees available; bls api verified on 2026-06-03.",
+      "boost_terms": [
+        "industry",
+        "industry_state_local",
+        "payrolls",
+        "recommended",
+        "retail employment",
+        "retail jobs",
+        "retail trade",
+        "trade"
+      ]
+    },
+    {
+      "id": "payrolls_transportation_warehousing",
+      "title": "All employees, transportation and warehousing",
+      "short_title": "Transportation/warehousing jobs",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "source_title": "BLS Public Data API",
+      "series_id": "CES4300000001",
+      "group": "industry_state_local",
+      "subgroup": "industry_payrolls",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "tags": [
+        "industry",
+        "transportation",
+        "warehousing",
+        "payrolls"
+      ],
+      "aliases": [
+        "transportation employment",
+        "warehousing employment",
+        "transport warehouse jobs"
+      ],
+      "release": "Employment Situation",
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "industry_comparison"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_3",
+          "change_6",
+          "change_12",
+          "pct_change_12"
+        ]
+      },
+      "has_series": true,
+      "series_path": "series/payrolls_transportation_warehousing.json",
+      "haystack": "all employees, transportation and warehousing transportation/warehousing jobs payrolls_transportation_warehousing ces4300000001 industry_state_local industry_payrolls employment situation thousands of jobs us industry transportation warehousing payrolls transportation employment warehousing employment transport warehouse jobs bls ces published-series table lists transportation and warehousing as sa all-employees available; bls api verified on 2026-06-03.",
+      "boost_terms": [
+        "industry",
+        "industry_state_local",
+        "payrolls",
+        "recommended",
+        "transport warehouse jobs",
+        "transportation",
+        "transportation employment",
+        "warehousing",
+        "warehousing employment"
+      ]
+    },
+    {
+      "id": "payrolls_utilities",
+      "title": "All employees, utilities",
+      "short_title": "Utilities jobs",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "source_title": "BLS Public Data API",
+      "series_id": "CES4422000001",
+      "group": "industry_state_local",
+      "subgroup": "industry_payrolls",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "tags": [
+        "industry",
+        "utilities",
+        "payrolls"
+      ],
+      "aliases": [
+        "utilities employment",
+        "utility jobs"
+      ],
+      "release": "Employment Situation",
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "industry_comparison"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_3",
+          "change_6",
+          "change_12",
+          "pct_change_12"
+        ]
+      },
+      "has_series": true,
+      "series_path": "series/payrolls_utilities.json",
+      "haystack": "all employees, utilities utilities jobs payrolls_utilities ces4422000001 industry_state_local industry_payrolls employment situation thousands of jobs us industry utilities payrolls utilities employment utility jobs bls ces published-series table lists utilities as sa all-employees available; bls api verified on 2026-06-03.",
+      "boost_terms": [
+        "industry",
+        "industry_state_local",
+        "payrolls",
+        "recommended",
+        "utilities",
+        "utilities employment",
+        "utility jobs"
       ]
     },
     {
@@ -4826,6 +5078,8 @@
         "allow_industry_filter": false,
         "transformations": [
           "change_1",
+          "change_3",
+          "change_6",
           "change_12",
           "pct_change_12"
         ]
@@ -4881,6 +5135,8 @@
         "allow_industry_filter": false,
         "transformations": [
           "change_1",
+          "change_3",
+          "change_6",
           "change_12",
           "pct_change_12"
         ]
@@ -4938,6 +5194,8 @@
         "allow_industry_filter": false,
         "transformations": [
           "change_1",
+          "change_3",
+          "change_6",
           "change_12",
           "pct_change_12"
         ]
@@ -4995,6 +5253,8 @@
         "allow_industry_filter": false,
         "transformations": [
           "change_1",
+          "change_3",
+          "change_6",
           "change_12",
           "pct_change_12"
         ]
@@ -5051,6 +5311,8 @@
         "allow_industry_filter": false,
         "transformations": [
           "change_1",
+          "change_3",
+          "change_6",
           "change_12",
           "pct_change_12"
         ]
@@ -5749,6 +6011,8 @@
         "allow_industry_filter": false,
         "transformations": [
           "change_1",
+          "change_3",
+          "change_6",
           "change_12",
           "pct_change_12"
         ]
@@ -5805,6 +6069,8 @@
         "allow_industry_filter": false,
         "transformations": [
           "change_1",
+          "change_3",
+          "change_6",
           "change_12",
           "pct_change_12"
         ]
@@ -5864,6 +6130,8 @@
         "allow_industry_filter": false,
         "transformations": [
           "change_1",
+          "change_3",
+          "change_6",
           "change_12",
           "pct_change_12"
         ]
@@ -5924,6 +6192,8 @@
         "allow_industry_filter": false,
         "transformations": [
           "change_1",
+          "change_3",
+          "change_6",
           "change_12",
           "pct_change_12"
         ]
