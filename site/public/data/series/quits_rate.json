@@ -8544,7 +8544,7 @@
       "units": "Percent",
       "realtime_start": null,
       "realtime_end": null,
-      "footnotes": "preliminary",
+      "footnotes": "",
       "geography": "US",
       "geo_id": "US",
       "geo_label": "US",
@@ -8560,6 +8560,34 @@
       "rolling_6": 1.9666666666666666,
       "rolling_12": 1.9916666666666665,
       "index_first_100": 90.9090909090909
+    },
+    {
+      "indicator_id": "quits_rate",
+      "date": "2026-04-01",
+      "value": 1.9,
+      "source": "bls_public_api",
+      "series_id": "JTS000000000000000QUR",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "preliminary",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "quits_rate|US",
+      "change_1": -0.10000000000000009,
+      "pct_change_1": -5.000000000000004,
+      "change_4": -0.10000000000000009,
+      "pct_change_4": -5.000000000000004,
+      "change_12": -0.10000000000000009,
+      "pct_change_12": -5.000000000000004,
+      "rolling_3": 1.9333333333333333,
+      "rolling_4": 1.95,
+      "rolling_6": 1.9666666666666666,
+      "rolling_12": 1.9833333333333332,
+      "index_first_100": 86.36363636363636
     }
   ]
 }

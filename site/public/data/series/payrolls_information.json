@@ -49,8 +49,8 @@
   "observations": [
     {
       "indicator_id": "payrolls_information",
-      "date": "2000-01-01",
-      "value": 3552.0,
+      "date": "1990-01-01",
+      "value": 2671.0,
       "source": "bls_public_api",
       "series_id": "CES5000000001",
       "frequency": "M",
@@ -69,11 +69,3371 @@
       "pct_change_4": null,
       "change_12": null,
       "pct_change_12": null,
-      "rolling_3": 3552.0,
-      "rolling_4": 3552.0,
-      "rolling_6": 3552.0,
-      "rolling_12": 3552.0,
+      "rolling_3": 2671.0,
+      "rolling_4": 2671.0,
+      "rolling_6": 2671.0,
+      "rolling_12": 2671.0,
       "index_first_100": 100.0
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1990-02-01",
+      "value": 2676.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 5.0,
+      "pct_change_1": 0.18719580681392234,
+      "change_4": null,
+      "pct_change_4": null,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 2673.5,
+      "rolling_4": 2673.5,
+      "rolling_6": 2673.5,
+      "rolling_12": 2673.5,
+      "index_first_100": 100.18719580681392
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1990-03-01",
+      "value": 2680.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 4.0,
+      "pct_change_1": 0.1494768310911887,
+      "change_4": null,
+      "pct_change_4": null,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 2675.6666666666665,
+      "rolling_4": 2675.6666666666665,
+      "rolling_6": 2675.6666666666665,
+      "rolling_12": 2675.6666666666665,
+      "index_first_100": 100.33695245226507
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1990-04-01",
+      "value": 2684.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 4.0,
+      "pct_change_1": 0.14925373134329067,
+      "change_4": null,
+      "pct_change_4": null,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 2680.0,
+      "rolling_4": 2677.75,
+      "rolling_6": 2677.75,
+      "rolling_12": 2677.75,
+      "index_first_100": 100.48670909771621
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1990-05-01",
+      "value": 2689.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 5.0,
+      "pct_change_1": 0.18628912071534387,
+      "change_4": 18.0,
+      "pct_change_4": 0.6739049045301426,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 2684.3333333333335,
+      "rolling_4": 2682.25,
+      "rolling_6": 2680.0,
+      "rolling_12": 2680.0,
+      "index_first_100": 100.67390490453015
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1990-06-01",
+      "value": 2694.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 5.0,
+      "pct_change_1": 0.18594272963927683,
+      "change_4": 18.0,
+      "pct_change_4": 0.6726457399103047,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 2689.0,
+      "rolling_4": 2686.75,
+      "rolling_6": 2682.3333333333335,
+      "rolling_12": 2682.3333333333335,
+      "index_first_100": 100.86110071134406
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1990-07-01",
+      "value": 2697.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 3.0,
+      "pct_change_1": 0.11135857461024301,
+      "change_4": 17.0,
+      "pct_change_4": 0.6343283582089576,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 2693.3333333333335,
+      "rolling_4": 2691.0,
+      "rolling_6": 2686.6666666666665,
+      "rolling_12": 2684.4285714285716,
+      "index_first_100": 100.97341819543242
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1990-08-01",
+      "value": 2696.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.03707823507601571,
+      "change_4": 12.0,
+      "pct_change_4": 0.44709388971684305,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 2695.6666666666665,
+      "rolling_4": 2694.0,
+      "rolling_6": 2690.0,
+      "rolling_12": 2685.875,
+      "index_first_100": 100.93597903406963
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1990-09-01",
+      "value": 2693.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.1112759643916883,
+      "change_4": 4.0,
+      "pct_change_4": 0.14875418371140814,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 2695.3333333333335,
+      "rolling_4": 2695.0,
+      "rolling_6": 2692.1666666666665,
+      "rolling_12": 2686.6666666666665,
+      "index_first_100": 100.82366154998128
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1990-10-01",
+      "value": 2694.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.03713330857779695,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 2694.3333333333335,
+      "rolling_4": 2695.0,
+      "rolling_6": 2693.8333333333335,
+      "rolling_12": 2687.4,
+      "index_first_100": 100.86110071134406
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1990-11-01",
+      "value": 2690.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": -4.0,
+      "pct_change_1": -0.14847809948033142,
+      "change_4": -7.0,
+      "pct_change_4": -0.25954764553207665,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 2692.3333333333335,
+      "rolling_4": 2693.25,
+      "rolling_6": 2694.0,
+      "rolling_12": 2687.6363636363635,
+      "index_first_100": 100.71134406589293
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1990-12-01",
+      "value": 2692.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 2.0,
+      "pct_change_1": 0.07434944237918462,
+      "change_4": -4.0,
+      "pct_change_4": -0.14836795252225476,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 2692.0,
+      "rolling_4": 2692.25,
+      "rolling_6": 2693.6666666666665,
+      "rolling_12": 2688.0,
+      "index_first_100": 100.7862223886185
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1991-01-01",
+      "value": 2697.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 5.0,
+      "pct_change_1": 0.1857355126300142,
+      "change_4": 4.0,
+      "pct_change_4": 0.1485332343111878,
+      "change_12": 26.0,
+      "pct_change_12": 0.9734181954324184,
+      "rolling_3": 2693.0,
+      "rolling_4": 2693.25,
+      "rolling_6": 2693.6666666666665,
+      "rolling_12": 2690.1666666666665,
+      "index_first_100": 100.97341819543242
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1991-02-01",
+      "value": 2693.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": -4.0,
+      "pct_change_1": -0.14831294030404063,
+      "change_4": -1.0,
+      "pct_change_4": -0.0371195248700773,
+      "change_12": 17.0,
+      "pct_change_12": 0.6352765321375298,
+      "rolling_3": 2694.0,
+      "rolling_4": 2693.0,
+      "rolling_6": 2693.1666666666665,
+      "rolling_12": 2691.5833333333335,
+      "index_first_100": 100.82366154998128
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1991-03-01",
+      "value": 2689.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": -4.0,
+      "pct_change_1": -0.1485332343111767,
+      "change_4": -1.0,
+      "pct_change_4": -0.03717472118959231,
+      "change_12": 9.0,
+      "pct_change_12": 0.33582089552239847,
+      "rolling_3": 2693.0,
+      "rolling_4": 2692.75,
+      "rolling_6": 2692.5,
+      "rolling_12": 2692.3333333333335,
+      "index_first_100": 100.67390490453015
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1991-04-01",
+      "value": 2689.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_4": -3.0,
+      "pct_change_4": -0.11144130757800852,
+      "change_12": 5.0,
+      "pct_change_12": 0.18628912071534387,
+      "rolling_3": 2690.3333333333335,
+      "rolling_4": 2692.0,
+      "rolling_6": 2691.6666666666665,
+      "rolling_12": 2692.75,
+      "index_first_100": 100.67390490453015
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1991-05-01",
+      "value": 2684.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": -5.0,
+      "pct_change_1": -0.18594272963926572,
+      "change_4": -13.0,
+      "pct_change_4": -0.4820170559881376,
+      "change_12": -5.0,
+      "pct_change_12": -0.18594272963926572,
+      "rolling_3": 2687.3333333333335,
+      "rolling_4": 2688.75,
+      "rolling_6": 2690.6666666666665,
+      "rolling_12": 2692.3333333333335,
+      "index_first_100": 100.48670909771621
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1991-06-01",
+      "value": 2680.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": -4.0,
+      "pct_change_1": -0.14903129657227732,
+      "change_4": -13.0,
+      "pct_change_4": -0.4827330115113271,
+      "change_12": -14.0,
+      "pct_change_12": -0.5196733481811378,
+      "rolling_3": 2684.3333333333335,
+      "rolling_4": 2685.5,
+      "rolling_6": 2688.6666666666665,
+      "rolling_12": 2691.1666666666665,
+      "index_first_100": 100.33695245226507
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1991-07-01",
+      "value": 2677.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.11194029850746245,
+      "change_4": -12.0,
+      "pct_change_4": -0.4462625511342466,
+      "change_12": -20.0,
+      "pct_change_12": -0.7415647015202032,
+      "rolling_3": 2680.3333333333335,
+      "rolling_4": 2682.5,
+      "rolling_6": 2685.3333333333335,
+      "rolling_12": 2689.5,
+      "index_first_100": 100.2246349681767
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1991-08-01",
+      "value": 2671.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": -6.0,
+      "pct_change_1": -0.22413149047441072,
+      "change_4": -18.0,
+      "pct_change_4": -0.669393826701381,
+      "change_12": -25.0,
+      "pct_change_12": -0.927299703264095,
+      "rolling_3": 2676.0,
+      "rolling_4": 2678.0,
+      "rolling_6": 2681.6666666666665,
+      "rolling_12": 2687.4166666666665,
+      "index_first_100": 100.0
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1991-09-01",
+      "value": 2670.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.03743916136278447,
+      "change_4": -14.0,
+      "pct_change_4": -0.5216095380029762,
+      "change_12": -23.0,
+      "pct_change_12": -0.8540660972892633,
+      "rolling_3": 2672.6666666666665,
+      "rolling_4": 2674.5,
+      "rolling_6": 2678.5,
+      "rolling_12": 2685.5,
+      "index_first_100": 99.96256083863722
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1991-10-01",
+      "value": 2667.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.11235955056180247,
+      "change_4": -13.0,
+      "pct_change_4": -0.48507462686566694,
+      "change_12": -27.0,
+      "pct_change_12": -1.0022271714922093,
+      "rolling_3": 2669.3333333333335,
+      "rolling_4": 2671.25,
+      "rolling_6": 2674.8333333333335,
+      "rolling_12": 2683.25,
+      "index_first_100": 99.85024335454887
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1991-11-01",
+      "value": 2656.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": -11.0,
+      "pct_change_1": -0.412448443944502,
+      "change_4": -21.0,
+      "pct_change_4": -0.7844602166604431,
+      "change_12": -34.0,
+      "pct_change_12": -1.263940520446094,
+      "rolling_3": 2664.3333333333335,
+      "rolling_4": 2666.0,
+      "rolling_6": 2670.1666666666665,
+      "rolling_12": 2680.4166666666665,
+      "index_first_100": 99.43841257955822
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1991-12-01",
+      "value": 2656.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_4": -15.0,
+      "pct_change_4": -0.5615874204417781,
+      "change_12": -36.0,
+      "pct_change_12": -1.3372956909361022,
+      "rolling_3": 2659.6666666666665,
+      "rolling_4": 2662.25,
+      "rolling_6": 2666.1666666666665,
+      "rolling_12": 2677.4166666666665,
+      "index_first_100": 99.43841257955822
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1992-01-01",
+      "value": 2638.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": -18.0,
+      "pct_change_1": -0.6777108433734913,
+      "change_4": -32.0,
+      "pct_change_4": -1.1985018726591745,
+      "change_12": -59.0,
+      "pct_change_12": -2.187615869484616,
+      "rolling_3": 2650.0,
+      "rolling_4": 2654.25,
+      "rolling_6": 2659.6666666666665,
+      "rolling_12": 2672.5,
+      "index_first_100": 98.76450767502809
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1992-02-01",
+      "value": 2640.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 2.0,
+      "pct_change_1": 0.07581501137225999,
+      "change_4": -27.0,
+      "pct_change_4": -1.0123734533183382,
+      "change_12": -53.0,
+      "pct_change_12": -1.9680653546230942,
+      "rolling_3": 2644.6666666666665,
+      "rolling_4": 2647.5,
+      "rolling_6": 2654.5,
+      "rolling_12": 2668.0833333333335,
+      "index_first_100": 98.83938599775365
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1992-03-01",
+      "value": 2642.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 2.0,
+      "pct_change_1": 0.07575757575757347,
+      "change_4": -14.0,
+      "pct_change_4": -0.5271084337349352,
+      "change_12": -47.0,
+      "pct_change_12": -1.747861658609151,
+      "rolling_3": 2640.0,
+      "rolling_4": 2644.0,
+      "rolling_6": 2649.8333333333335,
+      "rolling_12": 2664.1666666666665,
+      "index_first_100": 98.91426432047922
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1992-04-01",
+      "value": 2639.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.1135503406510252,
+      "change_4": -17.0,
+      "pct_change_4": -0.6400602409638578,
+      "change_12": -50.0,
+      "pct_change_12": -1.8594272963927128,
+      "rolling_3": 2640.3333333333335,
+      "rolling_4": 2639.75,
+      "rolling_6": 2645.1666666666665,
+      "rolling_12": 2660.0,
+      "index_first_100": 98.80194683639087
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1992-05-01",
+      "value": 2638.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.0378931413414163,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_12": -46.0,
+      "pct_change_12": -1.713859910581217,
+      "rolling_3": 2639.6666666666665,
+      "rolling_4": 2639.75,
+      "rolling_6": 2642.1666666666665,
+      "rolling_12": 2656.1666666666665,
+      "index_first_100": 98.76450767502809
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1992-06-01",
+      "value": 2638.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_4": -2.0,
+      "pct_change_4": -0.07575757575757347,
+      "change_12": -42.0,
+      "pct_change_12": -1.5671641791044744,
+      "rolling_3": 2638.3333333333335,
+      "rolling_4": 2639.25,
+      "rolling_6": 2639.1666666666665,
+      "rolling_12": 2652.6666666666665,
+      "index_first_100": 98.76450767502809
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1992-07-01",
+      "value": 2637.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.037907505686129994,
+      "change_4": -5.0,
+      "pct_change_4": -0.18925056775170868,
+      "change_12": -40.0,
+      "pct_change_12": -1.4942099364960826,
+      "rolling_3": 2637.6666666666665,
+      "rolling_4": 2638.0,
+      "rolling_6": 2639.0,
+      "rolling_12": 2649.3333333333335,
+      "index_first_100": 98.7270685136653
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1992-08-01",
+      "value": 2635.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": -2.0,
+      "pct_change_1": -0.07584376185059138,
+      "change_4": -4.0,
+      "pct_change_4": -0.1515725653656652,
+      "change_12": -36.0,
+      "pct_change_12": -1.3478098090602741,
+      "rolling_3": 2636.6666666666665,
+      "rolling_4": 2637.0,
+      "rolling_6": 2638.1666666666665,
+      "rolling_12": 2646.3333333333335,
+      "index_first_100": 98.65219019093972
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1992-09-01",
+      "value": 2638.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 3.0,
+      "pct_change_1": 0.11385199240987465,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_12": -32.0,
+      "pct_change_12": -1.1985018726591745,
+      "rolling_3": 2636.6666666666665,
+      "rolling_4": 2637.0,
+      "rolling_6": 2637.5,
+      "rolling_12": 2643.6666666666665,
+      "index_first_100": 98.76450767502809
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1992-10-01",
+      "value": 2645.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 7.0,
+      "pct_change_1": 0.26535253980288775,
+      "change_4": 7.0,
+      "pct_change_4": 0.26535253980288775,
+      "change_12": -22.0,
+      "pct_change_12": -0.824896887889015,
+      "rolling_3": 2639.3333333333335,
+      "rolling_4": 2638.75,
+      "rolling_6": 2638.5,
+      "rolling_12": 2641.8333333333335,
+      "index_first_100": 99.02658180456758
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1992-11-01",
+      "value": 2650.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 5.0,
+      "pct_change_1": 0.1890359168241984,
+      "change_4": 13.0,
+      "pct_change_4": 0.4929844520288107,
+      "change_12": -6.0,
+      "pct_change_12": -0.22590361445783413,
+      "rolling_3": 2644.3333333333335,
+      "rolling_4": 2642.0,
+      "rolling_6": 2640.5,
+      "rolling_12": 2641.3333333333335,
+      "index_first_100": 99.2137776113815
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1992-12-01",
+      "value": 2654.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 4.0,
+      "pct_change_1": 0.15094339622641062,
+      "change_4": 19.0,
+      "pct_change_4": 0.7210626185958358,
+      "change_12": -2.0,
+      "pct_change_12": -0.07530120481927804,
+      "rolling_3": 2649.6666666666665,
+      "rolling_4": 2646.75,
+      "rolling_6": 2643.1666666666665,
+      "rolling_12": 2641.1666666666665,
+      "index_first_100": 99.36353425683264
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1993-01-01",
+      "value": 2655.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.037678975131871795,
+      "change_4": 17.0,
+      "pct_change_4": 0.6444275966641433,
+      "change_12": 17.0,
+      "pct_change_12": 0.6444275966641433,
+      "rolling_3": 2653.0,
+      "rolling_4": 2651.0,
+      "rolling_6": 2646.1666666666665,
+      "rolling_12": 2642.5833333333335,
+      "index_first_100": 99.40097341819543
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1993-02-01",
+      "value": 2656.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.03766478342750457,
+      "change_4": 11.0,
+      "pct_change_4": 0.41587901701323204,
+      "change_12": 16.0,
+      "pct_change_12": 0.60606060606061,
+      "rolling_3": 2655.0,
+      "rolling_4": 2653.75,
+      "rolling_6": 2649.6666666666665,
+      "rolling_12": 2643.9166666666665,
+      "index_first_100": 99.43841257955822
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1993-03-01",
+      "value": 2651.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": -5.0,
+      "pct_change_1": -0.18825301204818956,
+      "change_4": 1.0,
+      "pct_change_4": 0.037735849056597104,
+      "change_12": 9.0,
+      "pct_change_12": 0.3406510219530645,
+      "rolling_3": 2654.0,
+      "rolling_4": 2654.0,
+      "rolling_6": 2651.8333333333335,
+      "rolling_12": 2644.6666666666665,
+      "index_first_100": 99.25121677274429
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1993-04-01",
+      "value": 2658.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 7.0,
+      "pct_change_1": 0.26405130139570687,
+      "change_4": 4.0,
+      "pct_change_4": 0.15071590052750938,
+      "change_12": 19.0,
+      "pct_change_12": 0.719969685486932,
+      "rolling_3": 2655.0,
+      "rolling_4": 2655.0,
+      "rolling_6": 2654.0,
+      "rolling_12": 2646.25,
+      "index_first_100": 99.51329090228379
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1993-05-01",
+      "value": 2661.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 3.0,
+      "pct_change_1": 0.11286681715576563,
+      "change_4": 6.0,
+      "pct_change_4": 0.2259887005649608,
+      "change_12": 23.0,
+      "pct_change_12": 0.871872630780901,
+      "rolling_3": 2656.6666666666665,
+      "rolling_4": 2656.5,
+      "rolling_6": 2655.8333333333335,
+      "rolling_12": 2648.1666666666665,
+      "index_first_100": 99.62560838637215
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1993-06-01",
+      "value": 2666.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 5.0,
+      "pct_change_1": 0.18789928598270667,
+      "change_4": 10.0,
+      "pct_change_4": 0.3765060240963791,
+      "change_12": 28.0,
+      "pct_change_12": 1.0614101592115288,
+      "rolling_3": 2661.6666666666665,
+      "rolling_4": 2659.0,
+      "rolling_6": 2657.8333333333335,
+      "rolling_12": 2650.5,
+      "index_first_100": 99.81280419318608
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1993-07-01",
+      "value": 2667.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.037509377344346895,
+      "change_4": 16.0,
+      "pct_change_4": 0.6035458317616094,
+      "change_12": 30.0,
+      "pct_change_12": 1.1376564277588264,
+      "rolling_3": 2664.6666666666665,
+      "rolling_4": 2663.0,
+      "rolling_6": 2659.8333333333335,
+      "rolling_12": 2653.0,
+      "index_first_100": 99.85024335454887
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1993-08-01",
+      "value": 2674.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 7.0,
+      "pct_change_1": 0.2624671916010568,
+      "change_4": 16.0,
+      "pct_change_4": 0.6019563581640242,
+      "change_12": 39.0,
+      "pct_change_12": 1.4800759013282816,
+      "rolling_3": 2669.0,
+      "rolling_4": 2667.0,
+      "rolling_6": 2662.8333333333335,
+      "rolling_12": 2656.25,
+      "index_first_100": 100.11231748408835
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1993-09-01",
+      "value": 2674.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_4": 13.0,
+      "pct_change_4": 0.48853814355505065,
+      "change_12": 36.0,
+      "pct_change_12": 1.3646702047005244,
+      "rolling_3": 2671.6666666666665,
+      "rolling_4": 2670.25,
+      "rolling_6": 2666.6666666666665,
+      "rolling_12": 2659.25,
+      "index_first_100": 100.11231748408835
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1993-10-01",
+      "value": 2677.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 3.0,
+      "pct_change_1": 0.11219147344800895,
+      "change_4": 11.0,
+      "pct_change_4": 0.4126031507877048,
+      "change_12": 32.0,
+      "pct_change_12": 1.209829867674861,
+      "rolling_3": 2675.0,
+      "rolling_4": 2673.0,
+      "rolling_6": 2669.8333333333335,
+      "rolling_12": 2661.9166666666665,
+      "index_first_100": 100.2246349681767
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1993-11-01",
+      "value": 2683.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 6.0,
+      "pct_change_1": 0.22413149047442182,
+      "change_4": 16.0,
+      "pct_change_4": 0.5999250093738251,
+      "change_12": 33.0,
+      "pct_change_12": 1.2452830188679265,
+      "rolling_3": 2678.0,
+      "rolling_4": 2677.0,
+      "rolling_6": 2673.5,
+      "rolling_12": 2664.6666666666665,
+      "index_first_100": 100.44926993635343
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1993-12-01",
+      "value": 2691.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 8.0,
+      "pct_change_1": 0.2981736861721984,
+      "change_4": 17.0,
+      "pct_change_4": 0.6357516828721099,
+      "change_12": 37.0,
+      "pct_change_12": 1.394122079879434,
+      "rolling_3": 2683.6666666666665,
+      "rolling_4": 2681.25,
+      "rolling_6": 2677.6666666666665,
+      "rolling_12": 2667.75,
+      "index_first_100": 100.74878322725571
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1994-01-01",
+      "value": 2700.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 9.0,
+      "pct_change_1": 0.33444816053511683,
+      "change_4": 26.0,
+      "pct_change_4": 0.972326103216159,
+      "change_12": 45.0,
+      "pct_change_12": 1.6949152542372836,
+      "rolling_3": 2691.3333333333335,
+      "rolling_4": 2687.75,
+      "rolling_6": 2683.1666666666665,
+      "rolling_12": 2671.5,
+      "index_first_100": 101.08573567952077
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1994-02-01",
+      "value": 2708.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 8.0,
+      "pct_change_1": 0.2962962962963056,
+      "change_4": 31.0,
+      "pct_change_4": 1.158012700784461,
+      "change_12": 52.0,
+      "pct_change_12": 1.957831325301207,
+      "rolling_3": 2699.6666666666665,
+      "rolling_4": 2695.5,
+      "rolling_6": 2688.8333333333335,
+      "rolling_12": 2675.8333333333335,
+      "index_first_100": 101.38524897042306
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1994-03-01",
+      "value": 2713.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 5.0,
+      "pct_change_1": 0.18463810930575697,
+      "change_4": 30.0,
+      "pct_change_4": 1.1181513231457219,
+      "change_12": 62.0,
+      "pct_change_12": 2.3387400980761974,
+      "rolling_3": 2707.0,
+      "rolling_4": 2703.0,
+      "rolling_6": 2695.3333333333335,
+      "rolling_12": 2681.0,
+      "index_first_100": 101.572444777237
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1994-04-01",
+      "value": 2722.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 9.0,
+      "pct_change_1": 0.3317360855142004,
+      "change_4": 31.0,
+      "pct_change_4": 1.1519881085098493,
+      "change_12": 64.0,
+      "pct_change_12": 2.407825432656141,
+      "rolling_3": 2714.3333333333335,
+      "rolling_4": 2710.75,
+      "rolling_6": 2702.8333333333335,
+      "rolling_12": 2686.3333333333335,
+      "index_first_100": 101.90939722950205
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1994-05-01",
+      "value": 2726.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 4.0,
+      "pct_change_1": 0.14695077149156077,
+      "change_4": 26.0,
+      "pct_change_4": 0.9629629629629655,
+      "change_12": 65.0,
+      "pct_change_12": 2.4426907177752755,
+      "rolling_3": 2720.3333333333335,
+      "rolling_4": 2717.25,
+      "rolling_6": 2710.0,
+      "rolling_12": 2691.75,
+      "index_first_100": 102.0591538749532
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1994-06-01",
+      "value": 2731.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 5.0,
+      "pct_change_1": 0.18341892883344535,
+      "change_4": 23.0,
+      "pct_change_4": 0.8493353028065087,
+      "change_12": 65.0,
+      "pct_change_12": 2.4381095273818376,
+      "rolling_3": 2726.3333333333335,
+      "rolling_4": 2723.0,
+      "rolling_6": 2716.6666666666665,
+      "rolling_12": 2697.1666666666665,
+      "index_first_100": 102.24634968176713
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1994-07-01",
+      "value": 2735.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 4.0,
+      "pct_change_1": 0.1464664957890882,
+      "change_4": 22.0,
+      "pct_change_4": 0.8109104312569171,
+      "change_12": 68.0,
+      "pct_change_12": 2.5496812898387677,
+      "rolling_3": 2730.6666666666665,
+      "rolling_4": 2728.5,
+      "rolling_6": 2722.5,
+      "rolling_12": 2702.8333333333335,
+      "index_first_100": 102.39610632721828
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1994-08-01",
+      "value": 2751.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 16.0,
+      "pct_change_1": 0.5850091407678226,
+      "change_4": 29.0,
+      "pct_change_4": 1.065393093313749,
+      "change_12": 77.0,
+      "pct_change_12": 2.8795811518324665,
+      "rolling_3": 2739.0,
+      "rolling_4": 2735.75,
+      "rolling_6": 2729.6666666666665,
+      "rolling_12": 2709.25,
+      "index_first_100": 102.99513290902284
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1994-09-01",
+      "value": 2752.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.036350418029806875,
+      "change_4": 26.0,
+      "pct_change_4": 0.9537784299339602,
+      "change_12": 78.0,
+      "pct_change_12": 2.916978309648477,
+      "rolling_3": 2746.0,
+      "rolling_4": 2742.25,
+      "rolling_6": 2736.1666666666665,
+      "rolling_12": 2715.75,
+      "index_first_100": 103.03257207038563
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1994-10-01",
+      "value": 2765.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 13.0,
+      "pct_change_1": 0.4723837209302362,
+      "change_4": 34.0,
+      "pct_change_4": 1.2449652142072498,
+      "change_12": 88.0,
+      "pct_change_12": 3.2872618602913795,
+      "rolling_3": 2756.0,
+      "rolling_4": 2750.75,
+      "rolling_6": 2743.3333333333335,
+      "rolling_12": 2723.0833333333335,
+      "index_first_100": 103.51928116810183
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1994-11-01",
+      "value": 2776.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 11.0,
+      "pct_change_1": 0.3978300180831784,
+      "change_4": 41.0,
+      "pct_change_4": 1.4990859232175469,
+      "change_12": 93.0,
+      "pct_change_12": 3.466269101751762,
+      "rolling_3": 2764.3333333333335,
+      "rolling_4": 2761.0,
+      "rolling_6": 2751.6666666666665,
+      "rolling_12": 2730.8333333333335,
+      "index_first_100": 103.93111194309247
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1994-12-01",
+      "value": 2789.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 13.0,
+      "pct_change_1": 0.4682997118155674,
+      "change_4": 38.0,
+      "pct_change_4": 1.3813158851326834,
+      "change_12": 98.0,
+      "pct_change_12": 3.641768859160166,
+      "rolling_3": 2776.6666666666665,
+      "rolling_4": 2770.5,
+      "rolling_6": 2761.3333333333335,
+      "rolling_12": 2739.0,
+      "index_first_100": 104.41782104080868
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1995-01-01",
+      "value": 2785.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": -4.0,
+      "pct_change_1": -0.1434205808533484,
+      "change_4": 33.0,
+      "pct_change_4": 1.199127906976738,
+      "change_12": 85.0,
+      "pct_change_12": 3.1481481481481444,
+      "rolling_3": 2783.3333333333335,
+      "rolling_4": 2778.75,
+      "rolling_6": 2769.6666666666665,
+      "rolling_12": 2746.0833333333335,
+      "index_first_100": 104.26806439535754
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1995-02-01",
+      "value": 2814.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 29.0,
+      "pct_change_1": 1.041292639138236,
+      "change_4": 49.0,
+      "pct_change_4": 1.7721518987341867,
+      "change_12": 106.0,
+      "pct_change_12": 3.9143279172821233,
+      "rolling_3": 2796.0,
+      "rolling_4": 2791.0,
+      "rolling_6": 2780.1666666666665,
+      "rolling_12": 2754.9166666666665,
+      "index_first_100": 105.35380007487831
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1995-03-01",
+      "value": 2823.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 9.0,
+      "pct_change_1": 0.31982942430703876,
+      "change_4": 47.0,
+      "pct_change_4": 1.6930835734870309,
+      "change_12": 110.0,
+      "pct_change_12": 4.054552156284563,
+      "rolling_3": 2807.3333333333335,
+      "rolling_4": 2802.75,
+      "rolling_6": 2792.0,
+      "rolling_12": 2764.0833333333335,
+      "index_first_100": 105.69075252714339
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1995-04-01",
+      "value": 2833.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 10.0,
+      "pct_change_1": 0.3542330853701703,
+      "change_4": 44.0,
+      "pct_change_4": 1.577626389386877,
+      "change_12": 111.0,
+      "pct_change_12": 4.077883908890523,
+      "rolling_3": 2823.3333333333335,
+      "rolling_4": 2813.75,
+      "rolling_6": 2803.3333333333335,
+      "rolling_12": 2773.3333333333335,
+      "index_first_100": 106.06514414077124
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1995-05-01",
+      "value": 2834.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.03529827038475375,
+      "change_4": 49.0,
+      "pct_change_4": 1.7594254937163267,
+      "change_12": 108.0,
+      "pct_change_12": 3.9618488628026416,
+      "rolling_3": 2830.0,
+      "rolling_4": 2826.0,
+      "rolling_6": 2813.0,
+      "rolling_12": 2782.3333333333335,
+      "index_first_100": 106.10258330213402
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1995-06-01",
+      "value": 2837.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 3.0,
+      "pct_change_1": 0.10585744530697827,
+      "change_4": 23.0,
+      "pct_change_4": 0.8173418621179707,
+      "change_12": 106.0,
+      "pct_change_12": 3.8813621384108377,
+      "rolling_3": 2834.6666666666665,
+      "rolling_4": 2831.75,
+      "rolling_6": 2821.0,
+      "rolling_12": 2791.1666666666665,
+      "index_first_100": 106.2149007862224
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1995-07-01",
+      "value": 2849.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 12.0,
+      "pct_change_1": 0.4229820232640069,
+      "change_4": 26.0,
+      "pct_change_4": 0.9210060219624561,
+      "change_12": 114.0,
+      "pct_change_12": 4.168190127970739,
+      "rolling_3": 2840.0,
+      "rolling_4": 2838.25,
+      "rolling_6": 2831.6666666666665,
+      "rolling_12": 2800.6666666666665,
+      "index_first_100": 106.66417072257582
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1995-08-01",
+      "value": 2851.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 2.0,
+      "pct_change_1": 0.07020007020006602,
+      "change_4": 18.0,
+      "pct_change_4": 0.6353688669255231,
+      "change_12": 100.0,
+      "pct_change_12": 3.635041802980732,
+      "rolling_3": 2845.6666666666665,
+      "rolling_4": 2842.75,
+      "rolling_6": 2837.8333333333335,
+      "rolling_12": 2809.0,
+      "index_first_100": 106.73904904530139
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1995-09-01",
+      "value": 2864.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 13.0,
+      "pct_change_1": 0.45598035776921453,
+      "change_4": 30.0,
+      "pct_change_4": 1.0585744530698715,
+      "change_12": 112.0,
+      "pct_change_12": 4.069767441860472,
+      "rolling_3": 2854.6666666666665,
+      "rolling_4": 2850.25,
+      "rolling_6": 2844.6666666666665,
+      "rolling_12": 2818.3333333333335,
+      "index_first_100": 107.2257581430176
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1995-10-01",
+      "value": 2873.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 9.0,
+      "pct_change_1": 0.3142458100558576,
+      "change_4": 36.0,
+      "pct_change_4": 1.268946069792043,
+      "change_12": 108.0,
+      "pct_change_12": 3.9059674502712527,
+      "rolling_3": 2862.6666666666665,
+      "rolling_4": 2859.25,
+      "rolling_6": 2851.3333333333335,
+      "rolling_12": 2827.3333333333335,
+      "index_first_100": 107.56271059528267
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1995-11-01",
+      "value": 2880.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 7.0,
+      "pct_change_1": 0.2436477549599747,
+      "change_4": 31.0,
+      "pct_change_4": 1.08810108810109,
+      "change_12": 104.0,
+      "pct_change_12": 3.746397694524495,
+      "rolling_3": 2872.3333333333335,
+      "rolling_4": 2867.0,
+      "rolling_6": 2859.0,
+      "rolling_12": 2836.0,
+      "index_first_100": 107.82478472482215
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1995-12-01",
+      "value": 2884.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 4.0,
+      "pct_change_1": 0.1388888888888884,
+      "change_4": 33.0,
+      "pct_change_4": 1.1574886004910523,
+      "change_12": 95.0,
+      "pct_change_12": 3.4062387952671136,
+      "rolling_3": 2879.0,
+      "rolling_4": 2875.25,
+      "rolling_6": 2866.8333333333335,
+      "rolling_12": 2843.9166666666665,
+      "index_first_100": 107.97454137027331
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1996-01-01",
+      "value": 2888.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 4.0,
+      "pct_change_1": 0.1386962552011095,
+      "change_4": 24.0,
+      "pct_change_4": 0.8379888268156499,
+      "change_12": 103.0,
+      "pct_change_12": 3.6983842010771983,
+      "rolling_3": 2884.0,
+      "rolling_4": 2881.25,
+      "rolling_6": 2873.3333333333335,
+      "rolling_12": 2852.5,
+      "index_first_100": 108.12429801572445
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1996-02-01",
+      "value": 2892.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 4.0,
+      "pct_change_1": 0.13850415512466352,
+      "change_4": 19.0,
+      "pct_change_4": 0.6613296206056329,
+      "change_12": 78.0,
+      "pct_change_12": 2.771855010660973,
+      "rolling_3": 2888.0,
+      "rolling_4": 2886.0,
+      "rolling_6": 2880.1666666666665,
+      "rolling_12": 2859.0,
+      "index_first_100": 108.27405466117558
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1996-03-01",
+      "value": 2903.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 11.0,
+      "pct_change_1": 0.3803596127247566,
+      "change_4": 23.0,
+      "pct_change_4": 0.7986111111111027,
+      "change_12": 80.0,
+      "pct_change_12": 2.8338646829613845,
+      "rolling_3": 2894.3333333333335,
+      "rolling_4": 2891.75,
+      "rolling_6": 2886.6666666666665,
+      "rolling_12": 2865.6666666666665,
+      "index_first_100": 108.68588543616625
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1996-04-01",
+      "value": 2910.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 7.0,
+      "pct_change_1": 0.24112986565620886,
+      "change_4": 26.0,
+      "pct_change_4": 0.9015256588072118,
+      "change_12": 77.0,
+      "pct_change_12": 2.717966819625839,
+      "rolling_3": 2901.6666666666665,
+      "rolling_4": 2898.25,
+      "rolling_6": 2892.8333333333335,
+      "rolling_12": 2872.0833333333335,
+      "index_first_100": 108.94795956570573
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1996-05-01",
+      "value": 2920.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 10.0,
+      "pct_change_1": 0.3436426116838476,
+      "change_4": 32.0,
+      "pct_change_4": 1.1080332409972193,
+      "change_12": 86.0,
+      "pct_change_12": 3.034580098800288,
+      "rolling_3": 2911.0,
+      "rolling_4": 2906.25,
+      "rolling_6": 2899.5,
+      "rolling_12": 2879.25,
+      "index_first_100": 109.32235117933358
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1996-06-01",
+      "value": 2932.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 12.0,
+      "pct_change_1": 0.4109589041095818,
+      "change_4": 40.0,
+      "pct_change_4": 1.3831258644536604,
+      "change_12": 95.0,
+      "pct_change_12": 3.3486076841734214,
+      "rolling_3": 2920.6666666666665,
+      "rolling_4": 2916.25,
+      "rolling_6": 2907.5,
+      "rolling_12": 2887.1666666666665,
+      "index_first_100": 109.77162111568701
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1996-07-01",
+      "value": 2945.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 13.0,
+      "pct_change_1": 0.4433833560709477,
+      "change_4": 42.0,
+      "pct_change_4": 1.4467791939372976,
+      "change_12": 96.0,
+      "pct_change_12": 3.369603369603369,
+      "rolling_3": 2932.3333333333335,
+      "rolling_4": 2926.75,
+      "rolling_6": 2917.0,
+      "rolling_12": 2895.1666666666665,
+      "index_first_100": 110.25833021340321
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1996-08-01",
+      "value": 2957.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 12.0,
+      "pct_change_1": 0.4074702886247783,
+      "change_4": 47.0,
+      "pct_change_4": 1.6151202749140836,
+      "change_12": 106.0,
+      "pct_change_12": 3.7179936864258245,
+      "rolling_3": 2944.6666666666665,
+      "rolling_4": 2938.5,
+      "rolling_6": 2927.8333333333335,
+      "rolling_12": 2904.0,
+      "index_first_100": 110.70760014975664
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1996-09-01",
+      "value": 2969.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 12.0,
+      "pct_change_1": 0.405816706121076,
+      "change_4": 49.0,
+      "pct_change_4": 1.6780821917808275,
+      "change_12": 105.0,
+      "pct_change_12": 3.666201117318435,
+      "rolling_3": 2957.0,
+      "rolling_4": 2950.75,
+      "rolling_6": 2938.8333333333335,
+      "rolling_12": 2912.75,
+      "index_first_100": 111.15687008611006
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1996-10-01",
+      "value": 2977.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 8.0,
+      "pct_change_1": 0.2694509936005396,
+      "change_4": 45.0,
+      "pct_change_4": 1.5347885402455574,
+      "change_12": 104.0,
+      "pct_change_12": 3.619909502262453,
+      "rolling_3": 2967.6666666666665,
+      "rolling_4": 2962.0,
+      "rolling_6": 2950.0,
+      "rolling_12": 2921.4166666666665,
+      "index_first_100": 111.45638337701236
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1996-11-01",
+      "value": 2990.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 13.0,
+      "pct_change_1": 0.4366812227074135,
+      "change_4": 45.0,
+      "pct_change_4": 1.5280135823429575,
+      "change_12": 110.0,
+      "pct_change_12": 3.819444444444442,
+      "rolling_3": 2978.6666666666665,
+      "rolling_4": 2973.25,
+      "rolling_6": 2961.6666666666665,
+      "rolling_12": 2930.5833333333335,
+      "index_first_100": 111.94309247472856
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1996-12-01",
+      "value": 2997.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 7.0,
+      "pct_change_1": 0.234113712374584,
+      "change_4": 40.0,
+      "pct_change_4": 1.3527223537368904,
+      "change_12": 113.0,
+      "pct_change_12": 3.9181692094313547,
+      "rolling_3": 2988.0,
+      "rolling_4": 2983.25,
+      "rolling_6": 2972.5,
+      "rolling_12": 2940.0,
+      "index_first_100": 112.20516660426807
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1997-01-01",
+      "value": 3009.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 12.0,
+      "pct_change_1": 0.4004004004003914,
+      "change_4": 40.0,
+      "pct_change_4": 1.347254968002698,
+      "change_12": 121.0,
+      "pct_change_12": 4.189750692520766,
+      "rolling_3": 2998.6666666666665,
+      "rolling_4": 2993.25,
+      "rolling_6": 2983.1666666666665,
+      "rolling_12": 2950.0833333333335,
+      "index_first_100": 112.65443654062149
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1997-02-01",
+      "value": 3025.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 16.0,
+      "pct_change_1": 0.5317381189763992,
+      "change_4": 48.0,
+      "pct_change_4": 1.6123614376889472,
+      "change_12": 133.0,
+      "pct_change_12": 4.598893499308443,
+      "rolling_3": 3010.3333333333335,
+      "rolling_4": 3005.25,
+      "rolling_6": 2994.5,
+      "rolling_12": 2961.1666666666665,
+      "index_first_100": 113.25346312242606
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1997-03-01",
+      "value": 3044.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 19.0,
+      "pct_change_1": 0.6280991735537089,
+      "change_4": 54.0,
+      "pct_change_4": 1.8060200668896353,
+      "change_12": 141.0,
+      "pct_change_12": 4.857044436789537,
+      "rolling_3": 3026.0,
+      "rolling_4": 3018.75,
+      "rolling_6": 3007.0,
+      "rolling_12": 2972.9166666666665,
+      "index_first_100": 113.96480718831899
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1997-04-01",
+      "value": 3056.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 12.0,
+      "pct_change_1": 0.3942181340341744,
+      "change_4": 59.0,
+      "pct_change_4": 1.9686353019686242,
+      "change_12": 146.0,
+      "pct_change_12": 5.017182130584197,
+      "rolling_3": 3041.6666666666665,
+      "rolling_4": 3033.5,
+      "rolling_6": 3020.1666666666665,
+      "rolling_12": 2985.0833333333335,
+      "index_first_100": 114.4140771246724
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1997-05-01",
+      "value": 3071.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 15.0,
+      "pct_change_1": 0.4908376963350891,
+      "change_4": 62.0,
+      "pct_change_4": 2.060485211033569,
+      "change_12": 151.0,
+      "pct_change_12": 5.171232876712328,
+      "rolling_3": 3057.0,
+      "rolling_4": 3049.0,
+      "rolling_6": 3033.6666666666665,
+      "rolling_12": 2997.6666666666665,
+      "index_first_100": 114.97566454511418
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1997-06-01",
+      "value": 3087.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 16.0,
+      "pct_change_1": 0.5210029306414787,
+      "change_4": 62.0,
+      "pct_change_4": 2.0495867768595133,
+      "change_12": 155.0,
+      "pct_change_12": 5.286493860845831,
+      "rolling_3": 3071.3333333333335,
+      "rolling_4": 3064.5,
+      "rolling_6": 3048.6666666666665,
+      "rolling_12": 3010.5833333333335,
+      "index_first_100": 115.57469112691876
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1997-07-01",
+      "value": 3093.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 6.0,
+      "pct_change_1": 0.19436345966958868,
+      "change_4": 49.0,
+      "pct_change_4": 1.6097240473061714,
+      "change_12": 148.0,
+      "pct_change_12": 5.025466893039043,
+      "rolling_3": 3083.6666666666665,
+      "rolling_4": 3076.75,
+      "rolling_6": 3062.6666666666665,
+      "rolling_12": 3022.9166666666665,
+      "index_first_100": 115.79932609509547
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1997-08-01",
+      "value": 3103.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 10.0,
+      "pct_change_1": 0.3233107015842229,
+      "change_4": 47.0,
+      "pct_change_4": 1.5379581151832467,
+      "change_12": 146.0,
+      "pct_change_12": 4.937436591139677,
+      "rolling_3": 3094.3333333333335,
+      "rolling_4": 3088.5,
+      "rolling_6": 3075.6666666666665,
+      "rolling_12": 3035.0833333333335,
+      "index_first_100": 116.17371770872333
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1997-09-01",
+      "value": 3108.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 5.0,
+      "pct_change_1": 0.1611343860779879,
+      "change_4": 37.0,
+      "pct_change_4": 1.2048192771084265,
+      "change_12": 139.0,
+      "pct_change_12": 4.681711013809364,
+      "rolling_3": 3101.3333333333335,
+      "rolling_4": 3097.75,
+      "rolling_6": 3086.3333333333335,
+      "rolling_12": 3046.6666666666665,
+      "index_first_100": 116.36091351553726
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1997-10-01",
+      "value": 3123.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 15.0,
+      "pct_change_1": 0.4826254826254761,
+      "change_4": 36.0,
+      "pct_change_4": 1.1661807580174877,
+      "change_12": 146.0,
+      "pct_change_12": 4.904266039637228,
+      "rolling_3": 3111.3333333333335,
+      "rolling_4": 3106.75,
+      "rolling_6": 3097.5,
+      "rolling_12": 3058.8333333333335,
+      "index_first_100": 116.92250093597903
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1997-11-01",
+      "value": 3132.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 9.0,
+      "pct_change_1": 0.2881844380403509,
+      "change_4": 39.0,
+      "pct_change_4": 1.2609117361784605,
+      "change_12": 142.0,
+      "pct_change_12": 4.749163879598672,
+      "rolling_3": 3121.0,
+      "rolling_4": 3116.5,
+      "rolling_6": 3107.6666666666665,
+      "rolling_12": 3070.6666666666665,
+      "index_first_100": 117.25945338824411
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1997-12-01",
+      "value": 3146.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 14.0,
+      "pct_change_1": 0.4469987228607808,
+      "change_4": 43.0,
+      "pct_change_4": 1.3857557202707094,
+      "change_12": 149.0,
+      "pct_change_12": 4.971638304971648,
+      "rolling_3": 3133.6666666666665,
+      "rolling_4": 3127.25,
+      "rolling_6": 3117.5,
+      "rolling_12": 3083.0833333333335,
+      "index_first_100": 117.78360164732311
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1998-01-01",
+      "value": 3155.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 9.0,
+      "pct_change_1": 0.28607755880483143,
+      "change_4": 47.0,
+      "pct_change_4": 1.512226512226511,
+      "change_12": 146.0,
+      "pct_change_12": 4.852110335659687,
+      "rolling_3": 3144.3333333333335,
+      "rolling_4": 3139.0,
+      "rolling_6": 3127.8333333333335,
+      "rolling_12": 3095.25,
+      "index_first_100": 118.12055409958818
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1998-02-01",
+      "value": 3169.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 14.0,
+      "pct_change_1": 0.44374009508716394,
+      "change_4": 46.0,
+      "pct_change_4": 1.4729426833173243,
+      "change_12": 144.0,
+      "pct_change_12": 4.760330578512395,
+      "rolling_3": 3156.6666666666665,
+      "rolling_4": 3150.5,
+      "rolling_6": 3138.8333333333335,
+      "rolling_12": 3107.25,
+      "index_first_100": 118.64470235866717
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1998-03-01",
+      "value": 3177.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 8.0,
+      "pct_change_1": 0.2524455664247416,
+      "change_4": 45.0,
+      "pct_change_4": 1.4367816091954033,
+      "change_12": 133.0,
+      "pct_change_12": 4.369250985545325,
+      "rolling_3": 3167.0,
+      "rolling_4": 3161.75,
+      "rolling_6": 3150.3333333333335,
+      "rolling_12": 3118.3333333333335,
+      "index_first_100": 118.94421564956946
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1998-04-01",
+      "value": 3193.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 16.0,
+      "pct_change_1": 0.5036197670758469,
+      "change_4": 47.0,
+      "pct_change_4": 1.4939605848696802,
+      "change_12": 137.0,
+      "pct_change_12": 4.482984293193715,
+      "rolling_3": 3179.6666666666665,
+      "rolling_4": 3173.5,
+      "rolling_6": 3162.0,
+      "rolling_12": 3129.75,
+      "index_first_100": 119.54324223137402
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1998-05-01",
+      "value": 3203.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 10.0,
+      "pct_change_1": 0.3131850923896007,
+      "change_4": 48.0,
+      "pct_change_4": 1.5213946117274224,
+      "change_12": 132.0,
+      "pct_change_12": 4.2982741777922495,
+      "rolling_3": 3191.0,
+      "rolling_4": 3185.5,
+      "rolling_6": 3173.8333333333335,
+      "rolling_12": 3140.75,
+      "index_first_100": 119.91763384500187
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1998-06-01",
+      "value": 3209.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 6.0,
+      "pct_change_1": 0.18732438339057467,
+      "change_4": 40.0,
+      "pct_change_4": 1.262227832123708,
+      "change_12": 122.0,
+      "pct_change_12": 3.952057013281496,
+      "rolling_3": 3201.6666666666665,
+      "rolling_4": 3195.5,
+      "rolling_6": 3184.3333333333335,
+      "rolling_12": 3150.9166666666665,
+      "index_first_100": 120.14226881317857
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1998-07-01",
+      "value": 3227.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 18.0,
+      "pct_change_1": 0.5609224057338658,
+      "change_4": 50.0,
+      "pct_change_4": 1.573811772112066,
+      "change_12": 134.0,
+      "pct_change_12": 4.332363401228578,
+      "rolling_3": 3213.0,
+      "rolling_4": 3208.0,
+      "rolling_6": 3196.3333333333335,
+      "rolling_12": 3162.0833333333335,
+      "index_first_100": 120.81617371770872
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1998-08-01",
+      "value": 3230.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 3.0,
+      "pct_change_1": 0.09296560272700205,
+      "change_4": 37.0,
+      "pct_change_4": 1.1587848418415314,
+      "change_12": 127.0,
+      "pct_change_12": 4.092813406380924,
+      "rolling_3": 3222.0,
+      "rolling_4": 3217.25,
+      "rolling_6": 3206.5,
+      "rolling_12": 3172.6666666666665,
+      "index_first_100": 120.92849120179707
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1998-09-01",
+      "value": 3241.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 11.0,
+      "pct_change_1": 0.3405572755417863,
+      "change_4": 38.0,
+      "pct_change_4": 1.1863877614736174,
+      "change_12": 133.0,
+      "pct_change_12": 4.279279279279269,
+      "rolling_3": 3232.6666666666665,
+      "rolling_4": 3226.75,
+      "rolling_6": 3217.1666666666665,
+      "rolling_12": 3183.75,
+      "index_first_100": 121.34032197678772
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1998-10-01",
+      "value": 3258.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 17.0,
+      "pct_change_1": 0.5245294662141298,
+      "change_4": 49.0,
+      "pct_change_4": 1.5269554378311012,
+      "change_12": 135.0,
+      "pct_change_12": 4.3227665706051965,
+      "rolling_3": 3243.0,
+      "rolling_4": 3239.0,
+      "rolling_6": 3228.0,
+      "rolling_12": 3195.0,
+      "index_first_100": 121.97678771995508
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1998-11-01",
+      "value": 3271.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 13.0,
+      "pct_change_1": 0.3990178023327129,
+      "change_4": 44.0,
+      "pct_change_4": 1.3634955066625265,
+      "change_12": 139.0,
+      "pct_change_12": 4.438058748403573,
+      "rolling_3": 3256.6666666666665,
+      "rolling_4": 3250.0,
+      "rolling_6": 3239.3333333333335,
+      "rolling_12": 3206.5833333333335,
+      "index_first_100": 122.46349681767128
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1998-12-01",
+      "value": 3288.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 17.0,
+      "pct_change_1": 0.5197187404463399,
+      "change_4": 58.0,
+      "pct_change_4": 1.7956656346749256,
+      "change_12": 142.0,
+      "pct_change_12": 4.51366815003178,
+      "rolling_3": 3272.3333333333335,
+      "rolling_4": 3264.5,
+      "rolling_6": 3252.5,
+      "rolling_12": 3218.4166666666665,
+      "index_first_100": 123.09996256083863
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1999-01-01",
+      "value": 3303.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 15.0,
+      "pct_change_1": 0.45620437956204185,
+      "change_4": 62.0,
+      "pct_change_4": 1.9129898179574223,
+      "change_12": 148.0,
+      "pct_change_12": 4.690966719492873,
+      "rolling_3": 3287.3333333333335,
+      "rolling_4": 3280.0,
+      "rolling_6": 3265.1666666666665,
+      "rolling_12": 3230.75,
+      "index_first_100": 123.66154998128043
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1999-02-01",
+      "value": 3330.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 27.0,
+      "pct_change_1": 0.8174386920980936,
+      "change_4": 72.0,
+      "pct_change_4": 2.20994475138121,
+      "change_12": 161.0,
+      "pct_change_12": 5.080467024297897,
+      "rolling_3": 3307.0,
+      "rolling_4": 3298.0,
+      "rolling_6": 3281.8333333333335,
+      "rolling_12": 3244.1666666666665,
+      "index_first_100": 124.67240733807563
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1999-03-01",
+      "value": 3336.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 6.0,
+      "pct_change_1": 0.18018018018017834,
+      "change_4": 65.0,
+      "pct_change_4": 1.987159889941914,
+      "change_12": 159.0,
+      "pct_change_12": 5.004721435316339,
+      "rolling_3": 3323.0,
+      "rolling_4": 3314.25,
+      "rolling_6": 3297.6666666666665,
+      "rolling_12": 3257.4166666666665,
+      "index_first_100": 124.89704230625233
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1999-04-01",
+      "value": 3357.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 21.0,
+      "pct_change_1": 0.629496402877705,
+      "change_4": 69.0,
+      "pct_change_4": 2.098540145985406,
+      "change_12": 164.0,
+      "pct_change_12": 5.136235515189469,
+      "rolling_3": 3341.0,
+      "rolling_4": 3331.5,
+      "rolling_6": 3314.1666666666665,
+      "rolling_12": 3271.0833333333335,
+      "index_first_100": 125.68326469487083
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1999-05-01",
+      "value": 3391.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 34.0,
+      "pct_change_1": 1.0128090557044889,
+      "change_4": 88.0,
+      "pct_change_4": 2.6642446260974895,
+      "change_12": 188.0,
+      "pct_change_12": 5.869497346237895,
+      "rolling_3": 3361.3333333333335,
+      "rolling_4": 3353.5,
+      "rolling_6": 3334.1666666666665,
+      "rolling_12": 3286.75,
+      "index_first_100": 126.95619618120556
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1999-06-01",
+      "value": 3405.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 14.0,
+      "pct_change_1": 0.41285756414037866,
+      "change_4": 75.0,
+      "pct_change_4": 2.2522522522522515,
+      "change_12": 196.0,
+      "pct_change_12": 6.107821751324405,
+      "rolling_3": 3384.3333333333335,
+      "rolling_4": 3372.25,
+      "rolling_6": 3353.6666666666665,
+      "rolling_12": 3303.0833333333335,
+      "index_first_100": 127.48034444028453
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1999-07-01",
+      "value": 3427.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 22.0,
+      "pct_change_1": 0.6461086637298052,
+      "change_4": 91.0,
+      "pct_change_4": 2.7278177458033515,
+      "change_12": 200.0,
+      "pct_change_12": 6.197706848466078,
+      "rolling_3": 3407.6666666666665,
+      "rolling_4": 3395.0,
+      "rolling_6": 3374.3333333333335,
+      "rolling_12": 3319.75,
+      "index_first_100": 128.3040059902658
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1999-08-01",
+      "value": 3451.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 24.0,
+      "pct_change_1": 0.7003209804493649,
+      "change_4": 94.0,
+      "pct_change_4": 2.800119154006553,
+      "change_12": 221.0,
+      "pct_change_12": 6.842105263157894,
+      "rolling_3": 3427.6666666666665,
+      "rolling_4": 3418.5,
+      "rolling_6": 3394.5,
+      "rolling_12": 3338.1666666666665,
+      "index_first_100": 129.20254586297267
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1999-09-01",
+      "value": 3476.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 25.0,
+      "pct_change_1": 0.7244277021153378,
+      "change_4": 85.0,
+      "pct_change_4": 2.5066352108522594,
+      "change_12": 235.0,
+      "pct_change_12": 7.250848503548291,
+      "rolling_3": 3451.3333333333335,
+      "rolling_4": 3439.75,
+      "rolling_6": 3417.8333333333335,
+      "rolling_12": 3357.75,
+      "index_first_100": 130.1385248970423
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1999-10-01",
+      "value": 3497.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 21.0,
+      "pct_change_1": 0.6041426927502869,
+      "change_4": 92.0,
+      "pct_change_4": 2.7019089574155553,
+      "change_12": 239.0,
+      "pct_change_12": 7.335788827501544,
+      "rolling_3": 3474.6666666666665,
+      "rolling_4": 3462.75,
+      "rolling_6": 3441.1666666666665,
+      "rolling_12": 3377.6666666666665,
+      "index_first_100": 130.9247472856608
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1999-11-01",
+      "value": 3515.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 18.0,
+      "pct_change_1": 0.5147269087789619,
+      "change_4": 88.0,
+      "pct_change_4": 2.567843594981034,
+      "change_12": 244.0,
+      "pct_change_12": 7.459492509935806,
+      "rolling_3": 3496.0,
+      "rolling_4": 3484.75,
+      "rolling_6": 3461.8333333333335,
+      "rolling_12": 3398.0,
+      "index_first_100": 131.59865219019093
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "1999-12-01",
+      "value": 3532.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 17.0,
+      "pct_change_1": 0.4836415362731161,
+      "change_4": 81.0,
+      "pct_change_4": 2.3471457548536634,
+      "change_12": 244.0,
+      "pct_change_12": 7.420924574209242,
+      "rolling_3": 3514.6666666666665,
+      "rolling_4": 3505.0,
+      "rolling_6": 3483.0,
+      "rolling_12": 3418.3333333333335,
+      "index_first_100": 132.23511793335828
+    },
+    {
+      "indicator_id": "payrolls_information",
+      "date": "2000-01-01",
+      "value": 3552.0,
+      "source": "bls_public_api",
+      "series_id": "CES5000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_information|US",
+      "change_1": 20.0,
+      "pct_change_1": 0.5662514156285381,
+      "change_4": 76.0,
+      "pct_change_4": 2.1864211737629535,
+      "change_12": 249.0,
+      "pct_change_12": 7.538601271571288,
+      "rolling_3": 3533.0,
+      "rolling_4": 3524.0,
+      "rolling_6": 3503.8333333333335,
+      "rolling_12": 3439.0833333333335,
+      "index_first_100": 132.983901160614
     },
     {
       "indicator_id": "payrolls_information",
@@ -93,15 +3453,15 @@
       "entity_key": "payrolls_information|US",
       "change_1": 18.0,
       "pct_change_1": 0.5067567567567544,
-      "change_4": null,
-      "pct_change_4": null,
-      "change_12": null,
-      "pct_change_12": null,
-      "rolling_3": 3561.0,
-      "rolling_4": 3561.0,
-      "rolling_6": 3561.0,
-      "rolling_12": 3561.0,
-      "index_first_100": 100.50675675675676
+      "change_4": 73.0,
+      "pct_change_4": 2.087503574492433,
+      "change_12": 240.0,
+      "pct_change_12": 7.2072072072072,
+      "rolling_3": 3551.3333333333335,
+      "rolling_4": 3542.25,
+      "rolling_6": 3523.6666666666665,
+      "rolling_12": 3459.0833333333335,
+      "index_first_100": 133.65780606514414
     },
     {
       "indicator_id": "payrolls_information",
@@ -121,15 +3481,15 @@
       "entity_key": "payrolls_information|US",
       "change_1": 21.0,
       "pct_change_1": 0.588235294117645,
-      "change_4": null,
-      "pct_change_4": null,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_4": 76.0,
+      "pct_change_4": 2.1621621621621623,
+      "change_12": 255.0,
+      "pct_change_12": 7.643884892086339,
       "rolling_3": 3571.0,
-      "rolling_4": 3571.0,
-      "rolling_6": 3571.0,
-      "rolling_12": 3571.0,
-      "index_first_100": 101.09797297297298
+      "rolling_4": 3561.25,
+      "rolling_6": 3542.8333333333335,
+      "rolling_12": 3480.3333333333335,
+      "index_first_100": 134.44402845376266
     },
     {
       "indicator_id": "payrolls_information",
@@ -149,15 +3509,15 @@
       "entity_key": "payrolls_information|US",
       "change_1": 18.0,
       "pct_change_1": 0.5012531328320913,
-      "change_4": null,
-      "pct_change_4": null,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_4": 77.0,
+      "pct_change_4": 2.1800679501698728,
+      "change_12": 252.0,
+      "pct_change_12": 7.506702412868638,
       "rolling_3": 3590.0,
       "rolling_4": 3580.5,
-      "rolling_6": 3580.5,
-      "rolling_12": 3580.5,
-      "index_first_100": 101.60472972972974
+      "rolling_6": 3561.5,
+      "rolling_12": 3501.3333333333335,
+      "index_first_100": 135.11793335829276
     },
     {
       "indicator_id": "payrolls_information",
@@ -179,13 +3539,13 @@
       "pct_change_1": 0.16625103906899863,
       "change_4": 63.0,
       "pct_change_4": 1.7736486486486402,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": 224.0,
+      "pct_change_12": 6.605721026245948,
       "rolling_3": 3605.0,
       "rolling_4": 3596.25,
-      "rolling_6": 3587.4,
-      "rolling_12": 3587.4,
-      "index_first_100": 101.77364864864865
+      "rolling_6": 3578.1666666666665,
+      "rolling_12": 3520.0,
+      "index_first_100": 135.3425683264695
     },
     {
       "indicator_id": "payrolls_information",
@@ -207,13 +3567,13 @@
       "pct_change_1": 0.7468879668049766,
       "change_4": 72.0,
       "pct_change_4": 2.0168067226890685,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": 237.0,
+      "pct_change_12": 6.96035242290749,
       "rolling_3": 3622.0,
       "rolling_4": 3614.25,
       "rolling_6": 3596.5,
-      "rolling_12": 3596.5,
-      "index_first_100": 102.53378378378379
+      "rolling_12": 3539.75,
+      "index_first_100": 136.3534256832647
     },
     {
       "indicator_id": "payrolls_information",
@@ -235,13 +3595,13 @@
       "pct_change_1": 0.43931905546403804,
       "change_4": 67.0,
       "pct_change_4": 1.8657755499860817,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": 231.0,
+      "pct_change_12": 6.740589436825206,
       "rolling_3": 3638.3333333333335,
       "rolling_4": 3631.0,
       "rolling_6": 3614.1666666666665,
-      "rolling_12": 3605.285714285714,
-      "index_first_100": 102.98423423423424
+      "rolling_12": 3559.0,
+      "index_first_100": 136.95245226506927
     },
     {
       "indicator_id": "payrolls_information",
@@ -263,13 +3623,13 @@
       "pct_change_1": -2.0229633679606396,
       "change_4": -25.0,
       "pct_change_4": -0.6927126627874758,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": 133.0,
+      "pct_change_12": 3.8539553752535483,
       "rolling_3": 3628.0,
       "rolling_4": 3624.75,
       "rolling_6": 3616.5,
-      "rolling_12": 3602.625,
-      "index_first_100": 100.9009009009009
+      "rolling_12": 3570.0833333333335,
+      "index_first_100": 134.18195432422314
     },
     {
       "indicator_id": "payrolls_information",
@@ -291,13 +3651,13 @@
       "pct_change_1": 2.5669642857142794,
       "change_4": 61.0,
       "pct_change_4": 1.6874135546334657,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": 200.0,
+      "pct_change_12": 5.753739930955115,
       "rolling_3": 3639.3333333333335,
       "rolling_4": 3640.0,
       "rolling_6": 3630.6666666666665,
-      "rolling_12": 3610.777777777778,
-      "index_first_100": 103.490990990991
+      "rolling_12": 3586.75,
+      "index_first_100": 137.6263571695994
     },
     {
       "indicator_id": "payrolls_information",
@@ -319,13 +3679,13 @@
       "pct_change_1": 0.0,
       "change_4": 34.0,
       "pct_change_4": 0.9335529928610642,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": 179.0,
+      "pct_change_12": 5.118673148412922,
       "rolling_3": 3645.3333333333335,
       "rolling_4": 3648.5,
       "rolling_6": 3641.8333333333335,
-      "rolling_12": 3617.3,
-      "index_first_100": 103.490990990991
+      "rolling_12": 3601.6666666666665,
+      "index_first_100": 137.6263571695994
     },
     {
       "indicator_id": "payrolls_information",
@@ -347,13 +3707,13 @@
       "pct_change_1": 0.244831338411311,
       "change_4": 27.0,
       "pct_change_4": 0.7381082558775232,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": 170.0,
+      "pct_change_12": 4.836415362731161,
       "rolling_3": 3679.0,
       "rolling_4": 3655.25,
       "rolling_6": 3653.5,
-      "rolling_12": 3623.4545454545455,
-      "index_first_100": 103.74436936936937
+      "rolling_12": 3615.8333333333335,
+      "index_first_100": 137.96330962186448
     },
     {
       "indicator_id": "payrolls_information",
@@ -375,13 +3735,13 @@
       "pct_change_1": 0.5970149253731405,
       "change_4": 123.0,
       "pct_change_4": 3.4319196428571397,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": 175.0,
+      "pct_change_12": 4.954699886749725,
       "rolling_3": 3689.3333333333335,
       "rolling_4": 3686.0,
       "rolling_6": 3664.3333333333335,
       "rolling_12": 3630.4166666666665,
-      "index_first_100": 104.36373873873875
+      "index_first_100": 138.78697117184575
     },
     {
       "indicator_id": "payrolls_information",
@@ -409,7 +3769,7 @@
       "rolling_4": 3694.75,
       "rolling_6": 3673.1666666666665,
       "rolling_12": 3643.6666666666665,
-      "index_first_100": 104.47635135135135
+      "index_first_100": 138.93672781729688
     },
     {
       "indicator_id": "payrolls_information",
@@ -437,7 +3797,7 @@
       "rolling_4": 3704.75,
       "rolling_6": 3695.1666666666665,
       "rolling_12": 3655.8333333333335,
-      "index_first_100": 104.61711711711712
+      "index_first_100": 139.1239236241108
     },
     {
       "indicator_id": "payrolls_information",
@@ -465,7 +3825,7 @@
       "rolling_4": 3713.0,
       "rolling_6": 3702.1666666666665,
       "rolling_12": 3666.4166666666665,
-      "index_first_100": 104.67342342342343
+      "index_first_100": 139.19880194683637
     },
     {
       "indicator_id": "payrolls_information",
@@ -493,7 +3853,7 @@
       "rolling_4": 3707.75,
       "rolling_6": 3703.8333333333335,
       "rolling_12": 3672.8333333333335,
-      "index_first_100": 103.77252252252251
+      "index_first_100": 138.00074878322727
     },
     {
       "indicator_id": "payrolls_information",
@@ -521,7 +3881,7 @@
       "rolling_4": 3695.75,
       "rolling_6": 3700.1666666666665,
       "rolling_12": 3676.8333333333335,
-      "index_first_100": 103.125
+      "index_first_100": 137.1396480718832
     },
     {
       "indicator_id": "payrolls_information",
@@ -549,7 +3909,7 @@
       "rolling_4": 3677.25,
       "rolling_6": 3689.3333333333335,
       "rolling_12": 3676.8333333333335,
-      "index_first_100": 102.53378378378379
+      "index_first_100": 136.3534256832647
     },
     {
       "indicator_id": "payrolls_information",
@@ -577,7 +3937,7 @@
       "rolling_4": 3652.5,
       "rolling_6": 3674.0,
       "rolling_12": 3673.5833333333335,
-      "index_first_100": 101.88626126126125
+      "index_first_100": 135.49232497192062
     },
     {
       "indicator_id": "payrolls_information",
@@ -605,7 +3965,7 @@
       "rolling_4": 3630.5,
       "rolling_6": 3654.3333333333335,
       "rolling_12": 3674.75,
-      "index_first_100": 101.29504504504506
+      "index_first_100": 134.70610258330214
     },
     {
       "indicator_id": "payrolls_information",
@@ -633,7 +3993,7 @@
       "rolling_4": 3610.0,
       "rolling_6": 3631.5,
       "rolling_12": 3666.8333333333335,
-      "index_first_100": 100.81644144144144
+      "index_first_100": 134.06963684013476
     },
     {
       "indicator_id": "payrolls_information",
@@ -661,7 +4021,7 @@
       "rolling_4": 3588.75,
       "rolling_6": 3610.0,
       "rolling_12": 3656.9166666666665,
-      "index_first_100": 100.14076576576576
+      "index_first_100": 133.17109696742793
     },
     {
       "indicator_id": "payrolls_information",
@@ -689,7 +4049,7 @@
       "rolling_4": 3568.0,
       "rolling_6": 3588.8333333333335,
       "rolling_12": 3644.5,
-      "index_first_100": 99.54954954954955
+      "index_first_100": 132.38487457880944
     },
     {
       "indicator_id": "payrolls_information",
@@ -717,7 +4077,7 @@
       "rolling_4": 3548.75,
       "rolling_6": 3568.6666666666665,
       "rolling_12": 3629.0,
-      "index_first_100": 99.12725225225225
+      "index_first_100": 131.82328715836766
     },
     {
       "indicator_id": "payrolls_information",
@@ -745,7 +4105,7 @@
       "rolling_4": 3527.25,
       "rolling_6": 3548.0,
       "rolling_12": 3611.0,
-      "index_first_100": 98.39527027027027
+      "index_first_100": 130.84986896293523
     },
     {
       "indicator_id": "payrolls_information",
@@ -773,7 +4133,7 @@
       "rolling_4": 3505.75,
       "rolling_6": 3526.8333333333335,
       "rolling_12": 3590.5833333333335,
-      "index_first_100": 97.7195945945946
+      "index_first_100": 129.95132909022837
     },
     {
       "indicator_id": "payrolls_information",
@@ -801,7 +4161,7 @@
       "rolling_4": 3485.25,
       "rolling_6": 3505.6666666666665,
       "rolling_12": 3568.5833333333335,
-      "index_first_100": 97.240990990991
+      "index_first_100": 129.31486334706102
     },
     {
       "indicator_id": "payrolls_information",
@@ -829,7 +4189,7 @@
       "rolling_4": 3463.75,
       "rolling_6": 3485.3333333333335,
       "rolling_12": 3547.6666666666665,
-      "index_first_100": 96.70608108108108
+      "index_first_100": 128.6035192811681
     },
     {
       "indicator_id": "payrolls_information",
@@ -857,7 +4217,7 @@
       "rolling_4": 3444.25,
       "rolling_6": 3465.5,
       "rolling_12": 3527.1666666666665,
-      "index_first_100": 96.19932432432432
+      "index_first_100": 127.92961437663797
     },
     {
       "indicator_id": "payrolls_information",
@@ -885,7 +4245,7 @@
       "rolling_4": 3426.75,
       "rolling_6": 3445.5,
       "rolling_12": 3507.0833333333335,
-      "index_first_100": 95.74887387387388
+      "index_first_100": 127.33058779483339
     },
     {
       "indicator_id": "payrolls_information",
@@ -913,7 +4273,7 @@
       "rolling_4": 3408.5,
       "rolling_6": 3426.5,
       "rolling_12": 3487.25,
-      "index_first_100": 95.1858108108108
+      "index_first_100": 126.58180456757768
     },
     {
       "indicator_id": "payrolls_information",
@@ -941,7 +4301,7 @@
       "rolling_4": 3392.25,
       "rolling_6": 3409.6666666666665,
       "rolling_12": 3468.25,
-      "index_first_100": 94.87612612612612
+      "index_first_100": 126.16997379258706
     },
     {
       "indicator_id": "payrolls_information",
@@ -969,7 +4329,7 @@
       "rolling_4": 3374.0,
       "rolling_6": 3391.3333333333335,
       "rolling_12": 3448.5,
-      "index_first_100": 94.14414414414415
+      "index_first_100": 125.19655559715461
     },
     {
       "indicator_id": "payrolls_information",
@@ -997,7 +4357,7 @@
       "rolling_4": 3361.0,
       "rolling_6": 3377.0,
       "rolling_12": 3431.1666666666665,
-      "index_first_100": 94.28490990990991
+      "index_first_100": 125.38375140396856
     },
     {
       "indicator_id": "payrolls_information",
@@ -1025,7 +4385,7 @@
       "rolling_4": 3347.75,
       "rolling_6": 3362.1666666666665,
       "rolling_12": 3413.8333333333335,
-      "index_first_100": 93.69369369369369
+      "index_first_100": 124.59752901535006
     },
     {
       "indicator_id": "payrolls_information",
@@ -1053,7 +4413,7 @@
       "rolling_4": 3327.25,
       "rolling_6": 3343.3333333333335,
       "rolling_12": 3394.4166666666665,
-      "index_first_100": 92.56756756756756
+      "index_first_100": 123.09996256083863
     },
     {
       "indicator_id": "payrolls_information",
@@ -1081,7 +4441,7 @@
       "rolling_4": 3307.25,
       "rolling_6": 3323.8333333333335,
       "rolling_12": 3375.1666666666665,
-      "index_first_100": 91.8918918918919
+      "index_first_100": 122.20142268813179
     },
     {
       "indicator_id": "payrolls_information",
@@ -1109,7 +4469,7 @@
       "rolling_4": 3278.75,
       "rolling_6": 3301.3333333333335,
       "rolling_12": 3355.5,
-      "index_first_100": 91.07545045045045
+      "index_first_100": 121.11568700861102
     },
     {
       "indicator_id": "payrolls_information",
@@ -1137,7 +4497,7 @@
       "rolling_4": 3252.0,
       "rolling_6": 3280.8333333333335,
       "rolling_12": 3336.0833333333335,
-      "index_first_100": 90.68130630630631
+      "index_first_100": 120.591538749532
     },
     {
       "indicator_id": "payrolls_information",
@@ -1165,7 +4525,7 @@
       "rolling_4": 3232.0,
       "rolling_6": 3257.3333333333335,
       "rolling_12": 3317.1666666666665,
-      "index_first_100": 90.31531531531532
+      "index_first_100": 120.10482965181579
     },
     {
       "indicator_id": "payrolls_information",
@@ -1193,7 +4553,7 @@
       "rolling_4": 3214.5,
       "rolling_6": 3235.0,
       "rolling_12": 3298.5833333333335,
-      "index_first_100": 89.92117117117117
+      "index_first_100": 119.5806813927368
     },
     {
       "indicator_id": "payrolls_information",
@@ -1221,7 +4581,7 @@
       "rolling_4": 3201.25,
       "rolling_6": 3217.3333333333335,
       "rolling_12": 3280.3333333333335,
-      "index_first_100": 89.58333333333334
+      "index_first_100": 119.13141145638338
     },
     {
       "indicator_id": "payrolls_information",
@@ -1249,7 +4609,7 @@
       "rolling_4": 3190.0,
       "rolling_6": 3202.6666666666665,
       "rolling_12": 3263.25,
-      "index_first_100": 89.41441441441441
+      "index_first_100": 118.90677648820667
     },
     {
       "indicator_id": "payrolls_information",
@@ -1277,7 +4637,7 @@
       "rolling_4": 3178.75,
       "rolling_6": 3190.6666666666665,
       "rolling_12": 3246.0,
-      "index_first_100": 89.04842342342343
+      "index_first_100": 118.42006739049044
     },
     {
       "indicator_id": "payrolls_information",
@@ -1305,7 +4665,7 @@
       "rolling_4": 3170.75,
       "rolling_6": 3180.8333333333335,
       "rolling_12": 3230.8333333333335,
-      "index_first_100": 89.02027027027027
+      "index_first_100": 118.38262822912766
     },
     {
       "indicator_id": "payrolls_information",
@@ -1333,7 +4693,7 @@
       "rolling_4": 3164.0,
       "rolling_6": 3172.0,
       "rolling_12": 3214.6666666666665,
-      "index_first_100": 88.8231981981982
+      "index_first_100": 118.12055409958818
     },
     {
       "indicator_id": "payrolls_information",
@@ -1361,7 +4721,7 @@
       "rolling_4": 3157.5,
       "rolling_6": 3164.6666666666665,
       "rolling_12": 3199.8333333333335,
-      "index_first_100": 88.68243243243244
+      "index_first_100": 117.93335829277424
     },
     {
       "indicator_id": "payrolls_information",
@@ -1389,7 +4749,7 @@
       "rolling_4": 3154.25,
       "rolling_6": 3159.3333333333335,
       "rolling_12": 3188.3333333333335,
-      "index_first_100": 88.68243243243244
+      "index_first_100": 117.93335829277424
     },
     {
       "indicator_id": "payrolls_information",
@@ -1417,7 +4777,7 @@
       "rolling_4": 3149.0,
       "rolling_6": 3153.5,
       "rolling_12": 3178.0833333333335,
-      "index_first_100": 88.42905405405406
+      "index_first_100": 117.59640584050916
     },
     {
       "indicator_id": "payrolls_information",
@@ -1445,7 +4805,7 @@
       "rolling_4": 3145.5,
       "rolling_6": 3149.8333333333335,
       "rolling_12": 3170.25,
-      "index_first_100": 88.42905405405406
+      "index_first_100": 117.59640584050916
     },
     {
       "indicator_id": "payrolls_information",
@@ -1473,7 +4833,7 @@
       "rolling_4": 3141.5,
       "rolling_6": 3145.1666666666665,
       "rolling_12": 3163.0,
-      "index_first_100": 88.23198198198197
+      "index_first_100": 117.33433171096968
     },
     {
       "indicator_id": "payrolls_information",
@@ -1501,7 +4861,7 @@
       "rolling_4": 3136.5,
       "rolling_6": 3141.0,
       "rolling_12": 3156.5,
-      "index_first_100": 88.11936936936937
+      "index_first_100": 117.18457506551854
     },
     {
       "indicator_id": "payrolls_information",
@@ -1529,7 +4889,7 @@
       "rolling_4": 3135.0,
       "rolling_6": 3138.5,
       "rolling_12": 3151.5833333333335,
-      "index_first_100": 88.26013513513513
+      "index_first_100": 117.37177087233246
     },
     {
       "indicator_id": "payrolls_information",
@@ -1557,7 +4917,7 @@
       "rolling_4": 3133.75,
       "rolling_6": 3136.1666666666665,
       "rolling_12": 3147.75,
-      "index_first_100": 88.28828828828829
+      "index_first_100": 117.40921003369525
     },
     {
       "indicator_id": "payrolls_information",
@@ -1585,7 +4945,7 @@
       "rolling_4": 3131.25,
       "rolling_6": 3133.3333333333335,
       "rolling_12": 3143.4166666666665,
-      "index_first_100": 87.95045045045045
+      "index_first_100": 116.95994009734183
     },
     {
       "indicator_id": "payrolls_information",
@@ -1613,7 +4973,7 @@
       "rolling_4": 3125.75,
       "rolling_6": 3127.8333333333335,
       "rolling_12": 3138.8333333333335,
-      "index_first_100": 87.5
+      "index_first_100": 116.36091351553726
     },
     {
       "indicator_id": "payrolls_information",
@@ -1641,7 +5001,7 @@
       "rolling_4": 3116.0,
       "rolling_6": 3121.5,
       "rolling_12": 3133.3333333333335,
-      "index_first_100": 87.16216216216216
+      "index_first_100": 115.91164357918382
     },
     {
       "indicator_id": "payrolls_information",
@@ -1669,7 +5029,7 @@
       "rolling_4": 3106.75,
       "rolling_6": 3116.3333333333335,
       "rolling_12": 3128.6666666666665,
-      "index_first_100": 87.24662162162163
+      "index_first_100": 116.02396106327217
     },
     {
       "indicator_id": "payrolls_information",
@@ -1697,7 +5057,7 @@
       "rolling_4": 3097.75,
       "rolling_6": 3108.5,
       "rolling_12": 3123.5,
-      "index_first_100": 86.93693693693693
+      "index_first_100": 115.61213028828155
     },
     {
       "indicator_id": "payrolls_information",
@@ -1725,7 +5085,7 @@
       "rolling_4": 3090.0,
       "rolling_6": 3098.6666666666665,
       "rolling_12": 3117.4166666666665,
-      "index_first_100": 86.62725225225225
+      "index_first_100": 115.2002995132909
     },
     {
       "indicator_id": "payrolls_information",
@@ -1753,7 +5113,7 @@
       "rolling_4": 3083.75,
       "rolling_6": 3089.8333333333335,
       "rolling_12": 3111.5833333333335,
-      "index_first_100": 86.45833333333334
+      "index_first_100": 114.97566454511418
     },
     {
       "indicator_id": "payrolls_information",
@@ -1781,7 +5141,7 @@
       "rolling_4": 3073.25,
       "rolling_6": 3081.3333333333335,
       "rolling_12": 3104.5833333333335,
-      "index_first_100": 86.0641891891892
+      "index_first_100": 114.45151628603519
     },
     {
       "indicator_id": "payrolls_information",
@@ -1809,7 +5169,7 @@
       "rolling_4": 3066.75,
       "rolling_6": 3075.6666666666665,
       "rolling_12": 3098.5833333333335,
-      "index_first_100": 86.20495495495496
+      "index_first_100": 114.63871209284913
     },
     {
       "indicator_id": "payrolls_information",
@@ -1837,7 +5197,7 @@
       "rolling_4": 3064.0,
       "rolling_6": 3070.1666666666665,
       "rolling_12": 3093.25,
-      "index_first_100": 86.31756756756756
+      "index_first_100": 114.78846873830027
     },
     {
       "indicator_id": "payrolls_information",
@@ -1865,7 +5225,7 @@
       "rolling_4": 3061.75,
       "rolling_6": 3065.8333333333335,
       "rolling_12": 3087.1666666666665,
-      "index_first_100": 86.20495495495496
+      "index_first_100": 114.63871209284913
     },
     {
       "indicator_id": "payrolls_information",
@@ -1893,7 +5253,7 @@
       "rolling_4": 3061.75,
       "rolling_6": 3062.5,
       "rolling_12": 3080.5833333333335,
-      "index_first_100": 86.0641891891892
+      "index_first_100": 114.45151628603519
     },
     {
       "indicator_id": "payrolls_information",
@@ -1921,7 +5281,7 @@
       "rolling_4": 3061.5,
       "rolling_6": 3060.8333333333335,
       "rolling_12": 3075.3333333333335,
-      "index_first_100": 86.1768018018018
+      "index_first_100": 114.60127293148633
     },
     {
       "indicator_id": "payrolls_information",
@@ -1949,7 +5309,7 @@
       "rolling_4": 3060.75,
       "rolling_6": 3061.8333333333335,
       "rolling_12": 3071.5833333333335,
-      "index_first_100": 86.2331081081081
+      "index_first_100": 114.67615125421192
     },
     {
       "indicator_id": "payrolls_information",
@@ -1977,7 +5337,7 @@
       "rolling_4": 3062.75,
       "rolling_6": 3063.1666666666665,
       "rolling_12": 3069.4166666666665,
-      "index_first_100": 86.43018018018019
+      "index_first_100": 114.9382253837514
     },
     {
       "indicator_id": "payrolls_information",
@@ -2005,7 +5365,7 @@
       "rolling_4": 3062.25,
       "rolling_6": 3061.3333333333335,
       "rolling_12": 3065.75,
-      "index_first_100": 86.00788288288288
+      "index_first_100": 114.37663796330962
     },
     {
       "indicator_id": "payrolls_information",
@@ -2033,7 +5393,7 @@
       "rolling_4": 3060.75,
       "rolling_6": 3060.1666666666665,
       "rolling_12": 3063.0,
-      "index_first_100": 86.00788288288288
+      "index_first_100": 114.37663796330962
     },
     {
       "indicator_id": "payrolls_information",
@@ -2061,7 +5421,7 @@
       "rolling_4": 3058.0,
       "rolling_6": 3059.3333333333335,
       "rolling_12": 3060.9166666666665,
-      "index_first_100": 85.92342342342343
+      "index_first_100": 114.26432047922125
     },
     {
       "indicator_id": "payrolls_information",
@@ -2089,7 +5449,7 @@
       "rolling_4": 3054.0,
       "rolling_6": 3058.1666666666665,
       "rolling_12": 3059.5,
-      "index_first_100": 85.97972972972973
+      "index_first_100": 114.33919880194682
     },
     {
       "indicator_id": "payrolls_information",
@@ -2117,7 +5477,7 @@
       "rolling_4": 3053.25,
       "rolling_6": 3056.3333333333335,
       "rolling_12": 3059.0833333333335,
-      "index_first_100": 85.92342342342343
+      "index_first_100": 114.26432047922125
     },
     {
       "indicator_id": "payrolls_information",
@@ -2145,7 +5505,7 @@
       "rolling_4": 3053.25,
       "rolling_6": 3053.8333333333335,
       "rolling_12": 3058.5,
-      "index_first_100": 86.00788288288288
+      "index_first_100": 114.37663796330962
     },
     {
       "indicator_id": "payrolls_information",
@@ -2173,7 +5533,7 @@
       "rolling_4": 3052.0,
       "rolling_6": 3052.5,
       "rolling_12": 3056.9166666666665,
-      "index_first_100": 85.78265765765765
+      "index_first_100": 114.07712467240734
     },
     {
       "indicator_id": "payrolls_information",
@@ -2201,7 +5561,7 @@
       "rolling_4": 3048.25,
       "rolling_6": 3049.8333333333335,
       "rolling_12": 3055.0,
-      "index_first_100": 85.55743243243244
+      "index_first_100": 113.77761138150507
     },
     {
       "indicator_id": "payrolls_information",
@@ -2229,7 +5589,7 @@
       "rolling_4": 3044.25,
       "rolling_6": 3047.1666666666665,
       "rolling_12": 3053.25,
-      "index_first_100": 85.47297297297297
+      "index_first_100": 113.6652938974167
     },
     {
       "indicator_id": "payrolls_information",
@@ -2257,7 +5617,7 @@
       "rolling_4": 3038.25,
       "rolling_6": 3043.3333333333335,
       "rolling_12": 3050.75,
-      "index_first_100": 85.3322072072072
+      "index_first_100": 113.47809809060277
     },
     {
       "indicator_id": "payrolls_information",
@@ -2285,7 +5645,7 @@
       "rolling_4": 3035.25,
       "rolling_6": 3040.5,
       "rolling_12": 3048.4166666666665,
-      "index_first_100": 85.44481981981981
+      "index_first_100": 113.6278547360539
     },
     {
       "indicator_id": "payrolls_information",
@@ -2313,7 +5673,7 @@
       "rolling_4": 3032.5,
       "rolling_6": 3036.0,
       "rolling_12": 3044.9166666666665,
-      "index_first_100": 85.24774774774775
+      "index_first_100": 113.3657806065144
     },
     {
       "indicator_id": "payrolls_information",
@@ -2341,7 +5701,7 @@
       "rolling_4": 3029.5,
       "rolling_6": 3032.1666666666665,
       "rolling_12": 3042.3333333333335,
-      "index_first_100": 85.13513513513513
+      "index_first_100": 113.21602396106327
     },
     {
       "indicator_id": "payrolls_information",
@@ -2369,7 +5729,7 @@
       "rolling_4": 3027.75,
       "rolling_6": 3029.6666666666665,
       "rolling_12": 3039.75,
-      "index_first_100": 85.13513513513513
+      "index_first_100": 113.21602396106327
     },
     {
       "indicator_id": "payrolls_information",
@@ -2397,7 +5757,7 @@
       "rolling_4": 3027.5,
       "rolling_6": 3029.3333333333335,
       "rolling_12": 3038.25,
-      "index_first_100": 85.41666666666666
+      "index_first_100": 113.59041557469112
     },
     {
       "indicator_id": "payrolls_information",
@@ -2425,7 +5785,7 @@
       "rolling_4": 3028.0,
       "rolling_6": 3029.1666666666665,
       "rolling_12": 3036.25,
-      "index_first_100": 85.30405405405406
+      "index_first_100": 113.44065892923997
     },
     {
       "indicator_id": "payrolls_information",
@@ -2453,7 +5813,7 @@
       "rolling_4": 3030.5,
       "rolling_6": 3029.0,
       "rolling_12": 3034.75,
-      "index_first_100": 85.41666666666666
+      "index_first_100": 113.59041557469112
     },
     {
       "indicator_id": "payrolls_information",
@@ -2481,7 +5841,7 @@
       "rolling_4": 3032.0,
       "rolling_6": 3029.3333333333335,
       "rolling_12": 3032.6666666666665,
-      "index_first_100": 85.30405405405406
+      "index_first_100": 113.44065892923997
     },
     {
       "indicator_id": "payrolls_information",
@@ -2509,7 +5869,7 @@
       "rolling_4": 3032.25,
       "rolling_6": 3031.1666666666665,
       "rolling_12": 3031.6666666666665,
-      "index_first_100": 85.44481981981981
+      "index_first_100": 113.6278547360539
     },
     {
       "indicator_id": "payrolls_information",
@@ -2537,7 +5897,7 @@
       "rolling_4": 3034.75,
       "rolling_6": 3033.8333333333335,
       "rolling_12": 3031.75,
-      "index_first_100": 85.58558558558559
+      "index_first_100": 113.81505054286785
     },
     {
       "indicator_id": "payrolls_information",
@@ -2565,7 +5925,7 @@
       "rolling_4": 3035.75,
       "rolling_6": 3034.5,
       "rolling_12": 3031.9166666666665,
-      "index_first_100": 85.52927927927928
+      "index_first_100": 113.74017222014228
     },
     {
       "indicator_id": "payrolls_information",
@@ -2593,7 +5953,7 @@
       "rolling_4": 3037.5,
       "rolling_6": 3035.6666666666665,
       "rolling_12": 3032.4166666666665,
-      "index_first_100": 85.50112612612612
+      "index_first_100": 113.70273305877949
     },
     {
       "indicator_id": "payrolls_information",
@@ -2621,7 +5981,7 @@
       "rolling_4": 3035.75,
       "rolling_6": 3034.6666666666665,
       "rolling_12": 3031.8333333333335,
-      "index_first_100": 85.24774774774775
+      "index_first_100": 113.3657806065144
     },
     {
       "indicator_id": "payrolls_information",
@@ -2649,7 +6009,7 @@
       "rolling_4": 3033.5,
       "rolling_6": 3034.8333333333335,
       "rolling_12": 3032.0833333333335,
-      "index_first_100": 85.3322072072072
+      "index_first_100": 113.47809809060277
     },
     {
       "indicator_id": "payrolls_information",
@@ -2677,7 +6037,7 @@
       "rolling_4": 3031.0,
       "rolling_6": 3033.6666666666665,
       "rolling_12": 3032.4166666666665,
-      "index_first_100": 85.24774774774775
+      "index_first_100": 113.3657806065144
     },
     {
       "indicator_id": "payrolls_information",
@@ -2705,7 +6065,7 @@
       "rolling_4": 3028.0,
       "rolling_6": 3031.1666666666665,
       "rolling_12": 3032.5,
-      "index_first_100": 85.16328828828829
+      "index_first_100": 113.25346312242606
     },
     {
       "indicator_id": "payrolls_information",
@@ -2733,7 +6093,7 @@
       "rolling_4": 3027.5,
       "rolling_6": 3029.1666666666665,
       "rolling_12": 3031.8333333333335,
-      "index_first_100": 85.19144144144144
+      "index_first_100": 113.29090228378884
     },
     {
       "indicator_id": "payrolls_information",
@@ -2761,7 +6121,7 @@
       "rolling_4": 3026.25,
       "rolling_6": 3027.3333333333335,
       "rolling_12": 3031.5,
-      "index_first_100": 85.19144144144144
+      "index_first_100": 113.29090228378884
     },
     {
       "indicator_id": "payrolls_information",
@@ -2789,7 +6149,7 @@
       "rolling_4": 3024.0,
       "rolling_6": 3025.8333333333335,
       "rolling_12": 3030.25,
-      "index_first_100": 84.99436936936937
+      "index_first_100": 113.02882815424935
     },
     {
       "indicator_id": "payrolls_information",
@@ -2817,7 +6177,7 @@
       "rolling_4": 3023.0,
       "rolling_6": 3024.1666666666665,
       "rolling_12": 3029.5,
-      "index_first_100": 85.05067567567568
+      "index_first_100": 113.10370647697492
     },
     {
       "indicator_id": "payrolls_information",
@@ -2845,7 +6205,7 @@
       "rolling_4": 3019.75,
       "rolling_6": 3021.6666666666665,
       "rolling_12": 3027.6666666666665,
-      "index_first_100": 84.82545045045045
+      "index_first_100": 112.80419318607262
     },
     {
       "indicator_id": "payrolls_information",
@@ -2873,7 +6233,7 @@
       "rolling_4": 3015.25,
       "rolling_6": 3018.8333333333335,
       "rolling_12": 3025.0,
-      "index_first_100": 84.68468468468468
+      "index_first_100": 112.61699737925869
     },
     {
       "indicator_id": "payrolls_information",
@@ -2901,7 +6261,7 @@
       "rolling_4": 3010.75,
       "rolling_6": 3014.6666666666665,
       "rolling_12": 3021.9166666666665,
-      "index_first_100": 84.48761261261262
+      "index_first_100": 112.3549232497192
     },
     {
       "indicator_id": "payrolls_information",
@@ -2929,7 +6289,7 @@
       "rolling_4": 3002.25,
       "rolling_6": 3008.1666666666665,
       "rolling_12": 3017.75,
-      "index_first_100": 84.09346846846847
+      "index_first_100": 111.83077499064021
     },
     {
       "indicator_id": "payrolls_information",
@@ -2957,7 +6317,7 @@
       "rolling_4": 2992.0,
       "rolling_6": 3000.3333333333335,
       "rolling_12": 3013.0833333333335,
-      "index_first_100": 83.67117117117117
+      "index_first_100": 111.26918757019844
     },
     {
       "indicator_id": "payrolls_information",
@@ -2985,7 +6345,7 @@
       "rolling_4": 2980.5,
       "rolling_6": 2990.5,
       "rolling_12": 3007.3333333333335,
-      "index_first_100": 83.38963963963964
+      "index_first_100": 110.89479595657056
     },
     {
       "indicator_id": "payrolls_information",
@@ -3013,7 +6373,7 @@
       "rolling_4": 2968.0,
       "rolling_6": 2980.1666666666665,
       "rolling_12": 3000.9166666666665,
-      "index_first_100": 83.07995495495496
+      "index_first_100": 110.48296518157994
     },
     {
       "indicator_id": "payrolls_information",
@@ -3041,7 +6401,7 @@
       "rolling_4": 2954.0,
       "rolling_6": 2967.3333333333335,
       "rolling_12": 2993.0833333333335,
-      "index_first_100": 82.5168918918919
+      "index_first_100": 109.73418195432423
     },
     {
       "indicator_id": "payrolls_information",
@@ -3069,7 +6429,7 @@
       "rolling_4": 2938.75,
       "rolling_6": 2952.3333333333335,
       "rolling_12": 2983.5,
-      "index_first_100": 81.95382882882883
+      "index_first_100": 108.98539872706851
     },
     {
       "indicator_id": "payrolls_information",
@@ -3097,7 +6457,7 @@
       "rolling_4": 2921.0,
       "rolling_6": 2936.3333333333335,
       "rolling_12": 2972.25,
-      "index_first_100": 81.39076576576578
+      "index_first_100": 108.2366154998128
     },
     {
       "indicator_id": "payrolls_information",
@@ -3125,7 +6485,7 @@
       "rolling_4": 2902.75,
       "rolling_6": 2920.6666666666665,
       "rolling_12": 2960.5,
-      "index_first_100": 81.02477477477478
+      "index_first_100": 107.74990640209658
     },
     {
       "indicator_id": "payrolls_information",
@@ -3153,7 +6513,7 @@
       "rolling_4": 2886.0,
       "rolling_6": 2904.3333333333335,
       "rolling_12": 2947.4166666666665,
-      "index_first_100": 80.63063063063063
+      "index_first_100": 107.2257581430176
     },
     {
       "indicator_id": "payrolls_information",
@@ -3181,7 +6541,7 @@
       "rolling_4": 2866.25,
       "rolling_6": 2884.5,
       "rolling_12": 2932.3333333333335,
-      "index_first_100": 79.72972972972973
+      "index_first_100": 106.02770497940845
     },
     {
       "indicator_id": "payrolls_information",
@@ -3209,7 +6569,7 @@
       "rolling_4": 2845.25,
       "rolling_6": 2863.8333333333335,
       "rolling_12": 2915.5833333333335,
-      "index_first_100": 79.02590090090091
+      "index_first_100": 105.09172594533882
     },
     {
       "indicator_id": "payrolls_information",
@@ -3237,7 +6597,7 @@
       "rolling_4": 2824.5,
       "rolling_6": 2844.5,
       "rolling_12": 2898.4166666666665,
-      "index_first_100": 78.68806306306307
+      "index_first_100": 104.6424560089854
     },
     {
       "indicator_id": "payrolls_information",
@@ -3265,7 +6625,7 @@
       "rolling_4": 2803.0,
       "rolling_6": 2825.6666666666665,
       "rolling_12": 2881.0,
-      "index_first_100": 78.20945945945947
+      "index_first_100": 104.00599026581804
     },
     {
       "indicator_id": "payrolls_information",
@@ -3293,7 +6653,7 @@
       "rolling_4": 2786.75,
       "rolling_6": 2807.1666666666665,
       "rolling_12": 2863.9166666666665,
-      "index_first_100": 77.89977477477478
+      "index_first_100": 103.5941594908274
     },
     {
       "indicator_id": "payrolls_information",
@@ -3321,7 +6681,7 @@
       "rolling_4": 2777.25,
       "rolling_6": 2791.3333333333335,
       "rolling_12": 2847.8333333333335,
-      "index_first_100": 77.95608108108108
+      "index_first_100": 103.66903781355296
     },
     {
       "indicator_id": "payrolls_information",
@@ -3349,7 +6709,7 @@
       "rolling_4": 2769.5,
       "rolling_6": 2780.0,
       "rolling_12": 2832.25,
-      "index_first_100": 77.81531531531532
+      "index_first_100": 103.48184200673904
     },
     {
       "indicator_id": "payrolls_information",
@@ -3377,7 +6737,7 @@
       "rolling_4": 2763.0,
       "rolling_6": 2770.8333333333335,
       "rolling_12": 2817.3333333333335,
-      "index_first_100": 77.47747747747748
+      "index_first_100": 103.03257207038563
     },
     {
       "indicator_id": "payrolls_information",
@@ -3405,7 +6765,7 @@
       "rolling_4": 2757.5,
       "rolling_6": 2762.5,
       "rolling_12": 2803.5,
-      "index_first_100": 77.2804054054054
+      "index_first_100": 102.77049794084611
     },
     {
       "indicator_id": "payrolls_information",
@@ -3433,7 +6793,7 @@
       "rolling_4": 2750.0,
       "rolling_6": 2756.0,
       "rolling_12": 2790.8333333333335,
-      "index_first_100": 77.11148648648648
+      "index_first_100": 102.54586297266941
     },
     {
       "indicator_id": "payrolls_information",
@@ -3461,7 +6821,7 @@
       "rolling_4": 2743.25,
       "rolling_6": 2751.0,
       "rolling_12": 2779.0833333333335,
-      "index_first_100": 77.05518018018019
+      "index_first_100": 102.47098464994384
     },
     {
       "indicator_id": "payrolls_information",
@@ -3489,7 +6849,7 @@
       "rolling_4": 2735.0,
       "rolling_6": 2742.6666666666665,
       "rolling_12": 2767.0,
-      "index_first_100": 76.54842342342343
+      "index_first_100": 101.7970797454137
     },
     {
       "indicator_id": "payrolls_information",
@@ -3517,7 +6877,7 @@
       "rolling_4": 2727.25,
       "rolling_6": 2734.3333333333335,
       "rolling_12": 2757.1666666666665,
-      "index_first_100": 76.40765765765765
+      "index_first_100": 101.60988393859978
     },
     {
       "indicator_id": "payrolls_information",
@@ -3545,7 +6905,7 @@
       "rolling_4": 2719.5,
       "rolling_6": 2727.0,
       "rolling_12": 2748.9166666666665,
-      "index_first_100": 76.23873873873875
+      "index_first_100": 101.38524897042306
     },
     {
       "indicator_id": "payrolls_information",
@@ -3573,7 +6933,7 @@
       "rolling_4": 2710.5,
       "rolling_6": 2719.6666666666665,
       "rolling_12": 2741.0833333333335,
-      "index_first_100": 76.04166666666666
+      "index_first_100": 101.12317484088355
     },
     {
       "indicator_id": "payrolls_information",
@@ -3601,7 +6961,7 @@
       "rolling_4": 2706.5,
       "rolling_6": 2713.6666666666665,
       "rolling_12": 2734.8333333333335,
-      "index_first_100": 76.09797297297297
+      "index_first_100": 101.19805316360913
     },
     {
       "indicator_id": "payrolls_information",
@@ -3629,7 +6989,7 @@
       "rolling_4": 2703.25,
       "rolling_6": 2707.6666666666665,
       "rolling_12": 2729.3333333333335,
-      "index_first_100": 76.04166666666666
+      "index_first_100": 101.12317484088355
     },
     {
       "indicator_id": "payrolls_information",
@@ -3657,7 +7017,7 @@
       "rolling_4": 2700.5,
       "rolling_6": 2704.0,
       "rolling_12": 2723.3333333333335,
-      "index_first_100": 75.92905405405406
+      "index_first_100": 100.97341819543242
     },
     {
       "indicator_id": "payrolls_information",
@@ -3685,7 +7045,7 @@
       "rolling_4": 2699.0,
       "rolling_6": 2700.8333333333335,
       "rolling_12": 2717.5833333333335,
-      "index_first_100": 75.87274774774775
+      "index_first_100": 100.89853987270685
     },
     {
       "indicator_id": "payrolls_information",
@@ -3713,7 +7073,7 @@
       "rolling_4": 2695.5,
       "rolling_6": 2697.6666666666665,
       "rolling_12": 2712.3333333333335,
-      "index_first_100": 75.70382882882883
+      "index_first_100": 100.67390490453015
     },
     {
       "indicator_id": "payrolls_information",
@@ -3741,7 +7101,7 @@
       "rolling_4": 2690.75,
       "rolling_6": 2694.5,
       "rolling_12": 2707.0833333333335,
-      "index_first_100": 75.50675675675676
+      "index_first_100": 100.41183077499063
     },
     {
       "indicator_id": "payrolls_information",
@@ -3769,7 +7129,7 @@
       "rolling_4": 2686.0,
       "rolling_6": 2690.3333333333335,
       "rolling_12": 2702.0,
-      "index_first_100": 75.39414414414415
+      "index_first_100": 100.26207412953949
     },
     {
       "indicator_id": "payrolls_information",
@@ -3797,7 +7157,7 @@
       "rolling_4": 2680.25,
       "rolling_6": 2685.5,
       "rolling_12": 2696.5833333333335,
-      "index_first_100": 75.22522522522522
+      "index_first_100": 100.03743916136278
     },
     {
       "indicator_id": "payrolls_information",
@@ -3825,7 +7185,7 @@
       "rolling_4": 2676.0,
       "rolling_6": 2681.3333333333335,
       "rolling_12": 2692.6666666666665,
-      "index_first_100": 75.22522522522522
+      "index_first_100": 100.03743916136278
     },
     {
       "indicator_id": "payrolls_information",
@@ -3853,7 +7213,7 @@
       "rolling_4": 2674.0,
       "rolling_6": 2677.8333333333335,
       "rolling_12": 2689.3333333333335,
-      "index_first_100": 75.28153153153153
+      "index_first_100": 100.11231748408835
     },
     {
       "indicator_id": "payrolls_information",
@@ -3881,7 +7241,7 @@
       "rolling_4": 2674.25,
       "rolling_6": 2676.1666666666665,
       "rolling_12": 2686.9166666666665,
-      "index_first_100": 75.4222972972973
+      "index_first_100": 100.29951329090227
     },
     {
       "indicator_id": "payrolls_information",
@@ -3909,7 +7269,7 @@
       "rolling_4": 2677.5,
       "rolling_6": 2676.6666666666665,
       "rolling_12": 2685.5833333333335,
-      "index_first_100": 75.59121621621621
+      "index_first_100": 100.524148259079
     },
     {
       "indicator_id": "payrolls_information",
@@ -3937,7 +7297,7 @@
       "rolling_4": 2678.25,
       "rolling_6": 2676.1666666666665,
       "rolling_12": 2683.25,
-      "index_first_100": 75.30968468468468
+      "index_first_100": 100.14975664545113
     },
     {
       "indicator_id": "payrolls_information",
@@ -3965,7 +7325,7 @@
       "rolling_4": 2667.75,
       "rolling_6": 2669.5,
       "rolling_12": 2677.5,
-      "index_first_100": 74.09909909909909
+      "index_first_100": 98.53987270685136
     },
     {
       "indicator_id": "payrolls_information",
@@ -3993,7 +7353,7 @@
       "rolling_4": 2667.0,
       "rolling_6": 2670.1666666666665,
       "rolling_12": 2675.75,
-      "index_first_100": 75.33783783783784
+      "index_first_100": 100.18719580681392
     },
     {
       "indicator_id": "payrolls_information",
@@ -4021,7 +7381,7 @@
       "rolling_4": 2665.0,
       "rolling_6": 2670.6666666666665,
       "rolling_12": 2674.25,
-      "index_first_100": 75.365990990991
+      "index_first_100": 100.2246349681767
     },
     {
       "indicator_id": "payrolls_information",
@@ -4049,7 +7409,7 @@
       "rolling_4": 2665.25,
       "rolling_6": 2670.1666666666665,
       "rolling_12": 2673.1666666666665,
-      "index_first_100": 75.33783783783784
+      "index_first_100": 100.18719580681392
     },
     {
       "indicator_id": "payrolls_information",
@@ -4077,7 +7437,7 @@
       "rolling_4": 2677.0,
       "rolling_6": 2669.1666666666665,
       "rolling_12": 2672.9166666666665,
-      "index_first_100": 75.4222972972973
+      "index_first_100": 100.29951329090227
     },
     {
       "indicator_id": "payrolls_information",
@@ -4105,7 +7465,7 @@
       "rolling_4": 2674.25,
       "rolling_6": 2667.5,
       "rolling_12": 2671.8333333333335,
-      "index_first_100": 75.02815315315316
+      "index_first_100": 99.77536503182328
     },
     {
       "indicator_id": "payrolls_information",
@@ -4133,7 +7493,7 @@
       "rolling_4": 2674.0,
       "rolling_6": 2674.8333333333335,
       "rolling_12": 2672.1666666666665,
-      "index_first_100": 75.33783783783784
+      "index_first_100": 100.18719580681392
     },
     {
       "indicator_id": "payrolls_information",
@@ -4161,7 +7521,7 @@
       "rolling_4": 2674.5,
       "rolling_6": 2675.1666666666665,
       "rolling_12": 2672.6666666666665,
-      "index_first_100": 75.39414414414415
+      "index_first_100": 100.26207412953949
     },
     {
       "indicator_id": "payrolls_information",
@@ -4189,7 +7549,7 @@
       "rolling_4": 2674.75,
       "rolling_6": 2675.6666666666665,
       "rolling_12": 2673.1666666666665,
-      "index_first_100": 75.45045045045045
+      "index_first_100": 100.33695245226507
     },
     {
       "indicator_id": "payrolls_information",
@@ -4217,7 +7577,7 @@
       "rolling_4": 2679.75,
       "rolling_6": 2677.1666666666665,
       "rolling_12": 2673.6666666666665,
-      "index_first_100": 75.59121621621621
+      "index_first_100": 100.524148259079
     },
     {
       "indicator_id": "payrolls_information",
@@ -4245,7 +7605,7 @@
       "rolling_4": 2679.25,
       "rolling_6": 2676.3333333333335,
       "rolling_12": 2672.75,
-      "index_first_100": 75.28153153153153
+      "index_first_100": 100.11231748408835
     },
     {
       "indicator_id": "payrolls_information",
@@ -4273,7 +7633,7 @@
       "rolling_4": 2679.5,
       "rolling_6": 2678.6666666666665,
       "rolling_12": 2673.0833333333335,
-      "index_first_100": 75.4222972972973
+      "index_first_100": 100.29951329090227
     },
     {
       "indicator_id": "payrolls_information",
@@ -4301,7 +7661,7 @@
       "rolling_4": 2678.25,
       "rolling_6": 2678.5,
       "rolling_12": 2676.6666666666665,
-      "index_first_100": 75.30968468468468
+      "index_first_100": 100.14975664545113
     },
     {
       "indicator_id": "payrolls_information",
@@ -4329,7 +7689,7 @@
       "rolling_4": 2674.5,
       "rolling_6": 2677.1666666666665,
       "rolling_12": 2676.1666666666665,
-      "index_first_100": 75.16891891891892
+      "index_first_100": 99.96256083863722
     },
     {
       "indicator_id": "payrolls_information",
@@ -4357,7 +7717,7 @@
       "rolling_4": 2672.5,
       "rolling_6": 2674.8333333333335,
       "rolling_12": 2675.25,
-      "index_first_100": 75.05630630630631
+      "index_first_100": 99.81280419318608
     },
     {
       "indicator_id": "payrolls_information",
@@ -4385,7 +7745,7 @@
       "rolling_4": 2671.25,
       "rolling_6": 2673.0,
       "rolling_12": 2675.0833333333335,
-      "index_first_100": 75.28153153153153
+      "index_first_100": 100.11231748408835
     },
     {
       "indicator_id": "payrolls_information",
@@ -4413,7 +7773,7 @@
       "rolling_4": 2671.75,
       "rolling_6": 2673.5,
       "rolling_12": 2674.9166666666665,
-      "index_first_100": 75.365990990991
+      "index_first_100": 100.2246349681767
     },
     {
       "indicator_id": "payrolls_information",
@@ -4441,7 +7801,7 @@
       "rolling_4": 2669.75,
       "rolling_6": 2670.6666666666665,
       "rolling_12": 2674.6666666666665,
-      "index_first_100": 74.94369369369369
+      "index_first_100": 99.66304754773493
     },
     {
       "indicator_id": "payrolls_information",
@@ -4469,7 +7829,7 @@
       "rolling_4": 2677.75,
       "rolling_6": 2674.5,
       "rolling_12": 2676.5,
-      "index_first_100": 75.9572072072072
+      "index_first_100": 101.0108573567952
     },
     {
       "indicator_id": "payrolls_information",
@@ -4497,7 +7857,7 @@
       "rolling_4": 2684.25,
       "rolling_6": 2679.5,
       "rolling_12": 2678.3333333333335,
-      "index_first_100": 76.01351351351352
+      "index_first_100": 101.08573567952077
     },
     {
       "indicator_id": "payrolls_information",
@@ -4525,7 +7885,7 @@
       "rolling_4": 2689.0,
       "rolling_6": 2684.5,
       "rolling_12": 2679.6666666666665,
-      "index_first_100": 75.90090090090091
+      "index_first_100": 100.93597903406963
     },
     {
       "indicator_id": "payrolls_information",
@@ -4553,7 +7913,7 @@
       "rolling_4": 2701.0,
       "rolling_6": 2690.5,
       "rolling_12": 2681.75,
-      "index_first_100": 76.29504504504504
+      "index_first_100": 101.46012729314864
     },
     {
       "indicator_id": "payrolls_information",
@@ -4581,7 +7941,7 @@
       "rolling_4": 2702.75,
       "rolling_6": 2695.1666666666665,
       "rolling_12": 2684.3333333333335,
-      "index_first_100": 76.15427927927928
+      "index_first_100": 101.27293148633471
     },
     {
       "indicator_id": "payrolls_information",
@@ -4609,7 +7969,7 @@
       "rolling_4": 2707.75,
       "rolling_6": 2704.8333333333335,
       "rolling_12": 2687.75,
-      "index_first_100": 76.57657657657657
+      "index_first_100": 101.83451890677648
     },
     {
       "indicator_id": "payrolls_information",
@@ -4637,7 +7997,7 @@
       "rolling_4": 2706.5,
       "rolling_6": 2703.6666666666665,
       "rolling_12": 2689.0833333333335,
-      "index_first_100": 75.76013513513513
+      "index_first_100": 100.74878322725571
     },
     {
       "indicator_id": "payrolls_information",
@@ -4665,7 +8025,7 @@
       "rolling_4": 2706.0,
       "rolling_6": 2705.0,
       "rolling_12": 2692.25,
-      "index_first_100": 76.23873873873875
+      "index_first_100": 101.38524897042306
     },
     {
       "indicator_id": "payrolls_information",
@@ -4693,7 +8053,7 @@
       "rolling_4": 2709.25,
       "rolling_6": 2708.6666666666665,
       "rolling_12": 2696.5833333333335,
-      "index_first_100": 76.52027027027027
+      "index_first_100": 101.75964058405091
     },
     {
       "indicator_id": "payrolls_information",
@@ -4721,7 +8081,7 @@
       "rolling_4": 2709.75,
       "rolling_6": 2710.6666666666665,
       "rolling_12": 2700.5833333333335,
-      "index_first_100": 76.63288288288288
+      "index_first_100": 101.90939722950205
     },
     {
       "indicator_id": "payrolls_information",
@@ -4749,7 +8109,7 @@
       "rolling_4": 2718.75,
       "rolling_6": 2714.3333333333335,
       "rolling_12": 2704.75,
-      "index_first_100": 76.77364864864865
+      "index_first_100": 102.096593036316
     },
     {
       "indicator_id": "payrolls_information",
@@ -4777,7 +8137,7 @@
       "rolling_4": 2722.75,
       "rolling_6": 2715.0,
       "rolling_12": 2709.9166666666665,
-      "index_first_100": 76.6891891891892
+      "index_first_100": 101.98427555222761
     },
     {
       "indicator_id": "payrolls_information",
@@ -4805,7 +8165,7 @@
       "rolling_4": 2722.75,
       "rolling_6": 2719.5,
       "rolling_12": 2711.5833333333335,
-      "index_first_100": 76.52027027027027
+      "index_first_100": 101.75964058405091
     },
     {
       "indicator_id": "payrolls_information",
@@ -4833,7 +8193,7 @@
       "rolling_4": 2723.5,
       "rolling_6": 2722.3333333333335,
       "rolling_12": 2713.6666666666665,
-      "index_first_100": 76.71734234234235
+      "index_first_100": 102.0217147135904
     },
     {
       "indicator_id": "payrolls_information",
@@ -4861,7 +8221,7 @@
       "rolling_4": 2722.0,
       "rolling_6": 2722.8333333333335,
       "rolling_12": 2715.75,
-      "index_first_100": 76.60472972972973
+      "index_first_100": 101.87195806813926
     },
     {
       "indicator_id": "payrolls_information",
@@ -4889,7 +8249,7 @@
       "rolling_4": 2720.25,
       "rolling_6": 2722.0,
       "rolling_12": 2716.3333333333335,
-      "index_first_100": 76.49211711711712
+      "index_first_100": 101.72220142268813
     },
     {
       "indicator_id": "payrolls_information",
@@ -4917,7 +8277,7 @@
       "rolling_4": 2721.25,
       "rolling_6": 2721.1666666666665,
       "rolling_12": 2717.75,
-      "index_first_100": 76.63288288288288
+      "index_first_100": 101.90939722950205
     },
     {
       "indicator_id": "payrolls_information",
@@ -4945,7 +8305,7 @@
       "rolling_4": 2721.25,
       "rolling_6": 2721.3333333333335,
       "rolling_12": 2718.1666666666665,
-      "index_first_100": 76.71734234234235
+      "index_first_100": 102.0217147135904
     },
     {
       "indicator_id": "payrolls_information",
@@ -4973,7 +8333,7 @@
       "rolling_4": 2724.25,
       "rolling_6": 2723.8333333333335,
       "rolling_12": 2721.6666666666665,
-      "index_first_100": 76.94256756756756
+      "index_first_100": 102.32122800449271
     },
     {
       "indicator_id": "payrolls_information",
@@ -5001,7 +8361,7 @@
       "rolling_4": 2728.5,
       "rolling_6": 2725.3333333333335,
       "rolling_12": 2723.8333333333335,
-      "index_first_100": 76.97072072072072
+      "index_first_100": 102.3586671658555
     },
     {
       "indicator_id": "payrolls_information",
@@ -5029,7 +8389,7 @@
       "rolling_4": 2729.75,
       "rolling_6": 2726.3333333333335,
       "rolling_12": 2724.5833333333335,
-      "index_first_100": 76.77364864864865
+      "index_first_100": 102.096593036316
     },
     {
       "indicator_id": "payrolls_information",
@@ -5057,7 +8417,7 @@
       "rolling_4": 2732.25,
       "rolling_6": 2729.3333333333335,
       "rolling_12": 2725.6666666666665,
-      "index_first_100": 76.99887387387388
+      "index_first_100": 102.39610632721828
     },
     {
       "indicator_id": "payrolls_information",
@@ -5085,7 +8445,7 @@
       "rolling_4": 2733.25,
       "rolling_6": 2731.8333333333335,
       "rolling_12": 2726.5,
-      "index_first_100": 77.05518018018019
+      "index_first_100": 102.47098464994384
     },
     {
       "indicator_id": "payrolls_information",
@@ -5113,7 +8473,7 @@
       "rolling_4": 2734.75,
       "rolling_6": 2734.3333333333335,
       "rolling_12": 2727.8333333333335,
-      "index_first_100": 77.13963963963964
+      "index_first_100": 102.5833021340322
     },
     {
       "indicator_id": "payrolls_information",
@@ -5141,7 +8501,7 @@
       "rolling_4": 2738.25,
       "rolling_6": 2735.6666666666665,
       "rolling_12": 2729.75,
-      "index_first_100": 77.1677927927928
+      "index_first_100": 102.62074129539498
     },
     {
       "indicator_id": "payrolls_information",
@@ -5169,7 +8529,7 @@
       "rolling_4": 2738.75,
       "rolling_6": 2736.1666666666665,
       "rolling_12": 2730.75,
-      "index_first_100": 77.05518018018019
+      "index_first_100": 102.47098464994384
     },
     {
       "indicator_id": "payrolls_information",
@@ -5197,7 +8557,7 @@
       "rolling_4": 2740.0,
       "rolling_6": 2738.6666666666665,
       "rolling_12": 2732.5,
-      "index_first_100": 77.19594594594594
+      "index_first_100": 102.65818045675776
     },
     {
       "indicator_id": "payrolls_information",
@@ -5225,7 +8585,7 @@
       "rolling_4": 2741.75,
       "rolling_6": 2740.6666666666665,
       "rolling_12": 2735.0,
-      "index_first_100": 77.33671171171171
+      "index_first_100": 102.84537626357168
     },
     {
       "indicator_id": "payrolls_information",
@@ -5253,7 +8613,7 @@
       "rolling_4": 2743.5,
       "rolling_6": 2742.5,
       "rolling_12": 2737.1666666666665,
-      "index_first_100": 77.36486486486487
+      "index_first_100": 102.88281542493448
     },
     {
       "indicator_id": "payrolls_information",
@@ -5281,7 +8641,7 @@
       "rolling_4": 2747.25,
       "rolling_6": 2744.5,
       "rolling_12": 2739.4166666666665,
-      "index_first_100": 77.47747747747748
+      "index_first_100": 103.03257207038563
     },
     {
       "indicator_id": "payrolls_information",
@@ -5309,7 +8669,7 @@
       "rolling_4": 2749.5,
       "rolling_6": 2746.1666666666665,
       "rolling_12": 2740.9166666666665,
-      "index_first_100": 77.44932432432432
+      "index_first_100": 102.99513290902284
     },
     {
       "indicator_id": "payrolls_information",
@@ -5337,7 +8697,7 @@
       "rolling_4": 2753.75,
       "rolling_6": 2750.6666666666665,
       "rolling_12": 2743.4166666666665,
-      "index_first_100": 77.81531531531532
+      "index_first_100": 103.48184200673904
     },
     {
       "indicator_id": "payrolls_information",
@@ -5365,7 +8725,7 @@
       "rolling_4": 2758.25,
       "rolling_6": 2754.6666666666665,
       "rolling_12": 2746.6666666666665,
-      "index_first_100": 77.87162162162163
+      "index_first_100": 103.55672032946461
     },
     {
       "indicator_id": "payrolls_information",
@@ -5393,7 +8753,7 @@
       "rolling_4": 2758.0,
       "rolling_6": 2755.3333333333335,
       "rolling_12": 2748.0,
-      "index_first_100": 77.44932432432432
+      "index_first_100": 102.99513290902284
     },
     {
       "indicator_id": "payrolls_information",
@@ -5421,7 +8781,7 @@
       "rolling_4": 2760.5,
       "rolling_6": 2757.5,
       "rolling_12": 2750.0,
-      "index_first_100": 77.73085585585585
+      "index_first_100": 103.36952452265069
     },
     {
       "indicator_id": "payrolls_information",
@@ -5449,7 +8809,7 @@
       "rolling_4": 2760.0,
       "rolling_6": 2759.1666666666665,
       "rolling_12": 2751.8333333333335,
-      "index_first_100": 77.759009009009
+      "index_first_100": 103.40696368401348
     },
     {
       "indicator_id": "payrolls_information",
@@ -5477,7 +8837,7 @@
       "rolling_4": 2762.25,
       "rolling_6": 2763.1666666666665,
       "rolling_12": 2754.6666666666665,
-      "index_first_100": 78.125
+      "index_first_100": 103.89367278172969
     },
     {
       "indicator_id": "payrolls_information",
@@ -5505,7 +8865,7 @@
       "rolling_4": 2770.75,
       "rolling_6": 2766.6666666666665,
       "rolling_12": 2758.6666666666665,
-      "index_first_100": 78.40653153153153
+      "index_first_100": 104.26806439535754
     },
     {
       "indicator_id": "payrolls_information",
@@ -5533,7 +8893,7 @@
       "rolling_4": 2777.75,
       "rolling_6": 2770.5,
       "rolling_12": 2762.5833333333335,
-      "index_first_100": 78.51914414414415
+      "index_first_100": 104.41782104080868
     },
     {
       "indicator_id": "payrolls_information",
@@ -5561,7 +8921,7 @@
       "rolling_4": 2775.0,
       "rolling_6": 2770.5,
       "rolling_12": 2762.9166666666665,
-      "index_first_100": 77.44932432432432
+      "index_first_100": 102.99513290902284
     },
     {
       "indicator_id": "payrolls_information",
@@ -5589,7 +8949,7 @@
       "rolling_4": 2781.5,
       "rolling_6": 2777.1666666666665,
       "rolling_12": 2767.3333333333335,
-      "index_first_100": 78.85698198198197
+      "index_first_100": 104.86709097716212
     },
     {
       "indicator_id": "payrolls_information",
@@ -5617,7 +8977,7 @@
       "rolling_4": 2785.0,
       "rolling_6": 2783.3333333333335,
       "rolling_12": 2771.25,
-      "index_first_100": 78.80067567567568
+      "index_first_100": 104.79221265443654
     },
     {
       "indicator_id": "payrolls_information",
@@ -5645,7 +9005,7 @@
       "rolling_4": 2788.5,
       "rolling_6": 2788.0,
       "rolling_12": 2775.5833333333335,
-      "index_first_100": 78.91328828828829
+      "index_first_100": 104.94196929988769
     },
     {
       "indicator_id": "payrolls_information",
@@ -5673,7 +9033,7 @@
       "rolling_4": 2805.0,
       "rolling_6": 2793.3333333333335,
       "rolling_12": 2780.0,
-      "index_first_100": 79.30743243243244
+      "index_first_100": 105.46611755896669
     },
     {
       "indicator_id": "payrolls_information",
@@ -5701,7 +9061,7 @@
       "rolling_4": 2808.25,
       "rolling_6": 2797.5,
       "rolling_12": 2784.0,
-      "index_first_100": 79.22297297297297
+      "index_first_100": 105.35380007487831
     },
     {
       "indicator_id": "payrolls_information",
@@ -5729,7 +9089,7 @@
       "rolling_4": 2811.5,
       "rolling_6": 2807.6666666666665,
       "rolling_12": 2789.0833333333335,
-      "index_first_100": 79.16666666666666
+      "index_first_100": 105.27892175215274
     },
     {
       "indicator_id": "payrolls_information",
@@ -5757,7 +9117,7 @@
       "rolling_4": 2815.0,
       "rolling_6": 2810.3333333333335,
       "rolling_12": 2793.75,
-      "index_first_100": 79.30743243243244
+      "index_first_100": 105.46611755896669
     },
     {
       "indicator_id": "payrolls_information",
@@ -5785,7 +9145,7 @@
       "rolling_4": 2816.0,
       "rolling_6": 2814.0,
       "rolling_12": 2798.6666666666665,
-      "index_first_100": 79.42004504504504
+      "index_first_100": 105.61587420441782
     },
     {
       "indicator_id": "payrolls_information",
@@ -5813,7 +9173,7 @@
       "rolling_4": 2816.25,
       "rolling_6": 2816.0,
       "rolling_12": 2802.0,
-      "index_first_100": 79.25112612612612
+      "index_first_100": 105.39123923624112
     },
     {
       "indicator_id": "payrolls_information",
@@ -5841,7 +9201,7 @@
       "rolling_4": 2816.5,
       "rolling_6": 2815.3333333333335,
       "rolling_12": 2804.3333333333335,
-      "index_first_100": 79.19481981981981
+      "index_first_100": 105.31636091351552
     },
     {
       "indicator_id": "payrolls_information",
@@ -5869,7 +9229,7 @@
       "rolling_4": 2813.25,
       "rolling_6": 2813.6666666666665,
       "rolling_12": 2805.5833333333335,
-      "index_first_100": 78.94144144144144
+      "index_first_100": 104.97940846125047
     },
     {
       "indicator_id": "payrolls_information",
@@ -5897,7 +9257,7 @@
       "rolling_4": 2808.25,
       "rolling_6": 2811.8333333333335,
       "rolling_12": 2809.75,
-      "index_first_100": 78.85698198198197
+      "index_first_100": 104.86709097716212
     },
     {
       "indicator_id": "payrolls_information",
@@ -5925,7 +9285,7 @@
       "rolling_4": 2807.25,
       "rolling_6": 2810.8333333333335,
       "rolling_12": 2810.5833333333335,
-      "index_first_100": 79.13851351351352
+      "index_first_100": 105.24148259078996
     },
     {
       "indicator_id": "payrolls_information",
@@ -5953,7 +9313,7 @@
       "rolling_4": 2806.25,
       "rolling_6": 2808.8333333333335,
       "rolling_12": 2811.4166666666665,
-      "index_first_100": 79.0822072072072
+      "index_first_100": 105.16660426806439
     },
     {
       "indicator_id": "payrolls_information",
@@ -5981,7 +9341,7 @@
       "rolling_4": 2808.5,
       "rolling_6": 2808.5,
       "rolling_12": 2812.25,
-      "index_first_100": 79.19481981981981
+      "index_first_100": 105.31636091351552
     },
     {
       "indicator_id": "payrolls_information",
@@ -6009,7 +9369,7 @@
       "rolling_4": 2812.25,
       "rolling_6": 2809.0,
       "rolling_12": 2812.1666666666665,
-      "index_first_100": 79.27927927927928
+      "index_first_100": 105.4286783976039
     },
     {
       "indicator_id": "payrolls_information",
@@ -6037,7 +9397,7 @@
       "rolling_4": 2812.25,
       "rolling_6": 2810.1666666666665,
       "rolling_12": 2811.9166666666665,
-      "index_first_100": 79.13851351351352
+      "index_first_100": 105.24148259078996
     },
     {
       "indicator_id": "payrolls_information",
@@ -6065,7 +9425,7 @@
       "rolling_4": 2813.75,
       "rolling_6": 2812.5,
       "rolling_12": 2812.1666666666665,
-      "index_first_100": 79.25112612612612
+      "index_first_100": 105.39123923624112
     },
     {
       "indicator_id": "payrolls_information",
@@ -6093,7 +9453,7 @@
       "rolling_4": 2815.0,
       "rolling_6": 2813.6666666666665,
       "rolling_12": 2812.25,
-      "index_first_100": 79.33558558558559
+      "index_first_100": 105.50355672032947
     },
     {
       "indicator_id": "payrolls_information",
@@ -6121,7 +9481,7 @@
       "rolling_4": 2815.25,
       "rolling_6": 2815.0,
       "rolling_12": 2811.9166666666665,
-      "index_first_100": 79.30743243243244
+      "index_first_100": 105.46611755896669
     },
     {
       "indicator_id": "payrolls_information",
@@ -6149,7 +9509,7 @@
       "rolling_4": 2817.25,
       "rolling_6": 2816.0,
       "rolling_12": 2812.25,
-      "index_first_100": 79.36373873873875
+      "index_first_100": 105.54099588169225
     },
     {
       "indicator_id": "payrolls_information",
@@ -6177,7 +9537,7 @@
       "rolling_4": 2820.0,
       "rolling_6": 2817.6666666666665,
       "rolling_12": 2813.3333333333335,
-      "index_first_100": 79.5608108108108
+      "index_first_100": 105.80307001123175
     },
     {
       "indicator_id": "payrolls_information",
@@ -6205,7 +9565,7 @@
       "rolling_4": 2825.0,
       "rolling_6": 2822.1666666666665,
       "rolling_12": 2816.1666666666665,
-      "index_first_100": 79.89864864864865
+      "index_first_100": 106.25233994758518
     },
     {
       "indicator_id": "payrolls_information",
@@ -6233,7 +9593,7 @@
       "rolling_4": 2831.0,
       "rolling_6": 2826.5,
       "rolling_12": 2819.5,
-      "index_first_100": 79.9831081081081
+      "index_first_100": 106.36465743167354
     },
     {
       "indicator_id": "payrolls_information",
@@ -6261,7 +9621,7 @@
       "rolling_4": 2835.75,
       "rolling_6": 2829.8333333333335,
       "rolling_12": 2821.75,
-      "index_first_100": 79.89864864864865
+      "index_first_100": 106.25233994758518
     },
     {
       "indicator_id": "payrolls_information",
@@ -6289,7 +9649,7 @@
       "rolling_4": 2839.5,
       "rolling_6": 2833.8333333333335,
       "rolling_12": 2824.4166666666665,
-      "index_first_100": 79.9831081081081
+      "index_first_100": 106.36465743167354
     },
     {
       "indicator_id": "payrolls_information",
@@ -6317,7 +9677,7 @@
       "rolling_4": 2840.0,
       "rolling_6": 2837.3333333333335,
       "rolling_12": 2826.6666666666665,
-      "index_first_100": 79.95495495495496
+      "index_first_100": 106.32721827031075
     },
     {
       "indicator_id": "payrolls_information",
@@ -6345,7 +9705,7 @@
       "rolling_4": 2839.25,
       "rolling_6": 2839.3333333333335,
       "rolling_12": 2828.5,
-      "index_first_100": 79.89864864864865
+      "index_first_100": 106.25233994758518
     },
     {
       "indicator_id": "payrolls_information",
@@ -6373,7 +9733,7 @@
       "rolling_4": 2842.25,
       "rolling_6": 2841.3333333333335,
       "rolling_12": 2831.75,
-      "index_first_100": 80.23648648648648
+      "index_first_100": 106.7016098839386
     },
     {
       "indicator_id": "payrolls_information",
@@ -6401,7 +9761,7 @@
       "rolling_4": 2844.5,
       "rolling_6": 2842.8333333333335,
       "rolling_12": 2834.6666666666665,
-      "index_first_100": 80.23648648648648
+      "index_first_100": 106.7016098839386
     },
     {
       "indicator_id": "payrolls_information",
@@ -6429,7 +9789,7 @@
       "rolling_4": 2847.25,
       "rolling_6": 2845.0,
       "rolling_12": 2837.4166666666665,
-      "index_first_100": 80.26463963963964
+      "index_first_100": 106.73904904530139
     },
     {
       "indicator_id": "payrolls_information",
@@ -6457,7 +9817,7 @@
       "rolling_4": 2848.25,
       "rolling_6": 2845.1666666666665,
       "rolling_12": 2839.5,
-      "index_first_100": 80.01126126126125
+      "index_first_100": 106.40209659303632
     },
     {
       "indicator_id": "payrolls_information",
@@ -6485,7 +9845,7 @@
       "rolling_4": 2846.5,
       "rolling_6": 2845.6666666666665,
       "rolling_12": 2841.5,
-      "index_first_100": 80.03941441441441
+      "index_first_100": 106.4395357543991
     },
     {
       "indicator_id": "payrolls_information",
@@ -6513,7 +9873,7 @@
       "rolling_4": 2846.25,
       "rolling_6": 2847.5,
       "rolling_12": 2843.4166666666665,
-      "index_first_100": 80.20833333333334
+      "index_first_100": 106.66417072257582
     },
     {
       "indicator_id": "payrolls_information",
@@ -6541,7 +9901,7 @@
       "rolling_4": 2845.0,
       "rolling_6": 2846.8333333333335,
       "rolling_12": 2844.0833333333335,
-      "index_first_100": 80.12387387387388
+      "index_first_100": 106.55185323848745
     },
     {
       "indicator_id": "payrolls_information",
@@ -6569,7 +9929,7 @@
       "rolling_4": 2849.0,
       "rolling_6": 2848.1666666666665,
       "rolling_12": 2845.5,
-      "index_first_100": 80.46171171171171
+      "index_first_100": 107.00112317484087
     },
     {
       "indicator_id": "payrolls_information",
@@ -6597,7 +9957,7 @@
       "rolling_4": 2857.0,
       "rolling_6": 2852.1666666666665,
       "rolling_12": 2848.5833333333335,
-      "index_first_100": 80.94031531531532
+      "index_first_100": 107.63758891800823
     },
     {
       "indicator_id": "payrolls_information",
@@ -6625,7 +9985,7 @@
       "rolling_4": 2861.25,
       "rolling_6": 2856.1666666666665,
       "rolling_12": 2850.6666666666665,
-      "index_first_100": 80.68693693693693
+      "index_first_100": 107.30063646574317
     },
     {
       "indicator_id": "payrolls_information",
@@ -6653,7 +10013,7 @@
       "rolling_4": 2866.0,
       "rolling_6": 2859.8333333333335,
       "rolling_12": 2852.75,
-      "index_first_100": 80.65878378378379
+      "index_first_100": 107.26319730438038
     },
     {
       "indicator_id": "payrolls_information",
@@ -6681,7 +10041,7 @@
       "rolling_4": 2869.25,
       "rolling_6": 2863.5,
       "rolling_12": 2855.5,
-      "index_first_100": 80.8277027027027
+      "index_first_100": 107.4878322725571
     },
     {
       "indicator_id": "payrolls_information",
@@ -6709,7 +10069,7 @@
       "rolling_4": 2869.0,
       "rolling_6": 2868.1666666666665,
       "rolling_12": 2857.5,
-      "index_first_100": 80.91216216216216
+      "index_first_100": 107.60014975664545
     },
     {
       "indicator_id": "payrolls_information",
@@ -6737,7 +10097,7 @@
       "rolling_4": 2873.75,
       "rolling_6": 2872.6666666666665,
       "rolling_12": 2860.4166666666665,
-      "index_first_100": 81.22184684684684
+      "index_first_100": 108.0119805316361
     },
     {
       "indicator_id": "payrolls_information",
@@ -6765,7 +10125,7 @@
       "rolling_4": 2880.25,
       "rolling_6": 2875.3333333333335,
       "rolling_12": 2863.75,
-      "index_first_100": 81.39076576576578
+      "index_first_100": 108.2366154998128
     },
     {
       "indicator_id": "payrolls_information",
@@ -6793,7 +10153,7 @@
       "rolling_4": 2887.75,
       "rolling_6": 2881.1666666666665,
       "rolling_12": 2868.6666666666665,
-      "index_first_100": 81.6722972972973
+      "index_first_100": 108.61100711344065
     },
     {
       "indicator_id": "payrolls_information",
@@ -6821,7 +10181,7 @@
       "rolling_4": 2896.75,
       "rolling_6": 2888.6666666666665,
       "rolling_12": 2874.25,
-      "index_first_100": 81.92567567567568
+      "index_first_100": 108.94795956570573
     },
     {
       "indicator_id": "payrolls_information",
@@ -6849,7 +10209,7 @@
       "rolling_4": 2901.0,
       "rolling_6": 2893.8333333333335,
       "rolling_12": 2878.6666666666665,
-      "index_first_100": 81.70045045045045
+      "index_first_100": 108.64844627480343
     },
     {
       "indicator_id": "payrolls_information",
@@ -6877,7 +10237,7 @@
       "rolling_4": 2839.0,
       "rolling_6": 2855.3333333333335,
       "rolling_12": 2861.75,
-      "index_first_100": 74.40878378378379
+      "index_first_100": 98.951703481842
     },
     {
       "indicator_id": "payrolls_information",
@@ -6905,7 +10265,7 @@
       "rolling_4": 2766.0,
       "rolling_6": 2809.3333333333335,
       "rolling_12": 2841.0,
-      "index_first_100": 73.45157657657657
+      "index_first_100": 97.67877199550729
     },
     {
       "indicator_id": "payrolls_information",
@@ -6933,7 +10293,7 @@
       "rolling_4": 2694.0,
       "rolling_6": 2764.5,
       "rolling_12": 2819.9166666666665,
-      "index_first_100": 73.81756756756756
+      "index_first_100": 98.16548109322352
     },
     {
       "indicator_id": "payrolls_information",
@@ -6961,7 +10321,7 @@
       "rolling_4": 2624.0,
       "rolling_6": 2718.0,
       "rolling_12": 2799.5833333333335,
-      "index_first_100": 73.81756756756756
+      "index_first_100": 98.16548109322352
     },
     {
       "indicator_id": "payrolls_information",
@@ -6989,7 +10349,7 @@
       "rolling_4": 2623.25,
       "rolling_6": 2673.0,
       "rolling_12": 2780.8333333333335,
-      "index_first_100": 74.32432432432432
+      "index_first_100": 98.83938599775365
     },
     {
       "indicator_id": "payrolls_information",
@@ -7017,7 +10377,7 @@
       "rolling_4": 2644.75,
       "rolling_6": 2638.5,
       "rolling_12": 2766.1666666666665,
-      "index_first_100": 75.87274774774775
+      "index_first_100": 100.89853987270685
     },
     {
       "indicator_id": "payrolls_information",
@@ -7045,7 +10405,7 @@
       "rolling_4": 2660.25,
       "rolling_6": 2645.3333333333335,
       "rolling_12": 2750.3333333333335,
-      "index_first_100": 75.56306306306307
+      "index_first_100": 100.48670909771621
     },
     {
       "indicator_id": "payrolls_information",
@@ -7073,7 +10433,7 @@
       "rolling_4": 2678.75,
       "rolling_6": 2659.8333333333335,
       "rolling_12": 2734.5833333333335,
-      "index_first_100": 75.90090090090091
+      "index_first_100": 100.93597903406963
     },
     {
       "indicator_id": "payrolls_information",
@@ -7101,7 +10461,7 @@
       "rolling_4": 2696.75,
       "rolling_6": 2674.8333333333335,
       "rolling_12": 2719.6666666666665,
-      "index_first_100": 76.35135135135135
+      "index_first_100": 101.53500561587421
     },
     {
       "indicator_id": "payrolls_information",
@@ -7129,7 +10489,7 @@
       "rolling_4": 2709.75,
       "rolling_6": 2695.6666666666665,
       "rolling_12": 2706.8333333333335,
-      "index_first_100": 77.33671171171171
+      "index_first_100": 102.84537626357168
     },
     {
       "indicator_id": "payrolls_information",
@@ -7157,7 +10517,7 @@
       "rolling_4": 2729.75,
       "rolling_6": 2716.3333333333335,
       "rolling_12": 2694.6666666666665,
-      "index_first_100": 77.81531531531532
+      "index_first_100": 103.48184200673904
     },
     {
       "indicator_id": "payrolls_information",
@@ -7185,7 +10545,7 @@
       "rolling_4": 2748.25,
       "rolling_6": 2728.8333333333335,
       "rolling_12": 2683.6666666666665,
-      "index_first_100": 77.98423423423422
+      "index_first_100": 103.70647697491574
     },
     {
       "indicator_id": "payrolls_information",
@@ -7213,7 +10573,7 @@
       "rolling_4": 2769.25,
       "rolling_6": 2747.5,
       "rolling_12": 2696.4166666666665,
-      "index_first_100": 78.71621621621621
+      "index_first_100": 104.67989517034819
     },
     {
       "indicator_id": "payrolls_information",
@@ -7241,7 +10601,7 @@
       "rolling_4": 2786.5,
       "rolling_6": 2767.5,
       "rolling_12": 2713.6666666666665,
-      "index_first_100": 79.27927927927928
+      "index_first_100": 105.4286783976039
     },
     {
       "indicator_id": "payrolls_information",
@@ -7269,7 +10629,7 @@
       "rolling_4": 2801.5,
       "rolling_6": 2786.1666666666665,
       "rolling_12": 2730.5,
-      "index_first_100": 79.5045045045045
+      "index_first_100": 105.72819168850617
     },
     {
       "indicator_id": "payrolls_information",
@@ -7297,7 +10657,7 @@
       "rolling_4": 2829.25,
       "rolling_6": 2808.5,
       "rolling_12": 2752.0833333333335,
-      "index_first_100": 81.10923423423422
+      "index_first_100": 107.86222388618496
     },
     {
       "indicator_id": "payrolls_information",
@@ -7325,7 +10685,7 @@
       "rolling_4": 2856.0,
       "rolling_6": 2831.6666666666665,
       "rolling_12": 2774.0,
-      "index_first_100": 81.7286036036036
+      "index_first_100": 108.68588543616625
     },
     {
       "indicator_id": "payrolls_information",
@@ -7353,7 +10713,7 @@
       "rolling_4": 2881.25,
       "rolling_6": 2856.1666666666665,
       "rolling_12": 2792.5,
-      "index_first_100": 82.12274774774775
+      "index_first_100": 109.21003369524523
     },
     {
       "indicator_id": "payrolls_information",
@@ -7381,7 +10741,7 @@
       "rolling_4": 2909.75,
       "rolling_6": 2879.8333333333335,
       "rolling_12": 2813.6666666666665,
-      "index_first_100": 82.71396396396396
+      "index_first_100": 109.99625608386371
     },
     {
       "indicator_id": "payrolls_information",
@@ -7409,7 +10769,7 @@
       "rolling_4": 2928.75,
       "rolling_6": 2903.3333333333335,
       "rolling_12": 2835.4166666666665,
-      "index_first_100": 83.24887387387388
+      "index_first_100": 110.70760014975664
     },
     {
       "indicator_id": "payrolls_information",
@@ -7437,7 +10797,7 @@
       "rolling_4": 2944.75,
       "rolling_6": 2927.1666666666665,
       "rolling_12": 2856.6666666666665,
-      "index_first_100": 83.5304054054054
+      "index_first_100": 111.0819917633845
     },
     {
       "indicator_id": "payrolls_information",
@@ -7465,7 +10825,7 @@
       "rolling_4": 2961.5,
       "rolling_6": 2944.3333333333335,
       "rolling_12": 2876.4166666666665,
-      "index_first_100": 84.009009009009
+      "index_first_100": 111.71845750655184
     },
     {
       "indicator_id": "payrolls_information",
@@ -7493,7 +10853,7 @@
       "rolling_4": 2974.5,
       "rolling_6": 2958.8333333333335,
       "rolling_12": 2895.25,
-      "index_first_100": 84.17792792792793
+      "index_first_100": 111.94309247472856
     },
     {
       "indicator_id": "payrolls_information",
@@ -7521,7 +10881,7 @@
       "rolling_4": 2989.75,
       "rolling_6": 2975.6666666666665,
       "rolling_12": 2915.9166666666665,
-      "index_first_100": 84.96621621621621
+      "index_first_100": 112.99138899288657
     },
     {
       "indicator_id": "payrolls_information",
@@ -7549,7 +10909,7 @@
       "rolling_4": 3006.5,
       "rolling_6": 2991.6666666666665,
       "rolling_12": 2935.75,
-      "index_first_100": 85.41666666666666
+      "index_first_100": 113.59041557469112
     },
     {
       "indicator_id": "payrolls_information",
@@ -7577,7 +10937,7 @@
       "rolling_4": 3024.75,
       "rolling_6": 3008.3333333333335,
       "rolling_12": 2955.8333333333335,
-      "index_first_100": 86.0641891891892
+      "index_first_100": 114.45151628603519
     },
     {
       "indicator_id": "payrolls_information",
@@ -7605,7 +10965,7 @@
       "rolling_4": 3046.25,
       "rolling_6": 3026.5,
       "rolling_12": 2976.8333333333335,
-      "index_first_100": 86.59909909909909
+      "index_first_100": 115.1628603519281
     },
     {
       "indicator_id": "payrolls_information",
@@ -7633,7 +10993,7 @@
       "rolling_4": 3065.25,
       "rolling_6": 3044.8333333333335,
       "rolling_12": 2994.5833333333335,
-      "index_first_100": 87.10585585585585
+      "index_first_100": 115.83676525645825
     },
     {
       "indicator_id": "payrolls_information",
@@ -7661,7 +11021,7 @@
       "rolling_4": 3081.0,
       "rolling_6": 3062.6666666666665,
       "rolling_12": 3010.75,
-      "index_first_100": 87.19031531531532
+      "index_first_100": 115.9490827405466
     },
     {
       "indicator_id": "payrolls_information",
@@ -7689,7 +11049,7 @@
       "rolling_4": 3090.5,
       "rolling_6": 3075.5,
       "rolling_12": 3025.5833333333335,
-      "index_first_100": 87.134009009009
+      "index_first_100": 115.87420441782103
     },
     {
       "indicator_id": "payrolls_information",
@@ -7717,7 +11077,7 @@
       "rolling_4": 3096.5,
       "rolling_6": 3086.5,
       "rolling_12": 3039.0833333333335,
-      "index_first_100": 87.27477477477478
+      "index_first_100": 116.06140022463495
     },
     {
       "indicator_id": "payrolls_information",
@@ -7745,7 +11105,7 @@
       "rolling_4": 3101.75,
       "rolling_6": 3096.1666666666665,
       "rolling_12": 3052.25,
-      "index_first_100": 87.69707207207207
+      "index_first_100": 116.62298764507675
     },
     {
       "indicator_id": "payrolls_information",
@@ -7773,7 +11133,7 @@
       "rolling_4": 3100.5,
       "rolling_6": 3098.8333333333335,
       "rolling_12": 3062.6666666666665,
-      "index_first_100": 87.04954954954955
+      "index_first_100": 115.76188693373268
     },
     {
       "indicator_id": "payrolls_information",
@@ -7801,7 +11161,7 @@
       "rolling_4": 3092.0,
       "rolling_6": 3093.3333333333335,
       "rolling_12": 3069.0833333333335,
-      "index_first_100": 86.1768018018018
+      "index_first_100": 114.60127293148633
     },
     {
       "indicator_id": "payrolls_information",
@@ -7829,7 +11189,7 @@
       "rolling_4": 3079.0,
       "rolling_6": 3085.1666666666665,
       "rolling_12": 3073.9166666666665,
-      "index_first_100": 85.8108108108108
+      "index_first_100": 114.11456383377012
     },
     {
       "indicator_id": "payrolls_information",
@@ -7857,7 +11217,7 @@
       "rolling_4": 3062.5,
       "rolling_6": 3077.5,
       "rolling_12": 3076.5,
-      "index_first_100": 85.83896396396396
+      "index_first_100": 114.1520029951329
     },
     {
       "indicator_id": "payrolls_information",
@@ -7885,7 +11245,7 @@
       "rolling_4": 3050.25,
       "rolling_6": 3068.0,
       "rolling_12": 3077.25,
-      "index_first_100": 85.67004504504504
+      "index_first_100": 113.9273680269562
     },
     {
       "indicator_id": "payrolls_information",
@@ -7913,7 +11273,7 @@
       "rolling_4": 3043.5,
       "rolling_6": 3054.5,
       "rolling_12": 3075.3333333333335,
-      "index_first_100": 85.41666666666666
+      "index_first_100": 113.59041557469112
     },
     {
       "indicator_id": "payrolls_information",
@@ -7941,7 +11301,7 @@
       "rolling_4": 3036.75,
       "rolling_6": 3042.6666666666665,
       "rolling_12": 3070.75,
-      "index_first_100": 85.05067567567568
+      "index_first_100": 113.10370647697492
     },
     {
       "indicator_id": "payrolls_information",
@@ -7969,7 +11329,7 @@
       "rolling_4": 3024.75,
       "rolling_6": 3032.6666666666665,
       "rolling_12": 3063.0,
-      "index_first_100": 84.48761261261262
+      "index_first_100": 112.3549232497192
     },
     {
       "indicator_id": "payrolls_information",
@@ -7997,7 +11357,7 @@
       "rolling_4": 3009.25,
       "rolling_6": 3021.5,
       "rolling_12": 3053.3333333333335,
-      "index_first_100": 83.92454954954955
+      "index_first_100": 111.60614002246349
     },
     {
       "indicator_id": "payrolls_information",
@@ -8025,7 +11385,7 @@
       "rolling_4": 2994.5,
       "rolling_6": 3009.1666666666665,
       "rolling_12": 3043.3333333333335,
-      "index_first_100": 83.75563063063063
+      "index_first_100": 111.38150505428679
     },
     {
       "indicator_id": "payrolls_information",
@@ -8053,7 +11413,7 @@
       "rolling_4": 2977.0,
       "rolling_6": 2993.8333333333335,
       "rolling_12": 3030.9166666666665,
-      "index_first_100": 83.07995495495496
+      "index_first_100": 110.48296518157994
     },
     {
       "indicator_id": "payrolls_information",
@@ -8081,7 +11441,7 @@
       "rolling_4": 2967.25,
       "rolling_6": 2981.8333333333335,
       "rolling_12": 3018.1666666666665,
-      "index_first_100": 83.38963963963964
+      "index_first_100": 110.89479595657056
     },
     {
       "indicator_id": "payrolls_information",
@@ -8109,7 +11469,7 @@
       "rolling_4": 2962.75,
       "rolling_6": 2972.1666666666665,
       "rolling_12": 3007.4166666666665,
-      "index_first_100": 83.4177927927928
+      "index_first_100": 110.93223511793336
     },
     {
       "indicator_id": "payrolls_information",
@@ -8137,7 +11497,7 @@
       "rolling_4": 2959.75,
       "rolling_6": 2965.8333333333335,
       "rolling_12": 2999.25,
-      "index_first_100": 83.4177927927928
+      "index_first_100": 110.93223511793336
     },
     {
       "indicator_id": "payrolls_information",
@@ -8165,7 +11525,7 @@
       "rolling_4": 2961.5,
       "rolling_6": 2962.0,
       "rolling_12": 2991.75,
-      "index_first_100": 83.27702702702703
+      "index_first_100": 110.74503931111943
     },
     {
       "indicator_id": "payrolls_information",
@@ -8193,7 +11553,7 @@
       "rolling_4": 2958.75,
       "rolling_6": 2958.0,
       "rolling_12": 2983.5833333333335,
-      "index_first_100": 83.07995495495496
+      "index_first_100": 110.48296518157994
     },
     {
       "indicator_id": "payrolls_information",
@@ -8221,7 +11581,7 @@
       "rolling_4": 2953.0,
       "rolling_6": 2956.1666666666665,
       "rolling_12": 2975.0,
-      "index_first_100": 82.77027027027027
+      "index_first_100": 110.0711344065893
     },
     {
       "indicator_id": "payrolls_information",
@@ -8249,7 +11609,7 @@
       "rolling_4": 2944.75,
       "rolling_6": 2950.8333333333335,
       "rolling_12": 2966.3333333333335,
-      "index_first_100": 82.48873873873875
+      "index_first_100": 109.69674279296144
     },
     {
       "indicator_id": "payrolls_information",
@@ -8277,7 +11637,7 @@
       "rolling_4": 2937.75,
       "rolling_6": 2945.3333333333335,
       "rolling_12": 2958.75,
-      "index_first_100": 82.48873873873875
+      "index_first_100": 109.69674279296144
     },
     {
       "indicator_id": "payrolls_information",
@@ -8305,7 +11665,7 @@
       "rolling_4": 2929.25,
       "rolling_6": 2937.6666666666665,
       "rolling_12": 2951.75,
-      "index_first_100": 82.12274774774775
+      "index_first_100": 109.21003369524523
     },
     {
       "indicator_id": "payrolls_information",
@@ -8333,7 +11693,7 @@
       "rolling_4": 2921.5,
       "rolling_6": 2929.5,
       "rolling_12": 2945.75,
-      "index_first_100": 81.89752252252252
+      "index_first_100": 108.91052040434295
     },
     {
       "indicator_id": "payrolls_information",
@@ -8361,7 +11721,7 @@
       "rolling_4": 2914.75,
       "rolling_6": 2921.5,
       "rolling_12": 2939.75,
-      "index_first_100": 81.7286036036036
+      "index_first_100": 108.68588543616625
     },
     {
       "indicator_id": "payrolls_information",
@@ -8389,7 +11749,7 @@
       "rolling_4": 2904.0,
       "rolling_6": 2912.6666666666665,
       "rolling_12": 2934.4166666666665,
-      "index_first_100": 81.27815315315316
+      "index_first_100": 108.08685885436167
     },
     {
       "indicator_id": "payrolls_information",
@@ -8417,7 +11777,7 @@
       "rolling_4": 2896.0,
       "rolling_6": 2905.1666666666665,
       "rolling_12": 2928.0,
-      "index_first_100": 81.22184684684684
+      "index_first_100": 108.0119805316361
     },
     {
       "indicator_id": "payrolls_information",
@@ -8445,7 +11805,7 @@
       "rolling_4": 2892.5,
       "rolling_6": 2899.3333333333335,
       "rolling_12": 2922.3333333333335,
-      "index_first_100": 81.50337837837837
+      "index_first_100": 108.38637214526395
     },
     {
       "indicator_id": "payrolls_information",
@@ -8473,7 +11833,7 @@
       "rolling_4": 2886.0,
       "rolling_6": 2892.6666666666665,
       "rolling_12": 2915.1666666666665,
-      "index_first_100": 80.99662162162163
+      "index_first_100": 107.7124672407338
     },
     {
       "indicator_id": "payrolls_information",
@@ -8501,7 +11861,7 @@
       "rolling_4": 2883.25,
       "rolling_6": 2887.1666666666665,
       "rolling_12": 2908.3333333333335,
-      "index_first_100": 80.96846846846847
+      "index_first_100": 107.67502807937102
     },
     {
       "indicator_id": "payrolls_information",
@@ -8529,7 +11889,7 @@
       "rolling_4": 2878.75,
       "rolling_6": 2881.1666666666665,
       "rolling_12": 2901.3333333333335,
-      "index_first_100": 80.71509009009009
+      "index_first_100": 107.33807562710595
     },
     {
       "indicator_id": "payrolls_information",
@@ -8557,7 +11917,7 @@
       "rolling_4": 2871.25,
       "rolling_6": 2877.5,
       "rolling_12": 2895.0833333333335,
-      "index_first_100": 80.65878378378379
+      "index_first_100": 107.26319730438038
     },
     {
       "indicator_id": "payrolls_information",
@@ -8585,7 +11945,7 @@
       "rolling_4": 2868.0,
       "rolling_6": 2874.0,
       "rolling_12": 2889.5833333333335,
-      "index_first_100": 80.63063063063063
+      "index_first_100": 107.2257581430176
     },
     {
       "indicator_id": "payrolls_information",
@@ -8613,7 +11973,7 @@
       "rolling_4": 2864.75,
       "rolling_6": 2868.6666666666665,
       "rolling_12": 2884.0,
-      "index_first_100": 80.60247747747748
+      "index_first_100": 107.18831898165482
     },
     {
       "indicator_id": "payrolls_information",
@@ -8641,7 +12001,7 @@
       "rolling_4": 2863.25,
       "rolling_6": 2866.0,
       "rolling_12": 2879.3333333333335,
-      "index_first_100": 80.54617117117117
+      "index_first_100": 107.11344065892925
     },
     {
       "indicator_id": "payrolls_information",
@@ -8669,7 +12029,7 @@
       "rolling_4": 2862.0,
       "rolling_6": 2863.3333333333335,
       "rolling_12": 2875.25,
-      "index_first_100": 80.51801801801803
+      "index_first_100": 107.07600149756647
     },
     {
       "indicator_id": "payrolls_information",
@@ -8697,7 +12057,7 @@
       "rolling_4": 2860.75,
       "rolling_6": 2862.0,
       "rolling_12": 2871.5833333333335,
-      "index_first_100": 80.48986486486487
+      "index_first_100": 107.03856233620368
     },
     {
       "indicator_id": "payrolls_information",
@@ -8725,7 +12085,7 @@
       "rolling_4": 2858.25,
       "rolling_6": 2860.0,
       "rolling_12": 2868.75,
-      "index_first_100": 80.32094594594594
+      "index_first_100": 106.81392736802695
     },
     {
       "indicator_id": "payrolls_information",
@@ -8753,7 +12113,7 @@
       "rolling_4": 2855.0,
       "rolling_6": 2857.3333333333335,
       "rolling_12": 2865.6666666666665,
-      "index_first_100": 80.18018018018019
+      "index_first_100": 106.62673156121303
     },
     {
       "indicator_id": "payrolls_information",
@@ -8781,7 +12141,7 @@
       "rolling_4": 2850.5,
       "rolling_6": 2853.8333333333335,
       "rolling_12": 2861.25,
-      "index_first_100": 80.01126126126125
+      "index_first_100": 106.40209659303632
     },
     {
       "indicator_id": "payrolls_information",
@@ -8809,7 +12169,7 @@
       "rolling_4": 2839.5,
       "rolling_6": 2846.1666666666665,
       "rolling_12": 2856.0833333333335,
-      "index_first_100": 79.25112612612612
+      "index_first_100": 105.39123923624112
     },
     {
       "indicator_id": "payrolls_information",
@@ -8837,7 +12197,7 @@
       "rolling_4": 2824.25,
       "rolling_6": 2834.8333333333335,
       "rolling_12": 2849.0833333333335,
-      "index_first_100": 78.6036036036036
+      "index_first_100": 104.53013852489703
     },
     {
       "indicator_id": "payrolls_information",
@@ -8865,7 +12225,7 @@
       "rolling_4": 2808.75,
       "rolling_6": 2822.6666666666665,
       "rolling_12": 2842.3333333333335,
-      "index_first_100": 78.43468468468468
+      "index_first_100": 104.30550355672032
     },
     {
       "indicator_id": "payrolls_information",
@@ -8893,7 +12253,7 @@
       "rolling_4": 2791.5,
       "rolling_6": 2809.3333333333335,
       "rolling_12": 2834.6666666666665,
-      "index_first_100": 78.06869369369369
+      "index_first_100": 103.81879445900412
     }
   ]
 }

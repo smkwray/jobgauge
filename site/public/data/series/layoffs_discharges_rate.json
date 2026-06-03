@@ -8544,7 +8544,7 @@
       "units": "Percent",
       "realtime_start": null,
       "realtime_end": null,
-      "footnotes": "preliminary",
+      "footnotes": "",
       "geography": "US",
       "geo_id": "US",
       "geo_label": "US",
@@ -8560,6 +8560,34 @@
       "rolling_6": 1.0999999999999996,
       "rolling_12": 1.1166666666666667,
       "index_first_100": 80.0
+    },
+    {
+      "indicator_id": "layoffs_discharges_rate",
+      "date": "2026-04-01",
+      "value": 1.1,
+      "source": "bls_public_api",
+      "series_id": "JTS000000000000000LDR",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "preliminary",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "layoffs_discharges_rate|US",
+      "change_1": -0.09999999999999987,
+      "pct_change_1": -8.333333333333325,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_12": 0.0,
+      "pct_change_12": 0.0,
+      "rolling_3": 1.1333333333333335,
+      "rolling_4": 1.1000000000000005,
+      "rolling_6": 1.083333333333333,
+      "rolling_12": 1.116666666666667,
+      "index_first_100": 73.33333333333334
     }
   ]
 }

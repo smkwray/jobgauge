@@ -51,8 +51,8 @@
   "observations": [
     {
       "indicator_id": "payrolls_mining_logging",
-      "date": "2000-01-01",
-      "value": 593.0,
+      "date": "1990-01-01",
+      "value": 762.0,
       "source": "bls_public_api",
       "series_id": "CES1000000001",
       "frequency": "M",
@@ -71,11 +71,3371 @@
       "pct_change_4": null,
       "change_12": null,
       "pct_change_12": null,
-      "rolling_3": 593.0,
-      "rolling_4": 593.0,
-      "rolling_6": 593.0,
-      "rolling_12": 593.0,
+      "rolling_3": 762.0,
+      "rolling_4": 762.0,
+      "rolling_6": 762.0,
+      "rolling_12": 762.0,
       "index_first_100": 100.0
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1990-02-01",
+      "value": 760.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -2.0,
+      "pct_change_1": -0.2624671916010457,
+      "change_4": null,
+      "pct_change_4": null,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 761.0,
+      "rolling_4": 761.0,
+      "rolling_6": 761.0,
+      "rolling_12": 761.0,
+      "index_first_100": 99.73753280839895
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1990-03-01",
+      "value": 761.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.1315789473684159,
+      "change_4": null,
+      "pct_change_4": null,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 761.0,
+      "rolling_4": 761.0,
+      "rolling_6": 761.0,
+      "rolling_12": 761.0,
+      "index_first_100": 99.86876640419948
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1990-04-01",
+      "value": 766.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 5.0,
+      "pct_change_1": 0.6570302233902758,
+      "change_4": null,
+      "pct_change_4": null,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 762.3333333333334,
+      "rolling_4": 762.25,
+      "rolling_6": 762.25,
+      "rolling_12": 762.25,
+      "index_first_100": 100.5249343832021
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1990-05-01",
+      "value": 770.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 4.0,
+      "pct_change_1": 0.5221932114882533,
+      "change_4": 8.0,
+      "pct_change_4": 1.049868766404205,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 765.6666666666666,
+      "rolling_4": 764.25,
+      "rolling_6": 763.8,
+      "rolling_12": 763.8,
+      "index_first_100": 101.0498687664042
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1990-06-01",
+      "value": 771.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.12987012987013546,
+      "change_4": 11.0,
+      "pct_change_4": 1.4473684210526416,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 769.0,
+      "rolling_4": 767.0,
+      "rolling_6": 765.0,
+      "rolling_12": 765.0,
+      "index_first_100": 101.18110236220473
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1990-07-01",
+      "value": 769.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -2.0,
+      "pct_change_1": -0.25940337224383825,
+      "change_4": 8.0,
+      "pct_change_4": 1.0512483574244502,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 770.0,
+      "rolling_4": 769.0,
+      "rolling_6": 766.1666666666666,
+      "rolling_12": 765.5714285714286,
+      "index_first_100": 100.91863517060366
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1990-08-01",
+      "value": 765.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -4.0,
+      "pct_change_1": -0.5201560468140465,
+      "change_4": -1.0,
+      "pct_change_4": -0.13054830287205776,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 768.3333333333334,
+      "rolling_4": 768.75,
+      "rolling_6": 767.0,
+      "rolling_12": 765.5,
+      "index_first_100": 100.39370078740157
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1990-09-01",
+      "value": 766.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.13071895424836555,
+      "change_4": -4.0,
+      "pct_change_4": -0.5194805194805197,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 766.6666666666666,
+      "rolling_4": 767.75,
+      "rolling_6": 767.8333333333334,
+      "rolling_12": 765.5555555555555,
+      "index_first_100": 100.5249343832021
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1990-10-01",
+      "value": 763.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.3916449086161844,
+      "change_4": -8.0,
+      "pct_change_4": -1.037613488975353,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 764.6666666666666,
+      "rolling_4": 765.75,
+      "rolling_6": 767.3333333333334,
+      "rolling_12": 765.3,
+      "index_first_100": 100.13123359580052
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1990-11-01",
+      "value": 761.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -2.0,
+      "pct_change_1": -0.2621231979030192,
+      "change_4": -8.0,
+      "pct_change_4": -1.040312093628093,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 763.3333333333334,
+      "rolling_4": 763.75,
+      "rolling_6": 765.8333333333334,
+      "rolling_12": 764.9090909090909,
+      "index_first_100": 99.86876640419948
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1990-12-01",
+      "value": 760.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.13140604467805073,
+      "change_4": -5.0,
+      "pct_change_4": -0.6535947712418277,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 761.3333333333334,
+      "rolling_4": 762.5,
+      "rolling_6": 764.0,
+      "rolling_12": 764.5,
+      "index_first_100": 99.73753280839895
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1991-01-01",
+      "value": 759.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.1315789473684159,
+      "change_4": -7.0,
+      "pct_change_4": -0.9138381201044377,
+      "change_12": -3.0,
+      "pct_change_12": -0.3937007874015741,
+      "rolling_3": 760.0,
+      "rolling_4": 760.75,
+      "rolling_6": 762.3333333333334,
+      "rolling_12": 764.25,
+      "index_first_100": 99.60629921259843
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1991-02-01",
+      "value": 759.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_4": -4.0,
+      "pct_change_4": -0.5242463958060273,
+      "change_12": -1.0,
+      "pct_change_12": -0.1315789473684159,
+      "rolling_3": 759.3333333333334,
+      "rolling_4": 759.75,
+      "rolling_6": 761.3333333333334,
+      "rolling_12": 764.1666666666666,
+      "index_first_100": 99.60629921259843
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1991-03-01",
+      "value": 756.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.39525691699604515,
+      "change_4": -5.0,
+      "pct_change_4": -0.6570302233902758,
+      "change_12": -5.0,
+      "pct_change_12": -0.6570302233902758,
+      "rolling_3": 758.0,
+      "rolling_4": 758.5,
+      "rolling_6": 759.6666666666666,
+      "rolling_12": 763.75,
+      "index_first_100": 99.21259842519686
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1991-04-01",
+      "value": 752.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -4.0,
+      "pct_change_1": -0.5291005291005346,
+      "change_4": -8.0,
+      "pct_change_4": -1.0526315789473717,
+      "change_12": -14.0,
+      "pct_change_12": -1.8276762402088753,
+      "rolling_3": 755.6666666666666,
+      "rolling_4": 756.5,
+      "rolling_6": 757.8333333333334,
+      "rolling_12": 762.5833333333334,
+      "index_first_100": 98.68766404199475
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1991-05-01",
+      "value": 748.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -4.0,
+      "pct_change_1": -0.5319148936170248,
+      "change_4": -11.0,
+      "pct_change_4": -1.449275362318836,
+      "change_12": -22.0,
+      "pct_change_12": -2.857142857142858,
+      "rolling_3": 752.0,
+      "rolling_4": 753.75,
+      "rolling_6": 755.6666666666666,
+      "rolling_12": 760.75,
+      "index_first_100": 98.16272965879264
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1991-06-01",
+      "value": 746.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -2.0,
+      "pct_change_1": -0.2673796791443861,
+      "change_4": -13.0,
+      "pct_change_4": -1.7127799736495364,
+      "change_12": -25.0,
+      "pct_change_12": -3.242542153047989,
+      "rolling_3": 748.6666666666666,
+      "rolling_4": 750.5,
+      "rolling_6": 753.3333333333334,
+      "rolling_12": 758.6666666666666,
+      "index_first_100": 97.9002624671916
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1991-07-01",
+      "value": 741.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -5.0,
+      "pct_change_1": -0.6702412868632712,
+      "change_4": -15.0,
+      "pct_change_4": -1.9841269841269882,
+      "change_12": -28.0,
+      "pct_change_12": -3.6410923276983143,
+      "rolling_3": 745.0,
+      "rolling_4": 746.75,
+      "rolling_6": 750.3333333333334,
+      "rolling_12": 756.3333333333334,
+      "index_first_100": 97.24409448818898
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1991-08-01",
+      "value": 735.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -6.0,
+      "pct_change_1": -0.8097165991902799,
+      "change_4": -17.0,
+      "pct_change_4": -2.2606382978723416,
+      "change_12": -30.0,
+      "pct_change_12": -3.9215686274509776,
+      "rolling_3": 740.6666666666666,
+      "rolling_4": 742.5,
+      "rolling_6": 746.3333333333334,
+      "rolling_12": 753.8333333333334,
+      "index_first_100": 96.45669291338582
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1991-09-01",
+      "value": 729.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -6.0,
+      "pct_change_1": -0.8163265306122436,
+      "change_4": -19.0,
+      "pct_change_4": -2.540106951871657,
+      "change_12": -37.0,
+      "pct_change_12": -4.8302872062663145,
+      "rolling_3": 735.0,
+      "rolling_4": 737.75,
+      "rolling_6": 741.8333333333334,
+      "rolling_12": 750.75,
+      "index_first_100": 95.66929133858267
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1991-10-01",
+      "value": 722.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -7.0,
+      "pct_change_1": -0.9602194787380003,
+      "change_4": -24.0,
+      "pct_change_4": -3.217158176943702,
+      "change_12": -41.0,
+      "pct_change_12": -5.373525557011794,
+      "rolling_3": 728.6666666666666,
+      "rolling_4": 731.75,
+      "rolling_6": 736.8333333333334,
+      "rolling_12": 747.3333333333334,
+      "index_first_100": 94.750656167979
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1991-11-01",
+      "value": 715.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -7.0,
+      "pct_change_1": -0.969529085872578,
+      "change_4": -26.0,
+      "pct_change_4": -3.508771929824561,
+      "change_12": -46.0,
+      "pct_change_12": -6.044678055190533,
+      "rolling_3": 722.0,
+      "rolling_4": 725.25,
+      "rolling_6": 731.3333333333334,
+      "rolling_12": 743.5,
+      "index_first_100": 93.83202099737534
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1991-12-01",
+      "value": 710.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -5.0,
+      "pct_change_1": -0.6993006993006978,
+      "change_4": -25.0,
+      "pct_change_4": -3.401360544217691,
+      "change_12": -50.0,
+      "pct_change_12": -6.578947368421051,
+      "rolling_3": 715.6666666666666,
+      "rolling_4": 719.0,
+      "rolling_6": 725.3333333333334,
+      "rolling_12": 739.3333333333334,
+      "index_first_100": 93.1758530183727
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1992-01-01",
+      "value": 707.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.42253521126760507,
+      "change_4": -22.0,
+      "pct_change_4": -3.017832647462282,
+      "change_12": -52.0,
+      "pct_change_12": -6.851119894598156,
+      "rolling_3": 710.6666666666666,
+      "rolling_4": 713.5,
+      "rolling_6": 719.6666666666666,
+      "rolling_12": 735.0,
+      "index_first_100": 92.78215223097112
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1992-02-01",
+      "value": 701.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -6.0,
+      "pct_change_1": -0.8486562942008447,
+      "change_4": -21.0,
+      "pct_change_4": -2.908587257617734,
+      "change_12": -58.0,
+      "pct_change_12": -7.6416337285902465,
+      "rolling_3": 706.0,
+      "rolling_4": 708.25,
+      "rolling_6": 714.0,
+      "rolling_12": 730.1666666666666,
+      "index_first_100": 91.99475065616798
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1992-03-01",
+      "value": 700.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.14265335235378318,
+      "change_4": -15.0,
+      "pct_change_4": -2.0979020979020935,
+      "change_12": -56.0,
+      "pct_change_12": -7.4074074074074066,
+      "rolling_3": 702.6666666666666,
+      "rolling_4": 704.5,
+      "rolling_6": 709.1666666666666,
+      "rolling_12": 725.5,
+      "index_first_100": 91.86351706036746
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1992-04-01",
+      "value": 698.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -2.0,
+      "pct_change_1": -0.28571428571428914,
+      "change_4": -12.0,
+      "pct_change_4": -1.6901408450704203,
+      "change_12": -54.0,
+      "pct_change_12": -7.180851063829785,
+      "rolling_3": 699.6666666666666,
+      "rolling_4": 701.5,
+      "rolling_6": 705.1666666666666,
+      "rolling_12": 721.0,
+      "index_first_100": 91.60104986876641
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1992-05-01",
+      "value": 695.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.42979942693409656,
+      "change_4": -12.0,
+      "pct_change_4": -1.6973125884017004,
+      "change_12": -53.0,
+      "pct_change_12": -7.085561497326198,
+      "rolling_3": 697.6666666666666,
+      "rolling_4": 698.5,
+      "rolling_6": 701.8333333333334,
+      "rolling_12": 716.5833333333334,
+      "index_first_100": 91.20734908136482
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1992-06-01",
+      "value": 688.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -7.0,
+      "pct_change_1": -1.0071942446043147,
+      "change_4": -13.0,
+      "pct_change_4": -1.854493580599148,
+      "change_12": -58.0,
+      "pct_change_12": -7.774798927613946,
+      "rolling_3": 693.6666666666666,
+      "rolling_4": 695.25,
+      "rolling_6": 698.1666666666666,
+      "rolling_12": 711.75,
+      "index_first_100": 90.28871391076116
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1992-07-01",
+      "value": 685.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.43604651162790775,
+      "change_4": -15.0,
+      "pct_change_4": -2.1428571428571463,
+      "change_12": -56.0,
+      "pct_change_12": -7.557354925775983,
+      "rolling_3": 689.3333333333334,
+      "rolling_4": 691.5,
+      "rolling_6": 694.5,
+      "rolling_12": 707.0833333333334,
+      "index_first_100": 89.89501312335958
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1992-08-01",
+      "value": 681.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -4.0,
+      "pct_change_1": -0.5839416058394109,
+      "change_4": -17.0,
+      "pct_change_4": -2.4355300859598805,
+      "change_12": -54.0,
+      "pct_change_12": -7.346938775510203,
+      "rolling_3": 684.6666666666666,
+      "rolling_4": 687.25,
+      "rolling_6": 691.1666666666666,
+      "rolling_12": 702.5833333333334,
+      "index_first_100": 89.37007874015748
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1992-09-01",
+      "value": 675.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -6.0,
+      "pct_change_1": -0.8810572687224627,
+      "change_4": -20.0,
+      "pct_change_4": -2.877697841726623,
+      "change_12": -54.0,
+      "pct_change_12": -7.4074074074074066,
+      "rolling_3": 680.3333333333334,
+      "rolling_4": 682.25,
+      "rolling_6": 687.0,
+      "rolling_12": 698.0833333333334,
+      "index_first_100": 88.58267716535433
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1992-10-01",
+      "value": 678.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 3.0,
+      "pct_change_1": 0.4444444444444473,
+      "change_4": -10.0,
+      "pct_change_4": -1.4534883720930258,
+      "change_12": -44.0,
+      "pct_change_12": -6.094182825484761,
+      "rolling_3": 678.0,
+      "rolling_4": 679.75,
+      "rolling_6": 683.6666666666666,
+      "rolling_12": 694.4166666666666,
+      "index_first_100": 88.9763779527559
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1992-11-01",
+      "value": 677.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.1474926253687281,
+      "change_4": -8.0,
+      "pct_change_4": -1.167883211678833,
+      "change_12": -38.0,
+      "pct_change_12": -5.314685314685319,
+      "rolling_3": 676.6666666666666,
+      "rolling_4": 677.75,
+      "rolling_6": 680.6666666666666,
+      "rolling_12": 691.25,
+      "index_first_100": 88.84514435695539
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1992-12-01",
+      "value": 676.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.1477104874446078,
+      "change_4": -5.0,
+      "pct_change_4": -0.7342143906020504,
+      "change_12": -34.0,
+      "pct_change_12": -4.7887323943662015,
+      "rolling_3": 677.0,
+      "rolling_4": 676.5,
+      "rolling_6": 678.6666666666666,
+      "rolling_12": 688.4166666666666,
+      "index_first_100": 88.71391076115486
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1993-01-01",
+      "value": 677.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.14792899408284654,
+      "change_4": 2.0,
+      "pct_change_4": 0.2962962962963056,
+      "change_12": -30.0,
+      "pct_change_12": -4.243281471004245,
+      "rolling_3": 676.6666666666666,
+      "rolling_4": 677.0,
+      "rolling_6": 677.3333333333334,
+      "rolling_12": 685.9166666666666,
+      "index_first_100": 88.84514435695539
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1993-02-01",
+      "value": 670.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -7.0,
+      "pct_change_1": -1.0339734121122546,
+      "change_4": -8.0,
+      "pct_change_4": -1.179941002949858,
+      "change_12": -31.0,
+      "pct_change_12": -4.42225392296719,
+      "rolling_3": 674.3333333333334,
+      "rolling_4": 675.0,
+      "rolling_6": 675.5,
+      "rolling_12": 683.3333333333334,
+      "index_first_100": 87.92650918635171
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1993-03-01",
+      "value": 671.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.14925373134329067,
+      "change_4": -6.0,
+      "pct_change_4": -0.8862629246676468,
+      "change_12": -29.0,
+      "pct_change_12": -4.142857142857148,
+      "rolling_3": 672.6666666666666,
+      "rolling_4": 673.5,
+      "rolling_6": 674.8333333333334,
+      "rolling_12": 680.9166666666666,
+      "index_first_100": 88.05774278215223
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1993-04-01",
+      "value": 669.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -2.0,
+      "pct_change_1": -0.29806259314456574,
+      "change_4": -7.0,
+      "pct_change_4": -1.0355029585798814,
+      "change_12": -29.0,
+      "pct_change_12": -4.154727793696278,
+      "rolling_3": 670.0,
+      "rolling_4": 671.75,
+      "rolling_6": 673.3333333333334,
+      "rolling_12": 678.5,
+      "index_first_100": 87.79527559055119
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1993-05-01",
+      "value": 671.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 2.0,
+      "pct_change_1": 0.2989536621823552,
+      "change_4": -6.0,
+      "pct_change_4": -0.8862629246676468,
+      "change_12": -24.0,
+      "pct_change_12": -3.453237410071941,
+      "rolling_3": 670.3333333333334,
+      "rolling_4": 670.25,
+      "rolling_6": 672.3333333333334,
+      "rolling_12": 676.5,
+      "index_first_100": 88.05774278215223
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1993-06-01",
+      "value": 664.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -7.0,
+      "pct_change_1": -1.0432190760059634,
+      "change_4": -6.0,
+      "pct_change_4": -0.8955223880596996,
+      "change_12": -24.0,
+      "pct_change_12": -3.488372093023251,
+      "rolling_3": 668.0,
+      "rolling_4": 668.75,
+      "rolling_6": 670.3333333333334,
+      "rolling_12": 674.5,
+      "index_first_100": 87.13910761154857
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1993-07-01",
+      "value": 661.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.45180722891565717,
+      "change_4": -10.0,
+      "pct_change_4": -1.4903129657228065,
+      "change_12": -24.0,
+      "pct_change_12": -3.5036496350364987,
+      "rolling_3": 665.3333333333334,
+      "rolling_4": 666.25,
+      "rolling_6": 667.6666666666666,
+      "rolling_12": 672.5,
+      "index_first_100": 86.74540682414698
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1993-08-01",
+      "value": 656.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -5.0,
+      "pct_change_1": -0.7564296520423563,
+      "change_4": -13.0,
+      "pct_change_4": -1.9431988041853532,
+      "change_12": -25.0,
+      "pct_change_12": -3.6710719530102742,
+      "rolling_3": 660.3333333333334,
+      "rolling_4": 663.0,
+      "rolling_6": 665.3333333333334,
+      "rolling_12": 670.4166666666666,
+      "index_first_100": 86.08923884514435
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1993-09-01",
+      "value": 660.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 4.0,
+      "pct_change_1": 0.6097560975609762,
+      "change_4": -11.0,
+      "pct_change_4": -1.6393442622950838,
+      "change_12": -15.0,
+      "pct_change_12": -2.2222222222222254,
+      "rolling_3": 659.0,
+      "rolling_4": 660.25,
+      "rolling_6": 663.5,
+      "rolling_12": 669.1666666666666,
+      "index_first_100": 86.61417322834646
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1993-10-01",
+      "value": 659.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.15151515151514694,
+      "change_4": -5.0,
+      "pct_change_4": -0.7530120481927693,
+      "change_12": -19.0,
+      "pct_change_12": -2.8023598820059004,
+      "rolling_3": 658.3333333333334,
+      "rolling_4": 659.0,
+      "rolling_6": 661.8333333333334,
+      "rolling_12": 667.5833333333334,
+      "index_first_100": 86.48293963254594
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1993-11-01",
+      "value": 659.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_4": -2.0,
+      "pct_change_4": -0.302571860816947,
+      "change_12": -18.0,
+      "pct_change_12": -2.6587887740029514,
+      "rolling_3": 659.3333333333334,
+      "rolling_4": 658.5,
+      "rolling_6": 659.8333333333334,
+      "rolling_12": 666.0833333333334,
+      "index_first_100": 86.48293963254594
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1993-12-01",
+      "value": 673.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 14.0,
+      "pct_change_1": 2.124430955993928,
+      "change_4": 17.0,
+      "pct_change_4": 2.591463414634143,
+      "change_12": -3.0,
+      "pct_change_12": -0.4437869822485174,
+      "rolling_3": 663.6666666666666,
+      "rolling_4": 662.75,
+      "rolling_6": 661.3333333333334,
+      "rolling_12": 665.8333333333334,
+      "index_first_100": 88.32020997375328
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1994-01-01",
+      "value": 670.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.4457652303120341,
+      "change_4": 10.0,
+      "pct_change_4": 1.5151515151515138,
+      "change_12": -7.0,
+      "pct_change_12": -1.0339734121122546,
+      "rolling_3": 667.3333333333334,
+      "rolling_4": 665.25,
+      "rolling_6": 662.8333333333334,
+      "rolling_12": 665.25,
+      "index_first_100": 87.92650918635171
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1994-02-01",
+      "value": 666.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -4.0,
+      "pct_change_1": -0.5970149253731294,
+      "change_4": 7.0,
+      "pct_change_4": 1.062215477996964,
+      "change_12": -4.0,
+      "pct_change_12": -0.5970149253731294,
+      "rolling_3": 669.6666666666666,
+      "rolling_4": 667.0,
+      "rolling_6": 664.5,
+      "rolling_12": 664.9166666666666,
+      "index_first_100": 87.4015748031496
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1994-03-01",
+      "value": 663.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.45045045045044585,
+      "change_4": 4.0,
+      "pct_change_4": 0.6069802731411222,
+      "change_12": -8.0,
+      "pct_change_12": -1.1922503725782407,
+      "rolling_3": 666.3333333333334,
+      "rolling_4": 668.0,
+      "rolling_6": 665.0,
+      "rolling_12": 664.25,
+      "index_first_100": 87.00787401574803
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1994-04-01",
+      "value": 661.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -2.0,
+      "pct_change_1": -0.3016591251885359,
+      "change_4": -12.0,
+      "pct_change_4": -1.7830609212481474,
+      "change_12": -8.0,
+      "pct_change_12": -1.195814648729443,
+      "rolling_3": 663.3333333333334,
+      "rolling_4": 665.0,
+      "rolling_6": 665.3333333333334,
+      "rolling_12": 663.5833333333334,
+      "index_first_100": 86.74540682414698
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1994-05-01",
+      "value": 658.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.45385779122542047,
+      "change_4": -12.0,
+      "pct_change_4": -1.7910447761193993,
+      "change_12": -13.0,
+      "pct_change_12": -1.9374068554396384,
+      "rolling_3": 660.6666666666666,
+      "rolling_4": 662.0,
+      "rolling_6": 665.1666666666666,
+      "rolling_12": 662.5,
+      "index_first_100": 86.3517060367454
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1994-06-01",
+      "value": 658.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_4": -8.0,
+      "pct_change_4": -1.2012012012011963,
+      "change_12": -6.0,
+      "pct_change_12": -0.9036144578313254,
+      "rolling_3": 659.0,
+      "rolling_4": 660.0,
+      "rolling_6": 662.6666666666666,
+      "rolling_12": 662.0,
+      "index_first_100": 86.3517060367454
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1994-07-01",
+      "value": 657.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.1519756838905817,
+      "change_4": -6.0,
+      "pct_change_4": -0.9049773755656076,
+      "change_12": -4.0,
+      "pct_change_12": -0.6051437216338829,
+      "rolling_3": 657.6666666666666,
+      "rolling_4": 658.5,
+      "rolling_6": 660.5,
+      "rolling_12": 661.6666666666666,
+      "index_first_100": 86.22047244094489
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1994-08-01",
+      "value": 656.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.15220700152207556,
+      "change_4": -5.0,
+      "pct_change_4": -0.7564296520423563,
+      "change_12": 0.0,
+      "pct_change_12": 0.0,
+      "rolling_3": 657.0,
+      "rolling_4": 657.25,
+      "rolling_6": 658.8333333333334,
+      "rolling_12": 661.6666666666666,
+      "index_first_100": 86.08923884514435
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1994-09-01",
+      "value": 658.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 2.0,
+      "pct_change_1": 0.304878048780477,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_12": -2.0,
+      "pct_change_12": -0.303030303030305,
+      "rolling_3": 657.0,
+      "rolling_4": 657.25,
+      "rolling_6": 658.0,
+      "rolling_12": 661.5,
+      "index_first_100": 86.3517060367454
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1994-10-01",
+      "value": 653.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -5.0,
+      "pct_change_1": -0.7598784194528863,
+      "change_4": -5.0,
+      "pct_change_4": -0.7598784194528863,
+      "change_12": -6.0,
+      "pct_change_12": -0.9104704097116834,
+      "rolling_3": 655.6666666666666,
+      "rolling_4": 656.0,
+      "rolling_6": 656.6666666666666,
+      "rolling_12": 661.0,
+      "index_first_100": 85.69553805774278
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1994-11-01",
+      "value": 653.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_4": -4.0,
+      "pct_change_4": -0.60882800608828,
+      "change_12": -6.0,
+      "pct_change_12": -0.9104704097116834,
+      "rolling_3": 654.6666666666666,
+      "rolling_4": 655.0,
+      "rolling_6": 655.8333333333334,
+      "rolling_12": 660.5,
+      "index_first_100": 85.69553805774278
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1994-12-01",
+      "value": 652.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.15313935681470214,
+      "change_4": -4.0,
+      "pct_change_4": -0.6097560975609762,
+      "change_12": -21.0,
+      "pct_change_12": -3.1203566121842496,
+      "rolling_3": 652.6666666666666,
+      "rolling_4": 654.0,
+      "rolling_6": 654.8333333333334,
+      "rolling_12": 658.75,
+      "index_first_100": 85.56430446194226
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1995-01-01",
+      "value": 651.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.15337423312883347,
+      "change_4": -7.0,
+      "pct_change_4": -1.0638297872340385,
+      "change_12": -19.0,
+      "pct_change_12": -2.8358208955223896,
+      "rolling_3": 652.0,
+      "rolling_4": 652.25,
+      "rolling_6": 653.8333333333334,
+      "rolling_12": 657.1666666666666,
+      "index_first_100": 85.43307086614173
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1995-02-01",
+      "value": 647.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -4.0,
+      "pct_change_1": -0.6144393241167445,
+      "change_4": -6.0,
+      "pct_change_4": -0.9188361408882129,
+      "change_12": -19.0,
+      "pct_change_12": -2.8528528528528496,
+      "rolling_3": 650.0,
+      "rolling_4": 650.75,
+      "rolling_6": 652.3333333333334,
+      "rolling_12": 655.5833333333334,
+      "index_first_100": 84.90813648293964
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1995-03-01",
+      "value": 646.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.1545595054095794,
+      "change_4": -7.0,
+      "pct_change_4": -1.071975497702915,
+      "change_12": -17.0,
+      "pct_change_12": -2.564102564102566,
+      "rolling_3": 648.0,
+      "rolling_4": 649.0,
+      "rolling_6": 650.3333333333334,
+      "rolling_12": 654.1666666666666,
+      "index_first_100": 84.7769028871391
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1995-04-01",
+      "value": 644.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -2.0,
+      "pct_change_1": -0.3095975232198178,
+      "change_4": -8.0,
+      "pct_change_4": -1.2269938650306789,
+      "change_12": -17.0,
+      "pct_change_12": -2.571860816944027,
+      "rolling_3": 645.6666666666666,
+      "rolling_4": 647.0,
+      "rolling_6": 648.8333333333334,
+      "rolling_12": 652.75,
+      "index_first_100": 84.51443569553805
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1995-05-01",
+      "value": 641.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.46583850931677384,
+      "change_4": -10.0,
+      "pct_change_4": -1.5360983102918557,
+      "change_12": -17.0,
+      "pct_change_12": -2.583586626139822,
+      "rolling_3": 643.6666666666666,
+      "rolling_4": 644.5,
+      "rolling_6": 646.8333333333334,
+      "rolling_12": 651.3333333333334,
+      "index_first_100": 84.12073490813648
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1995-06-01",
+      "value": 640.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.15600624024960652,
+      "change_4": -7.0,
+      "pct_change_4": -1.081916537867078,
+      "change_12": -18.0,
+      "pct_change_12": -2.7355623100303927,
+      "rolling_3": 641.6666666666666,
+      "rolling_4": 642.75,
+      "rolling_6": 644.8333333333334,
+      "rolling_12": 649.8333333333334,
+      "index_first_100": 83.98950131233596
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1995-07-01",
+      "value": 639.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.15625000000000222,
+      "change_4": -7.0,
+      "pct_change_4": -1.0835913312693513,
+      "change_12": -18.0,
+      "pct_change_12": -2.73972602739726,
+      "rolling_3": 640.0,
+      "rolling_4": 641.0,
+      "rolling_6": 642.8333333333334,
+      "rolling_12": 648.3333333333334,
+      "index_first_100": 83.85826771653542
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1995-08-01",
+      "value": 638.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.15649452269170805,
+      "change_4": -6.0,
+      "pct_change_4": -0.9316770186335366,
+      "change_12": -18.0,
+      "pct_change_12": -2.7439024390243927,
+      "rolling_3": 639.0,
+      "rolling_4": 639.5,
+      "rolling_6": 641.3333333333334,
+      "rolling_12": 646.8333333333334,
+      "index_first_100": 83.72703412073491
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1995-09-01",
+      "value": 637.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.15673981191222097,
+      "change_4": -4.0,
+      "pct_change_4": -0.6240249609984372,
+      "change_12": -21.0,
+      "pct_change_12": -3.1914893617021267,
+      "rolling_3": 638.0,
+      "rolling_4": 638.5,
+      "rolling_6": 639.8333333333334,
+      "rolling_12": 645.0833333333334,
+      "index_first_100": 83.59580052493439
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1995-10-01",
+      "value": 637.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_4": -3.0,
+      "pct_change_4": -0.46874999999999556,
+      "change_12": -16.0,
+      "pct_change_12": -2.450229709035223,
+      "rolling_3": 637.3333333333334,
+      "rolling_4": 637.75,
+      "rolling_6": 638.6666666666666,
+      "rolling_12": 643.75,
+      "index_first_100": 83.59580052493439
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1995-11-01",
+      "value": 634.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.47095761381475976,
+      "change_4": -5.0,
+      "pct_change_4": -0.7824726134585291,
+      "change_12": -19.0,
+      "pct_change_12": -2.9096477794793296,
+      "rolling_3": 636.0,
+      "rolling_4": 636.5,
+      "rolling_6": 637.5,
+      "rolling_12": 642.1666666666666,
+      "index_first_100": 83.2020997375328
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1995-12-01",
+      "value": 635.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.1577287066246047,
+      "change_4": -3.0,
+      "pct_change_4": -0.470219435736674,
+      "change_12": -17.0,
+      "pct_change_12": -2.60736196319018,
+      "rolling_3": 635.3333333333334,
+      "rolling_4": 635.75,
+      "rolling_6": 636.6666666666666,
+      "rolling_12": 640.75,
+      "index_first_100": 83.33333333333334
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1996-01-01",
+      "value": 633.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -2.0,
+      "pct_change_1": -0.31496062992125706,
+      "change_4": -4.0,
+      "pct_change_4": -0.6279434850863463,
+      "change_12": -18.0,
+      "pct_change_12": -2.7649769585253448,
+      "rolling_3": 634.0,
+      "rolling_4": 634.75,
+      "rolling_6": 635.6666666666666,
+      "rolling_12": 639.25,
+      "index_first_100": 83.07086614173228
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1996-02-01",
+      "value": 636.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 3.0,
+      "pct_change_1": 0.4739336492890933,
+      "change_4": -1.0,
+      "pct_change_4": -0.15698587127158659,
+      "change_12": -11.0,
+      "pct_change_12": -1.7001545595054068,
+      "rolling_3": 634.6666666666666,
+      "rolling_4": 634.5,
+      "rolling_6": 635.3333333333334,
+      "rolling_12": 638.3333333333334,
+      "index_first_100": 83.46456692913385
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1996-03-01",
+      "value": 637.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.15723270440251014,
+      "change_4": 3.0,
+      "pct_change_4": 0.4731861198738141,
+      "change_12": -9.0,
+      "pct_change_12": -1.393188854489169,
+      "rolling_3": 635.3333333333334,
+      "rolling_4": 635.25,
+      "rolling_6": 635.3333333333334,
+      "rolling_12": 637.5833333333334,
+      "index_first_100": 83.59580052493439
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1996-04-01",
+      "value": 638.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.15698587127157548,
+      "change_4": 3.0,
+      "pct_change_4": 0.47244094488188004,
+      "change_12": -6.0,
+      "pct_change_12": -0.9316770186335366,
+      "rolling_3": 637.0,
+      "rolling_4": 636.0,
+      "rolling_6": 635.5,
+      "rolling_12": 637.0833333333334,
+      "index_first_100": 83.72703412073491
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1996-05-01",
+      "value": 638.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_4": 5.0,
+      "pct_change_4": 0.789889415481837,
+      "change_12": -3.0,
+      "pct_change_12": -0.46801872074883066,
+      "rolling_3": 637.6666666666666,
+      "rolling_4": 637.25,
+      "rolling_6": 636.1666666666666,
+      "rolling_12": 636.8333333333334,
+      "index_first_100": 83.72703412073491
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1996-06-01",
+      "value": 639.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.15673981191222097,
+      "change_4": 3.0,
+      "pct_change_4": 0.4716981132075526,
+      "change_12": -1.0,
+      "pct_change_12": -0.15625000000000222,
+      "rolling_3": 638.3333333333334,
+      "rolling_4": 638.0,
+      "rolling_6": 636.8333333333334,
+      "rolling_12": 636.75,
+      "index_first_100": 83.85826771653542
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1996-07-01",
+      "value": 638.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.15649452269170805,
+      "change_4": 1.0,
+      "pct_change_4": 0.15698587127157548,
+      "change_12": -1.0,
+      "pct_change_12": -0.15649452269170805,
+      "rolling_3": 638.3333333333334,
+      "rolling_4": 638.25,
+      "rolling_6": 637.6666666666666,
+      "rolling_12": 636.6666666666666,
+      "index_first_100": 83.72703412073491
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1996-08-01",
+      "value": 637.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.15673981191222097,
+      "change_4": -1.0,
+      "pct_change_4": -0.15673981191222097,
+      "change_12": -1.0,
+      "pct_change_12": -0.15673981191222097,
+      "rolling_3": 638.0,
+      "rolling_4": 638.0,
+      "rolling_6": 637.8333333333334,
+      "rolling_12": 636.5833333333334,
+      "index_first_100": 83.59580052493439
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1996-09-01",
+      "value": 635.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -2.0,
+      "pct_change_1": -0.31397174254317317,
+      "change_4": -3.0,
+      "pct_change_4": -0.470219435736674,
+      "change_12": -2.0,
+      "pct_change_12": -0.31397174254317317,
+      "rolling_3": 636.6666666666666,
+      "rolling_4": 637.25,
+      "rolling_6": 637.5,
+      "rolling_12": 636.4166666666666,
+      "index_first_100": 83.33333333333334
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1996-10-01",
+      "value": 635.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_4": -4.0,
+      "pct_change_4": -0.6259780907668211,
+      "change_12": -2.0,
+      "pct_change_12": -0.31397174254317317,
+      "rolling_3": 635.6666666666666,
+      "rolling_4": 636.25,
+      "rolling_6": 637.0,
+      "rolling_12": 636.25,
+      "index_first_100": 83.33333333333334
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1996-11-01",
+      "value": 639.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 4.0,
+      "pct_change_1": 0.6299212598425141,
+      "change_4": 1.0,
+      "pct_change_4": 0.15673981191222097,
+      "change_12": 5.0,
+      "pct_change_12": 0.7886435331230235,
+      "rolling_3": 636.3333333333334,
+      "rolling_4": 636.5,
+      "rolling_6": 637.1666666666666,
+      "rolling_12": 636.6666666666666,
+      "index_first_100": 83.85826771653542
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1996-12-01",
+      "value": 640.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.15649452269170805,
+      "change_4": 3.0,
+      "pct_change_4": 0.47095761381474865,
+      "change_12": 5.0,
+      "pct_change_12": 0.7874015748031482,
+      "rolling_3": 638.0,
+      "rolling_4": 637.25,
+      "rolling_6": 637.3333333333334,
+      "rolling_12": 637.0833333333334,
+      "index_first_100": 83.98950131233596
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1997-01-01",
+      "value": 646.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 6.0,
+      "pct_change_1": 0.9374999999999911,
+      "change_4": 11.0,
+      "pct_change_4": 1.7322834645669305,
+      "change_12": 13.0,
+      "pct_change_12": 2.0537124802527673,
+      "rolling_3": 641.6666666666666,
+      "rolling_4": 640.0,
+      "rolling_6": 638.6666666666666,
+      "rolling_12": 638.1666666666666,
+      "index_first_100": 84.7769028871391
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1997-02-01",
+      "value": 647.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.1547987616099089,
+      "change_4": 12.0,
+      "pct_change_4": 1.8897637795275646,
+      "change_12": 11.0,
+      "pct_change_12": 1.7295597484276781,
+      "rolling_3": 644.3333333333334,
+      "rolling_4": 643.0,
+      "rolling_6": 640.3333333333334,
+      "rolling_12": 639.0833333333334,
+      "index_first_100": 84.90813648293964
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1997-03-01",
+      "value": 648.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.15455950540959051,
+      "change_4": 9.0,
+      "pct_change_4": 1.4084507042253502,
+      "change_12": 11.0,
+      "pct_change_12": 1.7268445839874413,
+      "rolling_3": 647.0,
+      "rolling_4": 645.25,
+      "rolling_6": 642.5,
+      "rolling_12": 640.0,
+      "index_first_100": 85.03937007874016
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1997-04-01",
+      "value": 652.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 4.0,
+      "pct_change_1": 0.6172839506172867,
+      "change_4": 12.0,
+      "pct_change_4": 1.8750000000000044,
+      "change_12": 14.0,
+      "pct_change_12": 2.1943573667711602,
+      "rolling_3": 649.0,
+      "rolling_4": 648.25,
+      "rolling_6": 645.3333333333334,
+      "rolling_12": 641.1666666666666,
+      "index_first_100": 85.56430446194226
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1997-05-01",
+      "value": 654.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 2.0,
+      "pct_change_1": 0.30674846625766694,
+      "change_4": 8.0,
+      "pct_change_4": 1.238390092879249,
+      "change_12": 16.0,
+      "pct_change_12": 2.507836990595602,
+      "rolling_3": 651.3333333333334,
+      "rolling_4": 650.25,
+      "rolling_6": 647.8333333333334,
+      "rolling_12": 642.5,
+      "index_first_100": 85.8267716535433
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1997-06-01",
+      "value": 654.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_4": 7.0,
+      "pct_change_4": 1.0819165378670892,
+      "change_12": 15.0,
+      "pct_change_12": 2.3474178403755763,
+      "rolling_3": 653.3333333333334,
+      "rolling_4": 652.0,
+      "rolling_6": 650.1666666666666,
+      "rolling_12": 643.75,
+      "index_first_100": 85.8267716535433
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1997-07-01",
+      "value": 656.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 2.0,
+      "pct_change_1": 0.3058103975535076,
+      "change_4": 8.0,
+      "pct_change_4": 1.2345679012345734,
+      "change_12": 18.0,
+      "pct_change_12": 2.8213166144200663,
+      "rolling_3": 654.6666666666666,
+      "rolling_4": 654.0,
+      "rolling_6": 651.8333333333334,
+      "rolling_12": 645.25,
+      "index_first_100": 86.08923884514435
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1997-08-01",
+      "value": 654.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -2.0,
+      "pct_change_1": -0.3048780487804881,
+      "change_4": 2.0,
+      "pct_change_4": 0.30674846625766694,
+      "change_12": 17.0,
+      "pct_change_12": 2.668759811616961,
+      "rolling_3": 654.6666666666666,
+      "rolling_4": 654.5,
+      "rolling_6": 653.0,
+      "rolling_12": 646.6666666666666,
+      "index_first_100": 85.8267716535433
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1997-09-01",
+      "value": 657.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 3.0,
+      "pct_change_1": 0.4587155963302836,
+      "change_4": 3.0,
+      "pct_change_4": 0.4587155963302836,
+      "change_12": 22.0,
+      "pct_change_12": 3.464566929133861,
+      "rolling_3": 655.6666666666666,
+      "rolling_4": 655.25,
+      "rolling_6": 654.5,
+      "rolling_12": 648.5,
+      "index_first_100": 86.22047244094489
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1997-10-01",
+      "value": 658.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.15220700152207556,
+      "change_4": 4.0,
+      "pct_change_4": 0.6116207951070374,
+      "change_12": 23.0,
+      "pct_change_12": 3.622047244094495,
+      "rolling_3": 656.3333333333334,
+      "rolling_4": 656.25,
+      "rolling_6": 655.5,
+      "rolling_12": 650.4166666666666,
+      "index_first_100": 86.3517060367454
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1997-11-01",
+      "value": 656.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -2.0,
+      "pct_change_1": -0.3039513677811523,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_12": 17.0,
+      "pct_change_12": 2.6604068857589924,
+      "rolling_3": 657.0,
+      "rolling_4": 656.25,
+      "rolling_6": 655.8333333333334,
+      "rolling_12": 651.8333333333334,
+      "index_first_100": 86.08923884514435
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1997-12-01",
+      "value": 659.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 3.0,
+      "pct_change_1": 0.45731707317073766,
+      "change_4": 5.0,
+      "pct_change_4": 0.7645259938837912,
+      "change_12": 19.0,
+      "pct_change_12": 2.968750000000009,
+      "rolling_3": 657.6666666666666,
+      "rolling_4": 657.5,
+      "rolling_6": 656.6666666666666,
+      "rolling_12": 653.4166666666666,
+      "index_first_100": 86.48293963254594
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1998-01-01",
+      "value": 659.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_4": 2.0,
+      "pct_change_4": 0.3044140030441511,
+      "change_12": 13.0,
+      "pct_change_12": 2.0123839009287936,
+      "rolling_3": 658.0,
+      "rolling_4": 658.0,
+      "rolling_6": 657.1666666666666,
+      "rolling_12": 654.5,
+      "index_first_100": 86.48293963254594
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1998-02-01",
+      "value": 658.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.15174506828528056,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_12": 11.0,
+      "pct_change_12": 1.7001545595054068,
+      "rolling_3": 658.6666666666666,
+      "rolling_4": 658.0,
+      "rolling_6": 657.8333333333334,
+      "rolling_12": 655.4166666666666,
+      "index_first_100": 86.3517060367454
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1998-03-01",
+      "value": 657.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.1519756838905817,
+      "change_4": 1.0,
+      "pct_change_4": 0.1524390243902385,
+      "change_12": 9.0,
+      "pct_change_12": 1.388888888888884,
+      "rolling_3": 658.0,
+      "rolling_4": 658.25,
+      "rolling_6": 657.8333333333334,
+      "rolling_12": 656.1666666666666,
+      "index_first_100": 86.22047244094489
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1998-04-01",
+      "value": 654.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.45662100456621557,
+      "change_4": -5.0,
+      "pct_change_4": -0.7587253414264028,
+      "change_12": 2.0,
+      "pct_change_12": 0.30674846625766694,
+      "rolling_3": 656.3333333333334,
+      "rolling_4": 657.0,
+      "rolling_6": 657.1666666666666,
+      "rolling_12": 656.3333333333334,
+      "index_first_100": 85.8267716535433
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1998-05-01",
+      "value": 651.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.4587155963302725,
+      "change_4": -8.0,
+      "pct_change_4": -1.2139605462822445,
+      "change_12": -3.0,
+      "pct_change_12": -0.4587155963302725,
+      "rolling_3": 654.0,
+      "rolling_4": 655.0,
+      "rolling_6": 656.3333333333334,
+      "rolling_12": 656.0833333333334,
+      "index_first_100": 85.43307086614173
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1998-06-01",
+      "value": 648.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.4608294930875556,
+      "change_4": -10.0,
+      "pct_change_4": -1.5197568389057725,
+      "change_12": -6.0,
+      "pct_change_12": -0.917431192660545,
+      "rolling_3": 651.0,
+      "rolling_4": 652.5,
+      "rolling_6": 654.5,
+      "rolling_12": 655.5833333333334,
+      "index_first_100": 85.03937007874016
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1998-07-01",
+      "value": 643.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -5.0,
+      "pct_change_1": -0.7716049382716084,
+      "change_4": -14.0,
+      "pct_change_4": -2.13089802130898,
+      "change_12": -13.0,
+      "pct_change_12": -1.981707317073167,
+      "rolling_3": 647.3333333333334,
+      "rolling_4": 649.0,
+      "rolling_6": 651.8333333333334,
+      "rolling_12": 654.5,
+      "index_first_100": 84.38320209973753
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1998-08-01",
+      "value": 642.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.15552099533436836,
+      "change_4": -12.0,
+      "pct_change_4": -1.834862385321101,
+      "change_12": -12.0,
+      "pct_change_12": -1.834862385321101,
+      "rolling_3": 644.3333333333334,
+      "rolling_4": 646.0,
+      "rolling_6": 649.1666666666666,
+      "rolling_12": 653.5,
+      "index_first_100": 84.25196850393701
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1998-09-01",
+      "value": 637.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -5.0,
+      "pct_change_1": -0.7788161993769416,
+      "change_4": -14.0,
+      "pct_change_4": -2.1505376344086002,
+      "change_12": -20.0,
+      "pct_change_12": -3.0441400304414,
+      "rolling_3": 640.6666666666666,
+      "rolling_4": 642.5,
+      "rolling_6": 645.8333333333334,
+      "rolling_12": 651.8333333333334,
+      "index_first_100": 83.59580052493439
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1998-10-01",
+      "value": 632.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -5.0,
+      "pct_change_1": -0.7849293563579329,
+      "change_4": -16.0,
+      "pct_change_4": -2.4691358024691357,
+      "change_12": -26.0,
+      "pct_change_12": -3.951367781155013,
+      "rolling_3": 637.0,
+      "rolling_4": 638.5,
+      "rolling_6": 642.1666666666666,
+      "rolling_12": 649.6666666666666,
+      "index_first_100": 82.93963254593176
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1998-11-01",
+      "value": 628.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -4.0,
+      "pct_change_1": -0.6329113924050667,
+      "change_4": -15.0,
+      "pct_change_4": -2.3328149300155476,
+      "change_12": -28.0,
+      "pct_change_12": -4.268292682926833,
+      "rolling_3": 632.3333333333334,
+      "rolling_4": 634.75,
+      "rolling_6": 638.3333333333334,
+      "rolling_12": 647.3333333333334,
+      "index_first_100": 82.41469816272966
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1998-12-01",
+      "value": 627.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -1.0,
+      "pct_change_1": -0.15923566878981443,
+      "change_4": -15.0,
+      "pct_change_4": -2.336448598130836,
+      "change_12": -32.0,
+      "pct_change_12": -4.855842185128978,
+      "rolling_3": 629.0,
+      "rolling_4": 631.0,
+      "rolling_6": 634.8333333333334,
+      "rolling_12": 644.6666666666666,
+      "index_first_100": 82.28346456692913
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1999-01-01",
+      "value": 617.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -10.0,
+      "pct_change_1": -1.594896331738438,
+      "change_4": -20.0,
+      "pct_change_4": -3.1397174254317095,
+      "change_12": -42.0,
+      "pct_change_12": -6.373292867981794,
+      "rolling_3": 624.0,
+      "rolling_4": 626.0,
+      "rolling_6": 630.5,
+      "rolling_12": 641.1666666666666,
+      "index_first_100": 80.97112860892388
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1999-02-01",
+      "value": 610.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -7.0,
+      "pct_change_1": -1.1345218800648316,
+      "change_4": -22.0,
+      "pct_change_4": -3.4810126582278444,
+      "change_12": -48.0,
+      "pct_change_12": -7.294832826747721,
+      "rolling_3": 618.0,
+      "rolling_4": 620.5,
+      "rolling_6": 625.1666666666666,
+      "rolling_12": 637.1666666666666,
+      "index_first_100": 80.0524934383202
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1999-03-01",
+      "value": 608.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -2.0,
+      "pct_change_1": -0.3278688524590123,
+      "change_4": -20.0,
+      "pct_change_4": -3.1847133757961776,
+      "change_12": -49.0,
+      "pct_change_12": -7.458143074581436,
+      "rolling_3": 611.6666666666666,
+      "rolling_4": 615.5,
+      "rolling_6": 620.3333333333334,
+      "rolling_12": 633.0833333333334,
+      "index_first_100": 79.79002624671917
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1999-04-01",
+      "value": 602.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -6.0,
+      "pct_change_1": -0.9868421052631526,
+      "change_4": -25.0,
+      "pct_change_4": -3.987240829346095,
+      "change_12": -52.0,
+      "pct_change_12": -7.9510703363914415,
+      "rolling_3": 606.6666666666666,
+      "rolling_4": 609.25,
+      "rolling_6": 615.3333333333334,
+      "rolling_12": 628.75,
+      "index_first_100": 79.00262467191601
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1999-05-01",
+      "value": 596.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -6.0,
+      "pct_change_1": -0.9966777408637828,
+      "change_4": -21.0,
+      "pct_change_4": -3.4035656401944947,
+      "change_12": -55.0,
+      "pct_change_12": -8.448540706605224,
+      "rolling_3": 602.0,
+      "rolling_4": 604.0,
+      "rolling_6": 610.0,
+      "rolling_12": 624.1666666666666,
+      "index_first_100": 78.21522309711287
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1999-06-01",
+      "value": 592.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -4.0,
+      "pct_change_1": -0.6711409395973145,
+      "change_4": -18.0,
+      "pct_change_4": -2.950819672131144,
+      "change_12": -56.0,
+      "pct_change_12": -8.64197530864198,
+      "rolling_3": 596.6666666666666,
+      "rolling_4": 599.5,
+      "rolling_6": 604.1666666666666,
+      "rolling_12": 619.5,
+      "index_first_100": 77.69028871391076
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1999-07-01",
+      "value": 594.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 2.0,
+      "pct_change_1": 0.33783783783782884,
+      "change_4": -14.0,
+      "pct_change_4": -2.3026315789473673,
+      "change_12": -49.0,
+      "pct_change_12": -7.620528771384139,
+      "rolling_3": 594.0,
+      "rolling_4": 596.0,
+      "rolling_6": 600.3333333333334,
+      "rolling_12": 615.4166666666666,
+      "index_first_100": 77.95275590551181
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1999-08-01",
+      "value": 594.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_4": -8.0,
+      "pct_change_4": -1.3289036544850474,
+      "change_12": -48.0,
+      "pct_change_12": -7.476635514018692,
+      "rolling_3": 593.3333333333334,
+      "rolling_4": 594.0,
+      "rolling_6": 597.6666666666666,
+      "rolling_12": 611.4166666666666,
+      "index_first_100": 77.95275590551181
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1999-09-01",
+      "value": 591.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.5050505050505083,
+      "change_4": -5.0,
+      "pct_change_4": -0.8389261744966459,
+      "change_12": -46.0,
+      "pct_change_12": -7.2213500784929385,
+      "rolling_3": 593.0,
+      "rolling_4": 592.75,
+      "rolling_6": 594.8333333333334,
+      "rolling_12": 607.5833333333334,
+      "index_first_100": 77.55905511811024
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1999-10-01",
+      "value": 592.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.16920473773265332,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_12": -40.0,
+      "pct_change_12": -6.329113924050633,
+      "rolling_3": 592.3333333333334,
+      "rolling_4": 592.75,
+      "rolling_6": 593.1666666666666,
+      "rolling_12": 604.25,
+      "index_first_100": 77.69028871391076
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1999-11-01",
+      "value": 592.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_4": -2.0,
+      "pct_change_4": -0.33670033670033517,
+      "change_12": -36.0,
+      "pct_change_12": -5.73248407643312,
+      "rolling_3": 591.6666666666666,
+      "rolling_4": 592.25,
+      "rolling_6": 592.5,
+      "rolling_12": 601.25,
+      "index_first_100": 77.69028871391076
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "1999-12-01",
+      "value": 593.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 1.0,
+      "pct_change_1": 0.16891891891892552,
+      "change_4": -1.0,
+      "pct_change_4": -0.16835016835017313,
+      "change_12": -34.0,
+      "pct_change_12": -5.4226475279106845,
+      "rolling_3": 592.3333333333334,
+      "rolling_4": 592.0,
+      "rolling_6": 592.6666666666666,
+      "rolling_12": 598.4166666666666,
+      "index_first_100": 77.82152230971128
+    },
+    {
+      "indicator_id": "payrolls_mining_logging",
+      "date": "2000-01-01",
+      "value": 593.0,
+      "source": "bls_public_api",
+      "series_id": "CES1000000001",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "payrolls_mining_logging|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_4": 2.0,
+      "pct_change_4": 0.33840947546530664,
+      "change_12": -24.0,
+      "pct_change_12": -3.889789303079416,
+      "rolling_3": 592.6666666666666,
+      "rolling_4": 592.5,
+      "rolling_6": 592.5,
+      "rolling_12": 596.4166666666666,
+      "index_first_100": 77.82152230971128
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -95,15 +3455,15 @@
       "entity_key": "payrolls_mining_logging|US",
       "change_1": 1.0,
       "pct_change_1": 0.1686340640809414,
-      "change_4": null,
-      "pct_change_4": null,
-      "change_12": null,
-      "pct_change_12": null,
-      "rolling_3": 593.5,
-      "rolling_4": 593.5,
-      "rolling_6": 593.5,
-      "rolling_12": 593.5,
-      "index_first_100": 100.16863406408095
+      "change_4": 2.0,
+      "pct_change_4": 0.33783783783782884,
+      "change_12": -16.0,
+      "pct_change_12": -2.622950819672132,
+      "rolling_3": 593.3333333333334,
+      "rolling_4": 593.0,
+      "rolling_6": 592.5,
+      "rolling_12": 595.0833333333334,
+      "index_first_100": 77.95275590551181
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -123,15 +3483,15 @@
       "entity_key": "payrolls_mining_logging|US",
       "change_1": -1.0,
       "pct_change_1": -0.16835016835017313,
-      "change_4": null,
-      "pct_change_4": null,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_4": 1.0,
+      "pct_change_4": 0.16891891891892552,
+      "change_12": -15.0,
+      "pct_change_12": -2.4671052631578982,
       "rolling_3": 593.3333333333334,
-      "rolling_4": 593.3333333333334,
-      "rolling_6": 593.3333333333334,
-      "rolling_12": 593.3333333333334,
-      "index_first_100": 100.0
+      "rolling_4": 593.25,
+      "rolling_6": 592.8333333333334,
+      "rolling_12": 593.8333333333334,
+      "index_first_100": 77.82152230971128
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -151,15 +3511,15 @@
       "entity_key": "payrolls_mining_logging|US",
       "change_1": 3.0,
       "pct_change_1": 0.5059021922428242,
-      "change_4": null,
-      "pct_change_4": null,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_4": 3.0,
+      "pct_change_4": 0.5059021922428242,
+      "change_12": -6.0,
+      "pct_change_12": -0.9966777408637828,
       "rolling_3": 594.3333333333334,
       "rolling_4": 594.0,
-      "rolling_6": 594.0,
-      "rolling_12": 594.0,
-      "index_first_100": 100.50590219224283
+      "rolling_6": 593.5,
+      "rolling_12": 593.3333333333334,
+      "index_first_100": 78.21522309711287
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -181,13 +3541,13 @@
       "pct_change_1": 0.3355704697986628,
       "change_4": 5.0,
       "pct_change_4": 0.8431703204047292,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": 2.0,
+      "pct_change_12": 0.3355704697986628,
       "rolling_3": 595.6666666666666,
       "rolling_4": 595.25,
-      "rolling_6": 594.8,
-      "rolling_12": 594.8,
-      "index_first_100": 100.84317032040472
+      "rolling_6": 594.5,
+      "rolling_12": 593.5,
+      "index_first_100": 78.4776902887139
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -209,13 +3569,13 @@
       "pct_change_1": -0.16722408026755842,
       "change_4": 3.0,
       "pct_change_4": 0.5050505050504972,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": 5.0,
+      "pct_change_12": 0.8445945945946054,
       "rolling_3": 597.0,
       "rolling_4": 596.0,
       "rolling_6": 595.1666666666666,
-      "rolling_12": 595.1666666666666,
-      "index_first_100": 100.67453625632379
+      "rolling_12": 593.9166666666666,
+      "index_first_100": 78.34645669291339
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -237,13 +3597,13 @@
       "pct_change_1": 0.670016750418756,
       "change_4": 8.0,
       "pct_change_4": 1.3490725126475533,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": 7.0,
+      "pct_change_12": 1.1784511784511675,
       "rolling_3": 598.6666666666666,
       "rolling_4": 598.0,
       "rolling_6": 596.5,
-      "rolling_12": 596.0,
-      "index_first_100": 101.34907251264755
+      "rolling_12": 594.5,
+      "index_first_100": 78.87139107611549
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -265,13 +3625,13 @@
       "pct_change_1": -0.16638935108153063,
       "change_4": 4.0,
       "pct_change_4": 0.6711409395973256,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": 6.0,
+      "pct_change_12": 1.0101010101010166,
       "rolling_3": 599.3333333333334,
       "rolling_4": 599.0,
       "rolling_6": 597.5,
-      "rolling_12": 596.5,
-      "index_first_100": 101.1804384485666
+      "rolling_12": 595.0,
+      "index_first_100": 78.74015748031496
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -293,13 +3653,13 @@
       "pct_change_1": 0.8333333333333304,
       "change_4": 7.0,
       "pct_change_4": 1.17056856187292,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": 14.0,
+      "pct_change_12": 2.368866328257191,
       "rolling_3": 602.0,
       "rolling_4": 600.75,
       "rolling_6": 599.5,
-      "rolling_12": 597.4444444444445,
-      "index_first_100": 102.02360876897134
+      "rolling_12": 596.1666666666666,
+      "index_first_100": 79.39632545931758
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -321,13 +3681,13 @@
       "pct_change_1": 0.33057851239668423,
       "change_4": 10.0,
       "pct_change_4": 1.675041876046901,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": 15.0,
+      "pct_change_12": 2.533783783783794,
       "rolling_3": 604.0,
       "rolling_4": 603.25,
       "rolling_6": 601.3333333333334,
-      "rolling_12": 598.4,
-      "index_first_100": 102.36087689713322
+      "rolling_12": 597.4166666666666,
+      "index_first_100": 79.65879265091863
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -349,13 +3709,13 @@
       "pct_change_1": -0.32948929159802853,
       "change_4": 4.0,
       "pct_change_4": 0.6655574043261225,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": 13.0,
+      "pct_change_12": 2.195945945945943,
       "rolling_3": 605.6666666666666,
       "rolling_4": 604.25,
       "rolling_6": 602.5,
-      "rolling_12": 599.0,
-      "index_first_100": 102.02360876897134
+      "rolling_12": 598.5,
+      "index_first_100": 79.39632545931758
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -377,13 +3737,13 @@
       "pct_change_1": -0.6611570247933907,
       "change_4": 1.0,
       "pct_change_4": 0.16666666666667052,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": 8.0,
+      "pct_change_12": 1.3490725126475533,
       "rolling_3": 604.3333333333334,
       "rolling_4": 604.5,
       "rolling_6": 603.1666666666666,
       "rolling_12": 599.1666666666666,
-      "index_first_100": 101.34907251264755
+      "index_first_100": 78.87139107611549
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -411,7 +3771,7 @@
       "rolling_4": 604.75,
       "rolling_6": 604.0,
       "rolling_12": 600.25,
-      "index_first_100": 102.19224283305228
+      "index_first_100": 79.52755905511812
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -439,7 +3799,7 @@
       "rolling_4": 604.75,
       "rolling_6": 605.1666666666666,
       "rolling_12": 601.3333333333334,
-      "index_first_100": 102.36087689713322
+      "index_first_100": 79.65879265091863
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -467,7 +3827,7 @@
       "rolling_4": 606.0,
       "rolling_6": 606.0,
       "rolling_12": 602.75,
-      "index_first_100": 102.86677908937605
+      "index_first_100": 80.0524934383202
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -495,7 +3855,7 @@
       "rolling_4": 608.0,
       "rolling_6": 606.3333333333334,
       "rolling_12": 603.8333333333334,
-      "index_first_100": 102.6981450252951
+      "index_first_100": 79.92125984251969
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -523,7 +3883,7 @@
       "rolling_4": 608.75,
       "rolling_6": 607.0,
       "rolling_12": 604.75,
-      "index_first_100": 102.6981450252951
+      "index_first_100": 79.92125984251969
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -551,7 +3911,7 @@
       "rolling_4": 609.5,
       "rolling_6": 608.5,
       "rolling_12": 605.8333333333334,
-      "index_first_100": 102.86677908937605
+      "index_first_100": 80.0524934383202
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -579,7 +3939,7 @@
       "rolling_4": 609.5,
       "rolling_6": 609.1666666666666,
       "rolling_12": 606.5833333333334,
-      "index_first_100": 102.86677908937605
+      "index_first_100": 80.0524934383202
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -607,7 +3967,7 @@
       "rolling_4": 609.25,
       "rolling_6": 609.3333333333334,
       "rolling_12": 607.25,
-      "index_first_100": 102.52951096121417
+      "index_first_100": 79.79002624671917
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -635,7 +3995,7 @@
       "rolling_4": 608.5,
       "rolling_6": 608.6666666666666,
       "rolling_12": 607.3333333333334,
-      "index_first_100": 102.19224283305228
+      "index_first_100": 79.52755905511812
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -663,7 +4023,7 @@
       "rolling_4": 606.5,
       "rolling_6": 607.5,
       "rolling_12": 606.9166666666666,
-      "index_first_100": 101.5177065767285
+      "index_first_100": 79.00262467191601
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -691,7 +4051,7 @@
       "rolling_4": 604.0,
       "rolling_6": 606.0,
       "rolling_12": 606.5,
-      "index_first_100": 101.1804384485666
+      "index_first_100": 78.74015748031496
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -719,7 +4079,7 @@
       "rolling_4": 601.25,
       "rolling_6": 603.8333333333334,
       "rolling_12": 606.1666666666666,
-      "index_first_100": 100.67453625632379
+      "index_first_100": 78.34645669291339
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -747,7 +4107,7 @@
       "rolling_4": 599.75,
       "rolling_6": 602.1666666666666,
       "rolling_12": 605.6666666666666,
-      "index_first_100": 101.1804384485666
+      "index_first_100": 78.74015748031496
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -775,7 +4135,7 @@
       "rolling_4": 598.25,
       "rolling_6": 600.1666666666666,
       "rolling_12": 604.75,
-      "index_first_100": 100.50590219224283
+      "index_first_100": 78.21522309711287
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -803,7 +4163,7 @@
       "rolling_4": 595.5,
       "rolling_6": 597.3333333333334,
       "rolling_12": 603.0,
-      "index_first_100": 99.32546374367622
+      "index_first_100": 77.29658792650919
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -831,7 +4191,7 @@
       "rolling_4": 593.0,
       "rolling_6": 594.8333333333334,
       "rolling_12": 601.1666666666666,
-      "index_first_100": 98.98819561551433
+      "index_first_100": 77.03412073490814
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -859,7 +4219,7 @@
       "rolling_4": 589.0,
       "rolling_6": 592.1666666666666,
       "rolling_12": 599.0833333333334,
-      "index_first_100": 98.4822934232715
+      "index_first_100": 76.64041994750657
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -887,7 +4247,7 @@
       "rolling_4": 584.75,
       "rolling_6": 589.1666666666666,
       "rolling_12": 596.5,
-      "index_first_100": 97.63912310286678
+      "index_first_100": 75.98425196850394
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -915,7 +4275,7 @@
       "rolling_4": 581.75,
       "rolling_6": 585.3333333333334,
       "rolling_12": 593.75,
-      "index_first_100": 97.3018549747049
+      "index_first_100": 75.7217847769029
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -943,7 +4303,7 @@
       "rolling_4": 579.0,
       "rolling_6": 582.0,
       "rolling_12": 591.0833333333334,
-      "index_first_100": 97.13322091062395
+      "index_first_100": 75.59055118110236
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -971,7 +4331,7 @@
       "rolling_4": 576.75,
       "rolling_6": 579.6666666666666,
       "rolling_12": 588.5,
-      "index_first_100": 96.964586846543
+      "index_first_100": 75.45931758530183
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -999,7 +4359,7 @@
       "rolling_4": 575.75,
       "rolling_6": 577.6666666666666,
       "rolling_12": 586.25,
-      "index_first_100": 96.964586846543
+      "index_first_100": 75.45931758530183
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1027,7 +4387,7 @@
       "rolling_4": 575.75,
       "rolling_6": 576.5,
       "rolling_12": 584.3333333333334,
-      "index_first_100": 97.3018549747049
+      "index_first_100": 75.7217847769029
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1055,7 +4415,7 @@
       "rolling_4": 576.0,
       "rolling_6": 576.1666666666666,
       "rolling_12": 582.6666666666666,
-      "index_first_100": 97.3018549747049
+      "index_first_100": 75.7217847769029
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1083,7 +4443,7 @@
       "rolling_4": 576.0,
       "rolling_6": 575.8333333333334,
       "rolling_12": 580.5833333333334,
-      "index_first_100": 96.964586846543
+      "index_first_100": 75.45931758530183
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1111,7 +4471,7 @@
       "rolling_4": 576.0,
       "rolling_6": 575.6666666666666,
       "rolling_12": 578.8333333333334,
-      "index_first_100": 96.964586846543
+      "index_first_100": 75.45931758530183
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1139,7 +4499,7 @@
       "rolling_4": 574.25,
       "rolling_6": 574.8333333333334,
       "rolling_12": 577.25,
-      "index_first_100": 96.12141652613828
+      "index_first_100": 74.80314960629921
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1167,7 +4527,7 @@
       "rolling_4": 571.5,
       "rolling_6": 573.3333333333334,
       "rolling_12": 575.5,
-      "index_first_100": 95.4468802698145
+      "index_first_100": 74.2782152230971
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1195,7 +4555,7 @@
       "rolling_4": 570.25,
       "rolling_6": 572.1666666666666,
       "rolling_12": 574.3333333333334,
-      "index_first_100": 96.12141652613828
+      "index_first_100": 74.80314960629921
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1223,7 +4583,7 @@
       "rolling_4": 569.5,
       "rolling_6": 571.3333333333334,
       "rolling_12": 573.75,
-      "index_first_100": 96.45868465430016
+      "index_first_100": 75.06561679790026
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1251,7 +4611,7 @@
       "rolling_4": 569.75,
       "rolling_6": 570.6666666666666,
       "rolling_12": 573.25,
-      "index_first_100": 96.29005059021922
+      "index_first_100": 74.93438320209974
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1279,7 +4639,7 @@
       "rolling_4": 570.75,
       "rolling_6": 569.8333333333334,
       "rolling_12": 572.75,
-      "index_first_100": 96.12141652613828
+      "index_first_100": 74.80314960629921
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1307,7 +4667,7 @@
       "rolling_4": 570.75,
       "rolling_6": 569.8333333333334,
       "rolling_12": 572.3333333333334,
-      "index_first_100": 96.12141652613828
+      "index_first_100": 74.80314960629921
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1335,7 +4695,7 @@
       "rolling_4": 571.25,
       "rolling_6": 571.1666666666666,
       "rolling_12": 572.25,
-      "index_first_100": 96.79595278246205
+      "index_first_100": 75.32808398950131
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1363,7 +4723,7 @@
       "rolling_4": 572.5,
       "rolling_6": 572.1666666666666,
       "rolling_12": 572.1666666666666,
-      "index_first_100": 97.13322091062395
+      "index_first_100": 75.59055118110236
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1391,7 +4751,7 @@
       "rolling_4": 573.75,
       "rolling_6": 572.6666666666666,
       "rolling_12": 572.0,
-      "index_first_100": 96.964586846543
+      "index_first_100": 75.45931758530183
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1419,7 +4779,7 @@
       "rolling_4": 575.0,
       "rolling_6": 573.3333333333334,
       "rolling_12": 572.0,
-      "index_first_100": 96.964586846543
+      "index_first_100": 75.45931758530183
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1447,7 +4807,7 @@
       "rolling_4": 575.5,
       "rolling_6": 574.3333333333334,
       "rolling_12": 572.0833333333334,
-      "index_first_100": 97.13322091062395
+      "index_first_100": 75.59055118110236
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1475,7 +4835,7 @@
       "rolling_4": 577.5,
       "rolling_6": 576.6666666666666,
       "rolling_12": 573.25,
-      "index_first_100": 98.4822934232715
+      "index_first_100": 76.64041994750657
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1503,7 +4863,7 @@
       "rolling_4": 580.25,
       "rolling_6": 578.6666666666666,
       "rolling_12": 574.9166666666666,
-      "index_first_100": 98.8195615514334
+      "index_first_100": 76.9028871391076
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1531,7 +4891,7 @@
       "rolling_4": 584.25,
       "rolling_6": 581.1666666666666,
       "rolling_12": 576.6666666666666,
-      "index_first_100": 99.6627318718381
+      "index_first_100": 77.55905511811024
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1559,7 +4919,7 @@
       "rolling_4": 588.0,
       "rolling_6": 583.8333333333334,
       "rolling_12": 578.25,
-      "index_first_100": 99.6627318718381
+      "index_first_100": 77.55905511811024
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1587,7 +4947,7 @@
       "rolling_4": 590.5,
       "rolling_6": 587.0,
       "rolling_12": 580.1666666666666,
-      "index_first_100": 100.16863406408095
+      "index_first_100": 77.95275590551181
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1615,7 +4975,7 @@
       "rolling_4": 592.75,
       "rolling_6": 590.1666666666666,
       "rolling_12": 582.25,
-      "index_first_100": 100.33726812816188
+      "index_first_100": 78.08398950131233
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1643,7 +5003,7 @@
       "rolling_4": 594.25,
       "rolling_6": 592.3333333333334,
       "rolling_12": 584.5,
-      "index_first_100": 100.67453625632379
+      "index_first_100": 78.34645669291339
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1671,7 +5031,7 @@
       "rolling_4": 595.25,
       "rolling_6": 593.8333333333334,
       "rolling_12": 586.25,
-      "index_first_100": 100.33726812816188
+      "index_first_100": 78.08398950131233
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1699,7 +5059,7 @@
       "rolling_4": 596.5,
       "rolling_6": 595.1666666666666,
       "rolling_12": 588.1666666666666,
-      "index_first_100": 101.01180438448567
+      "index_first_100": 78.60892388451444
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1727,7 +5087,7 @@
       "rolling_4": 598.25,
       "rolling_6": 597.0,
       "rolling_12": 590.4166666666666,
-      "index_first_100": 101.5177065767285
+      "index_first_100": 79.00262467191601
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1755,7 +5115,7 @@
       "rolling_4": 600.75,
       "rolling_6": 599.1666666666666,
       "rolling_12": 593.0833333333334,
-      "index_first_100": 102.36087689713322
+      "index_first_100": 79.65879265091863
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1783,7 +5143,7 @@
       "rolling_4": 604.5,
       "rolling_6": 601.6666666666666,
       "rolling_12": 595.9166666666666,
-      "index_first_100": 102.86677908937605
+      "index_first_100": 80.0524934383202
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1811,7 +5171,7 @@
       "rolling_4": 608.75,
       "rolling_6": 604.8333333333334,
       "rolling_12": 598.5833333333334,
-      "index_first_100": 103.87858347386172
+      "index_first_100": 80.83989501312337
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1839,7 +5199,7 @@
       "rolling_4": 613.25,
       "rolling_6": 609.0,
       "rolling_12": 601.4166666666666,
-      "index_first_100": 104.5531197301855
+      "index_first_100": 81.36482939632546
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1867,7 +5227,7 @@
       "rolling_4": 616.75,
       "rolling_6": 612.6666666666666,
       "rolling_12": 603.9166666666666,
-      "index_first_100": 104.72175379426645
+      "index_first_100": 81.49606299212599
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1895,7 +5255,7 @@
       "rolling_4": 620.25,
       "rolling_6": 616.3333333333334,
       "rolling_12": 606.6666666666666,
-      "index_first_100": 105.22765598650928
+      "index_first_100": 81.88976377952756
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1923,7 +5283,7 @@
       "rolling_4": 622.75,
       "rolling_6": 619.5,
       "rolling_12": 609.3333333333334,
-      "index_first_100": 105.56492411467116
+      "index_first_100": 82.1522309711286
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1951,7 +5311,7 @@
       "rolling_4": 625.25,
       "rolling_6": 622.8333333333334,
       "rolling_12": 612.25,
-      "index_first_100": 106.23946037099495
+      "index_first_100": 82.67716535433071
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -1979,7 +5339,7 @@
       "rolling_4": 628.75,
       "rolling_6": 626.0,
       "rolling_12": 615.4166666666666,
-      "index_first_100": 107.08263069139967
+      "index_first_100": 83.33333333333334
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2007,7 +5367,7 @@
       "rolling_4": 633.0,
       "rolling_6": 629.5,
       "rolling_12": 619.25,
-      "index_first_100": 108.09443507588531
+      "index_first_100": 84.12073490813648
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2035,7 +5395,7 @@
       "rolling_4": 638.25,
       "rolling_6": 633.8333333333334,
       "rolling_12": 623.25,
-      "index_first_100": 109.10623946037099
+      "index_first_100": 84.90813648293964
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2063,7 +5423,7 @@
       "rolling_4": 643.5,
       "rolling_6": 638.3333333333334,
       "rolling_12": 627.3333333333334,
-      "index_first_100": 109.78077571669478
+      "index_first_100": 85.43307086614173
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2091,7 +5451,7 @@
       "rolling_4": 648.75,
       "rolling_6": 643.3333333333334,
       "rolling_12": 631.4166666666666,
-      "index_first_100": 110.62394603709949
+      "index_first_100": 86.08923884514435
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2119,7 +5479,7 @@
       "rolling_4": 653.75,
       "rolling_6": 648.5,
       "rolling_12": 635.6666666666666,
-      "index_first_100": 111.46711635750421
+      "index_first_100": 86.74540682414698
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2147,7 +5507,7 @@
       "rolling_4": 659.0,
       "rolling_6": 654.0,
       "rolling_12": 640.0,
-      "index_first_100": 112.64755480607083
+      "index_first_100": 87.66404199475065
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2175,7 +5535,7 @@
       "rolling_4": 665.75,
       "rolling_6": 660.1666666666666,
       "rolling_12": 644.8333333333334,
-      "index_first_100": 114.33389544688026
+      "index_first_100": 88.9763779527559
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2203,7 +5563,7 @@
       "rolling_4": 672.0,
       "rolling_6": 665.8333333333334,
       "rolling_12": 649.8333333333334,
-      "index_first_100": 114.8397976391231
+      "index_first_100": 89.37007874015748
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2231,7 +5591,7 @@
       "rolling_4": 678.0,
       "rolling_6": 671.5,
       "rolling_12": 654.9166666666666,
-      "index_first_100": 115.51433389544687
+      "index_first_100": 89.89501312335958
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2259,7 +5619,7 @@
       "rolling_4": 683.5,
       "rolling_6": 677.1666666666666,
       "rolling_12": 660.25,
-      "index_first_100": 116.3575042158516
+      "index_first_100": 90.5511811023622
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2287,7 +5647,7 @@
       "rolling_4": 687.0,
       "rolling_6": 682.3333333333334,
       "rolling_12": 665.4166666666666,
-      "index_first_100": 116.69477234401349
+      "index_first_100": 90.81364829396325
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2315,7 +5675,7 @@
       "rolling_4": 690.5,
       "rolling_6": 686.8333333333334,
       "rolling_12": 670.4166666666666,
-      "index_first_100": 117.20067453625633
+      "index_first_100": 91.20734908136482
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2343,7 +5703,7 @@
       "rolling_4": 694.0,
       "rolling_6": 690.3333333333334,
       "rolling_12": 675.25,
-      "index_first_100": 117.8752107925801
+      "index_first_100": 91.73228346456693
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2371,7 +5731,7 @@
       "rolling_4": 696.5,
       "rolling_6": 693.5,
       "rolling_12": 679.6666666666666,
-      "index_first_100": 118.04384485666104
+      "index_first_100": 91.86351706036746
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2399,7 +5759,7 @@
       "rolling_4": 699.5,
       "rolling_6": 696.6666666666666,
       "rolling_12": 684.0833333333334,
-      "index_first_100": 118.71838111298483
+      "index_first_100": 92.38845144356955
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2427,7 +5787,7 @@
       "rolling_4": 702.0,
       "rolling_6": 699.1666666666666,
       "rolling_12": 688.1666666666666,
-      "index_first_100": 118.88701517706576
+      "index_first_100": 92.51968503937007
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2455,7 +5815,7 @@
       "rolling_4": 704.75,
       "rolling_6": 702.1666666666666,
       "rolling_12": 692.25,
-      "index_first_100": 119.7301854974705
+      "index_first_100": 93.1758530183727
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2483,7 +5843,7 @@
       "rolling_4": 708.25,
       "rolling_6": 705.3333333333334,
       "rolling_12": 696.0833333333334,
-      "index_first_100": 120.40472175379426
+      "index_first_100": 93.7007874015748
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2511,7 +5871,7 @@
       "rolling_4": 712.25,
       "rolling_6": 708.8333333333334,
       "rolling_12": 699.5833333333334,
-      "index_first_100": 121.41652613827993
+      "index_first_100": 94.48818897637796
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2539,7 +5899,7 @@
       "rolling_4": 716.25,
       "rolling_6": 712.3333333333334,
       "rolling_12": 702.9166666666666,
-      "index_first_100": 121.58516020236088
+      "index_first_100": 94.61942257217848
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2567,7 +5927,7 @@
       "rolling_4": 720.0,
       "rolling_6": 715.8333333333334,
       "rolling_12": 706.25,
-      "index_first_100": 122.25969645868466
+      "index_first_100": 95.14435695538059
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2595,7 +5955,7 @@
       "rolling_4": 723.5,
       "rolling_6": 719.6666666666666,
       "rolling_12": 709.4166666666666,
-      "index_first_100": 122.76559865092749
+      "index_first_100": 95.53805774278216
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2623,7 +5983,7 @@
       "rolling_4": 725.5,
       "rolling_6": 722.6666666666666,
       "rolling_12": 712.4166666666666,
-      "index_first_100": 122.76559865092749
+      "index_first_100": 95.53805774278216
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2651,7 +6011,7 @@
       "rolling_4": 727.25,
       "rolling_6": 725.0,
       "rolling_12": 715.1666666666666,
-      "index_first_100": 122.76559865092749
+      "index_first_100": 95.53805774278216
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2679,7 +6039,7 @@
       "rolling_4": 728.25,
       "rolling_6": 726.5,
       "rolling_12": 717.6666666666666,
-      "index_first_100": 122.93423271500843
+      "index_first_100": 95.66929133858267
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2707,7 +6067,7 @@
       "rolling_4": 729.75,
       "rolling_6": 728.6666666666666,
       "rolling_12": 720.5,
-      "index_first_100": 123.77740303541316
+      "index_first_100": 96.3254593175853
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2735,7 +6095,7 @@
       "rolling_4": 732.5,
       "rolling_6": 731.0,
       "rolling_12": 723.4166666666666,
-      "index_first_100": 124.62057335581787
+      "index_first_100": 96.98162729658793
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2763,7 +6123,7 @@
       "rolling_4": 737.0,
       "rolling_6": 734.0,
       "rolling_12": 726.8333333333334,
-      "index_first_100": 125.80101180438447
+      "index_first_100": 97.9002624671916
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2791,7 +6151,7 @@
       "rolling_4": 741.5,
       "rolling_6": 737.1666666666666,
       "rolling_12": 729.9166666666666,
-      "index_first_100": 125.96964586846543
+      "index_first_100": 98.03149606299213
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2819,7 +6179,7 @@
       "rolling_4": 746.5,
       "rolling_6": 741.5,
       "rolling_12": 733.25,
-      "index_first_100": 127.15008431703203
+      "index_first_100": 98.9501312335958
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2847,7 +6207,7 @@
       "rolling_4": 750.5,
       "rolling_6": 745.8333333333334,
       "rolling_12": 736.1666666666666,
-      "index_first_100": 127.318718381113
+      "index_first_100": 99.08136482939632
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2875,7 +6235,7 @@
       "rolling_4": 755.0,
       "rolling_6": 750.8333333333334,
       "rolling_12": 739.75,
-      "index_first_100": 128.8364249578415
+      "index_first_100": 100.26246719160106
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2903,7 +6263,7 @@
       "rolling_4": 760.25,
       "rolling_6": 755.6666666666666,
       "rolling_12": 743.3333333333334,
-      "index_first_100": 129.51096121416526
+      "index_first_100": 100.78740157480314
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2931,7 +6291,7 @@
       "rolling_4": 764.25,
       "rolling_6": 759.6666666666666,
       "rolling_12": 746.8333333333334,
-      "index_first_100": 129.84822934232716
+      "index_first_100": 101.0498687664042
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2959,7 +6319,7 @@
       "rolling_4": 770.5,
       "rolling_6": 765.1666666666666,
       "rolling_12": 751.1666666666666,
-      "index_first_100": 131.5345699831366
+      "index_first_100": 102.36220472440945
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -2987,7 +6347,7 @@
       "rolling_4": 775.5,
       "rolling_6": 770.1666666666666,
       "rolling_12": 755.8333333333334,
-      "index_first_100": 132.20910623946037
+      "index_first_100": 102.88713910761156
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3015,7 +6375,7 @@
       "rolling_4": 778.75,
       "rolling_6": 774.5,
       "rolling_12": 760.1666666666666,
-      "index_first_100": 131.70320404721753
+      "index_first_100": 102.49343832020999
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3043,7 +6403,7 @@
       "rolling_4": 780.25,
       "rolling_6": 776.5,
       "rolling_12": 763.6666666666666,
-      "index_first_100": 130.86003372681282
+      "index_first_100": 101.83727034120736
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3071,7 +6431,7 @@
       "rolling_4": 777.75,
       "rolling_6": 776.8333333333334,
       "rolling_12": 766.25,
-      "index_first_100": 129.84822934232716
+      "index_first_100": 101.0498687664042
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3099,7 +6459,7 @@
       "rolling_4": 771.75,
       "rolling_6": 775.1666666666666,
       "rolling_12": 767.4166666666666,
-      "index_first_100": 128.1618887015177
+      "index_first_100": 99.73753280839895
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3127,7 +6487,7 @@
       "rolling_4": 763.5,
       "rolling_6": 769.8333333333334,
       "rolling_12": 767.5,
-      "index_first_100": 126.13827993254638
+      "index_first_100": 98.16272965879264
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3155,7 +6515,7 @@
       "rolling_4": 751.25,
       "rolling_6": 760.3333333333334,
       "rolling_12": 765.25,
-      "index_first_100": 122.59696458684655
+      "index_first_100": 95.40682414698163
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3183,7 +6543,7 @@
       "rolling_4": 736.25,
       "rolling_6": 748.5,
       "rolling_12": 761.5,
-      "index_first_100": 119.7301854974705
+      "index_first_100": 93.1758530183727
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3211,7 +6571,7 @@
       "rolling_4": 719.75,
       "rolling_6": 734.8333333333334,
       "rolling_12": 755.6666666666666,
-      "index_first_100": 117.03204047217537
+      "index_first_100": 91.0761154855643
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3239,7 +6599,7 @@
       "rolling_4": 704.25,
       "rolling_6": 720.8333333333334,
       "rolling_12": 748.8333333333334,
-      "index_first_100": 115.68296795952782
+      "index_first_100": 90.02624671916011
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3267,7 +6627,7 @@
       "rolling_4": 692.0,
       "rolling_6": 707.1666666666666,
       "rolling_12": 741.1666666666666,
-      "index_first_100": 114.33389544688026
+      "index_first_100": 88.9763779527559
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3295,7 +6655,7 @@
       "rolling_4": 681.75,
       "rolling_6": 694.0,
       "rolling_12": 731.9166666666666,
-      "index_first_100": 112.81618887015176
+      "index_first_100": 87.79527559055119
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3323,7 +6683,7 @@
       "rolling_4": 675.0,
       "rolling_6": 684.0,
       "rolling_12": 722.1666666666666,
-      "index_first_100": 112.47892074198988
+      "index_first_100": 87.53280839895014
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3351,7 +6711,7 @@
       "rolling_4": 668.75,
       "rolling_6": 675.8333333333334,
       "rolling_12": 712.1666666666666,
-      "index_first_100": 111.46711635750421
+      "index_first_100": 86.74540682414698
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3379,7 +6739,7 @@
       "rolling_4": 665.25,
       "rolling_6": 670.8333333333334,
       "rolling_12": 702.8333333333334,
-      "index_first_100": 111.97301854974704
+      "index_first_100": 87.13910761154857
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3407,7 +6767,7 @@
       "rolling_4": 663.75,
       "rolling_6": 667.0,
       "rolling_12": 693.9166666666666,
-      "index_first_100": 111.80438448566609
+      "index_first_100": 87.00787401574803
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3435,7 +6795,7 @@
       "rolling_4": 663.5,
       "rolling_6": 665.0,
       "rolling_12": 686.0833333333334,
-      "index_first_100": 112.31028667790895
+      "index_first_100": 87.4015748031496
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3463,7 +6823,7 @@
       "rolling_4": 666.75,
       "rolling_6": 665.8333333333334,
       "rolling_12": 679.9166666666666,
-      "index_first_100": 113.6593591905565
+      "index_first_100": 88.4514435695538
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3491,7 +6851,7 @@
       "rolling_4": 671.0,
       "rolling_6": 668.1666666666666,
       "rolling_12": 676.0833333333334,
-      "index_first_100": 114.8397976391231
+      "index_first_100": 89.37007874015748
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3519,7 +6879,7 @@
       "rolling_4": 677.0,
       "rolling_6": 672.5,
       "rolling_12": 674.1666666666666,
-      "index_first_100": 115.85160202360878
+      "index_first_100": 90.15748031496062
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3547,7 +6907,7 @@
       "rolling_4": 684.5,
       "rolling_6": 677.8333333333334,
       "rolling_12": 674.3333333333334,
-      "index_first_100": 117.36930860033728
+      "index_first_100": 91.33858267716536
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3575,7 +6935,7 @@
       "rolling_4": 691.5,
       "rolling_6": 684.3333333333334,
       "rolling_12": 675.6666666666666,
-      "index_first_100": 118.38111298482295
+      "index_first_100": 92.1259842519685
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3603,7 +6963,7 @@
       "rolling_4": 698.5,
       "rolling_6": 691.5,
       "rolling_12": 678.25,
-      "index_first_100": 119.56155143338954
+      "index_first_100": 93.04461942257218
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3631,7 +6991,7 @@
       "rolling_4": 705.75,
       "rolling_6": 698.5,
       "rolling_12": 682.1666666666666,
-      "index_first_100": 120.74198988195614
+      "index_first_100": 93.96325459317585
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3659,7 +7019,7 @@
       "rolling_4": 712.25,
       "rolling_6": 705.3333333333334,
       "rolling_12": 686.75,
-      "index_first_100": 121.75379426644182
+      "index_first_100": 94.750656167979
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3687,7 +7047,7 @@
       "rolling_4": 719.75,
       "rolling_6": 712.8333333333334,
       "rolling_12": 692.6666666666666,
-      "index_first_100": 123.44013490725128
+      "index_first_100": 96.06299212598425
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3715,7 +7075,7 @@
       "rolling_4": 726.5,
       "rolling_6": 719.5,
       "rolling_12": 698.6666666666666,
-      "index_first_100": 124.11467116357504
+      "index_first_100": 96.58792650918635
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3743,7 +7103,7 @@
       "rolling_4": 731.0,
       "rolling_6": 724.8333333333334,
       "rolling_12": 704.5833333333334,
-      "index_first_100": 123.77740303541316
+      "index_first_100": 96.3254593175853
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3771,7 +7131,7 @@
       "rolling_4": 734.75,
       "rolling_6": 729.5,
       "rolling_12": 710.5,
-      "index_first_100": 124.28330522765599
+      "index_first_100": 96.71916010498688
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3799,7 +7159,7 @@
       "rolling_4": 736.25,
       "rolling_6": 733.1666666666666,
       "rolling_12": 715.8333333333334,
-      "index_first_100": 124.45193929173692
+      "index_first_100": 96.8503937007874
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3827,7 +7187,7 @@
       "rolling_4": 740.75,
       "rolling_6": 738.5,
       "rolling_12": 721.9166666666666,
-      "index_first_100": 127.15008431703203
+      "index_first_100": 98.9501312335958
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3855,7 +7215,7 @@
       "rolling_4": 749.0,
       "rolling_6": 744.3333333333334,
       "rolling_12": 728.5833333333334,
-      "index_first_100": 129.34232715008432
+      "index_first_100": 100.65616797900263
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3883,7 +7243,7 @@
       "rolling_4": 759.0,
       "rolling_6": 751.1666666666666,
       "rolling_12": 735.3333333333334,
-      "index_first_100": 131.02866779089376
+      "index_first_100": 101.96850393700787
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3911,7 +7271,7 @@
       "rolling_4": 771.5,
       "rolling_6": 760.1666666666666,
       "rolling_12": 742.5,
-      "index_first_100": 132.88364249578416
+      "index_first_100": 103.41207349081365
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3939,7 +7299,7 @@
       "rolling_4": 782.75,
       "rolling_6": 770.5,
       "rolling_12": 750.0,
-      "index_first_100": 134.73861720067453
+      "index_first_100": 104.85564304461943
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3967,7 +7327,7 @@
       "rolling_4": 792.25,
       "rolling_6": 781.6666666666666,
       "rolling_12": 757.4166666666666,
-      "index_first_100": 135.7504215851602
+      "index_first_100": 105.64304461942258
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -3995,7 +7355,7 @@
       "rolling_4": 801.0,
       "rolling_6": 791.3333333333334,
       "rolling_12": 764.9166666666666,
-      "index_first_100": 136.93086003372682
+      "index_first_100": 106.56167979002625
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4023,7 +7383,7 @@
       "rolling_4": 809.0,
       "rolling_6": 800.1666666666666,
       "rolling_12": 772.25,
-      "index_first_100": 138.27993254637437
+      "index_first_100": 107.61154855643045
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4051,7 +7411,7 @@
       "rolling_4": 815.5,
       "rolling_6": 808.1666666666666,
       "rolling_12": 779.6666666666666,
-      "index_first_100": 139.12310286677908
+      "index_first_100": 108.26771653543308
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4079,7 +7439,7 @@
       "rolling_4": 822.0,
       "rolling_6": 815.3333333333334,
       "rolling_12": 787.75,
-      "index_first_100": 140.13490725126476
+      "index_first_100": 109.05511811023622
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4107,7 +7467,7 @@
       "rolling_4": 829.25,
       "rolling_6": 822.3333333333334,
       "rolling_12": 796.4166666666666,
-      "index_first_100": 141.8212478920742
+      "index_first_100": 110.36745406824147
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4135,7 +7495,7 @@
       "rolling_4": 835.75,
       "rolling_6": 829.1666666666666,
       "rolling_12": 805.4166666666666,
-      "index_first_100": 142.66441821247892
+      "index_first_100": 111.0236220472441
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4163,7 +7523,7 @@
       "rolling_4": 841.75,
       "rolling_6": 835.3333333333334,
       "rolling_12": 813.3333333333334,
-      "index_first_100": 143.17032040472176
+      "index_first_100": 111.41732283464567
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4191,7 +7551,7 @@
       "rolling_4": 846.5,
       "rolling_6": 840.3333333333334,
       "rolling_12": 820.25,
-      "index_first_100": 143.33895446880268
+      "index_first_100": 111.54855643044618
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4219,7 +7579,7 @@
       "rolling_4": 850.0,
       "rolling_6": 845.3333333333334,
       "rolling_12": 826.75,
-      "index_first_100": 144.18212478920742
+      "index_first_100": 112.20472440944881
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4247,7 +7607,7 @@
       "rolling_4": 851.5,
       "rolling_6": 848.8333333333334,
       "rolling_12": 832.0833333333334,
-      "index_first_100": 143.6762225969646
+      "index_first_100": 111.81102362204724
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4275,7 +7635,7 @@
       "rolling_4": 852.0,
       "rolling_6": 850.5,
       "rolling_12": 836.4166666666666,
-      "index_first_100": 143.50758853288363
+      "index_first_100": 111.67979002624674
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4303,7 +7663,7 @@
       "rolling_4": 852.5,
       "rolling_6": 851.5,
       "rolling_12": 840.3333333333334,
-      "index_first_100": 143.6762225969646
+      "index_first_100": 111.81102362204724
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4331,7 +7691,7 @@
       "rolling_4": 850.5,
       "rolling_6": 851.1666666666666,
       "rolling_12": 843.25,
-      "index_first_100": 142.83305227655987
+      "index_first_100": 111.15485564304461
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4359,7 +7719,7 @@
       "rolling_4": 846.75,
       "rolling_6": 849.0,
       "rolling_12": 844.6666666666666,
-      "index_first_100": 141.14671163575042
+      "index_first_100": 109.84251968503938
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4387,7 +7747,7 @@
       "rolling_4": 845.0,
       "rolling_6": 847.1666666666666,
       "rolling_12": 846.25,
-      "index_first_100": 142.32715008431703
+      "index_first_100": 110.76115485564304
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4415,7 +7775,7 @@
       "rolling_4": 844.25,
       "rolling_6": 846.6666666666666,
       "rolling_12": 847.75,
-      "index_first_100": 143.17032040472176
+      "index_first_100": 111.41732283464567
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4443,7 +7803,7 @@
       "rolling_4": 845.75,
       "rolling_6": 847.0,
       "rolling_12": 848.75,
-      "index_first_100": 143.84485666104553
+      "index_first_100": 111.94225721784777
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4471,7 +7831,7 @@
       "rolling_4": 851.0,
       "rolling_6": 848.0,
       "rolling_12": 849.75,
-      "index_first_100": 144.68802698145024
+      "index_first_100": 112.5984251968504
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4499,7 +7859,7 @@
       "rolling_4": 855.0,
       "rolling_6": 850.1666666666666,
       "rolling_12": 850.6666666666666,
-      "index_first_100": 145.02529510961216
+      "index_first_100": 112.86089238845145
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4527,7 +7887,7 @@
       "rolling_4": 857.0,
       "rolling_6": 853.5,
       "rolling_12": 851.25,
-      "index_first_100": 144.51939291736932
+      "index_first_100": 112.46719160104988
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4555,7 +7915,7 @@
       "rolling_4": 859.0,
       "rolling_6": 856.3333333333334,
       "rolling_12": 851.75,
-      "index_first_100": 145.1939291736931
+      "index_first_100": 112.99212598425197
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4583,7 +7943,7 @@
       "rolling_4": 860.5,
       "rolling_6": 858.8333333333334,
       "rolling_12": 852.75,
-      "index_first_100": 145.69983136593592
+      "index_first_100": 113.38582677165354
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4611,7 +7971,7 @@
       "rolling_4": 861.25,
       "rolling_6": 860.5,
       "rolling_12": 853.75,
-      "index_first_100": 145.53119730185497
+      "index_first_100": 113.25459317585302
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4639,7 +7999,7 @@
       "rolling_4": 863.75,
       "rolling_6": 862.0,
       "rolling_12": 855.0,
-      "index_first_100": 146.20573355817876
+      "index_first_100": 113.77952755905511
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4667,7 +8027,7 @@
       "rolling_4": 865.5,
       "rolling_6": 863.3333333333334,
       "rolling_12": 856.75,
-      "index_first_100": 146.3743676222597
+      "index_first_100": 113.91076115485563
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4695,7 +8055,7 @@
       "rolling_4": 866.5,
       "rolling_6": 865.1666666666666,
       "rolling_12": 859.3333333333334,
-      "index_first_100": 146.3743676222597
+      "index_first_100": 113.91076115485563
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4723,7 +8083,7 @@
       "rolling_4": 867.75,
       "rolling_6": 866.3333333333334,
       "rolling_12": 861.3333333333334,
-      "index_first_100": 146.3743676222597
+      "index_first_100": 113.91076115485563
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4751,7 +8111,7 @@
       "rolling_4": 867.5,
       "rolling_6": 866.6666666666666,
       "rolling_12": 862.75,
-      "index_first_100": 146.0370994940978
+      "index_first_100": 113.6482939632546
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4779,7 +8139,7 @@
       "rolling_4": 868.25,
       "rolling_6": 868.0,
       "rolling_12": 864.25,
-      "index_first_100": 146.88026981450253
+      "index_first_100": 114.3044619422572
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4807,7 +8167,7 @@
       "rolling_4": 870.0,
       "rolling_6": 869.3333333333334,
       "rolling_12": 865.6666666666666,
-      "index_first_100": 147.55480607082632
+      "index_first_100": 114.82939632545933
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4835,7 +8195,7 @@
       "rolling_4": 872.75,
       "rolling_6": 871.1666666666666,
       "rolling_12": 867.25,
-      "index_first_100": 148.22934232715008
+      "index_first_100": 115.35433070866141
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4863,7 +8223,7 @@
       "rolling_4": 877.75,
       "rolling_6": 874.1666666666666,
       "rolling_12": 869.6666666666666,
-      "index_first_100": 149.40978077571668
+      "index_first_100": 116.2729658792651
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4891,7 +8251,7 @@
       "rolling_4": 882.0,
       "rolling_6": 877.5,
       "rolling_12": 871.9166666666666,
-      "index_first_100": 149.74704890387858
+      "index_first_100": 116.53543307086613
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4919,7 +8279,7 @@
       "rolling_4": 886.5,
       "rolling_6": 882.0,
       "rolling_12": 874.3333333333334,
-      "index_first_100": 150.59021922428332
+      "index_first_100": 117.19160104986877
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4947,7 +8307,7 @@
       "rolling_4": 891.0,
       "rolling_6": 886.3333333333334,
       "rolling_12": 877.1666666666666,
-      "index_first_100": 151.26475548060708
+      "index_first_100": 117.71653543307086
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -4975,7 +8335,7 @@
       "rolling_4": 894.25,
       "rolling_6": 890.3333333333334,
       "rolling_12": 879.8333333333334,
-      "index_first_100": 151.60202360876897
+      "index_first_100": 117.97900262467192
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5003,7 +8363,7 @@
       "rolling_4": 898.25,
       "rolling_6": 894.5,
       "rolling_12": 882.8333333333334,
-      "index_first_100": 152.44519392917368
+      "index_first_100": 118.63517060367454
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5031,7 +8391,7 @@
       "rolling_4": 899.75,
       "rolling_6": 896.6666666666666,
       "rolling_12": 885.4166666666666,
-      "index_first_100": 151.60202360876897
+      "index_first_100": 117.97900262467192
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5059,7 +8419,7 @@
       "rolling_4": 900.25,
       "rolling_6": 898.5,
       "rolling_12": 888.0,
-      "index_first_100": 151.60202360876897
+      "index_first_100": 117.97900262467192
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5087,7 +8447,7 @@
       "rolling_4": 899.25,
       "rolling_6": 898.8333333333334,
       "rolling_12": 890.4166666666666,
-      "index_first_100": 150.92748735244518
+      "index_first_100": 117.45406824146983
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5115,7 +8475,7 @@
       "rolling_4": 895.25,
       "rolling_6": 897.3333333333334,
       "rolling_12": 891.8333333333334,
-      "index_first_100": 149.74704890387858
+      "index_first_100": 116.53543307086613
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5143,7 +8503,7 @@
       "rolling_4": 889.25,
       "rolling_6": 893.3333333333334,
       "rolling_12": 891.8333333333334,
-      "index_first_100": 147.55480607082632
+      "index_first_100": 114.82939632545933
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5171,7 +8531,7 @@
       "rolling_4": 879.5,
       "rolling_6": 886.0,
       "rolling_12": 890.25,
-      "index_first_100": 145.02529510961216
+      "index_first_100": 112.86089238845145
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5199,7 +8559,7 @@
       "rolling_4": 866.75,
       "rolling_6": 876.8333333333334,
       "rolling_12": 886.75,
-      "index_first_100": 142.32715008431703
+      "index_first_100": 110.76115485564304
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5227,7 +8587,7 @@
       "rolling_4": 850.5,
       "rolling_6": 864.1666666666666,
       "rolling_12": 881.3333333333334,
-      "index_first_100": 138.7858347386172
+      "index_first_100": 108.00524934383202
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5255,7 +8615,7 @@
       "rolling_4": 836.0,
       "rolling_6": 851.1666666666666,
       "rolling_12": 875.0,
-      "index_first_100": 137.77403035413153
+      "index_first_100": 107.21784776902888
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5283,7 +8643,7 @@
       "rolling_4": 822.75,
       "rolling_6": 837.6666666666666,
       "rolling_12": 867.5,
-      "index_first_100": 136.0876897133221
+      "index_first_100": 105.90551181102362
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5311,7 +8671,7 @@
       "rolling_4": 810.25,
       "rolling_6": 824.1666666666666,
       "rolling_12": 858.75,
-      "index_first_100": 133.89544688026982
+      "index_first_100": 104.1994750656168
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5339,7 +8699,7 @@
       "rolling_4": 799.5,
       "rolling_6": 810.8333333333334,
       "rolling_12": 848.4166666666666,
-      "index_first_100": 131.5345699831366
+      "index_first_100": 102.36220472440945
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5367,7 +8727,7 @@
       "rolling_4": 787.75,
       "rolling_6": 798.5,
       "rolling_12": 837.6666666666666,
-      "index_first_100": 129.84822934232716
+      "index_first_100": 101.0498687664042
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5395,7 +8755,7 @@
       "rolling_4": 774.75,
       "rolling_6": 787.1666666666666,
       "rolling_12": 825.6666666666666,
-      "index_first_100": 127.318718381113
+      "index_first_100": 99.08136482939632
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5423,7 +8783,7 @@
       "rolling_4": 762.75,
       "rolling_6": 775.3333333333334,
       "rolling_12": 813.25,
-      "index_first_100": 125.80101180438447
+      "index_first_100": 97.9002624671916
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5451,7 +8811,7 @@
       "rolling_4": 750.75,
       "rolling_6": 762.8333333333334,
       "rolling_12": 800.25,
-      "index_first_100": 123.44013490725128
+      "index_first_100": 96.06299212598425
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5479,7 +8839,7 @@
       "rolling_4": 735.75,
       "rolling_6": 748.8333333333334,
       "rolling_12": 786.5,
-      "index_first_100": 119.7301854974705
+      "index_first_100": 93.1758530183727
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5507,7 +8867,7 @@
       "rolling_4": 719.75,
       "rolling_6": 734.0,
       "rolling_12": 772.4166666666666,
-      "index_first_100": 116.52613827993254
+      "index_first_100": 90.68241469816273
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5535,7 +8895,7 @@
       "rolling_4": 702.75,
       "rolling_6": 718.6666666666666,
       "rolling_12": 758.5833333333334,
-      "index_first_100": 114.33389544688026
+      "index_first_100": 88.9763779527559
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5563,7 +8923,7 @@
       "rolling_4": 686.5,
       "rolling_6": 704.0,
       "rolling_12": 745.5833333333334,
-      "index_first_100": 112.47892074198988
+      "index_first_100": 87.53280839895014
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5591,7 +8951,7 @@
       "rolling_4": 673.25,
       "rolling_6": 689.1666666666666,
       "rolling_12": 732.25,
-      "index_first_100": 110.79258010118045
+      "index_first_100": 86.22047244094489
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5619,7 +8979,7 @@
       "rolling_4": 663.5,
       "rolling_6": 675.8333333333334,
       "rolling_12": 719.3333333333334,
-      "index_first_100": 109.94940978077572
+      "index_first_100": 85.56430446194226
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5647,7 +9007,7 @@
       "rolling_4": 655.75,
       "rolling_6": 665.3333333333334,
       "rolling_12": 707.0833333333334,
-      "index_first_100": 109.10623946037099
+      "index_first_100": 84.90813648293964
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5675,7 +9035,7 @@
       "rolling_4": 650.25,
       "rolling_6": 657.6666666666666,
       "rolling_12": 695.8333333333334,
-      "index_first_100": 108.7689713322091
+      "index_first_100": 84.64566929133859
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5703,7 +9063,7 @@
       "rolling_4": 647.0,
       "rolling_6": 652.0,
       "rolling_12": 685.3333333333334,
-      "index_first_100": 108.60033726812817
+      "index_first_100": 84.51443569553805
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5731,7 +9091,7 @@
       "rolling_4": 645.75,
       "rolling_6": 648.6666666666666,
       "rolling_12": 676.3333333333334,
-      "index_first_100": 109.10623946037099
+      "index_first_100": 84.90813648293964
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5759,7 +9119,7 @@
       "rolling_4": 645.75,
       "rolling_6": 647.0,
       "rolling_12": 668.0833333333334,
-      "index_first_100": 109.10623946037099
+      "index_first_100": 84.90813648293964
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5787,7 +9147,7 @@
       "rolling_4": 646.25,
       "rolling_6": 646.1666666666666,
       "rolling_12": 661.0,
-      "index_first_100": 109.10623946037099
+      "index_first_100": 84.90813648293964
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5815,7 +9175,7 @@
       "rolling_4": 649.25,
       "rolling_6": 647.6666666666666,
       "rolling_12": 656.5,
-      "index_first_100": 110.62394603709949
+      "index_first_100": 86.08923884514435
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5843,7 +9203,7 @@
       "rolling_4": 652.5,
       "rolling_6": 650.1666666666666,
       "rolling_12": 653.9166666666666,
-      "index_first_100": 111.29848229342328
+      "index_first_100": 86.61417322834646
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5871,7 +9231,7 @@
       "rolling_4": 658.0,
       "rolling_6": 654.3333333333334,
       "rolling_12": 653.1666666666666,
-      "index_first_100": 112.81618887015176
+      "index_first_100": 87.79527559055119
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5899,7 +9259,7 @@
       "rolling_4": 664.75,
       "rolling_6": 658.8333333333334,
       "rolling_12": 653.75,
-      "index_first_100": 113.6593591905565
+      "index_first_100": 88.4514435695538
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5927,7 +9287,7 @@
       "rolling_4": 670.0,
       "rolling_6": 663.8333333333334,
       "rolling_12": 655.4166666666666,
-      "index_first_100": 114.16526138279932
+      "index_first_100": 88.84514435695539
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5955,7 +9315,7 @@
       "rolling_4": 675.0,
       "rolling_6": 669.3333333333334,
       "rolling_12": 657.75,
-      "index_first_100": 114.67116357504217
+      "index_first_100": 89.23884514435696
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -5983,7 +9343,7 @@
       "rolling_4": 678.5,
       "rolling_6": 673.8333333333334,
       "rolling_12": 660.75,
-      "index_first_100": 115.17706576728499
+      "index_first_100": 89.63254593175853
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6011,7 +9371,7 @@
       "rolling_4": 681.25,
       "rolling_6": 678.0,
       "rolling_12": 664.0833333333334,
-      "index_first_100": 115.51433389544687
+      "index_first_100": 89.89501312335958
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6039,7 +9399,7 @@
       "rolling_4": 683.5,
       "rolling_6": 680.8333333333334,
       "rolling_12": 667.5833333333334,
-      "index_first_100": 115.68296795952782
+      "index_first_100": 90.02624671916011
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6067,7 +9427,7 @@
       "rolling_4": 686.25,
       "rolling_6": 683.6666666666666,
       "rolling_12": 671.25,
-      "index_first_100": 116.52613827993254
+      "index_first_100": 90.68241469816273
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6095,7 +9455,7 @@
       "rolling_4": 689.0,
       "rolling_6": 686.5,
       "rolling_12": 675.1666666666666,
-      "index_first_100": 117.03204047217537
+      "index_first_100": 91.0761154855643
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6123,7 +9483,7 @@
       "rolling_4": 692.25,
       "rolling_6": 689.5,
       "rolling_12": 679.4166666666666,
-      "index_first_100": 117.70657672849916
+      "index_first_100": 91.60104986876641
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6151,7 +9511,7 @@
       "rolling_4": 697.5,
       "rolling_6": 693.5,
       "rolling_12": 683.6666666666666,
-      "index_first_100": 119.22428330522766
+      "index_first_100": 92.78215223097112
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6179,7 +9539,7 @@
       "rolling_4": 703.25,
       "rolling_6": 698.3333333333334,
       "rolling_12": 688.1666666666666,
-      "index_first_100": 120.40472175379426
+      "index_first_100": 93.7007874015748
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6207,7 +9567,7 @@
       "rolling_4": 710.25,
       "rolling_6": 704.3333333333334,
       "rolling_12": 692.5833333333334,
-      "index_first_100": 121.75379426644182
+      "index_first_100": 94.750656167979
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6235,7 +9595,7 @@
       "rolling_4": 717.25,
       "rolling_6": 710.1666666666666,
       "rolling_12": 696.9166666666666,
-      "index_first_100": 122.4283305227656
+      "index_first_100": 95.2755905511811
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6263,7 +9623,7 @@
       "rolling_4": 723.0,
       "rolling_6": 716.1666666666666,
       "rolling_12": 701.3333333333334,
-      "index_first_100": 123.10286677908937
+      "index_first_100": 95.8005249343832
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6291,7 +9651,7 @@
       "rolling_4": 727.0,
       "rolling_6": 721.5,
       "rolling_12": 705.5,
-      "index_first_100": 123.10286677908937
+      "index_first_100": 95.8005249343832
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6319,7 +9679,7 @@
       "rolling_4": 730.75,
       "rolling_6": 726.5,
       "rolling_12": 710.0,
-      "index_first_100": 124.28330522765599
+      "index_first_100": 96.71916010498688
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6347,7 +9707,7 @@
       "rolling_4": 733.75,
       "rolling_6": 730.5,
       "rolling_12": 714.4166666666666,
-      "index_first_100": 124.45193929173692
+      "index_first_100": 96.8503937007874
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6375,7 +9735,7 @@
       "rolling_4": 736.5,
       "rolling_6": 733.6666666666666,
       "rolling_12": 719.0,
-      "index_first_100": 124.95784148397976
+      "index_first_100": 97.24409448818898
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6403,7 +9763,7 @@
       "rolling_4": 737.5,
       "rolling_6": 735.0,
       "rolling_12": 722.5833333333334,
-      "index_first_100": 123.77740303541316
+      "index_first_100": 96.3254593175853
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6431,7 +9791,7 @@
       "rolling_4": 739.0,
       "rolling_6": 737.1666666666666,
       "rolling_12": 726.6666666666666,
-      "index_first_100": 125.29510961214166
+      "index_first_100": 97.50656167979002
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6459,7 +9819,7 @@
       "rolling_4": 740.75,
       "rolling_6": 739.6666666666666,
       "rolling_12": 730.5833333333334,
-      "index_first_100": 125.63237774030354
+      "index_first_100": 97.76902887139107
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6487,7 +9847,7 @@
       "rolling_4": 741.25,
       "rolling_6": 740.6666666666666,
       "rolling_12": 733.5833333333334,
-      "index_first_100": 125.29510961214166
+      "index_first_100": 97.50656167979002
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6515,7 +9875,7 @@
       "rolling_4": 743.25,
       "rolling_6": 741.3333333333334,
       "rolling_12": 735.9166666666666,
-      "index_first_100": 125.12647554806071
+      "index_first_100": 97.3753280839895
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6543,7 +9903,7 @@
       "rolling_4": 742.25,
       "rolling_6": 741.0,
       "rolling_12": 737.3333333333334,
-      "index_first_100": 124.62057335581787
+      "index_first_100": 96.98162729658793
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6571,7 +9931,7 @@
       "rolling_4": 740.5,
       "rolling_6": 741.6666666666666,
       "rolling_12": 738.3333333333334,
-      "index_first_100": 124.45193929173692
+      "index_first_100": 96.8503937007874
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6599,7 +9959,7 @@
       "rolling_4": 738.25,
       "rolling_6": 740.1666666666666,
       "rolling_12": 738.6666666666666,
-      "index_first_100": 123.77740303541316
+      "index_first_100": 96.3254593175853
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6627,7 +9987,7 @@
       "rolling_4": 734.75,
       "rolling_6": 737.3333333333334,
       "rolling_12": 738.5,
-      "index_first_100": 122.76559865092749
+      "index_first_100": 95.53805774278216
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6655,7 +10015,7 @@
       "rolling_4": 729.75,
       "rolling_6": 733.3333333333334,
       "rolling_12": 737.0,
-      "index_first_100": 121.24789207419899
+      "index_first_100": 94.35695538057742
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6683,7 +10043,7 @@
       "rolling_4": 724.5,
       "rolling_6": 729.1666666666666,
       "rolling_12": 735.25,
-      "index_first_100": 120.9106239460371
+      "index_first_100": 94.09448818897637
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6711,7 +10071,7 @@
       "rolling_4": 720.25,
       "rolling_6": 725.5,
       "rolling_12": 733.25,
-      "index_first_100": 120.9106239460371
+      "index_first_100": 94.09448818897637
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6739,7 +10099,7 @@
       "rolling_4": 714.5,
       "rolling_6": 720.0,
       "rolling_12": 730.8333333333334,
-      "index_first_100": 118.88701517706576
+      "index_first_100": 92.51968503937007
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6767,7 +10127,7 @@
       "rolling_4": 708.0,
       "rolling_6": 713.1666666666666,
       "rolling_12": 726.6666666666666,
-      "index_first_100": 116.86340640809443
+      "index_first_100": 90.94488188976378
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6795,7 +10155,7 @@
       "rolling_4": 698.5,
       "rolling_6": 705.0,
       "rolling_12": 721.1666666666666,
-      "index_first_100": 114.50252951096121
+      "index_first_100": 89.10761154855643
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6823,7 +10183,7 @@
       "rolling_4": 690.25,
       "rolling_6": 699.1666666666666,
       "rolling_12": 716.25,
-      "index_first_100": 115.34569983136593
+      "index_first_100": 89.76377952755905
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6851,7 +10211,7 @@
       "rolling_4": 683.5,
       "rolling_6": 692.6666666666666,
       "rolling_12": 710.9166666666666,
-      "index_first_100": 114.33389544688026
+      "index_first_100": 88.9763779527559
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6879,7 +10239,7 @@
       "rolling_4": 665.0,
       "rolling_6": 676.3333333333334,
       "rolling_12": 700.9166666666666,
-      "index_first_100": 104.38448566610454
+      "index_first_100": 81.23359580052494
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6907,7 +10267,7 @@
       "rolling_4": 644.0,
       "rolling_6": 658.0,
       "rolling_12": 689.0,
-      "index_first_100": 100.33726812816188
+      "index_first_100": 78.08398950131233
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6935,7 +10295,7 @@
       "rolling_4": 617.75,
       "rolling_6": 639.0,
       "rolling_12": 676.0833333333334,
-      "index_first_100": 97.63912310286678
+      "index_first_100": 75.98425196850394
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6963,7 +10323,7 @@
       "rolling_4": 590.5,
       "rolling_6": 620.6666666666666,
       "rolling_12": 662.8333333333334,
-      "index_first_100": 95.95278246205734
+      "index_first_100": 74.67191601049869
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -6991,7 +10351,7 @@
       "rolling_4": 576.0,
       "rolling_6": 600.1666666666666,
       "rolling_12": 649.6666666666666,
-      "index_first_100": 94.60370994940978
+      "index_first_100": 73.62204724409449
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7019,7 +10379,7 @@
       "rolling_4": 567.5,
       "rolling_6": 580.6666666666666,
       "rolling_12": 636.6666666666666,
-      "index_first_100": 94.60370994940978
+      "index_first_100": 73.62204724409449
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7047,7 +10407,7 @@
       "rolling_4": 561.75,
       "rolling_6": 570.1666666666666,
       "rolling_12": 623.25,
-      "index_first_100": 93.76053962900505
+      "index_first_100": 72.96587926509186
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7075,7 +10435,7 @@
       "rolling_4": 558.0,
       "rolling_6": 563.3333333333334,
       "rolling_12": 610.6666666666666,
-      "index_first_100": 93.42327150084317
+      "index_first_100": 72.70341207349081
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7103,7 +10463,7 @@
       "rolling_4": 557.0,
       "rolling_6": 559.6666666666666,
       "rolling_12": 599.3333333333334,
-      "index_first_100": 93.929173693086
+      "index_first_100": 73.0971128608924
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7131,7 +10491,7 @@
       "rolling_4": 554.0,
       "rolling_6": 556.3333333333334,
       "rolling_12": 588.5,
-      "index_first_100": 92.58010118043845
+      "index_first_100": 72.04724409448819
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7159,7 +10519,7 @@
       "rolling_4": 549.75,
       "rolling_6": 552.6666666666666,
       "rolling_12": 576.4166666666666,
-      "index_first_100": 90.89376053962901
+      "index_first_100": 70.73490813648294
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7187,7 +10547,7 @@
       "rolling_4": 549.5,
       "rolling_6": 551.3333333333334,
       "rolling_12": 566.0,
-      "index_first_100": 93.25463743676222
+      "index_first_100": 72.57217847769029
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7215,7 +10575,7 @@
       "rolling_4": 549.0,
       "rolling_6": 551.1666666666666,
       "rolling_12": 560.6666666666666,
-      "index_first_100": 93.59190556492412
+      "index_first_100": 72.83464566929135
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7243,7 +10603,7 @@
       "rolling_4": 551.0,
       "rolling_6": 551.6666666666666,
       "rolling_12": 557.5,
-      "index_first_100": 93.929173693086
+      "index_first_100": 73.0971128608924
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7271,7 +10631,7 @@
       "rolling_4": 556.0,
       "rolling_6": 552.0,
       "rolling_12": 555.8333333333334,
-      "index_first_100": 94.2664418212479
+      "index_first_100": 73.35958005249343
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7299,7 +10659,7 @@
       "rolling_4": 558.0,
       "rolling_6": 554.0,
       "rolling_12": 555.1666666666666,
-      "index_first_100": 94.60370994940978
+      "index_first_100": 73.62204724409449
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7327,7 +10687,7 @@
       "rolling_4": 560.5,
       "rolling_6": 558.3333333333334,
       "rolling_12": 555.5,
-      "index_first_100": 95.27824620573357
+      "index_first_100": 74.1469816272966
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7355,7 +10715,7 @@
       "rolling_4": 562.75,
       "rolling_6": 560.5,
       "rolling_12": 555.9166666666666,
-      "index_first_100": 95.4468802698145
+      "index_first_100": 74.2782152230971
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7383,7 +10743,7 @@
       "rolling_4": 565.25,
       "rolling_6": 562.8333333333334,
       "rolling_12": 557.0,
-      "index_first_100": 95.95278246205734
+      "index_first_100": 74.67191601049869
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7411,7 +10771,7 @@
       "rolling_4": 568.0,
       "rolling_6": 565.3333333333334,
       "rolling_12": 558.5,
-      "index_first_100": 96.45868465430016
+      "index_first_100": 75.06561679790026
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7439,7 +10799,7 @@
       "rolling_4": 571.0,
       "rolling_6": 568.3333333333334,
       "rolling_12": 560.1666666666666,
-      "index_first_100": 97.3018549747049
+      "index_first_100": 75.7217847769029
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7467,7 +10827,7 @@
       "rolling_4": 574.0,
       "rolling_6": 571.1666666666666,
       "rolling_12": 562.5833333333334,
-      "index_first_100": 97.47048903878583
+      "index_first_100": 75.8530183727034
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7495,7 +10855,7 @@
       "rolling_4": 577.0,
       "rolling_6": 573.8333333333334,
       "rolling_12": 566.0833333333334,
-      "index_first_100": 97.97639123102867
+      "index_first_100": 76.24671916010499
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7523,7 +10883,7 @@
       "rolling_4": 581.25,
       "rolling_6": 577.6666666666666,
       "rolling_12": 569.0833333333334,
-      "index_first_100": 99.32546374367622
+      "index_first_100": 77.29658792650919
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7551,7 +10911,7 @@
       "rolling_4": 586.0,
       "rolling_6": 582.1666666666666,
       "rolling_12": 572.5,
-      "index_first_100": 100.50590219224283
+      "index_first_100": 78.21522309711287
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7579,7 +10939,7 @@
       "rolling_4": 591.5,
       "rolling_6": 586.8333333333334,
       "rolling_12": 576.0833333333334,
-      "index_first_100": 101.1804384485666
+      "index_first_100": 78.74015748031496
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7607,7 +10967,7 @@
       "rolling_4": 598.25,
       "rolling_6": 592.0,
       "rolling_12": 580.1666666666666,
-      "index_first_100": 102.52951096121417
+      "index_first_100": 79.79002624671917
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7635,7 +10995,7 @@
       "rolling_4": 604.5,
       "rolling_6": 598.0,
       "rolling_12": 584.5833333333334,
-      "index_first_100": 103.54131534569984
+      "index_first_100": 80.5774278215223
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7663,7 +11023,7 @@
       "rolling_4": 608.5,
       "rolling_6": 603.1666666666666,
       "rolling_12": 588.5,
-      "index_first_100": 103.20404721753795
+      "index_first_100": 80.31496062992126
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7691,7 +11051,7 @@
       "rolling_4": 612.0,
       "rolling_6": 607.3333333333334,
       "rolling_12": 592.5,
-      "index_first_100": 103.54131534569984
+      "index_first_100": 80.5774278215223
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7719,7 +11079,7 @@
       "rolling_4": 614.5,
       "rolling_6": 611.0,
       "rolling_12": 596.5833333333334,
-      "index_first_100": 104.2158516020236
+      "index_first_100": 81.10236220472441
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7747,7 +11107,7 @@
       "rolling_4": 617.0,
       "rolling_6": 615.0,
       "rolling_12": 600.9166666666666,
-      "index_first_100": 105.22765598650928
+      "index_first_100": 81.88976377952756
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7775,7 +11135,7 @@
       "rolling_4": 620.75,
       "rolling_6": 618.1666666666666,
       "rolling_12": 605.0833333333334,
-      "index_first_100": 105.73355817875212
+      "index_first_100": 82.28346456692913
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7803,7 +11163,7 @@
       "rolling_4": 625.75,
       "rolling_6": 621.5,
       "rolling_12": 609.75,
-      "index_first_100": 106.91399662731871
+      "index_first_100": 83.2020997375328
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7831,7 +11191,7 @@
       "rolling_4": 629.5,
       "rolling_6": 625.0,
       "rolling_12": 614.0833333333334,
-      "index_first_100": 106.74536256323776
+      "index_first_100": 83.07086614173228
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7859,7 +11219,7 @@
       "rolling_4": 632.0,
       "rolling_6": 628.3333333333334,
       "rolling_12": 617.8333333333334,
-      "index_first_100": 106.91399662731871
+      "index_first_100": 83.2020997375328
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7887,7 +11247,7 @@
       "rolling_4": 634.5,
       "rolling_6": 631.5,
       "rolling_12": 621.25,
-      "index_first_100": 107.41989881956155
+      "index_first_100": 83.59580052493439
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7915,7 +11275,7 @@
       "rolling_4": 636.5,
       "rolling_6": 634.5,
       "rolling_12": 624.75,
-      "index_first_100": 108.26306913996629
+      "index_first_100": 84.25196850393701
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7943,7 +11303,7 @@
       "rolling_4": 638.25,
       "rolling_6": 636.6666666666666,
       "rolling_12": 627.4166666666666,
-      "index_first_100": 107.92580101180438
+      "index_first_100": 83.98950131233596
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7971,7 +11331,7 @@
       "rolling_4": 640.25,
       "rolling_6": 638.0,
       "rolling_12": 629.75,
-      "index_first_100": 108.26306913996629
+      "index_first_100": 84.25196850393701
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -7999,7 +11359,7 @@
       "rolling_4": 641.25,
       "rolling_6": 639.3333333333334,
       "rolling_12": 632.1666666666666,
-      "index_first_100": 108.09443507588531
+      "index_first_100": 84.12073490813648
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8027,7 +11387,7 @@
       "rolling_4": 641.0,
       "rolling_6": 640.5,
       "rolling_12": 634.4166666666666,
-      "index_first_100": 108.09443507588531
+      "index_first_100": 84.12073490813648
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8055,7 +11415,7 @@
       "rolling_4": 640.75,
       "rolling_6": 640.8333333333334,
       "rolling_12": 636.1666666666666,
-      "index_first_100": 107.75716694772343
+      "index_first_100": 83.85826771653542
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8083,7 +11443,7 @@
       "rolling_4": 639.25,
       "rolling_6": 639.8333333333334,
       "rolling_12": 637.1666666666666,
-      "index_first_100": 107.25126475548062
+      "index_first_100": 83.46456692913385
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8111,7 +11471,7 @@
       "rolling_4": 638.5,
       "rolling_6": 639.5,
       "rolling_12": 638.0833333333334,
-      "index_first_100": 107.5885328836425
+      "index_first_100": 83.72703412073491
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8139,7 +11499,7 @@
       "rolling_4": 636.5,
       "rolling_6": 638.0,
       "rolling_12": 638.0,
-      "index_first_100": 106.74536256323776
+      "index_first_100": 83.07086614173228
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8167,7 +11527,7 @@
       "rolling_4": 635.0,
       "rolling_6": 636.6666666666666,
       "rolling_12": 638.0,
-      "index_first_100": 106.74536256323776
+      "index_first_100": 83.07086614173228
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8195,7 +11555,7 @@
       "rolling_4": 635.0,
       "rolling_6": 635.8333333333334,
       "rolling_12": 638.1666666666666,
-      "index_first_100": 107.25126475548062
+      "index_first_100": 83.46456692913385
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8223,7 +11583,7 @@
       "rolling_4": 632.5,
       "rolling_6": 634.0,
       "rolling_12": 637.4166666666666,
-      "index_first_100": 105.90219224283305
+      "index_first_100": 82.41469816272966
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8251,7 +11611,7 @@
       "rolling_4": 630.25,
       "rolling_6": 632.0,
       "rolling_12": 635.9166666666666,
-      "index_first_100": 105.22765598650928
+      "index_first_100": 81.88976377952756
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8279,7 +11639,7 @@
       "rolling_4": 627.0,
       "rolling_6": 629.0,
       "rolling_12": 634.25,
-      "index_first_100": 104.5531197301855
+      "index_first_100": 81.36482939632546
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8307,7 +11667,7 @@
       "rolling_4": 623.5,
       "rolling_6": 627.1666666666666,
       "rolling_12": 632.5833333333334,
-      "index_first_100": 104.8903878583474
+      "index_first_100": 81.62729658792651
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8335,7 +11695,7 @@
       "rolling_4": 621.5,
       "rolling_6": 625.0,
       "rolling_12": 630.8333333333334,
-      "index_first_100": 104.5531197301855
+      "index_first_100": 81.36482939632546
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8363,7 +11723,7 @@
       "rolling_4": 621.0,
       "rolling_6": 622.6666666666666,
       "rolling_12": 629.25,
-      "index_first_100": 104.8903878583474
+      "index_first_100": 81.62729658792651
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8391,7 +11751,7 @@
       "rolling_4": 621.5,
       "rolling_6": 621.6666666666666,
       "rolling_12": 627.8333333333334,
-      "index_first_100": 104.8903878583474
+      "index_first_100": 81.62729658792651
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8419,7 +11779,7 @@
       "rolling_4": 622.0,
       "rolling_6": 621.6666666666666,
       "rolling_12": 626.8333333333334,
-      "index_first_100": 105.22765598650928
+      "index_first_100": 81.88976377952756
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8447,7 +11807,7 @@
       "rolling_4": 622.5,
       "rolling_6": 622.0,
       "rolling_12": 625.5,
-      "index_first_100": 104.8903878583474
+      "index_first_100": 81.62729658792651
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8475,7 +11835,7 @@
       "rolling_4": 622.5,
       "rolling_6": 622.0,
       "rolling_12": 624.5833333333334,
-      "index_first_100": 104.8903878583474
+      "index_first_100": 81.62729658792651
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8503,7 +11863,7 @@
       "rolling_4": 622.5,
       "rolling_6": 622.3333333333334,
       "rolling_12": 623.6666666666666,
-      "index_first_100": 104.8903878583474
+      "index_first_100": 81.62729658792651
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8531,7 +11891,7 @@
       "rolling_4": 621.5,
       "rolling_6": 622.0,
       "rolling_12": 622.3333333333334,
-      "index_first_100": 104.5531197301855
+      "index_first_100": 81.36482939632546
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8559,7 +11919,7 @@
       "rolling_4": 621.5,
       "rolling_6": 622.0,
       "rolling_12": 621.8333333333334,
-      "index_first_100": 104.8903878583474
+      "index_first_100": 81.62729658792651
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8587,7 +11947,7 @@
       "rolling_4": 620.5,
       "rolling_6": 621.0,
       "rolling_12": 621.3333333333334,
-      "index_first_100": 104.2158516020236
+      "index_first_100": 81.10236220472441
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8615,7 +11975,7 @@
       "rolling_4": 619.0,
       "rolling_6": 620.0,
       "rolling_12": 621.0,
-      "index_first_100": 103.87858347386172
+      "index_first_100": 80.83989501312337
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8643,7 +12003,7 @@
       "rolling_4": 616.5,
       "rolling_6": 618.0,
       "rolling_12": 620.0,
-      "index_first_100": 102.86677908937605
+      "index_first_100": 80.0524934383202
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8671,7 +12031,7 @@
       "rolling_4": 612.75,
       "rolling_6": 615.5,
       "rolling_12": 618.9166666666666,
-      "index_first_100": 102.36087689713322
+      "index_first_100": 79.65879265091863
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8699,7 +12059,7 @@
       "rolling_4": 609.5,
       "rolling_6": 613.0,
       "rolling_12": 617.5,
-      "index_first_100": 102.02360876897134
+      "index_first_100": 79.39632545931758
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8727,7 +12087,7 @@
       "rolling_4": 607.0,
       "rolling_6": 610.3333333333334,
       "rolling_12": 616.1666666666666,
-      "index_first_100": 102.19224283305228
+      "index_first_100": 79.52755905511812
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8755,7 +12115,7 @@
       "rolling_4": 605.75,
       "rolling_6": 608.1666666666666,
       "rolling_12": 614.5833333333334,
-      "index_first_100": 102.02360876897134
+      "index_first_100": 79.39632545931758
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8783,7 +12143,7 @@
       "rolling_4": 605.0,
       "rolling_6": 606.1666666666666,
       "rolling_12": 613.0833333333334,
-      "index_first_100": 101.85497470489038
+      "index_first_100": 79.26509186351706
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8811,7 +12171,7 @@
       "rolling_4": 604.25,
       "rolling_6": 604.8333333333334,
       "rolling_12": 611.4166666666666,
-      "index_first_100": 101.5177065767285
+      "index_first_100": 79.00262467191601
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8839,7 +12199,7 @@
       "rolling_4": 603.0,
       "rolling_6": 603.8333333333334,
       "rolling_12": 609.6666666666666,
-      "index_first_100": 101.34907251264755
+      "index_first_100": 78.87139107611549
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8867,7 +12227,7 @@
       "rolling_4": 602.5,
       "rolling_6": 603.5,
       "rolling_12": 608.25,
-      "index_first_100": 101.68634064080943
+      "index_first_100": 79.13385826771653
     },
     {
       "indicator_id": "payrolls_mining_logging",
@@ -8895,7 +12255,7 @@
       "rolling_4": 603.0,
       "rolling_6": 603.5,
       "rolling_12": 606.9166666666666,
-      "index_first_100": 102.19224283305228
+      "index_first_100": 79.52755905511812
     }
   ]
 }

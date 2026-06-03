@@ -111,7 +111,7 @@
       "rolling_4": 24.775,
       "rolling_6": 24.433333333333334,
       "rolling_12": 24.018181818181816,
-      "index_first_100": 274.15730337078645
+      "index_first_100": 206.77966101694915
     },
     {
       "indicator_id": "bed_closings_level",
@@ -486,8 +486,8 @@
       "frequency": "W",
       "seasonal_adjustment": "SA",
       "units": "Number",
-      "realtime_start": "2026-06-02",
-      "realtime_end": "2026-06-02",
+      "realtime_start": "2026-06-03",
+      "realtime_end": "2026-06-03",
       "footnotes": "",
       "geography": "US",
       "geo_id": "US",
@@ -503,7 +503,7 @@
       "rolling_4": 1772750.0,
       "rolling_6": 1779166.6666666667,
       "rolling_12": 1801416.6666666667,
-      "index_first_100": 84.96669838249286
+      "index_first_100": 76.09714529186195
     },
     {
       "indicator_id": "cpi_all_urban_consumers",
@@ -1117,14 +1117,14 @@
       "pct_change_12": -1.8018018018017945,
       "rolling_3": 22.133333333333336,
       "rolling_4": 22.25,
-      "rolling_6": 22.799999999999997,
+      "rolling_6": 22.8,
       "rolling_12": 22.745454545454546,
       "index_first_100": 111.22448979591837
     },
     {
       "indicator_id": "hires_level",
-      "date": "2026-03-01",
-      "value": 5554.0,
+      "date": "2026-04-01",
+      "value": 5116.0,
       "source": "bls_public_api",
       "series_id": "JTS000000000000000HIL",
       "frequency": "M",
@@ -1137,22 +1137,22 @@
       "geo_id": "US",
       "geo_label": "US",
       "entity_key": "hires_level|US",
-      "change_1": 655.0,
-      "pct_change_1": 13.370075525617464,
-      "change_4": 535.0,
-      "pct_change_4": 10.659493923092246,
-      "change_12": 221.0,
-      "pct_change_12": 4.144009000562532,
-      "rolling_3": 5266.666666666667,
-      "rolling_4": 5268.0,
-      "rolling_6": 5211.833333333333,
-      "rolling_12": 5244.25,
-      "index_first_100": 102.35901216365646
+      "change_1": -419.0,
+      "pct_change_1": -7.570009033423664,
+      "change_4": -156.0,
+      "pct_change_4": -2.959028831562971,
+      "change_12": -275.0,
+      "pct_change_12": -5.101094416620288,
+      "rolling_3": 5183.333333333333,
+      "rolling_4": 5224.25,
+      "rolling_6": 5198.0,
+      "rolling_12": 5219.75,
+      "index_first_100": 94.28676741614449
     },
     {
       "indicator_id": "hires_rate",
-      "date": "2026-03-01",
-      "value": 3.5,
+      "date": "2026-04-01",
+      "value": 3.2,
       "source": "bls_public_api",
       "series_id": "JTS000000000000000HIR",
       "frequency": "M",
@@ -1165,17 +1165,17 @@
       "geo_id": "US",
       "geo_label": "US",
       "entity_key": "hires_rate|US",
-      "change_1": 0.3999999999999999,
-      "pct_change_1": 12.903225806451601,
-      "change_4": 0.2999999999999998,
-      "pct_change_4": 9.375,
-      "change_12": 0.10000000000000009,
-      "pct_change_12": 2.941176470588247,
-      "rolling_3": 3.3333333333333335,
-      "rolling_4": 3.325,
-      "rolling_6": 3.3000000000000003,
-      "rolling_12": 3.316666666666667,
-      "index_first_100": 85.3658536585366
+      "change_1": -0.2999999999999998,
+      "pct_change_1": -8.571428571428562,
+      "change_4": -0.09999999999999964,
+      "pct_change_4": -3.0303030303030165,
+      "change_12": -0.19999999999999973,
+      "pct_change_12": -5.88235294117646,
+      "rolling_3": 3.266666666666666,
+      "rolling_4": 3.3000000000000007,
+      "rolling_6": 3.283333333333333,
+      "rolling_12": 3.2999999999999994,
+      "index_first_100": 78.04878048780489
     },
     {
       "indicator_id": "initial_claims_sa",
@@ -1186,8 +1186,8 @@
       "frequency": "W",
       "seasonal_adjustment": "SA",
       "units": "Number",
-      "realtime_start": "2026-06-02",
-      "realtime_end": "2026-06-02",
+      "realtime_start": "2026-06-03",
+      "realtime_end": "2026-06-03",
       "footnotes": "",
       "geography": "US",
       "geo_id": "US",
@@ -1203,12 +1203,12 @@
       "rolling_4": 209000.0,
       "rolling_6": 206833.33333333334,
       "rolling_12": 208250.0,
-      "index_first_100": 75.17482517482517
+      "index_first_100": 60.56338028169014
     },
     {
       "indicator_id": "job_openings_level",
-      "date": "2026-03-01",
-      "value": 6866.0,
+      "date": "2026-04-01",
+      "value": 7618.0,
       "source": "bls_public_api",
       "series_id": "JTS000000000000000JOL",
       "frequency": "M",
@@ -1221,22 +1221,22 @@
       "geo_id": "US",
       "geo_label": "US",
       "entity_key": "job_openings_level|US",
-      "change_1": -56.0,
-      "pct_change_1": -0.8090147356255462,
-      "change_4": 20.0,
-      "pct_change_4": 0.29214139643587433,
-      "change_12": -86.0,
-      "pct_change_12": -1.2370540851553535,
-      "rolling_3": 7009.333333333333,
-      "rolling_4": 6894.5,
-      "rolling_6": 6932.333333333333,
-      "rolling_12": 7031.916666666667,
-      "index_first_100": 134.94496855345912
+      "change_1": 731.0,
+      "pct_change_1": 10.614200667925067,
+      "change_4": 1068.0,
+      "pct_change_4": 16.30534351145039,
+      "change_12": 520.0,
+      "pct_change_12": 7.326007326007322,
+      "rolling_3": 7142.333333333333,
+      "rolling_4": 7166.75,
+      "rolling_6": 7010.5,
+      "rolling_12": 7077.0,
+      "index_first_100": 149.7248427672956
     },
     {
       "indicator_id": "job_openings_rate",
-      "date": "2026-03-01",
-      "value": 4.1,
+      "date": "2026-04-01",
+      "value": 4.6,
       "source": "bls_public_api",
       "series_id": "JTS000000000000000JOR",
       "frequency": "M",
@@ -1249,17 +1249,17 @@
       "geo_id": "US",
       "geo_label": "US",
       "entity_key": "job_openings_rate|US",
-      "change_1": -0.10000000000000053,
-      "pct_change_1": -2.3809523809523947,
-      "change_4": 0.0,
-      "pct_change_4": 0.0,
-      "change_12": -0.10000000000000053,
-      "pct_change_12": -2.3809523809523947,
-      "rolling_3": 4.233333333333334,
-      "rolling_4": 4.175000000000001,
-      "rolling_6": 4.183333333333333,
-      "rolling_12": 4.241666666666666,
-      "index_first_100": 110.81081081081079
+      "change_1": 0.39999999999999947,
+      "pct_change_1": 9.523809523809511,
+      "change_4": 0.5999999999999996,
+      "pct_change_4": 14.999999999999991,
+      "change_12": 0.2999999999999998,
+      "pct_change_12": 6.976744186046502,
+      "rolling_3": 4.333333333333334,
+      "rolling_4": 4.3500000000000005,
+      "rolling_6": 4.25,
+      "rolling_12": 4.2749999999999995,
+      "index_first_100": 124.3243243243243
     },
     {
       "indicator_id": "labor_force_participation_rate",
@@ -1354,8 +1354,8 @@
       "frequency": "Q",
       "seasonal_adjustment": "SA",
       "units": "Index 2017=100",
-      "realtime_start": "2026-06-01",
-      "realtime_end": "2026-06-01",
+      "realtime_start": "2026-06-03",
+      "realtime_end": "2026-06-03",
       "footnotes": "",
       "geography": "US",
       "geo_id": "US",
@@ -1370,8 +1370,8 @@
       "rolling_3": 119.27,
       "rolling_4": 118.79875,
       "rolling_6": 117.97116666666666,
-      "rolling_12": 115.90583333333335,
-      "index_first_100": 167.89194350060376
+      "rolling_12": 115.90583333333332,
+      "index_first_100": 206.3932615299641
     },
     {
       "indicator_id": "labor_share_nonfarm_business",
@@ -1382,8 +1382,8 @@
       "frequency": "Q",
       "seasonal_adjustment": "SA",
       "units": "Percent",
-      "realtime_start": "2026-06-01",
-      "realtime_end": "2026-06-01",
+      "realtime_start": "2026-06-03",
+      "realtime_end": "2026-06-03",
       "footnotes": "",
       "geography": "US",
       "geo_id": "US",
@@ -1399,7 +1399,7 @@
       "rolling_4": 96.184,
       "rolling_6": 96.59116666666667,
       "rolling_12": 96.57266666666668,
-      "index_first_100": 84.82557521182684
+      "index_first_100": 86.86264544117913
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1427,7 +1427,7 @@
       "rolling_4": 2318735.0,
       "rolling_6": 2320174.1666666665,
       "rolling_12": 2315763.5454545454,
-      "index_first_100": 112.52893815766605
+      "index_first_100": 130.45412265115786
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1455,7 +1455,7 @@
       "rolling_4": 351873.75,
       "rolling_6": 351301.1666666667,
       "rolling_12": 350022.54545454547,
-      "index_first_100": 117.77013269676333
+      "index_first_100": 139.42977925023453
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1483,7 +1483,7 @@
       "rolling_4": 3614546.25,
       "rolling_6": 3625642.5,
       "rolling_12": 3631328.727272727,
-      "index_first_100": 149.80171483318577
+      "index_first_100": 212.15214193154063
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1511,7 +1511,7 @@
       "rolling_4": 1390979.5,
       "rolling_6": 1389478.3333333333,
       "rolling_12": 1383866.1818181819,
-      "index_first_100": 115.05609883242059
+      "index_first_100": 133.07343547701288
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1539,7 +1539,7 @@
       "rolling_4": 18731660.25,
       "rolling_6": 18749371.0,
       "rolling_12": 18745799.454545453,
-      "index_first_100": 117.88741422601115
+      "index_first_100": 129.50882827489139
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1567,7 +1567,7 @@
       "rolling_4": 3105904.25,
       "rolling_6": 3113615.3333333335,
       "rolling_12": 3120356.090909091,
-      "index_first_100": 135.5477081727206
+      "index_first_100": 186.26308560375568
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1595,7 +1595,7 @@
       "rolling_4": 1831842.25,
       "rolling_6": 1838009.5,
       "rolling_12": 1847124.9090909092,
-      "index_first_100": 105.45208935391248
+      "index_first_100": 104.68301929868863
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1623,7 +1623,7 @@
       "rolling_4": 486342.0,
       "rolling_6": 487406.1666666667,
       "rolling_12": 489077.1818181818,
-      "index_first_100": 123.76329668365067
+      "index_first_100": 140.39221480554397
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1651,7 +1651,7 @@
       "rolling_4": 379941.5,
       "rolling_6": 380449.1666666667,
       "rolling_12": 382329.36363636365,
-      "index_first_100": 130.31349902031556
+      "index_first_100": 119.8814135504783
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1679,7 +1679,7 @@
       "rolling_4": 10622667.0,
       "rolling_6": 10627385.5,
       "rolling_12": 10639241.181818182,
-      "index_first_100": 141.19738233687778
+      "index_first_100": 174.44073001560432
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1707,7 +1707,7 @@
       "rolling_4": 5260829.0,
       "rolling_6": 5257645.166666667,
       "rolling_12": 5247105.818181818,
-      "index_first_100": 131.32599910159524
+      "index_first_100": 169.59205026305222
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1735,7 +1735,7 @@
       "rolling_4": 671775.0,
       "rolling_6": 672169.6666666666,
       "rolling_12": 672030.8181818182,
-      "index_first_100": 116.07190115666629
+      "index_first_100": 127.93419532450498
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1763,7 +1763,7 @@
       "rolling_4": 970039.75,
       "rolling_6": 971112.0,
       "rolling_12": 971102.9090909091,
-      "index_first_100": 154.26569053343266
+      "index_first_100": 207.52359103015058
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1791,7 +1791,7 @@
       "rolling_4": 6234411.25,
       "rolling_6": 6239946.333333333,
       "rolling_12": 6260611.0,
-      "index_first_100": 99.80595595943453
+      "index_first_100": 112.56838713181384
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1819,7 +1819,7 @@
       "rolling_4": 3380223.25,
       "rolling_6": 3381024.3333333335,
       "rolling_12": 3380453.090909091,
-      "index_first_100": 111.07516757311981
+      "index_first_100": 126.7793866435996
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1847,7 +1847,7 @@
       "rolling_4": 1681485.75,
       "rolling_6": 1682242.3333333333,
       "rolling_12": 1679475.0,
-      "index_first_100": 107.8783128757636
+      "index_first_100": 120.9812370482853
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1875,7 +1875,7 @@
       "rolling_4": 1513864.5,
       "rolling_6": 1516229.8333333333,
       "rolling_12": 1515706.5454545454,
-      "index_first_100": 111.05472559909606
+      "index_first_100": 125.10149523038754
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1903,7 +1903,7 @@
       "rolling_4": 2016896.5,
       "rolling_6": 2020408.1666666667,
       "rolling_12": 2019605.4545454546,
-      "index_first_100": 107.33163208579933
+      "index_first_100": 121.98331794323482
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1931,7 +1931,7 @@
       "rolling_4": 2024907.25,
       "rolling_6": 2022780.8333333333,
       "rolling_12": 2012742.4545454546,
-      "index_first_100": 104.94346010093895
+      "index_first_100": 117.5977512581845
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1959,7 +1959,7 @@
       "rolling_4": 684788.0,
       "rolling_6": 685394.8333333334,
       "rolling_12": 685212.1818181818,
-      "index_first_100": 104.25682146756867
+      "index_first_100": 114.71901571176141
     },
     {
       "indicator_id": "laus_state_employment",
@@ -1987,7 +1987,7 @@
       "rolling_4": 3070647.5,
       "rolling_6": 3075488.8333333335,
       "rolling_12": 3085531.090909091,
-      "index_first_100": 113.88956807184458
+      "index_first_100": 123.26747924514339
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2015,7 +2015,7 @@
       "rolling_4": 3723402.5,
       "rolling_6": 3732765.0,
       "rolling_12": 3749019.8181818184,
-      "index_first_100": 114.19816881489862
+      "index_first_100": 120.79189209883663
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2043,7 +2043,7 @@
       "rolling_4": 4722980.0,
       "rolling_6": 4732248.666666667,
       "rolling_12": 4750211.090909091,
-      "index_first_100": 94.24421927356657
+      "index_first_100": 109.98464595481403
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2071,7 +2071,7 @@
       "rolling_4": 3021129.0,
       "rolling_6": 3030206.3333333335,
       "rolling_12": 3039690.8181818184,
-      "index_first_100": 111.50302002141731
+      "index_first_100": 133.7715190279133
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2099,7 +2099,7 @@
       "rolling_4": 1243311.5,
       "rolling_6": 1245064.3333333333,
       "rolling_12": 1245473.2727272727,
-      "index_first_100": 100.45559582061148
+      "index_first_100": 114.61654841788307
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2127,7 +2127,7 @@
       "rolling_4": 3053755.25,
       "rolling_6": 3053306.8333333335,
       "rolling_12": 3046492.272727273,
-      "index_first_100": 106.59436031404543
+      "index_first_100": 124.43106766034475
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2155,7 +2155,7 @@
       "rolling_4": 557074.75,
       "rolling_6": 557598.5,
       "rolling_12": 557995.1818181818,
-      "index_first_100": 124.32537019639423
+      "index_first_100": 144.1772329210592
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2183,7 +2183,7 @@
       "rolling_4": 1070086.25,
       "rolling_6": 1070579.0,
       "rolling_12": 1069399.0909090908,
-      "index_first_100": 117.04424168450092
+      "index_first_100": 136.355752688652
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2211,7 +2211,7 @@
       "rolling_4": 1607883.75,
       "rolling_6": 1604870.8333333333,
       "rolling_12": 1593756.8181818181,
-      "index_first_100": 160.04886860714518
+      "index_first_100": 256.80874135422636
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2239,7 +2239,7 @@
       "rolling_4": 752582.5,
       "rolling_6": 752340.3333333334,
       "rolling_12": 751692.0909090909,
-      "index_first_100": 113.70495595827927
+      "index_first_100": 127.4425807761962
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2267,7 +2267,7 @@
       "rolling_4": 4665655.5,
       "rolling_6": 4662190.0,
       "rolling_12": 4651886.0,
-      "index_first_100": 113.1642320951452
+      "index_first_100": 121.76374642918142
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2295,7 +2295,7 @@
       "rolling_4": 936428.75,
       "rolling_6": 938485.1666666666,
       "rolling_12": 941097.1818181818,
-      "index_first_100": 116.51134973086461
+      "index_first_100": 140.8578940043928
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2323,7 +2323,7 @@
       "rolling_4": 9645836.0,
       "rolling_6": 9635485.5,
       "rolling_12": 9599232.818181818,
-      "index_first_100": 110.62710871609345
+      "index_first_100": 114.7032367093148
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2351,7 +2351,7 @@
       "rolling_4": 5106505.25,
       "rolling_6": 5108781.5,
       "rolling_12": 5101770.909090909,
-      "index_first_100": 129.2328842062248
+      "index_first_100": 152.77290470833407
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2379,7 +2379,7 @@
       "rolling_4": 424359.25,
       "rolling_6": 423834.8333333333,
       "rolling_12": 421944.0909090909,
-      "index_first_100": 127.40368599699285
+      "index_first_100": 140.42658762975265
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2407,7 +2407,7 @@
       "rolling_4": 5678724.75,
       "rolling_6": 5678862.333333333,
       "rolling_12": 5677553.636363637,
-      "index_first_100": 102.31212706647392
+      "index_first_100": 112.43234993463629
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2435,7 +2435,7 @@
       "rolling_4": 1929834.75,
       "rolling_6": 1934797.0,
       "rolling_12": 1943401.7272727273,
-      "index_first_100": 119.30028904055096
+      "index_first_100": 134.13567842361553
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2463,7 +2463,7 @@
       "rolling_4": 2096337.75,
       "rolling_6": 2099140.5,
       "rolling_12": 2099967.909090909,
-      "index_first_100": 122.07885501430589
+      "index_first_100": 149.5207731721676
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2491,7 +2491,7 @@
       "rolling_4": 6314374.0,
       "rolling_6": 6304194.166666667,
       "rolling_12": 6279101.2727272725,
-      "index_first_100": 108.5181640623661
+      "index_first_100": 115.66328137387501
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2519,7 +2519,7 @@
       "rolling_4": 560770.75,
       "rolling_6": 562362.1666666666,
       "rolling_12": 565086.9090909091,
-      "index_first_100": 107.01717335585997
+      "index_first_100": 112.86788899800553
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2547,7 +2547,7 @@
       "rolling_4": 2528167.0,
       "rolling_6": 2521759.6666666665,
       "rolling_12": 2507087.6363636362,
-      "index_first_100": 135.41178339941519
+      "index_first_100": 155.09348970626945
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2575,7 +2575,7 @@
       "rolling_4": 481221.5,
       "rolling_6": 481917.8333333333,
       "rolling_12": 482128.1818181818,
-      "index_first_100": 121.40983780694145
+      "index_first_100": 143.4493268986538
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2603,7 +2603,7 @@
       "rolling_4": 3397025.25,
       "rolling_6": 3404759.3333333335,
       "rolling_12": 3406657.090909091,
-      "index_first_100": 123.46112164923125
+      "index_first_100": 149.6452882365454
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2631,7 +2631,7 @@
       "rolling_4": 15243196.25,
       "rolling_6": 15253963.666666666,
       "rolling_12": 15244561.181818182,
-      "index_first_100": 153.85389556438446
+      "index_first_100": 188.7358743875536
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2659,7 +2659,7 @@
       "rolling_4": 1768047.5,
       "rolling_6": 1771050.5,
       "rolling_12": 1772415.8181818181,
-      "index_first_100": 160.97504986642838
+      "index_first_100": 226.95283740205352
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2687,7 +2687,7 @@
       "rolling_4": 334225.5,
       "rolling_6": 335321.3333333333,
       "rolling_12": 337213.1818181818,
-      "index_first_100": 102.46757452846194
+      "index_first_100": 113.69368876051102
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2715,7 +2715,7 @@
       "rolling_4": 4338751.25,
       "rolling_6": 4345243.666666667,
       "rolling_12": 4357560.181818182,
-      "index_first_100": 123.67130294593079
+      "index_first_100": 140.55011853481545
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2743,7 +2743,7 @@
       "rolling_4": 3856202.75,
       "rolling_6": 3858997.1666666665,
       "rolling_12": 3861801.090909091,
-      "index_first_100": 131.7277336453394
+      "index_first_100": 161.18285858048432
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2771,7 +2771,7 @@
       "rolling_4": 744586.0,
       "rolling_6": 745561.0,
       "rolling_12": 746850.0909090909,
-      "index_first_100": 98.63411134875194
+      "index_first_100": 106.18074901182379
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2799,7 +2799,7 @@
       "rolling_4": 3019216.75,
       "rolling_6": 3018237.6666666665,
       "rolling_12": 3015601.8181818184,
-      "index_first_100": 104.87156969676134
+      "index_first_100": 121.88917745772869
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2827,7 +2827,7 @@
       "rolling_4": 277889.75,
       "rolling_6": 278081.3333333333,
       "rolling_12": 278372.7272727273,
-      "index_first_100": 109.16109190587994
+      "index_first_100": 125.51040248881975
     },
     {
       "indicator_id": "laus_state_employment",
@@ -2855,7 +2855,7 @@
       "rolling_4": 1164908.5,
       "rolling_6": 1164226.6666666667,
       "rolling_12": 1163763.4166666667,
-      "index_first_100": 101.53981292187999
+      "index_first_100": 121.57279268150177
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -2883,7 +2883,7 @@
       "rolling_4": 2384102.25,
       "rolling_6": 2385348.6666666665,
       "rolling_12": 2381786.909090909,
-      "index_first_100": 110.33703705593719
+      "index_first_100": 125.23989285321238
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -2911,7 +2911,7 @@
       "rolling_4": 369290.25,
       "rolling_6": 368756.8333333333,
       "rolling_12": 367232.36363636365,
-      "index_first_100": 115.91680628502226
+      "index_first_100": 135.6462580038771
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -2939,7 +2939,7 @@
       "rolling_4": 3789624.5,
       "rolling_6": 3798183.6666666665,
       "rolling_12": 3800319.272727273,
-      "index_first_100": 150.83654959746053
+      "index_first_100": 211.45805624369078
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -2967,7 +2967,7 @@
       "rolling_4": 1453949.5,
       "rolling_6": 1452216.0,
       "rolling_12": 1444797.6363636365,
-      "index_first_100": 114.9953670908493
+      "index_first_100": 129.66589882291692
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -2995,7 +2995,7 @@
       "rolling_4": 19794666.25,
       "rolling_6": 19822584.666666668,
       "rolling_12": 19827936.454545453,
-      "index_first_100": 118.3061380115362
+      "index_first_100": 129.6844835582015
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3023,7 +3023,7 @@
       "rolling_4": 3232674.25,
       "rolling_6": 3239800.0,
       "rolling_12": 3247523.4545454546,
-      "index_first_100": 137.18603812786506
+      "index_first_100": 183.76165233412425
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3051,7 +3051,7 @@
       "rolling_4": 1923490.75,
       "rolling_6": 1926928.6666666667,
       "rolling_12": 1930574.7272727273,
-      "index_first_100": 108.4638486734824
+      "index_first_100": 105.34544543083241
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3079,7 +3079,7 @@
       "rolling_4": 513966.25,
       "rolling_6": 515008.3333333333,
       "rolling_12": 515470.9090909091,
-      "index_first_100": 126.38504309077841
+      "index_first_100": 143.07593361575996
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3107,7 +3107,7 @@
       "rolling_4": 406042.5,
       "rolling_6": 407038.0,
       "rolling_12": 408716.54545454547,
-      "index_first_100": 130.91459760620637
+      "index_first_100": 121.11086138955065
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3135,7 +3135,7 @@
       "rolling_4": 11139996.0,
       "rolling_6": 11132293.5,
       "rolling_12": 11111345.181818182,
-      "index_first_100": 142.7560737147724
+      "index_first_100": 172.53489948703236
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3163,7 +3163,7 @@
       "rolling_4": 5453379.25,
       "rolling_6": 5449497.5,
       "rolling_12": 5434466.363636363,
-      "index_first_100": 131.15820021080586
+      "index_first_100": 166.59152726477427
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3191,7 +3191,7 @@
       "rolling_4": 687774.25,
       "rolling_6": 687862.6666666666,
       "rolling_12": 687515.2727272727,
-      "index_first_100": 113.58334736793441
+      "index_first_100": 127.68757877074026
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3219,7 +3219,7 @@
       "rolling_4": 1006823.75,
       "rolling_6": 1007872.3333333334,
       "rolling_12": 1007713.7272727273,
-      "index_first_100": 152.75771783474397
+      "index_first_100": 203.9895514651326
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3247,7 +3247,7 @@
       "rolling_4": 6564192.75,
       "rolling_6": 6562385.0,
       "rolling_12": 6566703.7272727275,
-      "index_first_100": 100.64018803863635
+      "index_first_100": 111.1891657268394
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3275,7 +3275,7 @@
       "rolling_4": 3495580.75,
       "rolling_6": 3499155.3333333335,
       "rolling_12": 3503969.1818181816,
-      "index_first_100": 111.26397275930128
+      "index_first_100": 124.36632115334685
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3303,7 +3303,7 @@
       "rolling_4": 1739776.75,
       "rolling_6": 1741053.8333333333,
       "rolling_12": 1739119.0909090908,
-      "index_first_100": 108.79462998031076
+      "index_first_100": 119.65329519217242
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3331,7 +3331,7 @@
       "rolling_4": 1575259.25,
       "rolling_6": 1577162.1666666667,
       "rolling_12": 1575783.5454545454,
-      "index_first_100": 111.36784448760922
+      "index_first_100": 124.82029638667875
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3359,7 +3359,7 @@
       "rolling_4": 2106066.0,
       "rolling_6": 2110724.3333333335,
       "rolling_12": 2112899.8181818184,
-      "index_first_100": 107.49487515887009
+      "index_first_100": 120.00956631740836
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3387,7 +3387,7 @@
       "rolling_4": 2117235.75,
       "rolling_6": 2114179.0,
       "rolling_12": 2103165.5454545454,
-      "index_first_100": 104.45672445608389
+      "index_first_100": 115.58150756070233
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3415,7 +3415,7 @@
       "rolling_4": 707518.75,
       "rolling_6": 708383.8333333334,
       "rolling_12": 708424.0,
-      "index_first_100": 103.69089608346347
+      "index_first_100": 113.10620882827536
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3443,7 +3443,7 @@
       "rolling_4": 3210119.5,
       "rolling_6": 3214146.5,
       "rolling_12": 3222307.5454545454,
-      "index_first_100": 115.29717272608649
+      "index_first_100": 124.24089008056602
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3471,7 +3471,7 @@
       "rolling_4": 3907682.0,
       "rolling_6": 3916984.1666666665,
       "rolling_12": 3929875.4545454546,
-      "index_first_100": 116.07922637591481
+      "index_first_100": 120.06558958372445
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3499,7 +3499,7 @@
       "rolling_4": 4973902.25,
       "rolling_6": 4982394.0,
       "rolling_12": 5000293.545454546,
-      "index_first_100": 95.96746705154837
+      "index_first_100": 106.90450966480162
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3527,7 +3527,7 @@
       "rolling_4": 3162317.0,
       "rolling_6": 3169074.5,
       "rolling_12": 3171224.8181818184,
-      "index_first_100": 113.29898035916482
+      "index_first_100": 133.67229439473525
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3555,7 +3555,7 @@
       "rolling_4": 1291618.5,
       "rolling_6": 1293048.1666666667,
       "rolling_12": 1293802.2727272727,
-      "index_first_100": 98.79138794929165
+      "index_first_100": 110.25907099215874
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3583,7 +3583,7 @@
       "rolling_4": 3176225.25,
       "rolling_6": 3176005.6666666665,
       "rolling_12": 3170826.090909091,
-      "index_first_100": 107.51977072898899
+      "index_first_100": 122.110446045424
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3611,7 +3611,7 @@
       "rolling_4": 577938.0,
       "rolling_6": 578376.0,
       "rolling_12": 578038.7272727273,
-      "index_first_100": 122.47066801873333
+      "index_first_100": 140.92107709317915
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3639,7 +3639,7 @@
       "rolling_4": 1103793.5,
       "rolling_6": 1104110.3333333333,
       "rolling_12": 1102253.0,
-      "index_first_100": 117.34944298053304
+      "index_first_100": 137.01437159379807
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3667,7 +3667,7 @@
       "rolling_4": 1697632.75,
       "rolling_6": 1694142.1666666667,
       "rolling_12": 1682113.5454545454,
-      "index_first_100": 162.28877487996238
+      "index_first_100": 258.8622295152969
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3695,7 +3695,7 @@
       "rolling_4": 777234.5,
       "rolling_6": 777059.6666666666,
       "rolling_12": 776240.6363636364,
-      "index_first_100": 114.07462861840175
+      "index_first_100": 125.70131779647996
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3723,7 +3723,7 @@
       "rolling_4": 4910144.5,
       "rolling_6": 4913252.0,
       "rolling_12": 4909536.545454546,
-      "index_first_100": 114.28497845274637
+      "index_first_100": 122.0671326324678
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3751,7 +3751,7 @@
       "rolling_4": 982567.75,
       "rolling_6": 983452.1666666666,
       "rolling_12": 983840.7272727273,
-      "index_first_100": 116.19804255844544
+      "index_first_100": 138.15101189316755
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3779,7 +3779,7 @@
       "rolling_4": 10112292.75,
       "rolling_6": 10101758.833333334,
       "rolling_12": 10053761.545454545,
-      "index_first_100": 110.50853047756743
+      "index_first_100": 114.02667499557396
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3807,7 +3807,7 @@
       "rolling_4": 5306061.0,
       "rolling_6": 5309658.5,
       "rolling_12": 5303842.363636363,
-      "index_first_100": 129.63864566805742
+      "index_first_100": 153.13663446520508
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3835,7 +3835,7 @@
       "rolling_4": 435388.5,
       "rolling_6": 434919.3333333333,
       "rolling_12": 433050.0,
-      "index_first_100": 126.6777092387903
+      "index_first_100": 137.86393618167187
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3863,7 +3863,7 @@
       "rolling_4": 5924112.5,
       "rolling_6": 5928479.333333333,
       "rolling_12": 5935182.909090909,
-      "index_first_100": 102.04833124061601
+      "index_first_100": 110.06804676660562
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3891,7 +3891,7 @@
       "rolling_4": 2008829.25,
       "rolling_6": 2012635.0,
       "rolling_12": 2016471.0,
-      "index_first_100": 120.40246591336737
+      "index_first_100": 132.214058845189
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3919,7 +3919,7 @@
       "rolling_4": 2211612.5,
       "rolling_6": 2214957.5,
       "rolling_12": 2216113.090909091,
-      "index_first_100": 122.28468874975806
+      "index_first_100": 149.6665123559446
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3947,7 +3947,7 @@
       "rolling_4": 6592640.0,
       "rolling_6": 6585416.833333333,
       "rolling_12": 6561147.818181818,
-      "index_first_100": 108.50367007775318
+      "index_first_100": 114.41628533659616
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -3975,7 +3975,7 @@
       "rolling_4": 587748.25,
       "rolling_6": 589094.0,
       "rolling_12": 591260.6363636364,
-      "index_first_100": 107.3091526594943
+      "index_first_100": 111.8323827180829
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -4003,7 +4003,7 @@
       "rolling_4": 2658895.75,
       "rolling_6": 2650869.0,
       "rolling_12": 2630374.5454545454,
-      "index_first_100": 136.5165405522695
+      "index_first_100": 155.18111762450837
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -4031,7 +4031,7 @@
       "rolling_4": 492219.75,
       "rolling_6": 492825.6666666667,
       "rolling_12": 492651.9090909091,
-      "index_first_100": 121.08413520848754
+      "index_first_100": 141.15877248238945
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -4059,7 +4059,7 @@
       "rolling_4": 3523804.5,
       "rolling_6": 3531259.8333333335,
       "rolling_12": 3531695.909090909,
-      "index_first_100": 123.33443614209338
+      "index_first_100": 147.48870017142826
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -4087,7 +4087,7 @@
       "rolling_4": 15927122.25,
       "rolling_6": 15938206.166666666,
       "rolling_12": 15920626.181818182,
-      "index_first_100": 153.12239956580035
+      "index_first_100": 184.74516934953806
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -4115,7 +4115,7 @@
       "rolling_4": 1837508.5,
       "rolling_6": 1840089.1666666667,
       "rolling_12": 1839683.9090909092,
-      "index_first_100": 162.05898846293886
+      "index_first_100": 225.28173810025208
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -4143,7 +4143,7 @@
       "rolling_4": 343279.5,
       "rolling_6": 344430.3333333333,
       "rolling_12": 346325.8181818182,
-      "index_first_100": 102.2896826348742
+      "index_first_100": 111.90893284781683
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -4171,7 +4171,7 @@
       "rolling_4": 4508375.75,
       "rolling_6": 4511985.0,
       "rolling_12": 4516498.636363637,
-      "index_first_100": 125.35057478794076
+      "index_first_100": 140.3934311785795
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -4199,7 +4199,7 @@
       "rolling_4": 4064707.25,
       "rolling_6": 4064061.3333333335,
       "rolling_12": 4058451.727272727,
-      "index_first_100": 132.33585945360366
+      "index_first_100": 160.97328958790362
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -4227,7 +4227,7 @@
       "rolling_4": 780229.0,
       "rolling_6": 781420.5,
       "rolling_12": 781307.3636363636,
-      "index_first_100": 97.17135793576657
+      "index_first_100": 102.10609582552044
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -4255,7 +4255,7 @@
       "rolling_4": 3126798.75,
       "rolling_6": 3123139.1666666665,
       "rolling_12": 3116332.272727273,
-      "index_first_100": 105.31697664896124
+      "index_first_100": 121.00964694366547
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -4283,7 +4283,7 @@
       "rolling_4": 288143.0,
       "rolling_6": 288253.0,
       "rolling_12": 288211.8181818182,
-      "index_first_100": 108.44031232209441
+      "index_first_100": 122.89451083775205
     },
     {
       "indicator_id": "laus_state_labor_force",
@@ -4311,7 +4311,7 @@
       "rolling_4": 1234247.0,
       "rolling_6": 1233759.6666666667,
       "rolling_12": 1233247.9166666667,
-      "index_first_100": 95.47403573398395
+      "index_first_100": 110.33315990566965
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4339,7 +4339,7 @@
       "rolling_4": 65367.25,
       "rolling_6": 65174.5,
       "rolling_12": 66023.36363636363,
-      "index_first_100": 66.03857128800551
+      "index_first_100": 52.69997565820985
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4367,7 +4367,7 @@
       "rolling_4": 17416.5,
       "rolling_6": 17455.666666666668,
       "rolling_12": 17209.81818181818,
-      "index_first_100": 87.66753299699333
+      "index_first_100": 87.19651274773177
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4395,7 +4395,7 @@
       "rolling_4": 175078.25,
       "rolling_6": 172541.16666666666,
       "rolling_12": 168990.54545454544,
-      "index_first_100": 175.20532566521575
+      "index_first_100": 198.3898125536636
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4423,7 +4423,7 @@
       "rolling_4": 62970.0,
       "rolling_6": 62737.666666666664,
       "rolling_12": 60931.454545454544,
-      "index_first_100": 113.64429986583595
+      "index_first_100": 82.23723583939567
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4451,7 +4451,7 @@
       "rolling_4": 1063006.0,
       "rolling_6": 1073213.6666666667,
       "rolling_12": 1082137.0,
-      "index_first_100": 126.317092583266
+      "index_first_100": 132.90302166976514
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4479,7 +4479,7 @@
       "rolling_4": 126770.0,
       "rolling_6": 126184.66666666667,
       "rolling_12": 127167.36363636363,
-      "index_first_100": 194.69825328856166
+      "index_first_100": 138.35292572404282
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4507,7 +4507,7 @@
       "rolling_4": 91648.5,
       "rolling_6": 88919.16666666667,
       "rolling_12": 83449.81818181818,
-      "index_first_100": 234.32517049729387
+      "index_first_100": 119.57569077195546
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4535,7 +4535,7 @@
       "rolling_4": 27624.25,
       "rolling_6": 27602.166666666668,
       "rolling_12": 26393.727272727272,
-      "index_first_100": 203.5794856369379
+      "index_first_100": 217.49819233550252
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4563,7 +4563,7 @@
       "rolling_4": 26101.0,
       "rolling_6": 26588.833333333332,
       "rolling_12": 26387.18181818182,
-      "index_first_100": 140.73574838528504
+      "index_first_100": 143.35240274599542
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4591,7 +4591,7 @@
       "rolling_4": 517329.0,
       "rolling_6": 504908.0,
       "rolling_12": 472104.0,
-      "index_first_100": 183.12148084373655
+      "index_first_100": 141.63579071297482
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4619,7 +4619,7 @@
       "rolling_4": 192550.25,
       "rolling_6": 191852.33333333334,
       "rolling_12": 187360.54545454544,
-      "index_first_100": 126.67531948881789
+      "index_first_100": 111.80451525352038
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4647,7 +4647,7 @@
       "rolling_4": 15999.25,
       "rolling_6": 15693.0,
       "rolling_12": 15484.454545454546,
-      "index_first_100": 61.30309967658708
+      "index_first_100": 118.59402460456943
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4675,7 +4675,7 @@
       "rolling_4": 36784.0,
       "rolling_6": 36760.333333333336,
       "rolling_12": 36610.818181818184,
-      "index_first_100": 121.34715714618018
+      "index_first_100": 140.59059059059058
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4703,7 +4703,7 @@
       "rolling_4": 329781.5,
       "rolling_6": 322438.6666666667,
       "rolling_12": 306092.7272727273,
-      "index_first_100": 118.97109965223649
+      "index_first_100": 90.70335881598443
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4731,7 +4731,7 @@
       "rolling_4": 115357.5,
       "rolling_6": 118131.0,
       "rolling_12": 123516.09090909091,
-      "index_first_100": 117.19742586959671
+      "index_first_100": 79.37050687369498
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4759,7 +4759,7 @@
       "rolling_4": 58291.0,
       "rolling_6": 58811.5,
       "rolling_12": 59644.09090909091,
-      "index_first_100": 144.92356833219256
+      "index_first_100": 90.49865442456863
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4787,7 +4787,7 @@
       "rolling_4": 61394.75,
       "rolling_6": 60932.333333333336,
       "rolling_12": 60077.0,
-      "index_first_100": 119.78008938812641
+      "index_first_100": 118.20222087781269
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4815,7 +4815,7 @@
       "rolling_4": 89169.5,
       "rolling_6": 90316.16666666667,
       "rolling_12": 93294.36363636363,
-      "index_first_100": 111.28875968992249
+      "index_first_100": 88.06909230330616
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4843,7 +4843,7 @@
       "rolling_4": 92328.5,
       "rolling_6": 91398.16666666667,
       "rolling_12": 90423.09090909091,
-      "index_first_100": 94.94753245701911
+      "index_first_100": 84.35218814053005
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4871,7 +4871,7 @@
       "rolling_4": 22730.75,
       "rolling_6": 22989.0,
       "rolling_12": 23211.81818181818,
-      "index_first_100": 88.8502299540092
+      "index_first_100": 78.95167022032695
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4899,7 +4899,7 @@
       "rolling_4": 139472.0,
       "rolling_6": 138657.66666666666,
       "rolling_12": 136776.45454545456,
-      "index_first_100": 157.05042711490768
+      "index_first_100": 149.66335094482318
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4927,7 +4927,7 @@
       "rolling_4": 184279.5,
       "rolling_6": 184219.16666666666,
       "rolling_12": 180855.63636363635,
-      "index_first_100": 175.06157575991733
+      "index_first_100": 106.91603891009267
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4955,7 +4955,7 @@
       "rolling_4": 250922.25,
       "rolling_6": 250145.33333333334,
       "rolling_12": 250082.45454545456,
-      "index_first_100": 146.28920431920923
+      "index_first_100": 70.01631147632874
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -4983,7 +4983,7 @@
       "rolling_4": 141188.0,
       "rolling_6": 138868.16666666666,
       "rolling_12": 131534.0,
-      "index_first_100": 172.5780771586038
+      "index_first_100": 131.59074354233204
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5011,7 +5011,7 @@
       "rolling_4": 48307.0,
       "rolling_6": 47983.833333333336,
       "rolling_12": 48329.0,
-      "index_first_100": 69.81853586950386
+      "index_first_100": 56.47642963132063
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5039,7 +5039,7 @@
       "rolling_4": 122470.0,
       "rolling_6": 122698.83333333333,
       "rolling_12": 124333.81818181818,
-      "index_first_100": 137.3975305857811
+      "index_first_100": 83.23042034944878
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5067,7 +5067,7 @@
       "rolling_4": 20863.25,
       "rolling_6": 20777.5,
       "rolling_12": 20043.545454545456,
-      "index_first_100": 86.93155029788693
+      "index_first_100": 87.04721030042919
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5095,7 +5095,7 @@
       "rolling_4": 33707.25,
       "rolling_6": 33531.333333333336,
       "rolling_12": 32853.90909090909,
-      "index_first_100": 128.01560886032365
+      "index_first_100": 162.0200455139689
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5123,7 +5123,7 @@
       "rolling_4": 89749.0,
       "rolling_6": 89271.33333333333,
       "rolling_12": 88356.72727272728,
-      "index_first_100": 216.9300993031782
+      "index_first_100": 302.37917963990793
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5151,7 +5151,7 @@
       "rolling_4": 24652.0,
       "rolling_6": 24719.333333333332,
       "rolling_12": 24548.545454545456,
-      "index_first_100": 126.94066326798759
+      "index_first_100": 88.15285229387933
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5179,7 +5179,7 @@
       "rolling_4": 244489.0,
       "rolling_6": 251062.0,
       "rolling_12": 257650.54545454544,
-      "index_first_100": 142.44147462632043
+      "index_first_100": 128.4552622331547
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5207,7 +5207,7 @@
       "rolling_4": 46139.0,
       "rolling_6": 44967.0,
       "rolling_12": 42743.545454545456,
-      "index_first_100": 110.38795303726391
+      "index_first_100": 100.3903777168179
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5235,7 +5235,7 @@
       "rolling_4": 466456.75,
       "rolling_6": 466273.3333333333,
       "rolling_12": 454528.7272727273,
-      "index_first_100": 108.10030480131987
+      "index_first_100": 101.57454970637308
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5263,7 +5263,7 @@
       "rolling_4": 199555.75,
       "rolling_6": 200877.0,
       "rolling_12": 202071.45454545456,
-      "index_first_100": 141.1277877071714
+      "index_first_100": 163.21202662992047
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5291,7 +5291,7 @@
       "rolling_4": 11029.25,
       "rolling_6": 11084.5,
       "rolling_12": 11105.90909090909,
-      "index_first_100": 103.21955003878975
+      "index_first_100": 79.79010494752625
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5319,7 +5319,7 @@
       "rolling_4": 245387.75,
       "rolling_6": 249617.0,
       "rolling_12": 257629.27272727274,
-      "index_first_100": 95.98892755326236
+      "index_first_100": 72.65942119769481
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5347,7 +5347,7 @@
       "rolling_4": 78994.5,
       "rolling_6": 77838.0,
       "rolling_12": 73069.27272727272,
-      "index_first_100": 154.59549238108113
+      "index_first_100": 98.44912617299438
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5375,7 +5375,7 @@
       "rolling_4": 115274.75,
       "rolling_6": 115817.0,
       "rolling_12": 116145.18181818182,
-      "index_first_100": 126.16322577805168
+      "index_first_100": 152.37449659077316
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5403,7 +5403,7 @@
       "rolling_4": 278266.0,
       "rolling_6": 281222.6666666667,
       "rolling_12": 282046.54545454547,
-      "index_first_100": 108.17195865774971
+      "index_first_100": 91.71416789161074
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5431,7 +5431,7 @@
       "rolling_4": 26977.5,
       "rolling_6": 26731.833333333332,
       "rolling_12": 26173.727272727272,
-      "index_first_100": 113.847212071708
+      "index_first_100": 93.73163911796978
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5459,7 +5459,7 @@
       "rolling_4": 130728.75,
       "rolling_6": 129109.33333333333,
       "rolling_12": 123286.90909090909,
-      "index_first_100": 162.87884571341326
+      "index_first_100": 156.9402216555512
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5487,7 +5487,7 @@
       "rolling_4": 10998.25,
       "rolling_6": 10907.833333333334,
       "rolling_12": 10523.727272727272,
-      "index_first_100": 108.08519228828102
+      "index_first_100": 82.2679778733866
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5515,7 +5515,7 @@
       "rolling_4": 126779.25,
       "rolling_6": 126500.5,
       "rolling_12": 125038.81818181818,
-      "index_first_100": 120.07138417493832
+      "index_first_100": 106.74642710627005
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5543,7 +5543,7 @@
       "rolling_4": 683926.0,
       "rolling_6": 684242.5,
       "rolling_12": 676065.0,
-      "index_first_100": 138.45136504059928
+      "index_first_100": 125.56985219717347
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5571,7 +5571,7 @@
       "rolling_4": 69461.0,
       "rolling_6": 69038.66666666667,
       "rolling_12": 67268.09090909091,
-      "index_first_100": 195.56196291270916
+      "index_first_100": 189.73726070978006
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5599,7 +5599,7 @@
       "rolling_4": 9054.0,
       "rolling_6": 9109.0,
       "rolling_12": 9112.636363636364,
-      "index_first_100": 96.08223011516522
+      "index_first_100": 70.64176624198781
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5627,7 +5627,7 @@
       "rolling_4": 169624.5,
       "rolling_6": 166741.33333333334,
       "rolling_12": 158938.45454545456,
-      "index_first_100": 190.4616715080826
+      "index_first_100": 136.56056727665867
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5655,7 +5655,7 @@
       "rolling_4": 208504.5,
       "rolling_6": 205064.16666666666,
       "rolling_12": 196650.63636363635,
-      "index_first_100": 144.41424484776007
+      "index_first_100": 157.26875832470031
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5683,7 +5683,7 @@
       "rolling_4": 35643.0,
       "rolling_6": 35859.5,
       "rolling_12": 34457.27272727273,
-      "index_first_100": 73.69688959003987
+      "index_first_100": 55.97221547578569
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5711,7 +5711,7 @@
       "rolling_4": 107582.0,
       "rolling_6": 104901.5,
       "rolling_12": 100730.45454545454,
-      "index_first_100": 119.20669640923462
+      "index_first_100": 101.0130206182729
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5739,7 +5739,7 @@
       "rolling_4": 10253.25,
       "rolling_6": 10171.666666666666,
       "rolling_12": 9839.09090909091,
-      "index_first_100": 91.73048869438367
+      "index_first_100": 78.02854040639056
     },
     {
       "indicator_id": "laus_state_unemployment_level",
@@ -5767,7 +5767,7 @@
       "rolling_4": 69338.5,
       "rolling_6": 69533.0,
       "rolling_12": 69484.5,
-      "index_first_100": 47.527500912679
+      "index_first_100": 43.07752818809545
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -5795,7 +5795,7 @@
       "rolling_4": 2.725,
       "rolling_6": 2.716666666666667,
       "rolling_12": 2.772727272727273,
-      "index_first_100": 87.49999999999999
+      "index_first_100": 41.7910447761194
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -5822,8 +5822,8 @@
       "rolling_3": 4.7,
       "rolling_4": 4.725,
       "rolling_6": 4.75,
-      "rolling_12": 4.6909090909090905,
-      "index_first_100": 88.67924528301887
+      "rolling_12": 4.690909090909091,
+      "index_first_100": 65.27777777777779
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -5851,7 +5851,7 @@
       "rolling_4": 4.625,
       "rolling_6": 4.55,
       "rolling_12": 4.454545454545454,
-      "index_first_100": 97.91666666666667
+      "index_first_100": 94.0
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -5875,11 +5875,11 @@
       "pct_change_4": 0.0,
       "change_12": 0.3999999999999999,
       "pct_change_12": 10.256410256410264,
-      "rolling_3": 4.333333333333333,
+      "rolling_3": 4.333333333333334,
       "rolling_4": 4.35,
       "rolling_6": 4.333333333333333,
       "rolling_12": 4.2272727272727275,
-      "index_first_100": 122.85714285714285
+      "index_first_100": 64.17910447761194
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -5904,10 +5904,10 @@
       "change_12": -0.10000000000000053,
       "pct_change_12": -1.85185185185186,
       "rolling_3": 5.333333333333333,
-      "rolling_4": 5.3500000000000005,
+      "rolling_4": 5.350000000000001,
       "rolling_6": 5.3999999999999995,
       "rolling_12": 5.445454545454545,
-      "index_first_100": 123.25581395348837
+      "index_first_100": 101.92307692307692
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -5935,7 +5935,7 @@
       "rolling_4": 3.9,
       "rolling_6": 3.8666666666666667,
       "rolling_12": 3.9,
-      "index_first_100": 130.0
+      "index_first_100": 75.0
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -5959,11 +5959,11 @@
       "pct_change_4": 16.279069767441868,
       "change_12": 1.2000000000000002,
       "pct_change_12": 31.578947368421062,
-      "rolling_3": 4.833333333333333,
+      "rolling_3": 4.833333333333335,
       "rolling_4": 4.75,
       "rolling_6": 4.6,
       "rolling_12": 4.318181818181818,
-      "index_first_100": 131.57894736842107
+      "index_first_100": 113.63636363636363
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -5991,7 +5991,7 @@
       "rolling_4": 5.375000000000001,
       "rolling_6": 5.3500000000000005,
       "rolling_12": 5.118181818181818,
-      "index_first_100": 147.2222222222222
+      "index_first_100": 151.42857142857142
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6018,8 +6018,8 @@
       "rolling_3": 6.333333333333333,
       "rolling_4": 6.425000000000001,
       "rolling_6": 6.516666666666667,
-      "rolling_12": 6.4363636363636365,
-      "index_first_100": 112.72727272727272
+      "rolling_12": 6.436363636363637,
+      "index_first_100": 119.23076923076923
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6047,7 +6047,7 @@
       "rolling_4": 4.6499999999999995,
       "rolling_6": 4.533333333333333,
       "rolling_12": 4.254545454545454,
-      "index_first_100": 160.0
+      "index_first_100": 82.75862068965517
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6074,8 +6074,8 @@
       "rolling_3": 3.533333333333333,
       "rolling_4": 3.525,
       "rolling_6": 3.516666666666667,
-      "rolling_12": 3.436363636363637,
-      "index_first_100": 97.22222222222221
+      "rolling_12": 3.436363636363636,
+      "index_first_100": 67.3076923076923
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6099,11 +6099,11 @@
       "pct_change_4": 13.636363636363624,
       "change_12": 0.0,
       "pct_change_12": 0.0,
-      "rolling_3": 2.4,
+      "rolling_3": 2.3999999999999986,
       "rolling_4": 2.35,
       "rolling_6": 2.3,
       "rolling_12": 2.2636363636363637,
-      "index_first_100": 113.63636363636363
+      "index_first_100": 96.15384615384615
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6131,7 +6131,7 @@
       "rolling_4": 3.65,
       "rolling_6": 3.6333333333333333,
       "rolling_12": 3.6181818181818186,
-      "index_first_100": 128.57142857142858
+      "index_first_100": 67.9245283018868
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6157,9 +6157,9 @@
       "pct_change_12": 13.33333333333333,
       "rolling_3": 5.066666666666666,
       "rolling_4": 5.025,
-      "rolling_6": 4.916666666666667,
+      "rolling_6": 4.916666666666666,
       "rolling_12": 4.663636363636364,
-      "index_first_100": 137.83783783783784
+      "index_first_100": 80.95238095238095
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6186,8 +6186,8 @@
       "rolling_3": 3.266666666666666,
       "rolling_4": 3.3,
       "rolling_6": 3.3666666666666667,
-      "rolling_12": 3.5181818181818185,
-      "index_first_100": 94.11764705882354
+      "rolling_12": 3.5181818181818176,
+      "index_first_100": 62.7450980392157
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6215,7 +6215,7 @@
       "rolling_4": 3.35,
       "rolling_6": 3.3666666666666667,
       "rolling_12": 3.4272727272727277,
-      "index_first_100": 122.22222222222221
+      "index_first_100": 74.99999999999999
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6243,7 +6243,7 @@
       "rolling_4": 3.9,
       "rolling_6": 3.8666666666666667,
       "rolling_12": 3.809090909090909,
-      "index_first_100": 125.80645161290323
+      "index_first_100": 95.1219512195122
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6268,10 +6268,10 @@
       "change_12": -0.40000000000000036,
       "pct_change_12": -8.510638297872353,
       "rolling_3": 4.233333333333333,
-      "rolling_4": 4.249999999999999,
+      "rolling_4": 4.25,
       "rolling_6": 4.3,
-      "rolling_12": 4.427272727272727,
-      "index_first_100": 104.8780487804878
+      "rolling_12": 4.427272727272728,
+      "index_first_100": 74.13793103448276
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6299,7 +6299,7 @@
       "rolling_4": 4.3500000000000005,
       "rolling_6": 4.3,
       "rolling_12": 4.281818181818182,
-      "index_first_100": 93.61702127659575
+      "index_first_100": 72.13114754098362
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6323,11 +6323,11 @@
       "pct_change_4": -6.060606060606055,
       "change_12": -0.19999999999999973,
       "pct_change_12": -6.060606060606055,
-      "rolling_3": 3.1666666666666674,
+      "rolling_3": 3.1666666666666665,
       "rolling_4": 3.2,
       "rolling_6": 3.233333333333333,
       "rolling_12": 3.2636363636363637,
-      "index_first_100": 96.875
+      "index_first_100": 68.88888888888889
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6354,8 +6354,8 @@
       "rolling_3": 4.333333333333332,
       "rolling_4": 4.325,
       "rolling_6": 4.3,
-      "rolling_12": 4.245454545454545,
-      "index_first_100": 133.33333333333334
+      "rolling_12": 4.245454545454546,
+      "index_first_100": 118.91891891891892
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6379,11 +6379,11 @@
       "pct_change_4": 0.0,
       "change_12": 0.2999999999999998,
       "pct_change_12": 6.818181818181812,
-      "rolling_3": 4.733333333333333,
-      "rolling_4": 4.725,
+      "rolling_3": 4.733333333333335,
+      "rolling_4": 4.725000000000001,
       "rolling_6": 4.716666666666666,
       "rolling_12": 4.6090909090909085,
-      "index_first_100": 156.66666666666666
+      "index_first_100": 90.38461538461539
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6411,7 +6411,7 @@
       "rolling_4": 5.0,
       "rolling_6": 5.0,
       "rolling_12": 4.9818181818181815,
-      "index_first_100": 131.57894736842107
+      "index_first_100": 64.93506493506493
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6439,7 +6439,7 @@
       "rolling_4": 4.475,
       "rolling_6": 4.383333333333333,
       "rolling_12": 4.1454545454545455,
-      "index_first_100": 132.35294117647058
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6463,11 +6463,11 @@
       "pct_change_4": 2.7027027027026973,
       "change_12": -0.10000000000000009,
       "pct_change_12": -2.564102564102566,
-      "rolling_3": 3.7666666666666675,
+      "rolling_3": 3.766666666666667,
       "rolling_4": 3.725,
       "rolling_6": 3.716666666666667,
       "rolling_12": 3.7454545454545456,
-      "index_first_100": 67.85714285714286
+      "index_first_100": 50.66666666666666
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6491,11 +6491,11 @@
       "pct_change_4": -2.564102564102566,
       "change_12": -0.20000000000000018,
       "pct_change_12": -5.000000000000004,
-      "rolling_3": 3.866666666666666,
+      "rolling_3": 3.866666666666667,
       "rolling_4": 3.8749999999999996,
       "rolling_6": 3.8833333333333333,
       "rolling_12": 3.9272727272727277,
-      "index_first_100": 111.76470588235294
+      "index_first_100": 67.85714285714286
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6519,11 +6519,11 @@
       "pct_change_4": -2.777777777777779,
       "change_12": 0.3999999999999999,
       "pct_change_12": 12.903225806451601,
-      "rolling_3": 3.566666666666667,
+      "rolling_3": 3.5666666666666664,
       "rolling_4": 3.575,
       "rolling_6": 3.5833333333333335,
       "rolling_12": 3.463636363636364,
-      "index_first_100": 100.0
+      "index_first_100": 61.40350877192983
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6551,7 +6551,7 @@
       "rolling_4": 3.05,
       "rolling_6": 3.0333333333333337,
       "rolling_12": 2.972727272727273,
-      "index_first_100": 100.0
+      "index_first_100": 115.38461538461537
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6578,8 +6578,8 @@
       "rolling_3": 5.3,
       "rolling_4": 5.3,
       "rolling_6": 5.266666666666667,
-      "rolling_12": 5.236363636363636,
-      "index_first_100": 126.19047619047619
+      "rolling_12": 5.236363636363635,
+      "index_first_100": 117.77777777777779
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6603,11 +6603,11 @@
       "pct_change_4": -3.125,
       "change_12": -0.10000000000000009,
       "pct_change_12": -3.125,
-      "rolling_3": 3.1333333333333333,
-      "rolling_4": 3.15,
+      "rolling_3": 3.133333333333333,
+      "rolling_4": 3.1500000000000004,
       "rolling_6": 3.1666666666666665,
       "rolling_12": 3.1545454545454548,
-      "index_first_100": 124.0
+      "index_first_100": 70.45454545454545
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6634,8 +6634,8 @@
       "rolling_3": 4.933333333333334,
       "rolling_4": 5.0,
       "rolling_6": 5.133333333333334,
-      "rolling_12": 5.263636363636365,
-      "index_first_100": 120.0
+      "rolling_12": 5.263636363636364,
+      "index_first_100": 106.66666666666667
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6662,8 +6662,8 @@
       "rolling_3": 4.800000000000001,
       "rolling_4": 4.725,
       "rolling_6": 4.583333333333333,
-      "rolling_12": 4.345454545454546,
-      "index_first_100": 96.07843137254903
+      "rolling_12": 4.345454545454545,
+      "index_first_100": 73.13432835820896
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6691,7 +6691,7 @@
       "rolling_4": 4.6,
       "rolling_6": 4.6,
       "rolling_12": 4.509090909090909,
-      "index_first_100": 112.19512195121952
+      "index_first_100": 88.46153846153845
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6718,8 +6718,8 @@
       "rolling_3": 3.733333333333333,
       "rolling_4": 3.75,
       "rolling_6": 3.766666666666667,
-      "rolling_12": 3.8090909090909095,
-      "index_first_100": 97.36842105263159
+      "rolling_12": 3.809090909090909,
+      "index_first_100": 105.71428571428572
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6745,9 +6745,9 @@
       "pct_change_12": -7.692307692307699,
       "rolling_3": 2.5,
       "rolling_4": 2.525,
-      "rolling_6": 2.55,
+      "rolling_6": 2.5499999999999994,
       "rolling_12": 2.5727272727272728,
-      "index_first_100": 114.28571428571428
+      "index_first_100": 57.14285714285714
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6772,10 +6772,10 @@
       "change_12": -0.8999999999999999,
       "pct_change_12": -18.75,
       "rolling_3": 4.0666666666666655,
-      "rolling_4": 4.125,
+      "rolling_4": 4.125000000000001,
       "rolling_6": 4.2,
-      "rolling_12": 4.336363636363637,
-      "index_first_100": 88.63636363636363
+      "rolling_12": 4.336363636363636,
+      "index_first_100": 66.10169491525423
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6799,11 +6799,11 @@
       "pct_change_4": 8.108108108108091,
       "change_12": 0.8999999999999999,
       "pct_change_12": 29.032258064516125,
-      "rolling_3": 3.933333333333333,
+      "rolling_3": 3.9333333333333322,
       "rolling_4": 3.925,
       "rolling_6": 3.85,
-      "rolling_12": 3.609090909090909,
-      "index_first_100": 129.03225806451613
+      "rolling_12": 3.6090909090909093,
+      "index_first_100": 74.07407407407408
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6831,7 +6831,7 @@
       "rolling_4": 5.2,
       "rolling_6": 5.233333333333333,
       "rolling_12": 5.245454545454546,
-      "index_first_100": 152.94117647058826
+      "index_first_100": 101.96078431372551
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6858,8 +6858,8 @@
       "rolling_3": 4.2,
       "rolling_4": 4.225,
       "rolling_6": 4.283333333333334,
-      "rolling_12": 4.309090909090909,
-      "index_first_100": 95.45454545454545
+      "rolling_12": 4.3090909090909095,
+      "index_first_100": 80.76923076923077
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6884,10 +6884,10 @@
       "change_12": 0.09999999999999964,
       "pct_change_12": 2.2727272727272707,
       "rolling_3": 4.6000000000000005,
-      "rolling_4": 4.575,
+      "rolling_4": 4.574999999999999,
       "rolling_6": 4.516666666666667,
       "rolling_12": 4.418181818181818,
-      "index_first_100": 128.57142857142858
+      "index_first_100": 83.33333333333333
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6911,11 +6911,11 @@
       "pct_change_4": 0.0,
       "change_12": 0.5999999999999996,
       "pct_change_12": 14.28571428571428,
-      "rolling_3": 4.8999999999999995,
-      "rolling_4": 4.9,
-      "rolling_6": 4.866666666666666,
+      "rolling_3": 4.899999999999999,
+      "rolling_4": 4.8999999999999995,
+      "rolling_6": 4.866666666666667,
       "rolling_12": 4.690909090909091,
-      "index_first_100": 171.42857142857144
+      "index_first_100": 102.12765957446808
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6940,10 +6940,10 @@
       "change_12": 0.20000000000000018,
       "pct_change_12": 10.000000000000009,
       "rolling_3": 2.2666666666666666,
-      "rolling_4": 2.25,
+      "rolling_4": 2.2499999999999996,
       "rolling_6": 2.2333333333333334,
-      "rolling_12": 2.1454545454545455,
-      "index_first_100": 88.00000000000001
+      "rolling_12": 2.145454545454545,
+      "index_first_100": 59.45945945945946
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6971,7 +6971,7 @@
       "rolling_4": 3.5749999999999997,
       "rolling_6": 3.5833333333333335,
       "rolling_12": 3.5454545454545454,
-      "index_first_100": 105.88235294117648
+      "index_first_100": 72.0
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -6999,7 +6999,7 @@
       "rolling_4": 4.3,
       "rolling_6": 4.3,
       "rolling_12": 4.245454545454545,
-      "index_first_100": 122.85714285714285
+      "index_first_100": 68.25396825396825
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -7027,7 +7027,7 @@
       "rolling_4": 3.8,
       "rolling_6": 3.766666666666666,
       "rolling_12": 3.6636363636363636,
-      "index_first_100": 152.0
+      "index_first_100": 84.44444444444444
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -7054,8 +7054,8 @@
       "rolling_3": 2.6,
       "rolling_4": 2.6249999999999996,
       "rolling_6": 2.65,
-      "rolling_12": 2.627272727272727,
-      "index_first_100": 123.80952380952381
+      "rolling_12": 2.6272727272727274,
+      "index_first_100": 63.41463414634148
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -7080,10 +7080,10 @@
       "change_12": 0.5,
       "pct_change_12": 15.15151515151516,
       "rolling_3": 3.8,
-      "rolling_4": 3.775,
+      "rolling_4": 3.7749999999999995,
       "rolling_6": 3.716666666666667,
       "rolling_12": 3.527272727272727,
-      "index_first_100": 135.71428571428572
+      "index_first_100": 97.43589743589743
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -7107,11 +7107,11 @@
       "pct_change_4": 6.1224489795918435,
       "change_12": 0.7000000000000002,
       "pct_change_12": 15.555555555555568,
-      "rolling_3": 5.133333333333333,
-      "rolling_4": 5.1,
+      "rolling_3": 5.133333333333332,
+      "rolling_4": 5.100000000000001,
       "rolling_6": 5.033333333333334,
       "rolling_12": 4.827272727272727,
-      "index_first_100": 144.44444444444443
+      "index_first_100": 96.29629629629629
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -7136,10 +7136,10 @@
       "change_12": 0.5000000000000004,
       "pct_change_12": 12.820512820512842,
       "rolling_3": 4.533333333333334,
-      "rolling_4": 4.55,
+      "rolling_4": 4.549999999999999,
       "rolling_6": 4.566666666666666,
-      "rolling_12": 4.4,
-      "index_first_100": 84.61538461538461
+      "rolling_12": 4.3999999999999995,
+      "index_first_100": 54.320987654320994
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -7163,11 +7163,11 @@
       "pct_change_4": 9.375,
       "change_12": 0.2999999999999998,
       "pct_change_12": 9.375,
-      "rolling_3": 3.4666666666666672,
+      "rolling_3": 3.4666666666666663,
       "rolling_4": 3.425,
       "rolling_6": 3.35,
       "rolling_12": 3.227272727272727,
-      "index_first_100": 112.9032258064516
+      "index_first_100": 83.33333333333333
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -7192,10 +7192,10 @@
       "change_12": 0.2999999999999998,
       "pct_change_12": 9.375,
       "rolling_3": 3.5666666666666678,
-      "rolling_4": 3.5749999999999993,
+      "rolling_4": 3.575,
       "rolling_6": 3.5500000000000003,
-      "rolling_12": 3.4272727272727277,
-      "index_first_100": 79.54545454545455
+      "rolling_12": 3.427272727272727,
+      "index_first_100": 63.63636363636363
     },
     {
       "indicator_id": "laus_state_unemployment_template",
@@ -7223,12 +7223,12 @@
       "rolling_4": 5.625,
       "rolling_6": 5.6499999999999995,
       "rolling_12": 5.641666666666666,
-      "index_first_100": 61.53846153846154
+      "index_first_100": 39.16083916083915
     },
     {
       "indicator_id": "layoffs_discharges_level",
-      "date": "2026-03-01",
-      "value": 1867.0,
+      "date": "2026-04-01",
+      "value": 1692.0,
       "source": "bls_public_api",
       "series_id": "JTS000000000000000LDL",
       "frequency": "M",
@@ -7241,22 +7241,22 @@
       "geo_id": "US",
       "geo_label": "US",
       "entity_key": "layoffs_discharges_level|US",
-      "change_1": 153.0,
-      "pct_change_1": 8.926487747957989,
-      "change_4": 207.0,
-      "pct_change_4": 12.469879518072279,
-      "change_12": 272.0,
-      "pct_change_12": 17.053291536050153,
-      "rolling_3": 1747.0,
-      "rolling_4": 1726.75,
-      "rolling_6": 1743.0,
-      "rolling_12": 1767.5,
-      "index_first_100": 92.5173439048563
+      "change_1": -192.0,
+      "pct_change_1": -10.191082802547768,
+      "change_4": 26.0,
+      "pct_change_4": 1.5606242496998712,
+      "change_12": -126.0,
+      "pct_change_12": -6.930693069306926,
+      "rolling_3": 1763.3333333333333,
+      "rolling_4": 1737.5,
+      "rolling_6": 1712.6666666666667,
+      "rolling_12": 1758.4166666666667,
+      "index_first_100": 83.84539147670962
     },
     {
       "indicator_id": "layoffs_discharges_rate",
-      "date": "2026-03-01",
-      "value": 1.2,
+      "date": "2026-04-01",
+      "value": 1.1,
       "source": "bls_public_api",
       "series_id": "JTS000000000000000LDR",
       "frequency": "M",
@@ -7269,17 +7269,17 @@
       "geo_id": "US",
       "geo_label": "US",
       "entity_key": "layoffs_discharges_rate|US",
-      "change_1": 0.09999999999999987,
-      "pct_change_1": 9.090909090909083,
-      "change_4": 0.19999999999999996,
-      "pct_change_4": 19.999999999999996,
-      "change_12": 0.19999999999999996,
-      "pct_change_12": 19.999999999999996,
-      "rolling_3": 1.1000000000000003,
+      "change_1": -0.09999999999999987,
+      "pct_change_1": -8.333333333333325,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_12": 0.0,
+      "pct_change_12": 0.0,
+      "rolling_3": 1.1333333333333335,
       "rolling_4": 1.1000000000000005,
-      "rolling_6": 1.0999999999999996,
-      "rolling_12": 1.1166666666666667,
-      "index_first_100": 80.0
+      "rolling_6": 1.083333333333333,
+      "rolling_12": 1.116666666666667,
+      "index_first_100": 73.33333333333334
     },
     {
       "indicator_id": "long_term_unemployed_27_weeks_over",
@@ -7307,7 +7307,7 @@
       "rolling_4": 1841.5,
       "rolling_6": 1870.6666666666667,
       "rolling_12": 1809.090909090909,
-      "index_first_100": 1432.03125
+      "index_first_100": 283.74613003095976
     },
     {
       "indicator_id": "long_term_unemployed_share",
@@ -7335,7 +7335,7 @@
       "rolling_4": 25.175,
       "rolling_6": 25.183333333333334,
       "rolling_12": 24.44545454545454,
-      "index_first_100": 395.3125
+      "index_first_100": 260.82474226804123
     },
     {
       "indicator_id": "marginally_attached_workers",
@@ -7391,7 +7391,7 @@
       "rolling_4": 11.149999999999999,
       "rolling_6": 10.966666666666667,
       "rolling_12": 10.509090909090908,
-      "index_first_100": 244.44444444444446
+      "index_first_100": 215.68627450980395
     },
     {
       "indicator_id": "not_in_labor_force_want_job_now",
@@ -7531,7 +7531,7 @@
       "rolling_4": 1255.75,
       "rolling_6": 1364.5,
       "rolling_12": 1323.1818181818182,
-      "index_first_100": 221.11692844677137
+      "index_first_100": 57.959743824336684
     },
     {
       "indicator_id": "part_time_economic_slack_work",
@@ -7559,7 +7559,7 @@
       "rolling_4": 3103.75,
       "rolling_6": 3216.0,
       "rolling_12": 3150.3636363636365,
-      "index_first_100": 283.77911993097496
+      "index_first_100": 134.73986071282263
     },
     {
       "indicator_id": "part_time_for_economic_reasons",
@@ -7643,7 +7643,7 @@
       "rolling_4": 27766.25,
       "rolling_6": 27713.5,
       "rolling_12": 27562.583333333332,
-      "index_first_100": 184.33112582781456
+      "index_first_100": 258.10459940652817
     },
     {
       "indicator_id": "payrolls_financial_activities",
@@ -7671,7 +7671,7 @@
       "rolling_4": 9136.25,
       "rolling_6": 9152.666666666666,
       "rolling_12": 9174.416666666666,
-      "index_first_100": 117.37675376496333
+      "index_first_100": 138.48139711465453
     },
     {
       "indicator_id": "payrolls_government",
@@ -7727,7 +7727,7 @@
       "rolling_4": 2791.5,
       "rolling_6": 2809.3333333333335,
       "rolling_12": 2834.6666666666665,
-      "index_first_100": 78.06869369369369
+      "index_first_100": 103.81879445900412
     },
     {
       "indicator_id": "payrolls_leisure_hospitality",
@@ -7811,7 +7811,7 @@
       "rolling_4": 603.0,
       "rolling_6": 603.5,
       "rolling_12": 606.9166666666666,
-      "index_first_100": 102.19224283305228
+      "index_first_100": 79.52755905511812
     },
     {
       "indicator_id": "payrolls_other_services",
@@ -7839,7 +7839,7 @@
       "rolling_4": 6028.0,
       "rolling_6": 6025.0,
       "rolling_12": 6010.75,
-      "index_first_100": 117.21725612125924
+      "index_first_100": 142.90452499407724
     },
     {
       "indicator_id": "payrolls_professional_business_services",
@@ -7867,7 +7867,7 @@
       "rolling_4": 22425.75,
       "rolling_6": 22411.0,
       "rolling_12": 22400.583333333332,
-      "index_first_100": 136.12930616205725
+      "index_first_100": 207.42075593752887
     },
     {
       "indicator_id": "payrolls_trade_transport_utilities",
@@ -7895,7 +7895,7 @@
       "rolling_4": 28665.0,
       "rolling_6": 28654.166666666668,
       "rolling_12": 28696.416666666668,
-      "index_first_100": 110.29451292093846
+      "index_first_100": 126.58205534990306
     },
     {
       "indicator_id": "pce_price_index",
@@ -7906,8 +7906,8 @@
       "frequency": "M",
       "seasonal_adjustment": "SA",
       "units": "Index 2017=100",
-      "realtime_start": "2026-06-01",
-      "realtime_end": "2026-06-01",
+      "realtime_start": "2026-06-03",
+      "realtime_end": "2026-06-03",
       "footnotes": "",
       "geography": "US",
       "geo_id": "US",
@@ -7923,7 +7923,7 @@
       "rolling_4": 129.95125,
       "rolling_6": 129.42216666666667,
       "rolling_12": 128.28375,
-      "index_first_100": 179.41365935225667
+      "index_first_100": 223.5615596126586
     },
     {
       "indicator_id": "prime_age_employment_population_ratio",
@@ -8011,8 +8011,8 @@
     },
     {
       "indicator_id": "qcew_total_private_average_weekly_wage_annual",
-      "date": "2024-01-01",
-      "value": 1459.0,
+      "date": "2025-01-01",
+      "value": 1521.0,
       "source": "bls_qcew_open_data",
       "series_id": "qcew:US000:private:10:annual_avg_wkly_wage",
       "frequency": "A",
@@ -8025,22 +8025,22 @@
       "geo_id": "US",
       "geo_label": "US",
       "entity_key": "qcew_total_private_average_weekly_wage_annual|US",
-      "change_1": 63.0,
-      "pct_change_1": 4.512893982808031,
-      "change_4": 223.0,
-      "pct_change_4": 18.042071197411012,
+      "change_1": 62.0,
+      "pct_change_1": 4.249485949280318,
+      "change_4": 213.0,
+      "pct_change_4": 16.284403669724767,
       "change_12": null,
       "pct_change_12": null,
-      "rolling_3": 1402.6666666666667,
-      "rolling_4": 1379.0,
-      "rolling_6": 1315.0,
-      "rolling_12": 1189.6363636363637,
-      "index_first_100": 147.97160243407708
+      "rolling_3": 1458.6666666666667,
+      "rolling_4": 1432.25,
+      "rolling_6": 1378.8333333333333,
+      "rolling_12": 1217.25,
+      "index_first_100": 154.25963488843811
     },
     {
       "indicator_id": "qcew_total_private_employment_annual",
-      "date": "2024-01-01",
-      "value": 132569771.0,
+      "date": "2025-01-01",
+      "value": 133117983.0,
       "source": "bls_qcew_open_data",
       "series_id": "qcew:US000:private:10:annual_avg_emplvl",
       "frequency": "A",
@@ -8053,22 +8053,22 @@
       "geo_id": "US",
       "geo_label": "US",
       "entity_key": "qcew_total_private_employment_annual|US",
-      "change_1": 1280090.0,
-      "pct_change_1": 0.9750118899291005,
-      "change_4": 14629759.0,
-      "pct_change_4": 12.404406911540766,
+      "change_1": 548212.0,
+      "pct_change_1": 0.4135271531848783,
+      "change_4": 10401331.0,
+      "pct_change_4": 8.475892090015623,
       "change_12": null,
       "pct_change_12": null,
-      "rolling_3": 130859170.66666667,
-      "rolling_4": 128823541.0,
-      "rolling_6": 126598819.83333333,
-      "rolling_12": 123719304.27272727,
-      "index_first_100": 114.71080583195348
+      "rolling_3": 132325811.66666667,
+      "rolling_4": 131423873.75,
+      "rolling_6": 127725359.83333333,
+      "rolling_12": 124502527.5,
+      "index_first_100": 115.18516616170578
     },
     {
       "indicator_id": "quits_level",
-      "date": "2026-03-01",
-      "value": 3171.0,
+      "date": "2026-04-01",
+      "value": 2977.0,
       "source": "bls_public_api",
       "series_id": "JTS000000000000000QUL",
       "frequency": "M",
@@ -8081,22 +8081,22 @@
       "geo_id": "US",
       "geo_label": "US",
       "entity_key": "quits_level|US",
-      "change_1": 125.0,
-      "pct_change_1": 4.103742613263295,
-      "change_4": 52.0,
-      "pct_change_4": 1.6672010259698666,
-      "change_12": -285.0,
-      "pct_change_12": -8.246527777777779,
-      "rolling_3": 3116.0,
-      "rolling_4": 3143.25,
-      "rolling_6": 3112.0,
-      "rolling_12": 3131.1666666666665,
-      "index_first_100": 110.02775850104094
+      "change_1": -183.0,
+      "pct_change_1": -5.791139240506327,
+      "change_4": -248.0,
+      "pct_change_4": -7.68992248062016,
+      "change_12": -167.0,
+      "pct_change_12": -5.311704834605601,
+      "rolling_3": 3061.0,
+      "rolling_4": 3078.5,
+      "rolling_6": 3109.6666666666665,
+      "rolling_12": 3116.3333333333335,
+      "index_first_100": 103.29632199861207
     },
     {
       "indicator_id": "quits_rate",
-      "date": "2026-03-01",
-      "value": 2.0,
+      "date": "2026-04-01",
+      "value": 1.9,
       "source": "bls_public_api",
       "series_id": "JTS000000000000000QUR",
       "frequency": "M",
@@ -8109,17 +8109,17 @@
       "geo_id": "US",
       "geo_label": "US",
       "entity_key": "quits_rate|US",
-      "change_1": 0.10000000000000009,
-      "pct_change_1": 5.263157894736836,
-      "change_4": 0.0,
-      "pct_change_4": 0.0,
-      "change_12": -0.20000000000000018,
-      "pct_change_12": -9.090909090909093,
-      "rolling_3": 1.9666666666666668,
-      "rolling_4": 1.975,
+      "change_1": -0.10000000000000009,
+      "pct_change_1": -5.000000000000004,
+      "change_4": -0.10000000000000009,
+      "pct_change_4": -5.000000000000004,
+      "change_12": -0.10000000000000009,
+      "pct_change_12": -5.000000000000004,
+      "rolling_3": 1.9333333333333333,
+      "rolling_4": 1.95,
       "rolling_6": 1.9666666666666666,
-      "rolling_12": 1.9916666666666665,
-      "index_first_100": 90.9090909090909
+      "rolling_12": 1.9833333333333332,
+      "index_first_100": 86.36363636363636
     },
     {
       "indicator_id": "qwi_state_average_monthly_earnings",
@@ -9603,7 +9603,7 @@
       "rolling_4": 1718532.5,
       "rolling_6": 1717876.1666666667,
       "rolling_12": 1705853.5,
-      "index_first_100": 121.04266026655314
+      "index_first_100": 114.02884388343726
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -9631,7 +9631,7 @@
       "rolling_4": 253937.0,
       "rolling_6": 250438.33333333334,
       "rolling_12": 253295.33333333334,
-      "index_first_100": 110.2865839572774
+      "index_first_100": 124.06271336709843
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -9659,7 +9659,7 @@
       "rolling_4": 2821101.75,
       "rolling_6": 2815446.6666666665,
       "rolling_12": 2787552.5,
-      "index_first_100": 143.57639323683992
+      "index_first_100": 144.04787971306632
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -9687,7 +9687,7 @@
       "rolling_4": 1105350.0,
       "rolling_6": 1102888.6666666667,
       "rolling_12": 1090931.0,
-      "index_first_100": 122.89724861332307
+      "index_first_100": 119.07373215492424
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -9715,7 +9715,7 @@
       "rolling_4": 15523615.25,
       "rolling_6": 15493452.0,
       "rolling_12": 15493721.666666666,
-      "index_first_100": 129.50135757047704
+      "index_first_100": 143.04556349355272
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -9743,7 +9743,7 @@
       "rolling_4": 2450755.25,
       "rolling_6": 2451281.6666666665,
       "rolling_12": 2423211.25,
-      "index_first_100": 141.40931215162712
+      "index_first_100": 179.4630808474779
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -9771,7 +9771,7 @@
       "rolling_4": 1465876.25,
       "rolling_6": 1464730.3333333333,
       "rolling_12": 1453530.9166666667,
-      "index_first_100": 111.80056033163955
+      "index_first_100": 110.82066503281456
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -9799,7 +9799,7 @@
       "rolling_4": 416812.75,
       "rolling_6": 413751.1666666667,
       "rolling_12": 408109.8333333333,
-      "index_first_100": 131.58515203733944
+      "index_first_100": 127.67150068571095
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -9827,7 +9827,7 @@
       "rolling_4": 519833.5,
       "rolling_6": 522316.8333333333,
       "rolling_12": 523249.0833333333,
-      "index_first_100": 117.65890474333041
+      "index_first_100": 118.50139668951468
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -9855,7 +9855,7 @@
       "rolling_4": 8742853.0,
       "rolling_6": 8712366.333333334,
       "rolling_12": 8570865.333333334,
-      "index_first_100": 146.15436993805463
+      "index_first_100": 158.07286860369538
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -9883,7 +9883,7 @@
       "rolling_4": 4196827.75,
       "rolling_6": 4192716.5,
       "rolling_12": 4164191.0,
-      "index_first_100": 139.296227664627
+      "index_first_100": 138.25289105523964
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -9911,7 +9911,7 @@
       "rolling_4": 518871.0,
       "rolling_6": 518049.0,
       "rolling_12": 514807.4166666667,
-      "index_first_100": 112.71415943166025
+      "index_first_100": 124.30980973584222
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -9939,7 +9939,7 @@
       "rolling_4": 745423.75,
       "rolling_6": 742440.0,
       "rolling_12": 728454.9166666666,
-      "index_first_100": 158.24895549444068
+      "index_first_100": 249.84056768359218
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -9967,7 +9967,7 @@
       "rolling_4": 5238106.5,
       "rolling_6": 5239615.333333333,
       "rolling_12": 5228389.166666667,
-      "index_first_100": 115.51392851787705
+      "index_first_100": 121.13276891776596
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -9995,7 +9995,7 @@
       "rolling_4": 2781765.25,
       "rolling_6": 2783422.3333333335,
       "rolling_12": 2772146.3333333335,
-      "index_first_100": 125.28314326791671
+      "index_first_100": 115.91046885346844
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10023,7 +10023,7 @@
       "rolling_4": 1310985.5,
       "rolling_6": 1314762.5,
       "rolling_12": 1311846.25,
-      "index_first_100": 112.33209975756185
+      "index_first_100": 115.16626438039981
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10051,7 +10051,7 @@
       "rolling_4": 1185479.75,
       "rolling_6": 1185215.3333333333,
       "rolling_12": 1176986.4166666667,
-      "index_first_100": 115.01576704586437
+      "index_first_100": 137.0075574022332
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10079,7 +10079,7 @@
       "rolling_4": 1699439.75,
       "rolling_6": 1696611.1666666667,
       "rolling_12": 1685678.25,
-      "index_first_100": 122.80298484698055
+      "index_first_100": 123.86397280791381
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10107,7 +10107,7 @@
       "rolling_4": 1624568.75,
       "rolling_6": 1622776.5,
       "rolling_12": 1603319.25,
-      "index_first_100": 110.68373830173779
+      "index_first_100": 119.49994565744213
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10135,7 +10135,7 @@
       "rolling_4": 548954.0,
       "rolling_6": 549276.3333333334,
       "rolling_12": 544053.1666666666,
-      "index_first_100": 122.22172150584014
+      "index_first_100": 123.62430325235722
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10163,7 +10163,7 @@
       "rolling_4": 2234427.25,
       "rolling_6": 2232380.6666666665,
       "rolling_12": 2216223.75,
-      "index_first_100": 116.07025277521028
+      "index_first_100": 132.67986173972602
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10219,7 +10219,7 @@
       "rolling_4": 3562413.5,
       "rolling_6": 3509865.8333333335,
       "rolling_12": 3609662.25,
-      "index_first_100": 118.57418505725855
+      "index_first_100": 92.9990139313284
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10247,7 +10247,7 @@
       "rolling_4": 2542763.5,
       "rolling_6": 2543304.1666666665,
       "rolling_12": 2529751.0833333335,
-      "index_first_100": 121.06247764853744
+      "index_first_100": 133.49431568087502
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10275,7 +10275,7 @@
       "rolling_4": 938231.25,
       "rolling_6": 937342.0,
       "rolling_12": 933477.9166666666,
-      "index_first_100": 115.38582838869615
+      "index_first_100": 108.49589888828608
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10303,7 +10303,7 @@
       "rolling_4": 2478461.5,
       "rolling_6": 2481225.1666666665,
       "rolling_12": 2471714.75,
-      "index_first_100": 118.96613571518706
+      "index_first_100": 122.82415799553534
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10331,7 +10331,7 @@
       "rolling_4": 427717.5,
       "rolling_6": 428181.8333333333,
       "rolling_12": 424045.5,
-      "index_first_100": 134.19484375333747
+      "index_first_100": 184.42357933935241
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10359,7 +10359,7 @@
       "rolling_4": 854000.75,
       "rolling_6": 854467.1666666666,
       "rolling_12": 848244.0,
-      "index_first_100": 119.12835495541864
+      "index_first_100": 121.96426080622413
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10387,7 +10387,7 @@
       "rolling_4": 1383141.0,
       "rolling_6": 1379867.6666666667,
       "rolling_12": 1365212.6666666667,
-      "index_first_100": 145.3997751685453
+      "index_first_100": 174.451506252309
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10415,7 +10415,7 @@
       "rolling_4": 604431.0,
       "rolling_6": 605147.0,
       "rolling_12": 601679.1666666666,
-      "index_first_100": 121.86904872554972
+      "index_first_100": 121.19246713812606
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10443,7 +10443,7 @@
       "rolling_4": 3696691.5,
       "rolling_6": 3692201.0,
       "rolling_12": 3662983.6666666665,
-      "index_first_100": 122.09827174291254
+      "index_first_100": 131.23733280871625
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10471,7 +10471,7 @@
       "rolling_4": 688794.5,
       "rolling_6": 687926.1666666666,
       "rolling_12": 681754.5,
-      "index_first_100": 118.64203010190981
+      "index_first_100": 133.58344837093355
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10499,7 +10499,7 @@
       "rolling_4": 8347976.75,
       "rolling_6": 8337297.333333333,
       "rolling_12": 8204237.0,
-      "index_first_100": 124.56454031097408
+      "index_first_100": 121.8307789577295
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10527,7 +10527,7 @@
       "rolling_4": 4202669.75,
       "rolling_6": 4196549.333333333,
       "rolling_12": 4158282.9166666665,
-      "index_first_100": 139.7236136879838
+      "index_first_100": 163.1054427867582
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10555,7 +10555,7 @@
       "rolling_4": 354460.0,
       "rolling_6": 354651.5,
       "rolling_12": 350800.6666666667,
-      "index_first_100": 129.17899461143747
+      "index_first_100": 149.39849655132514
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10583,7 +10583,7 @@
       "rolling_4": 4786497.75,
       "rolling_6": 4786713.833333333,
       "rolling_12": 4764320.583333333,
-      "index_first_100": 118.89123463755
+      "index_first_100": 103.0342428981583
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10611,7 +10611,7 @@
       "rolling_4": 1362750.25,
       "rolling_6": 1359608.8333333333,
       "rolling_12": 1348655.5,
-      "index_first_100": 120.67658434937289
+      "index_first_100": 118.85876033880551
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10639,7 +10639,7 @@
       "rolling_4": 1697632.25,
       "rolling_6": 1698968.5,
       "rolling_12": 1696873.0,
-      "index_first_100": 131.96855069446053
+      "index_first_100": 170.15361546714553
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10667,7 +10667,7 @@
       "rolling_4": 5365933.0,
       "rolling_6": 5360160.333333333,
       "rolling_12": 5323022.416666667,
-      "index_first_100": 116.59657488121798
+      "index_first_100": 120.60559324948824
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10695,7 +10695,7 @@
       "rolling_4": 437780.0,
       "rolling_6": 436437.6666666667,
       "rolling_12": 431330.5833333333,
-      "index_first_100": 119.29783372550675
+      "index_first_100": 124.18143974342077
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10723,7 +10723,7 @@
       "rolling_4": 1934241.25,
       "rolling_6": 1928779.0,
       "rolling_12": 1902530.0833333333,
-      "index_first_100": 141.85352111457064
+      "index_first_100": 137.54428488907973
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10751,7 +10751,7 @@
       "rolling_4": 383059.5,
       "rolling_6": 383134.8333333333,
       "rolling_12": 378936.6666666667,
-      "index_first_100": 128.12273700002922
+      "index_first_100": 140.09089779324302
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10779,7 +10779,7 @@
       "rolling_4": 2837338.25,
       "rolling_6": 2838307.0,
       "rolling_12": 2818767.3333333335,
-      "index_first_100": 135.50699730859984
+      "index_first_100": 131.8459823209853
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10807,7 +10807,7 @@
       "rolling_4": 12001805.0,
       "rolling_6": 11961789.166666666,
       "rolling_12": 11820633.25,
-      "index_first_100": 147.3216994432422
+      "index_first_100": 189.61875333291792
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10835,7 +10835,7 @@
       "rolling_4": 1465234.0,
       "rolling_6": 1461220.8333333333,
       "rolling_12": 1446667.3333333333,
-      "index_first_100": 158.45815321812375
+      "index_first_100": 173.48200364281666
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10863,7 +10863,7 @@
       "rolling_4": 255569.25,
       "rolling_6": 255843.33333333334,
       "rolling_12": 254829.08333333334,
-      "index_first_100": 107.73570580660316
+      "index_first_100": 104.61994044830773
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10891,7 +10891,7 @@
       "rolling_4": 3391746.5,
       "rolling_6": 3385975.0,
       "rolling_12": 3352597.6666666665,
-      "index_first_100": 121.95787552152073
+      "index_first_100": 129.38387823299252
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10919,7 +10919,7 @@
       "rolling_4": 3011288.75,
       "rolling_6": 3009705.3333333335,
       "rolling_12": 3000658.3333333335,
-      "index_first_100": 136.65822545482436
+      "index_first_100": 178.05080683815305
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10947,7 +10947,7 @@
       "rolling_4": 563405.5,
       "rolling_6": 561968.1666666666,
       "rolling_12": 556006.5,
-      "index_first_100": 105.08492041586162
+      "index_first_100": 108.52385558378576
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -10975,7 +10975,7 @@
       "rolling_4": 2557341.25,
       "rolling_6": 2559388.3333333335,
       "rolling_12": 2548462.6666666665,
-      "index_first_100": 118.64863709304738
+      "index_first_100": 140.074941965084
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -11003,7 +11003,7 @@
       "rolling_4": 214565.5,
       "rolling_6": 214898.5,
       "rolling_12": 213541.58333333334,
-      "index_first_100": 111.94513086892934
+      "index_first_100": 127.7993678428934
     },
     {
       "indicator_id": "qwi_state_employment",
@@ -11059,7 +11059,7 @@
       "rolling_4": 320999.0,
       "rolling_6": 331783.1666666667,
       "rolling_12": 346502.25,
-      "index_first_100": 164.2689254296136
+      "index_first_100": 85.09735863546341
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11087,7 +11087,7 @@
       "rolling_4": 60113.5,
       "rolling_6": 62493.333333333336,
       "rolling_12": 62139.083333333336,
-      "index_first_100": 197.34744200521894
+      "index_first_100": 88.56442983304326
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11115,7 +11115,7 @@
       "rolling_4": 471667.0,
       "rolling_6": 480150.6666666667,
       "rolling_12": 504467.5833333333,
-      "index_first_100": 167.51918070259035
+      "index_first_100": 89.67437613558019
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11143,7 +11143,7 @@
       "rolling_4": 197216.25,
       "rolling_6": 203125.66666666666,
       "rolling_12": 207615.25,
-      "index_first_100": 138.89440381407724
+      "index_first_100": 102.1261488502808
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11171,7 +11171,7 @@
       "rolling_4": 2442879.25,
       "rolling_6": 2428611.6666666665,
       "rolling_12": 2587558.5833333335,
-      "index_first_100": 160.02953341505201
+      "index_first_100": 103.726436079326
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11199,7 +11199,7 @@
       "rolling_4": 430170.5,
       "rolling_6": 441874.6666666667,
       "rolling_12": 456333.4166666667,
-      "index_first_100": 160.04804400127435
+      "index_first_100": 94.1045764299325
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11227,7 +11227,7 @@
       "rolling_4": 203954.0,
       "rolling_6": 211424.33333333334,
       "rolling_12": 214706.33333333334,
-      "index_first_100": 159.17066795882707
+      "index_first_100": 79.02746641879453
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11255,7 +11255,7 @@
       "rolling_4": 71544.5,
       "rolling_6": 73818.66666666667,
       "rolling_12": 72886.08333333333,
-      "index_first_100": 180.94284722778355
+      "index_first_100": 75.63631900197507
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11283,7 +11283,7 @@
       "rolling_4": 69334.75,
       "rolling_6": 71674.5,
       "rolling_12": 75253.66666666667,
-      "index_first_100": 122.65441785833934
+      "index_first_100": 77.39146881466812
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11311,7 +11311,7 @@
       "rolling_4": 1418304.75,
       "rolling_6": 1439743.0,
       "rolling_12": 1558626.6666666667,
-      "index_first_100": 140.45896978250042
+      "index_first_100": 82.23105677000213
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11339,7 +11339,7 @@
       "rolling_4": 769004.25,
       "rolling_6": 789652.1666666666,
       "rolling_12": 833035.5,
-      "index_first_100": 179.3293935986534
+      "index_first_100": 82.19497431962424
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11367,7 +11367,7 @@
       "rolling_4": 70111.25,
       "rolling_6": 71327.33333333333,
       "rolling_12": 72905.16666666667,
-      "index_first_100": 125.96822942292822
+      "index_first_100": 100.59357590895696
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11395,7 +11395,7 @@
       "rolling_4": 135550.75,
       "rolling_6": 141661.0,
       "rolling_12": 139775.16666666666,
-      "index_first_100": 219.63402722666504
+      "index_first_100": 128.45934124788002
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11423,7 +11423,7 @@
       "rolling_4": 762524.75,
       "rolling_6": 792762.1666666666,
       "rolling_12": 817864.6666666666,
-      "index_first_100": 154.07457676506843
+      "index_first_100": 70.29535577124075
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11451,7 +11451,7 @@
       "rolling_4": 462124.25,
       "rolling_6": 478073.8333333333,
       "rolling_12": 489932.0,
-      "index_first_100": 175.04850224377105
+      "index_first_100": 71.9310480558598
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11479,7 +11479,7 @@
       "rolling_4": 186892.25,
       "rolling_6": 196805.5,
       "rolling_12": 204354.75,
-      "index_first_100": 143.68926970774888
+      "index_first_100": 78.64804852363731
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11507,7 +11507,7 @@
       "rolling_4": 193653.75,
       "rolling_6": 199091.0,
       "rolling_12": 203984.58333333334,
-      "index_first_100": 143.43472992793826
+      "index_first_100": 72.87087368155801
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11535,7 +11535,7 @@
       "rolling_4": 295264.0,
       "rolling_6": 307523.6666666667,
       "rolling_12": 318221.4166666667,
-      "index_first_100": 178.19184898720826
+      "index_first_100": 74.06599731118735
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11563,7 +11563,7 @@
       "rolling_4": 297671.0,
       "rolling_6": 305285.3333333333,
       "rolling_12": 320942.0833333333,
-      "index_first_100": 104.84571894689469
+      "index_first_100": 73.91036016051197
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11591,7 +11591,7 @@
       "rolling_4": 86957.75,
       "rolling_6": 93559.16666666667,
       "rolling_12": 91096.66666666667,
-      "index_first_100": 190.28187582396887
+      "index_first_100": 80.42489961260193
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11619,7 +11619,7 @@
       "rolling_4": 331706.25,
       "rolling_6": 348997.1666666667,
       "rolling_12": 357105.3333333333,
-      "index_first_100": 148.7910290853872
+      "index_first_100": 62.645673421954754
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11675,7 +11675,7 @@
       "rolling_4": 711485.5,
       "rolling_6": 715152.6666666666,
       "rolling_12": 662124.1666666666,
-      "index_first_100": 217.3581593561279
+      "index_first_100": 88.58863351808375
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11703,7 +11703,7 @@
       "rolling_4": 362353.0,
       "rolling_6": 380039.6666666667,
       "rolling_12": 379422.25,
-      "index_first_100": 166.53553019956826
+      "index_first_100": 87.3117867297374
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11731,7 +11731,7 @@
       "rolling_4": 194631.0,
       "rolling_6": 198620.16666666666,
       "rolling_12": 205449.33333333334,
-      "index_first_100": 159.16113096973137
+      "index_first_100": 111.73866683899318
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11759,7 +11759,7 @@
       "rolling_4": 418817.75,
       "rolling_6": 434556.3333333333,
       "rolling_12": 448879.0833333333,
-      "index_first_100": 152.58538420279052
+      "index_first_100": 76.07211756350573
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11787,7 +11787,7 @@
       "rolling_4": 80732.5,
       "rolling_6": 85339.33333333333,
       "rolling_12": 84219.0,
-      "index_first_100": 189.20728441349758
+      "index_first_100": 102.8983396446257
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11815,7 +11815,7 @@
       "rolling_4": 131014.75,
       "rolling_6": 136366.66666666666,
       "rolling_12": 139336.5,
-      "index_first_100": 164.08674562622147
+      "index_first_100": 75.37981427095671
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11843,7 +11843,7 @@
       "rolling_4": 245715.75,
       "rolling_6": 253721.33333333334,
       "rolling_12": 268141.5,
-      "index_first_100": 160.24585232817742
+      "index_first_100": 89.9452219262372
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11871,7 +11871,7 @@
       "rolling_4": 92590.75,
       "rolling_6": 95984.0,
       "rolling_12": 94278.5,
-      "index_first_100": 179.2353579175705
+      "index_first_100": 86.55417437759698
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11899,7 +11899,7 @@
       "rolling_4": 539047.0,
       "rolling_6": 554576.8333333334,
       "rolling_12": 560760.3333333334,
-      "index_first_100": 156.23393785113785
+      "index_first_100": 87.77076387750269
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11927,7 +11927,7 @@
       "rolling_4": 129255.25,
       "rolling_6": 133097.5,
       "rolling_12": 135297.25,
-      "index_first_100": 137.93470950385432
+      "index_first_100": 79.74242097958988
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11955,7 +11955,7 @@
       "rolling_4": 1337946.0,
       "rolling_6": 1349992.8333333333,
       "rolling_12": 1325431.0833333333,
-      "index_first_100": 159.9563406316506
+      "index_first_100": 76.74858043352559
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -11983,7 +11983,7 @@
       "rolling_4": 713164.5,
       "rolling_6": 735762.3333333334,
       "rolling_12": 778701.0,
-      "index_first_100": 137.03052489507647
+      "index_first_100": 134.59137199639713
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -12011,7 +12011,7 @@
       "rolling_4": 61018.75,
       "rolling_6": 64680.166666666664,
       "rolling_12": 64686.666666666664,
-      "index_first_100": 157.3587201784854
+      "index_first_100": 88.59373661823061
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -12039,7 +12039,7 @@
       "rolling_4": 779294.25,
       "rolling_6": 804464.5,
       "rolling_12": 820087.8333333334,
-      "index_first_100": 168.15728524538497
+      "index_first_100": 63.44167781402298
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -12067,7 +12067,7 @@
       "rolling_4": 240930.5,
       "rolling_6": 246809.16666666666,
       "rolling_12": 254745.08333333334,
-      "index_first_100": 129.32750091561394
+      "index_first_100": 68.10095912252919
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -12095,7 +12095,7 @@
       "rolling_4": 282877.25,
       "rolling_6": 296617.6666666667,
       "rolling_12": 301335.4166666667,
-      "index_first_100": 199.3480381359932
+      "index_first_100": 109.21734933112674
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -12123,7 +12123,7 @@
       "rolling_4": 768486.75,
       "rolling_6": 797734.5,
       "rolling_12": 796050.1666666666,
-      "index_first_100": 155.4654936401249
+      "index_first_100": 82.76175465171023
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -12151,7 +12151,7 @@
       "rolling_4": 68578.75,
       "rolling_6": 71196.16666666667,
       "rolling_12": 68757.0,
-      "index_first_100": 172.9494604792002
+      "index_first_100": 83.92047110955629
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -12179,7 +12179,7 @@
       "rolling_4": 372329.25,
       "rolling_6": 379832.1666666667,
       "rolling_12": 385279.0833333333,
-      "index_first_100": 173.44812953657174
+      "index_first_100": 86.96977502043741
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -12207,7 +12207,7 @@
       "rolling_4": 62310.75,
       "rolling_6": 65598.16666666667,
       "rolling_12": 65152.0,
-      "index_first_100": 176.00610337592983
+      "index_first_100": 75.76976763281058
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -12235,7 +12235,7 @@
       "rolling_4": 516356.25,
       "rolling_6": 533016.0,
       "rolling_12": 551867.0833333334,
-      "index_first_100": 187.30544563135837
+      "index_first_100": 78.90181572761622
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -12263,7 +12263,7 @@
       "rolling_4": 2062100.25,
       "rolling_6": 2105273.0,
       "rolling_12": 2166644.1666666665,
-      "index_first_100": 166.16304159623704
+      "index_first_100": 113.18701602713448
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -12291,7 +12291,7 @@
       "rolling_4": 244854.25,
       "rolling_6": 250174.16666666666,
       "rolling_12": 256848.58333333334,
-      "index_first_100": 190.01711784042536
+      "index_first_100": 94.16445523780212
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -12319,7 +12319,7 @@
       "rolling_4": 40774.75,
       "rolling_6": 42542.0,
       "rolling_12": 42615.583333333336,
-      "index_first_100": 153.45459826453182
+      "index_first_100": 66.58579620644022
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -12347,7 +12347,7 @@
       "rolling_4": 543235.75,
       "rolling_6": 555926.8333333334,
       "rolling_12": 558884.8333333334,
-      "index_first_100": 159.6599542734067
+      "index_first_100": 79.64843590684775
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -12375,7 +12375,7 @@
       "rolling_4": 517031.0,
       "rolling_6": 537405.8333333334,
       "rolling_12": 532083.75,
-      "index_first_100": 192.56365045468235
+      "index_first_100": 90.80751626267978
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -12403,7 +12403,7 @@
       "rolling_4": 95612.5,
       "rolling_6": 97886.0,
       "rolling_12": 97595.16666666667,
-      "index_first_100": 131.8161057535462
+      "index_first_100": 81.37138806318825
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -12431,7 +12431,7 @@
       "rolling_4": 376510.5,
       "rolling_6": 393713.3333333333,
       "rolling_12": 398970.0833333333,
-      "index_first_100": 174.1770518070144
+      "index_first_100": 90.75563017882529
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -12459,7 +12459,7 @@
       "rolling_4": 45416.5,
       "rolling_6": 48791.666666666664,
       "rolling_12": 47826.75,
-      "index_first_100": 143.86545940690326
+      "index_first_100": 56.752286320432454
     },
     {
       "indicator_id": "qwi_state_hires_all",
@@ -18336,8 +18336,8 @@
       "change_12": null,
       "pct_change_12": null,
       "rolling_3": 0.097,
-      "rolling_4": 0.099,
-      "rolling_6": 0.09875000000000002,
+      "rolling_4": 0.09899999999999999,
+      "rolling_6": 0.09875,
       "rolling_12": 0.10289999999999999,
       "index_first_100": null
     },
@@ -18365,8 +18365,8 @@
       "pct_change_12": null,
       "rolling_3": 0.1,
       "rolling_4": 0.12949999999999998,
-      "rolling_6": 0.12100000000000001,
-      "rolling_12": 0.12389999999999998,
+      "rolling_6": 0.121,
+      "rolling_12": 0.12390000000000001,
       "index_first_100": null
     },
     {
@@ -18393,7 +18393,7 @@
       "pct_change_12": null,
       "rolling_3": 0.102,
       "rolling_4": 0.1,
-      "rolling_6": 0.0985,
+      "rolling_6": 0.09849999999999999,
       "rolling_12": 0.1034,
       "index_first_100": null
     },
@@ -18477,8 +18477,8 @@
       "pct_change_12": null,
       "rolling_3": 0.102,
       "rolling_4": 0.1005,
-      "rolling_6": 0.10775,
-      "rolling_12": 0.11229999999999998,
+      "rolling_6": 0.10774999999999998,
+      "rolling_12": 0.1123,
       "index_first_100": null
     },
     {
@@ -18505,7 +18505,7 @@
       "pct_change_12": null,
       "rolling_3": 0.078,
       "rolling_4": 0.078,
-      "rolling_6": 0.08099999999999999,
+      "rolling_6": 0.081,
       "rolling_12": 0.08449999999999999,
       "index_first_100": null
     },
@@ -18533,8 +18533,8 @@
       "pct_change_12": null,
       "rolling_3": 0.09,
       "rolling_4": 0.0945,
-      "rolling_6": 0.098,
-      "rolling_12": 0.10030000000000001,
+      "rolling_6": 0.09799999999999999,
+      "rolling_12": 0.10029999999999999,
       "index_first_100": null
     },
     {
@@ -18562,7 +18562,7 @@
       "rolling_3": 0.091,
       "rolling_4": 0.0895,
       "rolling_6": 0.09024999999999998,
-      "rolling_12": 0.0942,
+      "rolling_12": 0.09419999999999999,
       "index_first_100": null
     },
     {
@@ -18674,7 +18674,7 @@
       "rolling_3": 0.102,
       "rolling_4": 0.099,
       "rolling_6": 0.1025,
-      "rolling_12": 0.10500000000000001,
+      "rolling_12": 0.10499999999999998,
       "index_first_100": null
     },
     {
@@ -18700,8 +18700,8 @@
       "change_12": null,
       "pct_change_12": null,
       "rolling_3": 0.079,
-      "rolling_4": 0.0795,
-      "rolling_6": 0.08224999999999999,
+      "rolling_4": 0.07950000000000002,
+      "rolling_6": 0.08225,
       "rolling_12": 0.0857,
       "index_first_100": null
     },
@@ -18729,7 +18729,7 @@
       "pct_change_12": null,
       "rolling_3": 0.087,
       "rolling_4": 0.0875,
-      "rolling_6": 0.09000000000000001,
+      "rolling_6": 0.08999999999999998,
       "rolling_12": 0.0928,
       "index_first_100": null
     },
@@ -18784,8 +18784,8 @@
       "change_12": null,
       "pct_change_12": null,
       "rolling_3": 0.092,
-      "rolling_4": 0.09099999999999998,
-      "rolling_6": 0.09225,
+      "rolling_4": 0.091,
+      "rolling_6": 0.09224999999999998,
       "rolling_12": 0.09519999999999999,
       "index_first_100": null
     },
@@ -18814,7 +18814,7 @@
       "rolling_3": 0.09,
       "rolling_4": 0.0945,
       "rolling_6": 0.09400000000000001,
-      "rolling_12": 0.09759999999999999,
+      "rolling_12": 0.0976,
       "index_first_100": null
     },
     {
@@ -18840,9 +18840,9 @@
       "change_12": null,
       "pct_change_12": null,
       "rolling_3": 0.096,
-      "rolling_4": 0.0975,
+      "rolling_4": 0.09750000000000002,
       "rolling_6": 0.10049999999999999,
-      "rolling_12": 0.1049,
+      "rolling_12": 0.10490000000000002,
       "index_first_100": null
     },
     {
@@ -18870,7 +18870,7 @@
       "rolling_3": 0.087,
       "rolling_4": 0.08449999999999999,
       "rolling_6": 0.09250000000000001,
-      "rolling_12": 0.09390000000000001,
+      "rolling_12": 0.0939,
       "index_first_100": null
     },
     {
@@ -18953,7 +18953,7 @@
       "pct_change_12": null,
       "rolling_3": 0.088,
       "rolling_4": 0.0915,
-      "rolling_6": 0.0915,
+      "rolling_6": 0.09150000000000001,
       "rolling_12": 0.0933,
       "index_first_100": null
     },
@@ -18982,7 +18982,7 @@
       "rolling_3": 0.083,
       "rolling_4": 0.08149999999999999,
       "rolling_6": 0.0865,
-      "rolling_12": 0.08889999999999999,
+      "rolling_12": 0.0889,
       "index_first_100": null
     },
     {
@@ -19008,8 +19008,8 @@
       "change_12": null,
       "pct_change_12": null,
       "rolling_3": 0.103,
-      "rolling_4": 0.10350000000000001,
-      "rolling_6": 0.103,
+      "rolling_4": 0.10349999999999998,
+      "rolling_6": 0.10300000000000001,
       "rolling_12": 0.10729999999999999,
       "index_first_100": null
     },
@@ -19036,8 +19036,8 @@
       "change_12": null,
       "pct_change_12": null,
       "rolling_3": 0.09,
-      "rolling_4": 0.0905,
-      "rolling_6": 0.09249999999999999,
+      "rolling_4": 0.09049999999999998,
+      "rolling_6": 0.0925,
       "rolling_12": 0.0959,
       "index_first_100": null
     },
@@ -19066,7 +19066,7 @@
       "rolling_3": 0.106,
       "rolling_4": 0.101,
       "rolling_6": 0.10525000000000001,
-      "rolling_12": 0.10770000000000002,
+      "rolling_12": 0.10769999999999999,
       "index_first_100": null
     },
     {
@@ -19093,8 +19093,8 @@
       "pct_change_12": null,
       "rolling_3": 0.087,
       "rolling_4": 0.086,
-      "rolling_6": 0.08825000000000001,
-      "rolling_12": 0.0911,
+      "rolling_6": 0.08825,
+      "rolling_12": 0.09109999999999999,
       "index_first_100": null
     },
     {
@@ -19149,8 +19149,8 @@
       "pct_change_12": null,
       "rolling_3": 0.09,
       "rolling_4": 0.086,
-      "rolling_6": 0.08900000000000001,
-      "rolling_12": 0.09020000000000002,
+      "rolling_6": 0.089,
+      "rolling_12": 0.0902,
       "index_first_100": null
     },
     {
@@ -19177,8 +19177,8 @@
       "pct_change_12": null,
       "rolling_3": 0.08,
       "rolling_4": 0.0805,
-      "rolling_6": 0.08299999999999999,
-      "rolling_12": 0.08639999999999999,
+      "rolling_6": 0.083,
+      "rolling_12": 0.0864,
       "index_first_100": null
     },
     {
@@ -19205,7 +19205,7 @@
       "pct_change_12": null,
       "rolling_3": 0.103,
       "rolling_4": 0.10500000000000001,
-      "rolling_6": 0.105,
+      "rolling_6": 0.10499999999999998,
       "rolling_12": 0.10880000000000001,
       "index_first_100": null
     },
@@ -19261,8 +19261,8 @@
       "pct_change_12": null,
       "rolling_3": 0.094,
       "rolling_4": 0.0935,
-      "rolling_6": 0.09525000000000002,
-      "rolling_12": 0.09970000000000001,
+      "rolling_6": 0.09525,
+      "rolling_12": 0.09969999999999998,
       "index_first_100": null
     },
     {
@@ -19290,7 +19290,7 @@
       "rolling_3": 0.094,
       "rolling_4": 0.0905,
       "rolling_6": 0.09524999999999999,
-      "rolling_12": 0.0977,
+      "rolling_12": 0.09769999999999998,
       "index_first_100": null
     },
     {
@@ -19317,7 +19317,7 @@
       "pct_change_12": null,
       "rolling_3": 0.085,
       "rolling_4": 0.08549999999999999,
-      "rolling_6": 0.08750000000000001,
+      "rolling_6": 0.0875,
       "rolling_12": 0.09,
       "index_first_100": null
     },
@@ -19344,8 +19344,8 @@
       "change_12": null,
       "pct_change_12": null,
       "rolling_3": 0.098,
-      "rolling_4": 0.09699999999999999,
-      "rolling_6": 0.09675,
+      "rolling_4": 0.097,
+      "rolling_6": 0.09674999999999999,
       "rolling_12": 0.1012,
       "index_first_100": null
     },
@@ -19374,7 +19374,7 @@
       "rolling_3": 0.092,
       "rolling_4": 0.09099999999999998,
       "rolling_6": 0.09275,
-      "rolling_12": 0.0974,
+      "rolling_12": 0.09740000000000001,
       "index_first_100": null
     },
     {
@@ -19400,9 +19400,9 @@
       "change_12": null,
       "pct_change_12": null,
       "rolling_3": 0.081,
-      "rolling_4": 0.08,
-      "rolling_6": 0.08099999999999999,
-      "rolling_12": 0.0836,
+      "rolling_4": 0.08000000000000002,
+      "rolling_6": 0.081,
+      "rolling_12": 0.08359999999999998,
       "index_first_100": null
     },
     {
@@ -19430,7 +19430,7 @@
       "rolling_3": 0.088,
       "rolling_4": 0.08549999999999999,
       "rolling_6": 0.0895,
-      "rolling_12": 0.09029999999999999,
+      "rolling_12": 0.0903,
       "index_first_100": null
     },
     {
@@ -19458,7 +19458,7 @@
       "rolling_3": 0.101,
       "rolling_4": 0.1005,
       "rolling_6": 0.101,
-      "rolling_12": 0.1046,
+      "rolling_12": 0.10459999999999998,
       "index_first_100": null
     },
     {
@@ -19484,8 +19484,8 @@
       "change_12": null,
       "pct_change_12": null,
       "rolling_3": 0.089,
-      "rolling_4": 0.08549999999999999,
-      "rolling_6": 0.09050000000000001,
+      "rolling_4": 0.0855,
+      "rolling_6": 0.0905,
       "rolling_12": 0.09269999999999999,
       "index_first_100": null
     },
@@ -19513,7 +19513,7 @@
       "pct_change_12": null,
       "rolling_3": 0.097,
       "rolling_4": 0.0985,
-      "rolling_6": 0.09850000000000002,
+      "rolling_6": 0.0985,
       "rolling_12": 0.1024,
       "index_first_100": null
     },
@@ -19542,7 +19542,7 @@
       "rolling_3": 0.095,
       "rolling_4": 0.096,
       "rolling_6": 0.09624999999999999,
-      "rolling_12": 0.1002,
+      "rolling_12": 0.10020000000000003,
       "index_first_100": null
     },
     {
@@ -19569,7 +19569,7 @@
       "pct_change_12": null,
       "rolling_3": 0.103,
       "rolling_4": 0.0985,
-      "rolling_6": 0.09874999999999999,
+      "rolling_6": 0.09875,
       "rolling_12": 0.1032,
       "index_first_100": null
     },
@@ -19625,7 +19625,7 @@
       "pct_change_12": null,
       "rolling_3": 0.09,
       "rolling_4": 0.0905,
-      "rolling_6": 0.09124999999999998,
+      "rolling_6": 0.09125000000000001,
       "rolling_12": 0.0939,
       "index_first_100": null
     },
@@ -19680,8 +19680,8 @@
       "change_12": null,
       "pct_change_12": null,
       "rolling_3": 0.094,
-      "rolling_4": 0.091,
-      "rolling_6": 0.09174999999999998,
+      "rolling_4": 0.09099999999999998,
+      "rolling_6": 0.09175,
       "rolling_12": 0.094,
       "index_first_100": null
     },
@@ -19709,7 +19709,7 @@
       "pct_change_12": null,
       "rolling_3": 0.081,
       "rolling_4": 0.07949999999999999,
-      "rolling_6": 0.083,
+      "rolling_6": 0.08299999999999999,
       "rolling_12": 0.0859,
       "index_first_100": null
     },
@@ -19737,7 +19737,7 @@
       "pct_change_12": null,
       "rolling_3": 0.116,
       "rolling_4": 0.11099999999999999,
-      "rolling_6": 0.11750000000000001,
+      "rolling_6": 0.1175,
       "rolling_12": 0.1193,
       "index_first_100": null
     },
@@ -19771,15 +19771,15 @@
     },
     {
       "indicator_id": "recession_indicator_monthly",
-      "date": "2026-04-01",
+      "date": "2026-05-01",
       "value": 0.0,
       "source": "fred_api",
       "series_id": "USRECM",
       "frequency": "M",
       "seasonal_adjustment": "NSA",
       "units": "Boolean 0/1",
-      "realtime_start": "2026-06-01",
-      "realtime_end": "2026-06-01",
+      "realtime_start": "2026-06-03",
+      "realtime_end": "2026-06-03",
       "footnotes": "",
       "geography": "US",
       "geo_id": "US",
@@ -21339,8 +21339,8 @@
     },
     {
       "indicator_id": "total_separations_level",
-      "date": "2026-03-01",
-      "value": 5378.0,
+      "date": "2026-04-01",
+      "value": 4978.0,
       "source": "bls_public_api",
       "series_id": "JTS000000000000000TSL",
       "frequency": "M",
@@ -21353,22 +21353,22 @@
       "geo_id": "US",
       "geo_label": "US",
       "entity_key": "total_separations_level|US",
-      "change_1": 356.0,
-      "pct_change_1": 7.088809239346872,
-      "change_4": 343.0,
-      "pct_change_4": 6.812313803376369,
-      "change_12": 90.0,
-      "pct_change_12": 1.7019667170953046,
-      "rolling_3": 5181.333333333333,
-      "rolling_4": 5186.75,
-      "rolling_6": 5151.166666666667,
-      "rolling_12": 5202.916666666667,
-      "index_first_100": 102.63358778625955
+      "change_1": -399.0,
+      "pct_change_1": -7.420494699646641,
+      "change_4": -225.0,
+      "pct_change_4": -4.324428214491638,
+      "change_12": -292.0,
+      "pct_change_12": -5.54079696394687,
+      "rolling_3": 5125.666666666667,
+      "rolling_4": 5130.25,
+      "rolling_6": 5126.5,
+      "rolling_12": 5178.5,
+      "index_first_100": 95.0
     },
     {
       "indicator_id": "total_separations_rate",
-      "date": "2026-03-01",
-      "value": 3.4,
+      "date": "2026-04-01",
+      "value": 3.1,
       "source": "bls_public_api",
       "series_id": "JTS000000000000000TSR",
       "frequency": "M",
@@ -21381,17 +21381,17 @@
       "geo_id": "US",
       "geo_label": "US",
       "entity_key": "total_separations_rate|US",
-      "change_1": 0.19999999999999973,
-      "pct_change_1": 6.25,
-      "change_4": 0.19999999999999973,
-      "pct_change_4": 6.25,
-      "change_12": 0.10000000000000009,
-      "pct_change_12": 3.0303030303030276,
-      "rolling_3": 3.2666666666666657,
-      "rolling_4": 3.275,
-      "rolling_6": 3.25,
-      "rolling_12": 3.2833333333333337,
-      "index_first_100": 87.17948717948718
+      "change_1": -0.2999999999999998,
+      "pct_change_1": -8.823529411764696,
+      "change_4": -0.19999999999999973,
+      "pct_change_4": -6.060606060606055,
+      "change_12": -0.19999999999999973,
+      "pct_change_12": -6.060606060606055,
+      "rolling_3": 3.233333333333333,
+      "rolling_4": 3.225,
+      "rolling_6": 3.233333333333333,
+      "rolling_12": 3.266666666666666,
+      "index_first_100": 79.48717948717949
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -21419,7 +21419,7 @@
       "rolling_4": 1.775,
       "rolling_6": 1.7833333333333332,
       "rolling_12": 1.7363636363636366,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u2_job_losers_rate",
@@ -21446,8 +21446,8 @@
       "rolling_3": 2.066666666666667,
       "rolling_4": 2.075,
       "rolling_6": 2.066666666666667,
-      "rolling_12": 2.036363636363636,
-      "index_first_100": 63.63636363636365
+      "rolling_12": 2.0363636363636366,
+      "index_first_100": 84.00000000000001
     },
     {
       "indicator_id": "u4_unemployed_discouraged_rate",
@@ -21559,7 +21559,7 @@
       "rolling_4": 1169.25,
       "rolling_6": 1177.0,
       "rolling_12": 1151.909090909091,
-      "index_first_100": 577.5956284153006
+      "index_first_100": 137.98955613577024
     },
     {
       "indicator_id": "unemployment_duration_5_14_weeks",
@@ -21587,7 +21587,7 @@
       "rolling_4": 2021.5,
       "rolling_6": 2057.5,
       "rolling_12": 2102.909090909091,
-      "index_first_100": 366.66666666666663
+      "index_first_100": 88.90483022477284
     },
     {
       "indicator_id": "unemployment_duration_less_5_weeks",
@@ -21615,7 +21615,7 @@
       "rolling_4": 2279.75,
       "rolling_6": 2324.6666666666665,
       "rolling_12": 2333.5454545454545,
-      "index_first_100": 210.10101010101013
+      "index_first_100": 78.26904985888994
     },
     {
       "indicator_id": "unemployment_level",
@@ -21671,7 +21671,7 @@
       "rolling_4": 911.75,
       "rolling_6": 890.0,
       "rolling_12": 845.5454545454545,
-      "index_first_100": 109.46822308690014
+      "index_first_100": 74.8890860692103
     },
     {
       "indicator_id": "unemployment_level_job_losers",
@@ -21699,7 +21699,7 @@
       "rolling_4": 3507.25,
       "rolling_6": 3510.3333333333335,
       "rolling_12": 3473.6363636363635,
-      "index_first_100": 138.93945389790267
+      "index_first_100": 110.33940917661849
     },
     {
       "indicator_id": "unemployment_level_new_entrants",
@@ -21727,7 +21727,7 @@
       "rolling_4": 780.0,
       "rolling_6": 789.0,
       "rolling_12": 798.0,
-      "index_first_100": 204.31472081218277
+      "index_first_100": 114.02266288951841
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -21755,7 +21755,7 @@
       "rolling_4": 1958.75,
       "rolling_6": 1956.6666666666667,
       "rolling_12": 1943.8181818181818,
-      "index_first_100": 163.862660944206
+      "index_first_100": 77.88657690738474
     },
     {
       "indicator_id": "unemployment_level_reentrants",
@@ -21783,7 +21783,7 @@
       "rolling_4": 2256.0,
       "rolling_6": 2326.8333333333335,
       "rolling_12": 2295.3636363636365,
-      "index_first_100": 111.5347018572825
+      "index_first_100": 126.77777777777777
     },
     {
       "indicator_id": "unemployment_rate",
@@ -21864,10 +21864,10 @@
       "change_12": 0.2999999999999998,
       "pct_change_12": 11.99999999999999,
       "rolling_3": 2.8666666666666667,
-      "rolling_4": 2.9000000000000004,
-      "rolling_6": 2.8833333333333333,
+      "rolling_4": 2.8999999999999995,
+      "rolling_6": 2.883333333333333,
       "rolling_12": 2.7818181818181817,
-      "index_first_100": 155.55555555555554
+      "index_first_100": 90.32258064516128
     },
     {
       "indicator_id": "unemployment_rate_black",
@@ -21919,11 +21919,11 @@
       "pct_change_4": 17.500000000000004,
       "change_12": 0.7000000000000002,
       "pct_change_12": 17.500000000000004,
-      "rolling_3": 4.733333333333333,
+      "rolling_3": 4.733333333333331,
       "rolling_4": 4.7,
       "rolling_6": 4.533333333333333,
       "rolling_12": 4.409090909090909,
-      "index_first_100": 138.23529411764707
+      "index_first_100": 69.11764705882354
     },
     {
       "indicator_id": "unemployment_rate_hispanic",
@@ -21979,7 +21979,7 @@
       "rolling_4": 5.800000000000001,
       "rolling_6": 5.933333333333333,
       "rolling_12": 6.009090909090909,
-      "index_first_100": 100.0
+      "index_first_100": 59.25925925925925
     },
     {
       "indicator_id": "unemployment_rate_men",
@@ -22031,11 +22031,11 @@
       "pct_change_4": -15.78947368421052,
       "change_12": -0.3999999999999999,
       "pct_change_12": -11.111111111111105,
-      "rolling_3": 3.433333333333335,
+      "rolling_3": 3.4333333333333313,
       "rolling_4": 3.4749999999999996,
       "rolling_6": 3.5333333333333337,
       "rolling_12": 3.390909090909091,
-      "index_first_100": 123.07692307692308
+      "index_first_100": 57.14285714285715
     },
     {
       "indicator_id": "unemployment_rate_veterans",
@@ -22062,7 +22062,7 @@
       "rolling_3": 3.8666666666666667,
       "rolling_4": 4.025,
       "rolling_6": 3.9,
-      "rolling_12": 3.5818181818181825,
+      "rolling_12": 3.5818181818181816,
       "index_first_100": 112.5
     },
     {
@@ -22158,8 +22158,8 @@
       "frequency": "Q",
       "seasonal_adjustment": "SA",
       "units": "Index 2017=100",
-      "realtime_start": "2026-06-01",
-      "realtime_end": "2026-06-01",
+      "realtime_start": "2026-06-03",
+      "realtime_end": "2026-06-03",
       "footnotes": "",
       "geography": "US",
       "geo_id": "US",
@@ -22174,8 +22174,8 @@
       "rolling_3": 123.73266666666666,
       "rolling_4": 123.367,
       "rolling_6": 122.945,
-      "rolling_12": 120.82900000000001,
-      "index_first_100": 145.45772758033274
+      "rolling_12": 120.829,
+      "index_first_100": 177.28636641590464
     },
     {
       "indicator_id": "wage_salary_disbursements_bea",
@@ -22186,8 +22186,8 @@
       "frequency": "M",
       "seasonal_adjustment": "SAAR",
       "units": "Billions of dollars SAAR",
-      "realtime_start": "2026-06-01",
-      "realtime_end": "2026-06-01",
+      "realtime_start": "2026-06-03",
+      "realtime_end": "2026-06-03",
       "footnotes": "",
       "geography": "US",
       "geo_id": "US",
@@ -22202,8 +22202,8 @@
       "rolling_3": 13273.766666666668,
       "rolling_4": 13259.0,
       "rolling_6": 13221.800000000001,
-      "rolling_12": 13109.691666666666,
-      "index_first_100": 281.74621653084984
+      "rolling_12": 13109.691666666668,
+      "index_first_100": 500.6619776582541
     }
   ]
 }

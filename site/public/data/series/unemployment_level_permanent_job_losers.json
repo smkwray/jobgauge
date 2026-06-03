@@ -52,8 +52,8 @@
   "observations": [
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
-      "date": "2000-01-01",
-      "value": 1165.0,
+      "date": "1994-01-01",
+      "value": 2451.0,
       "source": "bls_public_api",
       "series_id": "LNS13026638",
       "frequency": "M",
@@ -72,11 +72,2027 @@
       "pct_change_4": null,
       "change_12": null,
       "pct_change_12": null,
-      "rolling_3": 1165.0,
-      "rolling_4": 1165.0,
-      "rolling_6": 1165.0,
-      "rolling_12": 1165.0,
+      "rolling_3": 2451.0,
+      "rolling_4": 2451.0,
+      "rolling_6": 2451.0,
+      "rolling_12": 2451.0,
       "index_first_100": 100.0
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1994-02-01",
+      "value": 2381.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -70.0,
+      "pct_change_1": -2.855977152182787,
+      "change_4": null,
+      "pct_change_4": null,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 2416.0,
+      "rolling_4": 2416.0,
+      "rolling_6": 2416.0,
+      "rolling_12": 2416.0,
+      "index_first_100": 97.14402284781721
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1994-03-01",
+      "value": 2334.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -47.0,
+      "pct_change_1": -1.973960520789586,
+      "change_4": null,
+      "pct_change_4": null,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 2388.6666666666665,
+      "rolling_4": 2388.6666666666665,
+      "rolling_6": 2388.6666666666665,
+      "rolling_12": 2388.6666666666665,
+      "index_first_100": 95.22643818849448
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1994-04-01",
+      "value": 2188.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -146.0,
+      "pct_change_1": -6.25535561268209,
+      "change_4": null,
+      "pct_change_4": null,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 2301.0,
+      "rolling_4": 2338.5,
+      "rolling_6": 2338.5,
+      "rolling_12": 2338.5,
+      "index_first_100": 89.26968584251325
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1994-05-01",
+      "value": 2119.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -69.0,
+      "pct_change_1": -3.1535648994515553,
+      "change_4": -332.0,
+      "pct_change_4": -13.54549163606691,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 2213.6666666666665,
+      "rolling_4": 2255.5,
+      "rolling_6": 2294.6,
+      "rolling_12": 2294.6,
+      "index_first_100": 86.45450836393309
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1994-06-01",
+      "value": 2009.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -110.0,
+      "pct_change_1": -5.191127890514391,
+      "change_4": -372.0,
+      "pct_change_4": -15.623687526249475,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 2105.3333333333335,
+      "rolling_4": 2162.5,
+      "rolling_6": 2247.0,
+      "rolling_12": 2247.0,
+      "index_first_100": 81.96654426764586
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1994-07-01",
+      "value": 2026.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 17.0,
+      "pct_change_1": 0.8461921353907442,
+      "change_4": -308.0,
+      "pct_change_4": -13.196229648671808,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 2051.3333333333335,
+      "rolling_4": 2085.5,
+      "rolling_6": 2176.1666666666665,
+      "rolling_12": 2215.4285714285716,
+      "index_first_100": 82.66013871889025
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1994-08-01",
+      "value": 1991.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -35.0,
+      "pct_change_1": -1.727541954590328,
+      "change_4": -197.0,
+      "pct_change_4": -9.003656307129804,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 2008.6666666666667,
+      "rolling_4": 2036.25,
+      "rolling_6": 2111.1666666666665,
+      "rolling_12": 2187.375,
+      "index_first_100": 81.23215014279886
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1994-09-01",
+      "value": 1965.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -26.0,
+      "pct_change_1": -1.3058764439979886,
+      "change_4": -154.0,
+      "pct_change_4": -7.267579046720152,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 1994.0,
+      "rolling_4": 1997.75,
+      "rolling_6": 2049.6666666666665,
+      "rolling_12": 2162.6666666666665,
+      "index_first_100": 80.17135862913096
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1994-10-01",
+      "value": 1898.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -67.0,
+      "pct_change_1": -3.4096692111959315,
+      "change_4": -111.0,
+      "pct_change_4": -5.525136884021897,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 1951.3333333333333,
+      "rolling_4": 1970.0,
+      "rolling_6": 2001.3333333333333,
+      "rolling_12": 2136.2,
+      "index_first_100": 77.43778049775601
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1994-11-01",
+      "value": 1860.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -38.0,
+      "pct_change_1": -2.002107481559534,
+      "change_4": -166.0,
+      "pct_change_4": -8.193484698914123,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 1907.6666666666667,
+      "rolling_4": 1928.5,
+      "rolling_6": 1958.1666666666667,
+      "rolling_12": 2111.090909090909,
+      "index_first_100": 75.8873929008568
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1994-12-01",
+      "value": 1761.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -99.0,
+      "pct_change_1": -5.32258064516129,
+      "change_4": -230.0,
+      "pct_change_4": -11.551983927674536,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 1839.6666666666667,
+      "rolling_4": 1871.0,
+      "rolling_6": 1916.8333333333333,
+      "rolling_12": 2081.9166666666665,
+      "index_first_100": 71.8482252141983
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1995-01-01",
+      "value": 1868.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 107.0,
+      "pct_change_1": 6.076093128904025,
+      "change_4": -97.0,
+      "pct_change_4": -4.936386768447843,
+      "change_12": -583.0,
+      "pct_change_12": -23.786209710322314,
+      "rolling_3": 1829.6666666666667,
+      "rolling_4": 1846.75,
+      "rolling_6": 1890.5,
+      "rolling_12": 2033.3333333333333,
+      "index_first_100": 76.21379028967769
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1995-02-01",
+      "value": 1613.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -255.0,
+      "pct_change_1": -13.65096359743041,
+      "change_4": -285.0,
+      "pct_change_4": -15.015806111696527,
+      "change_12": -768.0,
+      "pct_change_12": -32.25535489290215,
+      "rolling_3": 1747.3333333333333,
+      "rolling_4": 1775.5,
+      "rolling_6": 1827.5,
+      "rolling_12": 1969.3333333333333,
+      "index_first_100": 65.80987352101182
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1995-03-01",
+      "value": 1655.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 42.0,
+      "pct_change_1": 2.603843769373837,
+      "change_4": -205.0,
+      "pct_change_4": -11.021505376344088,
+      "change_12": -679.0,
+      "pct_change_12": -29.091688089117397,
+      "rolling_3": 1712.0,
+      "rolling_4": 1724.25,
+      "rolling_6": 1775.8333333333333,
+      "rolling_12": 1912.75,
+      "index_first_100": 67.5234598123215
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1995-04-01",
+      "value": 1713.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 58.0,
+      "pct_change_1": 3.5045317220543826,
+      "change_4": -48.0,
+      "pct_change_4": -2.7257240204429323,
+      "change_12": -475.0,
+      "pct_change_12": -21.709323583180982,
+      "rolling_3": 1660.3333333333333,
+      "rolling_4": 1712.25,
+      "rolling_6": 1745.0,
+      "rolling_12": 1873.1666666666667,
+      "index_first_100": 69.88984088127295
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1995-05-01",
+      "value": 1897.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 184.0,
+      "pct_change_1": 10.741389375364863,
+      "change_4": 29.0,
+      "pct_change_4": 1.552462526766596,
+      "change_12": -222.0,
+      "pct_change_12": -10.47663992449268,
+      "rolling_3": 1755.0,
+      "rolling_4": 1719.5,
+      "rolling_6": 1751.1666666666667,
+      "rolling_12": 1854.6666666666667,
+      "index_first_100": 77.3969808241534
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1995-06-01",
+      "value": 1602.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -295.0,
+      "pct_change_1": -15.550869794412225,
+      "change_4": -11.0,
+      "pct_change_4": -0.6819590824550525,
+      "change_12": -407.0,
+      "pct_change_12": -20.258835241413642,
+      "rolling_3": 1737.3333333333333,
+      "rolling_4": 1716.75,
+      "rolling_6": 1724.6666666666667,
+      "rolling_12": 1820.75,
+      "index_first_100": 65.36107711138311
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1995-07-01",
+      "value": 1707.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 105.0,
+      "pct_change_1": 6.554307116104874,
+      "change_4": 52.0,
+      "pct_change_4": 3.141993957703937,
+      "change_12": -319.0,
+      "pct_change_12": -15.745310957551828,
+      "rolling_3": 1735.3333333333333,
+      "rolling_4": 1729.75,
+      "rolling_6": 1697.8333333333333,
+      "rolling_12": 1794.1666666666667,
+      "index_first_100": 69.64504283965728
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1995-08-01",
+      "value": 1709.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 2.0,
+      "pct_change_1": 0.11716461628588082,
+      "change_4": -4.0,
+      "pct_change_4": -0.23350846468184194,
+      "change_12": -282.0,
+      "pct_change_12": -14.163736815670514,
+      "rolling_3": 1672.6666666666667,
+      "rolling_4": 1728.75,
+      "rolling_6": 1713.8333333333333,
+      "rolling_12": 1770.6666666666667,
+      "index_first_100": 69.7266421868625
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1995-09-01",
+      "value": 1745.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 36.0,
+      "pct_change_1": 2.106495026331179,
+      "change_4": -152.0,
+      "pct_change_4": -8.01265155508698,
+      "change_12": -220.0,
+      "pct_change_12": -11.195928753180661,
+      "rolling_3": 1720.3333333333333,
+      "rolling_4": 1690.75,
+      "rolling_6": 1728.8333333333333,
+      "rolling_12": 1752.3333333333333,
+      "index_first_100": 71.1954304365565
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1995-10-01",
+      "value": 1777.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 32.0,
+      "pct_change_1": 1.833810888252141,
+      "change_4": 175.0,
+      "pct_change_4": 10.923845193508107,
+      "change_12": -121.0,
+      "pct_change_12": -6.375131717597471,
+      "rolling_3": 1743.6666666666667,
+      "rolling_4": 1734.5,
+      "rolling_6": 1739.5,
+      "rolling_12": 1742.25,
+      "index_first_100": 72.50101999184007
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1995-11-01",
+      "value": 1721.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -56.0,
+      "pct_change_1": -3.151378728193588,
+      "change_4": 14.0,
+      "pct_change_4": 0.8201523140011657,
+      "change_12": -139.0,
+      "pct_change_12": -7.47311827956989,
+      "rolling_3": 1747.6666666666667,
+      "rolling_4": 1738.0,
+      "rolling_6": 1710.1666666666667,
+      "rolling_12": 1730.6666666666667,
+      "index_first_100": 70.21623827009384
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1995-12-01",
+      "value": 1770.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 49.0,
+      "pct_change_1": 2.8471818710052332,
+      "change_4": 61.0,
+      "pct_change_4": 3.5693387946167388,
+      "change_12": 9.0,
+      "pct_change_12": 0.5110732538330387,
+      "rolling_3": 1756.0,
+      "rolling_4": 1753.25,
+      "rolling_6": 1738.1666666666667,
+      "rolling_12": 1731.4166666666667,
+      "index_first_100": 72.2154222766218
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1996-01-01",
+      "value": 1734.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -36.0,
+      "pct_change_1": -2.033898305084747,
+      "change_4": -11.0,
+      "pct_change_4": -0.6303724928366727,
+      "change_12": -134.0,
+      "pct_change_12": -7.173447537473232,
+      "rolling_3": 1741.6666666666667,
+      "rolling_4": 1750.5,
+      "rolling_6": 1742.6666666666667,
+      "rolling_12": 1720.25,
+      "index_first_100": 70.74663402692778
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1996-02-01",
+      "value": 1755.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 21.0,
+      "pct_change_1": 1.211072664359869,
+      "change_4": -22.0,
+      "pct_change_4": -1.2380416432189123,
+      "change_12": 142.0,
+      "pct_change_12": 8.803471791692496,
+      "rolling_3": 1753.0,
+      "rolling_4": 1745.0,
+      "rolling_6": 1750.3333333333333,
+      "rolling_12": 1732.0833333333333,
+      "index_first_100": 71.60342717258263
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1996-03-01",
+      "value": 1797.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 42.0,
+      "pct_change_1": 2.3931623931623847,
+      "change_4": 76.0,
+      "pct_change_4": 4.416037187681576,
+      "change_12": 142.0,
+      "pct_change_12": 8.580060422960734,
+      "rolling_3": 1762.0,
+      "rolling_4": 1764.0,
+      "rolling_6": 1759.0,
+      "rolling_12": 1743.9166666666667,
+      "index_first_100": 73.3170134638923
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1996-04-01",
+      "value": 1773.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -24.0,
+      "pct_change_1": -1.3355592654423987,
+      "change_4": 3.0,
+      "pct_change_4": 0.16949152542373724,
+      "change_12": 60.0,
+      "pct_change_12": 3.5026269702276736,
+      "rolling_3": 1775.0,
+      "rolling_4": 1764.75,
+      "rolling_6": 1758.3333333333333,
+      "rolling_12": 1748.9166666666667,
+      "index_first_100": 72.33782129742961
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1996-05-01",
+      "value": 1690.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -83.0,
+      "pct_change_1": -4.681331077270167,
+      "change_4": -44.0,
+      "pct_change_4": -2.5374855824682796,
+      "change_12": -207.0,
+      "pct_change_12": -10.911966262519767,
+      "rolling_3": 1753.3333333333333,
+      "rolling_4": 1753.75,
+      "rolling_6": 1753.1666666666667,
+      "rolling_12": 1731.6666666666667,
+      "index_first_100": 68.9514483884129
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1996-06-01",
+      "value": 1696.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 6.0,
+      "pct_change_1": 0.35502958579882726,
+      "change_4": -59.0,
+      "pct_change_4": -3.3618233618233573,
+      "change_12": 94.0,
+      "pct_change_12": 5.867665418227208,
+      "rolling_3": 1719.6666666666667,
+      "rolling_4": 1739.0,
+      "rolling_6": 1740.8333333333333,
+      "rolling_12": 1739.5,
+      "index_first_100": 69.19624643002857
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1996-07-01",
+      "value": 1705.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 9.0,
+      "pct_change_1": 0.5306603773584939,
+      "change_4": -92.0,
+      "pct_change_4": -5.119643850862554,
+      "change_12": -2.0,
+      "pct_change_12": -0.11716461628588082,
+      "rolling_3": 1697.0,
+      "rolling_4": 1716.0,
+      "rolling_6": 1736.0,
+      "rolling_12": 1739.3333333333333,
+      "index_first_100": 69.56344349245207
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1996-08-01",
+      "value": 1462.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -243.0,
+      "pct_change_1": -14.252199413489741,
+      "change_4": -311.0,
+      "pct_change_4": -17.540891144952052,
+      "change_12": -247.0,
+      "pct_change_12": -14.45289643066121,
+      "rolling_3": 1621.0,
+      "rolling_4": 1638.25,
+      "rolling_6": 1687.1666666666667,
+      "rolling_12": 1718.75,
+      "index_first_100": 59.64912280701754
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1996-09-01",
+      "value": 1533.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 71.0,
+      "pct_change_1": 4.8563611491108105,
+      "change_4": -157.0,
+      "pct_change_4": -9.289940828402365,
+      "change_12": -212.0,
+      "pct_change_12": -12.148997134670491,
+      "rolling_3": 1566.6666666666667,
+      "rolling_4": 1599.0,
+      "rolling_6": 1643.1666666666667,
+      "rolling_12": 1701.0833333333333,
+      "index_first_100": 62.545899632802936
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1996-10-01",
+      "value": 1577.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 44.0,
+      "pct_change_1": 2.8701891715590344,
+      "change_4": -119.0,
+      "pct_change_4": -7.016509433962259,
+      "change_12": -200.0,
+      "pct_change_12": -11.254924029262803,
+      "rolling_3": 1524.0,
+      "rolling_4": 1569.25,
+      "rolling_6": 1610.5,
+      "rolling_12": 1684.4166666666667,
+      "index_first_100": 64.34108527131784
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1996-11-01",
+      "value": 1610.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 33.0,
+      "pct_change_1": 2.0925808497146425,
+      "change_4": -95.0,
+      "pct_change_4": -5.571847507331373,
+      "change_12": -111.0,
+      "pct_change_12": -6.44973852411389,
+      "rolling_3": 1573.3333333333333,
+      "rolling_4": 1545.5,
+      "rolling_6": 1597.1666666666667,
+      "rolling_12": 1675.1666666666667,
+      "index_first_100": 65.687474500204
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1996-12-01",
+      "value": 1557.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -53.0,
+      "pct_change_1": -3.2919254658385078,
+      "change_4": 95.0,
+      "pct_change_4": 6.497948016415878,
+      "change_12": -213.0,
+      "pct_change_12": -12.033898305084744,
+      "rolling_3": 1581.3333333333333,
+      "rolling_4": 1569.25,
+      "rolling_6": 1574.0,
+      "rolling_12": 1657.4166666666667,
+      "index_first_100": 63.52509179926561
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1997-01-01",
+      "value": 1551.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -6.0,
+      "pct_change_1": -0.3853564547206201,
+      "change_4": 18.0,
+      "pct_change_4": 1.1741682974559797,
+      "change_12": -183.0,
+      "pct_change_12": -10.553633217993074,
+      "rolling_3": 1572.6666666666667,
+      "rolling_4": 1573.75,
+      "rolling_6": 1548.3333333333333,
+      "rolling_12": 1642.1666666666667,
+      "index_first_100": 63.28029375764994
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1997-02-01",
+      "value": 1496.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -55.0,
+      "pct_change_1": -3.546099290780147,
+      "change_4": -81.0,
+      "pct_change_4": -5.136334812935949,
+      "change_12": -259.0,
+      "pct_change_12": -14.757834757834754,
+      "rolling_3": 1534.6666666666667,
+      "rolling_4": 1553.5,
+      "rolling_6": 1554.0,
+      "rolling_12": 1620.5833333333333,
+      "index_first_100": 61.03631170950632
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1997-03-01",
+      "value": 1461.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -35.0,
+      "pct_change_1": -2.339572192513373,
+      "change_4": -149.0,
+      "pct_change_4": -9.254658385093173,
+      "change_12": -336.0,
+      "pct_change_12": -18.69782971619366,
+      "rolling_3": 1502.6666666666667,
+      "rolling_4": 1516.25,
+      "rolling_6": 1542.0,
+      "rolling_12": 1592.5833333333333,
+      "index_first_100": 59.60832313341493
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1997-04-01",
+      "value": 1428.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -33.0,
+      "pct_change_1": -2.258726899383978,
+      "change_4": -129.0,
+      "pct_change_4": -8.285163776493254,
+      "change_12": -345.0,
+      "pct_change_12": -19.4585448392555,
+      "rolling_3": 1461.6666666666667,
+      "rolling_4": 1484.0,
+      "rolling_6": 1517.1666666666667,
+      "rolling_12": 1563.8333333333333,
+      "index_first_100": 58.26193390452876
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1997-05-01",
+      "value": 1425.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -3.0,
+      "pct_change_1": -0.21008403361344463,
+      "change_4": -126.0,
+      "pct_change_4": -8.12379110251451,
+      "change_12": -265.0,
+      "pct_change_12": -15.680473372781067,
+      "rolling_3": 1438.0,
+      "rolling_4": 1452.5,
+      "rolling_6": 1486.3333333333333,
+      "rolling_12": 1541.75,
+      "index_first_100": 58.139534883720934
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1997-06-01",
+      "value": 1462.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 37.0,
+      "pct_change_1": 2.5964912280701746,
+      "change_4": -34.0,
+      "pct_change_4": -2.2727272727272707,
+      "change_12": -234.0,
+      "pct_change_12": -13.797169811320753,
+      "rolling_3": 1438.3333333333333,
+      "rolling_4": 1444.0,
+      "rolling_6": 1470.5,
+      "rolling_12": 1522.25,
+      "index_first_100": 59.64912280701754
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1997-07-01",
+      "value": 1398.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -64.0,
+      "pct_change_1": -4.377564979480164,
+      "change_4": -63.0,
+      "pct_change_4": -4.312114989733063,
+      "change_12": -307.0,
+      "pct_change_12": -18.005865102639294,
+      "rolling_3": 1428.3333333333333,
+      "rolling_4": 1428.25,
+      "rolling_6": 1445.0,
+      "rolling_12": 1496.6666666666667,
+      "index_first_100": 57.037943696450434
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1997-08-01",
+      "value": 1429.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 31.0,
+      "pct_change_1": 2.2174535050071498,
+      "change_4": 1.0,
+      "pct_change_4": 0.07002801120448154,
+      "change_12": -33.0,
+      "pct_change_12": -2.2571819425444617,
+      "rolling_3": 1429.6666666666667,
+      "rolling_4": 1428.5,
+      "rolling_6": 1433.8333333333333,
+      "rolling_12": 1493.9166666666667,
+      "index_first_100": 58.302733578131374
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1997-09-01",
+      "value": 1454.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 25.0,
+      "pct_change_1": 1.7494751574527623,
+      "change_4": 29.0,
+      "pct_change_4": 2.0350877192982564,
+      "change_12": -79.0,
+      "pct_change_12": -5.1532941943900905,
+      "rolling_3": 1427.0,
+      "rolling_4": 1435.75,
+      "rolling_6": 1432.6666666666667,
+      "rolling_12": 1487.3333333333333,
+      "index_first_100": 59.322725418196654
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1997-10-01",
+      "value": 1355.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -99.0,
+      "pct_change_1": -6.8088033012379645,
+      "change_4": -107.0,
+      "pct_change_4": -7.3187414500684,
+      "change_12": -222.0,
+      "pct_change_12": -14.077362079898537,
+      "rolling_3": 1412.6666666666667,
+      "rolling_4": 1409.0,
+      "rolling_6": 1420.5,
+      "rolling_12": 1468.8333333333333,
+      "index_first_100": 55.283557731538146
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1997-11-01",
+      "value": 1376.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 21.0,
+      "pct_change_1": 1.5498154981549828,
+      "change_4": -22.0,
+      "pct_change_4": -1.573676680972813,
+      "change_12": -234.0,
+      "pct_change_12": -14.534161490683228,
+      "rolling_3": 1395.0,
+      "rolling_4": 1403.5,
+      "rolling_6": 1412.3333333333333,
+      "rolling_12": 1449.3333333333333,
+      "index_first_100": 56.14035087719298
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1997-12-01",
+      "value": 1397.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 21.0,
+      "pct_change_1": 1.5261627906976827,
+      "change_4": -32.0,
+      "pct_change_4": -2.2393282015395366,
+      "change_12": -160.0,
+      "pct_change_12": -10.27617212588311,
+      "rolling_3": 1376.0,
+      "rolling_4": 1395.5,
+      "rolling_6": 1401.5,
+      "rolling_12": 1436.0,
+      "index_first_100": 56.99714402284781
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1998-01-01",
+      "value": 1379.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -18.0,
+      "pct_change_1": -1.2884753042233354,
+      "change_4": -75.0,
+      "pct_change_4": -5.158184319119674,
+      "change_12": -172.0,
+      "pct_change_12": -11.089619600257894,
+      "rolling_3": 1384.0,
+      "rolling_4": 1376.75,
+      "rolling_6": 1398.3333333333333,
+      "rolling_12": 1421.6666666666667,
+      "index_first_100": 56.26274989800082
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1998-02-01",
+      "value": 1384.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 5.0,
+      "pct_change_1": 0.36258158085569203,
+      "change_4": 29.0,
+      "pct_change_4": 2.1402214022140154,
+      "change_12": -112.0,
+      "pct_change_12": -7.486631016042777,
+      "rolling_3": 1386.6666666666667,
+      "rolling_4": 1384.0,
+      "rolling_6": 1390.8333333333333,
+      "rolling_12": 1412.3333333333333,
+      "index_first_100": 56.466748266013866
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1998-03-01",
+      "value": 1410.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 26.0,
+      "pct_change_1": 1.8786127167629951,
+      "change_4": 34.0,
+      "pct_change_4": 2.470930232558133,
+      "change_12": -51.0,
+      "pct_change_12": -3.490759753593431,
+      "rolling_3": 1391.0,
+      "rolling_4": 1392.5,
+      "rolling_6": 1383.5,
+      "rolling_12": 1408.0833333333333,
+      "index_first_100": 57.52753977968176
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1998-04-01",
+      "value": 1376.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -34.0,
+      "pct_change_1": -2.4113475177305,
+      "change_4": -21.0,
+      "pct_change_4": -1.5032211882605617,
+      "change_12": -52.0,
+      "pct_change_12": -3.6414565826330514,
+      "rolling_3": 1390.0,
+      "rolling_4": 1387.25,
+      "rolling_6": 1387.0,
+      "rolling_12": 1403.75,
+      "index_first_100": 56.14035087719298
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1998-05-01",
+      "value": 1374.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -2.0,
+      "pct_change_1": -0.14534883720930258,
+      "change_4": -5.0,
+      "pct_change_4": -0.36258158085569203,
+      "change_12": -51.0,
+      "pct_change_12": -3.578947368421048,
+      "rolling_3": 1386.6666666666667,
+      "rolling_4": 1386.0,
+      "rolling_6": 1386.6666666666667,
+      "rolling_12": 1399.5,
+      "index_first_100": 56.05875152998776
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1998-06-01",
+      "value": 1311.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -63.0,
+      "pct_change_1": -4.585152838427953,
+      "change_4": -73.0,
+      "pct_change_4": -5.27456647398844,
+      "change_12": -151.0,
+      "pct_change_12": -10.328317373461015,
+      "rolling_3": 1353.6666666666667,
+      "rolling_4": 1367.75,
+      "rolling_6": 1372.3333333333333,
+      "rolling_12": 1386.9166666666667,
+      "index_first_100": 53.48837209302325
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1998-07-01",
+      "value": 1324.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 13.0,
+      "pct_change_1": 0.9916094584286883,
+      "change_4": -86.0,
+      "pct_change_4": -6.099290780141842,
+      "change_12": -74.0,
+      "pct_change_12": -5.293276108726753,
+      "rolling_3": 1336.3333333333333,
+      "rolling_4": 1346.25,
+      "rolling_6": 1363.1666666666667,
+      "rolling_12": 1380.75,
+      "index_first_100": 54.0187678498572
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1998-08-01",
+      "value": 1331.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 7.0,
+      "pct_change_1": 0.5287009063444037,
+      "change_4": -45.0,
+      "pct_change_4": -3.2703488372093026,
+      "change_12": -98.0,
+      "pct_change_12": -6.8579426172148406,
+      "rolling_3": 1322.0,
+      "rolling_4": 1335.0,
+      "rolling_6": 1354.3333333333333,
+      "rolling_12": 1372.5833333333333,
+      "index_first_100": 54.30436556507547
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1998-09-01",
+      "value": 1291.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -40.0,
+      "pct_change_1": -3.005259203606314,
+      "change_4": -83.0,
+      "pct_change_4": -6.040756914119361,
+      "change_12": -163.0,
+      "pct_change_12": -11.210453920220086,
+      "rolling_3": 1315.3333333333333,
+      "rolling_4": 1314.25,
+      "rolling_6": 1334.5,
+      "rolling_12": 1359.0,
+      "index_first_100": 52.67237862097103
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1998-10-01",
+      "value": 1315.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 24.0,
+      "pct_change_1": 1.8590240123934842,
+      "change_4": 4.0,
+      "pct_change_4": 0.30511060259343914,
+      "change_12": -40.0,
+      "pct_change_12": -2.9520295202952074,
+      "rolling_3": 1312.3333333333333,
+      "rolling_4": 1315.25,
+      "rolling_6": 1324.3333333333333,
+      "rolling_12": 1355.6666666666667,
+      "index_first_100": 53.6515707874337
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1998-11-01",
+      "value": 1298.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -17.0,
+      "pct_change_1": -1.2927756653992373,
+      "change_4": -26.0,
+      "pct_change_4": -1.963746223564955,
+      "change_12": -78.0,
+      "pct_change_12": -5.66860465116279,
+      "rolling_3": 1301.3333333333333,
+      "rolling_4": 1308.75,
+      "rolling_6": 1311.6666666666667,
+      "rolling_12": 1349.1666666666667,
+      "index_first_100": 52.957976336189304
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1998-12-01",
+      "value": 1439.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 141.0,
+      "pct_change_1": 10.862865947611699,
+      "change_4": 108.0,
+      "pct_change_4": 8.114199849737048,
+      "change_12": 42.0,
+      "pct_change_12": 3.0064423765211234,
+      "rolling_3": 1350.6666666666667,
+      "rolling_4": 1335.75,
+      "rolling_6": 1333.0,
+      "rolling_12": 1352.6666666666667,
+      "index_first_100": 58.71073031415749
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1999-01-01",
+      "value": 1281.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -158.0,
+      "pct_change_1": -10.97984711605281,
+      "change_4": -10.0,
+      "pct_change_4": -0.774593338497287,
+      "change_12": -98.0,
+      "pct_change_12": -7.106598984771573,
+      "rolling_3": 1339.3333333333333,
+      "rolling_4": 1333.25,
+      "rolling_6": 1325.8333333333333,
+      "rolling_12": 1344.5,
+      "index_first_100": 52.264381884944925
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1999-02-01",
+      "value": 1188.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -93.0,
+      "pct_change_1": -7.259953161592502,
+      "change_4": -127.0,
+      "pct_change_4": -9.657794676806086,
+      "change_12": -196.0,
+      "pct_change_12": -14.161849710982654,
+      "rolling_3": 1302.6666666666667,
+      "rolling_4": 1301.5,
+      "rolling_6": 1302.0,
+      "rolling_12": 1328.1666666666667,
+      "index_first_100": 48.47001223990208
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1999-03-01",
+      "value": 1211.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 23.0,
+      "pct_change_1": 1.9360269360269466,
+      "change_4": -87.0,
+      "pct_change_4": -6.702619414483824,
+      "change_12": -199.0,
+      "pct_change_12": -14.113475177304968,
+      "rolling_3": 1226.6666666666667,
+      "rolling_4": 1279.75,
+      "rolling_6": 1288.6666666666667,
+      "rolling_12": 1311.5833333333333,
+      "index_first_100": 49.40840473276214
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1999-04-01",
+      "value": 1268.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 57.0,
+      "pct_change_1": 4.706853839801806,
+      "change_4": -171.0,
+      "pct_change_4": -11.883252258512854,
+      "change_12": -108.0,
+      "pct_change_12": -7.848837209302328,
+      "rolling_3": 1222.3333333333333,
+      "rolling_4": 1237.0,
+      "rolling_6": 1280.8333333333333,
+      "rolling_12": 1302.5833333333333,
+      "index_first_100": 51.73398612811098
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1999-05-01",
+      "value": 1303.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 35.0,
+      "pct_change_1": 2.7602523659306044,
+      "change_4": 22.0,
+      "pct_change_4": 1.7174082747853259,
+      "change_12": -71.0,
+      "pct_change_12": -5.1673944687045115,
+      "rolling_3": 1260.6666666666667,
+      "rolling_4": 1242.5,
+      "rolling_6": 1281.6666666666667,
+      "rolling_12": 1296.6666666666667,
+      "index_first_100": 53.161974704202365
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1999-06-01",
+      "value": 1275.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -28.0,
+      "pct_change_1": -2.148887183422865,
+      "change_4": 87.0,
+      "pct_change_4": 7.3232323232323315,
+      "change_12": -36.0,
+      "pct_change_12": -2.7459954233409634,
+      "rolling_3": 1282.0,
+      "rolling_4": 1264.25,
+      "rolling_6": 1254.3333333333333,
+      "rolling_12": 1293.6666666666667,
+      "index_first_100": 52.01958384332925
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1999-07-01",
+      "value": 1270.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -5.0,
+      "pct_change_1": -0.39215686274509665,
+      "change_4": 59.0,
+      "pct_change_4": 4.872006606110646,
+      "change_12": -54.0,
+      "pct_change_12": -4.078549848942603,
+      "rolling_3": 1282.6666666666667,
+      "rolling_4": 1279.0,
+      "rolling_6": 1252.5,
+      "rolling_12": 1289.1666666666667,
+      "index_first_100": 51.8155854753162
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1999-08-01",
+      "value": 1258.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -12.0,
+      "pct_change_1": -0.9448818897637823,
+      "change_4": -10.0,
+      "pct_change_4": -0.7886435331230235,
+      "change_12": -73.0,
+      "pct_change_12": -5.484598046581512,
+      "rolling_3": 1267.6666666666667,
+      "rolling_4": 1276.5,
+      "rolling_6": 1264.1666666666667,
+      "rolling_12": 1283.0833333333333,
+      "index_first_100": 51.32598939208486
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1999-09-01",
+      "value": 1197.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -61.0,
+      "pct_change_1": -4.8489666136725,
+      "change_4": -106.0,
+      "pct_change_4": -8.135072908672292,
+      "change_12": -94.0,
+      "pct_change_12": -7.281177381874516,
+      "rolling_3": 1241.6666666666667,
+      "rolling_4": 1250.0,
+      "rolling_6": 1261.8333333333333,
+      "rolling_12": 1275.25,
+      "index_first_100": 48.837209302325576
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1999-10-01",
+      "value": 1175.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -22.0,
+      "pct_change_1": -1.8379281537176273,
+      "change_4": -100.0,
+      "pct_change_4": -7.843137254901967,
+      "change_12": -140.0,
+      "pct_change_12": -10.646387832699622,
+      "rolling_3": 1210.0,
+      "rolling_4": 1225.0,
+      "rolling_6": 1246.3333333333333,
+      "rolling_12": 1263.5833333333333,
+      "index_first_100": 47.939616483068136
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1999-11-01",
+      "value": 1138.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -37.0,
+      "pct_change_1": -3.1489361702127683,
+      "change_4": -132.0,
+      "pct_change_4": -10.393700787401572,
+      "change_12": -160.0,
+      "pct_change_12": -12.326656394453007,
+      "rolling_3": 1170.0,
+      "rolling_4": 1192.0,
+      "rolling_6": 1218.8333333333333,
+      "rolling_12": 1250.25,
+      "index_first_100": 46.43002855977152
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "1999-12-01",
+      "value": 1122.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -16.0,
+      "pct_change_1": -1.405975395430581,
+      "change_4": -136.0,
+      "pct_change_4": -10.81081081081081,
+      "change_12": -317.0,
+      "pct_change_12": -22.02918693537178,
+      "rolling_3": 1145.0,
+      "rolling_4": 1158.0,
+      "rolling_6": 1193.3333333333333,
+      "rolling_12": 1223.8333333333333,
+      "index_first_100": 45.77723378212974
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "2000-01-01",
+      "value": 1165.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": 43.0,
+      "pct_change_1": 3.832442067736186,
+      "change_4": -32.0,
+      "pct_change_4": -2.6733500417710943,
+      "change_12": -116.0,
+      "pct_change_12": -9.055425448868071,
+      "rolling_3": 1141.6666666666667,
+      "rolling_4": 1150.0,
+      "rolling_6": 1175.8333333333333,
+      "rolling_12": 1214.1666666666667,
+      "index_first_100": 47.53161974704202
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -96,15 +2112,15 @@
       "entity_key": "unemployment_level_permanent_job_losers|US",
       "change_1": 6.0,
       "pct_change_1": 0.5150214592274605,
-      "change_4": null,
-      "pct_change_4": null,
-      "change_12": null,
-      "pct_change_12": null,
-      "rolling_3": 1168.0,
-      "rolling_4": 1168.0,
-      "rolling_6": 1168.0,
-      "rolling_12": 1168.0,
-      "index_first_100": 100.51502145922746
+      "change_4": -4.0,
+      "pct_change_4": -0.34042553191488967,
+      "change_12": -17.0,
+      "pct_change_12": -1.4309764309764272,
+      "rolling_3": 1152.6666666666667,
+      "rolling_4": 1149.0,
+      "rolling_6": 1161.3333333333333,
+      "rolling_12": 1212.75,
+      "index_first_100": 47.776417788657696
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -124,15 +2140,15 @@
       "entity_key": "unemployment_level_permanent_job_losers|US",
       "change_1": -16.0,
       "pct_change_1": -1.3663535439795038,
-      "change_4": null,
-      "pct_change_4": null,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_4": 17.0,
+      "pct_change_4": 1.493848857644986,
+      "change_12": -56.0,
+      "pct_change_12": -4.6242774566473965,
       "rolling_3": 1163.6666666666667,
-      "rolling_4": 1163.6666666666667,
-      "rolling_6": 1163.6666666666667,
-      "rolling_12": 1163.6666666666667,
-      "index_first_100": 99.14163090128756
+      "rolling_4": 1153.25,
+      "rolling_6": 1154.3333333333333,
+      "rolling_12": 1208.0833333333333,
+      "index_first_100": 47.123623011015916
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -152,15 +2168,15 @@
       "entity_key": "unemployment_level_permanent_job_losers|US",
       "change_1": -72.0,
       "pct_change_1": -6.233766233766236,
-      "change_4": null,
-      "pct_change_4": null,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_4": -39.0,
+      "pct_change_4": -3.475935828877008,
+      "change_12": -185.0,
+      "pct_change_12": -14.589905362776022,
       "rolling_3": 1136.3333333333333,
       "rolling_4": 1143.5,
-      "rolling_6": 1143.5,
-      "rolling_12": 1143.5,
-      "index_first_100": 92.96137339055794
+      "rolling_6": 1139.0,
+      "rolling_12": 1192.6666666666667,
+      "index_first_100": 44.18604651162791
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -182,13 +2198,13 @@
       "pct_change_1": -0.6463527239150557,
       "change_4": -89.0,
       "pct_change_4": -7.639484978540767,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": -227.0,
+      "pct_change_12": -17.421335379892554,
       "rolling_3": 1104.6666666666667,
       "rolling_4": 1121.25,
-      "rolling_6": 1130.0,
-      "rolling_12": 1130.0,
-      "index_first_100": 92.36051502145924
+      "rolling_6": 1128.6666666666667,
+      "rolling_12": 1173.75,
+      "index_first_100": 43.90044879640963
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -210,13 +2226,13 @@
       "pct_change_1": -0.18587360594795044,
       "change_4": -97.0,
       "pct_change_4": -8.283518360375751,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": -201.0,
+      "pct_change_12": -15.764705882352937,
       "rolling_3": 1077.6666666666667,
       "rolling_4": 1097.0,
       "rolling_6": 1120.6666666666667,
-      "rolling_12": 1120.6666666666667,
-      "index_first_100": 92.18884120171674
+      "rolling_12": 1157.0,
+      "index_first_100": 43.81884944920441
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -238,13 +2254,13 @@
       "pct_change_1": 4.003724394785846,
       "change_4": -38.0,
       "pct_change_4": -3.2900432900432874,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": -153.0,
+      "pct_change_12": -12.047244094488185,
       "rolling_3": 1089.0,
       "rolling_4": 1087.5,
       "rolling_6": 1112.6666666666667,
-      "rolling_12": 1120.142857142857,
-      "index_first_100": 95.87982832618026
+      "rolling_12": 1144.25,
+      "index_first_100": 45.57323541411669
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -266,13 +2282,13 @@
       "pct_change_1": 7.430617726051936,
       "change_4": 117.0,
       "pct_change_4": 10.803324099723,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": -58.0,
+      "pct_change_12": -4.610492845786962,
       "rolling_3": 1130.3333333333333,
       "rolling_4": 1116.75,
       "rolling_6": 1117.5,
-      "rolling_12": 1130.125,
-      "index_first_100": 103.00429184549355
+      "rolling_12": 1139.4166666666667,
+      "index_first_100": 48.959608323133416
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -294,13 +2310,13 @@
       "pct_change_1": -4.249999999999998,
       "change_4": 73.0,
       "pct_change_4": 6.784386617100369,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": -48.0,
+      "pct_change_12": -4.010025062656641,
       "rolling_3": 1155.3333333333333,
       "rolling_4": 1135.0,
       "rolling_6": 1116.5,
-      "rolling_12": 1132.2222222222222,
-      "index_first_100": 98.62660944206009
+      "rolling_12": 1135.4166666666667,
+      "index_first_100": 46.87882496940025
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -322,13 +2338,13 @@
       "pct_change_1": -1.5665796344647487,
       "change_4": 57.0,
       "pct_change_4": 5.307262569832405,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": -44.0,
+      "pct_change_12": -3.7446808510638308,
       "rolling_3": 1160.0,
       "rolling_4": 1149.25,
       "rolling_6": 1124.5,
-      "rolling_12": 1132.1,
-      "index_first_100": 97.08154506437768
+      "rolling_12": 1131.75,
+      "index_first_100": 46.14443084455324
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -350,13 +2366,13 @@
       "pct_change_1": -8.576480990274094,
       "change_4": -83.0,
       "pct_change_4": -7.430617726051924,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": -104.0,
+      "pct_change_12": -9.13884007029877,
       "rolling_3": 1104.6666666666667,
       "rolling_4": 1128.5,
       "rolling_6": 1117.5,
-      "rolling_12": 1123.1818181818182,
-      "index_first_100": 88.75536480686695
+      "rolling_12": 1123.0833333333333,
+      "index_first_100": 42.18686250509996
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -378,13 +2394,13 @@
       "pct_change_1": -3.578336557059958,
       "change_4": -203.0,
       "pct_change_4": -16.916666666666668,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": -125.0,
+      "pct_change_12": -11.14081996434938,
       "rolling_3": 1054.0,
       "rolling_4": 1077.75,
       "rolling_6": 1104.6666666666667,
       "rolling_12": 1112.6666666666667,
-      "index_first_100": 85.5793991416309
+      "index_first_100": 40.677274581803346
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -412,7 +2428,7 @@
       "rolling_4": 1082.5,
       "rolling_6": 1113.1666666666667,
       "rolling_12": 1112.9166666666667,
-      "index_first_100": 100.25751072961373
+      "index_first_100": 47.65401876784986
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -440,7 +2456,7 @@
       "rolling_4": 1132.5,
       "rolling_6": 1135.0,
       "rolling_12": 1126.25,
-      "index_first_100": 114.24892703862662
+      "index_first_100": 54.30436556507547
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -468,7 +2484,7 @@
       "rolling_4": 1223.25,
       "rolling_6": 1176.3333333333333,
       "rolling_12": 1146.4166666666667,
-      "index_first_100": 119.91416309012874
+      "index_first_100": 56.99714402284781
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -496,7 +2512,7 @@
       "rolling_4": 1343.5,
       "rolling_6": 1234.1666666666667,
       "rolling_12": 1179.3333333333333,
-      "index_first_100": 126.86695278969957
+      "index_first_100": 60.30191758465933
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -524,7 +2540,7 @@
       "rolling_4": 1438.0,
       "rolling_6": 1319.5,
       "rolling_12": 1218.5,
-      "index_first_100": 132.7038626609442
+      "index_first_100": 63.07629538963688
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -552,7 +2568,7 @@
       "rolling_4": 1526.75,
       "rolling_6": 1434.3333333333333,
       "rolling_12": 1269.5,
-      "index_first_100": 144.72103004291844
+      "index_first_100": 68.78824969400245
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -580,7 +2596,7 @@
       "rolling_4": 1620.75,
       "rolling_6": 1535.1666666666667,
       "rolling_12": 1324.1666666666667,
-      "index_first_100": 152.18884120171674
+      "index_first_100": 72.33782129742961
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -608,7 +2624,7 @@
       "rolling_4": 1707.75,
       "rolling_6": 1617.6666666666667,
       "rolling_12": 1376.3333333333333,
-      "index_first_100": 156.7381974248927
+      "index_first_100": 74.50020399836801
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -636,7 +2652,7 @@
       "rolling_4": 1786.25,
       "rolling_6": 1694.8333333333333,
       "rolling_12": 1435.5833333333333,
-      "index_first_100": 159.65665236051504
+      "index_first_100": 75.8873929008568
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -664,7 +2680,7 @@
       "rolling_4": 1911.0,
       "rolling_6": 1812.6666666666667,
       "rolling_12": 1523.4166666666667,
-      "index_first_100": 187.55364806866953
+      "index_first_100": 89.14728682170544
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -692,7 +2708,7 @@
       "rolling_4": 2085.5,
       "rolling_6": 1966.8333333333333,
       "rolling_12": 1643.1666666666667,
-      "index_first_100": 212.10300429184548
+      "index_first_100": 100.81599347205224
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -720,7 +2736,7 @@
       "rolling_4": 2260.5,
       "rolling_6": 2106.8333333333335,
       "rolling_12": 1770.5833333333333,
-      "index_first_100": 216.82403433476395
+      "index_first_100": 103.05997552019583
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -748,7 +2764,7 @@
       "rolling_4": 2454.75,
       "rolling_6": 2250.8333333333335,
       "rolling_12": 1893.0,
-      "index_first_100": 226.3519313304721
+      "index_first_100": 107.58873929008568
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -776,7 +2792,7 @@
       "rolling_4": 2541.5,
       "rolling_6": 2368.5,
       "rolling_12": 1993.0833333333333,
-      "index_first_100": 217.3390557939914
+      "index_first_100": 103.30477356181152
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -804,7 +2820,7 @@
       "rolling_4": 2572.25,
       "rolling_6": 2490.8333333333335,
       "rolling_12": 2092.8333333333335,
-      "index_first_100": 222.66094420600857
+      "index_first_100": 105.8343533251734
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -832,7 +2848,7 @@
       "rolling_4": 2617.5,
       "rolling_6": 2577.8333333333335,
       "rolling_12": 2195.25,
-      "index_first_100": 232.36051502145924
+      "index_first_100": 110.44471644226846
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -860,7 +2876,7 @@
       "rolling_4": 2643.5,
       "rolling_6": 2622.8333333333335,
       "rolling_12": 2294.8333333333335,
-      "index_first_100": 235.27896995708156
+      "index_first_100": 111.83190534475725
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -888,7 +2904,7 @@
       "rolling_4": 2705.25,
       "rolling_6": 2665.0,
       "rolling_12": 2385.9166666666665,
-      "index_first_100": 238.54077253218887
+      "index_first_100": 113.38229294165647
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -916,7 +2932,7 @@
       "rolling_4": 2722.75,
       "rolling_6": 2669.5,
       "rolling_12": 2460.1666666666665,
-      "index_first_100": 228.66952789699573
+      "index_first_100": 108.69033047735618
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -944,7 +2960,7 @@
       "rolling_4": 2714.75,
       "rolling_6": 2693.3333333333335,
       "rolling_12": 2530.9166666666665,
-      "index_first_100": 229.6137339055794
+      "index_first_100": 109.13912688698491
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -972,7 +2988,7 @@
       "rolling_4": 2697.0,
       "rolling_6": 2706.0,
       "rolling_12": 2598.4166666666665,
-      "index_first_100": 229.1845493562232
+      "index_first_100": 108.93512851897185
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1000,7 +3016,7 @@
       "rolling_4": 2688.75,
       "rolling_6": 2712.5,
       "rolling_12": 2645.1666666666665,
-      "index_first_100": 235.70815450643775
+      "index_first_100": 112.0359037127703
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1028,7 +3044,7 @@
       "rolling_4": 2726.5,
       "rolling_6": 2724.8333333333335,
       "rolling_12": 2673.8333333333335,
-      "index_first_100": 241.63090128755366
+      "index_first_100": 114.85108119135047
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1056,7 +3072,7 @@
       "rolling_4": 2753.0,
       "rolling_6": 2725.1666666666665,
       "rolling_12": 2695.0833333333335,
-      "index_first_100": 238.7124463519313
+      "index_first_100": 113.46389228886169
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1084,7 +3100,7 @@
       "rolling_4": 2767.75,
       "rolling_6": 2736.0,
       "rolling_12": 2702.75,
-      "index_first_100": 234.24892703862662
+      "index_first_100": 111.34230926152591
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1112,7 +3128,7 @@
       "rolling_4": 2781.75,
       "rolling_6": 2757.1666666666665,
       "rolling_12": 2725.25,
-      "index_first_100": 240.51502145922746
+      "index_first_100": 114.32068543451652
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1140,7 +3156,7 @@
       "rolling_4": 2768.5,
       "rolling_6": 2772.5,
       "rolling_12": 2739.25,
-      "index_first_100": 237.08154506437768
+      "index_first_100": 112.68869849041208
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1168,7 +3184,7 @@
       "rolling_4": 2766.0,
       "rolling_6": 2776.6666666666665,
       "rolling_12": 2744.5833333333335,
-      "index_first_100": 237.8540772532189
+      "index_first_100": 113.05589555283558
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1196,7 +3212,7 @@
       "rolling_4": 2807.5,
       "rolling_6": 2790.0,
       "rolling_12": 2757.4166666666665,
-      "index_first_100": 248.4978540772532
+      "index_first_100": 118.11505507955937
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1224,7 +3240,7 @@
       "rolling_4": 2823.5,
       "rolling_6": 2804.1666666666665,
       "rolling_12": 2764.6666666666665,
-      "index_first_100": 246.0085836909871
+      "index_first_100": 116.93186454508364
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1252,7 +3268,7 @@
       "rolling_4": 2876.75,
       "rolling_6": 2845.1666666666665,
       "rolling_12": 2790.5833333333335,
-      "index_first_100": 255.3648068669528
+      "index_first_100": 121.37902896776826
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1280,7 +3296,7 @@
       "rolling_4": 2956.25,
       "rolling_6": 2893.0,
       "rolling_12": 2825.0833333333335,
-      "index_first_100": 265.15021459227466
+      "index_first_100": 126.03019175846593
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1308,7 +3324,7 @@
       "rolling_4": 2988.25,
       "rolling_6": 2936.5,
       "rolling_12": 2854.5,
-      "index_first_100": 259.48497854077254
+      "index_first_100": 123.33741330069358
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1336,7 +3352,7 @@
       "rolling_4": 2987.75,
       "rolling_6": 2952.0,
       "rolling_12": 2864.3333333333335,
-      "index_first_100": 245.83690987124464
+      "index_first_100": 116.85026519787843
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1364,7 +3380,7 @@
       "rolling_4": 2925.5,
       "rolling_6": 2923.8333333333335,
       "rolling_12": 2856.9166666666665,
-      "index_first_100": 233.9914163090129
+      "index_first_100": 111.21991024071806
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1392,7 +3408,7 @@
       "rolling_4": 2815.25,
       "rolling_6": 2887.5,
       "rolling_12": 2845.8333333333335,
-      "index_first_100": 227.2961373390558
+      "index_first_100": 108.0375356997144
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1420,7 +3436,7 @@
       "rolling_4": 2705.25,
       "rolling_6": 2822.1666666666665,
       "rolling_12": 2833.6666666666665,
-      "index_first_100": 221.7167381974249
+      "index_first_100": 105.38555691554467
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1448,7 +3464,7 @@
       "rolling_4": 2623.75,
       "rolling_6": 2730.3333333333335,
       "rolling_12": 2811.6666666666665,
-      "index_first_100": 217.8540772532189
+      "index_first_100": 103.54957160342717
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1476,7 +3492,7 @@
       "rolling_4": 2622.5,
       "rolling_6": 2680.0,
       "rolling_12": 2808.25,
-      "index_first_100": 233.56223175965667
+      "index_first_100": 111.015911872705
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1504,7 +3520,7 @@
       "rolling_4": 2592.5,
       "rolling_6": 2624.0,
       "rolling_12": 2788.0,
-      "index_first_100": 216.99570815450642
+      "index_first_100": 103.14157486740105
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1532,7 +3548,7 @@
       "rolling_4": 2550.5,
       "rolling_6": 2572.1666666666665,
       "rolling_12": 2748.0,
-      "index_first_100": 207.29613733905578
+      "index_first_100": 98.531211750306
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1560,7 +3576,7 @@
       "rolling_4": 2516.0,
       "rolling_6": 2530.8333333333335,
       "rolling_12": 2709.1666666666665,
-      "index_first_100": 206.0085836909871
+      "index_first_100": 97.91921664626683
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1588,7 +3604,7 @@
       "rolling_4": 2417.0,
       "rolling_6": 2487.8333333333335,
       "rolling_12": 2655.0,
-      "index_first_100": 199.57081545064378
+      "index_first_100": 94.859241126071
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1616,7 +3632,7 @@
       "rolling_4": 2311.75,
       "rolling_6": 2416.0,
       "rolling_12": 2573.1666666666665,
-      "index_first_100": 180.85836909871244
+      "index_first_100": 85.96491228070175
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1644,7 +3660,7 @@
       "rolling_4": 2262.0,
       "rolling_6": 2331.8333333333335,
       "rolling_12": 2505.9166666666665,
-      "index_first_100": 190.21459227467813
+      "index_first_100": 90.41207670338636
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1672,7 +3688,7 @@
       "rolling_4": 2227.0,
       "rolling_6": 2287.1666666666665,
       "rolling_12": 2455.5833333333335,
-      "index_first_100": 193.99141630901286
+      "index_first_100": 92.20726234190127
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1700,7 +3716,7 @@
       "rolling_4": 2212.0,
       "rolling_6": 2262.1666666666665,
       "rolling_12": 2417.1666666666665,
-      "index_first_100": 194.42060085836908
+      "index_first_100": 92.41126070991432
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1728,7 +3744,7 @@
       "rolling_4": 2243.0,
       "rolling_6": 2234.0,
       "rolling_12": 2382.4166666666665,
-      "index_first_100": 191.5021459227468
+      "index_first_100": 91.02407180742554
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1756,7 +3772,7 @@
       "rolling_4": 2248.75,
       "rolling_6": 2219.6666666666665,
       "rolling_12": 2353.75,
-      "index_first_100": 192.18884120171674
+      "index_first_100": 91.35046919624644
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1784,7 +3800,7 @@
       "rolling_4": 2215.0,
       "rolling_6": 2222.6666666666665,
       "rolling_12": 2319.3333333333335,
-      "index_first_100": 182.40343347639484
+      "index_first_100": 86.69930640554875
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1812,7 +3828,7 @@
       "rolling_4": 2164.0,
       "rolling_6": 2196.8333333333335,
       "rolling_12": 2264.3333333333335,
-      "index_first_100": 176.90987124463518
+      "index_first_100": 84.08812729498165
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1840,7 +3856,7 @@
       "rolling_4": 2105.75,
       "rolling_6": 2153.1666666666665,
       "rolling_12": 2220.1666666666665,
-      "index_first_100": 171.50214592274676
+      "index_first_100": 81.51774785801713
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1868,7 +3884,7 @@
       "rolling_4": 2024.0,
       "rolling_6": 2094.3333333333335,
       "rolling_12": 2178.25,
-      "index_first_100": 164.12017167381973
+      "index_first_100": 78.00897592819257
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1896,7 +3912,7 @@
       "rolling_4": 1970.75,
       "rolling_6": 2041.1666666666667,
       "rolling_12": 2137.5833333333335,
-      "index_first_100": 164.12017167381973
+      "index_first_100": 78.00897592819257
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1924,7 +3940,7 @@
       "rolling_4": 1934.75,
       "rolling_6": 1987.5,
       "rolling_12": 2103.5833333333335,
-      "index_first_100": 164.54935622317598
+      "index_first_100": 78.21297429620563
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1952,7 +3968,7 @@
       "rolling_4": 1880.75,
       "rolling_6": 1930.3333333333333,
       "rolling_12": 2076.5,
-      "index_first_100": 152.96137339055792
+      "index_first_100": 72.70501835985313
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -1980,7 +3996,7 @@
       "rolling_4": 1875.0,
       "rolling_6": 1901.6666666666667,
       "rolling_12": 2049.25,
-      "index_first_100": 162.1459227467811
+      "index_first_100": 77.07058343533252
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2008,7 +4024,7 @@
       "rolling_4": 1868.0,
       "rolling_6": 1882.6666666666667,
       "rolling_12": 2017.9166666666667,
-      "index_first_100": 161.7167381974249
+      "index_first_100": 76.86658506731946
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2036,7 +4052,7 @@
       "rolling_4": 1864.0,
       "rolling_6": 1880.8333333333333,
       "rolling_12": 1987.5833333333333,
-      "index_first_100": 163.17596566523605
+      "index_first_100": 77.56017951856386
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2064,7 +4080,7 @@
       "rolling_4": 1874.0,
       "rolling_6": 1865.8333333333333,
       "rolling_12": 1953.5,
-      "index_first_100": 156.39484978540773
+      "index_first_100": 74.33700530395757
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2092,7 +4108,7 @@
       "rolling_4": 1844.75,
       "rolling_6": 1841.6666666666667,
       "rolling_12": 1914.5833333333333,
-      "index_first_100": 152.10300429184548
+      "index_first_100": 72.297021623827
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2120,7 +4136,7 @@
       "rolling_4": 1814.0,
       "rolling_6": 1838.1666666666667,
       "rolling_12": 1884.25,
-      "index_first_100": 151.1587982832618
+      "index_first_100": 71.8482252141983
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2148,7 +4164,7 @@
       "rolling_4": 1786.75,
       "rolling_6": 1822.0,
       "rolling_12": 1861.8333333333333,
-      "index_first_100": 153.8197424892704
+      "index_first_100": 73.11301509587923
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2176,7 +4192,7 @@
       "rolling_4": 1787.75,
       "rolling_6": 1812.3333333333333,
       "rolling_12": 1847.5,
-      "index_first_100": 156.7381974248927
+      "index_first_100": 74.50020399836801
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2204,7 +4220,7 @@
       "rolling_4": 1801.0,
       "rolling_6": 1799.6666666666667,
       "rolling_12": 1840.25,
-      "index_first_100": 156.65236051502146
+      "index_first_100": 74.4594043247654
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2232,7 +4248,7 @@
       "rolling_4": 1765.0,
       "rolling_6": 1765.5,
       "rolling_12": 1815.6666666666667,
-      "index_first_100": 138.79828326180257
+      "index_first_100": 65.97307221542228
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2260,7 +4276,7 @@
       "rolling_4": 1727.5,
       "rolling_6": 1743.8333333333333,
       "rolling_12": 1792.75,
-      "index_first_100": 140.94420600858368
+      "index_first_100": 66.99306405548757
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2288,7 +4304,7 @@
       "rolling_4": 1697.75,
       "rolling_6": 1734.8333333333333,
       "rolling_12": 1786.5,
-      "index_first_100": 146.5236051502146
+      "index_first_100": 69.64504283965728
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2316,7 +4332,7 @@
       "rolling_4": 1649.25,
       "rolling_6": 1708.0,
       "rolling_12": 1765.0,
-      "index_first_100": 140.0
+      "index_first_100": 66.54426764585884
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2344,7 +4360,7 @@
       "rolling_4": 1618.25,
       "rolling_6": 1652.5,
       "rolling_12": 1732.4166666666667,
-      "index_first_100": 128.15450643776825
+      "index_first_100": 60.91391268869849
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2372,7 +4388,7 @@
       "rolling_4": 1601.75,
       "rolling_6": 1611.0,
       "rolling_12": 1705.3333333333333,
-      "index_first_100": 135.27896995708156
+      "index_first_100": 64.30028559771522
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2400,7 +4416,7 @@
       "rolling_4": 1576.75,
       "rolling_6": 1609.3333333333333,
       "rolling_12": 1687.4166666666667,
-      "index_first_100": 137.93991416309012
+      "index_first_100": 65.56507547939616
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2428,7 +4444,7 @@
       "rolling_4": 1572.5,
       "rolling_6": 1604.6666666666667,
       "rolling_12": 1674.25,
-      "index_first_100": 138.54077253218884
+      "index_first_100": 65.85067319461444
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2456,7 +4472,7 @@
       "rolling_4": 1610.0,
       "rolling_6": 1594.0,
       "rolling_12": 1664.4166666666667,
-      "index_first_100": 141.03004291845494
+      "index_first_100": 67.03386372909017
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2484,7 +4500,7 @@
       "rolling_4": 1617.75,
       "rolling_6": 1590.0,
       "rolling_12": 1649.0,
-      "index_first_100": 137.93991416309012
+      "index_first_100": 65.56507547939616
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2512,7 +4528,7 @@
       "rolling_4": 1625.0,
       "rolling_6": 1613.8333333333333,
       "rolling_12": 1633.1666666666667,
-      "index_first_100": 140.42918454935622
+      "index_first_100": 66.7482660138719
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2540,7 +4556,7 @@
       "rolling_4": 1645.5,
       "rolling_6": 1633.8333333333333,
       "rolling_12": 1622.4166666666667,
-      "index_first_100": 145.5793991416309
+      "index_first_100": 69.19624643002857
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2568,7 +4584,7 @@
       "rolling_4": 1674.25,
       "rolling_6": 1659.0,
       "rolling_12": 1634.1666666666667,
-      "index_first_100": 150.90128755364807
+      "index_first_100": 71.72582619339045
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2596,7 +4612,7 @@
       "rolling_4": 1740.5,
       "rolling_6": 1702.0,
       "rolling_12": 1653.3333333333333,
-      "index_first_100": 160.68669527896995
+      "index_first_100": 76.37698898408813
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2624,7 +4640,7 @@
       "rolling_4": 1804.25,
       "rolling_6": 1743.3333333333333,
       "rolling_12": 1668.6666666666667,
-      "index_first_100": 162.3175965665236
+      "index_first_100": 77.15218278253774
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2652,7 +4668,7 @@
       "rolling_4": 1857.5,
       "rolling_6": 1793.6666666666667,
       "rolling_12": 1691.8333333333333,
-      "index_first_100": 163.862660944206
+      "index_first_100": 77.88657690738474
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2680,7 +4696,7 @@
       "rolling_4": 1889.5,
       "rolling_6": 1835.3333333333333,
       "rolling_12": 1724.5833333333333,
-      "index_first_100": 161.88841201716738
+      "index_first_100": 76.94818441452468
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2708,7 +4724,7 @@
       "rolling_4": 1898.0,
       "rolling_6": 1870.3333333333333,
       "rolling_12": 1752.0833333333333,
-      "index_first_100": 163.60515021459227
+      "index_first_100": 77.76417788657692
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2736,7 +4752,7 @@
       "rolling_4": 1929.5,
       "rolling_6": 1913.5,
       "rolling_12": 1786.25,
-      "index_first_100": 173.13304721030042
+      "index_first_100": 82.29294165646675
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2764,7 +4780,7 @@
       "rolling_4": 1954.25,
       "rolling_6": 1936.1666666666667,
       "rolling_12": 1819.0833333333333,
-      "index_first_100": 172.36051502145924
+      "index_first_100": 81.92574459404325
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2792,7 +4808,7 @@
       "rolling_4": 1998.0,
       "rolling_6": 1964.5,
       "rolling_12": 1853.9166666666667,
-      "index_first_100": 176.90987124463518
+      "index_first_100": 84.08812729498165
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2820,7 +4836,7 @@
       "rolling_4": 2059.0,
       "rolling_6": 2004.6666666666667,
       "rolling_12": 1899.1666666666667,
-      "index_first_100": 184.54935622317598
+      "index_first_100": 87.71929824561403
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2848,7 +4864,7 @@
       "rolling_4": 2088.5,
       "rolling_6": 2046.1666666666667,
       "rolling_12": 1940.75,
-      "index_first_100": 183.26180257510728
+      "index_first_100": 87.10730314157486
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2876,7 +4892,7 @@
       "rolling_4": 2148.75,
       "rolling_6": 2103.3333333333335,
       "rolling_12": 1986.8333333333333,
-      "index_first_100": 193.04721030042919
+      "index_first_100": 91.75846593227254
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2904,7 +4920,7 @@
       "rolling_4": 2226.5,
       "rolling_6": 2162.5,
       "rolling_12": 2038.0,
-      "index_first_100": 203.60515021459227
+      "index_first_100": 96.77682578539371
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2932,7 +4948,7 @@
       "rolling_4": 2321.75,
       "rolling_6": 2249.6666666666665,
       "rolling_12": 2092.9166666666665,
-      "index_first_100": 217.25321888412017
+      "index_first_100": 103.2639738882089
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2960,7 +4976,7 @@
       "rolling_4": 2467.75,
       "rolling_6": 2359.3333333333335,
       "rolling_12": 2161.9166666666665,
-      "index_first_100": 233.39055793991417
+      "index_first_100": 110.93431252549979
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -2988,7 +5004,7 @@
       "rolling_4": 2639.25,
       "rolling_6": 2490.1666666666665,
       "rolling_12": 2247.4166666666665,
-      "index_first_100": 251.931330472103
+      "index_first_100": 119.74704202366382
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3016,7 +5032,7 @@
       "rolling_4": 2889.75,
       "rolling_6": 2696.6666666666665,
       "rolling_12": 2371.4166666666665,
-      "index_first_100": 289.6137339055794
+      "index_first_100": 137.6580987352101
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3044,7 +5060,7 @@
       "rolling_4": 3184.5,
       "rolling_6": 2940.1666666666665,
       "rolling_12": 2521.75,
-      "index_first_100": 318.4549356223176
+      "index_first_100": 151.36678906568747
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3072,7 +5088,7 @@
       "rolling_4": 3500.25,
       "rolling_6": 3208.5,
       "rolling_12": 2685.5,
-      "index_first_100": 341.80257510729615
+      "index_first_100": 162.46430028559772
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3100,7 +5116,7 @@
       "rolling_4": 3935.0,
       "rolling_6": 3565.6666666666665,
       "rolling_12": 2907.6666666666665,
-      "index_first_100": 401.20171673819743
+      "index_first_100": 190.69767441860466
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3128,7 +5144,7 @@
       "rolling_4": 4366.75,
       "rolling_6": 3962.6666666666665,
       "rolling_12": 3161.0,
-      "index_first_100": 437.85407725321886
+      "index_first_100": 208.11913504691964
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3156,7 +5172,7 @@
       "rolling_4": 4830.0,
       "rolling_6": 4400.666666666667,
       "rolling_12": 3445.4166666666665,
-      "index_first_100": 477.5107296137339
+      "index_first_100": 226.968584251326
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3184,7 +5200,7 @@
       "rolling_4": 5316.75,
       "rolling_6": 4826.5,
       "rolling_12": 3761.5833333333335,
-      "index_first_100": 508.9270386266095
+      "index_first_100": 241.90126478988168
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3212,7 +5228,7 @@
       "rolling_4": 5701.5,
       "rolling_6": 5243.666666666667,
       "rolling_12": 4091.9166666666665,
-      "index_first_100": 533.304721030043
+      "index_first_100": 253.48837209302326
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3240,7 +5256,7 @@
       "rolling_4": 6022.75,
       "rolling_6": 5644.333333333333,
       "rolling_12": 4426.416666666667,
-      "index_first_100": 548.1545064377682
+      "index_first_100": 260.546715626275
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3268,7 +5284,7 @@
       "rolling_4": 6226.25,
       "rolling_6": 5928.166666666667,
       "rolling_12": 4746.916666666667,
-      "index_first_100": 547.3819742489271
+      "index_first_100": 260.1795185638515
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3296,7 +5312,7 @@
       "rolling_4": 6383.75,
       "rolling_6": 6171.166666666667,
       "rolling_12": 5066.916666666667,
-      "index_first_100": 563.0042918454935
+      "index_first_100": 267.6050591595267
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3324,7 +5340,7 @@
       "rolling_4": 6494.75,
       "rolling_6": 6353.5,
       "rolling_12": 5377.083333333333,
-      "index_first_100": 571.4163090128756
+      "index_first_100": 271.60342717258266
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3352,7 +5368,7 @@
       "rolling_4": 6588.75,
       "rolling_6": 6492.333333333333,
       "rolling_12": 5659.416666666667,
-      "index_first_100": 580.4291845493563
+      "index_first_100": 275.88739290085675
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3380,7 +5396,7 @@
       "rolling_4": 6699.0,
       "rolling_6": 6593.166666666667,
       "rolling_12": 5918.416666666667,
-      "index_first_100": 585.236051502146
+      "index_first_100": 278.17217462260305
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3408,7 +5424,7 @@
       "rolling_4": 6730.25,
       "rolling_6": 6642.833333333333,
       "rolling_12": 6143.583333333333,
-      "index_first_100": 573.7339055793991
+      "index_first_100": 272.7050183598531
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3436,7 +5452,7 @@
       "rolling_4": 6672.5,
       "rolling_6": 6651.0,
       "rolling_12": 6289.583333333333,
-      "index_first_100": 551.587982832618
+      "index_first_100": 262.17870257037947
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3464,7 +5480,7 @@
       "rolling_4": 6656.75,
       "rolling_6": 6674.333333333333,
       "rolling_12": 6422.75,
-      "index_first_100": 575.0214592274677
+      "index_first_100": 273.3170134638923
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3492,7 +5508,7 @@
       "rolling_4": 6584.75,
       "rolling_6": 6653.166666666667,
       "rolling_12": 6503.333333333333,
-      "index_first_100": 560.5150214592275
+      "index_first_100": 266.421868625051
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3520,7 +5536,7 @@
       "rolling_4": 6570.0,
       "rolling_6": 6630.333333333333,
       "rolling_12": 6561.333333333333,
-      "index_first_100": 568.6695278969956
+      "index_first_100": 270.297837617299
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3548,7 +5564,7 @@
       "rolling_4": 6572.75,
       "rolling_6": 6566.833333333333,
       "rolling_12": 6580.0,
-      "index_first_100": 552.5321888412017
+      "index_first_100": 262.62749898000817
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3576,7 +5592,7 @@
       "rolling_4": 6494.25,
       "rolling_6": 6517.0,
       "rolling_12": 6579.916666666667,
-      "index_first_100": 548.068669527897
+      "index_first_100": 260.50591595267235
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3604,7 +5620,7 @@
       "rolling_4": 6472.5,
       "rolling_6": 6519.833333333333,
       "rolling_12": 6585.416666666667,
-      "index_first_100": 553.0472103004291
+      "index_first_100": 262.8722970216238
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3632,7 +5648,7 @@
       "rolling_4": 6396.25,
       "rolling_6": 6456.666666666667,
       "rolling_12": 6565.5,
-      "index_first_100": 542.4892703862662
+      "index_first_100": 257.8539371685026
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3660,7 +5676,7 @@
       "rolling_4": 6373.75,
       "rolling_6": 6426.166666666667,
       "rolling_12": 6539.666666666667,
-      "index_first_100": 544.8068669527897
+      "index_first_100": 258.95552835577314
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3688,7 +5704,7 @@
       "rolling_4": 6311.0,
       "rolling_6": 6344.333333333333,
       "rolling_12": 6487.333333333333,
-      "index_first_100": 526.5236051502146
+      "index_first_100": 250.26519787841698
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3716,7 +5732,7 @@
       "rolling_4": 6309.5,
       "rolling_6": 6344.333333333333,
       "rolling_12": 6455.583333333333,
-      "index_first_100": 552.5321888412017
+      "index_first_100": 262.62749898000817
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3744,7 +5760,7 @@
       "rolling_4": 6215.5,
       "rolling_6": 6270.833333333333,
       "rolling_12": 6393.916666666667,
-      "index_first_100": 510.2145922746781
+      "index_first_100": 242.51325989392086
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3772,7 +5788,7 @@
       "rolling_4": 6088.25,
       "rolling_6": 6170.0,
       "rolling_12": 6344.916666666667,
-      "index_first_100": 501.1158798283262
+      "index_first_100": 238.18849449204404
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3800,7 +5816,7 @@
       "rolling_4": 5974.75,
       "rolling_6": 6063.333333333333,
       "rolling_12": 6260.0,
-      "index_first_100": 487.55364806866953
+      "index_first_100": 231.7421460628315
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3828,7 +5844,7 @@
       "rolling_4": 5787.5,
       "rolling_6": 5953.5,
       "rolling_12": 6189.833333333333,
-      "index_first_100": 488.2403433476395
+      "index_first_100": 232.06854345165237
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3856,7 +5872,7 @@
       "rolling_4": 5696.0,
       "rolling_6": 5860.833333333333,
       "rolling_12": 6102.583333333333,
-      "index_first_100": 478.79828326180257
+      "index_first_100": 227.5805793553652
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3884,7 +5900,7 @@
       "rolling_4": 5647.25,
       "rolling_6": 5728.5,
       "rolling_12": 6036.416666666667,
-      "index_first_100": 484.3776824034335
+      "index_first_100": 230.2325581395349
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3912,7 +5928,7 @@
       "rolling_4": 5620.75,
       "rolling_6": 5666.833333333333,
       "rolling_12": 5968.833333333333,
-      "index_first_100": 478.4549356223176
+      "index_first_100": 227.4173806609547
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3940,7 +5956,7 @@
       "rolling_4": 5590.75,
       "rolling_6": 5621.833333333333,
       "rolling_12": 5895.916666666667,
-      "index_first_100": 477.9399141630901
+      "index_first_100": 227.17258261933907
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3968,7 +5984,7 @@
       "rolling_4": 5552.75,
       "rolling_6": 5579.5,
       "rolling_12": 5821.416666666667,
-      "index_first_100": 465.75107296137344
+      "index_first_100": 221.37902896776828
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -3996,7 +6012,7 @@
       "rolling_4": 5489.5,
       "rolling_6": 5529.833333333333,
       "rolling_12": 5741.666666666667,
-      "index_first_100": 462.66094420600854
+      "index_first_100": 219.91024071807425
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4024,7 +6040,7 @@
       "rolling_4": 5406.0,
       "rolling_6": 5473.5,
       "rolling_12": 5667.166666666667,
-      "index_first_100": 449.78540772532193
+      "index_first_100": 213.79028967768255
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4052,7 +6068,7 @@
       "rolling_4": 5281.75,
       "rolling_6": 5378.166666666667,
       "rolling_12": 5553.333333333333,
-      "index_first_100": 435.27896995708153
+      "index_first_100": 206.89514483884128
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4080,7 +6096,7 @@
       "rolling_4": 5182.25,
       "rolling_6": 5287.166666666667,
       "rolling_12": 5477.0,
-      "index_first_100": 431.58798283261797
+      "index_first_100": 205.140758873929
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4108,7 +6124,7 @@
       "rolling_4": 5020.25,
       "rolling_6": 5149.5,
       "rolling_12": 5385.666666666667,
-      "index_first_100": 407.038626609442
+      "index_first_100": 193.4720522235822
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4136,7 +6152,7 @@
       "rolling_4": 4881.0,
       "rolling_6": 5025.666666666667,
       "rolling_12": 5302.583333333333,
-      "index_first_100": 401.9742489270386
+      "index_first_100": 191.06487148102815
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4164,7 +6180,7 @@
       "rolling_4": 4769.5,
       "rolling_6": 4898.166666666667,
       "rolling_12": 5214.0,
-      "index_first_100": 396.9957081545064
+      "index_first_100": 188.69849041207672
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4192,7 +6208,7 @@
       "rolling_4": 4639.0,
       "rolling_6": 4775.833333333333,
       "rolling_12": 5124.666666666667,
-      "index_first_100": 386.7811158798283
+      "index_first_100": 183.84332925336597
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4220,7 +6236,7 @@
       "rolling_4": 4587.5,
       "rolling_6": 4686.666666666667,
       "rolling_12": 5032.416666666667,
-      "index_first_100": 389.3562231759657
+      "index_first_100": 185.0673194614443
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4248,7 +6264,7 @@
       "rolling_4": 4557.0,
       "rolling_6": 4608.833333333333,
       "rolling_12": 4948.0,
-      "index_first_100": 391.50214592274676
+      "index_first_100": 186.0873113015096
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4276,7 +6292,7 @@
       "rolling_4": 4512.0,
       "rolling_6": 4559.333333333333,
       "rolling_12": 4854.416666666667,
-      "index_first_100": 381.5450643776824
+      "index_first_100": 181.3545491636067
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4304,7 +6320,7 @@
       "rolling_4": 4489.25,
       "rolling_6": 4514.666666666667,
       "rolling_12": 4770.166666666667,
-      "index_first_100": 378.9699570815451
+      "index_first_100": 180.13055895552836
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4332,7 +6348,7 @@
       "rolling_4": 4425.0,
       "rolling_6": 4457.0,
       "rolling_12": 4677.583333333333,
-      "index_first_100": 367.2961373390558
+      "index_first_100": 174.58180334557323
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4360,7 +6376,7 @@
       "rolling_4": 4347.75,
       "rolling_6": 4414.666666666667,
       "rolling_12": 4595.25,
-      "index_first_100": 364.9785407725322
+      "index_first_100": 173.48021215830275
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4388,7 +6404,7 @@
       "rolling_4": 4276.25,
       "rolling_6": 4351.833333333333,
       "rolling_12": 4519.25,
-      "index_first_100": 356.9957081545065
+      "index_first_100": 169.6858425132599
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4416,7 +6432,7 @@
       "rolling_4": 4202.5,
       "rolling_6": 4278.333333333333,
       "rolling_12": 4443.583333333333,
-      "index_first_100": 353.6480686695279
+      "index_first_100": 168.09465524275805
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4444,7 +6460,7 @@
       "rolling_4": 4164.0,
       "rolling_6": 4225.0,
       "rolling_12": 4392.166666666667,
-      "index_first_100": 354.0772532188841
+      "index_first_100": 168.2986536107711
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4472,7 +6488,7 @@
       "rolling_4": 4122.75,
       "rolling_6": 4170.333333333333,
       "rolling_12": 4342.5,
-      "index_first_100": 350.81545064377684
+      "index_first_100": 166.7482660138719
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4500,7 +6516,7 @@
       "rolling_4": 4054.5,
       "rolling_6": 4104.833333333333,
       "rolling_12": 4280.916666666667,
-      "index_first_100": 333.5622317596567
+      "index_first_100": 158.54753161974705
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4528,7 +6544,7 @@
       "rolling_4": 3998.75,
       "rolling_6": 4045.6666666666665,
       "rolling_12": 4230.166666666667,
-      "index_first_100": 334.50643776824035
+      "index_first_100": 158.99632802937575
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4556,7 +6572,7 @@
       "rolling_4": 3916.5,
       "rolling_6": 3985.1666666666665,
       "rolling_12": 4168.5,
-      "index_first_100": 325.83690987124464
+      "index_first_100": 154.87556099551202
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4584,7 +6600,7 @@
       "rolling_4": 3828.0,
       "rolling_6": 3920.6666666666665,
       "rolling_12": 4099.5,
-      "index_first_100": 320.42918454935625
+      "index_first_100": 152.30518155854753
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4612,7 +6628,7 @@
       "rolling_4": 3755.75,
       "rolling_6": 3832.6666666666665,
       "rolling_12": 4028.8333333333335,
-      "index_first_100": 308.75536480686696
+      "index_first_100": 146.7564259485924
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4640,7 +6656,7 @@
       "rolling_4": 3709.5,
       "rolling_6": 3770.1666666666665,
       "rolling_12": 3970.25,
-      "index_first_100": 318.6266094420601
+      "index_first_100": 151.4483884128927
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4668,7 +6684,7 @@
       "rolling_4": 3640.0,
       "rolling_6": 3708.8333333333335,
       "rolling_12": 3906.8333333333335,
-      "index_first_100": 301.9742489270386
+      "index_first_100": 143.53325173398613
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4696,7 +6712,7 @@
       "rolling_4": 3587.5,
       "rolling_6": 3646.5,
       "rolling_12": 3846.0833333333335,
-      "index_first_100": 302.40343347639487
+      "index_first_100": 143.7372501019992
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4724,7 +6740,7 @@
       "rolling_4": 3549.0,
       "rolling_6": 3587.6666666666665,
       "rolling_12": 3786.4166666666665,
-      "index_first_100": 295.53648068669526
+      "index_first_100": 140.47327621379029
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4752,7 +6768,7 @@
       "rolling_4": 3435.5,
       "rolling_6": 3508.5,
       "rolling_12": 3714.5833333333335,
-      "index_first_100": 279.656652360515
+      "index_first_100": 132.92533659730722
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4780,7 +6796,7 @@
       "rolling_4": 3373.75,
       "rolling_6": 3454.1666666666665,
       "rolling_12": 3643.4166666666665,
-      "index_first_100": 280.7725321888412
+      "index_first_100": 133.45573235414116
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4808,7 +6824,7 @@
       "rolling_4": 3299.0,
       "rolling_6": 3372.8333333333335,
       "rolling_12": 3571.5,
-      "index_first_100": 276.73819742489275
+      "index_first_100": 131.53814769481843
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4836,7 +6852,7 @@
       "rolling_4": 3241.5,
       "rolling_6": 3322.0,
       "rolling_12": 3515.4166666666665,
-      "index_first_100": 275.793991416309
+      "index_first_100": 131.08935128518974
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4864,7 +6880,7 @@
       "rolling_4": 3182.5,
       "rolling_6": 3238.5,
       "rolling_12": 3442.5,
-      "index_first_100": 259.3991416309013
+      "index_first_100": 123.29661362709099
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4892,7 +6908,7 @@
       "rolling_4": 3090.75,
       "rolling_6": 3148.6666666666665,
       "rolling_12": 3368.1666666666665,
-      "index_first_100": 249.27038626609442
+      "index_first_100": 118.48225214198287
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4920,7 +6936,7 @@
       "rolling_4": 2982.25,
       "rolling_6": 3070.6666666666665,
       "rolling_12": 3289.5833333333335,
-      "index_first_100": 239.48497854077254
+      "index_first_100": 113.83108935128519
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4948,7 +6964,7 @@
       "rolling_4": 2841.75,
       "rolling_6": 2967.3333333333335,
       "rolling_12": 3210.75,
-      "index_first_100": 227.5536480686695
+      "index_first_100": 108.15993472052223
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -4976,7 +6992,7 @@
       "rolling_4": 2738.25,
       "rolling_6": 2864.6666666666665,
       "rolling_12": 3118.75,
-      "index_first_100": 223.862660944206
+      "index_first_100": 106.40554875560994
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5004,7 +7020,7 @@
       "rolling_4": 2666.0,
       "rolling_6": 2765.0,
       "rolling_12": 3043.5,
-      "index_first_100": 224.46351931330472
+      "index_first_100": 106.69114647082823
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5032,7 +7048,7 @@
       "rolling_4": 2595.0,
       "rolling_6": 2679.0,
       "rolling_12": 2958.75,
-      "index_first_100": 215.10729613733906
+      "index_first_100": 102.24398204814362
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5060,7 +7076,7 @@
       "rolling_4": 2549.5,
       "rolling_6": 2606.5,
       "rolling_12": 2877.5833333333335,
-      "index_first_100": 211.931330472103
+      "index_first_100": 100.734394124847
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5088,7 +7104,7 @@
       "rolling_4": 2497.0,
       "rolling_6": 2541.1666666666665,
       "rolling_12": 2805.9166666666665,
-      "index_first_100": 205.83690987124464
+      "index_first_100": 97.8376172990616
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5116,7 +7132,7 @@
       "rolling_4": 2427.75,
       "rolling_6": 2489.0,
       "rolling_12": 2728.1666666666665,
-      "index_first_100": 200.68669527896995
+      "index_first_100": 95.38963688290494
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5144,7 +7160,7 @@
       "rolling_4": 2353.0,
       "rolling_6": 2422.1666666666665,
       "rolling_12": 2643.4166666666665,
-      "index_first_100": 189.4420600858369
+      "index_first_100": 90.04487964096288
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5172,7 +7188,7 @@
       "rolling_4": 2281.5,
       "rolling_6": 2350.1666666666665,
       "rolling_12": 2557.5833333333335,
-      "index_first_100": 187.38197424892704
+      "index_first_100": 89.0656874745002
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5200,7 +7216,7 @@
       "rolling_4": 2241.5,
       "rolling_6": 2305.5,
       "rolling_12": 2492.25,
-      "index_first_100": 192.1030042918455
+      "index_first_100": 91.30966952264382
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5228,7 +7244,7 @@
       "rolling_4": 2217.0,
       "rolling_6": 2267.3333333333335,
       "rolling_12": 2436.9166666666665,
-      "index_first_100": 192.27467811158797
+      "index_first_100": 91.39126886984904
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5256,7 +7272,7 @@
       "rolling_4": 2201.75,
       "rolling_6": 2225.3333333333335,
       "rolling_12": 2383.25,
-      "index_first_100": 184.206008583691
+      "index_first_100": 87.55609955120359
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5284,7 +7300,7 @@
       "rolling_4": 2205.5,
       "rolling_6": 2202.0,
       "rolling_12": 2345.5,
-      "index_first_100": 188.6695278969957
+      "index_first_100": 89.67768257853938
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5312,7 +7328,7 @@
       "rolling_4": 2176.75,
       "rolling_6": 2188.0,
       "rolling_12": 2305.0833333333335,
-      "index_first_100": 182.23175965665237
+      "index_first_100": 86.61770705834353
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5340,7 +7356,7 @@
       "rolling_4": 2148.75,
       "rolling_6": 2178.8333333333335,
       "rolling_12": 2264.5,
-      "index_first_100": 182.6609442060086
+      "index_first_100": 86.82170542635659
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5368,7 +7384,7 @@
       "rolling_4": 2144.5,
       "rolling_6": 2160.6666666666665,
       "rolling_12": 2233.0833333333335,
-      "index_first_100": 182.74678111587983
+      "index_first_100": 86.8625050999592
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5396,7 +7412,7 @@
       "rolling_4": 2137.25,
       "rolling_6": 2148.8333333333335,
       "rolling_12": 2208.0833333333335,
-      "index_first_100": 186.18025751072963
+      "index_first_100": 88.49449204406365
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5424,7 +7440,7 @@
       "rolling_4": 2118.25,
       "rolling_6": 2132.3333333333335,
       "rolling_12": 2178.8333333333335,
-      "index_first_100": 175.70815450643778
+      "index_first_100": 83.51693186454509
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5452,7 +7468,7 @@
       "rolling_4": 2047.5,
       "rolling_6": 2073.5,
       "rolling_12": 2137.75,
-      "index_first_100": 158.36909871244634
+      "index_first_100": 75.27539779681763
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5480,7 +7496,7 @@
       "rolling_4": 2000.25,
       "rolling_6": 2043.0,
       "rolling_12": 2115.5,
-      "index_first_100": 166.5236051502146
+      "index_first_100": 79.15136678906569
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5508,7 +7524,7 @@
       "rolling_4": 1974.5,
       "rolling_6": 2032.6666666666667,
       "rolling_12": 2105.75,
-      "index_first_100": 177.3390557939914
+      "index_first_100": 84.29212566299469
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5536,7 +7552,7 @@
       "rolling_4": 1995.5,
       "rolling_6": 2033.0,
       "rolling_12": 2096.8333333333335,
-      "index_first_100": 182.91845493562232
+      "index_first_100": 86.94410444716442
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5564,7 +7580,7 @@
       "rolling_4": 2044.0,
       "rolling_6": 2011.3333333333333,
       "rolling_12": 2080.0833333333335,
-      "index_first_100": 175.0214592274678
+      "index_first_100": 83.19053447572419
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5592,7 +7608,7 @@
       "rolling_4": 2035.75,
       "rolling_6": 1988.0,
       "rolling_12": 2060.1666666666665,
-      "index_first_100": 163.69098712446353
+      "index_first_100": 77.80497756017952
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5620,7 +7636,7 @@
       "rolling_4": 2025.75,
       "rolling_6": 2018.1666666666667,
       "rolling_12": 2045.8333333333333,
-      "index_first_100": 173.90557939914163
+      "index_first_100": 82.66013871889025
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5648,7 +7664,7 @@
       "rolling_4": 1980.5,
       "rolling_6": 2019.8333333333333,
       "rolling_12": 2031.4166666666667,
-      "index_first_100": 167.38197424892704
+      "index_first_100": 79.5593635250918
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5676,7 +7692,7 @@
       "rolling_4": 1958.5,
       "rolling_6": 2000.6666666666667,
       "rolling_12": 2016.6666666666667,
-      "index_first_100": 167.46781115879827
+      "index_first_100": 79.6001631986944
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5704,7 +7720,7 @@
       "rolling_4": 1952.5,
       "rolling_6": 1959.3333333333333,
       "rolling_12": 1996.1666666666667,
-      "index_first_100": 161.63090128755363
+      "index_first_100": 76.82578539371686
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5732,7 +7748,7 @@
       "rolling_4": 1929.5,
       "rolling_6": 1941.8333333333333,
       "rolling_12": 1976.5833333333333,
-      "index_first_100": 166.0085836909871
+      "index_first_100": 78.90656874745002
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5760,7 +7776,7 @@
       "rolling_4": 1914.5,
       "rolling_6": 1939.0,
       "rolling_12": 1963.5,
-      "index_first_100": 162.23175965665234
+      "index_first_100": 77.11138310893513
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5788,7 +7804,7 @@
       "rolling_4": 1928.75,
       "rolling_6": 1936.0,
       "rolling_12": 1977.0833333333333,
-      "index_first_100": 172.36051502145924
+      "index_first_100": 81.92574459404325
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5816,7 +7832,7 @@
       "rolling_4": 1957.0,
       "rolling_6": 1943.6666666666667,
       "rolling_12": 1981.75,
-      "index_first_100": 171.3304721030043
+      "index_first_100": 81.43614851081192
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5844,7 +7860,7 @@
       "rolling_4": 1932.25,
       "rolling_6": 1924.3333333333333,
       "rolling_12": 1962.5,
-      "index_first_100": 157.5107296137339
+      "index_first_100": 74.86740106079152
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5872,7 +7888,7 @@
       "rolling_4": 1912.75,
       "rolling_6": 1912.5,
       "rolling_12": 1935.9166666666667,
-      "index_first_100": 155.53648068669528
+      "index_first_100": 73.92900856793145
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5900,7 +7916,7 @@
       "rolling_4": 1855.5,
       "rolling_6": 1886.6666666666667,
       "rolling_12": 1914.25,
-      "index_first_100": 152.7038626609442
+      "index_first_100": 72.58261933904528
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5928,7 +7944,7 @@
       "rolling_4": 1783.5,
       "rolling_6": 1856.3333333333333,
       "rolling_12": 1897.6666666666667,
-      "index_first_100": 146.60944206008583
+      "index_first_100": 69.6858425132599
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5956,7 +7972,7 @@
       "rolling_4": 1745.25,
       "rolling_6": 1802.0,
       "rolling_12": 1869.0,
-      "index_first_100": 144.37768240343348
+      "index_first_100": 68.625050999592
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -5984,7 +8000,7 @@
       "rolling_4": 1729.0,
       "rolling_6": 1760.5,
       "rolling_12": 1852.0833333333333,
-      "index_first_100": 149.95708154506437
+      "index_first_100": 71.27702978376172
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6012,7 +8028,7 @@
       "rolling_4": 1720.25,
       "rolling_6": 1745.3333333333333,
       "rolling_12": 1834.8333333333333,
-      "index_first_100": 149.69957081545064
+      "index_first_100": 71.1546307629539
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6040,7 +8056,7 @@
       "rolling_4": 1710.0,
       "rolling_6": 1721.1666666666667,
       "rolling_12": 1816.8333333333333,
-      "index_first_100": 143.0901287553648
+      "index_first_100": 68.01305589555284
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6068,7 +8084,7 @@
       "rolling_4": 1684.25,
       "rolling_6": 1687.8333333333333,
       "rolling_12": 1787.25,
-      "index_first_100": 135.53648068669528
+      "index_first_100": 64.42268461852305
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6096,7 +8112,7 @@
       "rolling_4": 1657.5,
       "rolling_6": 1676.5,
       "rolling_12": 1766.4166666666667,
-      "index_first_100": 140.7725321888412
+      "index_first_100": 66.91146470828232
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6124,7 +8140,7 @@
       "rolling_4": 1641.0,
       "rolling_6": 1675.8333333333333,
       "rolling_12": 1738.9166666666667,
-      "index_first_100": 144.0343347639485
+      "index_first_100": 68.46185230518157
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6152,7 +8168,7 @@
       "rolling_4": 1649.0,
       "rolling_6": 1667.8333333333333,
       "rolling_12": 1714.1666666666667,
-      "index_first_100": 145.83690987124461
+      "index_first_100": 69.31864545083639
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6180,7 +8196,7 @@
       "rolling_4": 1659.5,
       "rolling_6": 1647.3333333333333,
       "rolling_12": 1696.3333333333333,
-      "index_first_100": 139.14163090128756
+      "index_first_100": 66.13627090983272
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6208,7 +8224,7 @@
       "rolling_4": 1616.0,
       "rolling_6": 1613.8333333333333,
       "rolling_12": 1667.5,
-      "index_first_100": 125.83690987124463
+      "index_first_100": 59.81232150142799
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6236,7 +8252,7 @@
       "rolling_4": 1555.25,
       "rolling_6": 1589.8333333333333,
       "rolling_12": 1638.8333333333333,
-      "index_first_100": 123.17596566523605
+      "index_first_100": 58.54753161974704
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6264,7 +8280,7 @@
       "rolling_4": 1492.5,
       "rolling_6": 1557.8333333333333,
       "rolling_12": 1617.1666666666667,
-      "index_first_100": 124.29184549356222
+      "index_first_100": 59.07792737658099
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6292,7 +8308,7 @@
       "rolling_4": 1445.0,
       "rolling_6": 1516.6666666666667,
       "rolling_12": 1596.25,
-      "index_first_100": 122.83261802575107
+      "index_first_100": 58.3843329253366
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6320,7 +8336,7 @@
       "rolling_4": 1403.75,
       "rolling_6": 1450.3333333333333,
       "rolling_12": 1559.0833333333333,
-      "index_first_100": 111.67381974248927
+      "index_first_100": 53.080375356997145
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6348,7 +8364,7 @@
       "rolling_4": 1357.5,
       "rolling_6": 1388.5,
       "rolling_12": 1517.9166666666667,
-      "index_first_100": 107.29613733905579
+      "index_first_100": 50.99959200326397
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6376,7 +8392,7 @@
       "rolling_4": 1326.0,
       "rolling_6": 1364.5,
       "rolling_12": 1489.1666666666667,
-      "index_first_100": 113.47639484978541
+      "index_first_100": 53.93716850265198
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6404,7 +8420,7 @@
       "rolling_4": 1303.5,
       "rolling_6": 1348.8333333333333,
       "rolling_12": 1469.3333333333333,
-      "index_first_100": 115.10729613733905
+      "index_first_100": 54.71236230110159
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6432,7 +8448,7 @@
       "rolling_4": 1343.5,
       "rolling_6": 1351.0,
       "rolling_12": 1454.4166666666667,
-      "index_first_100": 125.40772532188842
+      "index_first_100": 59.60832313341493
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6460,7 +8476,7 @@
       "rolling_4": 1395.25,
       "rolling_6": 1355.3333333333333,
       "rolling_12": 1436.0,
-      "index_first_100": 125.06437768240343
+      "index_first_100": 59.445124439004495
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6488,7 +8504,7 @@
       "rolling_4": 1394.25,
       "rolling_6": 1358.1666666666667,
       "rolling_12": 1404.25,
-      "index_first_100": 113.13304721030042
+      "index_first_100": 53.77396980824154
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6516,7 +8532,7 @@
       "rolling_4": 1409.0,
       "rolling_6": 1383.1666666666667,
       "rolling_12": 1385.8333333333333,
-      "index_first_100": 120.1716738197425
+      "index_first_100": 57.11954304365565
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6544,7 +8560,7 @@
       "rolling_4": 1374.75,
       "rolling_6": 1383.5,
       "rolling_12": 1374.0,
-      "index_first_100": 113.6480686695279
+      "index_first_100": 54.0187678498572
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6572,7 +8588,7 @@
       "rolling_4": 1331.5,
       "rolling_6": 1374.0,
       "rolling_12": 1361.4166666666667,
-      "index_first_100": 110.21459227467811
+      "index_first_100": 52.38678090575275
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6600,7 +8616,7 @@
       "rolling_4": 1333.5,
       "rolling_6": 1351.5,
       "rolling_12": 1351.25,
-      "index_first_100": 113.81974248927038
+      "index_first_100": 54.100367197062425
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6628,7 +8644,7 @@
       "rolling_4": 1326.75,
       "rolling_6": 1337.5,
       "rolling_12": 1346.4166666666667,
-      "index_first_100": 117.85407725321888
+      "index_first_100": 56.01795185638515
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6656,7 +8672,7 @@
       "rolling_4": 1331.75,
       "rolling_6": 1341.8333333333333,
       "rolling_12": 1350.0,
-      "index_first_100": 115.36480686695279
+      "index_first_100": 54.83476132190942
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6684,7 +8700,7 @@
       "rolling_4": 1328.25,
       "rolling_6": 1320.1666666666667,
       "rolling_12": 1351.6666666666667,
-      "index_first_100": 109.01287553648069
+      "index_first_100": 51.8155854753162
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6712,7 +8728,7 @@
       "rolling_4": 1307.5,
       "rolling_6": 1306.6666666666667,
       "rolling_12": 1345.0833333333333,
-      "index_first_100": 106.69527896995707
+      "index_first_100": 50.7139942880457
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6740,7 +8756,7 @@
       "rolling_4": 1313.0,
       "rolling_6": 1325.1666666666667,
       "rolling_12": 1349.5833333333333,
-      "index_first_100": 119.74248927038627
+      "index_first_100": 56.91554467564259
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6768,7 +8784,7 @@
       "rolling_4": 1318.5,
       "rolling_6": 1331.8333333333333,
       "rolling_12": 1341.6666666666667,
-      "index_first_100": 117.25321888412017
+      "index_first_100": 55.73235414116687
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6796,7 +8812,7 @@
       "rolling_4": 1335.75,
       "rolling_6": 1326.1666666666667,
       "rolling_12": 1331.8333333333333,
-      "index_first_100": 114.93562231759657
+      "index_first_100": 54.63076295389637
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6824,7 +8840,7 @@
       "rolling_4": 1345.75,
       "rolling_6": 1316.0,
       "rolling_12": 1328.9166666666667,
-      "index_first_100": 110.12875536480686
+      "index_first_100": 52.34598123215014
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6852,7 +8868,7 @@
       "rolling_4": 1372.75,
       "rolling_6": 1354.8333333333333,
       "rolling_12": 1337.5,
-      "index_first_100": 129.0128755364807
+      "index_first_100": 61.32190942472461
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6880,7 +8896,7 @@
       "rolling_4": 1526.25,
       "rolling_6": 1477.6666666666667,
       "rolling_12": 1392.1666666666667,
-      "index_first_100": 169.95708154506437
+      "index_first_100": 80.78335373317015
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6908,7 +8924,7 @@
       "rolling_4": 1755.0,
       "rolling_6": 1620.8333333333333,
       "rolling_12": 1473.0,
-      "index_first_100": 193.4763948497854
+      "index_first_100": 91.96246430028559
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6936,7 +8952,7 @@
       "rolling_4": 2141.5,
       "rolling_6": 1864.6666666666667,
       "rolling_12": 1598.25,
-      "index_first_100": 242.8326180257511
+      "index_first_100": 115.42227662178703
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6964,7 +8980,7 @@
       "rolling_4": 2484.0,
       "rolling_6": 2120.3333333333335,
       "rolling_12": 1723.25,
-      "index_first_100": 246.60944206008583
+      "index_first_100": 117.21746226030191
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -6992,7 +9008,7 @@
       "rolling_4": 2825.0,
       "rolling_6": 2463.8333333333335,
       "rolling_12": 1889.9166666666667,
-      "index_first_100": 287.0386266094421
+      "index_first_100": 136.43410852713177
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7020,7 +9036,7 @@
       "rolling_4": 3188.0,
       "rolling_6": 2831.0,
       "rolling_12": 2092.9166666666665,
-      "index_first_100": 318.11158798283265
+      "index_first_100": 151.20359037127702
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7048,7 +9064,7 @@
       "rolling_4": 3386.5,
       "rolling_6": 3104.8333333333335,
       "rolling_12": 2291.25,
-      "index_first_100": 310.9871244635193
+      "index_first_100": 147.81721746226032
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7076,7 +9092,7 @@
       "rolling_4": 3591.25,
       "rolling_6": 3344.5,
       "rolling_12": 2482.6666666666665,
-      "index_first_100": 316.9098712446352
+      "index_first_100": 150.63239494084047
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7104,7 +9120,7 @@
       "rolling_4": 3613.0,
       "rolling_6": 3444.8333333333335,
       "rolling_12": 2654.75,
-      "index_first_100": 294.50643776824035
+      "index_first_100": 139.98368013055895
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7132,7 +9148,7 @@
       "rolling_4": 3570.0,
       "rolling_6": 3555.0,
       "rolling_12": 2837.6666666666665,
-      "index_first_100": 303.3476394849786
+      "index_first_100": 144.1860465116279
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7160,7 +9176,7 @@
       "rolling_4": 3533.25,
       "rolling_6": 3577.0,
       "rolling_12": 3020.4166666666665,
-      "index_first_100": 298.3690987124464
+      "index_first_100": 141.81966544267647
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7188,7 +9204,7 @@
       "rolling_4": 3462.0,
       "rolling_6": 3527.1666666666665,
       "rolling_12": 3179.0833333333335,
-      "index_first_100": 292.44635193133047
+      "index_first_100": 139.00448796409628
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7216,7 +9232,7 @@
       "rolling_4": 3468.5,
       "rolling_6": 3499.5,
       "rolling_12": 3302.1666666666665,
-      "index_first_100": 296.7381974248927
+      "index_first_100": 141.04447164422683
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7244,7 +9260,7 @@
       "rolling_4": 3372.75,
       "rolling_6": 3409.3333333333335,
       "rolling_12": 3376.9166666666665,
-      "index_first_100": 270.47210300429185
+      "index_first_100": 128.55977152182783
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7272,7 +9288,7 @@
       "rolling_4": 3293.75,
       "rolling_6": 3364.1666666666665,
       "rolling_12": 3404.5,
-      "index_first_100": 271.2446351931331
+      "index_first_100": 128.9269685842513
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7300,7 +9316,7 @@
       "rolling_4": 3177.0,
       "rolling_6": 3265.1666666666665,
       "rolling_12": 3410.0833333333335,
-      "index_first_100": 252.3605150214592
+      "index_first_100": 119.95104039167688
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7328,7 +9344,7 @@
       "rolling_4": 2935.25,
       "rolling_6": 3100.8333333333335,
       "rolling_12": 3338.9166666666665,
-      "index_first_100": 213.73390557939916
+      "index_first_100": 101.59118727050182
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7356,7 +9372,7 @@
       "rolling_4": 2715.75,
       "rolling_6": 2911.8333333333335,
       "rolling_12": 3219.5,
-      "index_first_100": 195.10729613733906
+      "index_first_100": 92.73765809873521
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7384,7 +9400,7 @@
       "rolling_4": 2449.25,
       "rolling_6": 2684.6666666666665,
       "rolling_12": 3092.0833333333335,
-      "index_first_100": 179.74248927038627
+      "index_first_100": 85.43451652386781
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7412,7 +9428,7 @@
       "rolling_4": 2186.25,
       "rolling_6": 2474.1666666666665,
       "rolling_12": 2941.75,
-      "index_first_100": 162.06008583690988
+      "index_first_100": 77.0297837617299
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7440,7 +9456,7 @@
       "rolling_4": 1993.5,
       "rolling_6": 2234.0,
       "rolling_12": 2799.0833333333335,
-      "index_first_100": 147.55364806866953
+      "index_first_100": 70.13463892288861
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7468,7 +9484,7 @@
       "rolling_4": 1841.0,
       "rolling_6": 2021.1666666666667,
       "rolling_12": 2643.1666666666665,
-      "index_first_100": 142.74678111587983
+      "index_first_100": 67.8498572011424
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7496,7 +9512,7 @@
       "rolling_4": 1709.75,
       "rolling_6": 1867.6666666666667,
       "rolling_12": 2484.25,
-      "index_first_100": 134.67811158798284
+      "index_first_100": 64.01468788249693
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7524,7 +9540,7 @@
       "rolling_4": 1580.25,
       "rolling_6": 1717.1666666666667,
       "rolling_12": 2314.5,
-      "index_first_100": 117.59656652360515
+      "index_first_100": 55.89555283557731
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7552,7 +9568,7 @@
       "rolling_4": 1497.75,
       "rolling_6": 1599.6666666666667,
       "rolling_12": 2142.1666666666665,
-      "index_first_100": 119.2274678111588
+      "index_first_100": 56.670746634026926
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7580,7 +9596,7 @@
       "rolling_4": 1415.75,
       "rolling_6": 1507.5,
       "rolling_12": 1990.8333333333333,
-      "index_first_100": 114.5922746781116
+      "index_first_100": 54.467564259485926
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7608,7 +9624,7 @@
       "rolling_4": 1343.5,
       "rolling_6": 1434.3333333333333,
       "rolling_12": 1834.1666666666667,
-      "index_first_100": 109.87124463519314
+      "index_first_100": 52.22358221134231
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7636,7 +9652,7 @@
       "rolling_4": 1301.75,
       "rolling_6": 1357.6666666666667,
       "rolling_12": 1689.4166666666667,
-      "index_first_100": 103.26180257510728
+      "index_first_100": 49.08200734394125
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7664,7 +9680,7 @@
       "rolling_4": 1296.75,
       "rolling_6": 1324.3333333333333,
       "rolling_12": 1596.0,
-      "index_first_100": 117.5107296137339
+      "index_first_100": 55.8547531619747
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7692,7 +9708,7 @@
       "rolling_4": 1255.5,
       "rolling_6": 1291.0,
       "rolling_12": 1504.0833333333333,
-      "index_first_100": 100.42918454935624
+      "index_first_100": 47.735618115055075
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7720,7 +9736,7 @@
       "rolling_4": 1252.75,
       "rolling_6": 1271.0,
       "rolling_12": 1435.3333333333333,
-      "index_first_100": 108.92703862660944
+      "index_first_100": 51.774785801713584
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7748,7 +9764,7 @@
       "rolling_4": 1286.75,
       "rolling_6": 1271.6666666666667,
       "rolling_12": 1389.5833333333333,
-      "index_first_100": 114.93562231759657
+      "index_first_100": 54.63076295389637
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7776,7 +9792,7 @@
       "rolling_4": 1282.75,
       "rolling_6": 1283.8333333333333,
       "rolling_12": 1359.0833333333333,
-      "index_first_100": 116.137339055794
+      "index_first_100": 55.201958384332926
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7804,7 +9820,7 @@
       "rolling_4": 1312.75,
       "rolling_6": 1298.3333333333333,
       "rolling_12": 1328.0,
-      "index_first_100": 110.72961373390558
+      "index_first_100": 52.63157894736842
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7832,7 +9848,7 @@
       "rolling_4": 1347.75,
       "rolling_6": 1305.0,
       "rolling_12": 1314.6666666666667,
-      "index_first_100": 120.94420600858369
+      "index_first_100": 57.48674010607915
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7860,7 +9876,7 @@
       "rolling_4": 1399.0,
       "rolling_6": 1367.3333333333333,
       "rolling_12": 1329.1666666666667,
-      "index_first_100": 132.53218884120173
+      "index_first_100": 62.99469604243166
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7888,7 +9904,7 @@
       "rolling_4": 1412.0,
       "rolling_6": 1390.0,
       "rolling_12": 1330.5,
-      "index_first_100": 120.6008583690987
+      "index_first_100": 57.323541411668714
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7916,7 +9932,7 @@
       "rolling_4": 1487.75,
       "rolling_6": 1432.3333333333333,
       "rolling_12": 1352.0,
-      "index_first_100": 136.73819742489272
+      "index_first_100": 64.99388004895961
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7944,7 +9960,7 @@
       "rolling_4": 1496.5,
       "rolling_6": 1447.5,
       "rolling_12": 1365.6666666666667,
-      "index_first_100": 123.94849785407725
+      "index_first_100": 58.91472868217055
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -7972,7 +9988,7 @@
       "rolling_4": 1461.0,
       "rolling_6": 1466.1666666666667,
       "rolling_12": 1382.25,
-      "index_first_100": 120.34334763948497
+      "index_first_100": 57.20114239086087
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8000,7 +10016,7 @@
       "rolling_4": 1495.25,
       "rolling_6": 1488.3333333333333,
       "rolling_12": 1396.6666666666667,
-      "index_first_100": 132.36051502145924
+      "index_first_100": 62.913096695226436
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8028,7 +10044,7 @@
       "rolling_4": 1452.25,
       "rolling_6": 1467.8333333333333,
       "rolling_12": 1417.5833333333333,
-      "index_first_100": 121.97424892703863
+      "index_first_100": 57.97633618931049
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8056,7 +10072,7 @@
       "rolling_4": 1497.0,
       "rolling_6": 1504.1666666666667,
       "rolling_12": 1447.0833333333333,
-      "index_first_100": 139.31330472103005
+      "index_first_100": 66.21787025703794
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8084,7 +10100,7 @@
       "rolling_4": 1541.5,
       "rolling_6": 1502.0,
       "rolling_12": 1467.1666666666667,
-      "index_first_100": 135.62231759656655
+      "index_first_100": 64.46348429212566
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8112,7 +10128,7 @@
       "rolling_4": 1547.75,
       "rolling_6": 1522.5,
       "rolling_12": 1485.0,
-      "index_first_100": 134.50643776824035
+      "index_first_100": 63.933088535291716
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8140,7 +10156,7 @@
       "rolling_4": 1588.75,
       "rolling_6": 1553.0,
       "rolling_12": 1509.5833333333333,
-      "index_first_100": 136.05150214592274
+      "index_first_100": 64.66748266013872
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8168,7 +10184,7 @@
       "rolling_4": 1617.75,
       "rolling_6": 1585.8333333333333,
       "rolling_12": 1537.0833333333333,
-      "index_first_100": 149.27038626609442
+      "index_first_100": 70.95063239494084
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8196,7 +10212,7 @@
       "rolling_4": 1638.0,
       "rolling_6": 1625.8333333333333,
       "rolling_12": 1546.8333333333333,
-      "index_first_100": 142.57510729613733
+      "index_first_100": 67.76825785393716
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8224,7 +10240,7 @@
       "rolling_4": 1681.0,
       "rolling_6": 1645.1666666666667,
       "rolling_12": 1574.6666666666667,
-      "index_first_100": 149.27038626609442
+      "index_first_100": 70.95063239494084
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8252,7 +10268,7 @@
       "rolling_4": 1721.75,
       "rolling_6": 1673.1666666666667,
       "rolling_12": 1587.5833333333333,
-      "index_first_100": 150.04291845493563
+      "index_first_100": 71.31782945736434
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8280,7 +10296,7 @@
       "rolling_4": 1699.0,
       "rolling_6": 1686.6666666666667,
       "rolling_12": 1604.5833333333333,
-      "index_first_100": 141.45922746781116
+      "index_first_100": 67.23786209710322
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8308,7 +10324,7 @@
       "rolling_4": 1706.25,
       "rolling_6": 1704.1666666666667,
       "rolling_12": 1628.5833333333333,
-      "index_first_100": 145.06437768240343
+      "index_first_100": 68.9514483884129
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8336,7 +10352,7 @@
       "rolling_4": 1693.25,
       "rolling_6": 1695.5,
       "rolling_12": 1640.6666666666667,
-      "index_first_100": 144.8068669527897
+      "index_first_100": 68.82904936760505
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8364,7 +10380,7 @@
       "rolling_4": 1675.75,
       "rolling_6": 1698.3333333333333,
       "rolling_12": 1662.0833333333333,
-      "index_first_100": 144.0343347639485
+      "index_first_100": 68.46185230518157
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8392,7 +10408,7 @@
       "rolling_4": 1719.25,
       "rolling_6": 1712.1666666666667,
       "rolling_12": 1678.6666666666667,
-      "index_first_100": 156.39484978540773
+      "index_first_100": 74.33700530395757
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8420,7 +10436,7 @@
       "rolling_4": 1766.75,
       "rolling_6": 1734.1666666666667,
       "rolling_12": 1703.6666666666667,
-      "index_first_100": 161.3733905579399
+      "index_first_100": 76.70338637290902
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8448,7 +10464,7 @@
       "rolling_4": 1773.5,
       "rolling_6": 1745.1666666666667,
       "rolling_12": 1715.9166666666667,
-      "index_first_100": 147.1244635193133
+      "index_first_100": 69.93064055487555
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8476,7 +10492,7 @@
       "rolling_4": 1785.0,
       "rolling_6": 1750.8333333333333,
       "rolling_12": 1727.5,
-      "index_first_100": 147.98283261802575
+      "index_first_100": 70.33863729090167
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8504,7 +10520,7 @@
       "rolling_4": 1769.25,
       "rolling_6": 1762.8333333333333,
       "rolling_12": 1729.1666666666667,
-      "index_first_100": 150.9871244635193
+      "index_first_100": 71.76662586699307
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8532,7 +10548,7 @@
       "rolling_4": 1752.5,
       "rolling_6": 1785.3333333333333,
       "rolling_12": 1741.8333333333333,
-      "index_first_100": 155.62231759656652
+      "index_first_100": 73.96980824153407
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8560,7 +10576,7 @@
       "rolling_4": 1802.25,
       "rolling_6": 1800.5,
       "rolling_12": 1756.3333333333333,
-      "index_first_100": 164.206008583691
+      "index_first_100": 78.04977560179519
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8588,7 +10604,7 @@
       "rolling_4": 1849.5,
       "rolling_6": 1806.0,
       "rolling_12": 1770.0833333333333,
-      "index_first_100": 164.206008583691
+      "index_first_100": 78.04977560179519
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8616,7 +10632,7 @@
       "rolling_4": 1882.75,
       "rolling_6": 1835.6666666666667,
       "rolling_12": 1790.4166666666667,
-      "index_first_100": 162.40343347639487
+      "index_first_100": 77.19298245614034
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8644,7 +10660,7 @@
       "rolling_4": 1903.0,
       "rolling_6": 1864.0,
       "rolling_12": 1807.4166666666667,
-      "index_first_100": 162.57510729613733
+      "index_first_100": 77.27458180334558
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8672,7 +10688,7 @@
       "rolling_4": 1907.5,
       "rolling_6": 1892.6666666666667,
       "rolling_12": 1827.75,
-      "index_first_100": 165.75107296137338
+      "index_first_100": 78.78416972664219
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8700,7 +10716,7 @@
       "rolling_4": 1932.25,
       "rolling_6": 1925.8333333333333,
       "rolling_12": 1855.5833333333333,
-      "index_first_100": 172.7038626609442
+      "index_first_100": 82.08894328845369
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8756,7 +10772,7 @@
       "rolling_4": 1959.6666666666667,
       "rolling_6": 1933.0,
       "rolling_12": 1863.7272727272727,
-      "index_first_100": 166.18025751072963
+      "index_first_100": 78.98816809465524
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8784,7 +10800,7 @@
       "rolling_4": 1972.3333333333333,
       "rolling_6": 1948.4,
       "rolling_12": 1886.909090909091,
-      "index_first_100": 169.0128755364807
+      "index_first_100": 80.33455732354142
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8812,7 +10828,7 @@
       "rolling_4": 1971.0,
       "rolling_6": 1971.2,
       "rolling_12": 1912.7272727272727,
-      "index_first_100": 172.36051502145924
+      "index_first_100": 81.92574459404325
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8840,7 +10856,7 @@
       "rolling_4": 1987.5,
       "rolling_6": 1992.4,
       "rolling_12": 1938.0,
-      "index_first_100": 174.8497854077253
+      "index_first_100": 83.10893512851897
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8868,7 +10884,7 @@
       "rolling_4": 1973.75,
       "rolling_6": 1966.2,
       "rolling_12": 1944.1818181818182,
-      "index_first_100": 161.45922746781116
+      "index_first_100": 76.74418604651163
     },
     {
       "indicator_id": "unemployment_level_permanent_job_losers",
@@ -8896,7 +10912,7 @@
       "rolling_4": 1958.75,
       "rolling_6": 1956.6666666666667,
       "rolling_12": 1943.8181818181818,
-      "index_first_100": 163.862660944206
+      "index_first_100": 77.88657690738474
     }
   ]
 }
