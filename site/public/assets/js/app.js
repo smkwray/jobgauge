@@ -6,7 +6,7 @@ import { fmtValue, fmtDelta, fmtDate, fmtTimestamp, unitShort, geoName,
 import { TRANSFORMS, filterRange, applyTransform, transformAvailability, transformUnit, transformVerb,
          rollingLabel, alignByDate, COMBINE_OPS, combineSeries, combineLabel, compileFormula } from "./transforms.js";
 import { lineOption, scatterOption, barOption, mapOption, heatmapOption, distributionOption, miniLineOption } from "./charts.js";
-import { searchAll, PRESETS, presetById, THEMES, highlight } from "./search.js?v=17";
+import { searchAll, PRESETS, presetById, THEMES, highlight } from "./search.js?v=19";
 import { parseState, syncURL, encodeState } from "./router.js";
 import { exportCSV, exportJSON, exportPNG, exportSVG, copyText } from "./exporters.js";
 
@@ -1325,10 +1325,20 @@ function wireResults() {
 }
 function scrollWorkspace() { ($("#workspaceMountExplore") || $("#workspaceMount"))?.scrollIntoView({ behavior: "smooth", block: "start" }); }
 
-function openSingle(id) { state.ids = [id]; state.preset = null; state.special = null; state.transform = "level"; state.chart = "line"; state.present = "line"; state.axes = {}; state.combine = null; syncURL(state); renderWorkspace(); refreshChipsActive?.(); scrollWorkspace(); }
+function openSingle(id) {
+  state.ids = [id]; state.preset = null; state.special = null; state.transform = "level"; state.chart = "line"; state.present = "line"; state.axes = {}; state.combine = null;
+  // Themes/Map/About have no chart workspace, so renderWorkspace() would no-op there.
+  // Jump to Explore (its chart sits at the top of the page) and show the series.
+  if (state.view !== "overview" && state.view !== "explore") { navigate("explore"); scrollWorkspace(); return; }
+  syncURL(state); renderWorkspace(); refreshChipsActive?.(); scrollWorkspace();
+}
 function addToChart(id) {
   if (!state.ids.includes(id)) state.ids.push(id);
-  state.preset = null; state.special = null; syncURL(state); renderWorkspace(); scrollWorkspace();
+  state.preset = null; state.special = null;
+  // Same as openSingle: from a view without a workspace, jump to Explore to show the chart.
+  if (state.view !== "overview" && state.view !== "explore") navigate("explore");
+  else { syncURL(state); renderWorkspace(); }
+  scrollWorkspace();
   toast(`Added ${meta(id).short_title} to chart`);
 }
 
@@ -1451,7 +1461,7 @@ function renderPaletteResults(query) {
   $$("[data-pal-explain]", box).forEach((b) => b.addEventListener("click", (e) => { e.stopPropagation(); closePalette(); explain(b.dataset.palExplain); }));
   $$("[data-pal-preset]", box).forEach((b) => b.addEventListener("click", (e) => {
     e.stopPropagation(); closePalette(); applyPresetState(b.dataset.palPreset); syncURL(state); refreshChipsActive();
-    if (state.view !== "overview" && state.view !== "explore") navigate("overview"); else renderWorkspace();
+    if (state.view !== "overview" && state.view !== "explore") navigate("explore"); else renderWorkspace();
     scrollWorkspace();
   }));
   setPaletteSel(0);
@@ -1505,7 +1515,7 @@ function paletteKeys(e) {
 function activatePalette(i, add) {
   const it = paletteItems[i]; if (!it) return;
   closePalette();
-  if (it.kind === "action") { applyPresetState(it.preset.id); syncURL(state); refreshChipsActive?.(); if (state.view !== "overview" && state.view !== "explore") navigate("overview"); else renderWorkspace(); scrollWorkspace(); return; }
+  if (it.kind === "action") { applyPresetState(it.preset.id); syncURL(state); refreshChipsActive?.(); if (state.view !== "overview" && state.view !== "explore") navigate("explore"); else renderWorkspace(); scrollWorkspace(); return; }
   if (it.catalog) { explain(it.doc.id); return; }
   if (paletteMode === "add" || add) addToChart(it.doc.id); else openSingle(it.doc.id);
 }
