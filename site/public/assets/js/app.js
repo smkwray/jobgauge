@@ -6,7 +6,7 @@ import { fmtValue, fmtDelta, fmtDate, fmtTimestamp, unitShort, geoName,
 import { TRANSFORMS, filterRange, applyTransform, transformAvailability, transformUnit, transformVerb,
          rollingLabel, alignByDate, COMBINE_OPS, combineSeries, combineLabel, compileFormula } from "./transforms.js";
 import { lineOption, scatterOption, barOption, mapOption, heatmapOption, distributionOption, miniLineOption } from "./charts.js";
-import { searchAll, PRESETS, presetById, THEMES, highlight } from "./search.js?v=16";
+import { searchAll, PRESETS, presetById, THEMES, highlight } from "./search.js?v=17";
 import { parseState, syncURL, encodeState } from "./router.js";
 import { exportCSV, exportJSON, exportPNG, exportSVG, copyText } from "./exporters.js";
 
@@ -991,6 +991,7 @@ function mapMetrics() {
 }
 function mapMetricGroup(m) {
   if (m.provider === "census_qwi") return /dollar/i.test(m.units) ? "QWI · earnings & pay" : "QWI · jobs & flows";
+  if (/payroll/.test(m.id) || /jobs/i.test(m.units)) return "CES · state payroll jobs";
   return "LAUS · unemployment & labor force";
 }
 function currentMapMetric() {
@@ -1035,7 +1036,7 @@ async function renderStateMapView(main) {
   // grouped metric picker
   const groups = {};
   for (const mm of mapMetrics()) (groups[mapMetricGroup(mm)] ||= []).push(mm);
-  const order = ["LAUS · unemployment & labor force", "QWI · jobs & flows", "QWI · earnings & pay"].filter((g) => groups[g]);
+  const order = ["LAUS · unemployment & labor force", "CES · state payroll jobs", "QWI · jobs & flows", "QWI · earnings & pay"].filter((g) => groups[g]);
   const selHtml = `<select id="mapMetricSel" class="mapsel" aria-label="Map metric">` + order.map((g) =>
     `<optgroup label="${esc(g)}">` + groups[g].map((mm) =>
       `<option value="${mm.id}"${mm.id === metricId ? " selected" : ""}>${esc(mm.short_title)}</option>`).join("") + `</optgroup>`).join("") + `</select>`;

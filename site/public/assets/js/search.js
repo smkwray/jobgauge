@@ -36,15 +36,19 @@ export const PRESETS = [
     ids: ["unemployment_rate_black", "unemployment_rate_white"], chartType: "line", transform: "level", range: "all",
     combine: { opKey: "diff", expr: null, name: "Black − White gap" } },
 
+  { id: "u_measures", label: "U-1 to U-6 ladder", chip: true, theme: "slack",
+    kicker: "Underutilization", desc: "The full ladder of labor underutilization, narrowest to broadest: U-1 (long-duration unemployed) and U-2 (job losers), the headline U-3 unemployment rate, then U-4 and U-5 (adding discouraged and marginally attached workers) and U-6 (adding involuntary part-timers). Each rung counts more slack than the last.",
+    ids: ["u1_unemployment_15_weeks_over_rate", "u2_job_losers_rate", "unemployment_rate", "u4_unemployed_discouraged_rate", "u5_unemployed_marginally_attached_rate", "u6_underemployment_rate"],
+    chartType: "line", transform: "level", range: "10y" },
+
   // --- Themes / search only (no chip) ---
   { id: "beveridge", label: "Beveridge curve", theme: "slack", special: "beveridge",
     kicker: "Paired", desc: "Unemployment rate against the job-openings rate, traced through time. Outward shifts signal a less efficient match between workers and jobs.",
     ids: ["unemployment_rate", "job_openings_rate"], chartType: "scatter", transform: "level", range: "all" },
 
   { id: "payrolls_industry", label: "Payrolls by industry", theme: "jobs", special: "industry_bar",
-    kicker: "12-month change", desc: "Year-over-year change in payroll employment across major industries (fetched subset).",
-    ids: ["payrolls_manufacturing", "payrolls_construction", "payrolls_leisure_hospitality", "payrolls_government"],
-    note: "6 further industry payroll series are cataloged but not fetched in this export.",
+    kicker: "12-month change", desc: "Year-over-year change in payroll employment across all major private and government industry sectors — which parts of the economy are adding or shedding jobs.",
+    ids: ["payrolls_education_health_services", "payrolls_professional_business_services", "payrolls_trade_transport_utilities", "payrolls_leisure_hospitality", "payrolls_government", "payrolls_manufacturing", "payrolls_construction", "payrolls_financial_activities", "payrolls_other_services", "payrolls_information", "payrolls_mining_logging"],
     chartType: "bar", transform: "level", range: "1y" },
 
   { id: "hours", label: "Hours worked", theme: "jobs",
@@ -69,6 +73,31 @@ export const PRESETS = [
   { id: "hidden_slack", label: "Hidden slack", theme: "slack",
     kicker: "Beyond the U-3", desc: "Slack the headline rate misses: the long-term unemployed (27+ weeks), people working part-time who want full-time, and those who want a job but aren't actively looking.",
     ids: ["long_term_unemployed_27_weeks_over", "part_time_for_economic_reasons", "not_in_labor_force_want_job_now"],
+    chartType: "line", transform: "level", range: "all" },
+
+  { id: "unemp_duration", label: "Unemployment by duration", theme: "slack",
+    kicker: "How long jobless", desc: "The unemployed split by how long they've been out of work — under 5 weeks, 5–14, 15–26, and 27+ weeks. The buckets sum to total unemployment, so the Stacked and Share % views show how the composition shifts: short spells dominate early in a downturn, long spells pile up later.",
+    ids: ["unemployment_duration_less_5_weeks", "unemployment_duration_5_14_weeks", "unemployment_duration_15_26_weeks", "long_term_unemployed_27_weeks_over"],
+    chartType: "line", transform: "level", range: "all" },
+
+  { id: "unemp_duration_weeks", label: "How long unemployment lasts", theme: "slack",
+    kicker: "Average vs median weeks", desc: "The average and median number of weeks the unemployed have been looking for work. The mean runs well above the median because a long-term-unemployed tail pulls it up — the gap between them is itself a read on how stuck the jobless are.",
+    ids: ["average_weeks_unemployed", "median_weeks_unemployed"],
+    chartType: "line", transform: "level", range: "all" },
+
+  { id: "marginally_attached", label: "Discouraged & marginally attached", theme: "slack",
+    kicker: "Beyond the labor force", desc: "People who want a job and have looked in the past year but aren't currently counted as unemployed: the marginally attached, the discouraged subset who've given up for job-market reasons, and the rest. They sit just outside the labor force and never enter the U-3 rate.",
+    ids: ["marginally_attached_workers", "discouraged_workers", "other_marginally_attached_workers"],
+    chartType: "line", transform: "level", range: "all" },
+
+  { id: "pter_reasons", label: "Part-time for economic reasons", theme: "slack",
+    kicker: "Why involuntary part-time", desc: "Why people are working part-time when they'd rather work full-time: slack work or business conditions versus could only find part-time work. Together they are the involuntary part-time slack folded into the broad U-6 rate.",
+    ids: ["part_time_economic_slack_work", "part_time_economic_could_only_find_part_time"],
+    chartType: "line", transform: "level", range: "all" },
+
+  { id: "separations", label: "Separations: quits, layoffs & other", theme: "jobs",
+    kicker: "JOLTS · the full split", desc: "Every way workers leave a job, as rates: quits (worker confidence), layoffs and discharges (employer distress), and other separations (retirements, deaths, transfers). Quits and layoffs trade places across the cycle; together with other separations they make up total separations.",
+    ids: ["quits_rate", "layoffs_discharges_rate", "other_separations_rate"],
     chartType: "line", transform: "level", range: "all" },
 
   { id: "inflation", label: "Inflation: CPI vs PCE", theme: "wages",
@@ -108,9 +137,9 @@ export const presetById = new Map(PRESETS.map((p) => [p.id, p]));
 
 export const THEMES = [
   { id: "slack", title: "Labor slack", desc: "How much spare capacity is in the labor market.",
-    presets: ["labor_slack", "claims_pressure", "beveridge", "unemp_reasons", "hidden_slack"] },
+    presets: ["labor_slack", "u_measures", "claims_pressure", "beveridge", "unemp_reasons", "hidden_slack", "unemp_duration", "unemp_duration_weeks", "marginally_attached", "pter_reasons"] },
   { id: "jobs", title: "Jobs & demand", desc: "Hiring, openings, and where the jobs are.",
-    presets: ["labor_market_now", "jobs_report", "job_openings", "quits_layoffs", "payrolls_industry", "hours"] },
+    presets: ["labor_market_now", "jobs_report", "job_openings", "quits_layoffs", "separations", "payrolls_industry", "hours"] },
   { id: "wages", title: "Wages, prices & productivity", desc: "Pay, the cost of living, and what an hour of work produces.",
     presets: ["wage_inflation", "inflation", "productivity"] },
   { id: "demographics", title: "Demographics", desc: "Who is working, and the gaps between groups.",
@@ -128,8 +157,10 @@ const SYNONYMS = {
   jolts: ["job", "openings", "quits", "hires", "layoffs"], qcew: ["quarterly", "census", "employment", "wages"],
   qwi: ["quarterly", "workforce", "indicators"], cps: ["household"], ces: ["payroll", "establishment"],
   eci: ["employment", "cost", "index"], icsa: ["initial", "claims"], ccsa: ["continued", "claims"],
-  nfp: ["nonfarm", "payrolls"], ahe: ["average", "hourly", "earnings"], pce: ["pce", "price"],
+  nfp: ["nonfarm", "payrolls"], ahe: ["average", "hourly", "earnings"], awe: ["weekly", "earnings"], pce: ["pce", "price"],
   u3: ["unemployment", "rate"], "u-3": ["unemployment", "rate"], u6: ["underemployment"], "u-6": ["underemployment"],
+  u1: ["labor", "underutilization"], "u-1": ["labor", "underutilization"], u2: ["labor", "underutilization"], "u-2": ["labor", "underutilization"],
+  u4: ["labor", "underutilization"], "u-4": ["labor", "underutilization"], u5: ["labor", "underutilization"], "u-5": ["labor", "underutilization"],
   vacancies: ["job", "openings"], "help": ["job", "openings"], laidoff: ["layoffs", "discharges"],
 };
 
@@ -137,7 +168,7 @@ const SYNONYMS = {
 const INTENTS = [
   { rx: /\bjobs?\s*report\b|\bnonfarm\b|\bpayrolls?\b|\bjobs added\b|\bnfp\b|\bemployment situation\b|\bces\b/, presets: ["jobs_report", "payrolls_industry"], ids: ["total_nonfarm_payrolls", "total_private_payrolls"] },
   { rx: /\b(jobless|unemployment)?\s*claims\b|\bicsa\b|\bccsa\b|\bui claims\b/, presets: ["claims_pressure"], ids: ["initial_claims_sa", "continued_claims_sa"] },
-  { rx: /\blaid(\s*off)?\b|\blayoffs?\b|\bjob loss(es)?\b|\bdischarge/, presets: ["quits_layoffs"], ids: ["layoffs_discharges_rate", "layoffs_discharges_level"] },
+  { rx: /\blaid(\s*off)?\b|\blayoffs?\b|\bjob loss(es)?\b|\bdischarge|\bseparations?\b/, presets: ["quits_layoffs", "separations"], ids: ["layoffs_discharges_rate", "layoffs_discharges_level", "other_separations_rate"] },
   { rx: /\bvacanc|\bhelp wanted\b|\bopenings?\b|\bjolts\b|\bhir(e|es|ing)\b|\bquits?\b|\bturnover\b/, presets: ["job_openings", "beveridge"], ids: ["job_openings_level", "hires_level", "quits_level"] },
   { rx: /\bprime[\s-]?age\b|\b25[\s-]?(to|–|-)?[\s-]?54\b/, presets: ["prime_age"], ids: ["prime_age_employment_population_ratio"] },
   { rx: /\btight\b|\bbeveridge\b|\bmismatch\b/, presets: ["beveridge"], ids: ["unemployment_rate", "job_openings_rate"] },
@@ -150,8 +181,9 @@ const INTENTS = [
   { rx: /\bhours\b|\bweekly hours\b|\bovertime\b|\bworkweek\b/, presets: ["hours"], ids: ["average_weekly_hours_total_private"] },
   { rx: /\bstate\b|\bby state\b|\blocal\b|\bgeograph|\blaus\b|\bmap\b|\bchoropleth\b/, presets: ["state_unemp_map", "state_unemp"], ids: [] },
   { rx: /\bproductivity\b|\bunit labor cost\b/, presets: ["productivity"], ids: ["labor_productivity_nonfarm_business"] },
-  { rx: /\blong[\s-]?term unemploy|\bpart[\s-]?time\b|\bdiscouraged\b|\bwant a job\b|\binvoluntary\b/, presets: ["hidden_slack"], ids: ["long_term_unemployed_27_weeks_over", "part_time_for_economic_reasons"] },
-  { rx: /\bslack\b|\bu-?6\b|\bunderemploy/, presets: ["labor_slack", "hidden_slack"], ids: ["u6_underemployment_rate"] },
+  { rx: /\blong[\s-]?term unemploy|\bpart[\s-]?time\b|\bdiscouraged\b|\bmarginally[\s-]?attached\b|\bwant a job\b|\binvoluntary\b/, presets: ["hidden_slack", "marginally_attached", "pter_reasons"], ids: ["long_term_unemployed_27_weeks_over", "part_time_for_economic_reasons", "discouraged_workers", "marginally_attached_workers"] },
+  { rx: /\bduration\b|\bweeks unemployed\b|\bhow long\b|\b27 weeks\b|\blong[\s-]?term unemploy/, presets: ["unemp_duration", "unemp_duration_weeks"], ids: ["average_weeks_unemployed", "median_weeks_unemployed", "long_term_unemployed_27_weeks_over"] },
+  { rx: /\bslack\b|\bu-?[1-6]\b|\bunderemploy|\bunderutiliz/, presets: ["u_measures", "labor_slack", "hidden_slack"], ids: ["unemployment_rate", "u6_underemployment_rate"] },
 ];
 
 const STATE_HINT = /\bstate|\blocal|\bby state\b|\bgeograph|\blaus\b/;
