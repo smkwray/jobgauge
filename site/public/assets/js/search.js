@@ -46,9 +46,9 @@ export const PRESETS = [
     kicker: "Paired", desc: "Unemployment rate against the job-openings rate, traced through time. Outward shifts signal a less efficient match between workers and jobs.",
     ids: ["unemployment_rate", "job_openings_rate"], chartType: "scatter", transform: "level", range: "all" },
 
-  { id: "payrolls_industry", label: "Payrolls by industry", theme: "jobs", special: "industry_bar",
-    kicker: "12-month change", desc: "Year-over-year change in payroll employment across all major private and government industry sectors — which parts of the economy are adding or shedding jobs.",
-    ids: ["payrolls_education_health_services", "payrolls_professional_business_services", "payrolls_trade_transport_utilities", "payrolls_leisure_hospitality", "payrolls_government", "payrolls_manufacturing", "payrolls_construction", "payrolls_financial_activities", "payrolls_other_services", "payrolls_information", "payrolls_mining_logging"],
+  { id: "payrolls_industry", label: "Payrolls by industry", chip: true, theme: "jobs", special: "industry_bar",
+    kicker: "Monthly changes by sector", desc: "Net job change by industry over 1, 3, 6, or 12 months — or each sector's share of total employment. Which parts of the economy are adding or shedding jobs. (Its full home is the Composition page.)",
+    ids: ["payrolls_mining_logging", "payrolls_construction", "payrolls_manufacturing", "payrolls_wholesale_trade", "payrolls_retail_trade", "payrolls_transportation_warehousing", "payrolls_utilities", "payrolls_information", "payrolls_financial_activities", "payrolls_professional_business_services", "payrolls_education_health_services", "payrolls_leisure_hospitality", "payrolls_other_services", "payrolls_government"],
     chartType: "bar", transform: "level", range: "1y" },
 
   { id: "hours", label: "Hours worked", theme: "jobs",

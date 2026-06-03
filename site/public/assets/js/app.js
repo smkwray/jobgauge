@@ -6,7 +6,7 @@ import { fmtValue, fmtDelta, fmtDate, fmtTimestamp, unitShort, geoName,
 import { TRANSFORMS, filterRange, applyTransform, transformAvailability, transformUnit, transformVerb,
          rollingLabel, alignByDate, COMBINE_OPS, combineSeries, combineLabel, compileFormula } from "./transforms.js";
 import { lineOption, scatterOption, barOption, mapOption, heatmapOption, distributionOption, miniLineOption } from "./charts.js";
-import { searchAll, PRESETS, presetById, THEMES, highlight } from "./search.js?v=19";
+import { searchAll, PRESETS, presetById, THEMES, highlight } from "./search.js?v=23";
 import { parseState, syncURL, encodeState } from "./router.js";
 import { exportCSV, exportJSON, exportPNG, exportSVG, copyText } from "./exporters.js";
 
@@ -43,6 +43,83 @@ const HEADLINE = [
   { id: "initial_claims_sa", pol: "up_bad", deltaField: "change_1" },
   { id: "prime_age_employment_population_ratio", pol: "up_good" },
 ];
+
+// The CES industry supersectors that exhaustively partition total nonfarm employment,
+// in the canonical BLS "Employment Situation" order. Trade/transportation/utilities is shown
+// as its four child sectors (wholesale, retail, transp & warehousing, utilities) — NOT the
+// combined parent — so the bars and the shares-of-total don't double-count.
+const SECTOR_IDS = [
+  "payrolls_mining_logging", "payrolls_construction", "payrolls_manufacturing",
+  "payrolls_wholesale_trade", "payrolls_retail_trade", "payrolls_transportation_warehousing", "payrolls_utilities",
+  "payrolls_information", "payrolls_financial_activities", "payrolls_professional_business_services",
+  "payrolls_education_health_services", "payrolls_leisure_hospitality", "payrolls_other_services", "payrolls_government",
+];
+
+// ---------------------------------------------------------------- Composition (bar-chart breakdowns)
+// One page hosts a family of categorical bar charts, each a config object below. Adding a new one
+// is data, not code: declare its series + kind and the generic renderer (breakdownBars) handles it.
+//   kind "level"  → job/people counts; supports Net change (1/3/6/12m, net or %) + Share of total.
+//   kind "rate"   → percents; supports Latest snapshot + Change (percentage points) over a window.
+//   shareOf       → "self" (sum of the set) or a series id, used as the share denominator. null = no share.
+//   ordered       → keep config order in snapshot/share (true, for ladders/distributions) or sort desc (false).
+//   pol           → "up_good" (more is good, e.g. jobs → green) | "up_bad" (e.g. unemployment → red) for change colors.
+//   labels        → clean bar labels, parallel to ids.
+const BREAKDOWNS = [
+  { key: "industries", group: "Jobs", label: "Employment by industry",
+    eyebrow: "Establishment survey · CES",
+    blurb: "Net job change by industry — which parts of the economy are adding or shedding jobs. ",
+    kind: "level", shareOf: "total_nonfarm_payrolls", ordered: false, defaultView: "change",
+    pol: "up_good", changeNoun: "jobs", partNoun: "sector", totalNoun: "total nonfarm employment",
+    ids: SECTOR_IDS,
+    labels: ["Mining & logging", "Construction", "Manufacturing", "Wholesale trade", "Retail trade", "Transportation & warehousing", "Utilities", "Information", "Financial activities", "Professional & business svcs", "Private education & health", "Leisure & hospitality", "Other services", "Government"] },
+
+  { key: "underutilization", group: "Unemployment & slack", label: "Labor underutilization (U-1 to U-6)",
+    eyebrow: "Household survey · CPS",
+    blurb: "The U-1 through U-6 ladder — how measured slack widens as the definition broadens. ",
+    kind: "rate", shareOf: null, ordered: true, defaultView: "latest", pol: "up_bad", partNoun: "measure",
+    ids: ["u1_unemployment_15_weeks_over_rate", "u2_job_losers_rate", "unemployment_rate", "u4_unemployed_discouraged_rate", "u5_unemployed_marginally_attached_rate", "u6_underemployment_rate"],
+    labels: ["U-1", "U-2", "U-3", "U-4", "U-5", "U-6"] },
+
+  { key: "unemp_race", group: "Unemployment & slack", label: "Unemployment by race & ethnicity",
+    eyebrow: "Household survey · CPS",
+    blurb: "The latest unemployment rate across racial and ethnic groups. ",
+    kind: "rate", shareOf: null, ordered: false, defaultView: "latest", pol: "up_bad", partNoun: "group",
+    ids: ["unemployment_rate_white", "unemployment_rate_black", "unemployment_rate_hispanic", "unemployment_rate_asian"],
+    labels: ["White", "Black", "Hispanic", "Asian"] },
+
+  { key: "unemp_education", group: "Unemployment & slack", label: "Unemployment by education",
+    eyebrow: "Household survey · CPS · 25 years and older",
+    blurb: "The latest unemployment rate by educational attainment, 25 and older. ",
+    kind: "rate", shareOf: null, ordered: true, defaultView: "latest", pol: "up_bad", partNoun: "group",
+    ids: ["unemployment_rate_less_than_high_school", "unemployment_rate_high_school_no_college", "unemployment_rate_some_college_associate", "unemployment_rate_bachelors_higher"],
+    labels: ["Less than HS", "HS, no college", "Some college / assoc.", "Bachelor's & higher"] },
+
+  { key: "unemp_duration", group: "Unemployment & slack", label: "Duration of unemployment",
+    eyebrow: "Household survey · CPS",
+    blurb: "How long the unemployed have been out of work — the spread across duration buckets. ",
+    kind: "level", shareOf: "self", ordered: true, defaultView: "share", pol: "up_bad", changeNoun: "people",
+    partNoun: "duration bucket", totalNoun: "total unemployment",
+    ids: ["unemployment_duration_less_5_weeks", "unemployment_duration_5_14_weeks", "unemployment_duration_15_26_weeks", "long_term_unemployed_27_weeks_over"],
+    labels: ["Less than 5 weeks", "5–14 weeks", "15–26 weeks", "27+ weeks"] },
+
+  { key: "unemp_reasons", group: "Unemployment & slack", label: "Reasons for unemployment",
+    eyebrow: "Household survey · CPS",
+    blurb: "Why the unemployed are out of work — job losers, leavers, reentrants, and new entrants. ",
+    kind: "level", shareOf: "self", ordered: false, defaultView: "share", pol: "up_bad", changeNoun: "people",
+    partNoun: "reason", totalNoun: "total unemployment",
+    ids: ["unemployment_level_job_losers", "unemployment_level_job_leavers", "unemployment_level_reentrants", "unemployment_level_new_entrants"],
+    labels: ["Job losers", "Job leavers", "Reentrants", "New entrants"] },
+];
+const breakdownByKey = (k) => BREAKDOWNS.find((b) => b.key === k);
+function currentBreakdown() { return breakdownByKey(state.bdKey) || BREAKDOWNS[0]; }
+function viewsFor(cfg) { return cfg.kind === "rate" ? ["latest", "change"] : (cfg.shareOf ? ["change", "share"] : ["change"]); }
+function currentView(cfg) {
+  const ok = viewsFor(cfg);
+  if (ok.includes(state.indView)) return state.indView;
+  return ok.includes(cfg.defaultView) ? cfg.defaultView : ok[0];
+}
+function indWindow() { return ["1m", "3m", "6m", "12m"].includes(state.indWindow) ? state.indWindow : "1m"; }
+function indMeasure() { return ["net", "pct"].includes(state.indMeasure) ? state.indMeasure : "net"; }
 
 // ---------------------------------------------------------------- boot
 (async function init() {
@@ -141,6 +218,7 @@ function navigate(view, initial) {
   const main = $("#main");
   if (view === "explore") renderExplore(main);
   else if (view === "map") renderStateMapView(main);
+  else if (view === "composition") renderCompositionView(main);
   else if (view === "themes") renderThemes(main);
   else if (view === "about") renderAbout(main);
   else renderOverview(main);
@@ -544,9 +622,97 @@ function alignMask(arrs) {
 }
 function disposeMulti() { multiCharts.forEach((ch) => { try { ch.dispose(); } catch (e) {} }); multiCharts = []; }
 
+// Composition bar-chart controls/state (kept in memory + URL; see router iv/iw/im/bd).
+const IND_WINDOWS = [["1m", "1M"], ["3m", "3M"], ["6m", "6M"], ["12m", "12M"]];
+function indSeg(key, items, active) {
+  return `<div class="segmented" data-seg="${key}" role="group" aria-label="${esc(key)}">` +
+    items.map(([v, l]) => `<button class="seg ${v === active ? "is-active" : ""}" data-v="${v}" aria-pressed="${v === active ? "true" : "false"}">${l}</button>`).join("") + `</div>`;
+}
+// Controls adapt to the breakdown: level kinds offer Net change / Share; rate kinds offer Latest / Change.
+// Window only shows when a change view is active; the net-vs-% measure only for level changes.
+function renderBreakdownControls(cfg) {
+  const view = currentView(cfg);
+  const grp = (label, seg) => `<div class="ctrl-group"><span class="ctrl-label">${label}</span>${seg}</div>`;
+  const views = viewsFor(cfg);
+  const viewLabel = (v) => v === "share" ? "Share of total" : v === "latest" ? "Latest" : (cfg.kind === "level" ? "Net change" : "Change");
+  const viewSeg = views.length > 1
+    ? grp("View", indSeg("indView", views.map((v) => [v, viewLabel(v)]), view)) : "";
+  const windowSeg = view === "change" ? grp("Window", indSeg("indWindow", IND_WINDOWS, indWindow())) : "";
+  const measureSeg = (cfg.kind === "level" && view === "change")
+    ? grp("Show", indSeg("indMeasure", [["net", `Net ${cfg.changeNoun || "level"}`], ["pct", "% change"]], indMeasure())) : "";
+  return `<div class="controls">${viewSeg}${windowSeg}${measureSeg}</div>`;
+}
+
+// Change-view bar color: green/red by direction, flipped when rising is bad (unemployment).
+function barColor(v, pol) {
+  const pos = cssvar("--pos"), neg = cssvar("--neg");
+  return pol === "up_bad" ? (v > 0 ? neg : pos) : (v >= 0 ? pos : neg);
+}
+// Build a breakdown's bar chart from its resolved {id, meta, full, label} series + the current view.
+// One renderer for every breakdown (and the workspace industry_bar special) so they never drift.
+// Net/percent/pp change is computed from the level/rate series itself — value(latest) − value(N back) —
+// which equals the contract's change_N and works for every window without precomputed fields.
+function breakdownBars(seriesList, cfg, ind) {
+  const name = (s) => s.label || s.meta.short_title.replace(/^Payrolls,?\s*/i, "").replace(/\s+(jobs|unemployment)$/i, "");
+  const lastFinite = (s) => { const f = (s.full || []).filter((o) => o.value != null && Number.isFinite(num(o.value))); return { fin: f, last: f[f.length - 1] }; };
+  const md = (d) => fmtDate(d, "M");
+  let latestDate = null;
+  const seen = (o) => { if (o && (!latestDate || o.date > latestDate)) latestDate = o.date; };
+  let items, opts, note;
+
+  if (ind.view === "share") {
+    let denom = null;
+    if (cfg.shareOf === "self") { denom = 0; seriesList.forEach((s) => { const { last } = lastFinite(s); seen(last); if (last) denom += num(last.value); }); }
+    else if (cfg.shareOf) { const r = latestRow(cfg.shareOf); denom = r ? num(r.value) : null; seriesList.forEach((s) => seen(lastFinite(s).last)); }
+    items = seriesList.map((s) => {
+      const { last } = lastFinite(s);
+      const sh = (last && denom) ? num(last.value) / denom * 100 : null;
+      return { name: name(s), value: sh == null ? 0 : round1(sh), color: cssvar("--brand") };
+    });
+    if (!cfg.ordered) items.sort((x, y) => y.value - x.value);
+    opts = { fmt: (v) => v + "%", axisFmt: "{value}%" };
+    note = denom
+      ? `Each ${cfg.partNoun || "part"} as a share of ${cfg.totalNoun || "the total"}${latestDate ? ", " + md(latestDate) : ""}. Parts sum to ~100%.`
+      : "Share denominator unavailable.";
+  } else if (ind.view === "latest") {
+    items = seriesList.map((s) => { const { last } = lastFinite(s); seen(last); return { name: name(s), value: last ? round1(num(last.value)) : 0, color: cssvar("--brand") }; });
+    if (!cfg.ordered) items.sort((x, y) => y.value - x.value);
+    opts = { fmt: (v) => v + "%", axisFmt: "{value}%" };
+    note = `Latest reading${latestDate ? ", " + md(latestDate) : ""}, seasonally adjusted.`;
+  } else {
+    // change — bars hold config order so rows stay put as you flip 1M/3M/6M/12M.
+    const N = { "1m": 1, "3m": 3, "6m": 6, "12m": 12 }[ind.window];
+    const ratePP = cfg.kind === "rate";          // rate change is in percentage points
+    const pct = !ratePP && ind.measure === "pct";
+    items = seriesList.map((s) => {
+      const { fin, last } = lastFinite(s); const prior = fin[fin.length - 1 - N]; seen(last);
+      let v = 0;
+      if (last && prior) {
+        const d = num(last.value) - num(prior.value);
+        v = ratePP ? round1(d) : pct ? (num(prior.value) ? round1(d / num(prior.value) * 100) : 0) : Math.round(d);
+      }
+      return { name: name(s), value: v, color: barColor(v, cfg.pol) };
+    });
+    const win = { "1m": "1 month", "3m": "3 months", "6m": "6 months", "12m": "12 months" }[ind.window];
+    const through = latestDate ? " — through " + md(latestDate) : "";
+    if (ratePP) {
+      opts = { zeroLine: true, fmt: (val) => (val > 0 ? "+" : "") + val + "pp", axisFmt: "{value}" };
+      note = `Change over the last ${win}, percentage points, seasonally adjusted${through}.`;
+    } else if (pct) {
+      opts = { zeroLine: true, fmt: (val) => (val > 0 ? "+" : "") + val + "%", axisFmt: "{value}%" };
+      note = `Percent change over the last ${win}, seasonally adjusted${through}.`;
+    } else {
+      opts = { zeroLine: true, fmt: (val) => (val > 0 ? "+" : "") + val + "k", axisFmt: (val) => (val === 0 ? "0" : val + "k") };
+      note = `Net change${cfg.changeNoun ? " in " + cfg.changeNoun : ""} over the last ${win}, seasonally adjusted${through}.`;
+    }
+  }
+  return { option: barOption(items, opts), note };
+}
+
 function renderControls(view) {
   // ranking/table presets ignore transforms & range — show no controls
-  if (view.special === "state_table" || view.special === "industry_bar") return "";
+  if (view.special === "state_table") return "";
+  if (view.special === "industry_bar") return renderBreakdownControls(breakdownByKey("industries"));
 
   const SEG_LABEL = { transform: "Transform", range: "Date range", present: "Presentation" };
   const seg = (key, items, active) => `<div class="segmented" data-seg="${key}" role="group" aria-label="${esc(SEG_LABEL[key] || key)}">` +
@@ -591,7 +757,7 @@ function wireControls(view) {
     if (b.disabled) return;
     const key = b.closest("[data-seg]").dataset.seg;
     state[key] = b.dataset.v;
-    if (key === "transform" || key === "range" || key === "present") { syncURL(state); renderWorkspace(); }
+    if (["transform", "range", "present", "indView", "indWindow", "indMeasure"].includes(key)) { syncURL(state); renderWorkspace(); }
   }));
   $$("[data-tg]", root).forEach((cb) => cb.addEventListener("change", () => {
     state[cb.dataset.tg] = cb.checked; syncURL(state); renderWorkspace();
@@ -626,13 +792,11 @@ function renderChart(view) {
     option = scatterOption(pairs, { xName: a.meta.short_title, yName: b.meta.short_title });
     setNote("");
   } else if (view.special === "industry_bar") {
-    const items = view.series.map((s) => {
-      const row = latestRow(s.id);
-      return { name: s.meta.short_title.replace(/^Payrolls,?\s*/i, ""), value: row ? round1(row.pct_change_12) : 0,
-        color: (row && row.pct_change_12 >= 0) ? cssvar("--pos") : cssvar("--neg") };
-    }).sort((x, y) => y.value - x.value);
-    option = barOption(items, { zeroLine: true, fmt: (v) => (v > 0 ? "+" : "") + v + "%", axisFmt: "{value}%" });
-    setNote(view.preset?.note ? "⚠ " + view.preset.note : "");
+    const cfg = breakdownByKey("industries");
+    const ind = { view: currentView(cfg), window: indWindow(), measure: indMeasure() };
+    const r = breakdownBars(view.series, cfg, ind);
+    option = r.option;
+    setNote(r.note);
   } else if (view.special === "state_map") {
     const rows = latestRows("laus_state_unemployment_template")
       .map((r) => ({ name: geoStateName(r.geo_id), value: r.value, change: r.change_1 }))
@@ -788,7 +952,7 @@ function wireFocusControls() {
     if (b.disabled) return;
     const key = b.closest("[data-seg]").dataset.seg;
     state[key] = b.dataset.v;
-    if (key === "transform" || key === "range" || key === "present") { syncURL(state); renderWorkspace(); }
+    if (["transform", "range", "present", "indView", "indWindow", "indMeasure"].includes(key)) { syncURL(state); renderWorkspace(); }
   }));
   $$("[data-tg]", root).forEach((cb) => cb.addEventListener("change", () => {
     state[cb.dataset.tg] = cb.checked; syncURL(state); renderWorkspace();
@@ -1015,6 +1179,69 @@ function framesInRange(frames, range) {
   const [y, mo, d] = last.split("-").map(Number);
   const cutoff = `${y - years}-${String(mo).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
   return frames.filter((f) => f.date >= cutoff);
+}
+
+// ============================================================ COMPOSITION (dedicated view)
+// A family of bar-chart breakdowns of the labor market (industries, slack ladder, demographics,
+// duration, reasons) chosen from one picker — the BLS "Economic News Release" graphics. A curated,
+// non-time-series view (like the state map), so it gets its own rail page. Config-driven: every
+// breakdown is an entry in BREAKDOWNS, rendered by the shared breakdownBars().
+async function renderCompositionView(main) {
+  disposeMulti();
+  if (chart) { try { chart.dispose(); } catch (e) {} chart = null; }
+  const cfg = currentBreakdown();
+  state.bdKey = cfg.key;
+  const view = currentView(cfg);
+  state.indView = view;  // canonicalize so the URL/controls match what's drawn
+  const ind = { view, window: indWindow(), measure: indMeasure() };
+
+  const loaded = await Promise.all(cfg.ids.map((id) => loadSeries(id)));
+  const seriesList = cfg.ids.map((id, i) => ({ id, meta: meta(id), full: (loaded[i] && loaded[i].observations) || [], label: cfg.labels && cfg.labels[i] }));
+  const m0 = meta(cfg.ids[0]);
+  const sa = m0.seasonal_adjustment === "SA" ? "seasonally adjusted" : (m0.seasonal_adjustment || "");
+  const srcLine = `${esc(m0.source_title || PROVIDER_LABEL[m0.provider] || m0.provider)}${m0.release ? " · " + esc(m0.release) : ""} · ${esc(m0.units)} · ${FREQ_LABEL[m0.frequency] || m0.frequency}${sa ? " · " + esc(sa) : ""}`;
+
+  // grouped breakdown picker
+  const groups = {};
+  for (const b of BREAKDOWNS) (groups[b.group] ||= []).push(b);
+  const sel = `<select id="bdSel" class="mapsel" aria-label="Breakdown">` + Object.keys(groups).map((g) =>
+    `<optgroup label="${esc(g)}">` + groups[g].map((b) =>
+      `<option value="${b.key}"${b.key === cfg.key ? " selected" : ""}>${esc(b.label)}</option>`).join("") + `</optgroup>`).join("") + `</select>`;
+
+  main.innerHTML = `
+    <section class="view">
+      <div class="mapview-head">
+        <div>
+          <div class="eyebrow">${esc(cfg.eyebrow || "")}</div>
+          <h1 class="h-title">${esc(cfg.label)}</h1>
+          <p class="h-sub">${esc(cfg.blurb || "")}<span class="map-src">${srcLine}</span></p>
+        </div>
+        <div class="mapview-controls">
+          <div id="bdControls">${renderBreakdownControls(cfg)}</div>
+          <label class="mapsel-wrap">Breakdown ${sel}</label>
+        </div>
+      </div>
+      <div class="section-rule"></div>
+      <div class="chartcard">
+        <div class="chart" id="chartBox" style="height:560px"></div>
+        <div class="transform-note show" id="tnote"></div>
+      </div>
+    </section>`;
+
+  $("#bdSel")?.addEventListener("change", (e) => { state.bdKey = e.target.value; state.indView = null; syncURL(state); renderCompositionView(main); });
+  $$("#bdControls .seg").forEach((b) => b.addEventListener("click", () => {
+    const key = b.closest("[data-seg]").dataset.seg;
+    state[key] = b.dataset.v; syncURL(state); renderCompositionView(main);
+  }));
+
+  const box = $("#chartBox");
+  if (!seriesList.some((s) => s.full.length)) { box.innerHTML = `<div class="empty"><div class="empty__big">This breakdown's series aren't in the export.</div></div>`; return; }
+  const { option, note } = breakdownBars(seriesList, cfg, ind);
+  chart = window.echarts.init(box, null, { renderer: "canvas" });
+  chart.setOption(option);
+  box.setAttribute("role", "img");
+  box.setAttribute("aria-label", `Bar chart: ${cfg.label}. ${note}`);
+  const tn = $("#tnote"); if (tn) tn.textContent = note;
 }
 
 // ============================================================ STATE MAP (dedicated view)
