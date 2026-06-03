@@ -34,14 +34,45 @@ Use FRED mirrors for hosted-dashboard context, local development, or runtime use
 make refresh-with-mirrors START_YEAR=2000
 ```
 
-## Scheduling posture
+## Scheduled hosted refresh
 
-Automated scheduled refresh is appropriate after two gates are closed:
+`.github/workflows/update-data.yml` refreshes the hosted dashboard weekly on Monday at
+15:30 UTC. The workflow:
 
-1. The workflow has a declared export target: full hosted dashboard (`make export-static`) or redistributable offline package (`make export-static-origin`).
-2. The maintainer approves the exact repository/write path for scheduled commits.
+1. validates the catalog;
+2. refreshes hosted providers with FRED mirrors using `make refresh-with-mirrors START_YEAR=1990`;
+3. exports browser data with `make export-static`;
+4. rebuilds `site/public/search/index.json`;
+5. runs the local data-tools doctor and test suite;
+6. commits changed files under `site/public/data/**` and `site/public/search/**`; and
+7. deploys `site/public` to GitHub Pages in the same workflow run.
 
-Until then, do not add an auto-committing workflow. A future hosted-dashboard workflow should run `make catalog`, refresh providers including FRED mirrors, run `make export-static`, run `make search`, and run tests. A future redistributable offline workflow should run origin-source providers only, run `make export-static-origin`, run `make search`, and only publish deterministic origin-source static outputs.
+The direct deploy step is intentional. Commits made by the default GitHub Actions token do
+not reliably trigger a second Pages workflow, so the data-update workflow deploys the
+freshly generated site itself.
+
+Manual runs are available from GitHub Actions:
+
+- `profile=hosted` refreshes the hosted dashboard and deploys Pages.
+- `profile=hosted` plus `include_dol=true` also retries the DOL-origin claims rows. DOL
+  failures are warnings because hosted claims are covered by FRED mirrors.
+- `profile=origin-check` builds an origin-only export and runs
+  `doctor --require-origin-only` without committing or deploying. Use this as an offline
+  package smoke check, not as the hosted site output.
+
+Configure these repository secrets in
+`Settings -> Secrets and variables -> Actions -> Repository secrets`:
+
+- `BLS_API_KEY`
+- `BLS_API_KEYS` (optional fallback keys, comma- or space-separated)
+- `FRED_API_KEY`
+- `BEA_API_KEY`
+- `CENSUS_API_KEY`
+- `DOL_API_KEY` (optional until DOL claims are reliable)
+
+The hosted workflow intentionally excludes DOL from the scheduled refresh because the
+DOL claims endpoint is currently rate/server limited. Keep `DOL_API_KEY` configured so
+manual retries can be run without editing the workflow.
 
 ## Rate-limit behavior
 

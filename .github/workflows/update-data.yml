@@ -3,26 +3,51 @@ name: Update static data
 on:
   workflow_dispatch:
     inputs:
-      mode:
-        description: 'Refresh scope: core or all'
+      profile:
+        description: 'Refresh profile to run'
         required: true
-        default: 'core'
+        default: hosted
         type: choice
         options:
-          - core
-          - all
+          - hosted
+          - origin-check
+      include_dol:
+        description: 'Also retry DOL-origin claims during hosted refresh'
+        required: false
+        default: false
+        type: boolean
   schedule:
-    # Weekdays after major U.S. morning data releases. Adjust after backend signoff.
-    - cron: '30 15 * * 1-5'
+    # Weekly hosted refresh, Mondays 15:30 UTC (10:30 EST / 11:30 EDT).
+    - cron: '30 15 * * 1'
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-static-data
+  cancel-in-progress: false
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    env:
+      # The Makefile defaults PYTHON to a local venv; Actions installs into runner Python.
+      PYTHON: python
+      BLS_API_KEY: ${{ secrets.BLS_API_KEY }}
+      BLS_API_KEYS: ${{ secrets.BLS_API_KEYS }}
+      FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+      BEA_API_KEY: ${{ secrets.BEA_API_KEY }}
+      CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
+      DOL_API_KEY: ${{ secrets.DOL_API_KEY }}
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -32,32 +57,45 @@ jobs:
           pip install -e '.[dev]'
       - name: Validate catalog
         run: make validate-catalog
-      - name: Refresh core sources
-        if: ${{ github.event_name == 'schedule' || inputs.mode == 'core' }}
-        env:
-          BLS_API_KEY: ${{ secrets.BLS_API_KEY }}
-          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
-          BEA_API_KEY: ${{ secrets.BEA_API_KEY }}
-          CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
-          DOL_API_KEY: ${{ secrets.DOL_API_KEY }}
+      - name: Refresh hosted data
+        if: ${{ github.event_name == 'schedule' || inputs.profile == 'hosted' }}
+        run: make refresh-with-mirrors START_YEAR=1990
+      - name: Optional DOL claims retry
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.profile == 'hosted' && inputs.include_dol }}
         run: |
-          python -m labor_dashboard.cli refresh --providers bls,fred --groups core --start-year 1990
-      - name: Refresh all sources
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'all' }}
-        env:
-          BLS_API_KEY: ${{ secrets.BLS_API_KEY }}
-          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
-          BEA_API_KEY: ${{ secrets.BEA_API_KEY }}
-          CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
-          DOL_API_KEY: ${{ secrets.DOL_API_KEY }}
-        run: |
-          python -m labor_dashboard.cli refresh --start-year 1990
-      - name: Export static files
+          python -m labor_dashboard.cli refresh \
+            --ids initial_claims_sa_dol,continued_claims_sa_dol \
+            --start-year 1967 || echo "::warning::DOL claims refresh failed; keeping existing hosted/FRED claims mirrors"
+      - name: Export hosted static data
+        if: ${{ github.event_name == 'schedule' || inputs.profile == 'hosted' }}
         run: |
           make export-static
           make build-search
-      - name: Commit generated static data
+      - name: Verify hosted export
+        if: ${{ github.event_name == 'schedule' || inputs.profile == 'hosted' }}
+        run: |
+          python tools/jobgauge_data.py --data site/public/data doctor --format json
+      - name: Origin-only package smoke check
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.profile == 'origin-check' }}
+        run: |
+          make refresh-origin START_YEAR=1990
+          make export-static-origin
+          make build-search
+          python tools/jobgauge_data.py --data site/public/data doctor --format json --require-origin-only
+      - name: Tests
+        run: make test
+      - name: Commit generated hosted data
+        if: ${{ github.event_name == 'schedule' || inputs.profile == 'hosted' }}
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'data: refresh static dashboard data'
           file_pattern: site/public/data/** site/public/search/**
+      - uses: actions/configure-pages@v5
+        if: ${{ github.event_name == 'schedule' || inputs.profile == 'hosted' }}
+      - uses: actions/upload-pages-artifact@v3
+        if: ${{ github.event_name == 'schedule' || inputs.profile == 'hosted' }}
+        with:
+          path: site/public
+      - id: deployment
+        if: ${{ github.event_name == 'schedule' || inputs.profile == 'hosted' }}
+        uses: actions/deploy-pages@v4
