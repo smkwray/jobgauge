@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import re
+import urllib.request
 from datetime import UTC, datetime
 from pathlib import Path
 
@@ -27,12 +28,15 @@ class BLSProvider(DataProvider):
     def __init__(self, settings: Settings):
         self.settings = settings
 
-    @retry(wait=wait_exponential(multiplier=1, min=1, max=12), stop=stop_after_attempt(3))
+    @retry(wait=wait_exponential(multiplier=1, min=1, max=12), stop=stop_after_attempt(5))
     def _post(self, payload: dict) -> dict:
-        with httpx.Client(timeout=self.settings.request_timeout_seconds) as client:
-            response = client.post(self.api_url, json=payload)
-            response.raise_for_status()
-            return response.json()
+        try:
+            with httpx.Client(timeout=self.settings.request_timeout_seconds) as client:
+                response = client.post(self.api_url, json=payload)
+                response.raise_for_status()
+                return response.json()
+        except httpx.RequestError:
+            return self._post_with_urllib(payload)
 
     def fetch_indicator(
         self,
@@ -46,7 +50,7 @@ class BLSProvider(DataProvider):
 
         start = start_year or indicator.start_year or self.settings.default_start_year
         end = end_year or datetime.now(UTC).year
-        chunks = list(_year_chunks(start, end, size=20))
+        chunks = list(_year_chunks(start, end, size=10))
         frames: list[pd.DataFrame] = []
         raw_payloads: list[dict] = []
 
@@ -73,6 +77,20 @@ class BLSProvider(DataProvider):
         path = raw_dir / f"{indicator.id}.bls.raw.json"
         path.write_text(json.dumps(payload, indent=2, default=str, allow_nan=False), encoding="utf-8")
         return path
+
+    def _post_with_urllib(self, payload: dict) -> dict:
+        body = json.dumps(payload).encode("utf-8")
+        request = urllib.request.Request(
+            self.api_url,
+            data=body,
+            headers={
+                "Content-Type": "application/json",
+                "User-Agent": "jobgauge/0.1",
+            },
+            method="POST",
+        )
+        with urllib.request.urlopen(request, timeout=self.settings.request_timeout_seconds) as response:  # noqa: S310 - fixed official BLS HTTPS endpoint
+            return json.loads(response.read().decode("utf-8"))
 
     def _post_with_key_fallback(self, payload: dict, raw_payloads: list[dict]) -> dict:
         keys: list[str | None] = [*self.settings.bls_api_keys]

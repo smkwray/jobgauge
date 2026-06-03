@@ -1,6 +1,9 @@
 import json
 from pathlib import Path
 
+import httpx
+import pytest
+
 from labor_dashboard.models import Indicator
 from labor_dashboard.providers.base import parse_year_period
 from labor_dashboard.providers.bls import (
@@ -12,6 +15,7 @@ from labor_dashboard.providers.bls import (
     _redact_bls_message,
     _redact_payload,
     _series_ids_for_indicator,
+    _year_chunks,
 )
 from labor_dashboard.settings import Settings
 
@@ -56,6 +60,15 @@ def test_multi_series_indicator_configuration() -> None:
 
     assert _series_ids_for_indicator(indicator) == ["LASST010000000000003", "LASST020000000000003"]
     assert _chunks(["a", "b", "c"], 2) == [["a", "b"], ["c"]]
+
+
+def test_year_chunks_stay_inside_bls_public_limit() -> None:
+    assert list(_year_chunks(1994, 2026, size=10)) == [
+        (1994, 2003),
+        (2004, 2013),
+        (2014, 2023),
+        (2024, 2026),
+    ]
 
 
 def test_template_series_indicator_configuration() -> None:
@@ -134,6 +147,35 @@ def test_bls_provider_falls_back_on_key_failures() -> None:
     assert response["status"] == "REQUEST_SUCCEEDED"
     assert calls == ["expired", "working"]
     assert raw_payloads[0]["message"] == ["Invalid registration key expired"]
+
+
+def test_bls_provider_uses_urllib_fallback_on_transport_error(monkeypatch: pytest.MonkeyPatch) -> None:
+    provider = BLSProvider(Settings())
+
+    class FailingClient:
+        def __init__(self, *_args, **_kwargs) -> None:
+            pass
+
+        def __enter__(self) -> "FailingClient":
+            return self
+
+        def __exit__(self, *_args) -> None:
+            pass
+
+        def post(self, *_args, **_kwargs) -> None:
+            raise httpx.ReadError("connection reset")
+
+    def fake_urllib_post(payload: dict) -> dict:
+        assert payload["seriesid"] == ["LNS14000000"]
+        return {"status": "REQUEST_SUCCEEDED", "Results": {"series": []}}
+
+    monkeypatch.setattr("labor_dashboard.providers.bls.httpx.Client", FailingClient)
+    provider._post_with_urllib = fake_urllib_post  # type: ignore[method-assign]
+
+    raw_payloads = []
+    response = provider._post_with_key_fallback({"seriesid": ["LNS14000000"]}, raw_payloads)
+
+    assert response["status"] == "REQUEST_SUCCEEDED"
 
 
 def test_bls_message_redaction_helpers() -> None:

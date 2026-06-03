@@ -59,6 +59,7 @@ def test_fetch_indicator_paginates_and_normalizes() -> None:
         ("ETA", "ui_national_weekly_claims"),
     ]
     assert calls[0][2]["fields"] == "rptdate,c5"
+    assert "format" not in calls[0][2]
     assert "sort_by" not in calls[0][2]
     assert "sort" not in calls[0][2]
     assert "filter_object" not in calls[0][2]

@@ -28,7 +28,7 @@
       "part time economic reasons",
       "involuntary part time"
     ],
-    "notes": "BLS CPS series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.",
+    "notes": "BLS CPS part-time-for-economic-reasons total; BLS API verified on 2026-06-03.",
     "api_params": {},
     "chart": {
       "default_type": "line",

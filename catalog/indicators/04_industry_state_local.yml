@@ -240,6 +240,30 @@ indicators:
       y_axis_label: Thousands
       transformations: [change_1, change_12, pct_change_12]
 
+  - id: payrolls_other_services
+    title: All employees, other services
+    short_title: Other services jobs
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES8000000001
+    group: industry_state_local
+    subgroup: industry_payrolls
+    priority: recommended
+    frequency: M
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1939
+    release: Employment Situation
+    tags: [industry, other services, payrolls]
+    aliases: [other services employment, other services jobs]
+    notes: BLS CES supersector sibling completing the national supersector payroll panel; BLS API verified on 2026-06-03.
+    chart:
+      default_type: line
+      recommended: [line, industry_comparison]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, pct_change_12]
+
   - id: qcew_total_private_employment_annual
     title: QCEW annual average employment, total private, all industries
     short_title: QCEW private employment
@@ -763,6 +787,35 @@ indicators:
       default_type: map
       recommended: [map, ranked_bar, small_multiples]
       y_axis_label: Persons
+      allow_geography_filter: true
+      transformations: [change_1, change_12, pct_change_12]
+
+  - id: sae_state_total_nonfarm_payrolls
+    title: State total nonfarm payroll employment
+    short_title: State payroll jobs
+    provider: bls
+    source_id: bls_public_api
+    series_id: SMS*000000000000001
+    group: industry_state_local
+    subgroup: sae
+    priority: extended
+    frequency: M
+    units: Thousands of jobs
+    seasonal_adjustment: SA
+    geography: state:*
+    start_year: 1990
+    release: State and Area Employment
+    tags: [sae, state, payrolls, jobs, establishment]
+    aliases: [state payroll jobs, state nonfarm payrolls, state establishment jobs]
+    notes: BLS State and Area Employment total-nonfarm all-employees state/DC/Puerto Rico seasonally adjusted panel; template validated for AL, CA, DC, and PR on 2026-06-03.
+    api_params:
+      series_template: SMS{geo}000000000000001
+      geographies: ["01", "02", "04", "05", "06", "08", "09", "10", "11", "12", "13", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "44", "45", "46", "47", "48", "49", "50", "51", "53", "54", "55", "56", "72"]
+      geography_template: state:{geo}
+    chart:
+      default_type: map
+      recommended: [map, ranked_bar, small_multiples]
+      y_axis_label: Thousands of jobs
       allow_geography_filter: true
       transformations: [change_1, change_12, pct_change_12]
 

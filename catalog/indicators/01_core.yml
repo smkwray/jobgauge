@@ -49,6 +49,106 @@ indicators:
       show_recession_bands: true
       transformations: [change_1, change_12, rolling_3]
 
+  - id: u1_unemployment_15_weeks_over_rate
+    title: U-1 unemployment rate, 15 weeks or longer
+    short_title: U-1 underutilization
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS13025670
+    group: core
+    subgroup: household
+    priority: core
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1994
+    release: Employment Situation
+    tags: [underemployment, slack, unemployment duration, long-term unemployment]
+    aliases: [u1, u-1, labor underutilization, unemployed 15 weeks or longer]
+    notes: Alternative labor underutilization measure U-1; people unemployed 15 weeks or longer as a percent of the civilian labor force.
+    chart:
+      default_type: line
+      recommended: [line, compare_to_unemployment_rate]
+      y_axis_label: Percent
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: u2_job_losers_rate
+    title: U-2 unemployment rate, job losers
+    short_title: U-2 underutilization
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS14023621
+    group: core
+    subgroup: household
+    priority: core
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1994
+    release: Employment Situation
+    tags: [underemployment, slack, job losers, temporary jobs]
+    aliases: [u2, u-2, labor underutilization, job losers, completed temporary jobs]
+    notes: Alternative labor underutilization measure U-2; job losers and people who completed temporary jobs as a percent of the civilian labor force. BLS series `LNS14023621` is the verified seasonally adjusted rate; `LNS13025671` is not a valid BLS series.
+    chart:
+      default_type: line
+      recommended: [line, compare_to_unemployment_rate]
+      y_axis_label: Percent
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: u4_unemployed_discouraged_rate
+    title: U-4 labor underutilization rate
+    short_title: U-4 underutilization
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS13327707
+    group: core
+    subgroup: household
+    priority: core
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1994
+    release: Employment Situation
+    tags: [underemployment, slack, discouraged workers]
+    aliases: [u4, u-4, labor underutilization, discouraged workers]
+    notes: Alternative labor underutilization measure U-4; total unemployed plus discouraged workers as a percent of the civilian labor force plus discouraged workers.
+    chart:
+      default_type: line
+      recommended: [line, compare_to_unemployment_rate]
+      y_axis_label: Percent
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: u5_unemployed_marginally_attached_rate
+    title: U-5 labor underutilization rate
+    short_title: U-5 underutilization
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS13327708
+    group: core
+    subgroup: household
+    priority: core
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1994
+    release: Employment Situation
+    tags: [underemployment, slack, discouraged workers, marginally attached]
+    aliases: [u5, u-5, labor underutilization, marginally attached workers]
+    notes: Alternative labor underutilization measure U-5; total unemployed plus all marginally attached workers as a percent of the civilian labor force plus all marginally attached workers.
+    chart:
+      default_type: line
+      recommended: [line, compare_to_unemployment_rate]
+      y_axis_label: Percent
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
   - id: labor_force_participation_rate
     title: Labor force participation rate
     short_title: LFPR
@@ -260,6 +360,30 @@ indicators:
       recommended: [line]
       y_axis_label: Hours
       transformations: [change_1, change_12, rolling_3]
+
+  - id: average_weekly_earnings_total_private
+    title: Average weekly earnings of all employees, total private
+    short_title: Avg weekly earnings
+    provider: bls
+    source_id: bls_public_api
+    series_id: CES0500000011
+    group: core
+    subgroup: wages
+    priority: recommended
+    frequency: M
+    units: Dollars per week
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 2006
+    release: Employment Situation
+    tags: [wages, earnings, payroll, nominal, weekly earnings]
+    aliases: [awe, weekly earnings, average weekly earnings]
+    notes: BLS CES total-private all-employees weekly earnings sibling to average hourly earnings and average weekly hours; BLS API verified on 2026-06-03.
+    chart:
+      default_type: line
+      recommended: [line, real_wage_toggle, growth_rate]
+      y_axis_label: Dollars/week
+      transformations: [change_1, pct_change_12, rolling_3]
 
   - id: job_openings_level
     title: Job openings level, total nonfarm
@@ -497,6 +621,54 @@ indicators:
       y_axis_label: Percent
       transformations: [change_1, change_12, rolling_3]
 
+  - id: other_separations_level
+    title: Other separations level, total nonfarm
+    short_title: Other separations
+    provider: bls
+    source_id: bls_public_api
+    series_id: JTS000000000000000OSL
+    group: core
+    subgroup: jolts
+    priority: recommended
+    frequency: M
+    units: Thousands
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 2000
+    release: JOLTS
+    tags: [other separations, separations, labor flows, jolts]
+    aliases: [other separations, separations residual, jolts other separations]
+    notes: Completes the JOLTS separations decomposition with quits and layoffs/discharges; BLS API verified on 2026-06-03.
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: other_separations_rate
+    title: Other separations rate, total nonfarm
+    short_title: Other separations rate
+    provider: bls
+    source_id: bls_public_api
+    series_id: JTS000000000000000OSR
+    group: core
+    subgroup: jolts
+    priority: recommended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 2000
+    release: JOLTS
+    tags: [other separations, separations, labor flows, rate, jolts]
+    aliases: [other separations rate, separations residual rate, jolts other separations]
+    notes: Completes the JOLTS separations rate decomposition with quits and layoffs/discharges; BLS API verified on 2026-06-03.
+    chart:
+      default_type: line
+      recommended: [line, flow_panel]
+      y_axis_label: Percent
+      transformations: [change_1, change_12, rolling_3]
+
   - id: initial_claims_sa
     title: Initial unemployment insurance claims, seasonally adjusted
     short_title: Initial UI claims
@@ -564,7 +736,7 @@ indicators:
     release: Unemployment Insurance Weekly Claims Report
     tags: [claims, unemployment insurance, weekly, high frequency, origin]
     aliases: [initial claims, jobless claims, ui claims, dol claims]
-    notes: DOL/ETA national weekly claims endpoint confirmed 2026-06-01, but live refresh is currently blocked by DOL HTTP 429; include in redistributable/offline origin exports once DOL fetches reliably.
+    notes: DOL/ETA national weekly claims endpoint and `c5` seasonally adjusted initial claims field confirmed; live refresh is currently DOL-rate/server limited, so hosted dashboards use the FRED mirror `initial_claims_sa` until DOL fetches reliably.
     api_params:
       agency: ETA
       endpoint: ui_national_weekly_claims
@@ -594,7 +766,7 @@ indicators:
     release: Unemployment Insurance Weekly Claims Report
     tags: [claims, unemployment insurance, weekly, insured unemployment, origin]
     aliases: [continuing claims, continued claims, dol claims]
-    notes: DOL/ETA national weekly claims endpoint confirmed 2026-06-01, but live refresh is currently blocked by DOL HTTP 429; include in redistributable/offline origin exports once DOL fetches reliably.
+    notes: DOL/ETA national weekly claims endpoint and `c7` seasonally adjusted continued claims field confirmed; live refresh is currently DOL-rate/server limited, so hosted dashboards use the FRED mirror `continued_claims_sa` until DOL fetches reliably.
     api_params:
       agency: ETA
       endpoint: ui_national_weekly_claims

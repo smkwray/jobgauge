@@ -103,6 +103,206 @@
       }
     },
     {
+      "id": "u1_unemployment_15_weeks_over_rate",
+      "title": "U-1 unemployment rate, 15 weeks or longer",
+      "short_title": "U-1 underutilization",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS13025670",
+      "group": "core",
+      "subgroup": "household",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1994,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "underemployment",
+        "slack",
+        "unemployment duration",
+        "long-term unemployment"
+      ],
+      "aliases": [
+        "u1",
+        "u-1",
+        "labor underutilization",
+        "unemployed 15 weeks or longer"
+      ],
+      "notes": "Alternative labor underutilization measure U-1; people unemployed 15 weeks or longer as a percent of the civilian labor force.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "compare_to_unemployment_rate"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "u2_job_losers_rate",
+      "title": "U-2 unemployment rate, job losers",
+      "short_title": "U-2 underutilization",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS14023621",
+      "group": "core",
+      "subgroup": "household",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1994,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "underemployment",
+        "slack",
+        "job losers",
+        "temporary jobs"
+      ],
+      "aliases": [
+        "u2",
+        "u-2",
+        "labor underutilization",
+        "job losers",
+        "completed temporary jobs"
+      ],
+      "notes": "Alternative labor underutilization measure U-2; job losers and people who completed temporary jobs as a percent of the civilian labor force. BLS series `LNS14023621` is the verified seasonally adjusted rate; `LNS13025671` is not a valid BLS series.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "compare_to_unemployment_rate"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "u4_unemployed_discouraged_rate",
+      "title": "U-4 labor underutilization rate",
+      "short_title": "U-4 underutilization",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS13327707",
+      "group": "core",
+      "subgroup": "household",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1994,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "underemployment",
+        "slack",
+        "discouraged workers"
+      ],
+      "aliases": [
+        "u4",
+        "u-4",
+        "labor underutilization",
+        "discouraged workers"
+      ],
+      "notes": "Alternative labor underutilization measure U-4; total unemployed plus discouraged workers as a percent of the civilian labor force plus discouraged workers.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "compare_to_unemployment_rate"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "u5_unemployed_marginally_attached_rate",
+      "title": "U-5 labor underutilization rate",
+      "short_title": "U-5 underutilization",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS13327708",
+      "group": "core",
+      "subgroup": "household",
+      "priority": "core",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1994,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "underemployment",
+        "slack",
+        "discouraged workers",
+        "marginally attached"
+      ],
+      "aliases": [
+        "u5",
+        "u-5",
+        "labor underutilization",
+        "marginally attached workers"
+      ],
+      "notes": "Alternative labor underutilization measure U-5; total unemployed plus all marginally attached workers as a percent of the civilian labor force plus all marginally attached workers.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "compare_to_unemployment_rate"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
       "id": "labor_force_participation_rate",
       "title": "Labor force participation rate",
       "short_title": "LFPR",
@@ -530,6 +730,57 @@
         "transformations": [
           "change_1",
           "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "average_weekly_earnings_total_private",
+      "title": "Average weekly earnings of all employees, total private",
+      "short_title": "Avg weekly earnings",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "CES0500000011",
+      "group": "core",
+      "subgroup": "wages",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Dollars per week",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 2006,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "wages",
+        "earnings",
+        "payroll",
+        "nominal",
+        "weekly earnings"
+      ],
+      "aliases": [
+        "awe",
+        "weekly earnings",
+        "average weekly earnings"
+      ],
+      "notes": "BLS CES total-private all-employees weekly earnings sibling to average hourly earnings and average weekly hours; BLS API verified on 2026-06-03.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "real_wage_toggle",
+          "growth_rate"
+        ],
+        "y_axis_label": "Dollars/week",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "pct_change_12",
           "rolling_3"
         ]
       }
@@ -1015,6 +1266,105 @@
       }
     },
     {
+      "id": "other_separations_level",
+      "title": "Other separations level, total nonfarm",
+      "short_title": "Other separations",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "JTS000000000000000OSL",
+      "group": "core",
+      "subgroup": "jolts",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 2000,
+      "release": "JOLTS",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "other separations",
+        "separations",
+        "labor flows",
+        "jolts"
+      ],
+      "aliases": [
+        "other separations",
+        "separations residual",
+        "jolts other separations"
+      ],
+      "notes": "Completes the JOLTS separations decomposition with quits and layoffs/discharges; BLS API verified on 2026-06-03.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "other_separations_rate",
+      "title": "Other separations rate, total nonfarm",
+      "short_title": "Other separations rate",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "JTS000000000000000OSR",
+      "group": "core",
+      "subgroup": "jolts",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 2000,
+      "release": "JOLTS",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "other separations",
+        "separations",
+        "labor flows",
+        "rate",
+        "jolts"
+      ],
+      "aliases": [
+        "other separations rate",
+        "separations residual rate",
+        "jolts other separations"
+      ],
+      "notes": "Completes the JOLTS separations rate decomposition with quits and layoffs/discharges; BLS API verified on 2026-06-03.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "flow_panel"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
       "id": "initial_claims_sa",
       "title": "Initial unemployment insurance claims, seasonally adjusted",
       "short_title": "Initial UI claims",
@@ -1145,7 +1495,7 @@
         "ui claims",
         "dol claims"
       ],
-      "notes": "DOL/ETA national weekly claims endpoint confirmed 2026-06-01, but live refresh is currently blocked by DOL HTTP 429; include in redistributable/offline origin exports once DOL fetches reliably.",
+      "notes": "DOL/ETA national weekly claims endpoint and `c5` seasonally adjusted initial claims field confirmed; live refresh is currently DOL-rate/server limited, so hosted dashboards use the FRED mirror `initial_claims_sa` until DOL fetches reliably.",
       "api_params": {
         "agency": "ETA",
         "endpoint": "ui_national_weekly_claims",
@@ -1202,7 +1552,7 @@
         "continued claims",
         "dol claims"
       ],
-      "notes": "DOL/ETA national weekly claims endpoint confirmed 2026-06-01, but live refresh is currently blocked by DOL HTTP 429; include in redistributable/offline origin exports once DOL fetches reliably.",
+      "notes": "DOL/ETA national weekly claims endpoint and `c7` seasonally adjusted continued claims field confirmed; live refresh is currently DOL-rate/server limited, so hosted dashboards use the FRED mirror `continued_claims_sa` until DOL fetches reliably.",
       "api_params": {
         "agency": "ETA",
         "endpoint": "ui_national_weekly_claims",
@@ -2217,9 +2567,9 @@
       "id": "long_term_unemployed_27_weeks_over",
       "title": "Unemployed 27 weeks and over",
       "short_title": "Long-term unemployed",
-      "provider": "fred",
-      "source_id": "fred_api",
-      "series_id": "UEMP27OV",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS13008636",
       "group": "demographics",
       "subgroup": "duration",
       "priority": "recommended",
@@ -2240,7 +2590,7 @@
         "27 weeks unemployed",
         "long duration unemployment"
       ],
-      "notes": "FRED mirror ID is declared; replace with canonical BLS source series before any redistributable public export.",
+      "notes": "BLS CPS Table A-12 unemployment-duration bucket; replaces hosted-only FRED mirror `UEMP27OV` for origin/offline exports. BLS API verified on 2026-06-03.",
       "api_params": {},
       "chart": {
         "default_type": "line",
@@ -2261,12 +2611,198 @@
       }
     },
     {
+      "id": "unemployment_duration_less_5_weeks",
+      "title": "Unemployed less than 5 weeks",
+      "short_title": "Unemployed <5 weeks",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS13008396",
+      "group": "demographics",
+      "subgroup": "duration",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1948,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "duration",
+        "unemployment",
+        "short-term unemployment"
+      ],
+      "aliases": [
+        "unemployed under 5 weeks",
+        "less than 5 weeks unemployed"
+      ],
+      "notes": "BLS CPS Table A-12 unemployment-duration bucket; BLS API verified on 2026-06-03.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "stacked_area"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_duration_5_14_weeks",
+      "title": "Unemployed 5 to 14 weeks",
+      "short_title": "Unemployed 5-14 weeks",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS13008756",
+      "group": "demographics",
+      "subgroup": "duration",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1948,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "duration",
+        "unemployment"
+      ],
+      "aliases": [
+        "unemployed 5-14 weeks",
+        "5 to 14 weeks unemployed"
+      ],
+      "notes": "BLS CPS Table A-12 unemployment-duration bucket; BLS API verified on 2026-06-03.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "stacked_area"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "unemployment_duration_15_26_weeks",
+      "title": "Unemployed 15 to 26 weeks",
+      "short_title": "Unemployed 15-26 weeks",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS13008876",
+      "group": "demographics",
+      "subgroup": "duration",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1948,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "duration",
+        "unemployment"
+      ],
+      "aliases": [
+        "unemployed 15-26 weeks",
+        "15 to 26 weeks unemployed"
+      ],
+      "notes": "BLS CPS Table A-12 unemployment-duration bucket; BLS API verified on 2026-06-03.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "stacked_area"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "long_term_unemployed_share",
+      "title": "Long-term unemployed share of total unemployment",
+      "short_title": "Long-term unemployed share",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS13025703",
+      "group": "demographics",
+      "subgroup": "duration",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Percent",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1948,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "long-term unemployment",
+        "duration",
+        "unemployment",
+        "share"
+      ],
+      "aliases": [
+        "long-term unemployed percent",
+        "27 weeks share"
+      ],
+      "notes": "BLS CPS Table A-12 share of total unemployed who are unemployed 27 weeks and over; BLS API verified on 2026-06-03.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line"
+        ],
+        "y_axis_label": "Percent",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
       "id": "average_weeks_unemployed",
       "title": "Average weeks unemployed",
       "short_title": "Average unemployment duration",
-      "provider": "fred",
-      "source_id": "fred_api",
-      "series_id": "UEMPMEAN",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS13008275",
       "group": "demographics",
       "subgroup": "duration",
       "priority": "recommended",
@@ -2287,7 +2823,53 @@
         "mean unemployment duration",
         "average duration"
       ],
-      "notes": "FRED mirror ID is declared; replace with canonical BLS source series before any redistributable public export.",
+      "notes": "BLS CPS Table A-12 average unemployment duration; replaces hosted-only FRED mirror `UEMPMEAN` for origin/offline exports. BLS API verified on 2026-06-03.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line"
+        ],
+        "y_axis_label": "Weeks",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "median_weeks_unemployed",
+      "title": "Median weeks unemployed",
+      "short_title": "Median unemployment duration",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS13008276",
+      "group": "demographics",
+      "subgroup": "duration",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Weeks",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1967,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "duration",
+        "unemployment",
+        "hardship"
+      ],
+      "aliases": [
+        "median unemployment duration",
+        "median duration"
+      ],
+      "notes": "BLS CPS Table A-12 median unemployment duration; BLS API verified on 2026-06-03.",
       "api_params": {},
       "chart": {
         "default_type": "line",
@@ -2579,7 +3161,7 @@
         "part time economic reasons",
         "involuntary part time"
       ],
-      "notes": "BLS CPS series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.",
+      "notes": "BLS CPS part-time-for-economic-reasons total; BLS API verified on 2026-06-03.",
       "api_params": {},
       "chart": {
         "default_type": "line",
@@ -2589,6 +3171,104 @@
         ],
         "y_axis_label": "Thousands",
         "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "part_time_economic_slack_work",
+      "title": "Employed part time for economic reasons, slack work or business conditions",
+      "short_title": "PTER slack work",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS12032195",
+      "group": "demographics",
+      "subgroup": "underemployment",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1955,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "underemployment",
+        "part-time",
+        "involuntary",
+        "slack",
+        "business conditions"
+      ],
+      "aliases": [
+        "slack work",
+        "business conditions",
+        "pter slack"
+      ],
+      "notes": "BLS CPS part-time-for-economic-reasons component for slack work or business conditions; BLS API verified on 2026-06-03.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "labor_slack_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "part_time_economic_could_only_find_part_time",
+      "title": "Employed part time for economic reasons, could only find part-time work",
+      "short_title": "Could only find part-time",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS12032196",
+      "group": "demographics",
+      "subgroup": "underemployment",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1955,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "underemployment",
+        "part-time",
+        "involuntary",
+        "could only find part-time"
+      ],
+      "aliases": [
+        "could only find part-time work",
+        "pter part-time only"
+      ],
+      "notes": "BLS CPS part-time-for-economic-reasons component for people who could only find part-time work; BLS API verified on 2026-06-03.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "labor_slack_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
         "allow_geography_filter": false,
         "allow_demographic_filter": false,
         "allow_industry_filter": false,
@@ -2644,6 +3324,150 @@
           "change_1",
           "change_12",
           "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "marginally_attached_workers",
+      "title": "Marginally attached workers",
+      "short_title": "Marginally attached",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS15026642",
+      "group": "demographics",
+      "subgroup": "underemployment",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1994,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "marginally attached",
+        "not in labor force",
+        "underemployment",
+        "slack"
+      ],
+      "aliases": [
+        "marginally attached workers",
+        "searched previous year"
+      ],
+      "notes": "BLS CPS marginally attached workers series used in U-5 and U-6 labor-underutilization concepts; BLS API verified on 2026-06-03.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "labor_slack_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "discouraged_workers",
+      "title": "Discouraged workers",
+      "short_title": "Discouraged workers",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNS15026645",
+      "group": "demographics",
+      "subgroup": "underemployment",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1994,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "discouraged workers",
+        "marginally attached",
+        "not in labor force",
+        "underemployment",
+        "slack"
+      ],
+      "aliases": [
+        "discouraged",
+        "discouraged workers"
+      ],
+      "notes": "BLS CPS discouraged workers series used in U-4 through U-6 labor-underutilization concepts; BLS API verified on 2026-06-03.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "labor_slack_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": true,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "rolling_3"
+        ]
+      }
+    },
+    {
+      "id": "other_marginally_attached_workers",
+      "title": "Other marginally attached workers",
+      "short_title": "Other marginally attached",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "LNU05026648",
+      "group": "demographics",
+      "subgroup": "underemployment",
+      "priority": "extended",
+      "frequency": "M",
+      "units": "Thousands of persons",
+      "seasonal_adjustment": "NSA",
+      "geography": "US",
+      "start_year": 1994,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "marginally attached",
+        "not in labor force",
+        "reasons other than discouragement",
+        "underemployment"
+      ],
+      "aliases": [
+        "other marginally attached",
+        "reasons other than discouragement"
+      ],
+      "notes": "BLS CPS reasons-other-than-discouragement marginally attached series; only the not-seasonally-adjusted `LNU05026648` series validated on 2026-06-03, while `LNS15026648` does not exist.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "labor_slack_panel"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_12",
+          "rolling_12"
         ]
       }
     },
@@ -3427,6 +4251,53 @@
         "health education jobs"
       ],
       "notes": "BLS CES supersector series; BLS API returned observations for this seasonally adjusted series on 2026-06-02.",
+      "api_params": {},
+      "chart": {
+        "default_type": "line",
+        "recommended": [
+          "line",
+          "industry_comparison"
+        ],
+        "y_axis_label": "Thousands",
+        "show_recession_bands": false,
+        "allow_geography_filter": false,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "payrolls_other_services",
+      "title": "All employees, other services",
+      "short_title": "Other services jobs",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "CES8000000001",
+      "group": "industry_state_local",
+      "subgroup": "industry_payrolls",
+      "priority": "recommended",
+      "frequency": "M",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "US",
+      "start_year": 1939,
+      "release": "Employment Situation",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "industry",
+        "other services",
+        "payrolls"
+      ],
+      "aliases": [
+        "other services employment",
+        "other services jobs"
+      ],
+      "notes": "BLS CES supersector sibling completing the national supersector payroll panel; BLS API verified on 2026-06-03.",
       "api_params": {},
       "chart": {
         "default_type": "line",
@@ -4371,6 +5242,114 @@
           "small_multiples"
         ],
         "y_axis_label": "Persons",
+        "show_recession_bands": false,
+        "allow_geography_filter": true,
+        "allow_demographic_filter": false,
+        "allow_industry_filter": false,
+        "transformations": [
+          "change_1",
+          "change_12",
+          "pct_change_12"
+        ]
+      }
+    },
+    {
+      "id": "sae_state_total_nonfarm_payrolls",
+      "title": "State total nonfarm payroll employment",
+      "short_title": "State payroll jobs",
+      "provider": "bls",
+      "source_id": "bls_public_api",
+      "series_id": "SMS*000000000000001",
+      "group": "industry_state_local",
+      "subgroup": "sae",
+      "priority": "extended",
+      "frequency": "M",
+      "units": "Thousands of jobs",
+      "seasonal_adjustment": "SA",
+      "geography": "state:*",
+      "start_year": 1990,
+      "release": "State and Area Employment",
+      "source_url": null,
+      "documentation_url": null,
+      "tags": [
+        "sae",
+        "state",
+        "payrolls",
+        "jobs",
+        "establishment"
+      ],
+      "aliases": [
+        "state payroll jobs",
+        "state nonfarm payrolls",
+        "state establishment jobs"
+      ],
+      "notes": "BLS State and Area Employment total-nonfarm all-employees state/DC/Puerto Rico seasonally adjusted panel; template validated for AL, CA, DC, and PR on 2026-06-03.",
+      "api_params": {
+        "series_template": "SMS{geo}000000000000001",
+        "geographies": [
+          "01",
+          "02",
+          "04",
+          "05",
+          "06",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "44",
+          "45",
+          "46",
+          "47",
+          "48",
+          "49",
+          "50",
+          "51",
+          "53",
+          "54",
+          "55",
+          "56",
+          "72"
+        ],
+        "geography_template": "state:{geo}"
+      },
+      "chart": {
+        "default_type": "map",
+        "recommended": [
+          "map",
+          "ranked_bar",
+          "small_multiples"
+        ],
+        "y_axis_label": "Thousands of jobs",
         "show_recession_bands": false,
         "allow_geography_filter": true,
         "allow_demographic_filter": false,

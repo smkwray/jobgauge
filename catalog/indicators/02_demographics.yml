@@ -487,9 +487,9 @@ indicators:
   - id: long_term_unemployed_27_weeks_over
     title: Unemployed 27 weeks and over
     short_title: Long-term unemployed
-    provider: fred
-    source_id: fred_api
-    series_id: UEMP27OV
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS13008636
     group: demographics
     subgroup: duration
     priority: recommended
@@ -501,7 +501,7 @@ indicators:
     release: Employment Situation
     tags: [long-term unemployment, duration, unemployment]
     aliases: [27 weeks unemployed, long duration unemployment]
-    notes: FRED mirror ID is declared; replace with canonical BLS source series before any redistributable public export.
+    notes: BLS CPS Table A-12 unemployment-duration bucket; replaces hosted-only FRED mirror `UEMP27OV` for origin/offline exports. BLS API verified on 2026-06-03.
     chart:
       default_type: line
       recommended: [line, share_of_unemployed]
@@ -509,12 +509,108 @@ indicators:
       show_recession_bands: true
       transformations: [change_1, change_12, rolling_3]
 
+  - id: unemployment_duration_less_5_weeks
+    title: Unemployed less than 5 weeks
+    short_title: Unemployed <5 weeks
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS13008396
+    group: demographics
+    subgroup: duration
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1948
+    release: Employment Situation
+    tags: [duration, unemployment, short-term unemployment]
+    aliases: [unemployed under 5 weeks, less than 5 weeks unemployed]
+    notes: BLS CPS Table A-12 unemployment-duration bucket; BLS API verified on 2026-06-03.
+    chart:
+      default_type: line
+      recommended: [line, stacked_area]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: unemployment_duration_5_14_weeks
+    title: Unemployed 5 to 14 weeks
+    short_title: Unemployed 5-14 weeks
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS13008756
+    group: demographics
+    subgroup: duration
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1948
+    release: Employment Situation
+    tags: [duration, unemployment]
+    aliases: [unemployed 5-14 weeks, 5 to 14 weeks unemployed]
+    notes: BLS CPS Table A-12 unemployment-duration bucket; BLS API verified on 2026-06-03.
+    chart:
+      default_type: line
+      recommended: [line, stacked_area]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: unemployment_duration_15_26_weeks
+    title: Unemployed 15 to 26 weeks
+    short_title: Unemployed 15-26 weeks
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS13008876
+    group: demographics
+    subgroup: duration
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1948
+    release: Employment Situation
+    tags: [duration, unemployment]
+    aliases: [unemployed 15-26 weeks, 15 to 26 weeks unemployed]
+    notes: BLS CPS Table A-12 unemployment-duration bucket; BLS API verified on 2026-06-03.
+    chart:
+      default_type: line
+      recommended: [line, stacked_area]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: long_term_unemployed_share
+    title: Long-term unemployed share of total unemployment
+    short_title: Long-term unemployed share
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS13025703
+    group: demographics
+    subgroup: duration
+    priority: recommended
+    frequency: M
+    units: Percent
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1948
+    release: Employment Situation
+    tags: [long-term unemployment, duration, unemployment, share]
+    aliases: [long-term unemployed percent, 27 weeks share]
+    notes: BLS CPS Table A-12 share of total unemployed who are unemployed 27 weeks and over; BLS API verified on 2026-06-03.
+    chart:
+      default_type: line
+      recommended: [line]
+      y_axis_label: Percent
+      transformations: [change_1, change_12, rolling_3]
+
   - id: average_weeks_unemployed
     title: Average weeks unemployed
     short_title: Average unemployment duration
-    provider: fred
-    source_id: fred_api
-    series_id: UEMPMEAN
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS13008275
     group: demographics
     subgroup: duration
     priority: recommended
@@ -526,7 +622,32 @@ indicators:
     release: Employment Situation
     tags: [duration, unemployment, hardship]
     aliases: [mean unemployment duration, average duration]
-    notes: FRED mirror ID is declared; replace with canonical BLS source series before any redistributable public export.
+    notes: BLS CPS Table A-12 average unemployment duration; replaces hosted-only FRED mirror `UEMPMEAN` for origin/offline exports. BLS API verified on 2026-06-03.
+    chart:
+      default_type: line
+      recommended: [line]
+      y_axis_label: Weeks
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: median_weeks_unemployed
+    title: Median weeks unemployed
+    short_title: Median unemployment duration
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS13008276
+    group: demographics
+    subgroup: duration
+    priority: recommended
+    frequency: M
+    units: Weeks
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1967
+    release: Employment Situation
+    tags: [duration, unemployment, hardship]
+    aliases: [median unemployment duration, median duration]
+    notes: BLS CPS Table A-12 median unemployment duration; BLS API verified on 2026-06-03.
     chart:
       default_type: line
       recommended: [line]
@@ -671,12 +792,60 @@ indicators:
     release: Employment Situation
     tags: [underemployment, part-time, involuntary, slack]
     aliases: [part time economic reasons, involuntary part time]
-    notes: BLS CPS series ID is declared; verify live API response and catalog metadata before promoting beyond recommended.
+    notes: BLS CPS part-time-for-economic-reasons total; BLS API verified on 2026-06-03.
     chart:
       default_type: line
       recommended: [line, compare_to_u6]
       y_axis_label: Thousands
       show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: part_time_economic_slack_work
+    title: Employed part time for economic reasons, slack work or business conditions
+    short_title: PTER slack work
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS12032195
+    group: demographics
+    subgroup: underemployment
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1955
+    release: Employment Situation
+    tags: [underemployment, part-time, involuntary, slack, business conditions]
+    aliases: [slack work, business conditions, pter slack]
+    notes: BLS CPS part-time-for-economic-reasons component for slack work or business conditions; BLS API verified on 2026-06-03.
+    chart:
+      default_type: line
+      recommended: [line, labor_slack_panel]
+      y_axis_label: Thousands
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: part_time_economic_could_only_find_part_time
+    title: Employed part time for economic reasons, could only find part-time work
+    short_title: Could only find part-time
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS12032196
+    group: demographics
+    subgroup: underemployment
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1955
+    release: Employment Situation
+    tags: [underemployment, part-time, involuntary, could only find part-time]
+    aliases: [could only find part-time work, pter part-time only]
+    notes: BLS CPS part-time-for-economic-reasons component for people who could only find part-time work; BLS API verified on 2026-06-03.
+    chart:
+      default_type: line
+      recommended: [line, labor_slack_panel]
+      y_axis_label: Thousands
       transformations: [change_1, change_12, rolling_3]
 
   - id: not_in_labor_force_want_job_now
@@ -703,3 +872,77 @@ indicators:
       y_axis_label: Thousands
       show_recession_bands: true
       transformations: [change_1, change_12, rolling_3]
+
+  - id: marginally_attached_workers
+    title: Marginally attached workers
+    short_title: Marginally attached
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS15026642
+    group: demographics
+    subgroup: underemployment
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1994
+    release: Employment Situation
+    tags: [marginally attached, not in labor force, underemployment, slack]
+    aliases: [marginally attached workers, searched previous year]
+    notes: BLS CPS marginally attached workers series used in U-5 and U-6 labor-underutilization concepts; BLS API verified on 2026-06-03.
+    chart:
+      default_type: line
+      recommended: [line, labor_slack_panel]
+      y_axis_label: Thousands
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: discouraged_workers
+    title: Discouraged workers
+    short_title: Discouraged workers
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNS15026645
+    group: demographics
+    subgroup: underemployment
+    priority: recommended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: SA
+    geography: US
+    start_year: 1994
+    release: Employment Situation
+    tags: [discouraged workers, marginally attached, not in labor force, underemployment, slack]
+    aliases: [discouraged, discouraged workers]
+    notes: BLS CPS discouraged workers series used in U-4 through U-6 labor-underutilization concepts; BLS API verified on 2026-06-03.
+    chart:
+      default_type: line
+      recommended: [line, labor_slack_panel]
+      y_axis_label: Thousands
+      show_recession_bands: true
+      transformations: [change_1, change_12, rolling_3]
+
+  - id: other_marginally_attached_workers
+    title: Other marginally attached workers
+    short_title: Other marginally attached
+    provider: bls
+    source_id: bls_public_api
+    series_id: LNU05026648
+    group: demographics
+    subgroup: underemployment
+    priority: extended
+    frequency: M
+    units: Thousands of persons
+    seasonal_adjustment: NSA
+    geography: US
+    start_year: 1994
+    release: Employment Situation
+    tags: [marginally attached, not in labor force, reasons other than discouragement, underemployment]
+    aliases: [other marginally attached, reasons other than discouragement]
+    notes: BLS CPS reasons-other-than-discouragement marginally attached series; only the not-seasonally-adjusted `LNU05026648` series validated on 2026-06-03, while `LNS15026648` does not exist.
+    chart:
+      default_type: line
+      recommended: [line, labor_slack_panel]
+      y_axis_label: Thousands
+      transformations: [change_12, rolling_12]

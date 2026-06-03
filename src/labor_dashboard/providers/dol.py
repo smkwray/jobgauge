@@ -39,7 +39,6 @@ class DOLProvider(DataProvider):
             raise RuntimeError("DOL_API_KEY is required for DOL data portal endpoints")
         params = {key: value for key, value in params.items() if value is not None}
         params["X-API-KEY"] = self.settings.dol_api_key
-        params.setdefault("format", "json")
         with httpx.Client(timeout=self.settings.request_timeout_seconds) as client:
             response = client.get(f"{self.base_url}/{agency}/{endpoint}/json", params=params)
             if response.status_code == 429:
