@@ -137,10 +137,10 @@ const SYNONYMS = {
 const INTENTS = [
   { rx: /\bjobs?\s*report\b|\bnonfarm\b|\bpayrolls?\b|\bjobs added\b|\bnfp\b|\bemployment situation\b|\bces\b/, presets: ["jobs_report", "payrolls_industry"], ids: ["total_nonfarm_payrolls", "total_private_payrolls"] },
   { rx: /\b(jobless|unemployment)?\s*claims\b|\bicsa\b|\bccsa\b|\bui claims\b/, presets: ["claims_pressure"], ids: ["initial_claims_sa", "continued_claims_sa"] },
-  { rx: /\blaid\s*off\b|\blayoffs?\b|\bjob loss(es)?\b|\bdischarge/, presets: ["quits_layoffs"], ids: ["layoffs_discharges_rate", "layoffs_discharges_level"] },
+  { rx: /\blaid(\s*off)?\b|\blayoffs?\b|\bjob loss(es)?\b|\bdischarge/, presets: ["quits_layoffs"], ids: ["layoffs_discharges_rate", "layoffs_discharges_level"] },
   { rx: /\bvacanc|\bhelp wanted\b|\bopenings?\b|\bjolts\b|\bhir(e|es|ing)\b|\bquits?\b|\bturnover\b/, presets: ["job_openings", "beveridge"], ids: ["job_openings_level", "hires_level", "quits_level"] },
   { rx: /\bprime[\s-]?age\b|\b25[\s-]?(to|–|-)?[\s-]?54\b/, presets: ["prime_age"], ids: ["prime_age_employment_population_ratio"] },
-  { rx: /\btight labor\b|\bbeveridge\b|\bmismatch\b/, presets: ["beveridge"], ids: ["unemployment_rate", "job_openings_rate"] },
+  { rx: /\btight\b|\bbeveridge\b|\bmismatch\b/, presets: ["beveridge"], ids: ["unemployment_rate", "job_openings_rate"] },
   { rx: /\bwage(s)?\s*(after|vs|versus|and)?\s*inflation\b|\breal wage|\bwage inflation\b|\bpurchasing power\b/, presets: ["wage_inflation"], ids: ["average_hourly_earnings_total_private", "cpi_all_urban_consumers"] },
   { rx: /\binflation\b|\bcpi\b|\bpce\b|\bprices?\b|\bcost of living\b/, presets: ["inflation", "wage_inflation"], ids: ["cpi_all_urban_consumers", "pce_price_index"] },
   { rx: /\beducation\b|\bdegree\b|\bcollege\b|\bbachelor|\bhigh school\b|\bschooling\b|\bdiploma\b/, presets: ["unemp_education"], ids: ["unemployment_rate_bachelors_higher", "unemployment_rate_less_than_high_school"] },
