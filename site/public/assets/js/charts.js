@@ -360,11 +360,29 @@ export function mapOption(rows, opts = {}) {
   const c = themeColors();
   const units = opts.units || "Percent";
   const label = opts.label || "";
+  const byChange = !!opts.byChange;   // color by net change (diverging) instead of the level
+  const diverging = byChange || !!opts.diverging;
+  const pol = opts.polarity || "up_bad";
+  // Hover/selection highlight: a reserved gold used on neither ramp (green/blue level, red/blue
+  // change), so a highlighted state never looks like a top-of-scale value.
+  const hi = document.documentElement.getAttribute("data-theme") === "terminal" ? "#F2C14E" : "#E0A11E";
   const priorLabel = opts.freq === "Q" ? "vs prior quarter" : opts.freq === "A" ? "vs prior year" : "vs prior month";
+  // Net-change views read gain = blue (matching the diverging map), loss = red. Level-map change
+  // deltas keep green(good)/red(bad) by the metric's polarity (a rise is bad for unemployment).
+  const gainBlue = document.documentElement.getAttribute("data-theme") === "terminal" ? "#6FA8FF" : "#2C6FB0";
+  const dirColor = (v) => (!(v > 0) && !(v < 0)) ? c.ink3
+    : byChange ? (v > 0 ? gainBlue : c.neg)
+    : (v > 0 ? (pol === "up_bad" ? c.neg : c.pos) : (pol === "up_bad" ? c.pos : c.neg));
   const vals = rows.map((r) => r.value).filter((v) => Number.isFinite(v));
-  const min = vals.length ? Math.min(...vals) : 0;
-  let max = vals.length ? Math.max(...vals) : 1;
-  if (max <= min) max = min + 1;
+  let min, max;
+  if (diverging) {                    // symmetric around 0 so the color encodes direction, not size
+    const A = vals.length ? Math.max(...vals.map(Math.abs), 1) : 1;
+    min = -A; max = A;
+  } else {
+    min = vals.length ? Math.min(...vals) : 0;
+    max = vals.length ? Math.max(...vals) : 1;
+    if (max <= min) max = min + 1;
+  }
   return {
     ...anim(),
     aria: { show: true, label: { enabled: true } },
@@ -375,8 +393,15 @@ export function mapOption(rows, opts = {}) {
       formatter: (p) => {
         const d = p.data;
         if (!d || !Number.isFinite(d.value)) return `<b>${p.name}</b><br><span style="color:${c.ink3}">no data</span>`;
+        if (byChange) {
+          // value IS the net change; show it colored by direction, with the running total beneath.
+          const lvl = Number.isFinite(d.level)
+            ? `<div style="color:${c.ink3};font-family:${c.fontMono};font-size:11px;margin-top:2px">${fmtMapValue(d.level, units)} total</div>` : "";
+          return `<div style="font-weight:600;margin-bottom:3px">${p.name}</div>
+            <div><b style="font-family:${c.fontMono};font-size:15px;color:${dirColor(d.value)}">${fmtMapChange(d.value, units)}</b> <span style="color:${c.ink3}">${priorLabel}</span></div>${lvl}`;
+        }
         const chg = Number.isFinite(d.change)
-          ? `<div style="color:${d.change > 0 ? c.neg : d.change < 0 ? c.pos : c.ink3};font-family:${c.fontMono};font-size:11px;margin-top:2px">${fmtMapChange(d.change, units)} ${priorLabel}</div>`
+          ? `<div style="color:${dirColor(d.change)};font-family:${c.fontMono};font-size:11px;margin-top:2px">${fmtMapChange(d.change, units)} ${priorLabel}</div>`
           : "";
         return `<div style="font-weight:600;margin-bottom:3px">${p.name}</div>
           <div><b style="font-family:${c.fontMono};font-size:15px">${fmtMapValue(d.value, units)}</b>${label ? ` <span style="color:${c.ink3}">${label}</span>` : ""}</div>${chg}`;
@@ -385,16 +410,17 @@ export function mapOption(rows, opts = {}) {
     visualMap: {
       type: "continuous", min, max, calculable: true,
       left: 8, top: "center", itemWidth: 12, itemHeight: 130,
-      text: ["higher", "lower"], textStyle: { color: c.ink3, fontFamily: c.fontMono, fontSize: 10 },
-      inRange: { color: mapRamp() },
+      text: diverging ? (pol === "up_bad" ? ["loss", "gain"] : ["gain", "loss"]) : ["higher", "lower"],
+      textStyle: { color: c.ink3, fontFamily: c.fontMono, fontSize: 10 },
+      inRange: { color: diverging ? divergingRamp(pol) : mapRamp() },
       formatter: (v) => fmtMapCompact(v, units),
     },
     series: [{
       type: "map", map: "usa-states", roam: false,
       layoutCenter: ["50%", "50%"], layoutSize: "112%",
-      data: rows.map((r) => ({ name: r.name, value: r.value, change: r.change })),
+      data: rows.map((r) => ({ name: r.name, value: r.value, change: r.change, level: r.level })),
       itemStyle: { borderColor: c.surface, borderWidth: .6, areaColor: hexA(c.ink3, .08) },
-      emphasis: { label: { show: false }, itemStyle: { areaColor: c.brand, borderColor: c.surface } },
+      emphasis: { label: { show: false }, itemStyle: { areaColor: hi, borderColor: c.surface, borderWidth: 1.4 } },
       select: { disabled: true },
       label: { show: false },
     }],
@@ -552,6 +578,17 @@ function mapRamp() {
   return document.documentElement.getAttribute("data-theme") === "terminal"
     ? ["#14403A", "#1E6E62", "#2E9C8C", "#5FC8B3", "#A6ECD9"]   // dark teal → bright mint
     : ["#E8F2DC", "#A9DBB0", "#5FC2BE", "#2E8FBE", "#0F63A6"];  // pale green → deep blue
+}
+
+// Diverging ramp for signed metrics (net change): low → 0 → high. Used when the map colors by
+// change rather than level, so direction reads at a glance. GAIN is blue (not green — green is
+// reserved for the sequential level maps), LOSS is red. up_bad (unemployment) reverses so a rise is red.
+function divergingRamp(pol) {
+  const dark = document.documentElement.getAttribute("data-theme") === "terminal";
+  const lossToGain = dark
+    ? ["#F0846F", "#8A5752", "#3A3A3A", "#4E73A8", "#6FA8FF"]   // red → neutral → blue (dark)
+    : ["#C23B30", "#E6A99F", "#ECECE4", "#A6C6E8", "#2C6FB0"];  // red → neutral → blue (light)
+  return pol === "up_bad" ? lossToGain.slice().reverse() : lossToGain;
 }
 
 function hexA(hex, a) {

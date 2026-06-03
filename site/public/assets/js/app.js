@@ -5,7 +5,7 @@ import { fmtValue, fmtDelta, fmtDate, fmtTimestamp, unitShort, geoName,
          PROVIDER_LABEL, FREQ_LABEL, SA_LABEL, seriesPalette, fmtMapValue, fmtMapChange } from "./format.js";
 import { TRANSFORMS, filterRange, applyTransform, transformAvailability, transformUnit, transformVerb,
          rollingLabel, alignByDate, COMBINE_OPS, combineSeries, combineLabel, compileFormula } from "./transforms.js";
-import { lineOption, scatterOption, barOption, mapOption, heatmapOption, distributionOption, miniLineOption } from "./charts.js";
+import { lineOption, scatterOption, barOption, mapOption, heatmapOption, distributionOption, miniLineOption } from "./charts.js?v=26";
 import { searchAll, PRESETS, presetById, THEMES, highlight } from "./search.js?v=23";
 import { parseState, syncURL, encodeState } from "./router.js";
 import { exportCSV, exportJSON, exportPNG, exportSVG, copyText } from "./exporters.js";
@@ -1128,19 +1128,36 @@ function renderStateTable(box) {
 function renderStateRank(box, rowsIn, opts = {}) {
   if (!box) return;
   const units = opts.units || "Percent";
+  const byChange = !!opts.byChange;
+  const pol = opts.polarity || "up_bad";
+  // Net-change rows read gain = blue (matching the diverging map), loss = red. Level-map deltas
+  // keep green(good)/red(bad) by polarity (a rise is bad for unemployment).
+  const gainBlue = document.documentElement.getAttribute("data-theme") === "terminal" ? "#6FA8FF" : "#2C6FB0";
+  const dirColor = (v) => (!(v > 0) && !(v < 0)) ? "var(--ink-3)"
+    : byChange ? (v > 0 ? gainBlue : "var(--neg)")
+    : (v > 0 ? (pol === "up_bad" ? "var(--neg)" : "var(--pos)") : (pol === "up_bad" ? "var(--pos)" : "var(--neg)"));
   const rows = rowsIn.filter((r) => r.name && Number.isFinite(r.value)).slice().sort((a, b) => b.value - a.value);
-  const max = rows.length ? Math.max(...rows.map((r) => r.value)) : 1;
+  const maxAbs = rows.length ? Math.max(...rows.map((r) => Math.abs(r.value)), 1) : 1;
+  const headPrimary = byChange ? "Net change" : esc(opts.label || "Value");
+  const headSecondary = byChange ? "Total" : "change";
   box.style.padding = "0";
   box.innerHTML = `<div style="max-height:${opts.maxHeight || 560}px;overflow:auto">
     <table class="ranktable">
-      <thead><tr><th>#</th><th>State</th><th class="r">${esc(opts.label || "Value")}</th><th></th><th class="r">change</th></tr></thead>
-      <tbody>${rows.map((r, i) => `<tr>
+      <thead><tr><th>#</th><th>State</th><th class="r">${headPrimary}</th><th></th><th class="r">${headSecondary}</th></tr></thead>
+      <tbody>${rows.map((r, i) => {
+        const primary = byChange ? fmtMapChange(r.value, units) : fmtMapValue(r.value, units);
+        const primaryColor = byChange ? dirColor(r.value) : "var(--ink)";
+        const secondary = byChange
+          ? (Number.isFinite(r.level) ? fmtMapValue(r.level, units) : "—")
+          : (r.change == null ? "—" : fmtMapChange(r.change, units));
+        const secondaryColor = byChange ? "var(--ink-3)" : dirColor(r.change);
+        return `<tr>
         <td class="rank-i">${i + 1}</td>
         <td>${esc(r.name)}</td>
-        <td class="r"><b>${esc(fmtMapValue(r.value, units))}</b></td>
-        <td><div class="rankbar" style="width:${Math.max(4, (r.value / max) * 100)}%"></div></td>
-        <td class="r" style="color:${r.change > 0 ? "var(--neg)" : r.change < 0 ? "var(--pos)" : "var(--ink-3)"}">${r.change == null ? "—" : esc(fmtMapChange(r.change, units))}</td>
-      </tr>`).join("")}</tbody>
+        <td class="r"><b style="color:${primaryColor}">${esc(primary)}</b></td>
+        <td><div class="rankbar" style="width:${Math.max(4, (Math.abs(r.value) / maxAbs) * 100)}%"></div></td>
+        <td class="r" style="color:${secondaryColor}">${esc(secondary)}</td>
+      </tr>`; }).join("")}</tbody>
     </table></div>`;
 }
 
@@ -1276,6 +1293,11 @@ async function renderStateMapView(main) {
   const mode = state.mapMode || "map";
   const isMap = mode === "map";
   const mapRange = state.mapRange || "all";
+  // A rate (unemployment) is meaningfully shaded by its level. A count/jobs/$ level is dominated by
+  // state size, so shade it by net monthly change instead — that's the dynamic the map should show.
+  const isRate = /percent/i.test(m.units || "");
+  const byChange = !isRate;
+  const polarity = /unemploy/i.test(metricId + " " + (m.title || "")) ? "up_bad" : "up_good";
 
   // grouped metric picker
   const groups = {};
@@ -1290,7 +1312,9 @@ async function renderStateMapView(main) {
   const RANGES = [["1y", "1Y"], ["5y", "5Y"], ["10y", "10Y"], ["all", "All"]];
   const rangeHtml = `<div class="segmented" id="mapRangeSeg" role="group" aria-label="Date range">` + RANGES.map(([k, l]) => `<button class="seg ${mapRange === k ? "is-active" : ""}" data-r="${k}" aria-pressed="${mapRange === k ? "true" : "false"}">${l}</button>`).join("") + `</div>`;
   const blurb = isMap
-    ? "Each state is shaded by its value — darker is higher. Hover a state for detail; click anywhere on the slider (or press play) to move through time."
+    ? (byChange
+        ? "Each state is shaded by its net change from the prior month — blue where it gained, red where it lost. Hover any state for its running total; drag the slider or press play to move through time."
+        : "Each state is shaded by its value — darker is higher. Hover a state for detail; click anywhere on the slider (or press play) to move through time.")
     : mode === "heatmap"
       ? "Every state over time: each row is a state (sorted by latest value), each column a period, color = value."
       : "How the value is spread across states each period — the box covers the middle 50% of states, the line is the median, whiskers are the range.";
@@ -1341,10 +1365,12 @@ async function renderStateMapView(main) {
   const obs = (series && series.observations) || [];
   const byDate = new Map();
   for (const o of obs) {
-    if (!Number.isFinite(o.value)) continue;
+    // For change-shaded metrics the coloring value is the net change; the level rides along for the tooltip.
+    const cv = byChange ? o.change_1 : o.value;
+    if (!Number.isFinite(cv)) continue;
     const name = geoStateName(o.geo_id || o.geography); if (!name) continue;
     if (!byDate.has(o.date)) byDate.set(o.date, []);
-    byDate.get(o.date).push({ name, value: o.value, change: o.change_1 });
+    byDate.get(o.date).push({ name, value: cv, level: o.value, change: o.change_1 });
   }
   const allFrames = [...byDate.keys()].sort().map((d) => ({ date: d, label: fmtDate(d, m.frequency), data: byDate.get(d) }));
   // drop near-empty periods (e.g. a just-released month with one state reporting) — they make a
@@ -1387,13 +1413,18 @@ async function renderStateMapView(main) {
     ticksEl.innerHTML = idxs.map((i) => `<span style="left:${(N > 1 ? i / (N - 1) : 0) * 100}%">${esc(frames[i].label)}</span>`).join("");
   }
   let cur = frames.length - 1, inited = false;
-  const minMax = (data) => { const v = data.map((d) => d.value).filter(Number.isFinite); const mn = v.length ? Math.min(...v) : 0; let mx = v.length ? Math.max(...v) : 1; return [mn, mx <= mn ? mn + 1 : mx]; };
+  // Diverging (change) frames get symmetric bounds around 0; level frames use their min/max.
+  const bounds = (data) => {
+    const v = data.map((d) => d.value).filter(Number.isFinite);
+    if (byChange) { const A = v.length ? Math.max(...v.map(Math.abs), 1) : 1; return [-A, A]; }
+    const mn = v.length ? Math.min(...v) : 0; let mx = v.length ? Math.max(...v) : 1; return [mn, mx <= mn ? mn + 1 : mx];
+  };
   const setFrame = (i) => {
     cur = Math.max(0, Math.min(frames.length - 1, i));
     const f = frames[cur];
-    if (!inited) { chart.setOption(mapOption(f.data, { units: m.units, label: m.short_title, freq: m.frequency })); inited = true; }
-    else { const [mn, mx] = minMax(f.data); chart.setOption({ visualMap: [{ min: mn, max: mx }], series: [{ data: f.data.map((r) => ({ name: r.name, value: r.value, change: r.change })) }] }); }
-    renderStateRank(rankBox, f.data, { units: m.units, label: m.units });
+    if (!inited) { chart.setOption(mapOption(f.data, { units: m.units, label: m.short_title, freq: m.frequency, byChange, diverging: byChange, polarity })); inited = true; }
+    else { const [mn, mx] = bounds(f.data); chart.setOption({ visualMap: [{ min: mn, max: mx }], series: [{ data: f.data.map((r) => ({ name: r.name, value: r.value, change: r.change, level: r.level })) }] }); }
+    renderStateRank(rankBox, f.data, { units: m.units, label: m.units, byChange, polarity });
     if (rankMonth) rankMonth.textContent = f.label;
     if (labelEl) labelEl.textContent = f.label;
     if (range) range.value = String(cur);
