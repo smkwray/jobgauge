@@ -559,7 +559,7 @@ function additiveUnits(units) {
 }
 // Specials with their own bespoke rendering (scatter/bar/map/table/gap) keep one look;
 // everything else (claims, comparisons, plain indicators) is line-family and can switch presentation.
-const NONLINE_SPECIAL = new Set(["beveridge", "industry_bar", "state_map", "state_table", "gap"]);
+const NONLINE_SPECIAL = new Set(["beveridge", "industry_bar", "state_map", "state_table", "gap", "composition"]);
 function isLineFamily(view) { return !NONLINE_SPECIAL.has(view.special); }
 function presentOptions(view) {
   const opts = [{ v: "line", l: "Line" }];
@@ -927,7 +927,7 @@ function refreshFocus() {
   $("#focusFoot").innerHTML = `Published by <b>${esc(owners.join(", "))}</b> · ${esc(FREQ_LABEL[m.frequency] || m.frequency)} · updated ${esc(fmtTimestamp(store.manifest.generated_at))}`;
 
   // controls: only meaningful for the time-series presentations
-  const showControls = view.special !== "state_table" && view.special !== "industry_bar" && view.special !== "state_map";
+  const showControls = view.special !== "state_table" && view.special !== "industry_bar" && view.special !== "state_map" && view.special !== "composition";
   $("#focusControls").innerHTML = showControls ? renderControls(view) : "";
   if (showControls) wireFocusControls();
 
@@ -1196,7 +1196,11 @@ async function renderCompositionView(main) {
   const ind = { view, window: indWindow(), measure: indMeasure() };
 
   const loaded = await Promise.all(cfg.ids.map((id) => loadSeries(id)));
-  const seriesList = cfg.ids.map((id, i) => ({ id, meta: meta(id), full: (loaded[i] && loaded[i].observations) || [], label: cfg.labels && cfg.labels[i] }));
+  // viewObs (full history as [date, level, level]) lets the shared CSV/JSON export reuse this view.
+  const seriesList = cfg.ids.map((id, i) => {
+    const obs = (loaded[i] && loaded[i].observations) || [];
+    return { id, meta: meta(id), full: obs, label: cfg.labels && cfg.labels[i], viewObs: obs.map((o) => [o.date, num(o.value), num(o.value)]) };
+  });
   const m0 = meta(cfg.ids[0]);
   const sa = m0.seasonal_adjustment === "SA" ? "seasonally adjusted" : (m0.seasonal_adjustment || "");
   const srcLine = `${esc(m0.source_title || PROVIDER_LABEL[m0.provider] || m0.provider)}${m0.release ? " · " + esc(m0.release) : ""} · ${esc(m0.units)} · ${FREQ_LABEL[m0.frequency] || m0.frequency}${sa ? " · " + esc(sa) : ""}`;
@@ -1223,6 +1227,13 @@ async function renderCompositionView(main) {
       </div>
       <div class="section-rule"></div>
       <div class="chartcard">
+        <div class="chartcard__head">
+          <div class="chartcard__titlewrap"></div>
+          <div class="chartcard__actions">
+            <button class="btn btn--sm" id="wsFocus" title="Open a large, focused view (Esc to close)"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" style="margin-right:4px"><path d="M6 2H2v4M10 2h4v4M6 14H2v-4M10 14h4v-4" stroke-linecap="round" stroke-linejoin="round"/></svg>Focus</button>
+            <button class="btn btn--sm" id="wsExport">Export</button>
+          </div>
+        </div>
         <div class="chart" id="chartBox" style="height:560px"></div>
         <div class="transform-note show" id="tnote"></div>
       </div>
@@ -1242,6 +1253,12 @@ async function renderCompositionView(main) {
   box.setAttribute("role", "img");
   box.setAttribute("aria-label", `Bar chart: ${cfg.label}. ${note}`);
   const tn = $("#tnote"); if (tn) tn.textContent = note;
+
+  // Expose this view to the shared Focus overlay + Export sheet (both read lastView).
+  lastView = { series: seriesList, ids: cfg.ids, special: "composition", freq: m0.frequency, option,
+    preset: { label: cfg.label, kicker: cfg.eyebrow, special: "composition" } };
+  $("#wsFocus")?.addEventListener("click", openFocus);
+  $("#wsExport")?.addEventListener("click", () => openSheet());
 }
 
 // ============================================================ STATE MAP (dedicated view)
@@ -1774,7 +1791,7 @@ function explain(id) {
 // ============================================================ SHARE / EXPORT SHEET
 function openSheet() {
   $("#exportSheet").querySelector(".sheet__head h2").textContent = "Share & export";
-  const ids = state.ids.length ? state.ids : (state.preset ? presetById.get(state.preset).ids : []);
+  const ids = state.ids.length ? state.ids : (state.preset ? presetById.get(state.preset).ids : (state.view === "composition" && lastView?.ids ? lastView.ids : []));
   if (!ids.length) { $("#sheetBody").innerHTML = `<p style="color:var(--ink-2)">Open a chart first, then export it here.</p>`; showSheet(); return; }
   const link = encodeState(state, { full: true });
   const opt = (ico, t, d, act) => `<button class="export-opt" data-exp="${act}"><span class="export-opt__ico">${ico}</span><span><span class="export-opt__t">${t}</span><span class="export-opt__d">${d}</span></span></button>`;
@@ -1819,7 +1836,9 @@ function renderedSeriesForExport(view) {
 async function doExport(kind) {
   if (!lastView || !lastView.series.length) return;
   const present = isLineFamily(lastView) ? currentPresent(lastView) : "line";
-  const view = { transform: state.transform, range: state.range, chartType: state.chart, rec: state.rec, log: state.log, present };
+  // Composition exports the underlying series at their raw level over full history — label it as such.
+  const isComp = lastView.special === "composition";
+  const view = { transform: isComp ? "level" : state.transform, range: isComp ? "all" : state.range, chartType: state.chart, rec: state.rec, log: state.log, present };
   const series = renderedSeriesForExport(lastView);
   if (kind === "csv") { exportCSV(series, view); toast("CSV downloaded"); }
   else if (kind === "json") { exportJSON(series, view); toast("JSON downloaded"); }
