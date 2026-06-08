@@ -407,6 +407,38 @@
       "rolling_6": 1315.0,
       "rolling_12": 1189.6363636363637,
       "index_first_100": 147.97160243407708
+    },
+    {
+      "indicator_id": "qcew_total_private_average_weekly_wage_annual",
+      "date": "2025-01-01",
+      "value": 1521.0,
+      "source": "bls_qcew_open_data",
+      "series_id": "qcew:US000:private:10:annual_avg_wkly_wage",
+      "frequency": "A",
+      "seasonal_adjustment": "NSA",
+      "units": "Dollars per week",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "area_fips=US000; industry_code=10; own_code=5; agglvl_code=11",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "qcew_total_private_average_weekly_wage_annual|US",
+      "change_1": 62.0,
+      "pct_change_1": 4.249485949280318,
+      "change_3": 168.0,
+      "pct_change_3": 12.416851441241693,
+      "change_4": 213.0,
+      "pct_change_4": 16.284403669724767,
+      "change_6": 383.0,
+      "pct_change_6": 33.655536028119506,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 1458.6666666666667,
+      "rolling_4": 1432.25,
+      "rolling_6": 1378.8333333333333,
+      "rolling_12": 1217.25,
+      "index_first_100": 154.25963488843811
     }
   ]
 }

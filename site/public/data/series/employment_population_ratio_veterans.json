@@ -10159,6 +10159,38 @@
       "rolling_6": 46.06666666666666,
       "rolling_12": 46.236363636363635,
       "index_first_100": 80.1038062283737
+    },
+    {
+      "indicator_id": "employment_population_ratio_veterans",
+      "date": "2026-05-01",
+      "value": 46.8,
+      "source": "bls_public_api",
+      "series_id": "LNU02349526",
+      "frequency": "M",
+      "seasonal_adjustment": "NSA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "employment_population_ratio_veterans|US",
+      "change_1": 0.5,
+      "pct_change_1": 1.0799136069114423,
+      "change_3": 1.0,
+      "pct_change_3": 2.183406113537112,
+      "change_4": 1.0,
+      "pct_change_4": 2.183406113537112,
+      "change_6": 0.3999999999999986,
+      "pct_change_6": 0.8620689655172376,
+      "change_12": 0.7999999999999972,
+      "pct_change_12": 1.7391304347825987,
+      "rolling_3": 46.300000000000004,
+      "rolling_4": 46.175,
+      "rolling_6": 46.13333333333333,
+      "rolling_12": 46.309090909090905,
+      "index_first_100": 80.96885813148789
     }
   ]
 }

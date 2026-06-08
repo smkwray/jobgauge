@@ -408,6 +408,38 @@
       "rolling_6": 126598819.83333333,
       "rolling_12": 123719304.27272727,
       "index_first_100": 114.71080583195348
+    },
+    {
+      "indicator_id": "qcew_total_private_employment_annual",
+      "date": "2025-01-01",
+      "value": 133117983.0,
+      "source": "bls_qcew_open_data",
+      "series_id": "qcew:US000:private:10:annual_avg_emplvl",
+      "frequency": "A",
+      "seasonal_adjustment": "NSA",
+      "units": "Jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "area_fips=US000; industry_code=10; own_code=5; agglvl_code=11",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "qcew_total_private_employment_annual|US",
+      "change_1": 548212.0,
+      "pct_change_1": 0.4135271531848783,
+      "change_3": 4399923.0,
+      "pct_change_3": 3.4182639172778195,
+      "change_4": 10401331.0,
+      "pct_change_4": 8.475892090015623,
+      "change_6": 6759240.0,
+      "pct_change_6": 5.34924599558575,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 132325811.66666667,
+      "rolling_4": 131423873.75,
+      "rolling_6": 127725359.83333333,
+      "rolling_12": 124502527.5,
+      "index_first_100": 115.18516616170578
     }
   ]
 }

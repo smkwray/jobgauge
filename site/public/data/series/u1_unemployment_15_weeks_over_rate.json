@@ -53,8 +53,8 @@
   "observations": [
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
-      "date": "1994-01-01",
-      "value": 2.3,
+      "date": "1990-01-01",
+      "value": 1.1,
       "source": "bls_public_api",
       "series_id": "LNS13025670",
       "frequency": "M",
@@ -77,11 +77,1547 @@
       "pct_change_6": null,
       "change_12": null,
       "pct_change_12": null,
+      "rolling_3": 1.1,
+      "rolling_4": 1.1,
+      "rolling_6": 1.1,
+      "rolling_12": 1.1,
+      "index_first_100": 100.0
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1990-02-01",
+      "value": 1.1,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": null,
+      "pct_change_3": null,
+      "change_4": null,
+      "pct_change_4": null,
+      "change_6": null,
+      "pct_change_6": null,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 1.1,
+      "rolling_4": 1.1,
+      "rolling_6": 1.1,
+      "rolling_12": 1.1,
+      "index_first_100": 100.0
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1990-03-01",
+      "value": 1.1,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": null,
+      "pct_change_3": null,
+      "change_4": null,
+      "pct_change_4": null,
+      "change_6": null,
+      "pct_change_6": null,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 1.1,
+      "rolling_4": 1.1,
+      "rolling_6": 1.1,
+      "rolling_12": 1.1,
+      "index_first_100": 100.0
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1990-04-01",
+      "value": 1.1,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": 0.0,
+      "pct_change_3": 0.0,
+      "change_4": null,
+      "pct_change_4": null,
+      "change_6": null,
+      "pct_change_6": null,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 1.1,
+      "rolling_4": 1.1,
+      "rolling_6": 1.1,
+      "rolling_12": 1.1,
+      "index_first_100": 100.0
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1990-05-01",
+      "value": 1.1,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": 0.0,
+      "pct_change_3": 0.0,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_6": null,
+      "pct_change_6": null,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 1.1,
+      "rolling_4": 1.1,
+      "rolling_6": 1.1,
+      "rolling_12": 1.1,
+      "index_first_100": 100.0
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1990-06-01",
+      "value": 1.1,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": 0.0,
+      "pct_change_3": 0.0,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_6": null,
+      "pct_change_6": null,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 1.1,
+      "rolling_4": 1.1,
+      "rolling_6": 1.1,
+      "rolling_12": 1.1,
+      "index_first_100": 100.0
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1990-07-01",
+      "value": 1.2,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.09999999999999987,
+      "pct_change_1": 9.090909090909083,
+      "change_3": 0.09999999999999987,
+      "pct_change_3": 9.090909090909083,
+      "change_4": 0.09999999999999987,
+      "pct_change_4": 9.090909090909083,
+      "change_6": 0.09999999999999987,
+      "pct_change_6": 9.090909090909083,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 1.1333333333333335,
+      "rolling_4": 1.125,
+      "rolling_6": 1.1166666666666667,
+      "rolling_12": 1.1142857142857143,
+      "index_first_100": 109.09090909090908
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1990-08-01",
+      "value": 1.3,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.10000000000000009,
+      "pct_change_1": 8.333333333333348,
+      "change_3": 0.19999999999999996,
+      "pct_change_3": 18.181818181818166,
+      "change_4": 0.19999999999999996,
+      "pct_change_4": 18.181818181818166,
+      "change_6": 0.19999999999999996,
+      "pct_change_6": 18.181818181818166,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 1.2,
+      "rolling_4": 1.175,
+      "rolling_6": 1.1500000000000001,
+      "rolling_12": 1.1375000000000002,
+      "index_first_100": 118.18181818181816
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1990-09-01",
+      "value": 1.3,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": 0.19999999999999996,
+      "pct_change_3": 18.181818181818166,
+      "change_4": 0.19999999999999996,
+      "pct_change_4": 18.181818181818166,
+      "change_6": 0.19999999999999996,
+      "pct_change_6": 18.181818181818166,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 1.2666666666666666,
+      "rolling_4": 1.225,
+      "rolling_6": 1.1833333333333333,
+      "rolling_12": 1.1555555555555557,
+      "index_first_100": 118.18181818181816
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1990-10-01",
+      "value": 1.3,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": 0.10000000000000009,
+      "pct_change_3": 8.333333333333348,
+      "change_4": 0.19999999999999996,
+      "pct_change_4": 18.181818181818166,
+      "change_6": 0.19999999999999996,
+      "pct_change_6": 18.181818181818166,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 1.3,
+      "rolling_4": 1.275,
+      "rolling_6": 1.2166666666666668,
+      "rolling_12": 1.1700000000000002,
+      "index_first_100": 118.18181818181816
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1990-11-01",
+      "value": 1.5,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.19999999999999996,
+      "pct_change_1": 15.384615384615374,
+      "change_3": 0.19999999999999996,
+      "pct_change_3": 15.384615384615374,
+      "change_4": 0.30000000000000004,
+      "pct_change_4": 25.0,
+      "change_6": 0.3999999999999999,
+      "pct_change_6": 36.36363636363635,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 1.3666666666666665,
+      "rolling_4": 1.35,
+      "rolling_6": 1.2833333333333334,
+      "rolling_12": 1.2000000000000002,
+      "index_first_100": 136.36363636363635
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1990-12-01",
+      "value": 1.4,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": -0.10000000000000009,
+      "pct_change_1": -6.666666666666677,
+      "change_3": 0.09999999999999987,
+      "pct_change_3": 7.692307692307687,
+      "change_4": 0.09999999999999987,
+      "pct_change_4": 7.692307692307687,
+      "change_6": 0.2999999999999998,
+      "pct_change_6": 27.27272727272725,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 1.4000000000000001,
+      "rolling_4": 1.375,
+      "rolling_6": 1.3333333333333333,
+      "rolling_12": 1.2166666666666668,
+      "index_first_100": 127.27272727272725
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1991-01-01",
+      "value": 1.5,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.10000000000000009,
+      "pct_change_1": 7.14285714285714,
+      "change_3": 0.19999999999999996,
+      "pct_change_3": 15.384615384615374,
+      "change_4": 0.19999999999999996,
+      "pct_change_4": 15.384615384615374,
+      "change_6": 0.30000000000000004,
+      "pct_change_6": 25.0,
+      "change_12": 0.3999999999999999,
+      "pct_change_12": 36.36363636363635,
+      "rolling_3": 1.4666666666666668,
+      "rolling_4": 1.425,
+      "rolling_6": 1.3833333333333335,
+      "rolling_12": 1.25,
+      "index_first_100": 136.36363636363635
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1991-02-01",
+      "value": 1.6,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.10000000000000009,
+      "pct_change_1": 6.666666666666665,
+      "change_3": 0.10000000000000009,
+      "pct_change_3": 6.666666666666665,
+      "change_4": 0.30000000000000004,
+      "pct_change_4": 23.076923076923084,
+      "change_6": 0.30000000000000004,
+      "pct_change_6": 23.076923076923084,
+      "change_12": 0.5,
+      "pct_change_12": 45.45454545454546,
+      "rolling_3": 1.5,
+      "rolling_4": 1.5,
+      "rolling_6": 1.4333333333333333,
+      "rolling_12": 1.2916666666666667,
+      "index_first_100": 145.45454545454547
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1991-03-01",
+      "value": 1.7,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.09999999999999987,
+      "pct_change_1": 6.25,
+      "change_3": 0.30000000000000004,
+      "pct_change_3": 21.42857142857144,
+      "change_4": 0.19999999999999996,
+      "pct_change_4": 13.33333333333333,
+      "change_6": 0.3999999999999999,
+      "pct_change_6": 30.76923076923077,
+      "change_12": 0.5999999999999999,
+      "pct_change_12": 54.54545454545452,
+      "rolling_3": 1.5999999999999999,
+      "rolling_4": 1.55,
+      "rolling_6": 1.5,
+      "rolling_12": 1.3416666666666668,
+      "index_first_100": 154.54545454545453
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1991-04-01",
+      "value": 1.7,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": 0.19999999999999996,
+      "pct_change_3": 13.33333333333333,
+      "change_4": 0.30000000000000004,
+      "pct_change_4": 21.42857142857144,
+      "change_6": 0.3999999999999999,
+      "pct_change_6": 30.76923076923077,
+      "change_12": 0.5999999999999999,
+      "pct_change_12": 54.54545454545452,
+      "rolling_3": 1.6666666666666667,
+      "rolling_4": 1.625,
+      "rolling_6": 1.5666666666666664,
+      "rolling_12": 1.3916666666666666,
+      "index_first_100": 154.54545454545453
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1991-05-01",
+      "value": 1.8,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.10000000000000009,
+      "pct_change_1": 5.882352941176472,
+      "change_3": 0.19999999999999996,
+      "pct_change_3": 12.5,
+      "change_4": 0.30000000000000004,
+      "pct_change_4": 19.999999999999996,
+      "change_6": 0.30000000000000004,
+      "pct_change_6": 19.999999999999996,
+      "change_12": 0.7,
+      "pct_change_12": 63.636363636363626,
+      "rolling_3": 1.7333333333333334,
+      "rolling_4": 1.7,
+      "rolling_6": 1.6166666666666665,
+      "rolling_12": 1.4500000000000002,
+      "index_first_100": 163.63636363636363
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1991-06-01",
+      "value": 2.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.19999999999999996,
+      "pct_change_1": 11.111111111111116,
+      "change_3": 0.30000000000000004,
+      "pct_change_3": 17.647058823529417,
+      "change_4": 0.3999999999999999,
+      "pct_change_4": 25.0,
+      "change_6": 0.6000000000000001,
+      "pct_change_6": 42.85714285714286,
+      "change_12": 0.8999999999999999,
+      "pct_change_12": 81.81818181818181,
+      "rolling_3": 1.8333333333333333,
+      "rolling_4": 1.7999999999999998,
+      "rolling_6": 1.7166666666666668,
+      "rolling_12": 1.5250000000000001,
+      "index_first_100": 181.8181818181818
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1991-07-01",
+      "value": 1.9,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": -0.10000000000000009,
+      "pct_change_1": -5.000000000000004,
+      "change_3": 0.19999999999999996,
+      "pct_change_3": 11.764705882352944,
+      "change_4": 0.19999999999999996,
+      "pct_change_4": 11.764705882352944,
+      "change_6": 0.3999999999999999,
+      "pct_change_6": 26.66666666666666,
+      "change_12": 0.7,
+      "pct_change_12": 58.33333333333333,
+      "rolling_3": 1.9000000000000001,
+      "rolling_4": 1.85,
+      "rolling_6": 1.7833333333333334,
+      "rolling_12": 1.5833333333333333,
+      "index_first_100": 172.72727272727272
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1991-08-01",
+      "value": 2.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.10000000000000009,
+      "pct_change_1": 5.263157894736836,
+      "change_3": 0.19999999999999996,
+      "pct_change_3": 11.111111111111116,
+      "change_4": 0.30000000000000004,
+      "pct_change_4": 17.647058823529417,
+      "change_6": 0.3999999999999999,
+      "pct_change_6": 25.0,
+      "change_12": 0.7,
+      "pct_change_12": 53.84615384615383,
+      "rolling_3": 1.9666666666666668,
+      "rolling_4": 1.9249999999999998,
+      "rolling_6": 1.8499999999999999,
+      "rolling_12": 1.6416666666666666,
+      "index_first_100": 181.8181818181818
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1991-09-01",
+      "value": 2.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": 0.0,
+      "pct_change_3": 0.0,
+      "change_4": 0.19999999999999996,
+      "pct_change_4": 11.111111111111116,
+      "change_6": 0.30000000000000004,
+      "pct_change_6": 17.647058823529417,
+      "change_12": 0.7,
+      "pct_change_12": 53.84615384615383,
+      "rolling_3": 1.9666666666666668,
+      "rolling_4": 1.975,
+      "rolling_6": 1.9000000000000001,
+      "rolling_12": 1.7,
+      "index_first_100": 181.8181818181818
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1991-10-01",
+      "value": 2.1,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.10000000000000009,
+      "pct_change_1": 5.000000000000004,
+      "change_3": 0.20000000000000018,
+      "pct_change_3": 10.526315789473696,
+      "change_4": 0.10000000000000009,
+      "pct_change_4": 5.000000000000004,
+      "change_6": 0.40000000000000013,
+      "pct_change_6": 23.529411764705888,
+      "change_12": 0.8,
+      "pct_change_12": 61.53846153846154,
+      "rolling_3": 2.033333333333333,
+      "rolling_4": 2.0,
+      "rolling_6": 1.9666666666666666,
+      "rolling_12": 1.7666666666666668,
+      "index_first_100": 190.9090909090909
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1991-11-01",
+      "value": 2.1,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": 0.10000000000000009,
+      "pct_change_3": 5.000000000000004,
+      "change_4": 0.20000000000000018,
+      "pct_change_4": 10.526315789473696,
+      "change_6": 0.30000000000000004,
+      "pct_change_6": 16.666666666666675,
+      "change_12": 0.6000000000000001,
+      "pct_change_12": 40.000000000000014,
+      "rolling_3": 2.0666666666666664,
+      "rolling_4": 2.05,
+      "rolling_6": 2.0166666666666666,
+      "rolling_12": 1.8166666666666667,
+      "index_first_100": 190.9090909090909
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1991-12-01",
+      "value": 2.3,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.19999999999999973,
+      "pct_change_1": 9.523809523809511,
+      "change_3": 0.2999999999999998,
+      "pct_change_3": 14.999999999999991,
+      "change_4": 0.2999999999999998,
+      "pct_change_4": 14.999999999999991,
+      "change_6": 0.2999999999999998,
+      "pct_change_6": 14.999999999999991,
+      "change_12": 0.8999999999999999,
+      "pct_change_12": 64.28571428571428,
+      "rolling_3": 2.1666666666666665,
+      "rolling_4": 2.125,
+      "rolling_6": 2.066666666666667,
+      "rolling_12": 1.8916666666666666,
+      "index_first_100": 209.09090909090904
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1992-01-01",
+      "value": 2.4,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.10000000000000009,
+      "pct_change_1": 4.347826086956519,
+      "change_3": 0.2999999999999998,
+      "pct_change_3": 14.28571428571428,
+      "change_4": 0.3999999999999999,
+      "pct_change_4": 19.999999999999996,
+      "change_6": 0.5,
+      "pct_change_6": 26.315789473684205,
+      "change_12": 0.8999999999999999,
+      "pct_change_12": 59.999999999999986,
+      "rolling_3": 2.2666666666666666,
+      "rolling_4": 2.2249999999999996,
+      "rolling_6": 2.15,
+      "rolling_12": 1.9666666666666666,
+      "index_first_100": 218.18181818181816
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1992-02-01",
+      "value": 2.5,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.10000000000000009,
+      "pct_change_1": 4.166666666666674,
+      "change_3": 0.3999999999999999,
+      "pct_change_3": 19.047619047619047,
+      "change_4": 0.3999999999999999,
+      "pct_change_4": 19.047619047619047,
+      "change_6": 0.5,
+      "pct_change_6": 25.0,
+      "change_12": 0.8999999999999999,
+      "pct_change_12": 56.25,
+      "rolling_3": 2.4,
+      "rolling_4": 2.325,
+      "rolling_6": 2.233333333333333,
+      "rolling_12": 2.0416666666666665,
+      "index_first_100": 227.27272727272725
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1992-03-01",
+      "value": 2.5,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": 0.20000000000000018,
+      "pct_change_3": 8.69565217391306,
+      "change_4": 0.3999999999999999,
+      "pct_change_4": 19.047619047619047,
+      "change_6": 0.5,
+      "pct_change_6": 25.0,
+      "change_12": 0.8,
+      "pct_change_12": 47.058823529411775,
+      "rolling_3": 2.466666666666667,
+      "rolling_4": 2.425,
+      "rolling_6": 2.3166666666666664,
+      "rolling_12": 2.108333333333333,
+      "index_first_100": 227.27272727272725
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1992-04-01",
+      "value": 2.4,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": -0.10000000000000009,
+      "pct_change_1": -4.0000000000000036,
+      "change_3": 0.0,
+      "pct_change_3": 0.0,
+      "change_4": 0.10000000000000009,
+      "pct_change_4": 4.347826086956519,
+      "change_6": 0.2999999999999998,
+      "pct_change_6": 14.28571428571428,
+      "change_12": 0.7,
+      "pct_change_12": 41.176470588235304,
+      "rolling_3": 2.466666666666667,
+      "rolling_4": 2.4499999999999997,
+      "rolling_6": 2.3666666666666667,
+      "rolling_12": 2.1666666666666665,
+      "index_first_100": 218.18181818181816
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1992-05-01",
+      "value": 2.7,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.30000000000000027,
+      "pct_change_1": 12.500000000000021,
+      "change_3": 0.20000000000000018,
+      "pct_change_3": 8.000000000000007,
+      "change_4": 0.30000000000000027,
+      "pct_change_4": 12.500000000000021,
+      "change_6": 0.6000000000000001,
+      "pct_change_6": 28.57142857142858,
+      "change_12": 0.9000000000000001,
+      "pct_change_12": 50.0,
+      "rolling_3": 2.533333333333333,
+      "rolling_4": 2.525,
+      "rolling_6": 2.466666666666667,
+      "rolling_12": 2.2416666666666667,
+      "index_first_100": 245.45454545454547
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1992-06-01",
+      "value": 2.9,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.19999999999999973,
+      "pct_change_1": 7.407407407407396,
+      "change_3": 0.3999999999999999,
+      "pct_change_3": 15.999999999999993,
+      "change_4": 0.3999999999999999,
+      "pct_change_4": 15.999999999999993,
+      "change_6": 0.6000000000000001,
+      "pct_change_6": 26.086956521739136,
+      "change_12": 0.8999999999999999,
+      "pct_change_12": 44.99999999999999,
+      "rolling_3": 2.6666666666666665,
+      "rolling_4": 2.625,
+      "rolling_6": 2.5666666666666664,
+      "rolling_12": 2.3166666666666664,
+      "index_first_100": 263.6363636363636
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1992-07-01",
+      "value": 2.8,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": -0.10000000000000009,
+      "pct_change_1": -3.4482758620689724,
+      "change_3": 0.3999999999999999,
+      "pct_change_3": 16.666666666666675,
+      "change_4": 0.2999999999999998,
+      "pct_change_4": 11.99999999999999,
+      "change_6": 0.3999999999999999,
+      "pct_change_6": 16.666666666666675,
+      "change_12": 0.8999999999999999,
+      "pct_change_12": 47.36842105263157,
+      "rolling_3": 2.7999999999999994,
+      "rolling_4": 2.7,
+      "rolling_6": 2.6333333333333333,
+      "rolling_12": 2.3916666666666666,
+      "index_first_100": 254.5454545454545
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1992-08-01",
+      "value": 2.8,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": 0.09999999999999964,
+      "pct_change_3": 3.703703703703698,
+      "change_4": 0.3999999999999999,
+      "pct_change_4": 16.666666666666675,
+      "change_6": 0.2999999999999998,
+      "pct_change_6": 11.99999999999999,
+      "change_12": 0.7999999999999998,
+      "pct_change_12": 39.99999999999999,
+      "rolling_3": 2.8333333333333335,
+      "rolling_4": 2.8,
+      "rolling_6": 2.6833333333333336,
+      "rolling_12": 2.4583333333333335,
+      "index_first_100": 254.5454545454545
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1992-09-01",
+      "value": 2.7,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": -0.09999999999999964,
+      "pct_change_1": -3.5714285714285587,
+      "change_3": -0.19999999999999973,
+      "pct_change_3": -6.896551724137923,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_6": 0.20000000000000018,
+      "pct_change_6": 8.000000000000007,
+      "change_12": 0.7000000000000002,
+      "pct_change_12": 35.00000000000001,
+      "rolling_3": 2.766666666666667,
+      "rolling_4": 2.8,
+      "rolling_6": 2.716666666666667,
+      "rolling_12": 2.5166666666666666,
+      "index_first_100": 245.45454545454547
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1992-10-01",
+      "value": 2.7,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": -0.09999999999999964,
+      "pct_change_3": -3.5714285714285587,
+      "change_4": -0.19999999999999973,
+      "pct_change_4": -6.896551724137923,
+      "change_6": 0.30000000000000027,
+      "pct_change_6": 12.500000000000021,
+      "change_12": 0.6000000000000001,
+      "pct_change_12": 28.57142857142858,
+      "rolling_3": 2.733333333333333,
+      "rolling_4": 2.75,
+      "rolling_6": 2.766666666666667,
+      "rolling_12": 2.566666666666667,
+      "index_first_100": 245.45454545454547
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1992-11-01",
+      "value": 2.6,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": -0.10000000000000009,
+      "pct_change_1": -3.703703703703709,
+      "change_3": -0.19999999999999973,
+      "pct_change_3": -7.142857142857128,
+      "change_4": -0.19999999999999973,
+      "pct_change_4": -7.142857142857128,
+      "change_6": -0.10000000000000009,
+      "pct_change_6": -3.703703703703709,
+      "change_12": 0.5,
+      "pct_change_12": 23.809523809523814,
+      "rolling_3": 2.6666666666666665,
+      "rolling_4": 2.6999999999999997,
+      "rolling_6": 2.75,
+      "rolling_12": 2.6083333333333334,
+      "index_first_100": 236.36363636363632
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1992-12-01",
+      "value": 2.8,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.19999999999999973,
+      "pct_change_1": 7.692307692307687,
+      "change_3": 0.09999999999999964,
+      "pct_change_3": 3.703703703703698,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_6": -0.10000000000000009,
+      "pct_change_6": -3.4482758620689724,
+      "change_12": 0.5,
+      "pct_change_12": 21.739130434782616,
+      "rolling_3": 2.6999999999999997,
+      "rolling_4": 2.7,
+      "rolling_6": 2.733333333333334,
+      "rolling_12": 2.65,
+      "index_first_100": 254.5454545454545
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1993-01-01",
+      "value": 2.6,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": -0.19999999999999973,
+      "pct_change_1": -7.142857142857128,
+      "change_3": -0.10000000000000009,
+      "pct_change_3": -3.703703703703709,
+      "change_4": -0.10000000000000009,
+      "pct_change_4": -3.703703703703709,
+      "change_6": -0.19999999999999973,
+      "pct_change_6": -7.142857142857128,
+      "change_12": 0.20000000000000018,
+      "pct_change_12": 8.333333333333348,
+      "rolling_3": 2.6666666666666665,
+      "rolling_4": 2.6750000000000003,
+      "rolling_6": 2.6999999999999997,
+      "rolling_12": 2.6666666666666665,
+      "index_first_100": 236.36363636363632
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1993-02-01",
+      "value": 2.5,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": -0.10000000000000009,
+      "pct_change_1": -3.8461538461538547,
+      "change_3": -0.10000000000000009,
+      "pct_change_3": -3.8461538461538547,
+      "change_4": -0.20000000000000018,
+      "pct_change_4": -7.407407407407418,
+      "change_6": -0.2999999999999998,
+      "pct_change_6": -10.71428571428571,
+      "change_12": 0.0,
+      "pct_change_12": 0.0,
+      "rolling_3": 2.6333333333333333,
+      "rolling_4": 2.625,
+      "rolling_6": 2.65,
+      "rolling_12": 2.6666666666666665,
+      "index_first_100": 227.27272727272725
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1993-03-01",
+      "value": 2.4,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": -0.10000000000000009,
+      "pct_change_1": -4.0000000000000036,
+      "change_3": -0.3999999999999999,
+      "pct_change_3": -14.28571428571428,
+      "change_4": -0.20000000000000018,
+      "pct_change_4": -7.692307692307699,
+      "change_6": -0.30000000000000027,
+      "pct_change_6": -11.111111111111116,
+      "change_12": -0.10000000000000009,
+      "pct_change_12": -4.0000000000000036,
+      "rolling_3": 2.5,
+      "rolling_4": 2.575,
+      "rolling_6": 2.6,
+      "rolling_12": 2.6583333333333337,
+      "index_first_100": 218.18181818181816
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1993-04-01",
+      "value": 2.3,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": -0.10000000000000009,
+      "pct_change_1": -4.166666666666674,
+      "change_3": -0.30000000000000027,
+      "pct_change_3": -11.538461538461553,
+      "change_4": -0.5,
+      "pct_change_4": -17.85714285714286,
+      "change_6": -0.40000000000000036,
+      "pct_change_6": -14.814814814814826,
+      "change_12": -0.10000000000000009,
+      "pct_change_12": -4.166666666666674,
+      "rolling_3": 2.4,
+      "rolling_4": 2.4499999999999997,
+      "rolling_6": 2.533333333333333,
+      "rolling_12": 2.65,
+      "index_first_100": 209.09090909090904
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1993-05-01",
+      "value": 2.4,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.10000000000000009,
+      "pct_change_1": 4.347826086956519,
+      "change_3": -0.10000000000000009,
+      "pct_change_3": -4.0000000000000036,
+      "change_4": -0.20000000000000018,
+      "pct_change_4": -7.692307692307699,
+      "change_6": -0.20000000000000018,
+      "pct_change_6": -7.692307692307699,
+      "change_12": -0.30000000000000027,
+      "pct_change_12": -11.111111111111116,
+      "rolling_3": 2.3666666666666667,
+      "rolling_4": 2.4,
+      "rolling_6": 2.5,
+      "rolling_12": 2.625,
+      "index_first_100": 218.18181818181816
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1993-06-01",
+      "value": 2.4,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": 0.0,
+      "pct_change_3": 0.0,
+      "change_4": -0.10000000000000009,
+      "pct_change_4": -4.0000000000000036,
+      "change_6": -0.3999999999999999,
+      "pct_change_6": -14.28571428571428,
+      "change_12": -0.5,
+      "pct_change_12": -17.24137931034483,
+      "rolling_3": 2.3666666666666667,
+      "rolling_4": 2.375,
+      "rolling_6": 2.433333333333333,
+      "rolling_12": 2.5833333333333335,
+      "index_first_100": 218.18181818181816
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1993-07-01",
+      "value": 2.4,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": 0.10000000000000009,
+      "pct_change_3": 4.347826086956519,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_6": -0.20000000000000018,
+      "pct_change_6": -7.692307692307699,
+      "change_12": -0.3999999999999999,
+      "pct_change_12": -14.28571428571428,
+      "rolling_3": 2.4,
+      "rolling_4": 2.375,
+      "rolling_6": 2.4,
+      "rolling_12": 2.5500000000000003,
+      "index_first_100": 218.18181818181816
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1993-08-01",
+      "value": 2.3,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": -0.10000000000000009,
+      "pct_change_1": -4.166666666666674,
+      "change_3": -0.10000000000000009,
+      "pct_change_3": -4.166666666666674,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_6": -0.20000000000000018,
+      "pct_change_6": -8.000000000000007,
+      "change_12": -0.5,
+      "pct_change_12": -17.85714285714286,
+      "rolling_3": 2.3666666666666667,
+      "rolling_4": 2.375,
+      "rolling_6": 2.3666666666666667,
+      "rolling_12": 2.5083333333333333,
+      "index_first_100": 209.09090909090904
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1993-09-01",
+      "value": 2.4,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.10000000000000009,
+      "pct_change_1": 4.347826086956519,
+      "change_3": 0.0,
+      "pct_change_3": 0.0,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_6": 0.0,
+      "pct_change_6": 0.0,
+      "change_12": -0.30000000000000027,
+      "pct_change_12": -11.111111111111116,
+      "rolling_3": 2.3666666666666667,
+      "rolling_4": 2.375,
+      "rolling_6": 2.3666666666666667,
+      "rolling_12": 2.4833333333333334,
+      "index_first_100": 218.18181818181816
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1993-10-01",
+      "value": 2.3,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": -0.10000000000000009,
+      "pct_change_1": -4.166666666666674,
+      "change_3": -0.10000000000000009,
+      "pct_change_3": -4.166666666666674,
+      "change_4": -0.10000000000000009,
+      "pct_change_4": -4.166666666666674,
+      "change_6": 0.0,
+      "pct_change_6": 0.0,
+      "change_12": -0.40000000000000036,
+      "pct_change_12": -14.814814814814826,
+      "rolling_3": 2.3333333333333335,
+      "rolling_4": 2.3499999999999996,
+      "rolling_6": 2.3666666666666667,
+      "rolling_12": 2.4499999999999997,
+      "index_first_100": 209.09090909090904
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1993-11-01",
+      "value": 2.3,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": 0.0,
+      "pct_change_3": 0.0,
+      "change_4": -0.10000000000000009,
+      "pct_change_4": -4.166666666666674,
+      "change_6": -0.10000000000000009,
+      "pct_change_6": -4.166666666666674,
+      "change_12": -0.30000000000000027,
+      "pct_change_12": -11.538461538461553,
+      "rolling_3": 2.3333333333333335,
+      "rolling_4": 2.3249999999999997,
+      "rolling_6": 2.35,
+      "rolling_12": 2.425,
+      "index_first_100": 209.09090909090904
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1993-12-01",
+      "value": 2.3,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": -0.10000000000000009,
+      "pct_change_3": -4.166666666666674,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_6": -0.10000000000000009,
+      "pct_change_6": -4.166666666666674,
+      "change_12": -0.5,
+      "pct_change_12": -17.85714285714286,
+      "rolling_3": 2.3,
+      "rolling_4": 2.3249999999999997,
+      "rolling_6": 2.3333333333333335,
+      "rolling_12": 2.3833333333333333,
+      "index_first_100": 209.09090909090904
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "1994-01-01",
+      "value": 2.3,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": 0.0,
+      "pct_change_3": 0.0,
+      "change_4": -0.10000000000000009,
+      "pct_change_4": -4.166666666666674,
+      "change_6": -0.10000000000000009,
+      "pct_change_6": -4.166666666666674,
+      "change_12": -0.30000000000000027,
+      "pct_change_12": -11.538461538461553,
       "rolling_3": 2.3,
       "rolling_4": 2.3,
-      "rolling_6": 2.3,
-      "rolling_12": 2.3,
-      "index_first_100": 100.0
+      "rolling_6": 2.3166666666666664,
+      "rolling_12": 2.3583333333333334,
+      "index_first_100": 209.09090909090904
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -101,19 +1637,19 @@
       "entity_key": "u1_unemployment_15_weeks_over_rate|US",
       "change_1": 0.10000000000000009,
       "pct_change_1": 4.347826086956519,
-      "change_3": null,
-      "pct_change_3": null,
-      "change_4": null,
-      "pct_change_4": null,
-      "change_6": null,
-      "pct_change_6": null,
-      "change_12": null,
-      "pct_change_12": null,
-      "rolling_3": 2.3499999999999996,
-      "rolling_4": 2.3499999999999996,
-      "rolling_6": 2.3499999999999996,
-      "rolling_12": 2.3499999999999996,
-      "index_first_100": 104.34782608695652
+      "change_3": 0.10000000000000009,
+      "pct_change_3": 4.347826086956519,
+      "change_4": 0.10000000000000009,
+      "pct_change_4": 4.347826086956519,
+      "change_6": 0.10000000000000009,
+      "pct_change_6": 4.347826086956519,
+      "change_12": -0.10000000000000009,
+      "pct_change_12": -4.0000000000000036,
+      "rolling_3": 2.333333333333333,
+      "rolling_4": 2.325,
+      "rolling_6": 2.333333333333333,
+      "rolling_12": 2.35,
+      "index_first_100": 218.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -133,19 +1669,19 @@
       "entity_key": "u1_unemployment_15_weeks_over_rate|US",
       "change_1": -0.10000000000000009,
       "pct_change_1": -4.166666666666674,
-      "change_3": null,
-      "pct_change_3": null,
-      "change_4": null,
-      "pct_change_4": null,
-      "change_6": null,
-      "pct_change_6": null,
-      "change_12": null,
-      "pct_change_12": null,
-      "rolling_3": 2.3333333333333335,
-      "rolling_4": 2.3333333333333335,
-      "rolling_6": 2.3333333333333335,
-      "rolling_12": 2.3333333333333335,
-      "index_first_100": 100.0
+      "change_3": 0.0,
+      "pct_change_3": 0.0,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_6": -0.10000000000000009,
+      "pct_change_6": -4.166666666666674,
+      "change_12": -0.10000000000000009,
+      "pct_change_12": -4.166666666666674,
+      "rolling_3": 2.333333333333333,
+      "rolling_4": 2.3249999999999997,
+      "rolling_6": 2.3166666666666664,
+      "rolling_12": 2.3416666666666663,
+      "index_first_100": 209.09090909090904
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -167,17 +1703,17 @@
       "pct_change_1": -4.347826086956507,
       "change_3": -0.09999999999999964,
       "pct_change_3": -4.347826086956507,
-      "change_4": null,
-      "pct_change_4": null,
-      "change_6": null,
-      "pct_change_6": null,
-      "change_12": null,
-      "pct_change_12": null,
-      "rolling_3": 2.3000000000000003,
+      "change_4": -0.09999999999999964,
+      "pct_change_4": -4.347826086956507,
+      "change_6": -0.09999999999999964,
+      "pct_change_6": -4.347826086956507,
+      "change_12": -0.09999999999999964,
+      "pct_change_12": -4.347826086956507,
+      "rolling_3": 2.3,
       "rolling_4": 2.3,
       "rolling_6": 2.3,
-      "rolling_12": 2.3,
-      "index_first_100": 95.6521739130435
+      "rolling_12": 2.3333333333333335,
+      "index_first_100": 200.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -201,15 +1737,15 @@
       "pct_change_3": -8.333333333333325,
       "change_4": -0.09999999999999964,
       "pct_change_4": -4.347826086956507,
-      "change_6": null,
-      "pct_change_6": null,
-      "change_12": null,
-      "pct_change_12": null,
-      "rolling_3": 2.233333333333333,
+      "change_6": -0.09999999999999964,
+      "pct_change_6": -4.347826086956507,
+      "change_12": -0.19999999999999973,
+      "pct_change_12": -8.333333333333325,
+      "rolling_3": 2.2333333333333334,
       "rolling_4": 2.275,
-      "rolling_6": 2.2800000000000002,
-      "rolling_12": 2.2800000000000002,
-      "index_first_100": 95.6521739130435
+      "rolling_6": 2.283333333333333,
+      "rolling_12": 2.3166666666666664,
+      "index_first_100": 200.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -233,15 +1769,15 @@
       "pct_change_3": -8.695652173913038,
       "change_4": -0.2999999999999998,
       "pct_change_4": -12.49999999999999,
-      "change_6": null,
-      "pct_change_6": null,
-      "change_12": null,
-      "pct_change_12": null,
-      "rolling_3": 2.166666666666667,
+      "change_6": -0.19999999999999973,
+      "pct_change_6": -8.695652173913038,
+      "change_12": -0.2999999999999998,
+      "pct_change_12": -12.49999999999999,
+      "rolling_3": 2.1666666666666665,
       "rolling_4": 2.2,
       "rolling_6": 2.25,
-      "rolling_12": 2.25,
-      "index_first_100": 91.30434782608697
+      "rolling_12": 2.2916666666666665,
+      "index_first_100": 190.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -267,13 +1803,13 @@
       "pct_change_4": -4.347826086956507,
       "change_6": -0.09999999999999964,
       "pct_change_6": -4.347826086956507,
-      "change_12": null,
-      "pct_change_12": null,
-      "rolling_3": 2.166666666666667,
+      "change_12": -0.19999999999999973,
+      "pct_change_12": -8.333333333333325,
+      "rolling_3": 2.1666666666666665,
       "rolling_4": 2.1750000000000003,
-      "rolling_6": 2.233333333333333,
-      "rolling_12": 2.242857142857143,
-      "index_first_100": 95.6521739130435
+      "rolling_6": 2.2333333333333334,
+      "rolling_12": 2.275,
+      "index_first_100": 200.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -299,13 +1835,13 @@
       "pct_change_4": -4.545454545454552,
       "change_6": -0.2999999999999998,
       "pct_change_6": -12.49999999999999,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": -0.19999999999999973,
+      "pct_change_12": -8.695652173913038,
       "rolling_3": 2.1333333333333333,
-      "rolling_4": 2.15,
+      "rolling_4": 2.1500000000000004,
       "rolling_6": 2.1833333333333336,
-      "rolling_12": 2.225,
-      "index_first_100": 91.30434782608697
+      "rolling_12": 2.2583333333333333,
+      "index_first_100": 190.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -331,13 +1867,13 @@
       "pct_change_4": -4.545454545454552,
       "change_6": -0.19999999999999973,
       "pct_change_6": -8.695652173913038,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": -0.2999999999999998,
+      "pct_change_12": -12.49999999999999,
       "rolling_3": 2.1333333333333333,
       "rolling_4": 2.125,
       "rolling_6": 2.15,
-      "rolling_12": 2.211111111111111,
-      "index_first_100": 91.30434782608697
+      "rolling_12": 2.233333333333333,
+      "index_first_100": 190.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -363,13 +1899,13 @@
       "pct_change_4": 4.761904761904767,
       "change_6": 0.0,
       "pct_change_6": 0.0,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": -0.09999999999999964,
+      "pct_change_12": -4.347826086956507,
       "rolling_3": 2.1333333333333333,
       "rolling_4": 2.1500000000000004,
-      "rolling_6": 2.1500000000000004,
-      "rolling_12": 2.21,
-      "index_first_100": 95.6521739130435
+      "rolling_6": 2.15,
+      "rolling_12": 2.225,
+      "index_first_100": 200.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -395,13 +1931,13 @@
       "pct_change_4": -9.090909090909093,
       "change_6": -0.20000000000000018,
       "pct_change_6": -9.090909090909093,
-      "change_12": null,
-      "pct_change_12": null,
+      "change_12": -0.2999999999999998,
+      "pct_change_12": -13.043478260869556,
       "rolling_3": 2.1,
       "rolling_4": 2.1,
       "rolling_6": 2.1166666666666667,
-      "rolling_12": 2.190909090909091,
-      "index_first_100": 86.95652173913044
+      "rolling_12": 2.2,
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -427,13 +1963,13 @@
       "pct_change_4": -9.523809523809534,
       "change_6": -0.20000000000000018,
       "pct_change_6": -9.523809523809534,
-      "change_12": null,
-      "pct_change_12": null,
-      "rolling_3": 2.033333333333333,
-      "rolling_4": 2.0500000000000003,
+      "change_12": -0.3999999999999999,
+      "pct_change_12": -17.391304347826086,
+      "rolling_3": 2.0333333333333337,
+      "rolling_4": 2.05,
       "rolling_6": 2.0833333333333335,
       "rolling_12": 2.1666666666666665,
-      "index_first_100": 82.6086956521739
+      "index_first_100": 172.72727272727272
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -465,7 +2001,7 @@
       "rolling_4": 1.975,
       "rolling_6": 2.016666666666667,
       "rolling_12": 2.125,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -495,9 +2031,9 @@
       "pct_change_12": -25.0,
       "rolling_3": 1.8333333333333333,
       "rolling_4": 1.875,
-      "rolling_6": 1.9666666666666668,
+      "rolling_6": 1.9666666666666666,
       "rolling_12": 2.075,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -526,10 +2062,10 @@
       "change_12": -0.5999999999999999,
       "pct_change_12": -26.086956521739125,
       "rolling_3": 1.7666666666666666,
-      "rolling_4": 1.8,
+      "rolling_4": 1.7999999999999998,
       "rolling_6": 1.9000000000000001,
       "rolling_12": 2.025,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -561,7 +2097,7 @@
       "rolling_4": 1.8,
       "rolling_6": 1.8499999999999999,
       "rolling_12": 2.0,
-      "index_first_100": 82.6086956521739
+      "index_first_100": 172.72727272727272
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -590,10 +2126,10 @@
       "change_12": -0.20000000000000018,
       "pct_change_12": -9.090909090909093,
       "rolling_3": 1.8666666666666665,
-      "rolling_4": 1.8499999999999999,
+      "rolling_4": 1.85,
       "rolling_6": 1.8500000000000003,
       "rolling_12": 1.9833333333333334,
-      "index_first_100": 86.95652173913044
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -622,10 +2158,10 @@
       "change_12": -0.40000000000000013,
       "pct_change_12": -19.047619047619058,
       "rolling_3": 1.8666666666666665,
-      "rolling_4": 1.825,
+      "rolling_4": 1.8249999999999997,
       "rolling_6": 1.8166666666666667,
       "rolling_12": 1.95,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -654,10 +2190,10 @@
       "change_12": -0.5000000000000002,
       "pct_change_12": -22.72727272727274,
       "rolling_3": 1.8,
-      "rolling_4": 1.8249999999999997,
+      "rolling_4": 1.825,
       "rolling_6": 1.7999999999999998,
       "rolling_12": 1.9083333333333334,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -686,10 +2222,10 @@
       "change_12": -0.30000000000000004,
       "pct_change_12": -14.28571428571429,
       "rolling_3": 1.7333333333333334,
-      "rolling_4": 1.8,
+      "rolling_4": 1.7999999999999998,
       "rolling_6": 1.8,
       "rolling_12": 1.883333333333333,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -718,10 +2254,10 @@
       "change_12": -0.40000000000000013,
       "pct_change_12": -19.047619047619058,
       "rolling_3": 1.7333333333333334,
-      "rolling_4": 1.725,
+      "rolling_4": 1.7249999999999999,
       "rolling_6": 1.7999999999999998,
       "rolling_12": 1.8500000000000003,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -751,9 +2287,9 @@
       "pct_change_12": -22.72727272727274,
       "rolling_3": 1.7333333333333334,
       "rolling_4": 1.7249999999999999,
-      "rolling_6": 1.7666666666666666,
+      "rolling_6": 1.7666666666666668,
       "rolling_12": 1.8083333333333333,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -783,9 +2319,9 @@
       "pct_change_12": -9.999999999999998,
       "rolling_3": 1.7333333333333334,
       "rolling_4": 1.75,
-      "rolling_6": 1.7333333333333332,
+      "rolling_6": 1.7333333333333334,
       "rolling_12": 1.7916666666666667,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -817,7 +2353,7 @@
       "rolling_4": 1.75,
       "rolling_6": 1.75,
       "rolling_12": 1.7833333333333332,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -849,7 +2385,7 @@
       "rolling_4": 1.7750000000000001,
       "rolling_6": 1.7666666666666668,
       "rolling_12": 1.7833333333333332,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -878,10 +2414,10 @@
       "change_12": -0.10000000000000009,
       "pct_change_12": -5.555555555555558,
       "rolling_3": 1.7666666666666668,
-      "rolling_4": 1.7750000000000001,
+      "rolling_4": 1.775,
       "rolling_6": 1.75,
       "rolling_12": 1.7749999999999997,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -913,7 +2449,7 @@
       "rolling_4": 1.7750000000000001,
       "rolling_6": 1.7666666666666668,
       "rolling_12": 1.7833333333333332,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -942,10 +2478,10 @@
       "change_12": -0.09999999999999987,
       "pct_change_12": -5.263157894736836,
       "rolling_3": 1.7666666666666668,
-      "rolling_4": 1.775,
+      "rolling_4": 1.7750000000000001,
       "rolling_6": 1.7833333333333332,
       "rolling_12": 1.7750000000000001,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -977,7 +2513,7 @@
       "rolling_4": 1.775,
       "rolling_6": 1.7833333333333334,
       "rolling_12": 1.7583333333333335,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1009,7 +2545,7 @@
       "rolling_4": 1.8,
       "rolling_6": 1.7833333333333332,
       "rolling_12": 1.7666666666666668,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1041,7 +2577,7 @@
       "rolling_4": 1.775,
       "rolling_6": 1.7666666666666666,
       "rolling_12": 1.7666666666666666,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1073,7 +2609,7 @@
       "rolling_4": 1.75,
       "rolling_6": 1.7666666666666666,
       "rolling_12": 1.7583333333333335,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1102,10 +2638,10 @@
       "change_12": 0.0,
       "pct_change_12": 0.0,
       "rolling_3": 1.7,
-      "rolling_4": 1.7249999999999999,
+      "rolling_4": 1.725,
       "rolling_6": 1.75,
       "rolling_12": 1.758333333333333,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1137,7 +2673,7 @@
       "rolling_4": 1.7,
       "rolling_6": 1.7333333333333334,
       "rolling_12": 1.758333333333333,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1166,10 +2702,10 @@
       "change_12": -0.19999999999999996,
       "pct_change_12": -11.111111111111105,
       "rolling_3": 1.6666666666666667,
-      "rolling_4": 1.6749999999999998,
+      "rolling_4": 1.675,
       "rolling_6": 1.7,
       "rolling_12": 1.7416666666666665,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1198,10 +2734,10 @@
       "change_12": -0.19999999999999996,
       "pct_change_12": -11.111111111111105,
       "rolling_3": 1.6333333333333335,
-      "rolling_4": 1.6500000000000001,
+      "rolling_4": 1.65,
       "rolling_6": 1.6666666666666667,
       "rolling_12": 1.7250000000000003,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1233,7 +2769,7 @@
       "rolling_4": 1.625,
       "rolling_6": 1.6500000000000001,
       "rolling_12": 1.7083333333333333,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1265,7 +2801,7 @@
       "rolling_4": 1.6,
       "rolling_6": 1.6333333333333335,
       "rolling_12": 1.7000000000000002,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1295,9 +2831,9 @@
       "pct_change_12": -11.111111111111105,
       "rolling_3": 1.6,
       "rolling_4": 1.6,
-      "rolling_6": 1.6166666666666665,
+      "rolling_6": 1.616666666666667,
       "rolling_12": 1.6833333333333336,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1329,7 +2865,7 @@
       "rolling_4": 1.6,
       "rolling_6": 1.6,
       "rolling_12": 1.6666666666666667,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1361,7 +2897,7 @@
       "rolling_4": 1.6,
       "rolling_6": 1.6,
       "rolling_12": 1.6500000000000001,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1390,10 +2926,10 @@
       "change_12": -0.30000000000000004,
       "pct_change_12": -16.666666666666675,
       "rolling_3": 1.566666666666667,
-      "rolling_4": 1.575,
-      "rolling_6": 1.5833333333333333,
+      "rolling_4": 1.5750000000000002,
+      "rolling_6": 1.5833333333333337,
       "rolling_12": 1.625,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1425,7 +2961,7 @@
       "rolling_4": 1.5750000000000002,
       "rolling_6": 1.5833333333333333,
       "rolling_12": 1.6166666666666665,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1454,10 +2990,10 @@
       "change_12": -0.19999999999999996,
       "pct_change_12": -11.764705882352944,
       "rolling_3": 1.5333333333333334,
-      "rolling_4": 1.55,
+      "rolling_4": 1.5500000000000003,
       "rolling_6": 1.5666666666666667,
       "rolling_12": 1.5999999999999999,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1486,10 +3022,10 @@
       "change_12": -0.19999999999999996,
       "pct_change_12": -11.764705882352944,
       "rolling_3": 1.5333333333333334,
-      "rolling_4": 1.5250000000000001,
+      "rolling_4": 1.525,
       "rolling_6": 1.55,
       "rolling_12": 1.5833333333333333,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1521,7 +3057,7 @@
       "rolling_4": 1.5,
       "rolling_6": 1.5166666666666666,
       "rolling_12": 1.5583333333333336,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1550,10 +3086,10 @@
       "change_12": -0.30000000000000004,
       "pct_change_12": -18.75,
       "rolling_3": 1.4000000000000001,
-      "rolling_4": 1.4249999999999998,
+      "rolling_4": 1.425,
       "rolling_6": 1.4666666666666668,
       "rolling_12": 1.5333333333333334,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1583,9 +3119,9 @@
       "pct_change_12": -12.50000000000001,
       "rolling_3": 1.3666666666666665,
       "rolling_4": 1.4,
-      "rolling_6": 1.4500000000000002,
+      "rolling_6": 1.45,
       "rolling_12": 1.5166666666666666,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1617,7 +3153,7 @@
       "rolling_4": 1.3499999999999999,
       "rolling_6": 1.4000000000000001,
       "rolling_12": 1.491666666666667,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1646,10 +3182,10 @@
       "change_12": -0.30000000000000004,
       "pct_change_12": -18.75,
       "rolling_3": 1.3333333333333333,
-      "rolling_4": 1.3250000000000002,
+      "rolling_4": 1.325,
       "rolling_6": 1.3666666666666665,
       "rolling_12": 1.4666666666666668,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1678,10 +3214,10 @@
       "change_12": -0.30000000000000004,
       "pct_change_12": -18.75,
       "rolling_3": 1.3,
-      "rolling_4": 1.325,
+      "rolling_4": 1.3250000000000002,
       "rolling_6": 1.3333333333333333,
       "rolling_12": 1.4416666666666664,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1711,9 +3247,9 @@
       "pct_change_12": -31.25,
       "rolling_3": 1.2333333333333336,
       "rolling_4": 1.25,
-      "rolling_6": 1.2833333333333332,
+      "rolling_6": 1.2833333333333334,
       "rolling_12": 1.4000000000000001,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1743,9 +3279,9 @@
       "pct_change_12": -31.25,
       "rolling_3": 1.1666666666666667,
       "rolling_4": 1.2000000000000002,
-      "rolling_6": 1.25,
+      "rolling_6": 1.2500000000000002,
       "rolling_12": 1.3583333333333334,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1777,7 +3313,7 @@
       "rolling_4": 1.175,
       "rolling_6": 1.2166666666666668,
       "rolling_12": 1.3333333333333333,
-      "index_first_100": 52.17391304347826
+      "index_first_100": 109.09090909090908
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1809,7 +3345,7 @@
       "rolling_4": 1.125,
       "rolling_6": 1.1833333333333333,
       "rolling_12": 1.2916666666666667,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1841,7 +3377,7 @@
       "rolling_4": 1.15,
       "rolling_6": 1.1666666666666667,
       "rolling_12": 1.2666666666666666,
-      "index_first_100": 52.17391304347826
+      "index_first_100": 109.09090909090908
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1873,7 +3409,7 @@
       "rolling_4": 1.175,
       "rolling_6": 1.1500000000000001,
       "rolling_12": 1.2416666666666667,
-      "index_first_100": 52.17391304347826
+      "index_first_100": 109.09090909090908
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1905,7 +3441,7 @@
       "rolling_4": 1.15,
       "rolling_6": 1.1500000000000001,
       "rolling_12": 1.2166666666666666,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1934,10 +3470,10 @@
       "change_12": -0.19999999999999996,
       "pct_change_12": -15.384615384615385,
       "rolling_3": 1.1333333333333335,
-      "rolling_4": 1.15,
+      "rolling_4": 1.1500000000000001,
       "rolling_6": 1.1500000000000001,
       "rolling_12": 1.2,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -1967,9 +3503,9 @@
       "pct_change_12": -21.42857142857142,
       "rolling_3": 1.1,
       "rolling_4": 1.125,
-      "rolling_6": 1.1333333333333333,
+      "rolling_6": 1.1333333333333335,
       "rolling_12": 1.175,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2001,7 +3537,7 @@
       "rolling_4": 1.1,
       "rolling_6": 1.1333333333333335,
       "rolling_12": 1.1583333333333334,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2033,7 +3569,7 @@
       "rolling_4": 1.1,
       "rolling_6": 1.1166666666666667,
       "rolling_12": 1.1416666666666668,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2065,7 +3601,7 @@
       "rolling_4": 1.1,
       "rolling_6": 1.1,
       "rolling_12": 1.125,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2097,7 +3633,7 @@
       "rolling_4": 1.1,
       "rolling_6": 1.1,
       "rolling_12": 1.125,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2129,7 +3665,7 @@
       "rolling_4": 1.1,
       "rolling_6": 1.1,
       "rolling_12": 1.1250000000000002,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2159,9 +3695,9 @@
       "pct_change_12": 0.0,
       "rolling_3": 1.1333333333333335,
       "rolling_4": 1.125,
-      "rolling_6": 1.116666666666667,
+      "rolling_6": 1.1166666666666667,
       "rolling_12": 1.125,
-      "index_first_100": 52.17391304347826
+      "index_first_100": 109.09090909090908
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2193,7 +3729,7 @@
       "rolling_4": 1.125,
       "rolling_6": 1.1166666666666667,
       "rolling_12": 1.125,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2225,7 +3761,7 @@
       "rolling_4": 1.1,
       "rolling_6": 1.1,
       "rolling_12": 1.1083333333333334,
-      "index_first_100": 43.47826086956522
+      "index_first_100": 90.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2257,7 +3793,7 @@
       "rolling_4": 1.075,
       "rolling_6": 1.0833333333333333,
       "rolling_12": 1.0916666666666666,
-      "index_first_100": 43.47826086956522
+      "index_first_100": 90.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2289,7 +3825,7 @@
       "rolling_4": 1.025,
       "rolling_6": 1.0666666666666667,
       "rolling_12": 1.0833333333333333,
-      "index_first_100": 43.47826086956522
+      "index_first_100": 90.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2321,7 +3857,7 @@
       "rolling_4": 1.0,
       "rolling_6": 1.05,
       "rolling_12": 1.075,
-      "index_first_100": 43.47826086956522
+      "index_first_100": 90.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2351,9 +3887,9 @@
       "pct_change_12": -9.090909090909093,
       "rolling_3": 1.0,
       "rolling_4": 1.0,
-      "rolling_6": 1.0166666666666666,
+      "rolling_6": 1.0166666666666668,
       "rolling_12": 1.0666666666666667,
-      "index_first_100": 43.47826086956522
+      "index_first_100": 90.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2385,7 +3921,7 @@
       "rolling_4": 1.0,
       "rolling_6": 1.0,
       "rolling_12": 1.0583333333333333,
-      "index_first_100": 43.47826086956522
+      "index_first_100": 90.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2414,10 +3950,10 @@
       "change_12": -0.20000000000000007,
       "pct_change_12": -18.181818181818187,
       "rolling_3": 0.9666666666666667,
-      "rolling_4": 0.9750000000000001,
-      "rolling_6": 0.9833333333333334,
+      "rolling_4": 0.975,
+      "rolling_6": 0.9833333333333333,
       "rolling_12": 1.0416666666666667,
-      "index_first_100": 39.130434782608695
+      "index_first_100": 81.81818181818181
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2446,10 +3982,10 @@
       "change_12": -0.20000000000000007,
       "pct_change_12": -18.181818181818187,
       "rolling_3": 0.9333333333333335,
-      "rolling_4": 0.9500000000000001,
+      "rolling_4": 0.95,
       "rolling_6": 0.9666666666666667,
       "rolling_12": 1.0250000000000001,
-      "index_first_100": 39.130434782608695
+      "index_first_100": 81.81818181818181
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2478,10 +4014,10 @@
       "change_12": -0.20000000000000007,
       "pct_change_12": -18.181818181818187,
       "rolling_3": 0.9,
-      "rolling_4": 0.9249999999999999,
+      "rolling_4": 0.925,
       "rolling_6": 0.9500000000000001,
       "rolling_12": 1.0083333333333333,
-      "index_first_100": 39.130434782608695
+      "index_first_100": 81.81818181818181
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2513,7 +4049,7 @@
       "rolling_4": 0.9,
       "rolling_6": 0.9333333333333332,
       "rolling_12": 0.9916666666666667,
-      "index_first_100": 39.130434782608695
+      "index_first_100": 81.81818181818181
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2545,7 +4081,7 @@
       "rolling_4": 0.9,
       "rolling_6": 0.9166666666666666,
       "rolling_12": 0.9666666666666667,
-      "index_first_100": 39.130434782608695
+      "index_first_100": 81.81818181818181
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2577,7 +4113,7 @@
       "rolling_4": 0.9,
       "rolling_6": 0.9,
       "rolling_12": 0.9500000000000001,
-      "index_first_100": 39.130434782608695
+      "index_first_100": 81.81818181818181
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2609,7 +4145,7 @@
       "rolling_4": 0.925,
       "rolling_6": 0.9166666666666666,
       "rolling_12": 0.9500000000000001,
-      "index_first_100": 43.47826086956522
+      "index_first_100": 90.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2638,10 +4174,10 @@
       "change_12": -0.09999999999999998,
       "pct_change_12": -9.999999999999998,
       "rolling_3": 0.9333333333333335,
-      "rolling_4": 0.9249999999999999,
+      "rolling_4": 0.925,
       "rolling_6": 0.9166666666666666,
       "rolling_12": 0.9416666666666668,
-      "index_first_100": 39.130434782608695
+      "index_first_100": 81.81818181818181
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2673,7 +4209,7 @@
       "rolling_4": 0.925,
       "rolling_6": 0.9166666666666666,
       "rolling_12": 0.9333333333333335,
-      "index_first_100": 39.130434782608695
+      "index_first_100": 81.81818181818181
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2702,10 +4238,10 @@
       "change_12": -0.09999999999999998,
       "pct_change_12": -9.999999999999998,
       "rolling_3": 0.9,
-      "rolling_4": 0.925,
+      "rolling_4": 0.9249999999999999,
       "rolling_6": 0.9166666666666666,
       "rolling_12": 0.9250000000000002,
-      "index_first_100": 39.130434782608695
+      "index_first_100": 81.81818181818181
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2737,7 +4273,7 @@
       "rolling_4": 0.9,
       "rolling_6": 0.9166666666666666,
       "rolling_12": 0.9166666666666666,
-      "index_first_100": 39.130434782608695
+      "index_first_100": 81.81818181818181
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2769,7 +4305,7 @@
       "rolling_4": 0.925,
       "rolling_6": 0.9333333333333332,
       "rolling_12": 0.9166666666666666,
-      "index_first_100": 43.47826086956522
+      "index_first_100": 90.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2801,7 +4337,7 @@
       "rolling_4": 0.95,
       "rolling_6": 0.9333333333333332,
       "rolling_12": 0.9250000000000002,
-      "index_first_100": 43.47826086956522
+      "index_first_100": 90.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2833,7 +4369,7 @@
       "rolling_4": 1.0,
       "rolling_6": 0.9666666666666668,
       "rolling_12": 0.9416666666666668,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2865,7 +4401,7 @@
       "rolling_4": 1.025,
       "rolling_6": 0.9833333333333334,
       "rolling_12": 0.9500000000000001,
-      "index_first_100": 43.47826086956522
+      "index_first_100": 90.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2897,7 +4433,7 @@
       "rolling_4": 1.025,
       "rolling_6": 1.0,
       "rolling_12": 0.9583333333333334,
-      "index_first_100": 43.47826086956522
+      "index_first_100": 90.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2929,7 +4465,7 @@
       "rolling_4": 1.05,
       "rolling_6": 1.0333333333333334,
       "rolling_12": 0.9750000000000001,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2958,10 +4494,10 @@
       "change_12": 0.29999999999999993,
       "pct_change_12": 33.33333333333333,
       "rolling_3": 1.1000000000000003,
-      "rolling_4": 1.075,
+      "rolling_4": 1.0750000000000002,
       "rolling_6": 1.0666666666666667,
       "rolling_12": 1.0,
-      "index_first_100": 52.17391304347826
+      "index_first_100": 109.09090909090908
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -2990,10 +4526,10 @@
       "change_12": 0.30000000000000004,
       "pct_change_12": 30.000000000000004,
       "rolling_3": 1.2000000000000002,
-      "rolling_4": 1.15,
+      "rolling_4": 1.1500000000000001,
       "rolling_6": 1.1166666666666667,
       "rolling_12": 1.0250000000000001,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3025,7 +4561,7 @@
       "rolling_4": 1.25,
       "rolling_6": 1.1666666666666667,
       "rolling_12": 1.0666666666666667,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3057,7 +4593,7 @@
       "rolling_4": 1.325,
       "rolling_6": 1.2333333333333332,
       "rolling_12": 1.1083333333333334,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3089,7 +4625,7 @@
       "rolling_4": 1.4249999999999998,
       "rolling_6": 1.3333333333333333,
       "rolling_12": 1.1666666666666667,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3121,7 +4657,7 @@
       "rolling_4": 1.525,
       "rolling_6": 1.4333333333333333,
       "rolling_12": 1.2333333333333334,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3153,7 +4689,7 @@
       "rolling_4": 1.625,
       "rolling_6": 1.5333333333333332,
       "rolling_12": 1.3,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3185,7 +4721,7 @@
       "rolling_4": 1.725,
       "rolling_6": 1.6166666666666665,
       "rolling_12": 1.366666666666667,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3217,7 +4753,7 @@
       "rolling_4": 1.8,
       "rolling_6": 1.7,
       "rolling_12": 1.4333333333333333,
-      "index_first_100": 82.6086956521739
+      "index_first_100": 172.72727272727272
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3247,9 +4783,9 @@
       "pct_change_12": 100.0,
       "rolling_3": 1.9000000000000001,
       "rolling_4": 1.875,
-      "rolling_6": 1.7999999999999998,
+      "rolling_6": 1.8,
       "rolling_12": 1.5166666666666666,
-      "index_first_100": 86.95652173913044
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3278,10 +4814,10 @@
       "change_12": 1.0,
       "pct_change_12": 100.0,
       "rolling_3": 1.9666666666666668,
-      "rolling_4": 1.9249999999999998,
+      "rolling_4": 1.925,
       "rolling_6": 1.8666666666666665,
       "rolling_12": 1.5999999999999999,
-      "index_first_100": 86.95652173913044
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3311,9 +4847,9 @@
       "pct_change_12": 90.90909090909089,
       "rolling_3": 2.033333333333333,
       "rolling_4": 2.0,
-      "rolling_6": 1.9333333333333336,
+      "rolling_6": 1.9333333333333333,
       "rolling_12": 1.6833333333333336,
-      "index_first_100": 91.30434782608697
+      "index_first_100": 190.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3343,9 +4879,9 @@
       "pct_change_12": 66.66666666666667,
       "rolling_3": 2.033333333333333,
       "rolling_4": 2.025,
-      "rolling_6": 1.9666666666666668,
+      "rolling_6": 1.9666666666666666,
       "rolling_12": 1.75,
-      "index_first_100": 86.95652173913044
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3377,7 +4913,7 @@
       "rolling_4": 2.025,
       "rolling_6": 2.0,
       "rolling_12": 1.8083333333333336,
-      "index_first_100": 86.95652173913044
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3407,9 +4943,9 @@
       "pct_change_12": 42.85714285714286,
       "rolling_3": 2.0,
       "rolling_4": 2.025,
-      "rolling_6": 2.016666666666667,
+      "rolling_6": 2.0166666666666666,
       "rolling_12": 1.8583333333333334,
-      "index_first_100": 86.95652173913044
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3439,9 +4975,9 @@
       "pct_change_12": 50.00000000000002,
       "rolling_3": 2.033333333333333,
       "rolling_4": 2.0250000000000004,
-      "rolling_6": 2.0333333333333337,
+      "rolling_6": 2.033333333333333,
       "rolling_12": 1.9166666666666667,
-      "index_first_100": 91.30434782608697
+      "index_first_100": 190.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3473,7 +5009,7 @@
       "rolling_4": 2.0500000000000003,
       "rolling_6": 2.0500000000000003,
       "rolling_12": 1.9583333333333333,
-      "index_first_100": 91.30434782608697
+      "index_first_100": 190.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3505,7 +5041,7 @@
       "rolling_4": 2.125,
       "rolling_6": 2.0833333333333335,
       "rolling_12": 2.0083333333333333,
-      "index_first_100": 100.0
+      "index_first_100": 209.09090909090904
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3537,7 +5073,7 @@
       "rolling_4": 2.1750000000000003,
       "rolling_6": 2.1166666666666667,
       "rolling_12": 2.0416666666666665,
-      "index_first_100": 95.6521739130435
+      "index_first_100": 200.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3569,7 +5105,7 @@
       "rolling_4": 2.2,
       "rolling_6": 2.15,
       "rolling_12": 2.0749999999999997,
-      "index_first_100": 95.6521739130435
+      "index_first_100": 200.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3599,9 +5135,9 @@
       "pct_change_12": 15.789473684210531,
       "rolling_3": 2.2,
       "rolling_4": 2.225,
-      "rolling_6": 2.183333333333333,
+      "rolling_6": 2.1833333333333336,
       "rolling_12": 2.1,
-      "index_first_100": 95.6521739130435
+      "index_first_100": 200.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3631,9 +5167,9 @@
       "pct_change_12": 14.999999999999991,
       "rolling_3": 2.2333333333333334,
       "rolling_4": 2.225,
-      "rolling_6": 2.216666666666667,
+      "rolling_6": 2.2166666666666663,
       "rolling_12": 2.125,
-      "index_first_100": 100.0
+      "index_first_100": 209.09090909090904
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3665,7 +5201,7 @@
       "rolling_4": 2.25,
       "rolling_6": 2.25,
       "rolling_12": 2.15,
-      "index_first_100": 100.0
+      "index_first_100": 209.09090909090904
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3695,9 +5231,9 @@
       "pct_change_12": 14.28571428571428,
       "rolling_3": 2.3333333333333335,
       "rolling_4": 2.3,
-      "rolling_6": 2.2666666666666666,
+      "rolling_6": 2.266666666666667,
       "rolling_12": 2.175,
-      "index_first_100": 104.34782608695652
+      "index_first_100": 218.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3727,9 +5263,9 @@
       "pct_change_12": 25.0,
       "rolling_3": 2.4,
       "rolling_4": 2.375,
-      "rolling_6": 2.316666666666667,
+      "rolling_6": 2.3166666666666664,
       "rolling_12": 2.2166666666666663,
-      "index_first_100": 108.69565217391306
+      "index_first_100": 227.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3759,9 +5295,9 @@
       "pct_change_12": 19.999999999999996,
       "rolling_3": 2.433333333333333,
       "rolling_4": 2.4,
-      "rolling_6": 2.3499999999999996,
+      "rolling_6": 2.35,
       "rolling_12": 2.25,
-      "index_first_100": 104.34782608695652
+      "index_first_100": 218.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3793,7 +5329,7 @@
       "rolling_4": 2.425,
       "rolling_6": 2.3833333333333333,
       "rolling_12": 2.283333333333333,
-      "index_first_100": 104.34782608695652
+      "index_first_100": 218.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3825,7 +5361,7 @@
       "rolling_4": 2.425,
       "rolling_6": 2.4,
       "rolling_12": 2.308333333333333,
-      "index_first_100": 104.34782608695652
+      "index_first_100": 218.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3857,7 +5393,7 @@
       "rolling_4": 2.375,
       "rolling_6": 2.4,
       "rolling_12": 2.3249999999999997,
-      "index_first_100": 100.0
+      "index_first_100": 209.09090909090904
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3889,7 +5425,7 @@
       "rolling_4": 2.3499999999999996,
       "rolling_6": 2.3833333333333333,
       "rolling_12": 2.3249999999999997,
-      "index_first_100": 100.0
+      "index_first_100": 209.09090909090904
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3919,9 +5455,9 @@
       "pct_change_12": 4.545454545454519,
       "rolling_3": 2.3,
       "rolling_4": 2.3249999999999997,
-      "rolling_6": 2.3499999999999996,
+      "rolling_6": 2.35,
       "rolling_12": 2.3333333333333335,
-      "index_first_100": 100.0
+      "index_first_100": 209.09090909090904
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3953,7 +5489,7 @@
       "rolling_4": 2.275,
       "rolling_6": 2.316666666666667,
       "rolling_12": 2.3333333333333335,
-      "index_first_100": 95.6521739130435
+      "index_first_100": 200.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -3983,9 +5519,9 @@
       "pct_change_12": 4.545454545454519,
       "rolling_3": 2.2666666666666666,
       "rolling_4": 2.275,
-      "rolling_6": 2.3000000000000003,
+      "rolling_6": 2.3,
       "rolling_12": 2.341666666666667,
-      "index_first_100": 100.0
+      "index_first_100": 209.09090909090904
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4017,7 +5553,7 @@
       "rolling_4": 2.1999999999999997,
       "rolling_6": 2.233333333333333,
       "rolling_12": 2.316666666666667,
-      "index_first_100": 86.95652173913044
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4049,7 +5585,7 @@
       "rolling_4": 2.1500000000000004,
       "rolling_6": 2.1999999999999997,
       "rolling_12": 2.3,
-      "index_first_100": 91.30434782608697
+      "index_first_100": 190.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4081,7 +5617,7 @@
       "rolling_4": 2.125,
       "rolling_6": 2.1666666666666665,
       "rolling_12": 2.275,
-      "index_first_100": 91.30434782608697
+      "index_first_100": 190.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4113,7 +5649,7 @@
       "rolling_4": 2.0500000000000003,
       "rolling_6": 2.1166666666666667,
       "rolling_12": 2.2333333333333334,
-      "index_first_100": 86.95652173913044
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4143,9 +5679,9 @@
       "pct_change_12": -20.833333333333336,
       "rolling_3": 2.0,
       "rolling_4": 2.0250000000000004,
-      "rolling_6": 2.066666666666667,
+      "rolling_6": 2.0666666666666664,
       "rolling_12": 2.1916666666666664,
-      "index_first_100": 82.6086956521739
+      "index_first_100": 172.72727272727272
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4177,7 +5713,7 @@
       "rolling_4": 2.0,
       "rolling_6": 2.016666666666667,
       "rolling_12": 2.158333333333333,
-      "index_first_100": 86.95652173913044
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4209,7 +5745,7 @@
       "rolling_4": 2.0,
       "rolling_6": 2.0333333333333337,
       "rolling_12": 2.1333333333333333,
-      "index_first_100": 91.30434782608697
+      "index_first_100": 190.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4239,9 +5775,9 @@
       "pct_change_12": -13.043478260869556,
       "rolling_3": 2.033333333333333,
       "rolling_4": 2.0,
-      "rolling_6": 2.0166666666666666,
+      "rolling_6": 2.016666666666667,
       "rolling_12": 2.1083333333333334,
-      "index_first_100": 86.95652173913044
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4273,7 +5809,7 @@
       "rolling_4": 2.025,
       "rolling_6": 2.0,
       "rolling_12": 2.0833333333333335,
-      "index_first_100": 86.95652173913044
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4303,9 +5839,9 @@
       "pct_change_12": -17.391304347826086,
       "rolling_3": 1.9666666666666668,
       "rolling_4": 2.0,
-      "rolling_6": 1.9833333333333334,
+      "rolling_6": 1.9833333333333332,
       "rolling_12": 2.05,
-      "index_first_100": 82.6086956521739
+      "index_first_100": 172.72727272727272
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4337,7 +5873,7 @@
       "rolling_4": 1.975,
       "rolling_6": 2.0,
       "rolling_12": 2.033333333333333,
-      "index_first_100": 86.95652173913044
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4367,9 +5903,9 @@
       "pct_change_12": -17.391304347826086,
       "rolling_3": 1.9333333333333333,
       "rolling_4": 1.9500000000000002,
-      "rolling_6": 1.9833333333333332,
+      "rolling_6": 1.9833333333333334,
       "rolling_12": 2.0,
-      "index_first_100": 82.6086956521739
+      "index_first_100": 172.72727272727272
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4401,7 +5937,7 @@
       "rolling_4": 1.9000000000000001,
       "rolling_6": 1.9333333333333333,
       "rolling_12": 1.9833333333333332,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4431,9 +5967,9 @@
       "pct_change_12": -14.28571428571429,
       "rolling_3": 1.8333333333333333,
       "rolling_4": 1.875,
-      "rolling_6": 1.9000000000000001,
+      "rolling_6": 1.8999999999999997,
       "rolling_12": 1.9583333333333333,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4465,7 +6001,7 @@
       "rolling_4": 1.775,
       "rolling_6": 1.8333333333333333,
       "rolling_12": 1.9166666666666667,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4495,9 +6031,9 @@
       "pct_change_12": -19.999999999999996,
       "rolling_3": 1.6666666666666667,
       "rolling_4": 1.7,
-      "rolling_6": 1.7833333333333332,
+      "rolling_6": 1.7833333333333334,
       "rolling_12": 1.8833333333333335,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4527,9 +6063,9 @@
       "pct_change_12": -10.526315789473683,
       "rolling_3": 1.6333333333333335,
       "rolling_4": 1.675,
-      "rolling_6": 1.7333333333333334,
+      "rolling_6": 1.7333333333333332,
       "rolling_12": 1.866666666666667,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4559,9 +6095,9 @@
       "pct_change_12": -15.000000000000002,
       "rolling_3": 1.6666666666666667,
       "rolling_4": 1.65,
-      "rolling_6": 1.7,
+      "rolling_6": 1.7000000000000002,
       "rolling_12": 1.8416666666666668,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4593,7 +6129,7 @@
       "rolling_4": 1.675,
       "rolling_6": 1.6833333333333333,
       "rolling_12": 1.8083333333333333,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4625,7 +6161,7 @@
       "rolling_4": 1.7,
       "rolling_6": 1.6666666666666667,
       "rolling_12": 1.7833333333333332,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4657,7 +6193,7 @@
       "rolling_4": 1.6749999999999998,
       "rolling_6": 1.6666666666666667,
       "rolling_12": 1.75,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4689,7 +6225,7 @@
       "rolling_4": 1.625,
       "rolling_6": 1.6500000000000001,
       "rolling_12": 1.7166666666666668,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4719,9 +6255,9 @@
       "pct_change_12": -15.000000000000002,
       "rolling_3": 1.5999999999999999,
       "rolling_4": 1.625,
-      "rolling_6": 1.6499999999999997,
+      "rolling_6": 1.6500000000000001,
       "rolling_12": 1.6916666666666667,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4751,9 +6287,9 @@
       "pct_change_12": -15.78947368421052,
       "rolling_3": 1.5999999999999999,
       "rolling_4": 1.6,
-      "rolling_6": 1.6333333333333335,
+      "rolling_6": 1.633333333333333,
       "rolling_12": 1.6666666666666667,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4785,7 +6321,7 @@
       "rolling_4": 1.6,
       "rolling_6": 1.616666666666667,
       "rolling_12": 1.6500000000000001,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4817,7 +6353,7 @@
       "rolling_4": 1.6,
       "rolling_6": 1.5833333333333333,
       "rolling_12": 1.625,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4847,9 +6383,9 @@
       "pct_change_12": -12.50000000000001,
       "rolling_3": 1.5,
       "rolling_4": 1.5250000000000001,
-      "rolling_6": 1.55,
+      "rolling_6": 1.5499999999999998,
       "rolling_12": 1.6083333333333334,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4879,9 +6415,9 @@
       "pct_change_12": -6.25,
       "rolling_3": 1.4666666666666666,
       "rolling_4": 1.5,
-      "rolling_6": 1.55,
+      "rolling_6": 1.5499999999999998,
       "rolling_12": 1.6000000000000003,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4913,7 +6449,7 @@
       "rolling_4": 1.475,
       "rolling_6": 1.5166666666666666,
       "rolling_12": 1.5833333333333333,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4945,7 +6481,7 @@
       "rolling_4": 1.475,
       "rolling_6": 1.5,
       "rolling_12": 1.5666666666666667,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -4975,9 +6511,9 @@
       "pct_change_12": -17.647058823529417,
       "rolling_3": 1.4666666666666668,
       "rolling_4": 1.4749999999999999,
-      "rolling_6": 1.4666666666666666,
+      "rolling_6": 1.4666666666666668,
       "rolling_12": 1.5416666666666667,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5009,7 +6545,7 @@
       "rolling_4": 1.45,
       "rolling_6": 1.45,
       "rolling_12": 1.5166666666666666,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5041,7 +6577,7 @@
       "rolling_4": 1.4249999999999998,
       "rolling_6": 1.45,
       "rolling_12": 1.5,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5073,7 +6609,7 @@
       "rolling_4": 1.4,
       "rolling_6": 1.4333333333333333,
       "rolling_12": 1.4916666666666665,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5105,7 +6641,7 @@
       "rolling_4": 1.4,
       "rolling_6": 1.4166666666666667,
       "rolling_12": 1.4666666666666668,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5137,7 +6673,7 @@
       "rolling_4": 1.4249999999999998,
       "rolling_6": 1.4166666666666667,
       "rolling_12": 1.4583333333333333,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5169,7 +6705,7 @@
       "rolling_4": 1.45,
       "rolling_6": 1.4333333333333333,
       "rolling_12": 1.45,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5201,7 +6737,7 @@
       "rolling_4": 1.4749999999999999,
       "rolling_6": 1.45,
       "rolling_12": 1.45,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5231,9 +6767,9 @@
       "pct_change_12": 7.14285714285714,
       "rolling_3": 1.5,
       "rolling_4": 1.5,
-      "rolling_6": 1.4666666666666666,
+      "rolling_6": 1.4666666666666668,
       "rolling_12": 1.4583333333333333,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5265,7 +6801,7 @@
       "rolling_4": 1.5,
       "rolling_6": 1.4833333333333334,
       "rolling_12": 1.4583333333333333,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5297,7 +6833,7 @@
       "rolling_4": 1.5,
       "rolling_6": 1.5,
       "rolling_12": 1.4583333333333333,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5329,7 +6865,7 @@
       "rolling_4": 1.5,
       "rolling_6": 1.5,
       "rolling_12": 1.4583333333333333,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5361,7 +6897,7 @@
       "rolling_4": 1.5,
       "rolling_6": 1.5,
       "rolling_12": 1.4666666666666666,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5393,7 +6929,7 @@
       "rolling_4": 1.5,
       "rolling_6": 1.5,
       "rolling_12": 1.4749999999999999,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5425,7 +6961,7 @@
       "rolling_4": 1.5250000000000001,
       "rolling_6": 1.5166666666666666,
       "rolling_12": 1.491666666666667,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5455,9 +6991,9 @@
       "pct_change_12": 14.285714285714302,
       "rolling_3": 1.5666666666666667,
       "rolling_4": 1.55,
-      "rolling_6": 1.5333333333333332,
+      "rolling_6": 1.5333333333333334,
       "rolling_12": 1.508333333333333,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5489,7 +7025,7 @@
       "rolling_4": 1.5750000000000002,
       "rolling_6": 1.55,
       "rolling_12": 1.5250000000000001,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5521,7 +7057,7 @@
       "rolling_4": 1.6,
       "rolling_6": 1.5666666666666667,
       "rolling_12": 1.5333333333333334,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5551,9 +7087,9 @@
       "pct_change_12": 13.33333333333333,
       "rolling_3": 1.6333333333333335,
       "rolling_4": 1.625,
-      "rolling_6": 1.5999999999999999,
+      "rolling_6": 1.6000000000000003,
       "rolling_12": 1.55,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5585,7 +7121,7 @@
       "rolling_4": 1.675,
       "rolling_6": 1.6500000000000001,
       "rolling_12": 1.5750000000000002,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5617,7 +7153,7 @@
       "rolling_4": 1.75,
       "rolling_6": 1.7000000000000002,
       "rolling_12": 1.6083333333333334,
-      "index_first_100": 82.6086956521739
+      "index_first_100": 172.72727272727272
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5647,9 +7183,9 @@
       "pct_change_12": 33.33333333333333,
       "rolling_3": 1.8999999999999997,
       "rolling_4": 1.85,
-      "rolling_6": 1.7666666666666668,
+      "rolling_6": 1.7666666666666666,
       "rolling_12": 1.6500000000000001,
-      "index_first_100": 86.95652173913044
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5681,7 +7217,7 @@
       "rolling_4": 1.975,
       "rolling_6": 1.8666666666666665,
       "rolling_12": 1.7083333333333333,
-      "index_first_100": 95.6521739130435
+      "index_first_100": 200.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5711,9 +7247,9 @@
       "pct_change_12": 53.33333333333332,
       "rolling_3": 2.1666666666666665,
       "rolling_4": 2.1,
-      "rolling_6": 1.9833333333333332,
+      "rolling_6": 1.9833333333333334,
       "rolling_12": 1.7750000000000001,
-      "index_first_100": 100.0
+      "index_first_100": 209.09090909090904
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5745,7 +7281,7 @@
       "rolling_4": 2.275,
       "rolling_6": 2.1333333333333333,
       "rolling_12": 1.866666666666667,
-      "index_first_100": 113.04347826086958
+      "index_first_100": 236.36363636363632
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5777,7 +7313,7 @@
       "rolling_4": 2.4,
       "rolling_6": 2.25,
       "rolling_12": 1.9500000000000002,
-      "index_first_100": 108.69565217391306
+      "index_first_100": 227.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5809,7 +7345,7 @@
       "rolling_4": 2.575,
       "rolling_6": 2.4166666666666665,
       "rolling_12": 2.058333333333333,
-      "index_first_100": 126.08695652173914
+      "index_first_100": 263.6363636363636
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5841,7 +7377,7 @@
       "rolling_4": 2.775,
       "rolling_6": 2.6,
       "rolling_12": 2.1833333333333336,
-      "index_first_100": 134.7826086956522
+      "index_first_100": 281.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5873,7 +7409,7 @@
       "rolling_4": 3.0,
       "rolling_6": 2.8166666666666664,
       "rolling_12": 2.341666666666667,
-      "index_first_100": 152.17391304347828
+      "index_first_100": 318.1818181818182
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5905,7 +7441,7 @@
       "rolling_4": 3.3249999999999997,
       "rolling_6": 3.0666666666666664,
       "rolling_12": 2.525,
-      "index_first_100": 165.2173913043478
+      "index_first_100": 345.45454545454544
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5937,7 +7473,7 @@
       "rolling_4": 3.6249999999999996,
       "rolling_6": 3.3166666666666664,
       "rolling_12": 2.725,
-      "index_first_100": 178.26086956521738
+      "index_first_100": 372.72727272727263
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -5969,7 +7505,7 @@
       "rolling_4": 3.9749999999999996,
       "rolling_6": 3.65,
       "rolling_12": 2.9499999999999997,
-      "index_first_100": 195.6521739130435
+      "index_first_100": 409.09090909090907
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6001,7 +7537,7 @@
       "rolling_4": 4.375,
       "rolling_6": 4.016666666666667,
       "rolling_12": 3.216666666666667,
-      "index_first_100": 221.73913043478262
+      "index_first_100": 463.63636363636357
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6031,9 +7567,9 @@
       "pct_change_12": 154.99999999999997,
       "rolling_3": 4.8999999999999995,
       "rolling_4": 4.699999999999999,
-      "rolling_6": 4.35,
+      "rolling_6": 4.3500000000000005,
       "rolling_12": 3.475,
-      "index_first_100": 221.73913043478262
+      "index_first_100": 463.63636363636357
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6065,7 +7601,7 @@
       "rolling_4": 4.949999999999999,
       "rolling_6": 4.616666666666666,
       "rolling_12": 3.7166666666666663,
-      "index_first_100": 221.73913043478262
+      "index_first_100": 463.63636363636357
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6097,7 +7633,7 @@
       "rolling_4": 5.199999999999999,
       "rolling_6": 4.8999999999999995,
       "rolling_12": 3.983333333333333,
-      "index_first_100": 239.13043478260875
+      "index_first_100": 500.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6129,7 +7665,7 @@
       "rolling_4": 5.324999999999999,
       "rolling_6": 5.1499999999999995,
       "rolling_12": 4.233333333333333,
-      "index_first_100": 243.47826086956525
+      "index_first_100": 509.090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6159,9 +7695,9 @@
       "pct_change_12": 128.00000000000003,
       "rolling_3": 5.599999999999999,
       "rolling_4": 5.475,
-      "rolling_6": 5.3500000000000005,
+      "rolling_6": 5.349999999999999,
       "rolling_12": 4.5,
-      "index_first_100": 247.82608695652178
+      "index_first_100": 518.1818181818181
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6193,7 +7729,7 @@
       "rolling_4": 5.65,
       "rolling_6": 5.466666666666666,
       "rolling_12": 4.741666666666666,
-      "index_first_100": 252.17391304347828
+      "index_first_100": 527.2727272727273
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6225,7 +7761,7 @@
       "rolling_4": 5.725,
       "rolling_6": 5.583333333333333,
       "rolling_12": 4.966666666666666,
-      "index_first_100": 252.17391304347828
+      "index_first_100": 527.2727272727273
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6255,9 +7791,9 @@
       "pct_change_12": 65.71428571428571,
       "rolling_3": 5.8,
       "rolling_4": 5.7749999999999995,
-      "rolling_6": 5.699999999999999,
+      "rolling_6": 5.7,
       "rolling_12": 5.158333333333333,
-      "index_first_100": 252.17391304347828
+      "index_first_100": 527.2727272727273
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6287,9 +7823,9 @@
       "pct_change_12": 55.26315789473686,
       "rolling_3": 5.833333333333333,
       "rolling_4": 5.824999999999999,
-      "rolling_6": 5.766666666666666,
+      "rolling_6": 5.766666666666667,
       "rolling_12": 5.333333333333333,
-      "index_first_100": 256.5217391304348
+      "index_first_100": 536.3636363636364
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6321,7 +7857,7 @@
       "rolling_4": 5.8500000000000005,
       "rolling_6": 5.816666666666666,
       "rolling_12": 5.483333333333333,
-      "index_first_100": 256.5217391304348
+      "index_first_100": 536.3636363636364
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6353,7 +7889,7 @@
       "rolling_4": 5.8500000000000005,
       "rolling_6": 5.833333333333333,
       "rolling_12": 5.591666666666666,
-      "index_first_100": 252.17391304347828
+      "index_first_100": 527.2727272727273
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6385,7 +7921,7 @@
       "rolling_4": 5.85,
       "rolling_6": 5.833333333333333,
       "rolling_12": 5.6499999999999995,
-      "index_first_100": 252.17391304347828
+      "index_first_100": 527.2727272727273
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6417,7 +7953,7 @@
       "rolling_4": 5.800000000000001,
       "rolling_6": 5.816666666666666,
       "rolling_12": 5.7,
-      "index_first_100": 247.82608695652178
+      "index_first_100": 518.1818181818181
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6449,7 +7985,7 @@
       "rolling_4": 5.7,
       "rolling_6": 5.766666666666667,
       "rolling_12": 5.733333333333333,
-      "index_first_100": 239.13043478260875
+      "index_first_100": 500.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6481,7 +8017,7 @@
       "rolling_4": 5.625,
       "rolling_6": 5.7,
       "rolling_12": 5.733333333333333,
-      "index_first_100": 239.13043478260875
+      "index_first_100": 500.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6513,7 +8049,7 @@
       "rolling_4": 5.575,
       "rolling_6": 5.6499999999999995,
       "rolling_12": 5.733333333333333,
-      "index_first_100": 243.47826086956525
+      "index_first_100": 509.090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6543,9 +8079,9 @@
       "pct_change_12": -1.7543859649122862,
       "rolling_3": 5.566666666666666,
       "rolling_4": 5.55,
-      "rolling_6": 5.616666666666667,
+      "rolling_6": 5.616666666666666,
       "rolling_12": 5.7250000000000005,
-      "index_first_100": 243.47826086956525
+      "index_first_100": 509.090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6577,7 +8113,7 @@
       "rolling_4": 5.574999999999999,
       "rolling_6": 5.583333333333333,
       "rolling_12": 5.708333333333333,
-      "index_first_100": 243.47826086956525
+      "index_first_100": 509.090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6609,7 +8145,7 @@
       "rolling_4": 5.574999999999999,
       "rolling_6": 5.55,
       "rolling_12": 5.683333333333334,
-      "index_first_100": 239.13043478260875
+      "index_first_100": 500.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6639,9 +8175,9 @@
       "pct_change_12": -8.62068965517241,
       "rolling_3": 5.466666666666666,
       "rolling_4": 5.5,
-      "rolling_6": 5.516666666666667,
+      "rolling_6": 5.516666666666666,
       "rolling_12": 5.641666666666667,
-      "index_first_100": 230.43478260869566
+      "index_first_100": 481.81818181818176
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6673,7 +8209,7 @@
       "rolling_4": 5.425,
       "rolling_6": 5.483333333333333,
       "rolling_12": 5.591666666666666,
-      "index_first_100": 230.43478260869566
+      "index_first_100": 481.81818181818176
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6705,7 +8241,7 @@
       "rolling_4": 5.325,
       "rolling_6": 5.416666666666667,
       "rolling_12": 5.533333333333334,
-      "index_first_100": 226.08695652173915
+      "index_first_100": 472.72727272727263
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6735,9 +8271,9 @@
       "pct_change_12": -8.62068965517241,
       "rolling_3": 5.266666666666667,
       "rolling_4": 5.275,
-      "rolling_6": 5.366666666666667,
+      "rolling_6": 5.366666666666666,
       "rolling_12": 5.491666666666666,
-      "index_first_100": 230.43478260869566
+      "index_first_100": 481.81818181818176
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6769,7 +8305,7 @@
       "rolling_4": 5.275,
       "rolling_6": 5.316666666666666,
       "rolling_12": 5.45,
-      "index_first_100": 230.43478260869566
+      "index_first_100": 481.81818181818176
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6801,7 +8337,7 @@
       "rolling_4": 5.2749999999999995,
       "rolling_6": 5.283333333333333,
       "rolling_12": 5.416666666666667,
-      "index_first_100": 230.43478260869566
+      "index_first_100": 481.81818181818176
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6833,7 +8369,7 @@
       "rolling_4": 5.325,
       "rolling_6": 5.3,
       "rolling_12": 5.408333333333332,
-      "index_first_100": 234.7826086956522
+      "index_first_100": 490.90909090909093
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6863,9 +8399,9 @@
       "pct_change_12": -1.8181818181818077,
       "rolling_3": 5.366666666666667,
       "rolling_4": 5.35,
-      "rolling_6": 5.316666666666667,
+      "rolling_6": 5.316666666666666,
       "rolling_12": 5.3999999999999995,
-      "index_first_100": 234.7826086956522
+      "index_first_100": 490.90909090909093
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6897,7 +8433,7 @@
       "rolling_4": 5.300000000000001,
       "rolling_6": 5.3,
       "rolling_12": 5.358333333333333,
-      "index_first_100": 221.73913043478262
+      "index_first_100": 463.63636363636357
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6929,7 +8465,7 @@
       "rolling_4": 5.2250000000000005,
       "rolling_6": 5.25,
       "rolling_12": 5.308333333333334,
-      "index_first_100": 217.39130434782612
+      "index_first_100": 454.5454545454545
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6961,7 +8497,7 @@
       "rolling_4": 5.1,
       "rolling_6": 5.183333333333334,
       "rolling_12": 5.25,
-      "index_first_100": 213.0434782608696
+      "index_first_100": 445.45454545454544
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -6993,7 +8529,7 @@
       "rolling_4": 4.95,
       "rolling_6": 5.1000000000000005,
       "rolling_12": 5.191666666666666,
-      "index_first_100": 208.69565217391303
+      "index_first_100": 436.3636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7025,7 +8561,7 @@
       "rolling_4": 4.85,
       "rolling_6": 4.983333333333333,
       "rolling_12": 5.141666666666667,
-      "index_first_100": 204.34782608695653
+      "index_first_100": 427.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7055,9 +8591,9 @@
       "pct_change_12": -13.20754716981133,
       "rolling_3": 4.7,
       "rolling_4": 4.75,
-      "rolling_6": 4.85,
+      "rolling_6": 4.8500000000000005,
       "rolling_12": 5.083333333333333,
-      "index_first_100": 200.0
+      "index_first_100": 418.1818181818181
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7089,7 +8625,7 @@
       "rolling_4": 4.675,
       "rolling_6": 4.766666666666667,
       "rolling_12": 5.033333333333333,
-      "index_first_100": 200.0
+      "index_first_100": 418.1818181818181
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7121,7 +8657,7 @@
       "rolling_4": 4.625,
       "rolling_6": 4.7,
       "rolling_12": 4.975,
-      "index_first_100": 200.0
+      "index_first_100": 418.1818181818181
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7153,7 +8689,7 @@
       "rolling_4": 4.625,
       "rolling_6": 4.666666666666667,
       "rolling_12": 4.925,
-      "index_first_100": 204.34782608695653
+      "index_first_100": 427.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7183,9 +8719,9 @@
       "pct_change_12": -15.094339622641506,
       "rolling_3": 4.599999999999999,
       "rolling_4": 4.6,
-      "rolling_6": 4.616666666666667,
+      "rolling_6": 4.616666666666666,
       "rolling_12": 4.858333333333333,
-      "index_first_100": 195.6521739130435
+      "index_first_100": 409.09090909090907
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7217,7 +8753,7 @@
       "rolling_4": 4.575,
       "rolling_6": 4.583333333333333,
       "rolling_12": 4.783333333333333,
-      "index_first_100": 195.6521739130435
+      "index_first_100": 409.09090909090907
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7249,7 +8785,7 @@
       "rolling_4": 4.525,
       "rolling_6": 4.55,
       "rolling_12": 4.7,
-      "index_first_100": 191.304347826087
+      "index_first_100": 400.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7281,7 +8817,7 @@
       "rolling_4": 4.45,
       "rolling_6": 4.516666666666667,
       "rolling_12": 4.641666666666667,
-      "index_first_100": 191.304347826087
+      "index_first_100": 400.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7313,7 +8849,7 @@
       "rolling_4": 4.375,
       "rolling_6": 4.45,
       "rolling_12": 4.575,
-      "index_first_100": 182.60869565217394
+      "index_first_100": 381.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7343,9 +8879,9 @@
       "pct_change_12": -12.244897959183687,
       "rolling_3": 4.3,
       "rolling_4": 4.325,
-      "rolling_6": 4.383333333333333,
+      "rolling_6": 4.383333333333334,
       "rolling_12": 4.5249999999999995,
-      "index_first_100": 186.95652173913044
+      "index_first_100": 390.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7377,7 +8913,7 @@
       "rolling_4": 4.275,
       "rolling_6": 4.333333333333333,
       "rolling_12": 4.4750000000000005,
-      "index_first_100": 182.60869565217394
+      "index_first_100": 381.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7407,9 +8943,9 @@
       "pct_change_12": -10.63829787234043,
       "rolling_3": 4.233333333333333,
       "rolling_4": 4.225,
-      "rolling_6": 4.283333333333333,
+      "rolling_6": 4.283333333333334,
       "rolling_12": 4.433333333333334,
-      "index_first_100": 182.60869565217394
+      "index_first_100": 381.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7441,7 +8977,7 @@
       "rolling_4": 4.2,
       "rolling_6": 4.233333333333333,
       "rolling_12": 4.391666666666667,
-      "index_first_100": 178.26086956521738
+      "index_first_100": 372.72727272727263
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7473,7 +9009,7 @@
       "rolling_4": 4.15,
       "rolling_6": 4.183333333333334,
       "rolling_12": 4.3500000000000005,
-      "index_first_100": 178.26086956521738
+      "index_first_100": 372.72727272727263
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7505,7 +9041,7 @@
       "rolling_4": 4.125,
       "rolling_6": 4.166666666666667,
       "rolling_12": 4.308333333333334,
-      "index_first_100": 178.26086956521738
+      "index_first_100": 372.72727272727263
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7535,9 +9071,9 @@
       "pct_change_12": -14.893617021276595,
       "rolling_3": 4.066666666666666,
       "rolling_4": 4.074999999999999,
-      "rolling_6": 4.116666666666667,
+      "rolling_6": 4.116666666666666,
       "rolling_12": 4.25,
-      "index_first_100": 173.91304347826087
+      "index_first_100": 363.6363636363636
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7569,7 +9105,7 @@
       "rolling_4": 4.0249999999999995,
       "rolling_6": 4.066666666666666,
       "rolling_12": 4.2,
-      "index_first_100": 169.56521739130437
+      "index_first_100": 354.5454545454545
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7599,9 +9135,9 @@
       "pct_change_12": -15.555555555555555,
       "rolling_3": 3.9,
       "rolling_4": 3.9499999999999997,
-      "rolling_6": 4.0,
+      "rolling_6": 3.9999999999999996,
       "rolling_12": 4.141666666666667,
-      "index_first_100": 165.2173913043478
+      "index_first_100": 345.45454545454544
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7631,9 +9167,9 @@
       "pct_change_12": -13.636363636363647,
       "rolling_3": 3.8333333333333326,
       "rolling_4": 3.875,
-      "rolling_6": 3.9499999999999993,
+      "rolling_6": 3.9499999999999997,
       "rolling_12": 4.091666666666667,
-      "index_first_100": 165.2173913043478
+      "index_first_100": 345.45454545454544
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7665,7 +9201,7 @@
       "rolling_4": 3.8,
       "rolling_6": 3.8833333333333333,
       "rolling_12": 4.033333333333333,
-      "index_first_100": 160.86956521739134
+      "index_first_100": 336.3636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7695,9 +9231,9 @@
       "pct_change_12": -11.904761904761907,
       "rolling_3": 3.733333333333333,
       "rolling_4": 3.75,
-      "rolling_6": 3.816666666666667,
+      "rolling_6": 3.8166666666666664,
       "rolling_12": 3.9916666666666667,
-      "index_first_100": 160.86956521739134
+      "index_first_100": 336.3636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7729,7 +9265,7 @@
       "rolling_4": 3.7,
       "rolling_6": 3.75,
       "rolling_12": 3.9333333333333336,
-      "index_first_100": 156.52173913043478
+      "index_first_100": 327.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7761,7 +9297,7 @@
       "rolling_4": 3.6,
       "rolling_6": 3.6666666666666665,
       "rolling_12": 3.8666666666666667,
-      "index_first_100": 147.82608695652175
+      "index_first_100": 309.09090909090907
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7793,7 +9329,7 @@
       "rolling_4": 3.5500000000000003,
       "rolling_6": 3.6166666666666667,
       "rolling_12": 3.8083333333333336,
-      "index_first_100": 152.17391304347828
+      "index_first_100": 318.1818181818182
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7823,9 +9359,9 @@
       "pct_change_12": -14.634146341463406,
       "rolling_3": 3.4666666666666663,
       "rolling_4": 3.5,
-      "rolling_6": 3.566666666666667,
+      "rolling_6": 3.5666666666666664,
       "rolling_12": 3.7583333333333333,
-      "index_first_100": 152.17391304347828
+      "index_first_100": 318.1818181818182
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7855,9 +9391,9 @@
       "pct_change_12": -21.95121951219511,
       "rolling_3": 3.4,
       "rolling_4": 3.4,
-      "rolling_6": 3.483333333333333,
+      "rolling_6": 3.483333333333334,
       "rolling_12": 3.6833333333333336,
-      "index_first_100": 139.13043478260872
+      "index_first_100": 290.90909090909093
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7889,7 +9425,7 @@
       "rolling_4": 3.325,
       "rolling_6": 3.3833333333333333,
       "rolling_12": 3.5999999999999996,
-      "index_first_100": 134.7826086956522
+      "index_first_100": 281.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7919,9 +9455,9 @@
       "pct_change_12": -25.0,
       "rolling_3": 3.0999999999999996,
       "rolling_4": 3.2,
-      "rolling_6": 3.2833333333333337,
+      "rolling_6": 3.283333333333333,
       "rolling_12": 3.516666666666666,
-      "index_first_100": 130.43478260869566
+      "index_first_100": 272.7272727272727
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7953,7 +9489,7 @@
       "rolling_4": 3.075,
       "rolling_6": 3.216666666666667,
       "rolling_12": 3.4416666666666664,
-      "index_first_100": 130.43478260869566
+      "index_first_100": 272.7272727272727
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -7985,7 +9521,7 @@
       "rolling_4": 3.0,
       "rolling_6": 3.1166666666666667,
       "rolling_12": 3.366666666666667,
-      "index_first_100": 126.08695652173914
+      "index_first_100": 263.6363636363636
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8017,7 +9553,7 @@
       "rolling_4": 2.925,
       "rolling_6": 3.0,
       "rolling_12": 3.283333333333333,
-      "index_first_100": 121.73913043478262
+      "index_first_100": 254.5454545454545
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8049,7 +9585,7 @@
       "rolling_4": 2.8499999999999996,
       "rolling_6": 2.9166666666666665,
       "rolling_12": 3.2000000000000006,
-      "index_first_100": 117.3913043478261
+      "index_first_100": 245.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8081,7 +9617,7 @@
       "rolling_4": 2.775,
       "rolling_6": 2.8499999999999996,
       "rolling_12": 3.1166666666666667,
-      "index_first_100": 117.3913043478261
+      "index_first_100": 245.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8113,7 +9649,7 @@
       "rolling_4": 2.7,
       "rolling_6": 2.783333333333333,
       "rolling_12": 3.033333333333333,
-      "index_first_100": 113.04347826086958
+      "index_first_100": 236.36363636363632
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8145,7 +9681,7 @@
       "rolling_4": 2.65,
       "rolling_6": 2.716666666666667,
       "rolling_12": 2.966666666666667,
-      "index_first_100": 113.04347826086958
+      "index_first_100": 236.36363636363632
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8177,7 +9713,7 @@
       "rolling_4": 2.6,
       "rolling_6": 2.65,
       "rolling_12": 2.8833333333333333,
-      "index_first_100": 108.69565217391306
+      "index_first_100": 227.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8209,7 +9745,7 @@
       "rolling_4": 2.525,
       "rolling_6": 2.5833333333333335,
       "rolling_12": 2.7916666666666665,
-      "index_first_100": 104.34782608695652
+      "index_first_100": 218.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8241,7 +9777,7 @@
       "rolling_4": 2.45,
       "rolling_6": 2.516666666666667,
       "rolling_12": 2.716666666666667,
-      "index_first_100": 100.0
+      "index_first_100": 209.09090909090904
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8273,7 +9809,7 @@
       "rolling_4": 2.4,
       "rolling_6": 2.4666666666666663,
       "rolling_12": 2.658333333333333,
-      "index_first_100": 104.34782608695652
+      "index_first_100": 218.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8305,7 +9841,7 @@
       "rolling_4": 2.35,
       "rolling_6": 2.4166666666666665,
       "rolling_12": 2.6,
-      "index_first_100": 100.0
+      "index_first_100": 209.09090909090904
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8337,7 +9873,7 @@
       "rolling_4": 2.3,
       "rolling_6": 2.35,
       "rolling_12": 2.533333333333333,
-      "index_first_100": 95.6521739130435
+      "index_first_100": 200.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8369,7 +9905,7 @@
       "rolling_4": 2.275,
       "rolling_6": 2.3000000000000003,
       "rolling_12": 2.475,
-      "index_first_100": 95.6521739130435
+      "index_first_100": 200.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8401,7 +9937,7 @@
       "rolling_4": 2.2,
       "rolling_6": 2.25,
       "rolling_12": 2.4166666666666665,
-      "index_first_100": 91.30434782608697
+      "index_first_100": 190.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8433,7 +9969,7 @@
       "rolling_4": 2.1500000000000004,
       "rolling_6": 2.2166666666666663,
       "rolling_12": 2.3666666666666667,
-      "index_first_100": 91.30434782608697
+      "index_first_100": 190.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8465,7 +10001,7 @@
       "rolling_4": 2.125,
       "rolling_6": 2.1666666666666665,
       "rolling_12": 2.316666666666667,
-      "index_first_100": 91.30434782608697
+      "index_first_100": 190.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8497,7 +10033,7 @@
       "rolling_4": 2.1,
       "rolling_6": 2.1333333333333333,
       "rolling_12": 2.275,
-      "index_first_100": 91.30434782608697
+      "index_first_100": 190.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8529,7 +10065,7 @@
       "rolling_4": 2.075,
       "rolling_6": 2.1,
       "rolling_12": 2.225,
-      "index_first_100": 86.95652173913044
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8561,7 +10097,7 @@
       "rolling_4": 2.075,
       "rolling_6": 2.0833333333333335,
       "rolling_12": 2.1916666666666664,
-      "index_first_100": 91.30434782608697
+      "index_first_100": 190.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8593,7 +10129,7 @@
       "rolling_4": 2.075,
       "rolling_6": 2.0833333333333335,
       "rolling_12": 2.1666666666666665,
-      "index_first_100": 91.30434782608697
+      "index_first_100": 190.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8625,7 +10161,7 @@
       "rolling_4": 2.075,
       "rolling_6": 2.0833333333333335,
       "rolling_12": 2.15,
-      "index_first_100": 91.30434782608697
+      "index_first_100": 190.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8657,7 +10193,7 @@
       "rolling_4": 2.0500000000000003,
       "rolling_6": 2.05,
       "rolling_12": 2.1083333333333334,
-      "index_first_100": 82.6086956521739
+      "index_first_100": 172.72727272727272
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8689,7 +10225,7 @@
       "rolling_4": 2.025,
       "rolling_6": 2.033333333333333,
       "rolling_12": 2.0833333333333335,
-      "index_first_100": 86.95652173913044
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8721,7 +10257,7 @@
       "rolling_4": 2.0,
       "rolling_6": 2.033333333333333,
       "rolling_12": 2.066666666666667,
-      "index_first_100": 86.95652173913044
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8753,7 +10289,7 @@
       "rolling_4": 1.95,
       "rolling_6": 2.0,
       "rolling_12": 2.0416666666666665,
-      "index_first_100": 82.6086956521739
+      "index_first_100": 172.72727272727272
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8785,7 +10321,7 @@
       "rolling_4": 1.975,
       "rolling_6": 1.9833333333333334,
       "rolling_12": 2.033333333333333,
-      "index_first_100": 86.95652173913044
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8817,7 +10353,7 @@
       "rolling_4": 1.975,
       "rolling_6": 1.9666666666666668,
       "rolling_12": 2.025,
-      "index_first_100": 86.95652173913044
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8849,7 +10385,7 @@
       "rolling_4": 1.9500000000000002,
       "rolling_6": 1.9666666666666668,
       "rolling_12": 2.0083333333333333,
-      "index_first_100": 82.6086956521739
+      "index_first_100": 172.72727272727272
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8881,7 +10417,7 @@
       "rolling_4": 1.95,
       "rolling_6": 1.95,
       "rolling_12": 1.9916666666666665,
-      "index_first_100": 82.6086956521739
+      "index_first_100": 172.72727272727272
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8913,7 +10449,7 @@
       "rolling_4": 1.9249999999999998,
       "rolling_6": 1.9333333333333333,
       "rolling_12": 1.9833333333333334,
-      "index_first_100": 82.6086956521739
+      "index_first_100": 172.72727272727272
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8945,7 +10481,7 @@
       "rolling_4": 1.875,
       "rolling_6": 1.9166666666666667,
       "rolling_12": 1.9583333333333333,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -8977,7 +10513,7 @@
       "rolling_4": 1.8249999999999997,
       "rolling_6": 1.8666666666666665,
       "rolling_12": 1.925,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9009,7 +10545,7 @@
       "rolling_4": 1.775,
       "rolling_6": 1.8166666666666667,
       "rolling_12": 1.8916666666666666,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9041,7 +10577,7 @@
       "rolling_4": 1.7249999999999999,
       "rolling_6": 1.7833333333333332,
       "rolling_12": 1.875,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9073,7 +10609,7 @@
       "rolling_4": 1.6749999999999998,
       "rolling_6": 1.7333333333333334,
       "rolling_12": 1.8416666666666668,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9105,7 +10641,7 @@
       "rolling_4": 1.675,
       "rolling_6": 1.7000000000000002,
       "rolling_12": 1.8166666666666667,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9137,7 +10673,7 @@
       "rolling_4": 1.675,
       "rolling_6": 1.6833333333333333,
       "rolling_12": 1.7999999999999998,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9169,7 +10705,7 @@
       "rolling_4": 1.675,
       "rolling_6": 1.6833333333333333,
       "rolling_12": 1.7750000000000001,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9201,7 +10737,7 @@
       "rolling_4": 1.6749999999999998,
       "rolling_6": 1.6666666666666667,
       "rolling_12": 1.7416666666666665,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9233,7 +10769,7 @@
       "rolling_4": 1.6500000000000001,
       "rolling_6": 1.6500000000000001,
       "rolling_12": 1.7166666666666666,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9265,7 +10801,7 @@
       "rolling_4": 1.6,
       "rolling_6": 1.6333333333333335,
       "rolling_12": 1.6833333333333333,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9297,7 +10833,7 @@
       "rolling_4": 1.55,
       "rolling_6": 1.5999999999999999,
       "rolling_12": 1.6499999999999997,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9329,7 +10865,7 @@
       "rolling_4": 1.5,
       "rolling_6": 1.55,
       "rolling_12": 1.616666666666667,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9361,7 +10897,7 @@
       "rolling_4": 1.4249999999999998,
       "rolling_6": 1.4833333333333334,
       "rolling_12": 1.5833333333333333,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9393,7 +10929,7 @@
       "rolling_4": 1.4,
       "rolling_6": 1.45,
       "rolling_12": 1.5583333333333333,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9425,7 +10961,7 @@
       "rolling_4": 1.3499999999999999,
       "rolling_6": 1.4000000000000001,
       "rolling_12": 1.5250000000000001,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9457,7 +10993,7 @@
       "rolling_4": 1.35,
       "rolling_6": 1.383333333333333,
       "rolling_12": 1.508333333333333,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9489,7 +11025,7 @@
       "rolling_4": 1.4,
       "rolling_6": 1.383333333333333,
       "rolling_12": 1.4916666666666665,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9521,7 +11057,7 @@
       "rolling_4": 1.4,
       "rolling_6": 1.3833333333333335,
       "rolling_12": 1.4666666666666668,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9553,7 +11089,7 @@
       "rolling_4": 1.425,
       "rolling_6": 1.3999999999999997,
       "rolling_12": 1.4416666666666667,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9585,7 +11121,7 @@
       "rolling_4": 1.4249999999999998,
       "rolling_6": 1.4000000000000001,
       "rolling_12": 1.4249999999999998,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9617,7 +11153,7 @@
       "rolling_4": 1.375,
       "rolling_6": 1.4000000000000001,
       "rolling_12": 1.4000000000000001,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9649,7 +11185,7 @@
       "rolling_4": 1.375,
       "rolling_6": 1.3999999999999997,
       "rolling_12": 1.3916666666666666,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9681,7 +11217,7 @@
       "rolling_4": 1.3499999999999999,
       "rolling_6": 1.3666666666666665,
       "rolling_12": 1.375,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9713,7 +11249,7 @@
       "rolling_4": 1.3250000000000002,
       "rolling_6": 1.3499999999999999,
       "rolling_12": 1.3666666666666665,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9745,7 +11281,7 @@
       "rolling_4": 1.325,
       "rolling_6": 1.3333333333333333,
       "rolling_12": 1.3666666666666665,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9777,7 +11313,7 @@
       "rolling_4": 1.275,
       "rolling_6": 1.3,
       "rolling_12": 1.3499999999999999,
-      "index_first_100": 52.17391304347826
+      "index_first_100": 109.09090909090908
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9809,7 +11345,7 @@
       "rolling_4": 1.2750000000000001,
       "rolling_6": 1.3,
       "rolling_12": 1.3499999999999999,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9841,7 +11377,7 @@
       "rolling_4": 1.275,
       "rolling_6": 1.2833333333333334,
       "rolling_12": 1.3416666666666668,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9873,7 +11409,7 @@
       "rolling_4": 1.2750000000000001,
       "rolling_6": 1.2833333333333334,
       "rolling_12": 1.325,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9905,7 +11441,7 @@
       "rolling_4": 1.3,
       "rolling_6": 1.2833333333333334,
       "rolling_12": 1.3166666666666667,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9937,7 +11473,7 @@
       "rolling_4": 1.3,
       "rolling_6": 1.2833333333333334,
       "rolling_12": 1.3083333333333333,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -9969,7 +11505,7 @@
       "rolling_4": 1.3,
       "rolling_6": 1.3,
       "rolling_12": 1.3,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10001,7 +11537,7 @@
       "rolling_4": 1.3,
       "rolling_6": 1.3,
       "rolling_12": 1.3,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10033,7 +11569,7 @@
       "rolling_4": 1.275,
       "rolling_6": 1.2833333333333334,
       "rolling_12": 1.2833333333333334,
-      "index_first_100": 52.17391304347826
+      "index_first_100": 109.09090909090908
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10065,7 +11601,7 @@
       "rolling_4": 1.2750000000000001,
       "rolling_6": 1.2833333333333334,
       "rolling_12": 1.2833333333333334,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10097,7 +11633,7 @@
       "rolling_4": 1.25,
       "rolling_6": 1.2666666666666668,
       "rolling_12": 1.2750000000000001,
-      "index_first_100": 52.17391304347826
+      "index_first_100": 109.09090909090908
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10129,7 +11665,7 @@
       "rolling_4": 1.225,
       "rolling_6": 1.25,
       "rolling_12": 1.2666666666666666,
-      "index_first_100": 52.17391304347826
+      "index_first_100": 109.09090909090908
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10161,7 +11697,7 @@
       "rolling_4": 1.2,
       "rolling_6": 1.2166666666666666,
       "rolling_12": 1.2583333333333335,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10193,7 +11729,7 @@
       "rolling_4": 1.225,
       "rolling_6": 1.2333333333333334,
       "rolling_12": 1.2666666666666666,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10225,7 +11761,7 @@
       "rolling_4": 1.425,
       "rolling_6": 1.3666666666666665,
       "rolling_12": 1.325,
-      "index_first_100": 86.95652173913044
+      "index_first_100": 181.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10257,7 +11793,7 @@
       "rolling_4": 2.375,
       "rolling_6": 1.9833333333333334,
       "rolling_12": 1.6333333333333335,
-      "index_first_100": 217.39130434782612
+      "index_first_100": 454.5454545454545
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10289,7 +11825,7 @@
       "rolling_4": 3.375,
       "rolling_6": 2.6333333333333333,
       "rolling_12": 1.95,
-      "index_first_100": 221.73913043478262
+      "index_first_100": 463.63636363636357
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10321,7 +11857,7 @@
       "rolling_4": 4.175,
       "rolling_6": 3.1999999999999997,
       "rolling_12": 2.225,
-      "index_first_100": 200.0
+      "index_first_100": 418.1818181818181
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10353,7 +11889,7 @@
       "rolling_4": 4.6499999999999995,
       "rolling_6": 3.666666666666666,
       "rolling_12": 2.4416666666666664,
-      "index_first_100": 169.56521739130437
+      "index_first_100": 354.5454545454545
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10385,7 +11921,7 @@
       "rolling_4": 4.3,
       "rolling_6": 4.033333333333333,
       "rolling_12": 2.6333333333333333,
-      "index_first_100": 156.52173913043478
+      "index_first_100": 327.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10417,7 +11953,7 @@
       "rolling_4": 3.875,
       "rolling_6": 4.266666666666667,
       "rolling_12": 2.8166666666666664,
-      "index_first_100": 147.82608695652175
+      "index_first_100": 309.09090909090907
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10449,7 +11985,7 @@
       "rolling_4": 3.575,
       "rolling_6": 4.0,
       "rolling_12": 2.9916666666666667,
-      "index_first_100": 147.82608695652175
+      "index_first_100": 309.09090909090907
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10481,7 +12017,7 @@
       "rolling_4": 3.4749999999999996,
       "rolling_6": 3.733333333333333,
       "rolling_12": 3.183333333333333,
-      "index_first_100": 152.17391304347828
+      "index_first_100": 318.1818181818182
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10513,7 +12049,7 @@
       "rolling_4": 3.45,
       "rolling_6": 3.5500000000000003,
       "rolling_12": 3.375,
-      "index_first_100": 152.17391304347828
+      "index_first_100": 318.1818181818182
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10545,7 +12081,7 @@
       "rolling_4": 3.425,
       "rolling_6": 3.4500000000000006,
       "rolling_12": 3.5583333333333336,
-      "index_first_100": 143.47826086956522
+      "index_first_100": 299.99999999999994
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10577,7 +12113,7 @@
       "rolling_4": 3.35,
       "rolling_6": 3.3666666666666667,
       "rolling_12": 3.6999999999999997,
-      "index_first_100": 134.7826086956522
+      "index_first_100": 281.8181818181818
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10609,7 +12145,7 @@
       "rolling_4": 3.3,
       "rolling_6": 3.35,
       "rolling_12": 3.8083333333333336,
-      "index_first_100": 143.47826086956522
+      "index_first_100": 299.99999999999994
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10641,7 +12177,7 @@
       "rolling_4": 3.1499999999999995,
       "rolling_6": 3.266666666666666,
       "rolling_12": 3.6333333333333333,
-      "index_first_100": 126.08695652173914
+      "index_first_100": 263.6363636363636
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10673,7 +12209,7 @@
       "rolling_4": 3.0,
       "rolling_6": 3.133333333333333,
       "rolling_12": 3.4333333333333336,
-      "index_first_100": 117.3913043478261
+      "index_first_100": 245.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10705,7 +12241,7 @@
       "rolling_4": 2.8,
       "rolling_6": 2.933333333333333,
       "rolling_12": 3.2416666666666667,
-      "index_first_100": 100.0
+      "index_first_100": 209.09090909090904
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10737,7 +12273,7 @@
       "rolling_4": 2.5,
       "rolling_6": 2.733333333333333,
       "rolling_12": 3.091666666666667,
-      "index_first_100": 91.30434782608697
+      "index_first_100": 190.9090909090909
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10769,7 +12305,7 @@
       "rolling_4": 2.25,
       "rolling_6": 2.533333333333333,
       "rolling_12": 2.9499999999999997,
-      "index_first_100": 82.6086956521739
+      "index_first_100": 172.72727272727272
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10801,7 +12337,7 @@
       "rolling_4": 2.0,
       "rolling_6": 2.2666666666666666,
       "rolling_12": 2.8083333333333336,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10833,7 +12369,7 @@
       "rolling_4": 1.8,
       "rolling_6": 2.033333333333333,
       "rolling_12": 2.65,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10865,7 +12401,7 @@
       "rolling_4": 1.65,
       "rolling_6": 1.8333333333333333,
       "rolling_12": 2.483333333333333,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10897,7 +12433,7 @@
       "rolling_4": 1.475,
       "rolling_6": 1.6499999999999997,
       "rolling_12": 2.2916666666666665,
-      "index_first_100": 52.17391304347826
+      "index_first_100": 109.09090909090908
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10929,7 +12465,7 @@
       "rolling_4": 1.3499999999999999,
       "rolling_6": 1.5,
       "rolling_12": 2.1166666666666667,
-      "index_first_100": 52.17391304347826
+      "index_first_100": 109.09090909090908
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10961,7 +12497,7 @@
       "rolling_4": 1.275,
       "rolling_6": 1.3833333333333335,
       "rolling_12": 1.9583333333333333,
-      "index_first_100": 52.17391304347826
+      "index_first_100": 109.09090909090908
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -10993,7 +12529,7 @@
       "rolling_4": 1.2249999999999999,
       "rolling_6": 1.3166666666666667,
       "rolling_12": 1.7916666666666667,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11025,7 +12561,7 @@
       "rolling_4": 1.2,
       "rolling_6": 1.25,
       "rolling_12": 1.6416666666666666,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11057,7 +12593,7 @@
       "rolling_4": 1.2,
       "rolling_6": 1.2,
       "rolling_12": 1.5166666666666666,
-      "index_first_100": 52.17391304347826
+      "index_first_100": 109.09090909090908
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11089,7 +12625,7 @@
       "rolling_4": 1.2,
       "rolling_6": 1.2,
       "rolling_12": 1.425,
-      "index_first_100": 52.17391304347826
+      "index_first_100": 109.09090909090908
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11121,7 +12657,7 @@
       "rolling_4": 1.175,
       "rolling_6": 1.2,
       "rolling_12": 1.3499999999999999,
-      "index_first_100": 52.17391304347826
+      "index_first_100": 109.09090909090908
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11153,7 +12689,7 @@
       "rolling_4": 1.2,
       "rolling_6": 1.2,
       "rolling_12": 1.2916666666666667,
-      "index_first_100": 52.17391304347826
+      "index_first_100": 109.09090909090908
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11185,7 +12721,7 @@
       "rolling_4": 1.175,
       "rolling_6": 1.1666666666666667,
       "rolling_12": 1.2416666666666667,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11217,7 +12753,7 @@
       "rolling_4": 1.1749999999999998,
       "rolling_6": 1.1833333333333333,
       "rolling_12": 1.2166666666666668,
-      "index_first_100": 52.17391304347826
+      "index_first_100": 109.09090909090908
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11249,7 +12785,7 @@
       "rolling_4": 1.15,
       "rolling_6": 1.1666666666666667,
       "rolling_12": 1.1833333333333333,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11281,7 +12817,7 @@
       "rolling_4": 1.125,
       "rolling_6": 1.1500000000000001,
       "rolling_12": 1.175,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11313,7 +12849,7 @@
       "rolling_4": 1.125,
       "rolling_6": 1.1333333333333335,
       "rolling_12": 1.1666666666666667,
-      "index_first_100": 47.82608695652175
+      "index_first_100": 100.0
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11345,7 +12881,7 @@
       "rolling_4": 1.125,
       "rolling_6": 1.1333333333333333,
       "rolling_12": 1.1666666666666667,
-      "index_first_100": 52.17391304347826
+      "index_first_100": 109.09090909090908
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11377,7 +12913,7 @@
       "rolling_4": 1.15,
       "rolling_6": 1.1500000000000001,
       "rolling_12": 1.1583333333333334,
-      "index_first_100": 52.17391304347826
+      "index_first_100": 109.09090909090908
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11409,7 +12945,7 @@
       "rolling_4": 1.2,
       "rolling_6": 1.1666666666666667,
       "rolling_12": 1.175,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11441,7 +12977,7 @@
       "rolling_4": 1.275,
       "rolling_6": 1.2166666666666668,
       "rolling_12": 1.1916666666666667,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11473,7 +13009,7 @@
       "rolling_4": 1.325,
       "rolling_6": 1.2666666666666666,
       "rolling_12": 1.2083333333333333,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11505,7 +13041,7 @@
       "rolling_4": 1.3749999999999998,
       "rolling_6": 1.3166666666666667,
       "rolling_12": 1.225,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11537,7 +13073,7 @@
       "rolling_4": 1.375,
       "rolling_6": 1.3333333333333333,
       "rolling_12": 1.2333333333333334,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11569,7 +13105,7 @@
       "rolling_4": 1.375,
       "rolling_6": 1.3666666666666665,
       "rolling_12": 1.2583333333333333,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11601,7 +13137,7 @@
       "rolling_4": 1.3499999999999999,
       "rolling_6": 1.3666666666666665,
       "rolling_12": 1.2666666666666666,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11633,7 +13169,7 @@
       "rolling_4": 1.3250000000000002,
       "rolling_6": 1.3499999999999999,
       "rolling_12": 1.2833333333333332,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11665,7 +13201,7 @@
       "rolling_4": 1.325,
       "rolling_6": 1.3333333333333333,
       "rolling_12": 1.3,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11697,7 +13233,7 @@
       "rolling_4": 1.3,
       "rolling_6": 1.3166666666666667,
       "rolling_12": 1.3166666666666667,
-      "index_first_100": 56.52173913043479
+      "index_first_100": 118.18181818181816
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11729,7 +13265,7 @@
       "rolling_4": 1.3250000000000002,
       "rolling_6": 1.3333333333333333,
       "rolling_12": 1.3333333333333333,
-      "index_first_100": 60.86956521739131
+      "index_first_100": 127.27272727272725
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11761,7 +13297,7 @@
       "rolling_4": 1.375,
       "rolling_6": 1.3499999999999999,
       "rolling_12": 1.3583333333333334,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11793,7 +13329,7 @@
       "rolling_4": 1.45,
       "rolling_6": 1.4000000000000001,
       "rolling_12": 1.383333333333333,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11825,7 +13361,7 @@
       "rolling_4": 1.525,
       "rolling_6": 1.45,
       "rolling_12": 1.4000000000000001,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11857,7 +13393,7 @@
       "rolling_4": 1.575,
       "rolling_6": 1.5,
       "rolling_12": 1.4166666666666667,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11889,7 +13425,7 @@
       "rolling_4": 1.6250000000000002,
       "rolling_6": 1.5666666666666667,
       "rolling_12": 1.4416666666666667,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11921,7 +13457,7 @@
       "rolling_4": 1.65,
       "rolling_6": 1.6166666666666665,
       "rolling_12": 1.4749999999999999,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11953,7 +13489,7 @@
       "rolling_4": 1.6500000000000001,
       "rolling_6": 1.633333333333333,
       "rolling_12": 1.491666666666667,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -11985,7 +13521,7 @@
       "rolling_4": 1.625,
       "rolling_6": 1.6166666666666665,
       "rolling_12": 1.5083333333333335,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -12017,7 +13553,7 @@
       "rolling_4": 1.575,
       "rolling_6": 1.5999999999999999,
       "rolling_12": 1.5250000000000001,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -12049,7 +13585,7 @@
       "rolling_4": 1.525,
       "rolling_6": 1.5833333333333333,
       "rolling_12": 1.5416666666666667,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -12081,7 +13617,7 @@
       "rolling_4": 1.525,
       "rolling_6": 1.5666666666666667,
       "rolling_12": 1.5666666666666667,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -12113,7 +13649,7 @@
       "rolling_4": 1.525,
       "rolling_6": 1.5333333333333332,
       "rolling_12": 1.575,
-      "index_first_100": 65.21739130434783
+      "index_first_100": 136.36363636363635
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -12145,7 +13681,7 @@
       "rolling_4": 1.55,
       "rolling_6": 1.5333333333333334,
       "rolling_12": 1.5833333333333333,
-      "index_first_100": 69.56521739130436
+      "index_first_100": 145.45454545454547
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -12177,7 +13713,7 @@
       "rolling_4": 1.625,
       "rolling_6": 1.5833333333333333,
       "rolling_12": 1.6000000000000003,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -12209,7 +13745,7 @@
       "rolling_4": 1.6500000000000001,
       "rolling_6": 1.616666666666667,
       "rolling_12": 1.6083333333333334,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -12241,7 +13777,7 @@
       "rolling_4": 1.7249999999999999,
       "rolling_6": 1.6666666666666667,
       "rolling_12": 1.625,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -12305,7 +13841,7 @@
       "rolling_4": 1.7666666666666668,
       "rolling_6": 1.7399999999999998,
       "rolling_12": 1.6272727272727272,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -12337,7 +13873,7 @@
       "rolling_4": 1.8,
       "rolling_6": 1.78,
       "rolling_12": 1.6454545454545453,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -12369,7 +13905,7 @@
       "rolling_4": 1.8,
       "rolling_6": 1.78,
       "rolling_12": 1.6727272727272726,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -12401,7 +13937,7 @@
       "rolling_4": 1.8,
       "rolling_6": 1.8,
       "rolling_12": 1.7,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -12433,7 +13969,7 @@
       "rolling_4": 1.8,
       "rolling_6": 1.8,
       "rolling_12": 1.7272727272727273,
-      "index_first_100": 78.26086956521739
+      "index_first_100": 163.63636363636363
     },
     {
       "indicator_id": "u1_unemployment_15_weeks_over_rate",
@@ -12465,7 +14001,39 @@
       "rolling_4": 1.775,
       "rolling_6": 1.7833333333333332,
       "rolling_12": 1.7363636363636366,
-      "index_first_100": 73.91304347826087
+      "index_first_100": 154.54545454545453
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "2026-05-01",
+      "value": 1.8,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": 0.10000000000000009,
+      "pct_change_1": 5.882352941176472,
+      "change_3": 0.0,
+      "pct_change_3": 0.0,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_6": 0.0,
+      "pct_change_6": 0.0,
+      "change_12": 0.30000000000000004,
+      "pct_change_12": 19.999999999999996,
+      "rolling_3": 1.7666666666666664,
+      "rolling_4": 1.775,
+      "rolling_6": 1.7833333333333332,
+      "rolling_12": 1.763636363636364,
+      "index_first_100": 163.63636363636363
     }
   ]
 }

@@ -13999,6 +13999,38 @@
       "rolling_6": 62.11666666666667,
       "rolling_12": 62.21818181818182,
       "index_first_100": 92.51497005988024
+    },
+    {
+      "indicator_id": "labor_force_participation_rate",
+      "date": "2026-05-01",
+      "value": 61.8,
+      "source": "bls_public_api",
+      "series_id": "LNS11300000",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "labor_force_participation_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": -0.20000000000000284,
+      "pct_change_3": -0.3225806451612967,
+      "change_4": -0.30000000000000426,
+      "pct_change_4": -0.48309178743961567,
+      "change_6": -0.7000000000000028,
+      "pct_change_6": -1.1200000000000099,
+      "change_12": -0.6000000000000014,
+      "pct_change_12": -0.9615384615384692,
+      "rolling_3": 61.833333333333336,
+      "rolling_4": 61.875,
+      "rolling_6": 62.0,
+      "rolling_12": 62.16363636363637,
+      "index_first_100": 92.51497005988024
     }
   ]
 }

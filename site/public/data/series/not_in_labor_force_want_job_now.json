@@ -12464,6 +12464,38 @@
       "rolling_6": 6051.666666666667,
       "rolling_12": 6075.090909090909,
       "index_first_100": 90.89692101740295
+    },
+    {
+      "indicator_id": "not_in_labor_force_want_job_now",
+      "date": "2026-05-01",
+      "value": 6187.0,
+      "source": "bls_public_api",
+      "series_id": "LNS15026639",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "not_in_labor_force_want_job_now|US",
+      "change_1": 76.0,
+      "pct_change_1": 1.243658975617734,
+      "change_3": 213.0,
+      "pct_change_3": 3.5654502845664515,
+      "change_4": 349.0,
+      "pct_change_4": 5.978074683110646,
+      "change_6": 48.0,
+      "pct_change_6": 0.7818863007004406,
+      "change_12": 179.0,
+      "pct_change_12": 2.979360852197077,
+      "rolling_3": 6112.666666666667,
+      "rolling_4": 6078.0,
+      "rolling_6": 6059.666666666667,
+      "rolling_12": 6091.363636363636,
+      "index_first_100": 92.02736873419605
     }
   ]
 }
