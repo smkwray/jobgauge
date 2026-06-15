@@ -13999,6 +13999,38 @@
       "rolling_6": 327.97366666666665,
       "rolling_12": 325.4183636363636,
       "index_first_100": 260.7113725490196
+    },
+    {
+      "indicator_id": "cpi_all_urban_consumers",
+      "date": "2026-05-01",
+      "value": 333.979,
+      "source": "bls_public_api",
+      "series_id": "CUSR0000SA0",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Index 1982-84=100",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "cpi_all_urban_consumers|US",
+      "change_1": 1.5720000000000027,
+      "pct_change_1": 0.47291422864139676,
+      "change_3": 6.5190000000000055,
+      "pct_change_3": 1.9907774995419292,
+      "change_4": 7.390999999999963,
+      "pct_change_4": 2.2630960108760867,
+      "change_6": 8.915999999999997,
+      "pct_change_6": 2.7428529238947563,
+      "change_12": 13.35899999999998,
+      "pct_change_12": 4.166614684049641,
+      "rolling_3": 332.2263333333333,
+      "rolling_4": 331.03475000000003,
+      "rolling_6": 329.4596666666667,
+      "rolling_12": 326.6328181818182,
+      "index_first_100": 261.9443137254902
     }
   ]
 }
