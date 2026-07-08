@@ -5,6 +5,7 @@ PYTHON ?= $(VENV)/bin/python
 PYTHON_ENV = PYTHONDONTWRITEBYTECODE=1 PYTHONPYCACHEPREFIX=/tmp/jobgauge-pycache PYTHONPATH=src
 PYTEST_ENV = PYTEST_ADDOPTS="-p no:cacheprovider"
 RUFF_ENV = RUFF_CACHE_DIR=/tmp/jobgauge-ruff-cache
+STATIC_FALLBACK_FLAG = $(if $(filter 1 true yes,$(STALE_STATIC_FALLBACK)),--stale-static-fallback,)
 
 setup:
 	mkdir -p "$$(dirname "$(VENV)")"
@@ -41,7 +42,7 @@ refresh-origin:
 	$(PYTHON_ENV) "$(PYTHON)" -B -m labor_dashboard.cli refresh --providers bls,bea,qcew,census_qwi --start-year $(or $(START_YEAR),2000)
 
 refresh-with-mirrors:
-	$(PYTHON_ENV) "$(PYTHON)" -B -m labor_dashboard.cli refresh --providers bls,bea,qcew,census_qwi,fred --start-year $(or $(START_YEAR),2000)
+	$(PYTHON_ENV) "$(PYTHON)" -B -m labor_dashboard.cli refresh $(STATIC_FALLBACK_FLAG) --providers bls,bea,qcew,census_qwi,fred --start-year $(or $(START_YEAR),2000)
 
 refresh-static: refresh-origin export-static build-search
 

@@ -104,6 +104,7 @@ def refresh(
     end_year: int | None = typer.Option(None, help="Override end year"),
     dry_run: bool = typer.Option(False, help="Plan only; do not call APIs"),
     limit: int | None = typer.Option(None, help="Limit number of indicators"),
+    stale_static_fallback: bool = typer.Option(False, help="Use existing static series files when an indicator refresh fails"),
 ) -> None:
     indicators = load_indicators(settings.catalog_dir)
     selected = filter_indicators(indicators, _parse_csv_set(providers), _parse_csv_set(groups), _parse_csv_set(priorities))
@@ -118,6 +119,7 @@ def refresh(
         end_year=end_year,
         dry_run=dry_run,
         limit=limit,
+        static_fallback_dir=settings.static_dir if stale_static_fallback else None,
     )
     table = Table(title="Refresh results")
     table.add_column("status")
@@ -129,7 +131,7 @@ def refresh(
     for result in results:
         if result.status == "failed":
             failed += 1
-        status_color = {"fetched": "green", "skipped": "yellow", "failed": "red"}.get(result.status, "white")
+        status_color = {"fetched": "green", "skipped": "yellow", "failed": "red", "stale": "yellow"}.get(result.status, "white")
         table.add_row(f"[{status_color}]{result.status}[/{status_color}]", result.provider, result.indicator_id, str(result.observations), result.message)
     console.print(table)
     if failed:

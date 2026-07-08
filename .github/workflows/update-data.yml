@@ -59,7 +59,7 @@ jobs:
         run: make validate-catalog
       - name: Refresh hosted data
         if: ${{ github.event_name == 'schedule' || inputs.profile == 'hosted' }}
-        run: make refresh-with-mirrors START_YEAR=1990
+        run: make refresh-with-mirrors START_YEAR=1990 STALE_STATIC_FALLBACK=1
       - name: Optional DOL claims retry
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.profile == 'hosted' && inputs.include_dol }}
         run: |

@@ -89,7 +89,7 @@ class Observation(BaseModel):
 class RefreshResult(BaseModel):
     indicator_id: str
     provider: Provider
-    status: Literal["skipped", "fetched", "failed"]
+    status: Literal["skipped", "fetched", "failed", "stale"]
     observations: int = 0
     output_path: Path | None = None
     message: str = ""
