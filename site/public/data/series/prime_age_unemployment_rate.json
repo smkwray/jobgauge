@@ -14028,6 +14028,38 @@
       "rolling_6": 3.766666666666667,
       "rolling_12": 3.6999999999999997,
       "index_first_100": 88.37209302325581
+    },
+    {
+      "indicator_id": "prime_age_unemployment_rate",
+      "date": "2026-06-01",
+      "value": 3.7,
+      "source": "bls_public_api",
+      "series_id": "LNS14000060",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "prime_age_unemployment_rate|US",
+      "change_1": -0.09999999999999964,
+      "pct_change_1": -2.631578947368407,
+      "change_3": 0.0,
+      "pct_change_3": 0.0,
+      "change_4": -0.19999999999999973,
+      "pct_change_4": -5.128205128205121,
+      "change_6": 0.0,
+      "pct_change_6": 0.0,
+      "change_12": 0.40000000000000036,
+      "pct_change_12": 12.121212121212132,
+      "rolling_3": 3.733333333333333,
+      "rolling_4": 3.725,
+      "rolling_6": 3.766666666666666,
+      "rolling_12": 3.7363636363636363,
+      "index_first_100": 86.04651162790698
     }
   ]
 }

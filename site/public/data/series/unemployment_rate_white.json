@@ -14031,6 +14031,38 @@
       "rolling_6": 3.716666666666667,
       "rolling_12": 3.7181818181818183,
       "index_first_100": 82.6086956521739
+    },
+    {
+      "indicator_id": "unemployment_rate_white",
+      "date": "2026-06-01",
+      "value": 3.6,
+      "source": "bls_public_api",
+      "series_id": "LNS14000003",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_rate_white|US",
+      "change_1": -0.19999999999999973,
+      "pct_change_1": -5.263157894736836,
+      "change_3": 0.0,
+      "pct_change_3": 0.0,
+      "change_4": -0.10000000000000009,
+      "pct_change_4": -2.7027027027027084,
+      "change_6": -0.19999999999999973,
+      "pct_change_6": -5.263157894736836,
+      "change_12": 0.0,
+      "pct_change_12": 0.0,
+      "rolling_3": 3.7000000000000006,
+      "rolling_4": 3.675,
+      "rolling_6": 3.6833333333333336,
+      "rolling_12": 3.7181818181818183,
+      "index_first_100": 78.26086956521739
     }
   ]
 }

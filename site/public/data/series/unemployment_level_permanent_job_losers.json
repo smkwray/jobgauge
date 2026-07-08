@@ -12497,6 +12497,38 @@
       "rolling_6": 1955.1666666666667,
       "rolling_12": 1945.090909090909,
       "index_first_100": 78.62097103223175
+    },
+    {
+      "indicator_id": "unemployment_level_permanent_job_losers",
+      "date": "2026-06-01",
+      "value": 1769.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13026638",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_permanent_job_losers|US",
+      "change_1": -158.0,
+      "pct_change_1": -8.199273482096526,
+      "change_3": -112.0,
+      "pct_change_3": -5.954279638490167,
+      "change_4": -268.0,
+      "pct_change_4": -13.156602847324494,
+      "change_6": -200.0,
+      "pct_change_6": -10.157440325038092,
+      "change_12": -123.0,
+      "pct_change_12": -6.501057082452433,
+      "rolling_3": 1868.3333333333333,
+      "rolling_4": 1871.5,
+      "rolling_6": 1921.8333333333333,
+      "rolling_12": 1933.909090909091,
+      "index_first_100": 72.17462260301917
     }
   ]
 }

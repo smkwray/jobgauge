@@ -10190,6 +10190,38 @@
       "rolling_6": 3.866666666666667,
       "rolling_12": 3.5454545454545454,
       "index_first_100": 100.0
+    },
+    {
+      "indicator_id": "unemployment_rate_veterans",
+      "date": "2026-06-01",
+      "value": 4.1,
+      "source": "bls_public_api",
+      "series_id": "LNU04049526",
+      "frequency": "M",
+      "seasonal_adjustment": "NSA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_rate_veterans|US",
+      "change_1": 0.8999999999999995,
+      "pct_change_1": 28.12499999999998,
+      "change_3": 0.19999999999999973,
+      "pct_change_3": 5.128205128205132,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_6": 0.19999999999999973,
+      "pct_change_6": 5.128205128205132,
+      "change_12": 0.39999999999999947,
+      "pct_change_12": 10.81081081081079,
+      "rolling_3": 3.633333333333333,
+      "rolling_4": 3.7,
+      "rolling_6": 3.9,
+      "rolling_12": 3.5818181818181825,
+      "index_first_100": 128.12499999999997
     }
   ]
 }

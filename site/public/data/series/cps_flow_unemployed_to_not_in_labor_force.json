@@ -14003,6 +14003,38 @@
       "rolling_6": 1708.6666666666667,
       "rolling_12": 1698.8,
       "index_first_100": 118.6029411764706
+    },
+    {
+      "indicator_id": "cps_flow_unemployed_to_not_in_labor_force",
+      "date": "2026-06-01",
+      "value": 1839.0,
+      "source": "bls_public_api",
+      "series_id": "LNS17900000",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "cps_flow_unemployed_to_not_in_labor_force|US",
+      "change_1": 226.0,
+      "pct_change_1": 14.01115933044017,
+      "change_3": 71.0,
+      "pct_change_3": 4.015837104072406,
+      "change_4": 192.0,
+      "pct_change_4": 11.65755919854281,
+      "change_6": 99.0,
+      "pct_change_6": 5.689655172413799,
+      "change_12": 163.0,
+      "pct_change_12": 9.72553699284009,
+      "rolling_3": 1734.0,
+      "rolling_4": 1742.5,
+      "rolling_6": 1725.1666666666667,
+      "rolling_12": 1715.1,
+      "index_first_100": 135.22058823529412
     }
   ]
 }

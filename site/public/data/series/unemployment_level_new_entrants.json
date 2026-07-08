@@ -14033,6 +14033,38 @@
       "rolling_6": 796.3333333333334,
       "rolling_12": 805.6363636363636,
       "index_first_100": 115.86402266288951
+    },
+    {
+      "indicator_id": "unemployment_level_new_entrants",
+      "date": "2026-06-01",
+      "value": 772.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13023569",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_new_entrants|US",
+      "change_1": -46.0,
+      "pct_change_1": -5.623471882640585,
+      "change_3": 58.0,
+      "pct_change_3": 8.12324929971988,
+      "change_4": -33.0,
+      "pct_change_4": -4.099378881987581,
+      "change_6": -68.0,
+      "pct_change_6": -8.0952380952381,
+      "change_12": 49.0,
+      "pct_change_12": 6.777316735822958,
+      "rolling_3": 798.3333333333334,
+      "rolling_4": 777.25,
+      "rolling_6": 785.0,
+      "rolling_12": 810.0909090909091,
+      "index_first_100": 109.3484419263456
     }
   ]
 }

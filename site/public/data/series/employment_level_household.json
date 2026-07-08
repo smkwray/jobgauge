@@ -14031,6 +14031,38 @@
       "rolling_6": 163040.33333333334,
       "rolling_12": 163226.81818181818,
       "index_first_100": 136.68931231682637
+    },
+    {
+      "indicator_id": "employment_level_household",
+      "date": "2026-06-01",
+      "value": 162264.0,
+      "source": "bls_public_api",
+      "series_id": "LNS12000000",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "employment_level_household|US",
+      "change_1": -507.0,
+      "pct_change_1": -0.31148054628895583,
+      "change_3": -584.0,
+      "pct_change_3": -0.3586166240911792,
+      "change_4": -648.0,
+      "pct_change_4": -0.3977607542722472,
+      "change_6": -1728.0,
+      "pct_change_6": -1.053709937070102,
+      "change_12": -1063.0,
+      "pct_change_12": -0.6508415632442865,
+      "rolling_3": 162552.33333333334,
+      "rolling_4": 162626.25,
+      "rolling_6": 162752.33333333334,
+      "rolling_12": 163130.18181818182,
+      "index_first_100": 136.26355170010328
     }
   ]
 }

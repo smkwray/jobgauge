@@ -14033,6 +14033,38 @@
       "rolling_6": 80.73333333333333,
       "rolling_12": 80.68181818181819,
       "index_first_100": 100.74812967581046
+    },
+    {
+      "indicator_id": "prime_age_employment_population_ratio",
+      "date": "2026-06-01",
+      "value": 80.2,
+      "source": "bls_public_api",
+      "series_id": "LNS12300060",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "prime_age_employment_population_ratio|US",
+      "change_1": -0.5999999999999943,
+      "pct_change_1": -0.7425742574257321,
+      "change_3": -0.5,
+      "pct_change_3": -0.6195786864931829,
+      "change_4": -0.5,
+      "pct_change_4": -0.6195786864931829,
+      "change_6": -0.5,
+      "pct_change_6": -0.6195786864931829,
+      "change_12": -0.5,
+      "pct_change_12": -0.6195786864931829,
+      "rolling_3": 80.56666666666666,
+      "rolling_4": 80.60000000000001,
+      "rolling_6": 80.65,
+      "rolling_12": 80.63636363636364,
+      "index_first_100": 100.0
     }
   ]
 }

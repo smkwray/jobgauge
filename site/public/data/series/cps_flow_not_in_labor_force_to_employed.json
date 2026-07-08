@@ -14003,6 +14003,38 @@
       "rolling_6": 4518.166666666667,
       "rolling_12": 4559.5,
       "index_first_100": 146.56679151061175
+    },
+    {
+      "indicator_id": "cps_flow_not_in_labor_force_to_employed",
+      "date": "2026-06-01",
+      "value": 4315.0,
+      "source": "bls_public_api",
+      "series_id": "LNS17200000",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "cps_flow_not_in_labor_force_to_employed|US",
+      "change_1": -381.0,
+      "pct_change_1": -8.113287904599664,
+      "change_3": -214.0,
+      "pct_change_3": -4.7251048796643875,
+      "change_4": -65.0,
+      "pct_change_4": -1.4840182648401812,
+      "change_6": -442.0,
+      "pct_change_6": -9.291570317426945,
+      "change_12": -182.0,
+      "pct_change_12": -4.0471425394707605,
+      "rolling_3": 4536.0,
+      "rolling_4": 4534.25,
+      "rolling_6": 4444.5,
+      "rolling_12": 4541.3,
+      "index_first_100": 134.67540574282145
     }
   ]
 }

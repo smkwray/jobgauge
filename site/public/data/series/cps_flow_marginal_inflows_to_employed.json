@@ -14000,6 +14000,38 @@
       "rolling_6": 168.0,
       "rolling_12": 139.8,
       "index_first_100": 71.69811320754717
+    },
+    {
+      "indicator_id": "cps_flow_marginal_inflows_to_employed",
+      "date": "2026-06-01",
+      "value": 68.0,
+      "source": "bls_public_api",
+      "series_id": "LNS17300000",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "cps_flow_marginal_inflows_to_employed|US",
+      "change_1": 30.0,
+      "pct_change_1": 78.94736842105263,
+      "change_3": 22.0,
+      "pct_change_3": 47.82608695652173,
+      "change_4": 39.0,
+      "pct_change_4": 134.48275862068962,
+      "change_6": -32.0,
+      "pct_change_6": -31.999999999999996,
+      "change_12": -30.0,
+      "pct_change_12": -30.612244897959183,
+      "rolling_3": 53.333333333333336,
+      "rolling_4": 51.5,
+      "rolling_6": 162.66666666666666,
+      "rolling_12": 136.8,
+      "index_first_100": 128.30188679245282
     }
   ]
 }

@@ -13265,6 +13265,38 @@
       "rolling_6": 3.5500000000000003,
       "rolling_12": 3.4181818181818184,
       "index_first_100": 64.28571428571429
+    },
+    {
+      "indicator_id": "unemployment_rate_some_college_associate",
+      "date": "2026-06-01",
+      "value": 3.6,
+      "source": "bls_public_api",
+      "series_id": "LNS14027689",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_rate_some_college_associate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": 0.0,
+      "pct_change_3": 0.0,
+      "change_4": 0.10000000000000009,
+      "pct_change_4": 2.857142857142869,
+      "change_6": -0.19999999999999973,
+      "pct_change_6": -5.263157894736836,
+      "change_12": 0.3999999999999999,
+      "pct_change_12": 12.5,
+      "rolling_3": 3.4666666666666646,
+      "rolling_4": 3.5,
+      "rolling_6": 3.516666666666667,
+      "rolling_12": 3.4545454545454546,
+      "index_first_100": 64.28571428571429
     }
   ]
 }
