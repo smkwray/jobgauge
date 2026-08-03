@@ -3278,6 +3278,38 @@
       "rolling_6": 174.09033333333332,
       "rolling_12": 169.6285,
       "index_first_100": 202.62328767123287
+    },
+    {
+      "indicator_id": "employment_cost_index_wages_salaries_private",
+      "date": "2026-04-01",
+      "value": 179.01,
+      "source": "bls_public_api",
+      "series_id": "CIS2020000000000I",
+      "frequency": "Q",
+      "seasonal_adjustment": "SA",
+      "units": "Index",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "employment_cost_index_wages_salaries_private|US",
+      "change_1": 1.5120000000000005,
+      "pct_change_1": 0.8518405841192678,
+      "change_3": 4.061999999999983,
+      "pct_change_3": 2.3218327731668653,
+      "change_4": 5.447000000000003,
+      "pct_change_4": 3.1383416972511347,
+      "change_6": 8.509999999999991,
+      "pct_change_6": 4.991202346041046,
+      "change_12": 17.909999999999997,
+      "pct_change_12": 11.117318435754186,
+      "rolling_3": 177.58033333333333,
+      "rolling_4": 176.92225,
+      "rolling_6": 175.50866666666664,
+      "rolling_12": 171.121,
+      "index_first_100": 204.34931506849315
     }
   ]
 }

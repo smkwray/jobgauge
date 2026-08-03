@@ -4307,6 +4307,38 @@
       "rolling_6": 1.2,
       "rolling_12": 1.2083333333333333,
       "index_first_100": 66.66666666666666
+    },
+    {
+      "indicator_id": "bed_openings_rate",
+      "date": "2025-10-01",
+      "value": 1.2,
+      "source": "bls_public_api",
+      "series_id": "BDS0000000000000000110003RQ5",
+      "frequency": "Q",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "Total private includes unclassified sector, not shown separately",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "bed_openings_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": 0.0,
+      "pct_change_3": 0.0,
+      "change_4": -0.10000000000000009,
+      "pct_change_4": -7.692307692307699,
+      "change_6": 0.0,
+      "pct_change_6": 0.0,
+      "change_12": -0.10000000000000009,
+      "pct_change_12": -7.692307692307699,
+      "rolling_3": 1.1666666666666667,
+      "rolling_4": 1.175,
+      "rolling_6": 1.2,
+      "rolling_12": 1.2,
+      "index_first_100": 66.66666666666666
     }
   ]
 }

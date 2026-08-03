@@ -4306,6 +4306,38 @@
       "rolling_6": 1583.0,
       "rolling_12": 1590.75,
       "index_first_100": 97.4969474969475
+    },
+    {
+      "indicator_id": "bed_openings_level",
+      "date": "2025-10-01",
+      "value": 1641.0,
+      "source": "bls_public_api",
+      "series_id": "BDS0000000000000000110003LQ5",
+      "frequency": "Q",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "Total private includes unclassified sector, not shown separately",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "bed_openings_level|US",
+      "change_1": 44.0,
+      "pct_change_1": 2.755165936130255,
+      "change_3": 52.0,
+      "pct_change_3": 3.2724984266834456,
+      "change_4": -19.0,
+      "pct_change_4": -1.1445783132530085,
+      "change_6": 80.0,
+      "pct_change_6": 5.124919923126203,
+      "change_12": -18.0,
+      "pct_change_12": -1.0849909584086825,
+      "rolling_3": 1588.3333333333333,
+      "rolling_4": 1588.5,
+      "rolling_6": 1596.3333333333333,
+      "rolling_12": 1589.25,
+      "index_first_100": 100.18315018315019
     }
   ]
 }

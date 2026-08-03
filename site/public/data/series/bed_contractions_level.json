@@ -4305,6 +4305,38 @@
       "rolling_6": 6090.0,
       "rolling_12": 6055.666666666667,
       "index_first_100": 116.3037303540996
+    },
+    {
+      "indicator_id": "bed_contractions_level",
+      "date": "2025-10-01",
+      "value": 5812.0,
+      "source": "bls_public_api",
+      "series_id": "BDS0000000000000000110005LQ5",
+      "frequency": "Q",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "Total private includes unclassified sector, not shown separately",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "bed_contractions_level|US",
+      "change_1": -330.0,
+      "pct_change_1": -5.372842722240312,
+      "change_3": -38.0,
+      "pct_change_3": -0.6495726495726495,
+      "change_4": -152.0,
+      "pct_change_4": -2.5486250838363533,
+      "change_6": -371.0,
+      "pct_change_6": -6.000323467572377,
+      "change_12": -292.0,
+      "pct_change_12": -4.783748361730011,
+      "rolling_3": 6096.666666666667,
+      "rolling_4": 6035.0,
+      "rolling_6": 6028.166666666667,
+      "rolling_12": 6031.333333333333,
+      "index_first_100": 110.05491384207538
     }
   ]
 }

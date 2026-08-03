@@ -4306,6 +4306,38 @@
       "rolling_6": 7599.5,
       "rolling_12": 7547.75,
       "index_first_100": 113.7704918032787
+    },
+    {
+      "indicator_id": "bed_gross_job_losses_level",
+      "date": "2025-10-01",
+      "value": 7245.0,
+      "source": "bls_public_api",
+      "series_id": "BDS0000000000000000110004LQ5",
+      "frequency": "Q",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of jobs",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "Total private includes unclassified sector, not shown separately",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "bed_gross_job_losses_level|US",
+      "change_1": -389.0,
+      "pct_change_1": -5.095624836258839,
+      "change_3": 7.0,
+      "pct_change_3": 0.09671179883945502,
+      "change_4": -251.0,
+      "pct_change_4": -3.3484525080042737,
+      "change_6": -471.0,
+      "pct_change_6": -6.104199066874028,
+      "change_12": -374.0,
+      "pct_change_12": -4.908780679879254,
+      "rolling_3": 7595.0,
+      "rolling_4": 7505.75,
+      "rolling_6": 7521.0,
+      "rolling_12": 7516.583333333333,
+      "index_first_100": 107.973174366617
     }
   ]
 }

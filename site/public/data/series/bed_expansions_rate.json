@@ -4306,6 +4306,38 @@
       "rolling_6": 4.533333333333332,
       "rolling_12": 4.708333333333333,
       "index_first_100": 68.75
+    },
+    {
+      "indicator_id": "bed_expansions_rate",
+      "date": "2025-10-01",
+      "value": 4.7,
+      "source": "bls_public_api",
+      "series_id": "BDS0000000000000000110002RQ5",
+      "frequency": "Q",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "Total private includes unclassified sector, not shown separately",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "bed_expansions_rate|US",
+      "change_1": 0.2999999999999998,
+      "pct_change_1": 6.818181818181812,
+      "change_3": 0.2999999999999998,
+      "pct_change_3": 6.818181818181812,
+      "change_4": 0.10000000000000053,
+      "pct_change_4": 2.1739130434782705,
+      "change_6": 0.10000000000000053,
+      "pct_change_6": 2.1739130434782705,
+      "change_12": -0.2999999999999998,
+      "pct_change_12": -5.999999999999995,
+      "rolling_3": 4.566666666666666,
+      "rolling_4": 4.525,
+      "rolling_6": 4.55,
+      "rolling_12": 4.683333333333334,
+      "index_first_100": 73.4375
     }
   ]
 }
