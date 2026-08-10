@@ -14032,6 +14032,38 @@
       "rolling_6": 207.5,
       "rolling_12": 153.4,
       "index_first_100": 108.0
+    },
+    {
+      "indicator_id": "cps_flow_employed_to_other_outflows",
+      "date": "2026-07-01",
+      "value": 162.0,
+      "source": "bls_public_api",
+      "series_id": "LNS18200000",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "cps_flow_employed_to_other_outflows|US",
+      "change_1": 135.0,
+      "pct_change_1": 500.0,
+      "change_3": 125.0,
+      "pct_change_3": 337.8378378378378,
+      "change_4": 135.0,
+      "pct_change_4": 500.0,
+      "change_6": -881.0,
+      "pct_change_6": -84.46788111217641,
+      "change_12": -46.0,
+      "pct_change_12": -22.115384615384613,
+      "rolling_3": 81.0,
+      "rolling_4": 70.0,
+      "rolling_6": 60.666666666666664,
+      "rolling_12": 148.8,
+      "index_first_100": 648.0
     }
   ]
 }

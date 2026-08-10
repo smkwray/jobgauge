@@ -14063,6 +14063,38 @@
       "rolling_6": 14.316666666666665,
       "rolling_12": 14.57272727272727,
       "index_first_100": 98.64864864864865
+    },
+    {
+      "indicator_id": "teen_unemployment_rate",
+      "date": "2026-07-01",
+      "value": 12.1,
+      "source": "bls_public_api",
+      "series_id": "LNS14000012",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "teen_unemployment_rate|US",
+      "change_1": -2.5,
+      "pct_change_1": -17.12328767123288,
+      "change_3": -2.3000000000000007,
+      "pct_change_3": -15.972222222222232,
+      "change_4": -1.5999999999999996,
+      "pct_change_4": -11.678832116788318,
+      "change_6": -1.5,
+      "pct_change_6": -11.029411764705888,
+      "change_12": -3.0999999999999996,
+      "pct_change_12": -20.394736842105267,
+      "rolling_3": 13.800000000000004,
+      "rolling_4": 13.950000000000001,
+      "rolling_6": 14.066666666666665,
+      "rolling_12": 14.290909090909093,
+      "index_first_100": 81.75675675675676
     }
   ]
 }

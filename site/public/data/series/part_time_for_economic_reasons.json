@@ -14064,6 +14064,38 @@
       "rolling_6": 4699.0,
       "rolling_12": 4823.636363636364,
       "index_first_100": 96.39621087314663
+    },
+    {
+      "indicator_id": "part_time_for_economic_reasons",
+      "date": "2026-07-01",
+      "value": 4804.0,
+      "source": "bls_public_api",
+      "series_id": "LNS12032194",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "part_time_for_economic_reasons|US",
+      "change_1": 123.0,
+      "pct_change_1": 2.62764366588335,
+      "change_3": -138.0,
+      "pct_change_3": -2.7923917442331025,
+      "change_4": 307.0,
+      "pct_change_4": 6.826773404491893,
+      "change_6": -69.0,
+      "pct_change_6": -1.4159655243176639,
+      "change_12": 115.0,
+      "pct_change_12": 2.452548517807629,
+      "rolling_3": 4763.333333333333,
+      "rolling_4": 4808.0,
+      "rolling_6": 4687.5,
+      "rolling_12": 4834.090909090909,
+      "index_first_100": 98.92915980230642
     }
   ]
 }

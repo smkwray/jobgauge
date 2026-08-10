@@ -14066,6 +14066,38 @@
       "rolling_6": 1.7833333333333334,
       "rolling_12": 1.781818181818182,
       "index_first_100": 163.63636363636363
+    },
+    {
+      "indicator_id": "u1_unemployment_15_weeks_over_rate",
+      "date": "2026-07-01",
+      "value": 1.7,
+      "source": "bls_public_api",
+      "series_id": "LNS13025670",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u1_unemployment_15_weeks_over_rate|US",
+      "change_1": -0.10000000000000009,
+      "pct_change_1": -5.555555555555558,
+      "change_3": 0.0,
+      "pct_change_3": 0.0,
+      "change_4": -0.10000000000000009,
+      "pct_change_4": -5.555555555555558,
+      "change_6": -0.10000000000000009,
+      "pct_change_6": -5.555555555555558,
+      "change_12": -0.10000000000000009,
+      "pct_change_12": -5.555555555555558,
+      "rolling_3": 1.7666666666666664,
+      "rolling_4": 1.75,
+      "rolling_6": 1.7666666666666666,
+      "rolling_12": 1.7727272727272727,
+      "index_first_100": 154.54545454545453
     }
   ]
 }

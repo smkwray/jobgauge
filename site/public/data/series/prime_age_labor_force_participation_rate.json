@@ -14062,6 +14062,38 @@
       "rolling_6": 83.78333333333333,
       "rolling_12": 83.73636363636363,
       "index_first_100": 99.40334128878283
+    },
+    {
+      "indicator_id": "prime_age_labor_force_participation_rate",
+      "date": "2026-07-01",
+      "value": 83.4,
+      "source": "bls_public_api",
+      "series_id": "LNS11300060",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "prime_age_labor_force_participation_rate|US",
+      "change_1": 0.10000000000000853,
+      "pct_change_1": 0.12004801920768582,
+      "change_3": -0.3999999999999915,
+      "pct_change_3": -0.4773269689737347,
+      "change_4": -0.3999999999999915,
+      "pct_change_4": -0.4773269689737347,
+      "change_6": -0.5999999999999943,
+      "pct_change_6": -0.7142857142857117,
+      "change_12": 0.0,
+      "pct_change_12": 0.0,
+      "rolling_3": 83.53333333333335,
+      "rolling_4": 83.6,
+      "rolling_6": 83.68333333333334,
+      "rolling_12": 83.73636363636363,
+      "index_first_100": 99.52267303102627
     }
   ]
 }

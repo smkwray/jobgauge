@@ -14064,6 +14064,38 @@
       "rolling_6": 59.199999999999996,
       "rolling_12": 59.400000000000006,
       "index_first_100": 93.35443037974683
+    },
+    {
+      "indicator_id": "employment_population_ratio",
+      "date": "2026-07-01",
+      "value": 58.9,
+      "source": "bls_public_api",
+      "series_id": "LNS12300000",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "employment_population_ratio|US",
+      "change_1": -0.10000000000000142,
+      "pct_change_1": -0.16949152542372614,
+      "change_3": -0.20000000000000284,
+      "pct_change_3": -0.33840947546531774,
+      "change_4": -0.30000000000000426,
+      "pct_change_4": -0.5067567567567655,
+      "change_6": -0.5,
+      "pct_change_6": -0.8417508417508435,
+      "change_12": -0.7000000000000028,
+      "pct_change_12": -1.1744966442953086,
+      "rolling_3": 59.03333333333334,
+      "rolling_4": 59.050000000000004,
+      "rolling_6": 59.116666666666674,
+      "rolling_12": 59.33636363636364,
+      "index_first_100": 93.19620253164557
     }
   ]
 }

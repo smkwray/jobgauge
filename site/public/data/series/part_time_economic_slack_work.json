@@ -14066,6 +14066,38 @@
       "rolling_6": 3114.6666666666665,
       "rolling_12": 3164.2727272727275,
       "index_first_100": 123.31011880376894
+    },
+    {
+      "indicator_id": "part_time_economic_slack_work",
+      "date": "2026-07-01",
+      "value": 3019.0,
+      "source": "bls_public_api",
+      "series_id": "LNS12032195",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "part_time_economic_slack_work|US",
+      "change_1": 9.0,
+      "pct_change_1": 0.2990033222591393,
+      "change_3": -270.0,
+      "pct_change_3": -8.2091821222256,
+      "change_4": -88.0,
+      "pct_change_4": -2.8323141293852605,
+      "change_6": -162.0,
+      "pct_change_6": -5.092738132662689,
+      "change_12": -21.0,
+      "pct_change_12": -0.6907894736842057,
+      "rolling_3": 3097.3333333333335,
+      "rolling_4": 3145.25,
+      "rolling_6": 3087.6666666666665,
+      "rolling_12": 3162.3636363636365,
+      "index_first_100": 123.6788201556739
     }
   ]
 }

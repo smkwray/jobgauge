@@ -9071,6 +9071,38 @@
       "rolling_6": 3.9499999999999997,
       "rolling_12": 3.8818181818181814,
       "index_first_100": 70.9090909090909
+    },
+    {
+      "indicator_id": "unemployment_rate_asian",
+      "date": "2026-07-01",
+      "value": 4.0,
+      "source": "bls_public_api",
+      "series_id": "LNS14032183",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_rate_asian|US",
+      "change_1": 0.10000000000000009,
+      "pct_change_1": 2.564102564102577,
+      "change_3": 0.7000000000000002,
+      "pct_change_3": 21.212121212121215,
+      "change_4": 0.2999999999999998,
+      "pct_change_4": 8.108108108108091,
+      "change_6": -0.20000000000000018,
+      "pct_change_6": -4.761904761904767,
+      "change_12": 0.10000000000000009,
+      "pct_change_12": 2.564102564102577,
+      "rolling_3": 3.9,
+      "rolling_4": 3.75,
+      "rolling_6": 3.9166666666666665,
+      "rolling_12": 3.8909090909090907,
+      "index_first_100": 72.72727272727273
     }
   ]
 }
