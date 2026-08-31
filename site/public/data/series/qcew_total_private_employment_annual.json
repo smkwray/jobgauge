@@ -412,7 +412,7 @@
     {
       "indicator_id": "qcew_total_private_employment_annual",
       "date": "2025-01-01",
-      "value": 133117983.0,
+      "value": 133160274.0,
       "source": "bls_qcew_open_data",
       "series_id": "qcew:US000:private:10:annual_avg_emplvl",
       "frequency": "A",
@@ -425,21 +425,21 @@
       "geo_id": "US",
       "geo_label": "US",
       "entity_key": "qcew_total_private_employment_annual|US",
-      "change_1": 548212.0,
-      "pct_change_1": 0.4135271531848783,
-      "change_3": 4399923.0,
-      "pct_change_3": 3.4182639172778195,
-      "change_4": 10401331.0,
-      "pct_change_4": 8.475892090015623,
-      "change_6": 6759240.0,
-      "pct_change_6": 5.34924599558575,
+      "change_1": 590503.0,
+      "pct_change_1": 0.4454280908428254,
+      "change_3": 4442214.0,
+      "pct_change_3": 3.4511194466417594,
+      "change_4": 10443622.0,
+      "pct_change_4": 8.510354405692233,
+      "change_6": 6801531.0,
+      "pct_change_6": 5.382714989496207,
       "change_12": null,
       "pct_change_12": null,
-      "rolling_3": 132325811.66666667,
-      "rolling_4": 131423873.75,
-      "rolling_6": 127725359.83333333,
-      "rolling_12": 124502527.5,
-      "index_first_100": 115.18516616170578
+      "rolling_3": 132339908.66666667,
+      "rolling_4": 131434446.5,
+      "rolling_6": 127732408.33333333,
+      "rolling_12": 124506051.75,
+      "index_first_100": 115.22175998436117
     }
   ]
 }
