@@ -14094,6 +14094,38 @@
       "rolling_6": 4.166666666666667,
       "rolling_12": 4.263636363636364,
       "index_first_100": 73.58490566037736
+    },
+    {
+      "indicator_id": "unemployment_rate_women",
+      "date": "2026-08-01",
+      "value": 3.9,
+      "source": "bls_public_api",
+      "series_id": "LNS14000002",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_rate_women|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": -0.19999999999999973,
+      "pct_change_3": -4.8780487804877986,
+      "change_4": -0.30000000000000027,
+      "pct_change_4": -7.142857142857151,
+      "change_6": -0.6000000000000001,
+      "pct_change_6": -13.33333333333333,
+      "change_12": -0.3999999999999999,
+      "pct_change_12": -9.302325581395344,
+      "rolling_3": 3.9333333333333313,
+      "rolling_4": 3.9749999999999996,
+      "rolling_6": 4.066666666666667,
+      "rolling_12": 4.2272727272727275,
+      "index_first_100": 73.58490566037736
     }
   ]
 }

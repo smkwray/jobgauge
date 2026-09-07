@@ -12562,6 +12562,38 @@
       "rolling_6": 5.25,
       "rolling_12": 5.29090909090909,
       "index_first_100": 63.74999999999999
+    },
+    {
+      "indicator_id": "u5_unemployed_marginally_attached_rate",
+      "date": "2026-08-01",
+      "value": 5.1,
+      "source": "bls_public_api",
+      "series_id": "LNS13327708",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u5_unemployed_marginally_attached_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": -0.20000000000000018,
+      "pct_change_3": -3.7735849056603765,
+      "change_4": -0.20000000000000018,
+      "pct_change_4": -3.7735849056603765,
+      "change_6": -0.20000000000000018,
+      "pct_change_6": -3.7735849056603765,
+      "change_12": -0.20000000000000018,
+      "pct_change_12": -3.7735849056603765,
+      "rolling_3": 5.133333333333333,
+      "rolling_4": 5.174999999999999,
+      "rolling_6": 5.216666666666666,
+      "rolling_12": 5.2727272727272725,
+      "index_first_100": 63.74999999999999
     }
   ]
 }

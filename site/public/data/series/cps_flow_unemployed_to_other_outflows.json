@@ -14064,6 +14064,38 @@
       "rolling_6": 3.3333333333333335,
       "rolling_12": 7.4,
       "index_first_100": 400.0
+    },
+    {
+      "indicator_id": "cps_flow_unemployed_to_other_outflows",
+      "date": "2026-08-01",
+      "value": 2.0,
+      "source": "bls_public_api",
+      "series_id": "LNS18300000",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "cps_flow_unemployed_to_other_outflows|US",
+      "change_1": -6.0,
+      "pct_change_1": -75.0,
+      "change_3": -1.0,
+      "pct_change_3": -33.333333333333336,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_6": -1.0,
+      "pct_change_6": -33.333333333333336,
+      "change_12": 0.0,
+      "pct_change_12": 0.0,
+      "rolling_3": 4.0,
+      "rolling_4": 3.75,
+      "rolling_6": 3.1666666666666665,
+      "rolling_12": 7.4,
+      "index_first_100": 100.0
     }
   ]
 }

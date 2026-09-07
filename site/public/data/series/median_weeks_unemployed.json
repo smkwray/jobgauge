@@ -14094,6 +14094,38 @@
       "rolling_6": 11.116666666666667,
       "rolling_12": 10.809090909090909,
       "index_first_100": 205.8823529411765
+    },
+    {
+      "indicator_id": "median_weeks_unemployed",
+      "date": "2026-08-01",
+      "value": 11.4,
+      "source": "bls_public_api",
+      "series_id": "LNS13008276",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Weeks",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "median_weeks_unemployed|US",
+      "change_1": 0.9000000000000004,
+      "pct_change_1": 8.571428571428585,
+      "change_3": -0.1999999999999993,
+      "pct_change_3": -1.724137931034475,
+      "change_4": 0.40000000000000036,
+      "pct_change_4": 3.6363636363636376,
+      "change_6": 0.3000000000000007,
+      "pct_change_6": 2.7027027027027195,
+      "change_12": 1.5,
+      "pct_change_12": 15.15151515151516,
+      "rolling_3": 10.966666666666663,
+      "rolling_4": 11.125,
+      "rolling_6": 11.166666666666666,
+      "rolling_12": 10.945454545454545,
+      "index_first_100": 223.52941176470588
     }
   ]
 }

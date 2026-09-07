@@ -14095,6 +14095,38 @@
       "rolling_6": 169849.16666666666,
       "rolling_12": 170418.81818181818,
       "index_first_100": 134.37969372104297
+    },
+    {
+      "indicator_id": "civilian_labor_force_level",
+      "date": "2026-08-01",
+      "value": 169777.0,
+      "source": "bls_public_api",
+      "series_id": "LNS11000000",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "civilian_labor_force_level|US",
+      "change_1": 683.0,
+      "pct_change_1": 0.40391734774740673,
+      "change_3": -301.0,
+      "pct_change_3": -0.17697762203224832,
+      "change_4": -218.0,
+      "pct_change_4": -0.12823906585487377,
+      "change_6": -706.0,
+      "pct_change_6": -0.414117536645886,
+      "change_12": -973.0,
+      "pct_change_12": -0.5698389458272279,
+      "rolling_3": 169409.66666666666,
+      "rolling_4": 169576.75,
+      "rolling_6": 169731.5,
+      "rolling_12": 170330.36363636365,
+      "index_first_100": 134.9224766158321
     }
   ]
 }

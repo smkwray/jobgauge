@@ -14064,6 +14064,38 @@
       "rolling_6": 15.333333333333334,
       "rolling_12": 22.2,
       "index_first_100": 75.0
+    },
+    {
+      "indicator_id": "cps_flow_marginal_inflows_to_unemployed",
+      "date": "2026-08-01",
+      "value": 19.0,
+      "source": "bls_public_api",
+      "series_id": "LNS17700000",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "cps_flow_marginal_inflows_to_unemployed|US",
+      "change_1": 7.0,
+      "pct_change_1": 58.33333333333333,
+      "change_3": -1.0,
+      "pct_change_3": -5.000000000000004,
+      "change_4": 8.0,
+      "pct_change_4": 72.72727272727273,
+      "change_6": 11.0,
+      "pct_change_6": 137.5,
+      "change_12": -14.0,
+      "pct_change_12": -42.42424242424242,
+      "rolling_3": 22.333333333333332,
+      "rolling_4": 21.75,
+      "rolling_6": 17.166666666666668,
+      "rolling_12": 20.8,
+      "index_first_100": 118.75
     }
   ]
 }

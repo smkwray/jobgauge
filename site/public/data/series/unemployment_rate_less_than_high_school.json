@@ -13328,6 +13328,38 @@
       "rolling_6": 5.8,
       "rolling_12": 6.0,
       "index_first_100": 50.0
+    },
+    {
+      "indicator_id": "unemployment_rate_less_than_high_school",
+      "date": "2026-08-01",
+      "value": 4.7,
+      "source": "bls_public_api",
+      "series_id": "LNS14027659",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_rate_less_than_high_school|US",
+      "change_1": -0.7000000000000002,
+      "pct_change_1": -12.962962962962965,
+      "change_3": -1.2999999999999998,
+      "pct_change_3": -21.666666666666668,
+      "change_4": -1.7000000000000002,
+      "pct_change_4": -26.5625,
+      "change_6": -0.8999999999999995,
+      "pct_change_6": -16.07142857142856,
+      "change_12": -2.0,
+      "pct_change_12": -29.850746268656714,
+      "rolling_3": 5.2,
+      "rolling_4": 5.400000000000001,
+      "rolling_6": 5.6499999999999995,
+      "rolling_12": 5.818181818181818,
+      "index_first_100": 43.51851851851852
     }
   ]
 }

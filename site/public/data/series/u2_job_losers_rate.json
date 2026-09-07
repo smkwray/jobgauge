@@ -14099,6 +14099,38 @@
       "rolling_6": 2.0166666666666666,
       "rolling_12": 2.0363636363636366,
       "index_first_100": 80.0
+    },
+    {
+      "indicator_id": "u2_job_losers_rate",
+      "date": "2026-08-01",
+      "value": 1.9,
+      "source": "bls_public_api",
+      "series_id": "LNS14023621",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u2_job_losers_rate|US",
+      "change_1": -0.10000000000000009,
+      "pct_change_1": -5.000000000000004,
+      "change_3": -0.10000000000000009,
+      "pct_change_3": -5.000000000000004,
+      "change_4": -0.20000000000000018,
+      "pct_change_4": -9.523809523809534,
+      "change_6": -0.20000000000000018,
+      "pct_change_6": -9.523809523809534,
+      "change_12": -0.10000000000000009,
+      "pct_change_12": -5.000000000000004,
+      "rolling_3": 1.9333333333333333,
+      "rolling_4": 1.9500000000000002,
+      "rolling_6": 1.9833333333333334,
+      "rolling_12": 2.0272727272727273,
+      "index_first_100": 76.0
     }
   ]
 }

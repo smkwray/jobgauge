@@ -14095,6 +14095,38 @@
       "rolling_6": 2217.5,
       "rolling_12": 2273.3636363636365,
       "index_first_100": 61.46127312637191
+    },
+    {
+      "indicator_id": "unemployment_duration_less_5_weeks",
+      "date": "2026-08-01",
+      "value": 2000.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13008396",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_duration_less_5_weeks|US",
+      "change_1": 40.0,
+      "pct_change_1": 2.0408163265306145,
+      "change_3": -210.0,
+      "pct_change_3": -9.502262443438914,
+      "change_4": -496.0,
+      "pct_change_4": -19.87179487179487,
+      "change_6": -319.0,
+      "pct_change_6": -13.755929279862011,
+      "change_12": -475.0,
+      "pct_change_12": -19.191919191919194,
+      "rolling_3": 2047.3333333333333,
+      "rolling_4": 2088.0,
+      "rolling_6": 2164.3333333333335,
+      "rolling_12": 2230.181818181818,
+      "index_first_100": 62.715584822828475
     }
   ]
 }

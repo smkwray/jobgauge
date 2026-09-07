@@ -10254,6 +10254,38 @@
       "rolling_6": 48.050000000000004,
       "rolling_12": 48.14545454545455,
       "index_first_100": 80.73701842546063
+    },
+    {
+      "indicator_id": "labor_force_participation_rate_veterans",
+      "date": "2026-08-01",
+      "value": 48.8,
+      "source": "bls_public_api",
+      "series_id": "LNU01349526",
+      "frequency": "M",
+      "seasonal_adjustment": "NSA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "labor_force_participation_rate_veterans|US",
+      "change_1": 0.5999999999999943,
+      "pct_change_1": 1.2448132780082943,
+      "change_3": 0.3999999999999986,
+      "pct_change_3": 0.8264462809917328,
+      "change_4": 0.7999999999999972,
+      "pct_change_4": 1.6666666666666607,
+      "change_6": 1.0999999999999943,
+      "pct_change_6": 2.3060796645702153,
+      "change_12": 0.6999999999999957,
+      "pct_change_12": 1.4553014553014387,
+      "rolling_3": 48.43333333333333,
+      "rolling_4": 48.425,
+      "rolling_6": 48.23333333333333,
+      "rolling_12": 48.209090909090904,
+      "index_first_100": 81.74204355108877
     }
   ]
 }

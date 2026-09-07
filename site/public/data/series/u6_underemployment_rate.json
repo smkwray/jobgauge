@@ -12562,6 +12562,38 @@
       "rolling_6": 8.0,
       "rolling_12": 8.127272727272727,
       "index_first_100": 67.52136752136752
+    },
+    {
+      "indicator_id": "u6_underemployment_rate",
+      "date": "2026-08-01",
+      "value": 7.7,
+      "source": "bls_public_api",
+      "series_id": "LNS13327709",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "u6_underemployment_rate|US",
+      "change_1": -0.20000000000000018,
+      "pct_change_1": -2.5316455696202556,
+      "change_3": -0.39999999999999947,
+      "pct_change_3": -4.93827160493826,
+      "change_4": -0.4999999999999991,
+      "pct_change_4": -6.097560975609751,
+      "change_6": -0.20000000000000018,
+      "pct_change_6": -2.5316455696202556,
+      "change_12": -0.39999999999999947,
+      "pct_change_12": -4.93827160493826,
+      "rolling_3": 7.833333333333333,
+      "rolling_4": 7.9,
+      "rolling_6": 7.966666666666668,
+      "rolling_12": 8.090909090909092,
+      "index_first_100": 65.81196581196582
     }
   ]
 }
