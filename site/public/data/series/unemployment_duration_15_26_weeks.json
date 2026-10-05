@@ -14126,6 +14126,38 @@
       "rolling_6": 1117.0,
       "rolling_12": 1161.909090909091,
       "index_first_100": 149.73890339425589
+    },
+    {
+      "indicator_id": "unemployment_duration_15_26_weeks",
+      "date": "2026-09-01",
+      "value": 1189.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13008876",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_duration_15_26_weeks|US",
+      "change_1": 42.0,
+      "pct_change_1": 3.661726242371399,
+      "change_3": 137.0,
+      "pct_change_3": 13.02281368821292,
+      "change_4": 112.0,
+      "pct_change_4": 10.399257195914569,
+      "change_6": -23.0,
+      "pct_change_6": -1.8976897689768957,
+      "change_12": -97.0,
+      "pct_change_12": -7.542768273716948,
+      "rolling_3": 1164.3333333333333,
+      "rolling_4": 1136.25,
+      "rolling_6": 1113.1666666666667,
+      "rolling_12": 1153.090909090909,
+      "index_first_100": 155.22193211488252
     }
   ]
 }

@@ -14127,6 +14127,38 @@
       "rolling_6": 1880.0,
       "rolling_12": 1878.6363636363637,
       "index_first_100": 298.7616099071207
+    },
+    {
+      "indicator_id": "long_term_unemployed_27_weeks_over",
+      "date": "2026-09-01",
+      "value": 1944.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13008636",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "long_term_unemployed_27_weeks_over|US",
+      "change_1": 14.0,
+      "pct_change_1": 0.7253886010362587,
+      "change_3": 7.0,
+      "pct_change_3": 0.3613835828600864,
+      "change_4": -44.0,
+      "pct_change_4": -2.213279678068414,
+      "change_6": 123.0,
+      "pct_change_6": 6.754530477759468,
+      "change_12": 129.0,
+      "pct_change_12": 7.107438016528933,
+      "rolling_3": 1881.6666666666667,
+      "rolling_4": 1895.5,
+      "rolling_6": 1900.5,
+      "rolling_12": 1890.3636363636363,
+      "index_first_100": 300.92879256965944
     }
   ]
 }

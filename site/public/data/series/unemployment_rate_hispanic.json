@@ -14130,6 +14130,38 @@
       "rolling_6": 4.9,
       "rolling_12": 4.990909090909091,
       "index_first_100": 65.75342465753424
+    },
+    {
+      "indicator_id": "unemployment_rate_hispanic",
+      "date": "2026-09-01",
+      "value": 4.7,
+      "source": "bls_public_api",
+      "series_id": "LNS14000009",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_rate_hispanic|US",
+      "change_1": -0.09999999999999964,
+      "pct_change_1": -2.083333333333326,
+      "change_3": -0.5,
+      "pct_change_3": -9.615384615384615,
+      "change_4": -0.2999999999999998,
+      "pct_change_4": -5.999999999999995,
+      "change_6": -0.09999999999999964,
+      "pct_change_6": -2.083333333333326,
+      "change_12": -0.7999999999999998,
+      "pct_change_12": -14.54545454545454,
+      "rolling_3": 4.7,
+      "rolling_4": 4.824999999999999,
+      "rolling_6": 4.883333333333334,
+      "rolling_12": 4.918181818181818,
+      "index_first_100": 64.38356164383562
     }
   ]
 }

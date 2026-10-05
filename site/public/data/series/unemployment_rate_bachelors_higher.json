@@ -13360,6 +13360,38 @@
       "rolling_6": 2.733333333333333,
       "rolling_12": 2.809090909090909,
       "index_first_100": 87.09677419354838
+    },
+    {
+      "indicator_id": "unemployment_rate_bachelors_higher",
+      "date": "2026-09-01",
+      "value": 2.5,
+      "source": "bls_public_api",
+      "series_id": "LNS14027662",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_rate_bachelors_higher|US",
+      "change_1": -0.20000000000000018,
+      "pct_change_1": -7.407407407407418,
+      "change_3": -0.20000000000000018,
+      "pct_change_3": -7.407407407407418,
+      "change_4": -0.20000000000000018,
+      "pct_change_4": -7.407407407407418,
+      "change_6": -0.2999999999999998,
+      "pct_change_6": -10.71428571428571,
+      "change_12": -0.2999999999999998,
+      "pct_change_12": -10.71428571428571,
+      "rolling_3": 2.6333333333333333,
+      "rolling_4": 2.6499999999999995,
+      "rolling_6": 2.6833333333333336,
+      "rolling_12": 2.7818181818181817,
+      "index_first_100": 80.64516129032258
     }
   ]
 }

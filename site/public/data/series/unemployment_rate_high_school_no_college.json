@@ -13360,6 +13360,38 @@
       "rolling_6": 4.3999999999999995,
       "rolling_12": 4.3999999999999995,
       "index_first_100": 64.70588235294117
+    },
+    {
+      "indicator_id": "unemployment_rate_high_school_no_college",
+      "date": "2026-09-01",
+      "value": 4.4,
+      "source": "bls_public_api",
+      "series_id": "LNS14027660",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_rate_high_school_no_college|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": 0.20000000000000018,
+      "pct_change_3": 4.761904761904767,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_6": -0.2999999999999998,
+      "pct_change_6": -6.382978723404253,
+      "change_12": 0.20000000000000018,
+      "pct_change_12": 4.761904761904767,
+      "rolling_3": 4.266666666666665,
+      "rolling_4": 4.25,
+      "rolling_6": 4.3500000000000005,
+      "rolling_12": 4.418181818181819,
+      "index_first_100": 64.70588235294117
     }
   ]
 }

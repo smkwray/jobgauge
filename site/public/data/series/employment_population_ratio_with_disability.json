@@ -7055,6 +7055,38 @@
       "rolling_6": 22.083333333333332,
       "rolling_12": 22.55454545454546,
       "index_first_100": 115.81632653061223
+    },
+    {
+      "indicator_id": "employment_population_ratio_with_disability",
+      "date": "2026-09-01",
+      "value": 22.8,
+      "source": "bls_public_api",
+      "series_id": "LNU02374597",
+      "frequency": "M",
+      "seasonal_adjustment": "NSA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "employment_population_ratio_with_disability|US",
+      "change_1": 0.10000000000000142,
+      "pct_change_1": 0.4405286343612369,
+      "change_3": 1.0,
+      "pct_change_3": 4.587155963302747,
+      "change_4": 1.1000000000000014,
+      "pct_change_4": 5.069124423963145,
+      "change_6": 0.6000000000000014,
+      "pct_change_6": 2.7027027027027195,
+      "change_12": 0.0,
+      "pct_change_12": 0.0,
+      "rolling_3": 22.599999999999998,
+      "rolling_4": 22.4,
+      "rolling_6": 22.183333333333334,
+      "rolling_12": 22.554545454545455,
+      "index_first_100": 116.3265306122449
     }
   ]
 }
