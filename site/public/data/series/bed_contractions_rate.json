@@ -4338,6 +4338,38 @@
       "rolling_6": 4.55,
       "rolling_12": 4.575,
       "index_first_100": 74.57627118644068
+    },
+    {
+      "indicator_id": "bed_contractions_rate",
+      "date": "2026-01-01",
+      "value": 4.4,
+      "source": "bls_public_api",
+      "series_id": "BDS0000000000000000110005RQ5",
+      "frequency": "Q",
+      "seasonal_adjustment": "SA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "Total private includes unclassified sector, not shown separately",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "bed_contractions_rate|US",
+      "change_1": 0.0,
+      "pct_change_1": 0.0,
+      "change_3": -0.39999999999999947,
+      "pct_change_3": -8.333333333333325,
+      "change_4": 0.0,
+      "pct_change_4": 0.0,
+      "change_6": -0.1999999999999993,
+      "pct_change_6": -4.347826086956507,
+      "change_12": 0.0,
+      "pct_change_12": 0.0,
+      "rolling_3": 4.466666666666666,
+      "rolling_4": 4.55,
+      "rolling_6": 4.516666666666667,
+      "rolling_12": 4.575,
+      "index_first_100": 74.57627118644068
     }
   ]
 }
