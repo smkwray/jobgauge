@@ -12623,6 +12623,38 @@
       "rolling_6": 1245.0,
       "rolling_12": 1255.4545454545455,
       "index_first_100": 71.72912557527941
+    },
+    {
+      "indicator_id": "other_marginally_attached_workers",
+      "date": "2026-10-01",
+      "value": 1159.0,
+      "source": "bls_public_api",
+      "series_id": "LNU05026648",
+      "frequency": "M",
+      "seasonal_adjustment": "NSA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "other_marginally_attached_workers|US",
+      "change_1": 68.0,
+      "pct_change_1": 6.232813932172321,
+      "change_3": -208.0,
+      "pct_change_3": -15.215801024140452,
+      "change_4": -167.0,
+      "pct_change_4": -12.594268476621417,
+      "change_6": -95.0,
+      "pct_change_6": -7.57575757575758,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 1164.6666666666667,
+      "rolling_4": 1215.25,
+      "rolling_6": 1229.1666666666667,
+      "rolling_12": 1247.4166666666667,
+      "index_first_100": 76.19986850756082
     }
   ]
 }

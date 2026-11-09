@@ -7086,6 +7086,38 @@
       "rolling_6": 24.166666666666668,
       "rolling_12": 24.49090909090909,
       "index_first_100": 113.82488479262673
+    },
+    {
+      "indicator_id": "labor_force_participation_rate_with_disability",
+      "date": "2026-10-01",
+      "value": 24.3,
+      "source": "bls_public_api",
+      "series_id": "LNU01374597",
+      "frequency": "M",
+      "seasonal_adjustment": "NSA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "labor_force_participation_rate_with_disability|US",
+      "change_1": -0.3999999999999986,
+      "pct_change_1": -1.6194331983805599,
+      "change_3": -0.1999999999999993,
+      "pct_change_3": -0.8163265306122436,
+      "change_4": 0.40000000000000213,
+      "pct_change_4": 1.673640167364021,
+      "change_6": 0.9000000000000021,
+      "pct_change_6": 3.8461538461538547,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 24.53333333333333,
+      "rolling_4": 24.525000000000002,
+      "rolling_6": 24.316666666666666,
+      "rolling_12": 24.474999999999998,
+      "index_first_100": 111.98156682027651
     }
   ]
 }

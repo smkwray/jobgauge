@@ -7086,6 +7086,38 @@
       "rolling_6": 8.183333333333334,
       "rolling_12": 7.963636363636363,
       "index_first_100": 80.64516129032258
+    },
+    {
+      "indicator_id": "unemployment_rate_with_disability",
+      "date": "2026-10-01",
+      "value": 7.6,
+      "source": "bls_public_api",
+      "series_id": "LNU04074597",
+      "frequency": "M",
+      "seasonal_adjustment": "NSA",
+      "units": "Percent",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_rate_with_disability|US",
+      "change_1": 0.09999999999999964,
+      "pct_change_1": 1.3333333333333197,
+      "change_3": -1.3000000000000007,
+      "pct_change_3": -14.60674157303371,
+      "change_4": -1.0,
+      "pct_change_4": -11.627906976744185,
+      "change_6": 0.39999999999999947,
+      "pct_change_6": 5.555555555555558,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 7.633333333333333,
+      "rolling_4": 7.949999999999999,
+      "rolling_6": 8.25,
+      "rolling_12": 7.933333333333334,
+      "index_first_100": 81.72043010752688
     }
   ]
 }

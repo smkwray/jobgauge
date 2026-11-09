@@ -12625,6 +12625,38 @@
       "rolling_6": 461.5,
       "rolling_12": 475.0,
       "index_first_100": 72.50437828371278
+    },
+    {
+      "indicator_id": "discouraged_workers",
+      "date": "2026-10-01",
+      "value": 448.0,
+      "source": "bls_public_api",
+      "series_id": "LNS15026645",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "discouraged_workers|US",
+      "change_1": 34.0,
+      "pct_change_1": 8.212560386473422,
+      "change_3": -28.0,
+      "pct_change_3": -5.882352941176472,
+      "change_4": -29.0,
+      "pct_change_4": -6.079664570230603,
+      "change_6": -27.0,
+      "pct_change_6": -5.684210526315791,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 434.3333333333333,
+      "rolling_4": 444.75,
+      "rolling_6": 457.0,
+      "rolling_12": 472.75,
+      "index_first_100": 78.45884413309983
     }
   ]
 }

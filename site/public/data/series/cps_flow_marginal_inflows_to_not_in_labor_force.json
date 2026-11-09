@@ -14128,6 +14128,38 @@
       "rolling_6": 328.0,
       "rolling_12": 376.5,
       "index_first_100": 147.61904761904762
+    },
+    {
+      "indicator_id": "cps_flow_marginal_inflows_to_not_in_labor_force",
+      "date": "2026-10-01",
+      "value": 334.0,
+      "source": "bls_public_api",
+      "series_id": "LNS18100000",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "cps_flow_marginal_inflows_to_not_in_labor_force|US",
+      "change_1": 24.0,
+      "pct_change_1": 7.741935483870965,
+      "change_3": -195.0,
+      "pct_change_3": -36.86200378071833,
+      "change_4": 82.0,
+      "pct_change_4": 32.53968253968254,
+      "change_6": 44.0,
+      "pct_change_6": 15.172413793103456,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 301.0,
+      "rolling_4": 358.0,
+      "rolling_6": 335.3333333333333,
+      "rolling_12": 372.6363636363636,
+      "index_first_100": 159.04761904761904
     }
   ]
 }

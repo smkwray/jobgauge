@@ -14161,6 +14161,38 @@
       "rolling_6": 830.6666666666666,
       "rolling_12": 861.8181818181819,
       "index_first_100": 65.74977817213842
+    },
+    {
+      "indicator_id": "unemployment_level_job_leavers",
+      "date": "2026-10-01",
+      "value": 766.0,
+      "source": "bls_public_api",
+      "series_id": "LNS13023705",
+      "frequency": "M",
+      "seasonal_adjustment": "SA",
+      "units": "Thousands of persons",
+      "realtime_start": null,
+      "realtime_end": null,
+      "footnotes": "",
+      "geography": "US",
+      "geo_id": "US",
+      "geo_label": "US",
+      "entity_key": "unemployment_level_job_leavers|US",
+      "change_1": 25.0,
+      "pct_change_1": 3.373819163292846,
+      "change_3": -27.0,
+      "pct_change_3": -3.4047919293820894,
+      "change_4": -10.0,
+      "pct_change_4": -1.2886597938144284,
+      "change_6": -78.0,
+      "pct_change_6": -9.241706161137442,
+      "change_12": null,
+      "pct_change_12": null,
+      "rolling_3": 807.0,
+      "rolling_4": 803.5,
+      "rolling_6": 817.6666666666666,
+      "rolling_12": 853.8333333333334,
+      "index_first_100": 67.96805678793257
     }
   ]
 }
