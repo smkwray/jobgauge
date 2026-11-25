@@ -54,3 +54,6 @@ build/
 # Keep static publish outputs trackable by default
 !site/public/data/
 !site/public/search/
+
+# Local privacy denylist
+.private-denylist

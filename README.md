@@ -4,9 +4,9 @@ A static U.S. labor-market dashboard.
 
 **Live dashboard:** https://smkwray.github.io/jobgauge/
 
-jobgauge tracks the U.S. labor market using curated series from official statistical agencies (BLS, Census, BEA, DOL), with some series mirrored via FRED for context. A Python pipeline ingests and normalizes the data and exports a static data contract (JSON); a zero-build single-page app renders it on GitHub Pages with no server at request time.
+jobgauge tracks the U.S. labor market using curated series from official statistical agencies: the Bureau of Labor Statistics (BLS), the Census Bureau, the Bureau of Economic Analysis (BEA), and the Department of Labor (DOL), with some series mirrored through FRED (Federal Reserve Economic Data, from the St. Louis Fed) for context. A Python pipeline fetches and normalizes the data and exports static JSON files, which a zero-build single-page app renders on GitHub Pages with no server at request time.
 
-The dashboard lets you explore indicators, build comparisons, derive new series from a formula, rank states on a map, and export charts to PNG, SVG, or CSV with full source provenance. Every view is shareable through its URL.
+The dashboard lets you explore indicators, build comparisons, derive new series from a formula, rank states on a map, and export charts to PNG, SVG, or CSV with source attribution. Every view is shareable through its URL.
 
 ## How it works
 
@@ -20,11 +20,23 @@ site/public/search/  index.json (client-side fuzzy search)
    └─ rendered by the static single-page app in site/public/  →  GitHub Pages
 ```
 
-Each observation in the series files carries precomputed transform columns (changes, year-over-year, rolling averages, an index), so the dashboard reads consistent values without recomputing. The contract is documented in `docs/STATIC_DATA_CONTRACT.md`.
+Each observation in the series files carries precomputed transform columns (changes, year-over-year, rolling averages, an index), so the dashboard reads consistent values without recomputing. The file formats are documented in `docs/STATIC_DATA_CONTRACT.md`.
 
 ## Data sources & attribution
 
-Data comes from the U.S. Bureau of Labor Statistics, Census Bureau (QWI / LEHD), Bureau of Economic Analysis, and Department of Labor, with some series mirrored via FRED for convenience. Source owner, series ID, units, frequency, seasonal adjustment, and geography are preserved throughout. See `NOTICE.md`.
+Data comes from BLS, the Census Bureau (Quarterly Workforce Indicators from the Longitudinal Employer-Household Dynamics program, QWI/LEHD), BEA, and DOL, with some series mirrored through FRED. Each series keeps its producing agency, series ID, units, frequency, seasonal adjustment, and geography. See `NOTICE.md`.
+
+## Offline query CLI
+
+`tools/jobgauge_data.py` queries the bundled data from the command line. It uses only the Python standard library and makes no network calls. From the repository root:
+
+```bash
+python3 tools/jobgauge_data.py search unemployment --available-only --format table
+python3 tools/jobgauge_data.py latest unemployment_rate --format table
+python3 tools/jobgauge_data.py rank laus_state_unemployment_template -n 5 --format table
+```
+
+To read a copy of `site/public/data` stored elsewhere, put `--data <dir>` before the command. `python3 tools/jobgauge_data.py --help` lists the other commands, including `series`, `compare`, `combine`, `export-csv`, and `chart`.
 
 ## Local development
 
@@ -50,12 +62,12 @@ See `docs/REFRESH_AUTOMATION.md` for refresh and export targets.
 
 ## Repository layout
 
-- `site/public/` — the static dashboard (HTML/CSS/ES-module JS + ECharts) and the exported data contract
-- `src/labor_dashboard/` — the Python data pipeline (providers, transforms, static export)
-- `catalog/` — indicator and source metadata (YAML)
-- `tools/` — a standalone command-line tool for querying the exported data offline
-- `docs/` — data contract, tool reference, and refresh notes
-- `.github/workflows/` — CI, scheduled data refresh, and Pages deploy
+- `site/public/`: the static dashboard (HTML/CSS/ES-module JS + ECharts) and the exported JSON data
+- `src/labor_dashboard/`: the Python data pipeline (providers, transforms, static export)
+- `catalog/`: indicator and source metadata (YAML)
+- `tools/`: the offline query CLI
+- `docs/`: data file formats, tool reference, and refresh notes
+- `.github/workflows/`: CI, scheduled data refresh, and Pages deploy
 
 ## License
 
