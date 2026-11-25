@@ -4,11 +4,11 @@
 
 **Symptom:** latest dates are older than expected, indicators are missing, or `git pull` has not been run.
 
-**Mitigation:** The README tells the agent to `git pull` before answering. The CLI `doctor` reports `generated_at`, profile, catalog counts, latest-row counts, missing series, and FRED-origin warnings.
+**Mitigation:** Update the checkout with `git pull --ff-only`. The CLI `doctor` reports `generated_at`, profile, catalog counts, latest-row counts, missing series, and FRED-origin warnings.
 
 ## 2. Wrong export profile
 
-**Symptom:** `doctor` shows `profile: hosted` or FRED mirror rows/metadata. The attached sample bundle is hosted, but the offline redistributable clone should be origin-only.
+**Symptom:** `doctor` shows `profile: hosted` or FRED mirror rows/metadata. Only the origin-only export is intended for offline redistribution.
 
 **Mitigation:** `doctor --require-origin-only` marks hosted/FRED exports as not OK. `AGENTS.md` instructs the agent to warn and not package hosted/FRED data as the offline redistributable version. The tool itself never fetches FRED.
 
@@ -59,33 +59,3 @@
 **Symptom:** `python3` is missing or below 3.10.
 
 **Mitigation:** The bootstrap script fails with a clear message. The agent installs Python 3.10+ once using an approved path, then reruns bootstrap. The CLI has no package dependencies.
-
-## 11. Codex vs Claude instruction-loading gap
-
-**Symptom:** Codex follows `AGENTS.md`, but Claude ignores it.
-
-**Mitigation:** `CLAUDE.md` imports `@AGENTS.md`. Anthropic documents that Claude Code reads `CLAUDE.md`, not `AGENTS.md`, and recommends this import pattern.
-
-## 12. Claude Desktop confusion
-
-**Symptom:** User opens ordinary Claude chat instead of Claude Code Desktop Code tab.
-
-**Mitigation:** The README says to use Claude Code / Code tab and select the local project folder. Claude Code Desktop local sessions include an integrated terminal; plain chat without Code/local tools cannot reliably run the CLI.
-
-## 13. Sandbox/approval friction
-
-**Symptom:** The agent repeatedly asks permission to run safe local commands.
-
-**Mitigation:** Codex can run in workspace-write with on-request approvals. Claude Code can use sandboxed Bash or Ask Permissions mode. The instructions confine writes to `exports/agent/` and avoid network calls.
-
-## 14. User asks for an edited dashboard
-
-**Symptom:** The agent starts changing frontend code to answer a data question.
-
-**Mitigation:** `AGENTS.md` says the hosted static site is separate and untouched. For data answers, use the CLI and write only requested exports/charts.
-
-## 15. SVG chart limitations
-
-**Symptom:** The quick SVG is too simple for publication.
-
-**Mitigation:** Treat CLI SVG as a fast analytic preview. Export CSV for publication graphics or ask a designer/frontend workflow to make final charts.

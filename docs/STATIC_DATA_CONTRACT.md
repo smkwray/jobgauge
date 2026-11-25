@@ -149,13 +149,6 @@ Use this file to discover which series files exist after a refresh. `indicators`
 
 Each document contains compact metadata plus a `haystack` field for fuzzy search. Documents also include `has_series` and `series_path` based on currently processed local files, but the frontend should still prefer `manifest.json` for availability in the loaded export profile.
 
-The frontend should build field-aware search over separate fields such as title, aliases, tags, release, source, and series ID. Plain haystack search is acceptable for backend smoke tests, not for the production search experience.
-
 ## Backward compatibility
 
-Breaking schema changes require:
-
-1. bumping `schema_version`;
-2. updating this document;
-3. updating tests;
-4. notifying frontend maintainers before implementation proceeds.
+Breaking changes increment `schema_version`.

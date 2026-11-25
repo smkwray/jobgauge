@@ -2,21 +2,7 @@
 
 jobgauge is a static U.S. labor-market dashboard with a Python data pipeline. The pipeline ingests curated public series and exports a deterministic static data contract under `site/public/` that a zero-build dashboard renders on GitHub Pages, and that a local coding agent can query offline through the bundled CLI (see "Local economist data tools" below).
 
-## Repository rules
-
-1. Never commit secrets. Use a local `.env` (gitignored); copy `.env.example` to start.
-2. Prefer official source APIs and flat files over scraped pages.
-3. Declare every indicator in catalog YAML before wiring it into a provider.
-4. Outputs under `site/public/data` and `site/public/search` must be deterministic and browser-readable.
-5. Preserve source attribution, release names, units, frequency, seasonal adjustment, and geography in metadata (see `NOTICE.md`).
-6. The local data-tools layer is additive and read-only over `site/public/data` and `site/public/search`; do not change the static data contract to satisfy a tools request.
-7. Build offline redistributable packages from the origin-agency export (`make export-static-origin`), not the hosted export; do not bundle FRED-derived value files into offline packages.
-
-## Commit style
-
-Small commits with scope prefixes: `catalog:`, `providers:`, `pipeline:`, `docs:`, `tests:`, `site:`, `tools:`.
-
-# Local economist data tools
+## Local economist data tools
 
 The user may be a non-technical economist asking plain-English labor-market questions. Answer with the bundled static data only. The canonical command is:
 
